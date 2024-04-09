@@ -8,4 +8,7 @@
 ```bash
 # удаление пакета
 npm uninstall express
+
+# удаление пакета глобально
+npm uninstall -g express
 ```

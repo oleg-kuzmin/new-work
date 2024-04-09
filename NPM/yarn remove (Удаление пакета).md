@@ -8,4 +8,7 @@
 ```bash
 # удаление пакета
 yarn remove express
+
+# удаление пакета глобально
+yarn global remove express
 ```
