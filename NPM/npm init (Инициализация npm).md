@@ -8,15 +8,15 @@ npm init
 npm init --yes
 
 # вопросы:
-# package name
-# version
-# description
-# entry point
-# test command
-# git repository
-# keywords
-# author
-# license
+# package name (название)
+# version (версия)
+# description (описание)
+# entry point (точка входа)
+# test command (команда, которая запускается всякий раз, когда вызывается npm test)
+# git repository (адрес репозитория)
+# keywords (ключевые слова)
+# author (автор)
+# license (лицензия)
 
 # после инициализации автоматически создаст файл package.json
 ```
