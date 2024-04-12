@@ -32,7 +32,6 @@
 ```html
 <head>
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Краткое описание страницы" />
   <meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3" />
@@ -41,3 +40,53 @@
 
 ## Атрибуты
 
+### charset
+
+Метатег, который задаёт кодировку страницы.
+
+```html
+<meta charset="UTF-8" />
+```
+
+---
+
+### http-equiv и content
+
+Атрибут, который может изменять поведение страницы или серверов. Используется в паре с content.
+
+#### 1.
+
+Используется для совместимости с IE.
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+```
+
+#### 2.
+
+Предпочтительный стиль таблиц, который используется на странице. В этом случае в атрибуте content прописывается title из элемента `<link>`, который связан с таблицей CSS-стилей, или title элемента `<style>`, который содержит таблицу CSS-стилей.
+
+```html
+<meta http-equiv="default-style" content="default style" />
+<link href="default.css" rel="stylesheet" type="text/css" title="default style" />
+```
+
+#### 3.
+
+Время автоматического обновления страницы. Страница будет автоматически перезагружаться с интервалом, который указан в секундах.
+
+```html
+<meta http-equiv="refresh" content="3" />
+```
+
+#### 4.
+
+Отправка пользователя на другую страницу. С помощью атрибута http-equiv="refresh" можно сделать так, чтобы страница отправляла пользователя на другую страницу через определённое количество секунд. Например, отправим пользователя на главную Яндекса через 15 секунд.
+
+```html
+<meta http-equiv="refresh" content="15;url=https://www.yandex.ru" />
+```
+
+---
+
+### 
