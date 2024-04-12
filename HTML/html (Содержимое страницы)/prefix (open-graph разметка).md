@@ -5,5 +5,13 @@
 ## Пример
 
 ```html
-<html prefix="og: [http://ogp.me/ns#](http://ogp.me/ns#)"></html>
+<!DOCTYPE html>
+<html lang="ru" prefix="og: [http://ogp.me/ns#](http://ogp.me/ns#)">
+  <head>
+    <title>Название документа</title>
+  </head>
+  <body>
+    Содержимое страницы.
+  </body>
+</html>
 ```
