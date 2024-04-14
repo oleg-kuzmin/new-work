@@ -9,7 +9,7 @@
 <!-- - [`<data>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
 <!-- - [`<input>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
 
-- [`<li>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>)
+- [`<li>`](<../TAGS BLOCK/li (ЭЛЕМЕНТ СПИСКА ДЛЯ UL, OL).md>)
   <!-- - [`<meter>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
   <!-- - [`<progress>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
 

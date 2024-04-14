@@ -28,6 +28,7 @@
 
 - [`alt`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
 - [`decoding`](<../ATTRIBUTES/decoding (ДЕКОДИРОВАНИЕ).md>)
+- [`loading`](<../ATTRIBUTES/loading (ЗАГРУЗКА).md>)
 - [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
 - [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ).md>)
 - [`usemap`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)

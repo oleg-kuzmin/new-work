@@ -26,3 +26,9 @@ _(ordered list: упорядоченный список)_
   <li>Вторая мировая война</li>
 </ol>
 ```
+
+## Атрибуты
+
+- [`reversed`](<../ATTRIBUTES/reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ).md>)
+- [`start`](<../ATTRIBUTES/start (НАЧАЛО НУМЕРАЦИИ).md>)
+- [`type`](<../ATTRIBUTES/type (ТИП МАРКЕРОВ).md>)
