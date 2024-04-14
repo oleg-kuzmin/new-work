@@ -38,4 +38,9 @@
 
 ## Атрибуты
 
-[`download`](<../ATTRIBUTES/download (ЗАГРУЗКА ФАЙЛА).md>)
+- [`download`](<../ATTRIBUTES/download (ЗАГРУЗКА ФАЙЛА).md>)
+- [`href`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
+- [`hreflang`](<../ATTRIBUTES/hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ).md>)
+- [`rel`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
+- [`target`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
+- [`type`](<../ATTRIBUTES/type (ТИП ДОКУМЕНТА ПО ССЫЛКЕ).md>)
