@@ -1,4 +1,4 @@
-## blockquote (Блок цитат)
+## `<blockquote>` (Блок цитат)
 
 _(block quotation: блок цитат)_
 
