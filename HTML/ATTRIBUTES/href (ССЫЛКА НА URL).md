@@ -7,6 +7,7 @@ URL-ссылка на внешний файл или адрес. Ссылка м
 - [`<link>`](<../TAGS HEAD/link (ВНЕШНИЙ ФАЙЛ).md>)
 - [`<base>`](<../TAGS HEAD/base (ОСНОВНОЙ URL-АДРЕС).md>)
 - [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
+- [`<area>`](<../TAGS IMAGE/area (ССЫЛКИ НА ОБЛАСТИ КАРТИНКИ).md>)
 
 ## Пример
 
@@ -60,4 +61,14 @@ URL-ссылка на внешний файл или адрес. Ссылка м
 
 ```html
 <a href="tel:+70001234567">Глава 1</a>
+```
+
+### `<area>`
+
+```html
+<map name="doka">
+  <area shape="rect" coords="47,4,319,64" href="/html/" target="_blank" alt="HTML" />
+  <area shape="rect" coords="46,69,318,129" href="/css/" target="_blank" alt="CSS" />
+  <area shape="rect" coords="46,133,318,193" href="/js/" target="_blank" alt="JS" />
+</map>
 ```
