@@ -4,14 +4,14 @@
 
 ## Применяется к тегам:
 
-<!-- - [`<button>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
-<!-- - [`<option>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
-<!-- - [`<data>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
-<!-- - [`<input>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
+<!-- - [`<button>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
+<!-- - [`<option>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
+<!-- - [`<data>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
+<!-- - [`<input>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
 
 - [`<li>`](<../TAGS BLOCK/li (ЭЛЕМЕНТ СПИСКА ДЛЯ UL, OL).md>)
-  <!-- - [`<meter>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
-  <!-- - [`<progress>`](<../TAGS IMAGE/img (ИЗОБРАЖЕНИЕ).md>) -->
+  <!-- - [`<meter>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
+  <!-- - [`<progress>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>) -->
 
 ## Пример
 

@@ -12,7 +12,7 @@
 
 - [`<base>`](<../TAGS HEAD/base (ОСНОВНОЙ URL-АДРЕС).md>)
 - [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
-- [`<area>`](<../TAGS IMAGE/area (ССЫЛКИ НА ОБЛАСТИ КАРТИНКИ).md>)
+- [`<area>`](<../TAGS MEDIA/area (ССЫЛКИ НА ОБЛАСТИ КАРТИНКИ).md>)
 
 ## Пример
 
