@@ -6,6 +6,7 @@
 
 - [`<img>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
 - [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
+- [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 
 ## Пример
 
@@ -25,4 +26,13 @@
     <a href="hi-alice.mp3" download> по ссылке </a>
   </audio>
 </figure>
+```
+
+### `<video>`
+
+```html
+<video controls src="frontend.mp4" poster="frontend.jpg" width="580">
+  Простите, но ваш браузер не поддерживает встроенные видео. Попробуйте скачать видео
+  <a href="frontend.mp4">по этой ссылке</a>и открыть его на своём устройстве.
+</video>
 ```

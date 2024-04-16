@@ -6,6 +6,7 @@
 
 - [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
 - [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
+- [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 
 ## Пример
 
@@ -20,4 +21,10 @@
 ```html
 <!-- mp3 -->
 <audio type="audio/mpeg" />
+```
+
+### `<video>`
+
+```html
+<video type="video/mp4" />
 ```
