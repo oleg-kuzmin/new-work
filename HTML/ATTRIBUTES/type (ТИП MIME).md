@@ -7,6 +7,7 @@
 - [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
 - [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 
 ## Пример
 
@@ -27,4 +28,15 @@
 
 ```html
 <video type="video/mp4" />
+```
+
+### `<source>`
+
+Если у нас есть несколько одинаковых файлов разного формата, то атрибут `type` помогает выбрать первый поддерживаемый браузером.
+
+```html
+<video controls width="250" height="200" muted>
+  <source src="birthday.webm" type="video/webm" />
+  <source src="birthday.mp4" type="video/mp4" />
+</video>
 ```
