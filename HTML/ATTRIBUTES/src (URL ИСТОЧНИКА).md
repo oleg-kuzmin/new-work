@@ -9,6 +9,7 @@
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 - [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 - [`<iframe>`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
+- [`<script>`](<../TAGS HEAD/script (ДОБАВЛЯЕТ СКРИПТЫ).md>)
 
 ## Пример
 
@@ -67,4 +68,12 @@
   height="400"
   allowfullscreen
 ></iframe>
+```
+
+### `<script>`
+
+Атрибут указывает путь к файлу со скриптами. Файл должен иметь расширение .js. Когда указываешь src, не пиши ничего внутри `<script>...</script>`.
+
+```html
+<script src="script.js"></script>
 ```
