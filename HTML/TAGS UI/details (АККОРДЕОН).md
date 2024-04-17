@@ -39,4 +39,4 @@ _(details: подробности)_
 
 ## Атрибуты
 
-- [`open`](<../ATTRIBUTES/open (ОТКРЫВАЕТ АККОРДЕОН).md>)
+- [`open`](<../ATTRIBUTES/open (ОТКРЫВАЕТ ACCORDION, POPUP).md>)
