@@ -5,6 +5,7 @@ Cвязывает контролы внутри тега с формой (буд
 ## Применяется к тегам:
 
 - [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
   <!-- - [`<button>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>) -->
   <!-- - [`<fieldset>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>) -->
   <!-- - [`<select>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>) -->
@@ -19,4 +20,12 @@ Cвязывает контролы внутри тега с формой (буд
 <object form="special-form" type="application/pdf" data="example.pdf" width="600" height="700">
   <a href="example.pdf">Лунная соната № 14 PDF</a>
 </object>
+```
+
+### `<meter>`
+
+Нужен для связи формы со счётчиком, когда он не вложен внутрь `<form>`
+
+```html
+<meter class="meter" form="my-form" min="1" max="10" low="2" high="10" value="3"></meter>
 ```
