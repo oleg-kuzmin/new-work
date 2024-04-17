@@ -1,16 +1,25 @@
-# `open` (Открывает accordion, popup)
+# `open` (Открывает details, dialog)
 
 По умолчанию аккордеон закрыт, но если мы хотим, чтобы его содержание показывалось сразу при загрузке страницы или открывать его из JavaScript, нужно добавить к нему атрибут open.
 
 ## Применяется к тегам:
 
 - [`<details>`](<../TAGS UI/details (АККОРДЕОН).md>)
+- [`<dialog>`](<../TAGS UI/dialog (МОДАЛЬНОЕ ОКНО).md>)
 
 ## Пример
+
+### `<details>`
 
 ```html
 <details open>
   <summary>Легенда</summary>
   <p>Раскрывающийся текст</p>
 </details>
+```
+
+### `<dialog>`
+
+```html
+<dialog open>Я виден. Привет!</dialog>
 ```

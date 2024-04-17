@@ -19,6 +19,7 @@
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 - [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
 - [`<canvas>`](<../TAGS MEDIA/canvas (ОТРИСОВКА ГРАФИКИ).md>)
+- [`<iframe>`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
 
 ## Пример
 
@@ -70,4 +71,17 @@
 <canvas width="300" height="300">
   <p>Альтернативный контент для старых браузеров и для тех у кого выключен JavaScript.</p>
 </canvas>
+```
+
+### `<iframe>`
+
+```html
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Map"
+  width="560"
+  height="400"
+  allowfullscreen
+  src="https://yandex.ru/map-widget/v1/-/CBFkaYSE0A"
+></iframe>
 ```

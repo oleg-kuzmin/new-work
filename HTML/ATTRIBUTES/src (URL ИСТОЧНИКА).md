@@ -8,6 +8,7 @@
 - [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 - [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+- [`<iframe>`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
 
 ## Пример
 
@@ -53,4 +54,17 @@
   <source src="flower.webm" type="video/webm" />
   <source src="flower.mp4" type="video/mp4" />
 </video>
+```
+
+### `<iframe>`
+
+```html
+<iframe
+  src="https://yandex.ru/map-widget/v1/-/CBFkaYSE0A"
+  id="inlineFrameExample"
+  title="Inline Frame Map"
+  width="560"
+  height="400"
+  allowfullscreen
+></iframe>
 ```

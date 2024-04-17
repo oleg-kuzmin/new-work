@@ -85,4 +85,4 @@ if (dialog.returnValue === 'debug') {
 
 ## Атрибуты
 
-- [`open`](<../ATTRIBUTES/open (ОТКРЫВАЕТ ACCORDION, POPUP).md>)
+- [`open`](<../ATTRIBUTES/open (ОТКРЫВАЕТ DETAILS, DIALOG).md>)

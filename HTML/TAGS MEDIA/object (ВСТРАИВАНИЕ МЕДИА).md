@@ -31,7 +31,7 @@
 
 - [`data`](<../ATTRIBUTES/data (ССЫЛКА НА URL MEDIA).md>)
 - [`type`](<../ATTRIBUTES/type (ТИП MIME).md>)
-- [`name`](<../ATTRIBUTES/name (ИМЯ ОБЪЕКТА).md>)
+- [`name`](<../ATTRIBUTES/name (ИМЯ).md>)
 - [`usemap`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)
 - [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
 - [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
