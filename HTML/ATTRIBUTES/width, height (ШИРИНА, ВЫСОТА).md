@@ -17,6 +17,7 @@
 - [`<img>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
 - [`<svg>`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
 
 ## Пример
 
@@ -49,4 +50,15 @@
 <video src="frontend.mp4" poster="frontend.jpg" width="580" height="580">
   Простите, но ваш браузер не поддерживает встроенные видео.
 </video>
+```
+
+### `<object>`
+
+```html
+<object
+  type="video/mp4"
+  data="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  width="1280"
+  height="720"
+></object>
 ```

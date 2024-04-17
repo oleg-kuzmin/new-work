@@ -7,6 +7,7 @@
 - [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
 - [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
 - [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 
 ## Пример
@@ -39,4 +40,12 @@
   <source src="birthday.webm" type="video/webm" />
   <source src="birthday.mp4" type="video/mp4" />
 </video>
+```
+
+### `<object>`
+
+```html
+<object class="pdf_example" type="application/pdf" data="example.pdf" width="600" height="700">
+  <a href="example.pdf">Лунная соната № 14 PDF</a>
+</object>
 ```
