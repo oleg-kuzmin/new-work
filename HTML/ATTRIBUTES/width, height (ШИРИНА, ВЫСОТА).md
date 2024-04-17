@@ -18,6 +18,7 @@
 - [`<svg>`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
 - [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
 - [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<canvas>`](<../TAGS MEDIA/canvas (ОТРИСОВКА ГРАФИКИ).md>)
 
 ## Пример
 
@@ -61,4 +62,12 @@
   width="1280"
   height="720"
 ></object>
+```
+
+### `<canvas>`
+
+```html
+<canvas width="300" height="300">
+  <p>Альтернативный контент для старых браузеров и для тех у кого выключен JavaScript.</p>
+</canvas>
 ```
