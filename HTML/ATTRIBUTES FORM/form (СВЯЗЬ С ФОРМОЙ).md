@@ -7,6 +7,7 @@ Cвязывает контролы внутри тега с формой (буд
 - [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
 - [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
 - [`<output>`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
+- [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 
 ## Пример
 
@@ -42,4 +43,10 @@ Cвязывает контролы внутри тега с формой (буд
   <p>Необходимое количество яиц:</p>
   <output role="status" form="my-form" name="eggs" for="people-num"></output>
 </form>
+```
+
+### `<button>`
+
+```html
+<button type="submit" form="login">Отправить</button>
 ```
