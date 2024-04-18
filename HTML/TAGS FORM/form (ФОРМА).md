@@ -29,4 +29,5 @@
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`enctype`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
 - [`name`](<../ATTRIBUTES FORM/name (ИМЯ ПОЛЯ).md>)
-- [`name`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
+- [`novalidate`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
+- [`target`](<../ATTRIBUTES FORM/target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
