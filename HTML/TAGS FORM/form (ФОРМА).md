@@ -28,3 +28,4 @@
 - [`action`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`enctype`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
+- [`name`](<../ATTRIBUTES FORM/name (ИМЯ ПОЛЯ).md>)

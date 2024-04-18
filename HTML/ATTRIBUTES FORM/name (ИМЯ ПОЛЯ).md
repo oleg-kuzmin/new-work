@@ -6,6 +6,7 @@
 
 - [`<output>`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<form>`](<../TAGS FORM/form (ФОРМА).md>)
 
 ## Пример
 
@@ -23,4 +24,18 @@
   <p>Необходимое количество яиц:</p>
   <output role="status" name="eggs" for="people-num"></output>
 </form>
+```
+
+### `<button>`
+
+```html
+<button name="button">Нажми меня</button>
+```
+
+### `<form>`
+
+Уникальное имя формы. Пользователь его не увидит, зато скрипты смогут найти нужную форму. Например, по этому имени, можно получить доступ к форме из коллекции `document.forms`.
+
+```html
+<form name="my-form"></form>
 ```
