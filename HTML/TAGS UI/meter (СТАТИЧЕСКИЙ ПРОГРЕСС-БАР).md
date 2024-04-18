@@ -53,3 +53,4 @@
 - [`low`](<../ATTRIBUTES/low (НИЗШЕЕ ЗНАЧЕНИЕ).md>)
 - [`high`](<../ATTRIBUTES/high (ВЫСШЕЕ ЗНАЧЕНИЕ).md>)
 - [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`value`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)
