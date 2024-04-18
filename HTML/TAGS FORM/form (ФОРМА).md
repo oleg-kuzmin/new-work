@@ -25,3 +25,5 @@
 ## Атрибуты
 
 - [`accept-charset`](<../ATTRIBUTES FORM/accept-charset (КОДИРОВКА ФОРМЫ).md>)
+- [`action`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
+- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
