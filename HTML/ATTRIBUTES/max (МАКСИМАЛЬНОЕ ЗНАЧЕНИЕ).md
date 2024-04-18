@@ -5,11 +5,20 @@
 ## Применяется к тегам:
 
 - [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<progress>`](<../TAGS UI/progress (ДИНАМИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
 
 ## Пример
 
+### `<meter>`
+
 ```html
 <meter class="meter" min="1" max="10" low="2" value="3"></meter>
+```
+
+### `<progress>`
+
+```html
+<progress id="progress" value="0" max="100"></progress>
 ```
 
 ## Значения
