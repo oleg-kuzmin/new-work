@@ -29,3 +29,4 @@
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`enctype`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
 - [`name`](<../ATTRIBUTES FORM/name (ИМЯ ПОЛЯ).md>)
+- [`name`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
