@@ -24,4 +24,4 @@
 
 ## Атрибуты
 
-<!-- - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>) -->
+- [`accept-charset`](<../ATTRIBUTES FORM/accept-charset (КОДИРОВКА ФОРМЫ).md>)
