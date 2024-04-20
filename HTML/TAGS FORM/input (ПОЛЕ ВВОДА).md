@@ -27,4 +27,5 @@ _(input: ввод)_
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
 - [`capture`](<../ATTRIBUTES FORM/capture (ВИД КАМЕРЫ ДЛЯ INPUT FILE).md>)
+- [`defaultchecked`](<../ATTRIBUTES FORM/defaultchecked (АВТОВЫБОР CHECKBOX, RADIO).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
