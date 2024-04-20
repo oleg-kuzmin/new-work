@@ -7,6 +7,7 @@
 ## Применяется к тегам
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -14,6 +15,12 @@
 
 ```html
 <button type="submit" enctype="application/x-www-form-urlencoded"></button>
+```
+
+### `<input>`
+
+```html
+<input type="submit" enctype="application/x-www-form-urlencoded"></button>
 ```
 
 ## Значения

@@ -8,6 +8,7 @@ Cвязывает контролы внутри тега с формой (буд
 - [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
 - [`<output>`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -49,4 +50,10 @@ Cвязывает контролы внутри тега с формой (буд
 
 ```html
 <button type="submit" form="login">Отправить</button>
+```
+
+### `<input>`
+
+```html
+<input type="submit" form="login">Отправить</button>
 ```

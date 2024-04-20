@@ -29,4 +29,6 @@ _(input: ввод)_
 - [`capture`](<../ATTRIBUTES FORM/capture (ВИД КАМЕРЫ ДЛЯ INPUT FILE).md>)
 - [`defaultchecked`](<../ATTRIBUTES FORM/defaultchecked (АВТОВЫБОР CHECKBOX, RADIO).md>)
 - [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
+- [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`formenctype`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)

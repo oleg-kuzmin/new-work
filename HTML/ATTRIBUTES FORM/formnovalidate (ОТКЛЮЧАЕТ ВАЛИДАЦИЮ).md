@@ -11,6 +11,7 @@
 ## Применяется к тегам
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md)
 
 ## Пример
 
@@ -18,4 +19,16 @@
 
 ```html
 <button type="submit" formnovalidate></button>
+```
+
+### `<input type="submit">`
+
+```html
+<input type="submit" formnovalidate />
+```
+
+### `<input type="image">`
+
+```html
+<input type="image" formnovalidate />
 ```
