@@ -28,4 +28,5 @@ _(input: ввод)_
 - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
 - [`capture`](<../ATTRIBUTES FORM/capture (ВИД КАМЕРЫ ДЛЯ INPUT FILE).md>)
 - [`defaultchecked`](<../ATTRIBUTES FORM/defaultchecked (АВТОВЫБОР CHECKBOX, RADIO).md>)
+- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)

@@ -17,18 +17,18 @@
 ## Применяется к тегам
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
+### `<button>`
+
 ```html
-<fieldset disabled>
-  <label>
-    Имя:
-    <input type="text" />
-  </label>
-  <label>
-    Телефон:
-    <input type="tel" />
-  </label>
-</fieldset>
+<button disabled>Отправить</button>
+```
+
+### `<input>`
+
+```html
+<input type="text" disabled />
 ```
