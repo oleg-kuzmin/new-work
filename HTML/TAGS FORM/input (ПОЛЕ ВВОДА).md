@@ -23,4 +23,5 @@ _(input: ввод)_
 
 ## Атрибуты
 
+- [`accept`](<../ATTRIBUTES FORM/accept (ТИП ФАЙЛА ДЛЯ INPUT).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
