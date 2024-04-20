@@ -9,7 +9,18 @@
 ## Применяется к тегам:
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
+### `<button>`
+
+```html
 <button autofocus>Отправить форму</button>
+```
+
+### `<input>`
+
+```html
+<input type="submit" submit />
+```

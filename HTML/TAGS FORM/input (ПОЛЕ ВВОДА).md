@@ -24,4 +24,6 @@ _(input: ввод)_
 ## Атрибуты
 
 - [`accept`](<../ATTRIBUTES FORM/accept (ТИП ФАЙЛА ДЛЯ INPUT).md>)
+- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
+- [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
