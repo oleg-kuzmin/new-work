@@ -41,4 +41,5 @@ _(input: ввод)_
 - [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
 - [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
 - [`required`](<../ATTRIBUTES FORM/required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ).md>)
+- [`size`](<../ATTRIBUTES FORM/size (ШИРИНА ПОЛЯ ИЛИ ЧИСЛО ОПЦИЙ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
