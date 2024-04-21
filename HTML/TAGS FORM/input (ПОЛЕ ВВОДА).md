@@ -32,4 +32,5 @@ _(input: ввод)_
 - [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
 - [`formenctype`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
 - [`inputmode`](<../ATTRIBUTES FORM/inputmode (КЛАВИАТУРА ДЛЯ INPUT).md>)
+- [`list`](<../ATTRIBUTES FORM/list (ССЫЛКА НА ID DATALIST).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
