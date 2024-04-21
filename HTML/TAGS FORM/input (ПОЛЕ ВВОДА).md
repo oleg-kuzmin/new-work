@@ -14,7 +14,7 @@ _(input: ввод)_
 </form>
 ```
 
-### `<input form='______'>` и `<form id ='______'>`
+### `<input>` снаружи `<form>`
 
 ```html
 <input type="button" placeholder="Введите логин" form="my-form" />
@@ -38,4 +38,5 @@ _(input: ввод)_
 - [`minlength, maxlength`](<../ATTRIBUTES FORM/minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ).md>)
 - [`multiple`](<../ATTRIBUTES FORM/multiple (ВЫБОР НЕСКОЛЬКИХ ЗНАЧЕНИЙ).md>)
 - [`pattern`](<../ATTRIBUTES FORM/pattern (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ).md>)
+- [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
