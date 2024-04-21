@@ -39,4 +39,5 @@ _(input: ввод)_
 - [`multiple`](<../ATTRIBUTES FORM/multiple (ВЫБОР НЕСКОЛЬКИХ ЗНАЧЕНИЙ).md>)
 - [`pattern`](<../ATTRIBUTES FORM/pattern (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ).md>)
 - [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
+- [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
