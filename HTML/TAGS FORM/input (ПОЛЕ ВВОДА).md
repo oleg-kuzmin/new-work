@@ -37,4 +37,5 @@ _(input: ввод)_
 - [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`minlength, maxlength`](<../ATTRIBUTES FORM/minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ).md>)
 - [`multiple`](<../ATTRIBUTES FORM/multiple (ВЫБОР НЕСКОЛЬКИХ ЗНАЧЕНИЙ).md>)
+- [`pattern`](<../ATTRIBUTES FORM/pattern (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
