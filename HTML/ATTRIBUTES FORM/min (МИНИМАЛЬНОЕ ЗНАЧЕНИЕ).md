@@ -5,11 +5,24 @@
 ## Применяется к тегам
 
 - [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
+### `<meter>`
+
 ```html
 <meter class="meter" min="1" max="10" low="2" value="3"></meter>
+```
+
+### `<input>`
+
+Работает для `<input type="number">`, `<input type="range"`>.
+
+А также для даты в формате ГГГГ-ММ-ДД с `<input type="date">` и `<input type="datetime-local">`.
+
+```html
+<input min="1" max="10" type="number" />
 ```
 
 ## Значения

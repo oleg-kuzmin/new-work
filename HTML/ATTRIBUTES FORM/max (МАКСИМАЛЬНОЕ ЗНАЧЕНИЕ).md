@@ -6,6 +6,7 @@
 
 - [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
 - [`<progress>`](<../TAGS UI/progress (ДИНАМИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -19,6 +20,16 @@
 
 ```html
 <progress id="progress" value="0" max="100"></progress>
+```
+
+### `<input>`
+
+Работает для `<input type="number">`, `<input type="range"`>.
+
+А также для даты в формате ГГГГ-ММ-ДД с `<input type="date">` и `<input type="datetime-local">`.
+
+```html
+<input min="1" max="10" type="number" />
 ```
 
 ## Значения

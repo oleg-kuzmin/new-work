@@ -56,5 +56,5 @@
 
 ## Атрибуты
 
-- [`max`](<../ATTRIBUTES/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`value`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)

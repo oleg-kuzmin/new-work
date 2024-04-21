@@ -47,8 +47,8 @@
 
 ## Атрибуты
 
-- [`min`](<../ATTRIBUTES/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
-- [`max`](<../ATTRIBUTES/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`min`](<../ATTRIBUTES FORM/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`optimum`](<../ATTRIBUTES/optimum (ОПТИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`low`](<../ATTRIBUTES/low (НИЗШЕЕ ЗНАЧЕНИЕ).md>)
 - [`high`](<../ATTRIBUTES/high (ВЫСШЕЕ ЗНАЧЕНИЕ).md>)

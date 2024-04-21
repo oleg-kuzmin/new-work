@@ -33,4 +33,6 @@ _(input: ввод)_
 - [`formenctype`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
 - [`inputmode`](<../ATTRIBUTES FORM/inputmode (КЛАВИАТУРА ДЛЯ INPUT).md>)
 - [`list`](<../ATTRIBUTES FORM/list (ССЫЛКА НА ID DATALIST).md>)
+- [`min`](<../ATTRIBUTES FORM/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
