@@ -35,4 +35,5 @@ _(input: ввод)_
 - [`list`](<../ATTRIBUTES FORM/list (ССЫЛКА НА ID DATALIST).md>)
 - [`min`](<../ATTRIBUTES FORM/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
 - [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`minlength, maxlength`](<../ATTRIBUTES FORM/minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
