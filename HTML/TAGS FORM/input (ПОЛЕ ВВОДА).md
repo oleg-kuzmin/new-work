@@ -42,4 +42,5 @@ _(input: ввод)_
 - [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
 - [`required`](<../ATTRIBUTES FORM/required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ).md>)
 - [`size`](<../ATTRIBUTES FORM/size (ШИРИНА ПОЛЯ ИЛИ ЧИСЛО ОПЦИЙ).md>)
+- [`step`](<../ATTRIBUTES FORM/step (ШАГ ИЗМЕНЕНИЯ INPUT).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
