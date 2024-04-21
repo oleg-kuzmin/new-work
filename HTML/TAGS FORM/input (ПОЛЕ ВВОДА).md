@@ -40,4 +40,5 @@ _(input: ввод)_
 - [`pattern`](<../ATTRIBUTES FORM/pattern (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ).md>)
 - [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
 - [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
+- [`required`](<../ATTRIBUTES FORM/required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
