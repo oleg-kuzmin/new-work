@@ -18,6 +18,7 @@
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
 
 ## Пример
 
@@ -31,4 +32,19 @@
 
 ```html
 <input type="text" disabled />
+```
+
+### `<fieldset>`
+
+```html
+<fieldset disabled>
+  <label>
+    Имя:
+    <input type="text" />
+  </label>
+  <label>
+    Телефон:
+    <input type="tel" />
+  </label>
+</fieldset>
 ```

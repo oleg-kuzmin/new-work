@@ -9,6 +9,7 @@ Cвязывает контролы внутри тега с формой (буд
 - [`<output>`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
 
 ## Пример
 
@@ -35,12 +36,7 @@ Cвязывает контролы внутри тега с формой (буд
 ```html
 <form id="my-form">
   <label for="people-num">Для скольких людей приготовить яичницу:</label>
-  <input
-    type="number"
-    id="people-num"
-    name="people"
-    oninput="eggs.value = (parseInt(people.value) * 2)"
-  />
+  <input type="number" id="people-num" name="people" oninput="eggs.value = (parseInt(people.value) * 2)" />
   <p>Необходимое количество яиц:</p>
   <output role="status" form="my-form" name="eggs" for="people-num"></output>
 </form>
@@ -56,4 +52,10 @@ Cвязывает контролы внутри тега с формой (буд
 
 ```html
 <input type="submit" form="login">Отправить</button>
+```
+
+### `<fieldset>`
+
+```html
+<fieldset form="special-form"></fieldset>
 ```
