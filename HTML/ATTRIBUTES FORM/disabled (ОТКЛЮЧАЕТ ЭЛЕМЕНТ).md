@@ -20,6 +20,7 @@
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 - [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
 - [`<optgroup>`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
+- [`<option>`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
 
 ## Пример
 
@@ -55,6 +56,16 @@
 ```html
 <optgroup label="Группа вариантов 1" disabled>
   <option value="1">Вариант 1</option>
+  <option value="2">Вариант 2</option>
+  <option value="3">Вариант 3</option>
+</optgroup>
+```
+
+### `<option>`
+
+```html
+<optgroup label="Группа вариантов 1">
+  <option value="1" disabled>Вариант 1</option>
   <option value="2">Вариант 2</option>
   <option value="3">Вариант 3</option>
 </optgroup>

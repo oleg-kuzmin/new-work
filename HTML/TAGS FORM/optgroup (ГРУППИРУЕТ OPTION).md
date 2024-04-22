@@ -1,4 +1,4 @@
-# `optgroup` (Группирует option)
+# `<optgroup>` (Группирует option)
 
 Тег `<optgroup>` позволяет группировать опции внутри элемента `<select>`. Внутри тега `<optgroup>` стандартно используется один или несколько тегов `<option>`.
 
@@ -32,3 +32,4 @@
 ## Атрибуты
 
 - [`label`](<../ATTRIBUTES FORM/label (ИМЯ OPTGROUP).md>)
+- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
