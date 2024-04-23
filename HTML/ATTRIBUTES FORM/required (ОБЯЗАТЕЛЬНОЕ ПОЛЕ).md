@@ -37,8 +37,11 @@
 ## Применяется к тегам
 
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
 
 ## Пример
+
+### `<input>`
 
 ```html
 <form>
@@ -51,5 +54,20 @@
     <input type="tel" required />
   </label>
   <button type="submit">Отправить заявку</button>
+</form>
+```
+
+### `<select>`
+
+```html
+<form>
+  <label for="city-select">Ваш город</label>
+  <select name="city" id="city-select" required>
+    <option value="">-- Выберите город --</option>
+    <option value="petersburg">Санкт-Петербург</option>
+    <option value="samara">Самара</option>
+    <option value="perm">Пермь</option>
+    <option value="novosibirsk">Новосибирск</option>
+  </select>
 </form>
 ```
