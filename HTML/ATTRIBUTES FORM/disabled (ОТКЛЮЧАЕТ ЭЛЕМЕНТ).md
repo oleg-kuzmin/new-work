@@ -22,6 +22,7 @@
 - [`<optgroup>`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
 - [`<option>`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
 - [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -84,4 +85,10 @@
     </optgroup>
   </select>
 </form>
+```
+
+### `<textarea>`
+
+```html
+<textarea disabled></textarea>
 ```
