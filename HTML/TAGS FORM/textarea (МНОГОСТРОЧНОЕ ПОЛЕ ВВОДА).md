@@ -23,4 +23,5 @@
 
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
+- [`cols`](<../ATTRIBUTES FORM/cols (КОЛИЧЕСТВО КОЛОНОК TEXTAREA).md>)
 - [`rows`](<../ATTRIBUTES FORM/rows (КОЛИЧЕСТВО СТРОК TEXTAREA).md>)
