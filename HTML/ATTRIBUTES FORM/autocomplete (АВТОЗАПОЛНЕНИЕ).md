@@ -21,6 +21,7 @@
 - [`<form>`](<../TAGS FORM/form (ФОРМА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 - [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -46,6 +47,12 @@
   <option value="perm">Пермь</option>
   <option value="novosibirsk">Новосибирск</option>
 </select>
+```
+
+### `<textarea>`
+
+```html
+<textarea autocomplete="username"></textarea>
 ```
 
 ## Значения
