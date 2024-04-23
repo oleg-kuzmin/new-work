@@ -10,6 +10,7 @@ Cвязывает контролы внутри тега с формой (буд
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 - [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
+- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
 
 ## Пример
 
@@ -58,4 +59,19 @@ Cвязывает контролы внутри тега с формой (буд
 
 ```html
 <fieldset form="special-form"></fieldset>
+```
+
+### `<select>`
+
+```html
+<form>
+  <label for="city-select">Ваш город</label>
+  <select name="city" id="city-select" form="special-form">
+    <option value="">-- Выберите город --</option>
+    <option value="petersburg">Санкт-Петербург</option>
+    <option value="samara">Самара</option>
+    <option value="perm">Пермь</option>
+    <option value="novosibirsk">Новосибирск</option>
+  </select>
+</form>
 ```
