@@ -20,6 +20,7 @@
 
 - [`<form>`](<../TAGS FORM/form (ФОРМА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
 
 ## Пример
 
@@ -33,6 +34,18 @@
 
 ```html
 <input type="text" autocomplete="username"></form>
+```
+
+### `<select>`
+
+```html
+<select name="city" id="city-select" autocomplete="address-level2">
+  <option value="">-- Выберите город --</option>
+  <option value="petersburg">Санкт-Петербург</option>
+  <option value="samara">Самара</option>
+  <option value="perm">Пермь</option>
+  <option value="novosibirsk">Новосибирск</option>
+</select>
 ```
 
 ## Значения
