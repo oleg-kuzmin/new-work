@@ -27,7 +27,7 @@
 
 <form>
   <select>
-    <optgroup label="Необычные цветы" disabled>
+    <optgroup label="Необычные цветы">
       <option>Ангулоя одноцветковая</option>
       <option>Обезьяний дракула</option>
       <option>Пассифлора инкарнатная</option>
@@ -40,3 +40,4 @@
 
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
+- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)

@@ -21,6 +21,7 @@
 - [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
 - [`<optgroup>`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
 - [`<option>`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
+- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
 
 ## Пример
 
@@ -69,4 +70,18 @@
   <option value="2">Вариант 2</option>
   <option value="3">Вариант 3</option>
 </optgroup>
+```
+
+### `<select>`
+
+```html
+<form>
+  <select>
+    <optgroup label="Необычные цветы">
+      <option>Ангулоя одноцветковая</option>
+      <option>Обезьяний дракула</option>
+      <option>Пассифлора инкарнатная</option>
+    </optgroup>
+  </select>
+</form>
 ```
