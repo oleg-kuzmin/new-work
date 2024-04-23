@@ -22,4 +22,5 @@
 ## Атрибуты
 
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
+- [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
 - [`rows`](<../ATTRIBUTES FORM/rows (КОЛИЧЕСТВО СТРОК TEXTAREA).md>)

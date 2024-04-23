@@ -52,7 +52,7 @@
 ### `<textarea>`
 
 ```html
-<textarea autocomplete="username"></textarea>
+<textarea autocomplete="street-address"></textarea>
 ```
 
 ## Значения
