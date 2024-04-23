@@ -10,6 +10,7 @@
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
 
 ## Пример
 
@@ -22,5 +23,20 @@
 ### `<input>`
 
 ```html
-<input type="submit" submit />
+<input type="submit" autofocus />
+```
+
+### `<select>`
+
+```html
+<form>
+  <label for="city-select">Ваш город</label>
+  <select name="city" id="city-select" autofocus>
+    <option value="">-- Выберите город --</option>
+    <option value="petersburg">Санкт-Петербург</option>
+    <option value="samara">Самара</option>
+    <option value="perm">Пермь</option>
+    <option value="novosibirsk">Новосибирск</option>
+  </select>
+</form>
 ```
