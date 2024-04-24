@@ -33,3 +33,4 @@
 - [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
 - [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
 - [`required`](<../ATTRIBUTES FORM/required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ).md>)
+- [`wrap`](<../ATTRIBUTES FORM/wrap (СИМВОЛЫ ПЕРЕНОСА В TEXTAREA).md>)
