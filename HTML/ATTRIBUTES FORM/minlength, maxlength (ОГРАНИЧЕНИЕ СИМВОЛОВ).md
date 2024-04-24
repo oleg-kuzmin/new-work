@@ -11,9 +11,18 @@
 ## Применяется к тегам
 
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<input>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
+### `<input>`
+
 ```html
 <input minlength="4" maxlength="8" />
+```
+
+### `<textarea>`
+
+```html
+<textarea minlength="50" maxlength="1000"></textarea>
 ```
