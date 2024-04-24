@@ -36,8 +36,11 @@
 ## Применяется к тегам
 
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
+
+### `<input>`
 
 ```html
 <form>
@@ -46,4 +49,10 @@
     <label for="date">Дата рождения</label>
   </div>
 </form>
+```
+
+### `<textarea>`
+
+```html
+<textarea value="about" readonly="readonly" id="about"></textarea>
 ```

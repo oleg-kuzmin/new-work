@@ -31,3 +31,4 @@
 - [`inputmode`](<../ATTRIBUTES FORM/inputmode (КЛАВИАТУРА ДЛЯ INPUT).md>)
 - [`minlength, maxlength`](<../ATTRIBUTES FORM/minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ).md>)
 - [`placeholder`](<../ATTRIBUTES FORM/placeholder (ПОДСКАЗКА ВВОДА).md>)
+- [`readonly`](<../ATTRIBUTES FORM/readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ).md>)
