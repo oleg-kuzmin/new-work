@@ -11,6 +11,7 @@ Cвязывает контролы внутри тега с формой (буд
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 - [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
 - [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -74,4 +75,10 @@ Cвязывает контролы внутри тега с формой (буд
     <option value="novosibirsk">Новосибирск</option>
   </select>
 </form>
+```
+
+### `<textarea>`
+
+```html
+<textarea form="my-form"></textarea>
 ```
