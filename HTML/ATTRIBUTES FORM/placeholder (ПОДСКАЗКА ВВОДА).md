@@ -16,11 +16,20 @@
 ## Применяется к тегам
 
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
+
+### `<input>`
 
 ```html
 <label for="password">
   <input type="text" id="password" placeholder="Введите пароль" />
 </label>
+```
+
+### `<textarea>`
+
+```html
+<textarea placeholder="Введите текст"></>
 ```
