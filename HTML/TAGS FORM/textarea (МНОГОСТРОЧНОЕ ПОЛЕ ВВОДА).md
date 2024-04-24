@@ -28,3 +28,4 @@
 - [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
 - [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
 - [`formenctype`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
+- [`inputmode`](<../ATTRIBUTES FORM/inputmode (КЛАВИАТУРА ДЛЯ INPUT).md>)

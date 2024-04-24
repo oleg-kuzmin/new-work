@@ -14,11 +14,20 @@
 ## Применяется к тегам
 
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
+### `<input>`
+
 ```html
 <input type="text" inputmode="numeric" />
+```
+
+### `<textarea>`
+
+```html
+<textarea inputmode="text"></textarea>
 ```
 
 ## Значения
