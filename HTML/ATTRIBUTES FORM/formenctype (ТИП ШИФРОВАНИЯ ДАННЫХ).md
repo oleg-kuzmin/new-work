@@ -8,19 +8,26 @@
 
 - [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
 - [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
 ### `<button type="submit">`
 
 ```html
-<button type="submit" enctype="application/x-www-form-urlencoded"></button>
+<button type="submit" formenctype="application/x-www-form-urlencoded"></button>
 ```
 
 ### `<input>`
 
 ```html
-<input type="submit" enctype="application/x-www-form-urlencoded"></button>
+<input type="submit" formenctype="application/x-www-form-urlencoded"></button>
+```
+
+### `<textarea>`
+
+```html
+<textarea formenctype="application/x-www-form-urlencoded"></textarea>
 ```
 
 ## Значения
