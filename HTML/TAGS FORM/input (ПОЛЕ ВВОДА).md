@@ -23,7 +23,7 @@ _(input: ввод)_
 
 ## Атрибуты
 
-- [`accept`](<../ATTRIBUTES FORM/accept (ТИП ФАЙЛА ДЛЯ INPUT).md>)
+- [`accept`](<../ATTRIBUTES FORM/accept (ТИП ФАЙЛА ДЛЯ INPUT FILE).md>)
 - [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
 - [`capture`](<../ATTRIBUTES FORM/capture (ВИД КАМЕРЫ ДЛЯ INPUT FILE).md>)
@@ -43,4 +43,5 @@ _(input: ввод)_
 - [`required`](<../ATTRIBUTES FORM/required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ).md>)
 - [`size`](<../ATTRIBUTES FORM/size (ШИРИНА ПОЛЯ ИЛИ ЧИСЛО ОПЦИЙ).md>)
 - [`step`](<../ATTRIBUTES FORM/step (ШАГ ИЗМЕНЕНИЯ INPUT).md>)
+- [`type`](<../ATTRIBUTES FORM/type (ТИП INPUT).md>)
 - [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
