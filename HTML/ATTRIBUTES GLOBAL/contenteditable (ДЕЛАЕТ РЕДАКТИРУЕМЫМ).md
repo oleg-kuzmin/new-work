@@ -1,4 +1,4 @@
-# contenteditable (Делает редактируемым)
+# `contenteditable` (Делает редактируемым)
 
 _(contenteditable: редактируемый контент)_
 
