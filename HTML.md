@@ -33,4 +33,4 @@
   - [`<li> (ЭЛЕМЕНТ СПИСКА)`](<./HTML/TAGS BLOCK/li (ЭЛЕМЕНТ СПИСКА).md>)
 - [`<p> (ПАРАГРАФ)`](<./HTML/TAGS BLOCK/p (ПАРАГРАФ).md>)
 - [`<pre> (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ)`](<./HTML/TAGS BLOCK/pre (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ).md>)
-- [`<section> (СЕКЦИЯ СТРАНИЦЫ)`](<./HTML/TAGS BLOCK/section (СЕКЦИЯ СТРАНИЦЫ).md>)
+- [`<section> (СЕКЦИЯ)`](<./HTML/TAGS BLOCK/section (СЕКЦИЯ).md>)
