@@ -34,3 +34,20 @@
 - [`<p> (ПАРАГРАФ)`](<./HTML/TAGS BLOCK/p (ПАРАГРАФ).md>)
 - [`<pre> (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ)`](<./HTML/TAGS BLOCK/pre (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ).md>)
 - [`<section> (СЕКЦИЯ)`](<./HTML/TAGS BLOCK/section (СЕКЦИЯ).md>)
+
+## Строчные теги
+
+- [`<section`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
+
+## Устаревшие теги
+
+- [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
+- [`<applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ)>`](<./HTML/TAGS DEPRECATED/applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ).md>)
+- [`<bgsound (ФОНОВАЯ МУЗЫКА)>`](<./HTML/TAGS DEPRECATED/bgsound (ФОНОВАЯ МУЗЫКА).md>)
+- [`<blink (МИГАЮЩИЙ ТЕКСТ)>`](<./HTML/TAGS DEPRECATED/blink (МИГАЮЩИЙ ТЕКСТ).md>)
+- [`<center (ЦЕНТРИРОВАНИЕ КОНТЕНТА)>`](<./HTML/TAGS DEPRECATED/center (ЦЕНТРИРОВАНИЕ КОНТЕНТА).md>)
+- [`<embed (ВСТРАИВАНИЕ МУЛЬТИМЕДИА)>`](<./HTML/TAGS DEPRECATED/embed (ВСТРАИВАНИЕ МУЛЬТИМЕДИА).md>)
+- [`<font (СТИЛИЗАЦИЯ ТЕКСТА)>`](<./HTML/TAGS DEPRECATED/font (СТИЛИЗАЦИЯ ТЕКСТА).md>)
+- [`<marquee (БЕГУЩАЯ СТРОКА)>`](<./HTML/TAGS DEPRECATED/marquee (БЕГУЩАЯ СТРОКА).md>)
+- [`<nobr (НЕРАЗРЫВНЫЙ ТЕКСТ)>`](<./HTML/TAGS DEPRECATED/nobr (НЕРАЗРЫВНЫЙ ТЕКСТ).md>)
+- [`<strike (ЗАЧЕРКНУТЫЙ ТЕКСТ)>`](<./HTML/TAGS DEPRECATED/strike (ЗАЧЕРКНУТЫЙ ТЕКСТ).md>)

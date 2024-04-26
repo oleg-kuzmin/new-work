@@ -23,9 +23,7 @@ _(insert: вставить)_
     <del>Созвониться с подрядчиком по поводу актов</del>
   </li>
   <li>
-    <ins cite="https://our-cool-customers.com/reports/upload">
-      Выгрузить отчёт в сервис заказчика
-    </ins>
+    <ins cite="https://our-cool-customers.com/reports/upload"> Выгрузить отчёт в сервис заказчика </ins>
   </li>
   <li>
     <ins datetime="2021-12-21T15:00Z">Ещё раз позвонить подрядчику и напомнить про акты</ins>
@@ -37,3 +35,16 @@ _(insert: вставить)_
 
 - [`cite`](<../ATTRIBUTES/cite (ИСТОЧНИК ПРАВКИ).md>)
 - [`datetime`](<../ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
+
+## Глобальные атрибуты
+
+- [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<../ATTRIBUTES GLOBAL/class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ).md>)
+- [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<../ATTRIBUTES GLOBAL/contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ).md>)
+- [`data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ)`](<../ATTRIBUTES GLOBAL/data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ).md>)
+- [`hidden (СКРЫВАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES GLOBAL/hidden (СКРЫВАЕТ ЭЛЕМЕНТ).md>)
+- [`id (ИДЕНТИФИКАТОР)`](<../ATTRIBUTES GLOBAL/id (ИДЕНТИФИКАТОР).md>)
+- [`lang (ЯЗЫК)`](<../ATTRIBUTES GLOBAL/lang (ЯЗЫК).md>)
+- [`spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ)`](<../ATTRIBUTES GLOBAL/spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ).md>)
+- [`style (СТИЛИ)`](<../ATTRIBUTES GLOBAL/style (СТИЛИ).md>)
+- [`tabindex (ПОРЯДОК ТАБУЛЯЦИИ)`](<../ATTRIBUTES GLOBAL/tabindex (ПОРЯДОК ТАБУЛЯЦИИ).md>)
+- [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<../ATTRIBUTES GLOBAL/title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ).md>)
