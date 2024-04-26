@@ -37,7 +37,7 @@
 
 ## Строчные теги
 
-- [`<section`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
+- [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a (ССЫЛКА).md>)
 
 ## Устаревшие теги
 
