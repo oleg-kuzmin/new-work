@@ -29,6 +29,19 @@ _(ordered list: упорядоченный список)_
 
 ## Атрибуты
 
-- [`reversed`](<../ATTRIBUTES/reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ).md>)
-- [`start`](<../ATTRIBUTES/start (НАЧАЛО НУМЕРАЦИИ).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП МАРКЕРОВ).md>)
+- [`reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ)`](<../ATTRIBUTES/reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ).md>)
+- [`start (НАЧАЛО НУМЕРАЦИИ)`](<../ATTRIBUTES/start (НАЧАЛО НУМЕРАЦИИ).md>)
+- [`type (ТИП МАРКЕРОВ)`](<../ATTRIBUTES/type (ТИП МАРКЕРОВ).md>)
+
+## Глобальные атрибуты
+
+- [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<../ATTRIBUTES GLOBAL/class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ).md>)
+- [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<../ATTRIBUTES GLOBAL/contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ).md>)
+- [`data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ)`](<../ATTRIBUTES GLOBAL/data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ).md>)
+- [`hidden (СКРЫВАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES GLOBAL/hidden (СКРЫВАЕТ ЭЛЕМЕНТ).md>)
+- [`id (ИДЕНТИФИКАТОР)`](<../ATTRIBUTES GLOBAL/id (ИДЕНТИФИКАТОР).md>)
+- [`lang (ЯЗЫК)`](<../ATTRIBUTES GLOBAL/lang (ЯЗЫК).md>)
+- [`spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ)`](<../ATTRIBUTES GLOBAL/spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ).md>)
+- [`style (СТИЛИ)`](<../ATTRIBUTES GLOBAL/style (СТИЛИ).md>)
+- [`tabindex (ПОРЯДОК ТАБУЛЯЦИИ)`](<../ATTRIBUTES GLOBAL/tabindex (ПОРЯДОК ТАБУЛЯЦИИ).md>)
+- [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<../ATTRIBUTES GLOBAL/title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ).md>)
