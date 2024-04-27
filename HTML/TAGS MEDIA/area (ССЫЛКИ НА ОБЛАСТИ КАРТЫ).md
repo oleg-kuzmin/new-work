@@ -27,14 +27,14 @@ _(area: область)_
 
 ## Атрибуты
 
-- [`alt`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
-- [`coords`](<../ATTRIBUTES/coords (КООРДИНАТЫ ОБЛАСТЕЙ).md>)
-- [`href`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
-- [`ping`](<../ATTRIBUTES/ping (POST-ЗАПРОС на сервер).md>)
-- [`referrerpolicy`](<../ATTRIBUTES/referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ).md>)
-- [`rel`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
-- [`shape`](<../ATTRIBUTES/shape (ФОРМА ОБЛАСТИ).md>)
-- [`target`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
+- [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
+- [`coords (КООРДИНАТЫ ОБЛАСТЕЙ)`](<../ATTRIBUTES/coords (КООРДИНАТЫ ОБЛАСТЕЙ).md>)
+- [`href (ССЫЛКА НА URL)`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
+- [`ping (POST-ЗАПРОС на сервер)`](<../ATTRIBUTES/ping (POST-ЗАПРОС на сервер).md>)
+- [`referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ)`](<../ATTRIBUTES/referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ).md>)
+- [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
+- [`shape (ФОРМА ОБЛАСТИ)`](<../ATTRIBUTES/shape (ФОРМА ОБЛАСТИ).md>)
+- [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
 
 ## Глобальные атрибуты
 

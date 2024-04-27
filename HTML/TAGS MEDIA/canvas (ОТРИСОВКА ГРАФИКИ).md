@@ -28,9 +28,9 @@ _(canvas: холст)_
 </canvas>
 ```
 
-## Атрибуты
+## Атрибутыw
 
-- [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
+- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
 
 ## Глобальные атрибуты
 

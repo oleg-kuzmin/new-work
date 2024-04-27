@@ -28,10 +28,10 @@ https://inkscape.org/
 
 ## Атрибуты
 
-- [`fill`](<../ATTRIBUTES/fill (ЦВЕТ ЗАЛИВКИ SVG).md>)
-- [`preserveAspectRatio`](<../ATTRIBUTES/preserveAspectRatio (ПРОПОРЦИИ SVG).md>)
-- [`stroke`](<../ATTRIBUTES/stroke (ТОЛЩИНА И ЦВЕТ ОБВОДКИ SVG).md>)
-- [`viewBox`](<../ATTRIBUTES/viewBox (РАЗМЕРЫ ОКНА ОТОБРАЖЕНИЯ SVG).md>)
+- [`fill (ЦВЕТ ЗАЛИВКИ SVG)`](<../ATTRIBUTES/fill (ЦВЕТ ЗАЛИВКИ SVG).md>)
+- [`preserveAspectRatio (ПРОПОРЦИИ SVG)`](<../ATTRIBUTES/preserveAspectRatio (ПРОПОРЦИИ SVG).md>)
+- [`stroke (ТОЛЩИНА И ЦВЕТ ОБВОДКИ SVG)`](<../ATTRIBUTES/stroke (ТОЛЩИНА И ЦВЕТ ОБВОДКИ SVG).md>)
+- [`viewBox (РАЗМЕРЫ ОКНА ОТОБРАЖЕНИЯ SVG)`](<../ATTRIBUTES/viewBox (РАЗМЕРЫ ОКНА ОТОБРАЖЕНИЯ SVG).md>)
 
 ## Глобальные атрибуты
 

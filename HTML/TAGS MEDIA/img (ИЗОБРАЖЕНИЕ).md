@@ -26,13 +26,13 @@
 
 ## Атрибуты
 
-- [`alt`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
-- [`decoding`](<../ATTRIBUTES/decoding (ДЕКОДИРОВАНИЕ).md>)
-- [`loading`](<../ATTRIBUTES/loading (ЗАГРУЗКА).md>)
-- [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
-- [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ).md>)
-- [`usemap`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)
-- [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
+- [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
+- [`decoding (ДЕКОДИРОВАНИЕ)`](<../ATTRIBUTES/decoding (ДЕКОДИРОВАНИЕ).md>)
+- [`loading (ЗАГРУЗКА)`](<../ATTRIBUTES/loading (ЗАГРУЗКА).md>)
+- [`src (URL ИСТОЧНИКА)`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
+- [`srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ)`](<../ATTRIBUTES/srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ).md>)
+- [`usemap (ID КАРТЫ)`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)
+- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
 
 ## Глобальные атрибуты
 

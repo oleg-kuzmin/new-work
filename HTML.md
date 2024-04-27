@@ -19,7 +19,7 @@
 - [`<style> (СТИЛИ)`](<./HTML/TAGS HEAD/style (СТИЛИ).md>)
 - [`<title> (ЗАГОЛОВОК СТРАНИЦЫ)`](<./HTML/TAGS HEAD/title (ЗАГОЛОВОК СТРАНИЦЫ).md>)
 
-## Блочные теги
+## Теги block
 
 - [`<address> (КОНТАКТНАЯ ИНФОРМАЦИЯ)`](<./HTML/TAGS BLOCK/address (КОНТАКТНАЯ ИНФОРМАЦИЯ).md>)
 - [`<article> (НЕЗАВИСИМЫЙ РАЗДЕЛ)`](<./HTML/TAGS BLOCK/article (НЕЗАВИСИМЫЙ РАЗДЕЛ).md>)
@@ -46,7 +46,7 @@
 - [`<pre> (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ)`](<./HTML/TAGS BLOCK/pre (ПРЕФОРМАТИРОВАННЫЙ ТЕКСТ).md>)
 - [`<section> (СЕКЦИЯ)`](<./HTML/TAGS BLOCK/section (СЕКЦИЯ).md>)
 
-## Строчные теги
+## Теги inline
 
 - [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a (ССЫЛКА).md>)
 - [`<abbr> (АББРЕВИАТУРА)`](<./HTML/TAGS INLINE/abbr (АББРЕВИАТУРА).md>)
@@ -73,7 +73,7 @@
 - [`<u> (ТЕКСТ С ОШИБКОЙ)`](<./HTML/TAGS INLINE/u (ТЕКСТ С ОШИБКОЙ).md>)
 - [`<var> (ПЕРЕМЕННАЯ)`](<./HTML/TAGS INLINE/var (ПЕРЕМЕННАЯ).md>)
 
-## Теги формы
+## Теги form
 
 - [`<button> (КНОПКА)`](<./HTML/TAGS FORM/button (КНОПКА).md>)
 - [`<datalist> (СПИСОК ПОДСКАЗОК ДЛЯ INPUT)`](<./HTML/TAGS FORM/datalist (СПИСОК ПОДСКАЗОК ДЛЯ INPUT).md>)
@@ -89,7 +89,26 @@
     - [`<option> (ПУНКТ СПИСКА)`](<./HTML/TAGS FORM/option (ПУНКТ СПИСКА).md>)
 - [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<./HTML/TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
-## Устаревшие теги
+## Теги media
+
+- [`<audio> (АУДИО)`](<./HTML/TAGS MEDIA/audio (АУДИО).md>)
+  - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+- [`<canvas> (ОТРИСОВКА ГРАФИКИ)`](<./HTML/TAGS MEDIA/canvas (ОТРИСОВКА ГРАФИКИ).md>)
+- [`<figure> (НЕЗАВИСИМАЯ КАРТИНКА)`](<./HTML/TAGS MEDIA/figure (НЕЗАВИСИМАЯ КАРТИНКА).md>)
+  - [`<figcaption> (ПОДПИСЬ К FIGURE)`](<./HTML/TAGS MEDIA/figcaption (ПОДПИСЬ К FIGURE).md>)
+- [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<./HTML/TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
+- [`<img> (ИЗОБРАЖЕНИЕ)`](<./HTML/TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
+- [`<map> (КАРТА)`](<./HTML/TAGS MEDIA/map (КАРТА).md>)
+  - [`<area> (ССЫЛКИ НА ОБЛАСТИ КАРТЫ)`](<./HTML/TAGS MEDIA/area (ССЫЛКИ НА ОБЛАСТИ КАРТЫ).md>)
+- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<./HTML/TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<picture> (КОНТЕЙНЕР ДЛЯ РАЗНЫХ КАРТИНОК)`](<./HTML/TAGS MEDIA/picture (КОНТЕЙНЕР ДЛЯ РАЗНЫХ КАРТИНОК).md>)
+  - [`<img> (ИЗОБРАЖЕНИЕ)`](<./HTML/TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
+  - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+- [`<svg> (ВЕКТОРНАЯ ГРАФИКА)`](<./HTML/TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
+- [`<video> (ВИДЕО)`](<./HTML/TAGS MEDIA/video (ВИДЕО).md>)
+  - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+
+## Теги deprecated
 
 - [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
 - [`<applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ)>`](<./HTML/TAGS DEPRECATED/applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ).md>)

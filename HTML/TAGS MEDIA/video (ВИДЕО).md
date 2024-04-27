@@ -32,17 +32,17 @@
 
 ## Атрибуты
 
-- [`autoplay`](<../ATTRIBUTES/autoplay (АВТОПРОИГРЫВАНИЕ МЕДИА).md>)
-- [`buffered`](<../ATTRIBUTES/buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО).md>)
-- [`controls`](<../ATTRIBUTES/controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА).md>)
-- [`loop`](<../ATTRIBUTES/loop (ЗАЦИКЛИВАНИЕ).md>)
-- [`muted`](<../ATTRIBUTES/muted (ВЫКЛЮЧАЕТ ЗВУК МЕДИА).md>)
-- [`playsinline`](<../ATTRIBUTES/playsinline (ПОЛНЫЙ ЭКРАН ВИДЕО).md>)
-- [`poster`](<../ATTRIBUTES/poster (ОБЛОЖКА ВИДЕО).md>)
-- [`preload`](<../ATTRIBUTES/preload (ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА МЕДИА).md>)
-- [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП MIME).md>)
-- [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
+- [`autoplay (АВТОПРОИГРЫВАНИЕ МЕДИА)`](<../ATTRIBUTES/autoplay (АВТОПРОИГРЫВАНИЕ МЕДИА).md>)
+- [`buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО)`](<../ATTRIBUTES/buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО).md>)
+- [`controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА)`](<../ATTRIBUTES/controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА).md>)
+- [`loop (ЗАЦИКЛИВАНИЕ)`](<../ATTRIBUTES/loop (ЗАЦИКЛИВАНИЕ).md>)
+- [`muted (ВЫКЛЮЧАЕТ ЗВУК МЕДИА)`](<../ATTRIBUTES/muted (ВЫКЛЮЧАЕТ ЗВУК МЕДИА).md>)
+- [`playsinline (ПОЛНЫЙ ЭКРАН ВИДЕО)`](<../ATTRIBUTES/playsinline (ПОЛНЫЙ ЭКРАН ВИДЕО).md>)
+- [`poster (ОБЛОЖКА ВИДЕО)`](<../ATTRIBUTES/poster (ОБЛОЖКА ВИДЕО).md>)
+- [`preload (ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА МЕДИА)`](<../ATTRIBUTES/preload (ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА МЕДИА).md>)
+- [`src (URL ИСТОЧНИКА)`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type (ТИП MIME).md>)
+- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
 
 ## Глобальные атрибуты
 

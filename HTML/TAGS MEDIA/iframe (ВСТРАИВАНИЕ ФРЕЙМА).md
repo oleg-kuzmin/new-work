@@ -35,12 +35,12 @@ _(inline frame: встроенная в строку рамка)_
 
 ## Атрибуты
 
-- [`allowfullscreen`](<../ATTRIBUTES/allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА).md>)
-- [`name`](<../ATTRIBUTES/name (ИМЯ).md>)
-- [`sandbox`](<../ATTRIBUTES/sandbox (ОГРАНИЧЕНИЯ ФРЕЙМА).md>)
-- [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
-- [`srcdoc`](<../ATTRIBUTES/srcdoc (ВСТРАИВАНИЕ КОДА В ФРЕЙМ).md>)
-- [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
+- [`allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА)`](<../ATTRIBUTES/allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА).md>)
+- [`name (ИМЯ)`](<../ATTRIBUTES/name (ИМЯ).md>)
+- [`sandbox (ОГРАНИЧЕНИЯ ФРЕЙМА)`](<../ATTRIBUTES/sandbox (ОГРАНИЧЕНИЯ ФРЕЙМА).md>)
+- [`src (URL ИСТОЧНИКА)`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
+- [`srcdoc (ВСТРАИВАНИЕ КОДА В ФРЕЙМ)`](<../ATTRIBUTES/srcdoc (ВСТРАИВАНИЕ КОДА В ФРЕЙМ).md>)
+- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
 
 ## Глобальные атрибуты
 

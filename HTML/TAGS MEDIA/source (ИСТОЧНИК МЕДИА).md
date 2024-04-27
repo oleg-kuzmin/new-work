@@ -50,10 +50,10 @@
 
 ## Атрибуты
 
-- [`media`](<../ATTRIBUTES/media (МЕДИА-ЗАПРОС).md>)
-- [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
-- [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП MIME).md>)
+- [`media (МЕДИА-ЗАПРОС)`](<../ATTRIBUTES/media (МЕДИА-ЗАПРОС).md>)
+- [`src (URL ИСТОЧНИКА)`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
+- [`srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ)`](<../ATTRIBUTES/srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type (ТИП MIME).md>)
 
 ## Глобальные атрибуты
 

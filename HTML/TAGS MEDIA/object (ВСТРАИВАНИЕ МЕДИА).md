@@ -24,12 +24,12 @@
 
 ## Атрибуты
 
-- [`data`](<../ATTRIBUTES/data (ССЫЛКА НА URL MEDIA).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП MIME).md>)
-- [`name`](<../ATTRIBUTES/name (ИМЯ).md>)
-- [`usemap`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)
-- [`width, height`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
-- [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`data (ССЫЛКА НА URL MEDIA)`](<../ATTRIBUTES/data (ССЫЛКА НА URL MEDIA).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type (ТИП MIME).md>)
+- [`name (ИМЯ)`](<../ATTRIBUTES/name (ИМЯ).md>)
+- [`usemap (ID КАРТЫ)`](<../ATTRIBUTES/usemap (ID КАРТЫ).md>)
+- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height (ШИРИНА, ВЫСОТА).md>)
+- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
 
 ## Глобальные атрибуты
 
