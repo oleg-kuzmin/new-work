@@ -84,7 +84,7 @@ if (dialog.returnValue === 'debug') {
 
 ## Атрибуты
 
-- [`open`](<../ATTRIBUTES/open (ОТКРЫВАЕТ DETAILS, DIALOG).md>)
+- [`open (ОТКРЫВАЕТ DETAILS, DIALOG)`](<../ATTRIBUTES/open (ОТКРЫВАЕТ DETAILS, DIALOG).md>)
 
 ## Глобальные атрибуты
 

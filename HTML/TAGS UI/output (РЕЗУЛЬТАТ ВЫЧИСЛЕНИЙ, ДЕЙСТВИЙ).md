@@ -31,8 +31,8 @@ _(output: выход, вывод)_
 
 ## Атрибуты
 
-- [`for`](<../ATTRIBUTES FORM/for (СВЯЗЬ С ЭЛЕМЕНТОМ ФОРМЫ).md>)
-- [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`for (СВЯЗЬ С ЭЛЕМЕНТОМ ФОРМЫ)`](<../ATTRIBUTES FORM/for (СВЯЗЬ С ЭЛЕМЕНТОМ ФОРМЫ).md>)
+- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
 - [`name (ИМЯ)`](<../ATTRIBUTES FORM/name (ИМЯ).md>)
 
 ## Глобальные атрибуты

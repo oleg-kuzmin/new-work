@@ -47,13 +47,13 @@
 
 ## Атрибуты
 
-- [`min`](<../ATTRIBUTES FORM/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
-- [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
-- [`optimum`](<../ATTRIBUTES/optimum (ОПТИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
-- [`low`](<../ATTRIBUTES/low (НИЗШЕЕ ЗНАЧЕНИЕ).md>)
-- [`high`](<../ATTRIBUTES/high (ВЫСШЕЕ ЗНАЧЕНИЕ).md>)
-- [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
-- [`value`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)
+- [`min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`optimum (ОПТИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES/optimum (ОПТИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`low (НИЗШЕЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES/low (НИЗШЕЕ ЗНАЧЕНИЕ).md>)
+- [`high (ВЫСШЕЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES/high (ВЫСШЕЕ ЗНАЧЕНИЕ).md>)
+- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`value (ЗНАЧЕНИЕ)`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)
 
 ## Глобальные атрибуты
 

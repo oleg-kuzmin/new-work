@@ -56,8 +56,8 @@
 
 ## Атрибуты
 
-- [`max`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
-- [`value`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)
+- [`max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ).md>)
+- [`value (ЗНАЧЕНИЕ)`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)
 
 ## Глобальные атрибуты
 

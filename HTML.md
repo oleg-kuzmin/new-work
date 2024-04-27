@@ -110,8 +110,16 @@
 
 ## Теги ui
 
-- [`<table> (ТАБЛИЦА)`](<./HTML/TAGS TABLE/table (ТАБЛИЦА).md>)
-
+- [`<details> (АККОРДЕОН)`](<./HTML/TAGS UI/details (АККОРДЕОН).md>)
+- [`<dialog> (МОДАЛЬНОЕ ОКНО)`](<./HTML/TAGS UI/dialog (МОДАЛЬНОЕ ОКНО).md>)
+- [`<kbd> (ПОДСКАЗКА, ОБРАЗЕЦ ВВОДА)`](<./HTML/TAGS UI/kbd (ПОДСКАЗКА, ОБРАЗЕЦ ВВОДА).md>)
+- [`<meter> (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР)`](<./HTML/TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<noscript> (КОНТЕНТ ПРИ ОТКЛЮЧЕННОМ JS)`](<./HTML/TAGS UI/noscript (КОНТЕНТ ПРИ ОТКЛЮЧЕННОМ JS).md>)
+- [`<output> (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ)`](<./HTML/TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
+- [`<progress> (ДИНАМИЧЕСКИЙ ПРОГРЕСС-БАР)`](<./HTML/TAGS UI/progress (ДИНАМИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<samp> (ПОДСКАЗКА, ОБРАЗЕЦ ВЫВОДА)`](<./HTML/TAGS UI/samp (ПОДСКАЗКА, ОБРАЗЕЦ ВЫВОДА).md>)
+- [`<summary> (ЗАГОЛОВОК АККОРДЕОНА)`](<./HTML/TAGS UI/summary (ЗАГОЛОВОК АККОРДЕОНА).md>)
+- [`<template> (ШАБЛОН)`](<./HTML/TAGS UI/template (ШАБЛОН).md>)
 
 ## Теги table
 
@@ -129,8 +137,6 @@
     - [`<tr> (СТРОКА)`](<./HTML/TAGS TABLE/tr (СТРОКА).md>)
       - [`<th> (ЯЧЕЙКА - ЗАГОЛОВОК)`](<./HTML/TAGS TABLE/th (ЯЧЕЙКА - ЗАГОЛОВОК).md>)
       - [`<td> (ЯЧЕЙКА)`](<./HTML/TAGS TABLE/td (ЯЧЕЙКА).md>)
-
-
 
 ## Теги deprecated
 
