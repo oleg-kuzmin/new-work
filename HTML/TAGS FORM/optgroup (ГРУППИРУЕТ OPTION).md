@@ -31,8 +31,8 @@
 
 ## Атрибуты
 
-- [`label`](<../ATTRIBUTES FORM/label (ИМЯ OPTGROUP).md>)
-- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
+- [`label (ИМЯ OPTGROUP)`](<../ATTRIBUTES FORM/label (ИМЯ OPTGROUP).md>)
+- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
 
 ## Глобальные атрибуты
 

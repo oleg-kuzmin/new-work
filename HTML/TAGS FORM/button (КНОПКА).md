@@ -31,17 +31,17 @@
 
 ## Атрибуты
 
-- [`autofocus`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
-- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
-- [`form`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
-- [`formaction`](<../ATTRIBUTES FORM/formaction (ОБРАБОТЧИК ФОРМЫ).md>)
-- [`formenctype`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
-- [`formmethod`](<../ATTRIBUTES FORM/formmethod (МЕТОД ОТПРАВКИ ФОРМЫ).md>)
-- [`formnovalidate`](<../ATTRIBUTES FORM/formnovalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
-- [`formtarget`](<../ATTRIBUTES FORM/formtarget (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
-- [`name`](<../ATTRIBUTES FORM/name (ИМЯ ПОЛЯ).md>)
-- [`type`](<../ATTRIBUTES FORM/type (ТИП BUTTON).md>)
-- [`value`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
+- [`autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ)`](<../ATTRIBUTES FORM/autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ).md>)
+- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
+- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form (СВЯЗЬ С ФОРМОЙ).md>)
+- [`formaction (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/formaction (ОБРАБОТЧИК ФОРМЫ).md>)
+- [`formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
+- [`formmethod (МЕТОД ОТПРАВКИ ФОРМЫ)`](<../ATTRIBUTES FORM/formmethod (МЕТОД ОТПРАВКИ ФОРМЫ).md>)
+- [`formnovalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/formnovalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
+- [`formtarget (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/formtarget (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
+- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name (ИМЯ).md>)
+- [`type (ТИП BUTTON)`](<../ATTRIBUTES FORM/type (ТИП BUTTON).md>)
+- [`value (ЗНАЧЕНИЕ ПОЛЯ)`](<../ATTRIBUTES FORM/value (ЗНАЧЕНИЕ ПОЛЯ).md>)
 
 ## Глобальные атрибуты
 

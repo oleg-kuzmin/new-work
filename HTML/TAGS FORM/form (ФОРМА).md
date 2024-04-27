@@ -26,13 +26,13 @@
 
 ## Атрибуты
 
-- [`accept-charset`](<../ATTRIBUTES FORM/accept-charset (КОДИРОВКА ФОРМЫ).md>)
-- [`action`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
-- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
-- [`enctype`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
-- [`name`](<../ATTRIBUTES FORM/name (ИМЯ ПОЛЯ).md>)
-- [`novalidate`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
-- [`target`](<../ATTRIBUTES FORM/target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
+- [`accept-charset (КОДИРОВКА ФОРМЫ)`](<../ATTRIBUTES FORM/accept-charset (КОДИРОВКА ФОРМЫ).md>)
+- [`action (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
+- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
+- [`enctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
+- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name (ИМЯ).md>)
+- [`novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
+- [`target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
 
 ## Глобальные атрибуты
 

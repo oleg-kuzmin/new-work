@@ -25,9 +25,9 @@ _(option: вариант, выбор)_
 
 ## Атрибуты
 
-- [`disabled`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
-- [`label`](<../ATTRIBUTES FORM/label (ПОДПИСЬ OPTGROUP ИЛИ OPTION).md>)
-- [`selected`](<../ATTRIBUTES FORM/selected (АВТОВЫБОР OPTION).md>)
+- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ).md>)
+- [`label (ПОДПИСЬ OPTGROUP ИЛИ OPTION)`](<../ATTRIBUTES FORM/label (ПОДПИСЬ OPTGROUP ИЛИ OPTION).md>)
+- [`selected (АВТОВЫБОР OPTION)`](<../ATTRIBUTES FORM/selected (АВТОВЫБОР OPTION).md>)
 
 ## Глобальные атрибуты
 
