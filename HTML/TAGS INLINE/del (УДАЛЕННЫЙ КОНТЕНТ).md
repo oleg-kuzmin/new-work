@@ -31,8 +31,8 @@ _(delete: удалить)_
 
 ## Атрибуты
 
-- [`cite`](<../ATTRIBUTES/cite (ИСТОЧНИК ПРАВКИ).md>)
-- [`datetime`](<../ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
+- [`cite (ИСТОЧНИК ПРАВКИ)`](<../ATTRIBUTES/cite (ИСТОЧНИК ПРАВКИ).md>)
+- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](<../ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
 
 ## Глобальные атрибуты
 

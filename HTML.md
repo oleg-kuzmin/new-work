@@ -49,6 +49,29 @@
 ## Строчные теги
 
 - [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a (ССЫЛКА).md>)
+- [`<abbr> (АББРЕВИАТУРА)`](<./HTML/TAGS INLINE/abbr (АББРЕВИАТУРА).md>)
+- [`<b> (ВАЖНЫЙ ТЕКСТ)`](<./HTML/TAGS INLINE/b (ВАЖНЫЙ ТЕКСТ).md>)
+- [`<bdi> (ИЗОЛЯЦИЯ НАПРАВЛЕНИЯ ТЕКСТА)`](<./HTML/TAGS INLINE/bdi (ИЗОЛЯЦИЯ НАПРАВЛЕНИЯ ТЕКСТА).md>)
+- [`<bdo> (ИЗМЕНЕНИЕ НАПРАВЛЕНИЯ ТЕКСТА)`](<./HTML/TAGS INLINE/bdo (ИЗМЕНЕНИЕ НАПРАВЛЕНИЯ ТЕКСТА).md>)
+- [`<cite> (ИСТОЧНИК ЦИТАТЫ)`](<./HTML/TAGS INLINE/cite (ИСТОЧНИК ЦИТАТЫ).md>)
+- [`<code> (ПРОГРАММНЫЙ КОД)`](<./HTML/TAGS INLINE/code (ПРОГРАММНЫЙ КОД).md>)
+- [`<data> (МАШИННЫЕ ДАННЫЕ)`](<./HTML/TAGS INLINE/data (МАШИННЫЕ ДАННЫЕ).md>)
+- [`<del> (УДАЛЕННЫЙ КОНТЕНТ)`](<./HTML/TAGS INLINE/del (УДАЛЕННЫЙ КОНТЕНТ).md>)
+- [`<dfn> (ТЕРМИН)`](<./HTML/TAGS INLINE/dfn (ТЕРМИН).md>)
+- [`<em> (АКЦЕНТ)`](<./HTML/TAGS INLINE/em (АКЦЕНТ).md>)
+- [`<i> (ИЗМЕНЕНИЕ ГОЛОСА)`](<./HTML/TAGS INLINE/i (ИЗМЕНЕНИЕ ГОЛОСА).md>)
+- [`<ins> (ДОБАВЛЕННЫЙ КОНТЕНТ)`](<./HTML/TAGS INLINE/ins (ДОБАВЛЕННЫЙ КОНТЕНТ).md>)
+- [`<mark> (ВЫДЕЛЕНИЕ ТЕКСТА)`](<./HTML/TAGS INLINE/mark (ВЫДЕЛЕНИЕ ТЕКСТА).md>)
+- [`<q> (НЕБОЛЬШАЯ ЦИТАТА)`](<./HTML/TAGS INLINE/q (НЕБОЛЬШАЯ ЦИТАТА).md>)
+- [`<s> (НЕАКТУАЛЬНЫЙ ТЕКСТ)`](<./HTML/TAGS INLINE/s (НЕАКТУАЛЬНЫЙ ТЕКСТ).md>)
+- [`<small> (МЕЛКИЙ ТЕКСТ)`](<./HTML/TAGS INLINE/small (МЕЛКИЙ ТЕКСТ).md>)
+- [`<span> (ОБЕРТКА ТЕКСТА)`](<./HTML/TAGS INLINE/span (ОБЕРТКА ТЕКСТА).md>)
+- [`<strong> (ОЧЕНЬ ВАЖНЫЙ ТЕКСТ)`](<./HTML/TAGS INLINE/strong (ОЧЕНЬ ВАЖНЫЙ ТЕКСТ).md>)
+- [`<sub> (НИЖНИЙ ИНДЕКС)`](<./HTML/TAGS INLINE/sub (НИЖНИЙ ИНДЕКС).md>)
+- [`<sup> (ВЕРХНИЙ ИНДЕКС)`](<./HTML/TAGS INLINE/sup (ВЕРХНИЙ ИНДЕКС).md>)
+- [`<time> (ДАТА, ВРЕМЯ)`](<./HTML/TAGS INLINE/time (ДАТА, ВРЕМЯ).md>)
+- [`<u> (ТЕКСТ С ОШИБКОЙ)`](<./HTML/TAGS INLINE/u (ТЕКСТ С ОШИБКОЙ).md>)
+- [`<var> (ПЕРЕМЕННАЯ)`](<./HTML/TAGS INLINE/var (ПЕРЕМЕННАЯ).md>)
 
 ## Теги формы
 

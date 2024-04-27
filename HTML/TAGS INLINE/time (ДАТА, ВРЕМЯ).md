@@ -27,7 +27,7 @@ _(time: время)_
 
 ## Атрибуты
 
-- [`datetime`](<../ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
+- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](<../ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
 
 ## Глобальные атрибуты
 

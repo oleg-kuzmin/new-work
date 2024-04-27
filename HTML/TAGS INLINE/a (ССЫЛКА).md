@@ -38,12 +38,12 @@
 
 ## Атрибуты
 
-- [`download`](<../ATTRIBUTES/download (ЗАГРУЗКА ФАЙЛА).md>)
-- [`href`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
-- [`hreflang`](<../ATTRIBUTES/hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ).md>)
-- [`rel`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
-- [`target`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП MIME).md>)
+- [`download (ЗАГРУЗКА ФАЙЛА)`](<../ATTRIBUTES/download (ЗАГРУЗКА ФАЙЛА).md>)
+- [`href (ССЫЛКА НА URL)`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
+- [`hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ)`](<../ATTRIBUTES/hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ).md>)
+- [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
+- [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type (ТИП MIME).md>)
 
 ## Глобальные атрибуты
 
