@@ -108,6 +108,30 @@
 - [`<video> (ВИДЕО)`](<./HTML/TAGS MEDIA/video (ВИДЕО).md>)
   - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 
+## Теги ui
+
+- [`<table> (ТАБЛИЦА)`](<./HTML/TAGS TABLE/table (ТАБЛИЦА).md>)
+
+
+## Теги table
+
+- [`<table> (ТАБЛИЦА)`](<./HTML/TAGS TABLE/table (ТАБЛИЦА).md>)
+  - [`<caption> (ПОДПИСЬ К ТАБЛИЦЕ)`](<./HTML/TAGS TABLE/caption (ПОДПИСЬ К ТАБЛИЦЕ).md>)
+  - [`<thead> (ШАПКА ТАБЛИЦЫ)`](<./HTML/TAGS TABLE/thead (ШАПКА ТАБЛИЦЫ).md>)
+    - [`<tr> (СТРОКА)`](<./HTML/TAGS TABLE/tr (СТРОКА).md>)
+      - [`<th> (ЯЧЕЙКА - ЗАГОЛОВОК)`](<./HTML/TAGS TABLE/th (ЯЧЕЙКА - ЗАГОЛОВОК).md>)
+      - [`<td> (ЯЧЕЙКА)`](<./HTML/TAGS TABLE/td (ЯЧЕЙКА).md>)
+  - [`<tbody> (ОСНОВНОЕ СОДЕРЖИМОЕ ТАБЛИЦЫ)`](<./HTML/TAGS TABLE/tbody (ОСНОВНОЕ СОДЕРЖИМОЕ ТАБЛИЦЫ).md>)
+    - [`<tr> (СТРОКА)`](<./HTML/TAGS TABLE/tr (СТРОКА).md>)
+      - [`<th> (ЯЧЕЙКА - ЗАГОЛОВОК)`](<./HTML/TAGS TABLE/th (ЯЧЕЙКА - ЗАГОЛОВОК).md>)
+      - [`<td> (ЯЧЕЙКА)`](<./HTML/TAGS TABLE/td (ЯЧЕЙКА).md>)
+  - [`<tfoot> (ПОДВАЛ ТАБЛИЦЫ)`](<./HTML/TAGS TABLE/tfoot (ПОДВАЛ ТАБЛИЦЫ).md>)
+    - [`<tr> (СТРОКА)`](<./HTML/TAGS TABLE/tr (СТРОКА).md>)
+      - [`<th> (ЯЧЕЙКА - ЗАГОЛОВОК)`](<./HTML/TAGS TABLE/th (ЯЧЕЙКА - ЗАГОЛОВОК).md>)
+      - [`<td> (ЯЧЕЙКА)`](<./HTML/TAGS TABLE/td (ЯЧЕЙКА).md>)
+
+
+
 ## Теги deprecated
 
 - [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
