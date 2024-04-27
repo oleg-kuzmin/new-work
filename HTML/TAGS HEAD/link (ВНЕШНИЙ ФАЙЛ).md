@@ -64,9 +64,9 @@ _(link: ссылка)_
 
 ## Атрибуты
 
-- [`as`](<../ATTRIBUTES/as (ТИП ЗАГРУЖАЕМОГО КОНТЕНТА).md>)
-- [`crossorigin`](<../ATTRIBUTES/crossorigin (ОБРАБОТКА CORS).md>)
-- [`href`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
-- [`media`](<../ATTRIBUTES/media (МЕДИА-ЗАПРОС).md>)
-- [`rel`](<../ATTRIBUTES/rel (СВЯЗЬ ФАЙЛА СО СТРАНИЦЕЙ).md>)
-- [`sizes`](<../ATTRIBUTES/sizes (РАЗМЕР ДЛЯ ИКОНКИ).md>)
+- [`as (ТИП ЗАГРУЖАЕМОГО КОНТЕНТА)`](<../ATTRIBUTES/as (ТИП ЗАГРУЖАЕМОГО КОНТЕНТА).md>)
+- [`crossorigin (ОБРАБОТКА CORS)`](<../ATTRIBUTES/crossorigin (ОБРАБОТКА CORS).md>)
+- [`href (ССЫЛКА НА URL)`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
+- [`media (МЕДИА-ЗАПРОС)`](<../ATTRIBUTES/media (МЕДИА-ЗАПРОС).md>)
+- [`rel (СВЯЗЬ ФАЙЛА СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (СВЯЗЬ ФАЙЛА СО СТРАНИЦЕЙ).md>)
+- [`sizes (РАЗМЕР ДЛЯ ИКОНКИ)`](<../ATTRIBUTES/sizes (РАЗМЕР ДЛЯ ИКОНКИ).md>)

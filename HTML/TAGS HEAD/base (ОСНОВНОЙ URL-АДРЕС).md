@@ -21,5 +21,5 @@
 
 ## Атрибуты
 
-- [`href`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
-- [`target`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
+- [`href (ССЫЛКА НА URL)`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
+- [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)

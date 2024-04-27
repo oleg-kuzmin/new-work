@@ -41,7 +41,7 @@
 
 ## Атрибуты
 
-- [`charset`](<../ATTRIBUTES/charset (КОДИРОВКА СТРАНИЦЫ).md>)
-- [`http-equiv, content`](<../ATTRIBUTES/http-equiv, content (ПОВЕДЕНИЕ СТРАНИЦЫ).md>)
-- [`name, content`](<../ATTRIBUTES/name, content (ДАННЫЕ СТРАНИЦЫ).md>)
-- [`property, content`](<../ATTRIBUTES/property, content (OPEN-GRAPH РАЗМЕТКА).md>)
+- [`charset (КОДИРОВКА СТРАНИЦЫ)`](<../ATTRIBUTES/charset (КОДИРОВКА СТРАНИЦЫ).md>)
+- [`http-equiv, content (ПОВЕДЕНИЕ СТРАНИЦЫ)`](<../ATTRIBUTES/http-equiv, content (ПОВЕДЕНИЕ СТРАНИЦЫ).md>)
+- [`name, content (ДАННЫЕ СТРАНИЦЫ)`](<../ATTRIBUTES/name, content (ДАННЫЕ СТРАНИЦЫ).md>)
+- [`property, content (OPEN-GRAPH РАЗМЕТКА)`](<../ATTRIBUTES/property, content (OPEN-GRAPH РАЗМЕТКА).md>)

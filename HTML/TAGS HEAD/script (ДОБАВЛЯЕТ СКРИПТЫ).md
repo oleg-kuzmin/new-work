@@ -18,7 +18,7 @@
 
 ## Атрибуты
 
-- [`async`](<../ATTRIBUTES/async (ЗАПУСК АСИНХРОННО).md>)
-- [`defer`](<../ATTRIBUTES/defer (ЗАПУСК ПОСЛЕ ЗАГРУЗКИ СТРАНИЦЫ).md>)
-- [`src`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
-- [`type`](<../ATTRIBUTES/type (ТИП МОДУЛЕЙ).md>)
+- [`async (ЗАПУСК АСИНХРОННО)`](<../ATTRIBUTES/async (ЗАПУСК АСИНХРОННО).md>)
+- [`defer (ЗАПУСК ПОСЛЕ ЗАГРУЗКИ СТРАНИЦЫ)`](<../ATTRIBUTES/defer (ЗАПУСК ПОСЛЕ ЗАГРУЗКИ СТРАНИЦЫ).md>)
+- [`src (URL ИСТОЧНИКА)`](<../ATTRIBUTES/src (URL ИСТОЧНИКА).md>)
+- [`type (ТИП МОДУЛЕЙ)`](<../ATTRIBUTES/type (ТИП МОДУЛЕЙ).md>)
