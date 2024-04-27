@@ -39,6 +39,22 @@
 
 - [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a (ССЫЛКА).md>)
 
+## Теги формы
+
+- [`<button> (КНОПКА)`](<./HTML/TAGS FORM/button (КНОПКА).md>)
+- [`<datalist> (СПИСОК ПОДСКАЗОК ДЛЯ INPUT)`](<./HTML/TAGS FORM/datalist (СПИСОК ПОДСКАЗОК ДЛЯ INPUT).md>)
+  - [`<option> (ПУНКТ СПИСКА)`](<./HTML/TAGS FORM/option (ПУНКТ СПИСКА).md>)
+- [`<fieldset> (ГРУППИРОВКА ЭЛЕМЕНТОВ)`](<./HTML/TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
+  - [`<legend> (ЗАГОЛОВОК FIELDSET)`](<./HTML/TAGS FORM/legend (ЗАГОЛОВОК FIELDSET).md>)
+- [`<form> (ФОРМА)`](<./HTML/TAGS FORM/form (ФОРМА).md>)
+- [`<input> (ПОЛЕ ВВОДА)`](<./HTML/TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<label> (ЯРЛЫК К ЭЛЕМЕНТУ ФОРМЫ)`](<./HTML/TAGS FORM/label (ЯРЛЫК К ЭЛЕМЕНТУ ФОРМЫ).md>)
+- [`<search> (СЕМАТИЧЕСКАЯ СЕКЦИЯ ДЛЯ ПОИСКА)`](<./HTML/TAGS FORM/search (СЕМАТИЧЕСКАЯ СЕКЦИЯ ДЛЯ ПОИСКА).md>)
+- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<./HTML/TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+  - [`<optgroup> (ГРУППИРУЕТ OPTION)`](<./HTML/TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
+    - [`<option> (ПУНКТ СПИСКА)`](<./HTML/TAGS FORM/option (ПУНКТ СПИСКА).md>)
+- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<./HTML/TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
+
 ## Устаревшие теги
 
 - [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym (ВИД АББРЕВИАТУРЫ).md>)
