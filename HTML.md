@@ -4,29 +4,6 @@
   }
 </style>
 
-# HTML
-
-## Теория
-
-- [`(МНЕМОНИКИ)`](./HTML/ТЕОРИЯ/МНЕМОНИКИ.md)
-- [`(ОТНОСИТЕЛЬНЫЕ ПУТИ)`](<./HTML/ТЕОРИЯ/ОТНОСИТЕЛЬНЫЕ ПУТИ.md>)
-- [`(ПОПУЛЯРНЫЕ НАЗВАНИЯ КЛАССОВ)`](<./HTML/ТЕОРИЯ/ПОПУЛЯРНЫЕ НАЗВАНИЯ КЛАССОВ.md>)
-- [`(СЕМАНТИКА БЛОКИ)`](<./HTML/ТЕОРИЯ/СЕМАНТИКА БЛОКИ.md>)
-- [`(СЕМАНТИКА ТЕКСТ)`](<./HTML/ТЕОРИЯ/СЕМАНТИКА ТЕКСТ.md>)
-
-## Глобальные атрибуты
-
-- [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<./HTML/ATTRIBUTES GLOBAL/class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ).md>)
-- [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<./HTML/ATTRIBUTES GLOBAL/contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ).md>)
-- [`data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ)`](<./HTML/ATTRIBUTES GLOBAL/data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ).md>)
-- [`hidden (СКРЫВАЕТ ЭЛЕМЕНТ)`](<./HTML/ATTRIBUTES GLOBAL/hidden (СКРЫВАЕТ ЭЛЕМЕНТ).md>)
-- [`id (ИДЕНТИФИКАТОР)`](<./HTML/ATTRIBUTES GLOBAL/id (ИДЕНТИФИКАТОР).md>)
-- [`lang (ЯЗЫК)`](<./HTML/ATTRIBUTES GLOBAL/lang (ЯЗЫК).md>)
-- [`spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ)`](<./HTML/ATTRIBUTES GLOBAL/spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ).md>)
-- [`style (СТИЛИ)`](<./HTML/ATTRIBUTES GLOBAL/style (СТИЛИ).md>)
-- [`tabindex (ПОРЯДОК ТАБУЛЯЦИИ)`](<./HTML/ATTRIBUTES GLOBAL/tabindex (ПОРЯДОК ТАБУЛЯЦИИ).md>)
-- [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<./HTML/ATTRIBUTES GLOBAL/title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ).md>)
-
 ## Теги head
 
 - [`<base> (ОСНОВНОЙ URL-АДРЕС)`](<./HTML/TAGS HEAD/base (ОСНОВНОЙ URL-АДРЕС).md>)
@@ -169,3 +146,24 @@
 - [`<marquee (БЕГУЩАЯ СТРОКА)>`](<./HTML/TAGS DEPRECATED/marquee (БЕГУЩАЯ СТРОКА).md>)
 - [`<nobr (НЕРАЗРЫВНЫЙ ТЕКСТ)>`](<./HTML/TAGS DEPRECATED/nobr (НЕРАЗРЫВНЫЙ ТЕКСТ).md>)
 - [`<strike (ЗАЧЕРКНУТЫЙ ТЕКСТ)>`](<./HTML/TAGS DEPRECATED/strike (ЗАЧЕРКНУТЫЙ ТЕКСТ).md>)
+
+## Теория
+
+- [`(МНЕМОНИКИ)`](./HTML/ТЕОРИЯ/МНЕМОНИКИ.md)
+- [`(ОТНОСИТЕЛЬНЫЕ ПУТИ)`](<./HTML/ТЕОРИЯ/ОТНОСИТЕЛЬНЫЕ ПУТИ.md>)
+- [`(ПОПУЛЯРНЫЕ НАЗВАНИЯ КЛАССОВ)`](<./HTML/ТЕОРИЯ/ПОПУЛЯРНЫЕ НАЗВАНИЯ КЛАССОВ.md>)
+- [`(СЕМАНТИКА БЛОКИ)`](<./HTML/ТЕОРИЯ/СЕМАНТИКА БЛОКИ.md>)
+- [`(СЕМАНТИКА ТЕКСТ)`](<./HTML/ТЕОРИЯ/СЕМАНТИКА ТЕКСТ.md>)
+
+## Глобальные атрибуты
+
+- [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<./HTML/ATTRIBUTES GLOBAL/class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ).md>)
+- [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<./HTML/ATTRIBUTES GLOBAL/contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ).md>)
+- [`data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ)`](<./HTML/ATTRIBUTES GLOBAL/data (ПОЛЬЗОВАТЕЛЬСКИЙ АТРИБУТ).md>)
+- [`hidden (СКРЫВАЕТ ЭЛЕМЕНТ)`](<./HTML/ATTRIBUTES GLOBAL/hidden (СКРЫВАЕТ ЭЛЕМЕНТ).md>)
+- [`id (ИДЕНТИФИКАТОР)`](<./HTML/ATTRIBUTES GLOBAL/id (ИДЕНТИФИКАТОР).md>)
+- [`lang (ЯЗЫК)`](<./HTML/ATTRIBUTES GLOBAL/lang (ЯЗЫК).md>)
+- [`spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ)`](<./HTML/ATTRIBUTES GLOBAL/spellcheck (ПРОВЕРКА ПРАВОПИСАНИЯ).md>)
+- [`style (СТИЛИ)`](<./HTML/ATTRIBUTES GLOBAL/style (СТИЛИ).md>)
+- [`tabindex (ПОРЯДОК ТАБУЛЯЦИИ)`](<./HTML/ATTRIBUTES GLOBAL/tabindex (ПОРЯДОК ТАБУЛЯЦИИ).md>)
+- [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<./HTML/ATTRIBUTES GLOBAL/title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ).md>)
