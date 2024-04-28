@@ -28,12 +28,12 @@ _(area: область)_
 ## Атрибуты
 
 - [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](<../ATTRIBUTES/alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ).md>)
-- [`coords (КООРДИНАТЫ ОБЛАСТЕЙ)`](<../ATTRIBUTES/coords (КООРДИНАТЫ ОБЛАСТЕЙ).md>)
+- [`coords (КООРДИНАТЫ ОБЛАСТЕЙ КАРТЫ)`](<../ATTRIBUTES/coords (КООРДИНАТЫ ОБЛАСТЕЙ КАРТЫ).md>)
 - [`href (ССЫЛКА НА URL)`](<../ATTRIBUTES/href (ССЫЛКА НА URL).md>)
-- [`ping (POST-ЗАПРОС на сервер)`](<../ATTRIBUTES/ping (POST-ЗАПРОС на сервер).md>)
-- [`referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ)`](<../ATTRIBUTES/referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ).md>)
+- [`ping (POST-ЗАПРОС ПРИ ПЕРЕХОДЕ ПО КАРТЕ)`](<../ATTRIBUTES/ping (POST-ЗАПРОС ПРИ ПЕРЕХОДЕ ПО КАРТЕ).md>)
+- [`referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ ПО КАРТЕ)`](<../ATTRIBUTES/referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ ПО КАРТЕ).md>)
 - [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ).md>)
-- [`shape (ФОРМА ОБЛАСТИ)`](<../ATTRIBUTES/shape (ФОРМА ОБЛАСТИ).md>)
+- [`shape (ФОРМА ОБЛАСТЕЙ КАРТЫ)`](<../ATTRIBUTES/shape (ФОРМА ОБЛАСТЕЙ КАРТЫ).md>)
 - [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](<../ATTRIBUTES/target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ).md>)
 
 ## Глобальные атрибуты
