@@ -6,9 +6,8 @@
 
 ## Применяется к тегам
 
-- [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
-- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
-- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
+- [`<button> (КНОПКА)`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
@@ -22,12 +21,6 @@
 
 ```html
 <input type="submit" formenctype="application/x-www-form-urlencoded"></button>
-```
-
-### `<textarea>`
-
-```html
-<textarea formenctype="application/x-www-form-urlencoded"></textarea>
 ```
 
 ## Значения

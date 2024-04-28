@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<optgroup>`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
-- [`<option>`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
+- [`<optgroup> (ГРУППИРУЕТ OPTION)`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
+- [`<option> (ПУНКТ СПИСКА)`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
 
 ## Пример
 

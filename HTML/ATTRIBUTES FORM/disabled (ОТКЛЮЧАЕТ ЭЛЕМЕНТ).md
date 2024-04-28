@@ -16,13 +16,13 @@
 
 ## Применяется к тегам
 
-- [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
-- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
-- [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
-- [`<optgroup>`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
-- [`<option>`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
-- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
-- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
+- [`<button> (КНОПКА)`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<fieldset> (ГРУППИРОВКА ЭЛЕМЕНТОВ)`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
+- [`<optgroup> (ГРУППИРУЕТ OPTION)`](<../TAGS FORM/optgroup (ГРУППИРУЕТ OPTION).md>)
+- [`<option> (ПУНКТ СПИСКА)`](<../TAGS FORM/option (ПУНКТ СПИСКА).md>)
+- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 

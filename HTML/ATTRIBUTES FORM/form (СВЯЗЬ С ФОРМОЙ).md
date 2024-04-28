@@ -4,14 +4,14 @@ Cвязывает контролы внутри тега с формой (буд
 
 ## Применяется к тегам
 
-- [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
-- [`<meter>`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
-- [`<output>`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
-- [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
-- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
-- [`<fieldset>`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
-- [`<select>`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
-- [`<textarea>`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
+- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<meter> (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР)`](<../TAGS UI/meter (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР).md>)
+- [`<output> (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ)`](<../TAGS UI/output (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ).md>)
+- [`<button> (КНОПКА)`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<fieldset> (ГРУППИРОВКА ЭЛЕМЕНТОВ)`](<../TAGS FORM/fieldset (ГРУППИРОВКА ЭЛЕМЕНТОВ).md>)
+- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<../TAGS FORM/select (ВЫПАДАЮЩИЙ СПИСОК).md>)
+- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА).md>)
 
 ## Пример
 

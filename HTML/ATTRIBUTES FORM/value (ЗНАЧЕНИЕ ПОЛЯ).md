@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<button>`](<../TAGS FORM/button (КНОПКА).md>)
-- [`<input>`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
+- [`<button> (КНОПКА)`](<../TAGS FORM/button (КНОПКА).md>)
+- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input (ПОЛЕ ВВОДА).md>)
 
 ## Пример
 
