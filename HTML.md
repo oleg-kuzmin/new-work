@@ -1,3 +1,9 @@
+<style>
+  * {
+    user-select: none;
+  }
+</style>
+
 # HTML
 
 ## Теория
