@@ -10,14 +10,11 @@
 
 Выравнивание текста нельзя анимировать при помощи `transition`.
 
-В случае необходимости выравнивания последней строки используйте `text-align-last`, значения свойства совпадают с text-align.
-
 ## Пример
 
 ```css
 .element {
-  text-align: left;
-  text-align-last: left;
+  text-align: start;
 }
 ```
 
