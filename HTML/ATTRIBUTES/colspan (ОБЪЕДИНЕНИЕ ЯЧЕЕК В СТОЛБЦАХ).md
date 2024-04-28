@@ -4,12 +4,12 @@
 
 ## Применяется к тегам
 
-- [`<th> (ЯЧЕЙКА - ЗАГОЛОВОК)`](<../TAGS TABLE/th (ЯЧЕЙКА - ЗАГОЛОВОК).md>)
+- [`<th> (ЗАГОЛОВОК)`](<../TAGS TABLE/th (ЗАГОЛОВОК).md>)
 - [`<td> (ЯЧЕЙКА)`](<../TAGS TABLE/td (ЯЧЕЙКА).md>)
 
 ## Пример
 
 ```html
-<td colspan="2">iPhone</td>
 <th colspan="2">iPhone</th>
+<td colspan="2">iPhone</td>
 ```
