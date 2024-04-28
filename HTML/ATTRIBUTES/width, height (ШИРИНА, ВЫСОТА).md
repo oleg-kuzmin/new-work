@@ -14,12 +14,12 @@
 
 ## Применяется к тегам
 
-- [`<img>`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
-- [`<svg>`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
-- [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
-- [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
-- [`<canvas>`](<../TAGS MEDIA/canvas (ОТРИСОВКА ГРАФИКИ).md>)
-- [`<iframe>`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
+- [`<img> (ИЗОБРАЖЕНИЕ)`](<../TAGS MEDIA/img (ИЗОБРАЖЕНИЕ).md>)
+- [`<svg> (ВЕКТОРНАЯ ГРАФИКА)`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
+- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<canvas> (ОТРИСОВКА ГРАФИКИ)`](<../TAGS MEDIA/canvas (ОТРИСОВКА ГРАФИКИ).md>)
+- [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
 
 ## Пример
 
@@ -57,12 +57,7 @@
 ### `<object>`
 
 ```html
-<object
-  type="video/mp4"
-  data="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  width="1280"
-  height="720"
-></object>
+<object type="video/mp4" data="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="1280" height="720"></object>
 ```
 
 ### `<canvas>`

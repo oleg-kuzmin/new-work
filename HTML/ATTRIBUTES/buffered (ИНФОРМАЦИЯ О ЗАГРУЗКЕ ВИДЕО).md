@@ -4,7 +4,7 @@
 
 ## Применяется к тегам
 
-- [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video (ВИДЕО).md>)
 
 ## Пример
 

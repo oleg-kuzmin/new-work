@@ -4,18 +4,12 @@
 
 ## Применяется к тегам
 
-- [`<svg>`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
+- [`<svg> (ВЕКТОРНАЯ ГРАФИКА)`](<../TAGS MEDIA/svg (ВЕКТОРНАЯ ГРАФИКА).md>)
 
 ## Пример
 
 ```html
-<svg
-  stroke="#000000"
-  xmlns="http://www.w3.org/2000/svg"
-  fill-rule="evenodd"
-  clip-rule="evenodd"
-  viewBox="0 0 24 24"
->
+<svg stroke="#000000" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24">
   <path d="..." />
 </svg>
 ```

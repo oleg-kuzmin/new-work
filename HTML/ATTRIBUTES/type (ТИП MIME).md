@@ -4,11 +4,11 @@
 
 ## Применяется к тегам
 
-- [`<a>`](<../TAGS INLINE/a (ССЫЛКА).md>)
-- [`<audio>`](<../TAGS MEDIA/audio (АУДИО).md>)
-- [`<video>`](<../TAGS MEDIA/video (ВИДЕО).md>)
-- [`<object>`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
-- [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+- [`<a> (ССЫЛКА)`](<../TAGS INLINE/a (ССЫЛКА).md>)
+- [`<audio> (АУДИО)`](<../TAGS MEDIA/audio (АУДИО).md>)
+- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video (ВИДЕО).md>)
+- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object (ВСТРАИВАНИЕ МЕДИА).md>)
+- [`<source> (ИСТОЧНИК МЕДИА)`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 
 ## Пример
 

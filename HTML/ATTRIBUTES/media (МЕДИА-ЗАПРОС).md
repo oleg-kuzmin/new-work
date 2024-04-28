@@ -6,9 +6,9 @@
 
 ## Применяется к тегам
 
-- [`<style>`](<../TAGS HEAD/style (СТИЛИ).md>)
-- [`<link>`](<../TAGS HEAD/link (ВНЕШНИЙ ФАЙЛ).md>)
-- [`<source>`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
+- [`<style> (СТИЛИ)`](<../TAGS HEAD/style (СТИЛИ).md>)
+- [`<link> (ВНЕШНИЙ ФАЙЛ)`](<../TAGS HEAD/link (ВНЕШНИЙ ФАЙЛ).md>)
+- [`<source> (ИСТОЧНИК МЕДИА)`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 
 ## Пример
 
