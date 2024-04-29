@@ -11,6 +11,8 @@
 
 ## Стили
 
+- [`all (ВСЕ СВОЙСТВА)`](<./CSS/STYLES/all (ВСЕ СВОЙСТВА).md>)
+- [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](<./CSS/STYLES/animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
