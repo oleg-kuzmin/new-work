@@ -27,7 +27,7 @@
 
 - [`::marker`](<./CSS/ПСЕВДОЭЛЕМЕНТЫ/marker (МАРКЕРЫ СПИСКА).md>)
 
-## Библиотека SASS
+## SASS
 
 - [`(УСТАНОВКА)`](./CSS/SASS/УСТАНОВКА.md)
 - [`(МИКСИНЫ)`](./CSS/SASS/МИКСИНЫ.md)
@@ -35,7 +35,7 @@
 - [`(ПЕРЕМЕННЫЕ)`](./CSS/SASS/ПЕРЕМЕННЫЕ.md)
 - [`(ФУНКЦИИ)`](./CSS/SASS/ФУНКЦИИ.md)
 
-## Библиотека BOOTSTRAP
+## BOOTSTRAP
 
 - [`(УСТАНОВКА)`](./CSS/BOOTSTRAP/УСТАНОВКА.md)
-- [`(ИСПОЛЬЗОВАНИЕ)`](./CSS/BOOTSTRAP/ИСПОЛЬЗОВАНИЕ.md)
+- [`MARGIN, PADDING`](<./CSS/BOOTSTRAP/MARGIN, PADDING.md>)
