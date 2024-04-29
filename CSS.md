@@ -14,6 +14,7 @@
 - [`all (ВСЕ СВОЙСТВА)`](<./CSS/STYLES/all (ВСЕ СВОЙСТВА).md>)
 - [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](<./CSS/STYLES/animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ).md>)
 - [`animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ)`](<./CSS/STYLES/animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ).md>)
+- [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](<./CSS/STYLES/animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
