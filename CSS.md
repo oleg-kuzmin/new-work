@@ -17,6 +17,7 @@
 - [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](<./CSS/STYLES/animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА).md>)
 - [`animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА)`](<./CSS/STYLES/animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА).md>)
 - [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](<./CSS/STYLES/animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ).md>)
+- [`animation-name (ИМЯ АНИМАЦИИ)`](<./CSS/STYLES/animation-name (ИМЯ АНИМАЦИИ).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
