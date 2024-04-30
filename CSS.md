@@ -22,6 +22,7 @@
   - [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](<./CSS/STYLES/animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ).md>)
   - [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](<./CSS/STYLES/animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
+- [`background-attachment (ПРОКРУТКА ФОНА)`](<./CSS/STYLES/background-attachment (ПРОКРУТКА ФОНА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](<./CSS/STYLES/text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ).md>)
