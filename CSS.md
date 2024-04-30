@@ -19,6 +19,7 @@
 - [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](<./CSS/STYLES/animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ).md>)
 - [`animation-name (ИМЯ АНИМАЦИИ)`](<./CSS/STYLES/animation-name (ИМЯ АНИМАЦИИ).md>)
 - [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](<./CSS/STYLES/animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ).md>)
+- [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](<./CSS/STYLES/animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
