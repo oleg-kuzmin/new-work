@@ -26,6 +26,7 @@
 - [`background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА)`](<./CSS/STYLES/background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА).md>)
 - [`background-color (ЦВЕТ ФОНА)`](<./CSS/STYLES/background-color (ЦВЕТ ФОНА).md>)
 - [`background-image (КАРТИНКА, ГРАДИЕНТ ФОНА)`](<./CSS/STYLES/background-image (КАРТИНКА, ГРАДИЕНТ ФОНА).md>)
+- [`background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА)`](<./CSS/STYLES/background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](<./CSS/STYLES/text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ).md>)
