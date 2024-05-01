@@ -23,6 +23,7 @@
   - [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](<./CSS/STYLES/animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ).md>)
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](<./CSS/STYLES/backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА).md>)
 - [`background-attachment (ПРОКРУТКА ФОНА)`](<./CSS/STYLES/background-attachment (ПРОКРУТКА ФОНА).md>)
+- [`background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА)`](<./CSS/STYLES/background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](<./CSS/STYLES/text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ).md>)
