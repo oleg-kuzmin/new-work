@@ -24,7 +24,3 @@
   animation: circle-to-square 2s infinite alternate-reverse ease-in 1s;
 }
 ```
-
-## Синтаксис
-
-### `animation: [animation-name] [animation-duration] [animation-delay] [animation-direction] [animation-timing-function] [animation-iteration-count] [animation-fill-mode] [animation-play-state]`
