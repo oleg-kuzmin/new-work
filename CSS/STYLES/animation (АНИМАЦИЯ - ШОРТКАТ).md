@@ -8,14 +8,14 @@
 
 Есть возможность применить к одному элементу сразу несколько анимаций. Для этого нужно перечислить несколько значений через запятую. Возможно указать любое количество значений для любого из свойств анимации. Анимации будут воспроизводиться одновременно.
 
+- [`animation-name (ИМЯ АНИМАЦИИ)`](<./animation-name (ИМЯ АНИМАЦИИ).md>)
 - [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](<./animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА).md>)
 - [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](<./animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ).md>)
 - [`animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ)`](<./animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ).md>)
-- [`animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА)`](<./animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА).md>)
-- [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](<./animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ).md>)
-- [`animation-name (ИМЯ АНИМАЦИИ)`](<./animation-name (ИМЯ АНИМАЦИИ).md>)
-- [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](<./animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ).md>)
 - [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](<./animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ).md>)
+- [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](<./animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ).md>)
+- [`animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА)`](<./animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА).md>)
+- [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](<./animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ).md>)
 
 ## Пример
 
@@ -24,3 +24,7 @@
   animation: circle-to-square 2s infinite alternate-reverse ease-in 1s;
 }
 ```
+
+## Синтаксис
+
+### `animation: [animation-name] [animation-duration] [animation-delay] [animation-direction] [animation-timing-function] [animation-iteration-count] [animation-fill-mode] [animation-play-state]`
