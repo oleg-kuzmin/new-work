@@ -30,6 +30,7 @@
 - [`action (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
 - [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
 - [`enctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
+- [`method (МЕТОД ОТПРАВКИ ФОРМЫ)`](<../ATTRIBUTES FORM/method (МЕТОД ОТПРАВКИ ФОРМЫ).md>)
 - [`name (ИМЯ)`](<../ATTRIBUTES FORM/name (ИМЯ).md>)
 - [`novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
 - [`target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
