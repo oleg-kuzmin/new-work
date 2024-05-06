@@ -32,6 +32,7 @@
   - [`background-size (РАЗМЕР ФОНА)`](<./CSS/STYLES/background-size (РАЗМЕР ФОНА).md>)
 - [`border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК)`](<./CSS/STYLES/border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК).md>)
 - [`border-color (ЦВЕТ ГРАНИЦЫ)`](<./CSS/STYLES/border-color (ЦВЕТ ГРАНИЦЫ).md>)
+- [`border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ)`](<./CSS/STYLES/border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](<./CSS/STYLES/text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ).md>)
@@ -51,5 +52,5 @@
 
 ## BOOTSTRAP
 
-- [`(УСТАНОВКА)`](./CSS/BOOTSTRAP/УСТАНОВКА.md)
-- [`MARGIN, PADDING`](<./CSS/BOOTSTRAP/MARGIN, PADDING.md>)
+- [`(УСТАНОВКА)`](./CSS/BOOTSTRAP/Установка.md)
+- [`MARGIN, PADDING`](<./CSS/BOOTSTRAP/margin, padding.md>)
