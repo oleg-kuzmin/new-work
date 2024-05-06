@@ -6,14 +6,16 @@
 
 ## HTML
 
-- [HEAD](#теги-head)
-- [BLOCK](#теги-block)
-- [INLINE](#теги-inline)
-- [FORM](#теги-form)
-- [MEDIA](#теги-media)
-- [UI](#теги-ui)
-- [TABLE](#теги-table)
-- [DEPRECATED](#теги-deprecated)
+- [Теория](#теория)
+- [Глобальные атрибуты](#глобальные-атрибуты)
+- [Теги head](#теги-head)
+- [Теги block](#теги-block)
+- [Теги inline](#теги-inline)
+- [Теги form](#теги-form)
+- [Теги media](#теги-media)
+- [Теги ui](#теги-ui)
+- [Теги table](#теги-table)
+- [Теги deprecated](#теги-deprecated)
 
 ## Теория
 
