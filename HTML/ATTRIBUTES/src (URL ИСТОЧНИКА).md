@@ -9,7 +9,7 @@
 - [`<video> (ВИДЕО)`](<../TAGS MEDIA/video (ВИДЕО).md>)
 - [`<source> (ИСТОЧНИК МЕДИА)`](<../TAGS MEDIA/source (ИСТОЧНИК МЕДИА).md>)
 - [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<../TAGS MEDIA/iframe (ВСТРАИВАНИЕ ФРЕЙМА).md>)
-- [`<script> (ДОБАВЛЯЕТ СКРИПТЫ)`](<../TAGS HEAD/script (ДОБАВЛЯЕТ СКРИПТЫ).md>)
+- [`<script> (ДОБАВЛЯЕТ СКРИПТ)`](<../TAGS HEAD/script (ДОБАВЛЯЕТ СКРИПТ).md>)
 
 ## Пример
 

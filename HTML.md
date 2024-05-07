@@ -45,7 +45,7 @@
 - [`<link> (ВНЕШНИЙ ФАЙЛ)`](<./HTML/TAGS HEAD/link (ВНЕШНИЙ ФАЙЛ).md>)
 - [`<meta> (МЕТАДАННЫЕ)`](<./HTML/TAGS HEAD/meta (МЕТАДАННЫЕ).md>)
 - [`<noscript> (КОНТЕНТ ПРИ ОТКЛЮЧЕННОМ JS)`](<./HTML/TAGS HEAD/noscript (КОНТЕНТ ПРИ ОТКЛЮЧЕННОМ JS).md>)
-- [`<script> (ДОБАВЛЯЕТ СКРИПТЫ)`](<./HTML/TAGS HEAD/script (ДОБАВЛЯЕТ СКРИПТЫ).md>)
+- [`<script> (ДОБАВЛЯЕТ СКРИПТ)`](<./HTML/TAGS HEAD/script (ДОБАВЛЯЕТ СКРИПТ).md>)
 - [`<style> (СТИЛИ)`](<./HTML/TAGS HEAD/style (СТИЛИ).md>)
 - [`<title> (ЗАГОЛОВОК СТРАНИЦЫ)`](<./HTML/TAGS HEAD/title (ЗАГОЛОВОК СТРАНИЦЫ).md>)
 
