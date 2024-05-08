@@ -33,7 +33,7 @@
 - [`border (ШОРТКАТ - ГРАНИЦА)`](<./CSS/STYLES/border (ШОРТКАТ - ГРАНИЦА).md>)
   - [`border-width (ТОЛЩИНА ГРАНИЦЫ)`](<./CSS/STYLES/border-width (ТОЛЩИНА ГРАНИЦЫ).md>)
   - [`border-style (СТИЛЬ ГРАНИЦЫ)`](<./CSS/STYLES/border-style (СТИЛЬ ГРАНИЦЫ).md>)
-  - [`border-color (ЦВЕТ ГРАНИЦ)`](<./CSS/STYLES/border-color (ЦВЕТ ГРАНИЦ).md>)
+  - [`border-color (ШОРТКАТ - ЦВЕТ ГРАНИЦ)`](<./CSS/STYLES/border-color (ШОРТКАТ - ЦВЕТ ГРАНИЦ).md>)
     - [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ).md>)
     - [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ).md>)
     - [`border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА).md>)
