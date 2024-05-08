@@ -34,6 +34,7 @@
 - [`border-color (ЦВЕТ ГРАНИЦЫ)`](<./CSS/STYLES/border-color (ЦВЕТ ГРАНИЦЫ).md>)
 - [`border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ)`](<./CSS/STYLES/border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ).md>)
 - [`border-radius (СКРУГЛЕНИЕ ГРАНИЦЫ)`](<./CSS/STYLES/border-radius (СКРУГЛЕНИЕ ГРАНИЦЫ).md>)
+- [`border-spacing (ОТСТУП МЕЖДУ ЯЧЕйКАМИ ТАБЛИЦЫ)`](<./CSS/STYLES/border-spacing (ОТСТУП МЕЖДУ ЯЧЕйКАМИ ТАБЛИЦЫ).md>)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](<./CSS/STYLES/caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ).md>)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](<./CSS/STYLES/resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА).md>)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](<./CSS/STYLES/text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ).md>)
