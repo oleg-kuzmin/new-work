@@ -1,13 +1,13 @@
 # `background` (Шорткат - Задний фон)
 
-Шорткат, позволяющий задать все свойства фона разом. Объединяет в себе:
-
 - [`background-attachment (ПРОКРУТКА ФОНА)`](<./background-attachment (ПРОКРУТКА ФОНА).md>)
 - [`background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА)`](<./background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА).md>)
 - [`background-color (ЦВЕТ ФОНА)`](<./background-color (ЦВЕТ ФОНА).md>)
 - [`background-image (КАРТИНКА, ГРАДИЕНТ ФОНА)`](<./background-image (КАРТИНКА, ГРАДИЕНТ ФОНА).md>)
 - [`background-repeat (ПОВТОР ФОНА)`](<./background-repeat (ПОВТОР ФОНА).md>)
 - [`background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА)`](<./background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА).md>) / [`background-size (РАЗМЕР ФОНА)`](<./background-size (РАЗМЕР ФОНА).md>)
+
+Шорткат, позволяющий задать все свойства фона разом.
 
 Ни одно из значений не является обязательным, поэтому ненужные можно смело опустить.
 
