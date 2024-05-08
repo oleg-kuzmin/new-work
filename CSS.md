@@ -30,7 +30,7 @@
   - [`background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА)`](<./CSS/STYLES/background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА).md>)
   - [`background-repeat (ПОВТОР ФОНА)`](<./CSS/STYLES/background-repeat (ПОВТОР ФОНА).md>)
   - [`background-size (РАЗМЕР ФОНА)`](<./CSS/STYLES/background-size (РАЗМЕР ФОНА).md>)
-- [`border (ШОРТКАТ - ГРАНИЦА)`](<./CSS/STYLES/border (ШОРТКАТ - ГРАНИЦА).md>)
+- [`border (ШОРТКАТ - ГРАНИЦЫ)`](<./CSS/STYLES/border (ШОРТКАТ - ГРАНИЦЫ).md>)
   - [`border-width (ШОРТКАТ - ТОЛЩИНА ГРАНИЦ)`](<./CSS/STYLES/border-width (ШОРТКАТ - ТОЛЩИНА ГРАНИЦ).md>)
     - [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ).md>)
     - [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ).md>)
