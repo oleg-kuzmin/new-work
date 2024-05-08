@@ -1,4 +1,9 @@
-# `border-width` (Толщина границы)
+# `border-width` (Шорткат - Толщина границ)
+
+- [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ).md>)
+- [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ)`](<./border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ).md>)
+- [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА)`](<./border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА).md>)
+- [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА)`](<./border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА).md>)
 
 Свойство `border-width` управляет толщиной рамки элемента.
 
