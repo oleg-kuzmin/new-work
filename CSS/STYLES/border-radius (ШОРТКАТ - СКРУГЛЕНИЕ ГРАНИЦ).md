@@ -1,4 +1,4 @@
-# `border-radius` (Скругление границы)
+# `border-radius` (Шорткат - Скругление границ)
 
 Свойство `border-radius` закругляет углы почти у любого элемента. И даже если у блока не задана явная рамка.
 
@@ -6,7 +6,10 @@
 
 `border-radius` сработает даже если не будет задана видимая рамка.
 
-Можно управлять радиусом закругления каждого угла в отдельности при помощи свойств `border-top-left-radius`, `border-top-right-radius`, `border-bottom-left-radius`, `border-bottom-right-radius`
+- [`border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА)`](<./border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА).md>)
+- [`border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА)`](<./border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА).md>)
+- [`border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА)`](<./border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА).md>)
+- [`border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА)`](<./border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА).md>)
 
 ## Пример
 
