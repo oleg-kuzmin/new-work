@@ -1,8 +1,8 @@
 # `border-block` (Шорткат - Границы блока)
 
-- [`border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК)`](<./border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК).md>)
-- [`border-block-style (СТИЛЬ ГРАНИЦЫ БЛОК)`](<./border-block-style (СТИЛЬ ГРАНИЦЫ БЛОК).md>)
-- [`border-block-color (ЦВЕТ ГРАНИЦЫ БЛОК)`](<./border-block-color (ЦВЕТ ГРАНИЦЫ БЛОК).md>)
+- [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](<./border-block-width (ТОЛЩИНА ГРАНИЦ).md>)
+- [`border-block-style (СТИЛЬ ГРАНИЦ)`](<./border-block-style (СТИЛЬ ГРАНИЦ).md>)
+- [`border-block-color (ЦВЕТ ГРАНИЦ)`](<./border-block-color (ЦВЕТ ГРАНИЦ).md>)
 
 `border-block` — это логическое свойство-шорткат. Он создаёт у элемента рамки по блочной оси.
 
@@ -14,7 +14,7 @@
 
 `border-block` пишется так же, как и `border`, а ещё сокращает такие же свойства. Отличие лишь в том, что border в записи заменяется на `border-block`.
 
-Можно отдельно стилизовать одну из границ по аналогии с `border-left` и `border-right`:
+Можно отдельно стилизовать одну из границ по аналогии с `border-top` и `border-bottom`:
 `border-block-start` — первая граница по направлению блочной оси; `border-block-end` — вторая граница.
 
 ## Пример

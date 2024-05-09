@@ -1,4 +1,4 @@
-# `border-block-width` (Толщина границ)
+# `border-inline-end-width` (Толщина второй границы)
 
 Можно управлять толщиной границы каждой стороны в отдельности.
 
@@ -6,32 +6,32 @@
 
 ```css
 .element {
-  border-block-width: medium;
+  border-inline-end-width: medium;
 }
 ```
 
 ## Значения
 
-### `border-block-width: medium` (по умолчанию)
+### `border-inline-end-width: medium` (по умолчанию)
 
 Средняя ширина (зависит от браузера, примерно 4 px).
 
-### `border-block-width: thin`
+### `border-inline-end-width: thin`
 
 Тонкая ширина (зависит от браузера, примерно 2 px).
 
-### `border-block-width: thick`
+### `border-inline-end-width: thick`
 
 Толстая ширина (зависит от браузера, примерно 6 px).
 
-### `border-block-width: 1px`
+### `border-inline-end-width: 1px`
 
 Одно значение, толщина рамки со всех сторон одинаковая.
 
-### `border-block-width: inherit`
+### `border-inline-end-width: inherit`
 
 Наследует значение родителя.
 
-### `border-block-width: initial`
+### `border-inline-end-width: initial`
 
 Применяет значение по умолчанию (обычно `medium`).

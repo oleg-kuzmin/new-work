@@ -1,4 +1,4 @@
-# `border-block-style` (Стиль границ)
+# `border-inline-start-style` (Стиль первой границы)
 
 Можно управлять стилем границы каждой стороны в отдельности.
 
@@ -6,44 +6,44 @@
 
 ```css
 .element {
-  border-block-style: none;
+  border-inline-start-style: none;
 }
 ```
 
 ## Значения
 
-### `border-block-style: none` (по умолчанию)
+### `border-inline-start-style: none` (по умолчанию)
 
 Отключает рамку.
 
-### `border-block-style: solid`
+### `border-inline-start-style: solid`
 
 Сплошная рамка. Этот стиль используется чаще всего.
 
-### `border-block-style: dotted`
+### `border-inline-start-style: dotted`
 
 Рамка состоит из точек с пробелами между ними.
 
-### `border-block-style: dashed`
+### `border-inline-start-style: dashed`
 
 Рамка состоит из коротких чёрточек с пробелами между ними.
 
-### `border-block-style: double`
+### `border-inline-start-style: double`
 
 Рамка состоит из двух сплошных линий с небольшим нерегулируемым отступом между ними.
 
-### `border-block-style: groove`
+### `border-inline-start-style: groove`
 
 Рамка объёмная, с тенями от источника света, находящегося в верхнем левом наружном углу.
 
-### `border-block-style: ridge`
+### `border-inline-start-style: ridge`
 
 Рамка объёмная, с тенями от источника света, находящегося в нижнем правом внешнем углу.
 
-### `border-block-style: inset`
+### `border-inline-start-style: inset`
 
 Рамка с тенями от источника света, находящегося в нижнем правом внутреннем углу.
 
-### `border-block-style: outset`
+### `border-inline-start-style: outset`
 
 Рамка с тенями от источника света, находящегося в левом верхнем внутреннем углу.

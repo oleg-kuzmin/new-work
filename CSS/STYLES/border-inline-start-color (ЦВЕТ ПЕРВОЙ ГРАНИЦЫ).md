@@ -1,4 +1,4 @@
-# `border-block-color` (Цвет границ)
+# `border-inline-start-color` (Цвет первой границы)
 
 Можно управлять цветом границы каждой стороны в отдельности.
 
@@ -6,28 +6,28 @@
 
 ```css
 .element {
-  border-block-color: currentColor;
+  border-inline-start-color: currentColor;
 }
 ```
 
 ## Значения
 
-### `border-block-color: currentColor` (по умолчанию)
+### `border-inline-start-color: currentColor` (по умолчанию)
 
 Текущий цвет текста родителя.
 
-### `border-block-color: #2E9AFF`
+### `border-inline-start-color: #2E9AFF`
 
-Одно значение, цвет рамки со всех сторон одинаковый.
+Цвет границы в формате HEX.
 
-### `border-block-color: transparent`
+### `border-inline-start-color: transparent`
 
 Прозрачная рамка.
 
-### `border-block-color: inherit`
+### `border-inline-start-color: inherit`
 
 Наследует значение родителя.
 
-### `border-block-color: invert`
+### `border-inline-start-color: invert`
 
 Противоположный цвету фона элемента.
