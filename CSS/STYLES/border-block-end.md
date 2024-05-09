@@ -1,8 +1,8 @@
 # `border-block-end` (Шорткат - Вторая граница блока)
 
-- [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](<./border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ).md>)
-- [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](<./border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ).md>)
-- [`border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](<./border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ).md>)
+- [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-width.md)
+- [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-style.md)
+- [`border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-color.md)
 
 Первая граница по направлению блочной оси.
 

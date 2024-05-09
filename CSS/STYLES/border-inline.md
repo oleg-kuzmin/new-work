@@ -1,8 +1,8 @@
 # `border-inline` (Шорткат - Границы строки)
 
-- [`border-inline-width (ТОЛЩИНА ГРАНИЦ)`](<./border-inline-width (ТОЛЩИНА ГРАНИЦ).md>)
-- [`border-inline-style (СТИЛЬ ГРАНИЦ)`](<./border-inline-style (СТИЛЬ ГРАНИЦ).md>)
-- [`border-inline-color (ЦВЕТ ГРАНИЦ)`](<./border-inline-color (ЦВЕТ ГРАНИЦ).md>)
+- [`border-inline-width (ТОЛЩИНА ГРАНИЦ)`](./border-inline-width.md)
+- [`border-inline-style (СТИЛЬ ГРАНИЦ)`](./border-inline-style.md)
+- [`border-inline-color (ЦВЕТ ГРАНИЦ)`](./border-inline-color.md)
 
 `border-inline` — это логическое свойство-шорткат. Он создаёт у элемента рамки по строчной оси.
 

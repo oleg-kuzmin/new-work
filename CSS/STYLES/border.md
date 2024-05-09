@@ -1,8 +1,8 @@
 # `border` (Шорткат - границы)
 
-- [`border-width (ТОЛЩИНА ГРАНИЦ)`](<./border-width (ТОЛЩИНА ГРАНИЦ).md>)
-- [`border-style (СТИЛЬ ГРАНИЦ)`](<./border-style (СТИЛЬ ГРАНИЦ).md>)
-- [`border-color (ЦВЕТ ГРАНИЦ)`](<./border-color (ЦВЕТ ГРАНИЦ).md>)
+- [`border-width (ТОЛЩИНА ГРАНИЦ)`](./border-width.md)
+- [`border-style (СТИЛЬ ГРАНИЦ)`](./border-style.md)
+- [`border-color (ЦВЕТ ГРАНИЦ)`](./border-color.md)
 
 Свойство `border` отвечает за отрисовку видимой границы блока. Часто видимую границу блока называют рамкой.
 

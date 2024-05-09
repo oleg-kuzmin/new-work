@@ -6,10 +6,10 @@
 
 `border-radius` сработает даже если не будет задана видимая рамка.
 
-- [`border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА)`](<./border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА).md>)
-- [`border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА)`](<./border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА).md>)
-- [`border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА)`](<./border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА).md>)
-- [`border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА)`](<./border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА).md>)
+- [`border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА)`](./border-bottom-left-radius.md)
+- [`border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА)`](./border-bottom-right-radius.md)
+- [`border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА)`](./border-top-left-radius.md)
+- [`border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА)`](./border-top-right-radius.md)
 
 ## Пример
 

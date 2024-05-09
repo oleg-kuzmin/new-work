@@ -1,8 +1,8 @@
 # `border-block` (Шорткат - Границы блока)
 
-- [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](<./border-block-width (ТОЛЩИНА ГРАНИЦ).md>)
-- [`border-block-style (СТИЛЬ ГРАНИЦ)`](<./border-block-style (СТИЛЬ ГРАНИЦ).md>)
-- [`border-block-color (ЦВЕТ ГРАНИЦ)`](<./border-block-color (ЦВЕТ ГРАНИЦ).md>)
+- [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](./border-block-width.md)
+- [`border-block-style (СТИЛЬ ГРАНИЦ)`](./border-block-style.md)
+- [`border-block-color (ЦВЕТ ГРАНИЦ)`](./border-block-color.md)
 
 `border-block` — это логическое свойство-шорткат. Он создаёт у элемента рамки по блочной оси.
 

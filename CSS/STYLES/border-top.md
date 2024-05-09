@@ -1,8 +1,8 @@
 # `border-top` (Шорткат - Граница сверху)
 
-- [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ).md>)
-- [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ).md>)
-- [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ).md>)
+- [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./border-top-width.md)
+- [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./border-top-style.md)
+- [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](./border-top-color.md)
 
 Можно управлять границей каждой стороны в отдельности.
 

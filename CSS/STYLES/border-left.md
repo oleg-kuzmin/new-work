@@ -1,8 +1,8 @@
 # `border-left` (Шорткат - Граница слева)
 
-- [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА).md>)
-- [`border-left-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./border-left-style (СТИЛЬ ГРАНИЦЫ СЛЕВА).md>)
-- [`border-left-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА).md>)
+- [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./border-left-width.md)
+- [`border-left-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./border-left-style.md)
+- [`border-left-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](./border-left-color.md)
 
 Можно управлять границей каждой стороны в отдельности.
 

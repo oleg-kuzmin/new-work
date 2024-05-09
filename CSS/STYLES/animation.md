@@ -1,13 +1,13 @@
 # `animation` (Шорткат - Анимация)
 
-- [`animation-name (ИМЯ АНИМАЦИИ)`](<./animation-name (ИМЯ АНИМАЦИИ).md>)
-- [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](<./animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА).md>)
-- [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](<./animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ).md>)
-- [`animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ)`](<./animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ).md>)
-- [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](<./animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ).md>)
-- [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](<./animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ).md>)
-- [`animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА)`](<./animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА).md>)
-- [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](<./animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ).md>)
+- [`animation-name (ИМЯ АНИМАЦИИ)`](./animation-name.md)
+- [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](./animation-duration.md)
+- [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](./animation-delay.md)
+- [`animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ)`](./animation-direction.md)
+- [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](./animation-timing-function.md)
+- [`animation-iteration-count (КОЛИЧЕСТВО ЦИКЛОВ)`](./animation-iteration-count.md)
+- [`animation-fill-mode (СТИЛИ ДО ИЛИ ПОСЛЕ ЦИКЛА)`](./animation-fill-mode.md)
+- [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](./animation-play-state.md)
 
 Мега-шорткат, в котором можно за раз указать значения для всех свойств, начинающихся на `animation`.
 

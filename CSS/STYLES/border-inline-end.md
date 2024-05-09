@@ -1,8 +1,8 @@
 # `border-inline-end` (Шорткат - Вторая граница строки)
 
-- [`border-inline-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](<./border-inline-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ).md>)
-- [`border-inline-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](<./border-inline-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ).md>)
-- [`border-inline-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](<./border-inline-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ).md>)
+- [`border-inline-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./border-inline-end-width.md)
+- [`border-inline-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./border-inline-end-style.md)
+- [`border-inline-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](./border-inline-end-color.md)
 
 Первая граница по направлению блочной оси.
 

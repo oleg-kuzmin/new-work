@@ -1,8 +1,8 @@
 # `border-bottom` (Шорткат - Граница снизу)
 
-- [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ).md>)
-- [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ).md>)
-- [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ).md>)
+- [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./border-bottom-width.md)
+- [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./border-bottom-style.md)
+- [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](./border-bottom-color.md)
 
 Можно управлять границей каждой стороны в отдельности.
 

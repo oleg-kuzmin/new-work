@@ -1,8 +1,8 @@
 # `border-right` (Шорткат - Граница справа)
 
-- [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА).md>)
-- [`border-right-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА).md>)
-- [`border-right-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА).md>)
+- [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./border-right-width.md)
+- [`border-right-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./border-right-style.md)
+- [`border-right-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](./border-right-color.md)
 
 Можно управлять границей каждой стороны в отдельности.
 
