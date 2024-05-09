@@ -18,7 +18,7 @@
 
 ### `border-bottom-color: #2E9AFF`
 
-Одно значение, цвет рамки со всех сторон одинаковый.
+Цвет границы в формате HEX.
 
 ### `border-bottom-color: transparent`
 

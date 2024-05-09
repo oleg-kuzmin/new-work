@@ -30,42 +30,53 @@
   - [`background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА)`](<./CSS/STYLES/background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА).md>)
   - [`background-repeat (ПОВТОР ФОНА)`](<./CSS/STYLES/background-repeat (ПОВТОР ФОНА).md>)
   - [`background-size (РАЗМЕР ФОНА)`](<./CSS/STYLES/background-size (РАЗМЕР ФОНА).md>)
+
 - [`border (ШОРТКАТ - ГРАНИЦЫ)`](<./CSS/STYLES/border (ШОРТКАТ - ГРАНИЦЫ).md>)
-  - [`border-width (ШОРТКАТ - ТОЛЩИНА ГРАНИЦ)`](<./CSS/STYLES/border-width (ШОРТКАТ - ТОЛЩИНА ГРАНИЦ).md>)
-    - [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ).md>)
-    - [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ).md>)
-    - [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА).md>)
-    - [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА).md>)
-  - [`border-style (ШОРТКАТ - СТИЛЬ ГРАНИЦ)`](<./CSS/STYLES/border-style (ШОРТКАТ - СТИЛЬ ГРАНИЦ).md>)
-    - [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ).md>)
-    - [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ).md>)
-    - [`border-left-style (СТИЛЬ ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-style (СТИЛЬ ГРАНИЦЫ СЛЕВА).md>)
-    - [`border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА).md>)
-  - [`border-color (ШОРТКАТ - ЦВЕТ ГРАНИЦ)`](<./CSS/STYLES/border-color (ШОРТКАТ - ЦВЕТ ГРАНИЦ).md>)
-    - [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ).md>)
-    - [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ).md>)
-    - [`border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА).md>)
-    - [`border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА).md>)
+  - [`border-width (ТОЛЩИНА ГРАНИЦ)`](<./CSS/STYLES/border-width (ТОЛЩИНА ГРАНИЦ).md>)
+  - [`border-style (СТИЛЬ ГРАНИЦ)`](<./CSS/STYLES/border-style (СТИЛЬ ГРАНИЦ).md>)
+  - [`border-color (ЦВЕТ ГРАНИЦ)`](<./CSS/STYLES/border-color (ЦВЕТ ГРАНИЦ).md>)
+
 - [`border-top (ШОРТКАТ - ГРАНИЦА СВЕРХУ)`](<./CSS/STYLES/border-top (ШОРТКАТ - ГРАНИЦА СВЕРХУ).md>)
   - [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ).md>)
   - [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ).md>)
   - [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./CSS/STYLES/border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ).md>)
+
 - [`border-bottom (ШОРТКАТ - ГРАНИЦА СНИЗУ)`](<./CSS/STYLES/border-bottom (ШОРТКАТ - ГРАНИЦА СНИЗУ).md>)
   - [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ).md>)
   - [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ).md>)
   - [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ).md>)
+
 - [`border-left (ШОРТКАТ - ГРАНИЦА СЛЕВА)`](<./CSS/STYLES/border-left (ШОРТКАТ - ГРАНИЦА СЛЕВА).md>)
   - [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА).md>)
   - [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](<./CSS/STYLES/border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ).md>)
   - [`border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА)`](<./CSS/STYLES/border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА).md>)
+
 - [`border-right (ШОРТКАТ - ГРАНИЦА СПРАВА)`](<./CSS/STYLES/border-right (ШОРТКАТ - ГРАНИЦА СПРАВА).md>)
   - [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА).md>)
   - [`border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА).md>)
   - [`border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА).md>)
-- [`border-block (ШОРТКАТ - ГРАНИЦЫ БЛОК)`](<./CSS/STYLES/border-block (ШОРТКАТ - ГРАНИЦЫ БЛОК).md>)
-  - [`border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК)`](<./CSS/STYLES/border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК).md>)
-  - [`border-block-style (СТИЛЬ ГРАНИЦЫ БЛОК)`](<./CSS/STYLES/border-block-style (СТИЛЬ ГРАНИЦЫ БЛОК).md>)
-  - [`border-block-color (ЦВЕТ ГРАНИЦЫ БЛОК)`](<./CSS/STYLES/border-block-color (ЦВЕТ ГРАНИЦЫ БЛОК).md>)
+
+- [`border-block (ШОРТКАТ - ГРАНИЦЫ БЛОКА)`](<./CSS/STYLES/border-block (ШОРТКАТ - ГРАНИЦЫ БЛОКА).md>)
+  - [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](<./CSS/STYLES/border-block-width (ТОЛЩИНА ГРАНИЦ).md>)
+  - [`border-block-style (СТИЛЬ ГРАНИЦ)`](<./CSS/STYLES/border-block-style (СТИЛЬ ГРАНИЦ).md>)
+  - [`border-block-color (ЦВЕТ ГРАНИЦ)`](<./CSS/STYLES/border-block-color (ЦВЕТ ГРАНИЦ).md>)
+
+- [`border-block-start (ШОРТКАТ - ПЕРВАЯ ГРАНИЦА БЛОКА)`](<./CSS/STYLES/border-block-start (ШОРТКАТ - ПЕРВАЯ ГРАНИЦА БЛОКА).md>)
+  - [`border-block-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ).md>)
+  - [`border-block-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ).md>)
+  - [`border-block-start-color (ЦВЕТ ПЕРВОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-start-color (ЦВЕТ ПЕРВОЙ ГРАНИЦЫ).md>)
+
+- [`border-block-end (ШОРТКАТ - ВТОРАЯ ГРАНИЦА БЛОКА)`](<./CSS/STYLES/border-block-end (ШОРТКАТ - ВТОРАЯ ГРАНИЦА БЛОКА).md>)
+  - [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ).md>)
+  - [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ).md>)
+  - [`border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](<./CSS/STYLES/border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ).md>)
+
+
+
+
+
+  
+
 - [`border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК)`](<./CSS/STYLES/border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК).md>)
 - [`border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ)`](<./CSS/STYLES/border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ).md>)
 - [`border-radius (ШОРТКАТ - СКРУГЛЕНИЕ ГРАНИЦ)`](<./CSS/STYLES/border-radius (ШОРТКАТ - СКРУГЛЕНИЕ ГРАНИЦ).md>)

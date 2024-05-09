@@ -1,37 +1,37 @@
-# `border-block-width` (Толщина границы блок)
+# `border-block-start-width` (Толщина границ)
 
-Свойство `border-block-width` управляет толщиной рамки элемента по блочной оси.
+Можно управлять толщиной границы каждой стороны в отдельности.
 
 ## Пример
 
 ```css
 .element {
-  border-block-width: medium;
+  border-block-start-width: medium;
 }
 ```
 
 ## Значения
 
-### `border-block-width: medium` (по умолчанию)
+### `border-block-start-width: medium` (по умолчанию)
 
 Средняя ширина (зависит от браузера, примерно 4 px).
 
-### `border-block-width: thin`
+### `border-block-start-width: thin`
 
 Тонкая ширина (зависит от браузера, примерно 2 px).
 
-### `border-block-width: thick`
+### `border-block-start-width: thick`
 
 Толстая ширина (зависит от браузера, примерно 6 px).
 
-### `border-block-width: 1px`
+### `border-block-start-width: 1px`
 
 Одно значение, толщина рамки со всех сторон одинаковая.
 
-### `border-block-width: inherit`
+### `border-block-start-width: inherit`
 
 Наследует значение родителя.
 
-### `border-block-width: initial`
+### `border-block-start-width: initial`
 
 Применяет значение по умолчанию (обычно `medium`).

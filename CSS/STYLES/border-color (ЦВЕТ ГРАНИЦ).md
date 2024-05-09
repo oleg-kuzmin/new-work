@@ -1,9 +1,4 @@
-# `border-color` (Шорткат - Цвет границ)
-
-- [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](<./border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ).md>)
-- [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ)`](<./border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ).md>)
-- [`border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА)`](<./border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА).md>)
-- [`border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА)`](<./border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА).md>)
+# `border-color` (Цвет границ)
 
 Свойство `border-color` управляет цветом рамки элемента.
 

@@ -1,49 +1,49 @@
-# `border-block-style` (Стиль границы блок)
+# `border-block-start-style` (Стиль границ)
 
-Свойство `border-block-style` управляет стилем рамки элемента по блочной оси.
+Можно управлять стилем границы каждой стороны в отдельности.
 
 ## Пример
 
 ```css
 .element {
-  border-block-style: none;
+  border-block-start-style: none;
 }
 ```
 
 ## Значения
 
-### `border-block-style: none` (по умолчанию)
+### `border-block-start-style: none` (по умолчанию)
 
 Отключает рамку.
 
-### `border-block-style: solid`
+### `border-block-start-style: solid`
 
 Сплошная рамка. Этот стиль используется чаще всего.
 
-### `border-block-style: dotted`
+### `border-block-start-style: dotted`
 
 Рамка состоит из точек с пробелами между ними.
 
-### `border-block-style: dashed`
+### `border-block-start-style: dashed`
 
 Рамка состоит из коротких чёрточек с пробелами между ними.
 
-### `border-block-style: double`
+### `border-block-start-style: double`
 
 Рамка состоит из двух сплошных линий с небольшим нерегулируемым отступом между ними.
 
-### `border-block-style: groove`
+### `border-block-start-style: groove`
 
 Рамка объёмная, с тенями от источника света, находящегося в верхнем левом наружном углу.
 
-### `border-block-style: ridge`
+### `border-block-start-style: ridge`
 
 Рамка объёмная, с тенями от источника света, находящегося в нижнем правом внешнем углу.
 
-### `border-block-style: inset`
+### `border-block-start-style: inset`
 
 Рамка с тенями от источника света, находящегося в нижнем правом внутреннем углу.
 
-### `border-block-style: outset`
+### `border-block-start-style: outset`
 
 Рамка с тенями от источника света, находящегося в левом верхнем внутреннем углу.

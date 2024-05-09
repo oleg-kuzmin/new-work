@@ -1,4 +1,4 @@
-# `border-top-color` (Цвет границы сверху)
+# `border-block-start-color` (Цвет первой границы)
 
 Можно управлять цветом границы каждой стороны в отдельности.
 
@@ -6,28 +6,28 @@
 
 ```css
 .element {
-  border-top-color: currentColor;
+  border-block-start-color: currentColor;
 }
 ```
 
 ## Значения
 
-### `border-top-color: currentColor` (по умолчанию)
+### `border-block-start-color: currentColor` (по умолчанию)
 
 Текущий цвет текста родителя.
 
-### `border-top-color: #2E9AFF`
+### `border-block-start-color: #2E9AFF`
 
 Цвет границы в формате HEX.
 
-### `border-top-color: transparent`
+### `border-block-start-color: transparent`
 
 Прозрачная рамка.
 
-### `border-top-color: inherit`
+### `border-block-start-color: inherit`
 
 Наследует значение родителя.
 
-### `border-top-color: invert`
+### `border-block-start-color: invert`
 
 Противоположный цвету фона элемента.

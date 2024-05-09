@@ -1,9 +1,4 @@
-# `border-style` (Шорткат - Стиль границ)
-
-- [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](<./border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ).md>)
-- [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](<./border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ).md>)
-- [`border-left-style (СТИЛЬ ГРАНИЦЫ СЛЕВА)`](<./border-left-style (СТИЛЬ ГРАНИЦЫ СЛЕВА).md>)
-- [`border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА)`](<./border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА).md>)
+# `border-style` (Стиль границ)
 
 Свойство `border-style` управляет стилем рамки элемента.
 
