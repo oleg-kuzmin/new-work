@@ -62,6 +62,7 @@
   - [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА).md>)
   - [`border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА).md>)
   - [`border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА)`](<./CSS/STYLES/border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА).md>)
+- [`border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК)`](<./CSS/STYLES/border-block-width (ТОЛЩИНА ГРАНИЦЫ БЛОК).md>)
 - [`border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК)`](<./CSS/STYLES/border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК).md>)
 - [`border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ)`](<./CSS/STYLES/border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ).md>)
 - [`border-radius (ШОРТКАТ - СКРУГЛЕНИЕ ГРАНИЦ)`](<./CSS/STYLES/border-radius (ШОРТКАТ - СКРУГЛЕНИЕ ГРАНИЦ).md>)
