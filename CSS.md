@@ -12,7 +12,9 @@
 ## Стили
 
 - [`all (ВСЕ СВОЙСТВА)`](./CSS/STYLES/all.md)
+
 - [`animation (ШОРТКАТ - АНИМАЦИЯ)`](./CSS/STYLES/animation.md)
+
   - [`animation-delay (ЗАДЕРЖКА СТАРТА АНИМАЦИИ)`](./CSS/STYLES/animation-delay.md)
   - [`animation-direction (ПОРЯДОК ВОСПРОИЗВЕДЕНИЯ)`](./CSS/STYLES/animation-direction.md)
   - [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](./CSS/STYLES/animation-duration.md)
@@ -21,8 +23,11 @@
   - [`animation-name (ИМЯ АНИМАЦИИ)`](./CSS/STYLES/animation-name.md)
   - [`animation-play-state (ПОЗВОЛЯЕТ ПОСТАВИТЬ НА ПАУЗУ)`](./CSS/STYLES/animation-play-state.md)
   - [`animation-timing-function (ПРОИГРЫВАНИЕ КАДРОВ)`](./CSS/STYLES/animation-timing-function.md)
+
 - [`backface-visibility (ОБРАТНАЯ СТОРОНА ЭЛЕМЕНТА)`](./CSS/STYLES/backface-visibility.md)
+
 - [`background (ШОРТКАТ - ЗАДНИЙ ФОН)`](./CSS/STYLES/background.md)
+
   - [`background-attachment (ПРОКРУТКА ФОНА)`](./CSS/STYLES/background-attachment.md)
   - [`background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА)`](./CSS/STYLES/background-clip.md)
   - [`background-color (ЦВЕТ ФОНА)`](./CSS/STYLES/background-color.md)
@@ -30,66 +35,97 @@
   - [`background-position (ПОЗИЦИОНИРОВАНИЕ ФОНА)`](./CSS/STYLES/background-position.md)
   - [`background-repeat (ПОВТОР ФОНА)`](./CSS/STYLES/background-repeat.md)
   - [`background-size (РАЗМЕР ФОНА)`](./CSS/STYLES/background-size.md)
+
 - [`border (ШОРТКАТ - ГРАНИЦЫ)`](./CSS/STYLES/border.md)
+
   - [`border-width (ТОЛЩИНА ГРАНИЦ)`](./CSS/STYLES/border-width.md)
   - [`border-style (СТИЛЬ ГРАНИЦ)`](./CSS/STYLES/border-style.md)
   - [`border-color (ЦВЕТ ГРАНИЦ)`](./CSS/STYLES/border-color.md)
+
 - [`border-top (ШОРТКАТ - ГРАНИЦА СВЕРХУ)`](./CSS/STYLES/border-top.md)
+
   - [`border-top-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./CSS/STYLES/border-top-width.md)
   - [`border-top-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./CSS/STYLES/border-top-style.md)
   - [`border-top-color (ЦВЕТ ГРАНИЦЫ СВЕРХУ)`](./CSS/STYLES/border-top-color.md)
+
 - [`border-bottom (ШОРТКАТ - ГРАНИЦА СНИЗУ)`](./CSS/STYLES/border-bottom.md)
+
   - [`border-bottom-width (ТОЛЩИНА ГРАНИЦЫ СНИЗУ)`](./CSS/STYLES/border-bottom-width.md)
   - [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](./CSS/STYLES/border-bottom-style.md)
   - [`border-bottom-color (ЦВЕТ ГРАНИЦЫ СНИЗУ)`](./CSS/STYLES/border-bottom-color.md)
+
 - [`border-left (ШОРТКАТ - ГРАНИЦА СЛЕВА)`](./CSS/STYLES/border-left.md)
+
   - [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СЛЕВА)`](./CSS/STYLES/border-left-width.md)
   - [`border-bottom-style (СТИЛЬ ГРАНИЦЫ СНИЗУ)`](./CSS/STYLES/border-bottom-style.md)
   - [`border-left-color (ЦВЕТ ГРАНИЦЫ СЛЕВА)`](./CSS/STYLES/border-left-color.md)
+
 - [`border-right (ШОРТКАТ - ГРАНИЦА СПРАВА)`](./CSS/STYLES/border-right.md)
+
   - [`border-right-width (ТОЛЩИНА ГРАНИЦЫ СПРАВА)`](./CSS/STYLES/border-right-width.md)
   - [`border-right-style (СТИЛЬ ГРАНИЦЫ СПРАВА)`](./CSS/STYLES/border-right-style.md)
   - [`border-right-color (ЦВЕТ ГРАНИЦЫ СПРАВА)`](./CSS/STYLES/border-right-color.md)
+
 - [`border-block (ШОРТКАТ - ГРАНИЦЫ БЛОКА)`](./CSS/STYLES/border-block.md)
+
   - [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](./CSS/STYLES/border-block-width.md)
   - [`border-block-style (СТИЛЬ ГРАНИЦ)`](./CSS/STYLES/border-block-style.md)
   - [`border-block-color (ЦВЕТ ГРАНИЦ)`](./CSS/STYLES/border-block-color.md)
+
 - [`border-block-start (ШОРТКАТ - ПЕРВАЯ ГРАНИЦА БЛОКА)`](./CSS/STYLES/border-block-start.md)
+
   - [`border-block-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-start-width.md)
   - [`border-block-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-start-style.md)
   - [`border-block-start-color (ЦВЕТ ПЕРВОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-start-color.md)
+
 - [`border-block-end (ШОРТКАТ - ВТОРАЯ ГРАНИЦА БЛОКА)`](./CSS/STYLES/border-block-end.md)
+
   - [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-end-width.md)
   - [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-end-style.md)
   - [`border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-block-end-color.md)
+
 - [`border-inline (ШОРТКАТ - ГРАНИЦЫ СТРОКИ)`](./CSS/STYLES/border-inline.md)
+
   - [`border-inline-width (ТОЛЩИНА ГРАНИЦ)`](./CSS/STYLES/border-inline-width.md)
   - [`border-inline-style (СТИЛЬ ГРАНИЦ)`](./CSS/STYLES/border-inline-style.md)
   - [`border-inline-color (ЦВЕТ ГРАНИЦ)`](./CSS/STYLES/border-inline-color.md)
+
 - [`border-inline-start (ШОРТКАТ - ПЕРВАЯ ГРАНИЦА СТРОКИ)`](./CSS/STYLES/border-inline-start.md)
+
   - [`border-inline-start (ШОРТКАТ - ПЕРВАЯ ГРАНИЦА СТРОКИ)`](./CSS/STYLES/border-inline-start-width.md)
   - [`border-inline-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-inline-start-style.md)
   - [`border-inline-start-color (ЦВЕТ ПЕРВОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-inline-start-color.md)
+
 - [`border-inline-end (ШОРТКАТ - ВТОРАЯ ГРАНИЦА СТРОКИ)`](./CSS/STYLES/border-inline-end.md)
+
   - [`border-inline-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-inline-end-width.md)
   - [`border-inline-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-inline-end-style.md)
   - [`border-inline-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](./CSS/STYLES/border-inline-end-color.md)
+
 - [`border-collapse (СМЕЖНЫЕ ГРАНИЦЫ ЯЧЕЕК)`](./CSS/STYLES/border-collapse.md)
+
 - [`border-image (ИЗОБРАЖЕНИЕ ГРАНИЦЫ)`](./CSS/STYLES/border-image.md)
+
 - [`border-radius (ШОРТКАТ - СКРУГЛЕНИЕ ГРАНИЦ)`](./CSS/STYLES/border-radius.md)
+
   - [`border-bottom-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СЛЕВА)`](./CSS/STYLES/border-bottom-left-radius.md)
   - [`border-bottom-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СНИЗУ СПРАВА)`](./CSS/STYLES/border-bottom-right-radius.md)
   - [`border-top-left-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СЛЕВА)`](./CSS/STYLES/border-top-left-radius.md)
   - [`border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА)`](./CSS/STYLES/border-top-right-radius.md)
+
 - [`border-spacing (ОТСТУП МЕЖДУ ЯЧЕйКАМИ ТАБЛИЦЫ)`](./CSS/STYLES/border-spacing.md)
+
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](./CSS/STYLES/caption-side.md)
+
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
+
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
+
 - [`text-align-last (ВЫРАВНИВАНИЕ ПОСЛЕДНЕЙ СТРОКИ)`](./CSS/STYLES/text-align-last.md)
 
 ## Псевдоэлементы
 
-- [`::marker`](./CSS/ПСЕВДОЭЛЕМЕНТЫ/marker.md)
+- [`::marker (МАРКЕРЫ СПИСКА)`](./CSS/ПСЕВДОЭЛЕМЕНТЫ/marker.md)
 
 ## SASS
 
