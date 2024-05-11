@@ -38,6 +38,33 @@
 - [`tabindex (ПОРЯДОК ТАБУЛЯЦИИ)`](<./HTML/ATTRIBUTES GLOBAL/tabindex (ПОРЯДОК ТАБУЛЯЦИИ).md>)
 - [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<./HTML/ATTRIBUTES GLOBAL/title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ).md>)
 
+## Атрибуты
+
+- [`allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА)`](<./HTML/ATTRIBUTES/allowfullscreen.md>)
+- [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](<./HTML/ATTRIBUTES/alt.md>)
+- [`as (ТИП ЗАГРУЖАЕМОГО КОНТЕНТА)`](<./HTML/ATTRIBUTES/as.md>)
+- [`async (ЗАПУСК АСИНХРОННО)`](<./HTML/ATTRIBUTES/async.md>)
+- [`autoplay (АВТОПРОИГРЫВАНИЕ МЕДИА)`](<./HTML/ATTRIBUTES/autoplay.md>)
+- [`buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО)`](<./HTML/ATTRIBUTES/buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО).md>)
+- [`charset (КОДИРОВКА СТРАНИЦЫ)`](<./HTML/ATTRIBUTES/charset (КОДИРОВКА СТРАНИЦЫ).md>)
+- [`cite (ИСТОЧНИК ПРАВКИ)`](<./HTML/ATTRIBUTES/cite (ИСТОЧНИК ПРАВКИ).md>)
+- [`cite (ИСТОЧНИК ЦИТАТЫ)`](<./HTML/ATTRIBUTES/cite (ИСТОЧНИК ЦИТАТЫ).md>)
+- [`colspan (ОБЪЕДИНЕНИЕ ЯЧЕЕК В СТОЛБЦАХ)`](<./HTML/ATTRIBUTES/colspan (ОБЪЕДИНЕНИЕ ЯЧЕЕК В СТОЛБЦАХ).md>)
+- [`controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА)`](<./HTML/ATTRIBUTES/controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА).md>)
+- [`coords (КООРДИНАТЫ ОБЛАСТЕЙ КАРТЫ)`](<./HTML/ATTRIBUTES/coords (КООРДИНАТЫ ОБЛАСТЕЙ КАРТЫ).md>)
+- [`crossorigin (ОБРАБОТКА CORS)`](<./HTML/ATTRIBUTES/crossorigin (ОБРАБОТКА CORS).md>)
+- [`data (ССЫЛКА НА URL MEDIA)`](<./HTML/ATTRIBUTES/data (ССЫЛКА НА URL MEDIA).md>)
+- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](<./HTML/ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
+
+- [`autoplay`](<./HTML/ATTRIBUTES/datetime (ДАТА-ВРЕМЯ ПРАВКИ).md>)
+
+
+
+
+
+
+## Атрибуты формы
+
 ## Теги head
 
 - [`<base> (ОСНОВНОЙ URL-АДРЕС)`](<./HTML/TAGS HEAD/base (ОСНОВНОЙ URL-АДРЕС).md>)
