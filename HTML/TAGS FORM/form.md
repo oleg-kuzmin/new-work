@@ -26,11 +26,11 @@
 
 ## Атрибуты
 
-- [`accept-charset (КОДИРОВКА ФОРМЫ)`](<../ATTRIBUTES FORM/accept-charset (КОДИРОВКА ФОРМЫ).md>)
-- [`action (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/action (ОБРАБОТЧИК ФОРМЫ).md>)
-- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete (АВТОЗАПОЛНЕНИЕ).md>)
-- [`enctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/enctype (ТИП ШИФРОВАНИЯ ДАННЫХ).md>)
-- [`method (МЕТОД ОТПРАВКИ ФОРМЫ)`](<../ATTRIBUTES FORM/method (МЕТОД ОТПРАВКИ ФОРМЫ).md>)
-- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name (ИМЯ).md>)
-- [`novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ).md>)
-- [`target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT).md>)
+- [`accept-charset (КОДИРОВКА ФОРМЫ)`](<../ATTRIBUTES FORM/accept-charset.md>)
+- [`action (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/action.md>)
+- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>)
+- [`enctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/enctype.md>)
+- [`method (МЕТОД ОТПРАВКИ ФОРМЫ)`](<../ATTRIBUTES FORM/method.md>)
+- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name.md>)
+- [`novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/novalidate.md>)
+- [`target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/target.md>)

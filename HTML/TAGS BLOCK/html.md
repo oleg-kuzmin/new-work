@@ -30,4 +30,4 @@ _(hyperText markup language: язык гипертекстовой размет�
 
 ## Атрибуты
 
-[`prefix (OPEN-GRAPH РАЗМЕТКА)`](<../ATTRIBUTES/prefix (OPEN-GRAPH РАЗМЕТКА).md>)
+[`prefix (OPEN-GRAPH РАЗМЕТКА)`](<../ATTRIBUTES/prefix.md>)

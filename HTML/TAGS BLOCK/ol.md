@@ -29,6 +29,6 @@ _(ordered list: упорядоченный список)_
 
 ## Атрибуты
 
-- [`reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ)`](<../ATTRIBUTES/reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ).md>)
-- [`start (НАЧАЛО НУМЕРАЦИИ)`](<../ATTRIBUTES/start (НАЧАЛО НУМЕРАЦИИ).md>)
-- [`type (ТИП МАРКЕРОВ)`](<../ATTRIBUTES/type (ТИП МАРКЕРОВ).md>)
+- [`reversed (НАПРАВЛЕНИЕ НУМЕРАЦИИ)`](../ATTRIBUTES/reversed.md)
+- [`start (НАЧАЛО НУМЕРАЦИИ)`](../ATTRIBUTES/start.md)
+- [`type (ТИП МАРКЕРОВ)`](<../ATTRIBUTES/type (OL).md>)

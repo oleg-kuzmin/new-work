@@ -39,4 +39,4 @@ _(block quotation: блок цитат)_
 
 ## Атрибуты
 
-- [`cite (ИСТОЧНИК ЦИТАТЫ)`](<../ATTRIBUTES/cite (ИСТОЧНИК ЦИТАТЫ).md>)
+- [`cite (ИСТОЧНИК)`](../ATTRIBUTES/cite.md)

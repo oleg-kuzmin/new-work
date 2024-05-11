@@ -52,4 +52,4 @@ _(list item: пункт списка)_
 
 ## Атрибуты
 
-[`value (ЗНАЧЕНИЕ)`](<../ATTRIBUTES/value (ЗНАЧЕНИЕ).md>)w
+[`value (ЗНАЧЕНИЕ)`](../ATTRIBUTES/value.md)
