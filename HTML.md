@@ -21,6 +21,8 @@
 
 ## Теория
 
+[наверх ↑](#html)
+
 - [`(МНЕМОНИКИ)`](./HTML/ТЕОРИЯ/Мнемоники.md)
 - [`(ОТНОСИТЕЛЬНЫЕ ПУТИ)`](<./HTML/ТЕОРИЯ/Относительные пути.md>)
 - [`(ПОПУЛЯРНЫЕ НАЗВАНИЯ КЛАССОВ)`](<./HTML/ТЕОРИЯ/Популярные названия классов.md>)
@@ -28,6 +30,8 @@
 - [`(СЕМАНТИКА ТЕКСТ)`](<./HTML/ТЕОРИЯ/Семантика текст.md>)
 
 ## Атрибуты Глобальные
+
+[наверх ↑](#html)
 
 - [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<./HTML/ATTRIBUTES GLOBAL/class.md>)
 - [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<./HTML/ATTRIBUTES GLOBAL/contenteditable.md>)
@@ -41,6 +45,8 @@
 - [`title (ПОДСКАЗКА ПРИ НАВЕДЕНИИ)`](<./HTML/ATTRIBUTES GLOBAL/title.md>)
 
 ## Атрибуты Общие
+
+[наверх ↑](#html)
 
 - [`allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА)`](./HTML/ATTRIBUTES/allowfullscreen.md)
 - [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](./HTML/ATTRIBUTES/alt.md)
@@ -106,6 +112,8 @@
 
 ## Атрибуты Формы
 
+[наверх ↑](#html)
+
 - [`accept (ТИП ФАЙЛА ДЛЯ INPUT FILE)`](<./HTML/ATTRIBUTES FORM/accept.md>)
 - [`accept-charset (КОДИРОВКА ФОРМЫ)`](<./HTML/ATTRIBUTES FORM/accept-charset.md>)
 - [`action (ОБРАБОТЧИК ФОРМЫ)`](<./HTML/ATTRIBUTES FORM/action.md>)
@@ -149,6 +157,8 @@
 
 ## Теги head
 
+[наверх ↑](#html)
+
 - [`<base> (ОСНОВНОЙ URL-АДРЕС)`](<./HTML/TAGS HEAD/base.md>)
 - [`<head> (ОСНОВНАЯ ИНФОРМАЦИЯ)`](<./HTML/TAGS HEAD/head.md>)
 - [`<link> (ВНЕШНИЙ ФАЙЛ)`](<./HTML/TAGS HEAD/link.md>)
@@ -159,6 +169,8 @@
 - [`<title> (ЗАГОЛОВОК СТРАНИЦЫ)`](<./HTML/TAGS HEAD/title.md>)
 
 ## Теги block
+
+[наверх ↑](#html)
 
 - [`<address> (КОНТАКТНАЯ ИНФОРМАЦИЯ)`](<./HTML/TAGS BLOCK/address.md>)
 - [`<article> (НЕЗАВИСИМЫЙ РАЗДЕЛ)`](<./HTML/TAGS BLOCK/article.md>)
@@ -187,6 +199,8 @@
 
 ## Теги inline
 
+[наверх ↑](#html)
+
 - [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a.md>)
 - [`<abbr> (АББРЕВИАТУРА)`](<./HTML/TAGS INLINE/abbr.md>)
 - [`<b> (ВАЖНЫЙ ТЕКСТ)`](<./HTML/TAGS INLINE/b.md>)
@@ -214,6 +228,8 @@
 
 ## Теги form
 
+[наверх ↑](#html)
+
 - [`<button> (КНОПКА)`](<./HTML/TAGS FORM/button.md>)
 - [`<datalist> (СПИСОК ПОДСКАЗОК ДЛЯ INPUT)`](<./HTML/TAGS FORM/datalist.md>)
   - [`<option> (ПУНКТ СПИСКА)`](<./HTML/TAGS FORM/option.md>)
@@ -229,6 +245,8 @@
 - [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<./HTML/TAGS FORM/textarea.md>)
 
 ## Теги media
+
+[наверх ↑](#html)
 
 - [`<audio> (АУДИО)`](<./HTML/TAGS MEDIA/audio.md>)
   - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source.md>)
@@ -249,6 +267,8 @@
 
 ## Теги ui
 
+[наверх ↑](#html)
+
 - [`<details> (АККОРДЕОН)`](<./HTML/TAGS UI/details.md>)
   - [`<summary> (ЗАГОЛОВОК АККОРДЕОНА)`](<./HTML/TAGS UI/summary.md>)
 - [`<dialog> (МОДАЛЬНОЕ ОКНО)`](<./HTML/TAGS UI/dialog.md>)
@@ -261,6 +281,8 @@
 - [`<template> (ШАБЛОН)`](<./HTML/TAGS UI/template.md>)
 
 ## Теги table
+
+[наверх ↑](#html)
 
 - [`<table> (ТАБЛИЦА)`](<./HTML/TAGS TABLE/table.md>)
   - [`<caption> (ПОДПИСЬ К ТАБЛИЦЕ)`](<./HTML/TAGS TABLE/caption.md>)
@@ -278,6 +300,8 @@
       - [`<td> (ЯЧЕЙКА)`](<./HTML/TAGS TABLE/td.md>)
 
 ## Теги deprecated
+
+[наверх ↑](#html)
 
 - [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym.md>)
 - [`<applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ)>`](<./HTML/TAGS DEPRECATED/applet.md>)
