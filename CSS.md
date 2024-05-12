@@ -88,6 +88,7 @@
 - [`clip-path (ВИДИМАЯ ОБЛАСТЬ)`](./CSS/STYLES/clip-path.md)
 - [`column-count (КОЛИЧЕСТВО КОЛОНОК)`](./CSS/STYLES/column-count.md)
 - [`column-gap (ОТСТУП МЕЖДУ КОЛОНКАМИ)`](./CSS/STYLES/column-gap.md)
+- [`column-width (ШИРИНА КОЛОНОК)`](./CSS/STYLES/column-width.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
 - [`text-align-last (ВЫРАВНИВАНИЕ ПОСЛЕДНЕЙ СТРОКИ)`](./CSS/STYLES/text-align-last.md)
