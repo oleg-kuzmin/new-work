@@ -83,6 +83,7 @@
   - [`border-top-right-radius (СКРУГЛЕНИЕ ГРАНИЦЫ СВЕРХУ СПРАВА)`](./CSS/STYLES/border-top-right-radius.md)
 - [`border-spacing (ОТСТУП МЕЖДУ ЯЧЕйКАМИ ТАБЛИЦЫ)`](./CSS/STYLES/border-spacing.md)
 - [`box-shadow (ТЕНЬ БЛОКА)`](./CSS/STYLES/box-shadow.md)
+- [`box-sizing (РАЗМЕР БЛОЧНОЙ МОДЕЛИ)`](./CSS/STYLES/box-sizing.md)
 - [`caption-side (ПОЛОЖЕНИЕ ПОДПИСИ ТАБЛИЦЫ)`](./CSS/STYLES/caption-side.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
