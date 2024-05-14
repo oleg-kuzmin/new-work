@@ -90,6 +90,7 @@
   - [`column-count (КОЛИЧЕСТВО КОЛОНОК)`](./CSS/STYLES/column-count.md)
   - [`column-width (ШИРИНА КОЛОНОК)`](./CSS/STYLES/column-width.md)
 - [`column-gap (ОТСТУП МЕЖДУ КОЛОНКАМИ)`](./CSS/STYLES/column-gap.md)
+- [`display (ТИП ОТОБРАЖЕНИЯ)`](./CSS/STYLES/display.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
 - [`text-align-last (ВЫРАВНИВАНИЕ ПОСЛЕДНЕЙ СТРОКИ)`](./CSS/STYLES/text-align-last.md)
