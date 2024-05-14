@@ -95,6 +95,7 @@
 - [`float (ОБТЕКАНИЕ БЛОКА ТЕКСТОМ)`](./CSS/STYLES/float.md)
 - [`height (ВЫСОТА)`](./CSS/STYLES/height.md)
 - [`max-height (МАКСИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/max-height.md)
+- [`min-height (МИНИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/min-height.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
 - [`text-align-last (ВЫРАВНИВАНИЕ ПОСЛЕДНЕЙ СТРОКИ)`](./CSS/STYLES/text-align-last.md)
