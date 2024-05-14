@@ -92,6 +92,7 @@
 - [`column-gap (ОТСТУП МЕЖДУ КОЛОНКАМИ)`](./CSS/STYLES/column-gap.md)
 - [`display (ТИП ОТОБРАЖЕНИЯ)`](./CSS/STYLES/display.md)
 - [`fill (ЦВЕТ ЗАЛИВКИ SVG)`](./CSS/STYLES/fill.md)
+- [`float (ОБТЕКАНИЕ БЛОКА ТЕКСТОМ)`](./CSS/STYLES/float.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
 - [`text-align (ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ)`](./CSS/STYLES/text-align.md)
 - [`text-align-last (ВЫРАВНИВАНИЕ ПОСЛЕДНЕЙ СТРОКИ)`](./CSS/STYLES/text-align-last.md)
