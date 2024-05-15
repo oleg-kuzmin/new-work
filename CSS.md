@@ -94,6 +94,7 @@
 - [`fill (ЦВЕТ ЗАЛИВКИ SVG)`](./CSS/STYLES/fill.md)
 - [`float (ОБТЕКАНИЕ БЛОКА ТЕКСТОМ)`](./CSS/STYLES/float.md)
 - [`height (ВЫСОТА)`](./CSS/STYLES/height.md)
+- [`list-style-image (МАРКЕРЫ В ВИДЕ КАРТИНОК)`](./CSS/STYLES/list-style-image.md)
 - [`list-style-position (ПОЛОЖЕНИЕ МАРКЕРОВ)`](./CSS/STYLES/list-style-position.md)
 - [`list-style-type (ТИП МАРКЕРОВ)`](./CSS/STYLES/list-style-type.md)
 - [`max-height (МАКСИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/max-height.md)
