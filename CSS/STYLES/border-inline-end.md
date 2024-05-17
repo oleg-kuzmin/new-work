@@ -1,4 +1,4 @@
-# `border-inline-end` (Шорткат - Вторая граница строки)
+# `border-inline-end` (Вторая граница строки)
 
 - [`border-inline-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./border-inline-end-width.md)
 - [`border-inline-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./border-inline-end-style.md)

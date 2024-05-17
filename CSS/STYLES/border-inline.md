@@ -1,4 +1,4 @@
-# `border-inline` (Шорткат - Границы строки)
+# `border-inline` (Границы строки)
 
 - [`border-inline-width (ТОЛЩИНА ГРАНИЦ)`](./border-inline-width.md)
 - [`border-inline-style (СТИЛЬ ГРАНИЦ)`](./border-inline-style.md)

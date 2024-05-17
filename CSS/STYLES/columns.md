@@ -1,4 +1,4 @@
-# `columns` (Шорткат - Колонки)
+# `columns` (Колонки)
 
 - [`column-count (КОЛИЧЕСТВО КОЛОНОК)`](./column-count.md)
 - [`column-width (ШИРИНА КОЛОНОК)`](./column-width.md)

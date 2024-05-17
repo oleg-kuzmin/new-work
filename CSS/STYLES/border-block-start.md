@@ -1,4 +1,4 @@
-# `border-block-start` (Шорткат - Первая граница блока)
+# `border-block-start` (Первая граница блока)
 
 - [`border-block-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ)`](./border-block-start-width.md)
 - [`border-block-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](./border-block-start-style.md)

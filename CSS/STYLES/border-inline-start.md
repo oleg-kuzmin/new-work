@@ -1,4 +1,4 @@
-# `border-inline-start` (Шорткат - Первая граница строки)
+# `border-inline-start` (Первая граница строки)
 
 - [`border-inline-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ)`](./border-inline-start-width.md)
 - [`border-inline-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](./border-inline-start-style.md)

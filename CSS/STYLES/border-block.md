@@ -1,4 +1,4 @@
-# `border-block` (Шорткат - Границы блока)
+# `border-block` (Границы блока)
 
 - [`border-block-width (ТОЛЩИНА ГРАНИЦ)`](./border-block-width.md)
 - [`border-block-style (СТИЛЬ ГРАНИЦ)`](./border-block-style.md)

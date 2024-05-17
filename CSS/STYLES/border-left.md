@@ -1,4 +1,4 @@
-# `border-left` (Шорткат - Граница слева)
+# `border-left` (Граница слева)
 
 - [`border-left-width (ТОЛЩИНА ГРАНИЦЫ СВЕРХУ)`](./border-left-width.md)
 - [`border-left-style (СТИЛЬ ГРАНИЦЫ СВЕРХУ)`](./border-left-style.md)

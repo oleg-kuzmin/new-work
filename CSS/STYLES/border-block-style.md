@@ -1,5 +1,8 @@
 # `border-block-style` (Стиль границ)
 
+- [`border-block-start-style (СТИЛЬ ПЕРВОЙ ГРАНИЦЫ)`](./border-block-start-style.md)
+- [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-style.md)
+
 Можно управлять стилем границы каждой стороны в отдельности.
 
 ## Пример

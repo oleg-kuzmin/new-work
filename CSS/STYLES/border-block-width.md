@@ -1,5 +1,8 @@
 # `border-block-width` (Толщина границ)
 
+- [`border-block-start-width (ТОЛЩИНА ПЕРВОЙ ГРАНИЦЫ)`](./border-block-start-width.md)
+- [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-width.md)
+
 Можно управлять толщиной границы каждой стороны в отдельности.
 
 ## Пример

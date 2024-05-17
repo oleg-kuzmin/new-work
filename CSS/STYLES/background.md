@@ -1,4 +1,4 @@
-# `background` (Шорткат - Задний фон)
+# `background` (Задний фон)
 
 - [`background-attachment (ПРОКРУТКА ФОНА)`](./background-attachment.md)
 - [`background-clip (БЛОЧНАЯ МОДЕЛЬ ФОНА)`](./background-clip.md)

@@ -1,4 +1,4 @@
-# `animation` (Шорткат - Анимация)
+# `animation` (Анимация)
 
 - [`animation-name (ИМЯ АНИМАЦИИ)`](./animation-name.md)
 - [`animation-duration (ДЛИТЕЛЬНОСТЬ ОДНОГО ЦИКЛА)`](./animation-duration.md)

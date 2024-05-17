@@ -1,4 +1,4 @@
-# `margin` (Шорткат - Внешний отступы)
+# `margin` (Внешний отступы)
 
 - [`margin-top (ВНЕШНИЙ ОТСТУП СВЕРХУ)`](./margin-top.md)
 - [`margin-right (ВНЕШНИЙ ОТСТУП СПРАВА)`](./margin-right.md)

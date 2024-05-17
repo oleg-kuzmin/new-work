@@ -1,4 +1,4 @@
-# `border-block-end` (Шорткат - Вторая граница блока)
+# `border-block-end` (Вторая граница блока)
 
 - [`border-block-end-width (ТОЛЩИНА ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-width.md)
 - [`border-block-end-style (СТИЛЬ ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-style.md)

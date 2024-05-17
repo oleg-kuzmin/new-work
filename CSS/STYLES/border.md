@@ -1,4 +1,4 @@
-# `border` (Шорткат - границы)
+# `border` (Границы)
 
 - [`border-width (ТОЛЩИНА ГРАНИЦ)`](./border-width.md)
 - [`border-style (СТИЛЬ ГРАНИЦ)`](./border-style.md)

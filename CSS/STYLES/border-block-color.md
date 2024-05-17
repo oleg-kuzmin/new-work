@@ -1,5 +1,8 @@
 # `border-block-color` (Цвет границ)
 
+- [`border-block-start-color (ЦВЕТ ПЕРВОЙ ГРАНИЦЫ)`](./border-block-start-color.md)
+- [`border-block-end-color (ЦВЕТ ВТОРОЙ ГРАНИЦЫ)`](./border-block-end-color.md)
+
 Можно управлять цветом границы каждой стороны в отдельности.
 
 ## Пример

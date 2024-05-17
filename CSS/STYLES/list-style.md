@@ -1,4 +1,4 @@
-# `list-style` (Шорткат - Маркеры списка)
+# `list-style` (Маркеры списка)
 
 - [`list-style-image (МАРКЕРЫ В ВИДЕ КАРТИНОК)`](./list-style-image.md)
 - [`list-style-position (ПОЛОЖЕНИЕ МАРКЕРОВ)`](./list-style-position.md)
