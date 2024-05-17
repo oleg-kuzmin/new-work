@@ -1,11 +1,9 @@
 # `margin` (Шорткат - Внешний отступы)
 
-- Шорткат нескольких полных свойств:
-
-1. margin-top
-2. margin-left
-3. margin-right
-4. margin-bottom
+- [`margin-top (ВНЕШНИЙ ОТСТУП СВЕРХУ)`](./margin-top.md)
+- [`margin-right (ВНЕШНИЙ ОТСТУП СПРАВА)`](./margin-right.md)
+- [`margin-bottom (ВНЕШНИЙ ОТСТУП СНИЗУ)`](./margin-bottom.md)
+- [`margin-left (ВНЕШНИЙ ОТСТУП СЛЕВА)`](./margin-left.md)
 
 `margin` задаёт расстояние от края элемента до родительского элемента, а если такого нет, то до края окна браузера.
 
@@ -25,13 +23,13 @@ margin может быть отрицательным.
 
 ## Синтаксис
 
-### `margin: [верх, справа, низ, слева]`
+### `margin: [top, right, bottom, left]`
 
-### `margin: [верх, низ] [справа, слева]`
+### `margin: [top, bottom] [right, left]`
 
-### `margin: [верх] [справа, слева] [низ]`
+### `margin: [top] [right, left] [bottom]`
 
-### `margin: [верх] [справа] [низ] [слева]`
+### `margin: [top] [right] [bottom] [left]`
 
 ## Значения
 
