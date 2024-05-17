@@ -99,6 +99,7 @@
   - [`list-style-position (ПОЛОЖЕНИЕ МАРКЕРОВ)`](./CSS/STYLES/list-style-position.md)
   - [`list-style-type (ТИП МАРКЕРОВ)`](./CSS/STYLES/list-style-type.md)
 - [`margin (ШОРТКАТ - ВНЕШНИЕ ОТСТУПЫ)`](./CSS/STYLES/margin.md)
+- [`margin-bottom (ВНЕШНИЙ ОТСТУП СНИЗУ)`](./CSS/STYLES/margin-bottom.md)
 - [`max-height (МАКСИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/max-height.md)
 - [`min-height (МИНИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/min-height.md)
 - [`resize (ИЗМЕНЕНИЕ РАЗМЕРОВ ЭЛЕМЕНТА)`](./CSS/STYLES/resize.md)
