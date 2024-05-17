@@ -102,6 +102,7 @@
 - [`margin-bottom (ВНЕШНИЙ ОТСТУП СНИЗУ)`](./CSS/STYLES/margin-bottom.md)
 - [`margin-top (ВНЕШНИЙ ОТСТУП СВЕРХУ)`](./CSS/STYLES/margin-top.md)
 - [`margin-left (ВНЕШНИЙ ОТСТУП СЛЕВА)`](./CSS/STYLES/margin-left.md)
+- [`margin-right (ВНЕШНИЙ ОТСТУП СПРАВА)`](./CSS/STYLES/margin-right.md)
 
 - [`max-height (МАКСИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/max-height.md)
 - [`min-height (МИНИМАЛЬНАЯ ВЫСОТА)`](./CSS/STYLES/min-height.md)
