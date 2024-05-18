@@ -1,0 +1,34 @@
+# `delete()`
+
+Метод `delete()` удаляет значение из коллекции `Map`.
+
+## Синтаксис
+
+```js
+collection.delete(key);
+```
+
+### `key`
+
+Ключ, значение которого нужно удалить.
+
+## Возвращает
+
+### `boolean`
+
+- `true` (если элемент для переданного ключа существовал и был удалён)
+- `false` (если переданного ключа нет в коллекции)
+
+## Пример
+
+```js
+const map = new Map();
+
+map.set('html', 'HTML');
+map.set('css', 'CSS');
+map.set('js', 'JavaScript');
+console.log(map.size); // 3
+
+map.delete('css');
+console.log(map.size); // 2
+```

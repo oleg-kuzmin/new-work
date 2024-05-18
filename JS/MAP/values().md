@@ -1,0 +1,27 @@
+# `values()`
+
+Возвращает итератор всех значений коллекции.
+
+## Синтаксис
+
+```js
+collection.values();
+```
+
+## Возвращает
+
+### `object`
+
+## Пример
+
+```js
+const map = new Map();
+
+map.set('0', 'foo');
+map.set(1, 'bar');
+
+const iterator = map.values();
+
+console.log(iterator.next().value); // Expected output: "foo"
+console.log(iterator.next().value); // Expected output: "bar"
+```
