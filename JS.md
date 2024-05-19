@@ -29,19 +29,24 @@
   - [`.get() (ПОЛУЧАЕТ ЗНАЧЕНИЕ)`](./JS/MAP/get.md)
   - [`.has() (ПРОВЕРЯЕТ НАЛИЧИЕ ЗНАЧЕНИЯ)`](./JS/MAP/has.md)
   - [`.keys() (ВОЗВРАЩАЕТ ИТЕРАТОР КЛЮЧЕЙ)`](./JS/MAP/keys.md)
-  - [`.set(СОХРАНЯЕТ ЗНАЧЕНИЕ В КОЛЛЕКЦИЮ) ()`](./JS/MAP/set.md)
-  - [`.size() (КОЛИЧЕСТВО ЗНАЧЕНИЙ)`](./JS/MAP/size.md)
+  - [`.set() (СОХРАНЯЕТ ЗНАЧЕНИЕ В КОЛЛЕКЦИЮ)`](./JS/MAP/set.md)
+  - [`.size (КОЛИЧЕСТВО ЗНАЧЕНИЙ)`](./JS/MAP/size.md)
   - [`.values() (ВОЗВРАЩАЕТ ИТЕРАТОР ЗНАЧЕНИЙ)`](./JS/MAP/values.md)
 
 ## REGEXP
 
 - [`new RegExp (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ)`](<./JS/REGEXP/new RegExp.md>)
-  - [`exec (ПОДРОБНЫЙ ПОИСК ОДНОГО СОВПАДЕНИЯ)`](./JS/REGEXP/exec.md)
-  - [`test (СООТВЕТСТВИЕ)`](./JS/REGEXP/test.md)
+  - [`.exec() (ПОДРОБНЫЙ ПОИСК ОДНОГО СОВПАДЕНИЯ)`](./JS/REGEXP/exec.md)
+  - [`.test() (СООТВЕТСТВИЕ)`](./JS/REGEXP/test.md)
 
 ## STRING
 
-- [`match (ПОИСК ВСЕХ СОВПАДЕНИЙ ПО REGEXP)`](./JS/STRING/match.md)
-- [`replace (ЗАМЕНА СОВПАДЕНИЯ ПО REGEXP)`](./JS/STRING/replace.md)
-- [`search (ПОИСК ИНДЕКСА ПО REGEXP)`](./JS/STRING/search.md)
-- [`split (РАЗДЕЛЕНИЕ НА МАССИВ ПО REGEXP)`](./JS/STRING/split.md)
+- [`.match() (ПОИСК ВСЕХ СОВПАДЕНИЙ ПО REGEXP)`](./JS/STRING/match.md)
+- [`.replace() (ЗАМЕНА СОВПАДЕНИЯ ПО REGEXP)`](./JS/STRING/replace.md)
+- [`.search() (ПОИСК ИНДЕКСА ПО REGEXP)`](./JS/STRING/search.md)
+- [`.split() (РАЗДЕЛЕНИЕ НА МАССИВ ПО REGEXP)`](./JS/STRING/split.md)
+
+## ELEMENT
+
+- [`.addEventListener() (ДОБАВЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/addEventListener.md)
+- [`.removeEventListener() (УДАЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/removeEventListener.md)
