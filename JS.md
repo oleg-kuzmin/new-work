@@ -50,3 +50,8 @@
 
 - [`.addEventListener() (ДОБАВЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/addEventListener.md)
 - [`.removeEventListener() (УДАЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/removeEventListener.md)
+
+## СОБЫТИЯ
+
+- [`blur (СНЯТИЕ ФОКУСА)`](./JS/СОБЫТИЯ/blur.md)
+- [`focus (УСТАНОВЛЕНИЕ ФОКУСА)`](./JS/СОБЫТИЯ/focus.md)
