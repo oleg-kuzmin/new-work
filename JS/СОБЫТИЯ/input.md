@@ -24,7 +24,7 @@
 _Событие для addEventListener_
 
 ```js
-input.addEventListener('change', function () {
+input.addEventListener('input', function () {
   console.log(input.value);
 });
 ```
