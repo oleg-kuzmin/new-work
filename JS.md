@@ -59,3 +59,8 @@
 - [`dblclick (ДВА СОБЫТИЯ CLICK ПОДРЯД)`](./JS/СОБЫТИЯ/dblclick.md)
 - [`focus (УСТАНОВЛЕНИЕ ФОКУСА)`](./JS/СОБЫТИЯ/focus.md)
 - [`input (ИЗМЕНЕНИЕ ЗНАЧЕНИЯ)`](./JS/СОБЫТИЯ/input.md)
+- [`mousedown (НАЖАТИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mousedown.md)
+- [`mousemove (ДВИЖЕНИЕ МЫШИ НАД ЭЛЕМЕНТОМ)`](./JS/СОБЫТИЯ/mousemove.md)
+- [`mouseout (УБИРАНИЕ КУРСОРА)`](./JS/СОБЫТИЯ/mouseout.md)
+- [`mouseover (НАВЕДЕНИЕ КУРСОРА)`](./JS/СОБЫТИЯ/mouseover.md)
+- [`mouseup (ОТПУСКАНИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mouseup.md)
