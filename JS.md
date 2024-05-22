@@ -85,10 +85,11 @@
 
 - [`.new Event() (КАСТОМНОЕ СОБЫТИЕ)`](<./JS/EVENT/new Event.md>)
 - [`.new CustomEvent() (КАСТОМНОЕ СОБЫТИЕ С ДАННЫМИ)`](<./JS/EVENT/new CustomEvent.md>)
-- [`Event (ОБЪЕКТ СОБЫТИЯ)`](./JS/EVENT/Event.md)
 
+- [`Event (ОБЪЕКТ СОБЫТИЯ)`](./JS/EVENT/Event.md)
   - [`.bubbles (ВСПЛЫВАЮЩЕЕ СОБЫТИЕ)`](./JS/EVENT/bubbles.md)
   - [`.cancelable (ОТМЕНЯЕМОЕ СОБЫТИЕ)`](./JS/EVENT/cancelable.md)
+  - [`.composedPath (ЭЛЕМЕНТЫ ГДЕ СРАБОТАЛО СОБЫТИЕ)`](./JS/EVENT/composedPath.md)
   - [`.currentTarget (ЭЛЕМЕНТ НА КОТОРОМ ВИСИТ ОБРАБОТЧИК)`](./JS/EVENT/currentTarget.md)
   - [`.defaultPrevented (СОБЫТИЕ ПО УМОЛЧАНИЮ ОТМЕНЕНО)`](./JS/EVENT/defaultPrevented.md)
   - [`.eventPhase (ФАЗА СОБЫТИЯ)`](./JS/EVENT/eventPhase.md)
