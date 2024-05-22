@@ -61,6 +61,7 @@
 - [`DOMContentLoaded (DOM ПОДГОТОВЛЕН)`](./JS/СОБЫТИЯ/DOMContentLoaded.md)
 - [`focus (УСТАНОВЛЕНИЕ ФОКУСА)`](./JS/СОБЫТИЯ/focus.md)
 - [`input (ИЗМЕНЕНИЕ ЗНАЧЕНИЯ)`](./JS/СОБЫТИЯ/input.md)
+- [`keydown (НАЖАТИЕ НА ЛЮБУЮ КЛАВИШУ)`](./JS/СОБЫТИЯ/keydown.md)
 - [`load (HTML И РЕСУРСЫ ЗАГРУЖЕНЫ)`](./JS/СОБЫТИЯ/load.md)
 - [`mousedown (НАЖАТИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mousedown.md)
 - [`mousemove (ДВИЖЕНИЕ МЫШИ НАД ЭЛЕМЕНТОМ)`](./JS/СОБЫТИЯ/mousemove.md)
