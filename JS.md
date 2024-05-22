@@ -68,6 +68,7 @@
 - [`mouseover (НАВЕДЕНИЕ КУРСОРА МЫШИ)`](./JS/СОБЫТИЯ/mouseover.md)
 - [`mouseup (ОТПУСКАНИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mouseup.md)
 - [`pointermove (ДВИЖЕНИЕ МЫШИ В ЛЮБОМ МЕСТЕ)`](./JS/СОБЫТИЯ/pointermove.md)
+- [`onresize (ИЗМЕНЕНИЕ ОКНА БРАУЗЕРА)`](./JS/СОБЫТИЯ/resize.md)
 - [`scroll (ПРОКРУТКА СТРАНИЦЫ)`](./JS/СОБЫТИЯ/scroll.md)
 - [`storage (ОБНОВЛЕНИЕ LOCAL ИЛИ SESSION STORAGE)`](./JS/СОБЫТИЯ/storage.md)
 - [`submit (ОТПРАВКА ФОРМЫ)`](./JS/СОБЫТИЯ/submit.md)
