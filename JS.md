@@ -87,6 +87,9 @@
 - [`.new CustomEvent() (КАСТОМНОЕ СОБЫТИЕ С ДАННЫМИ)`](<./JS/EVENT/new CustomEvent.md>)
 - [`Event (ОБЪЕКТ СОБЫТИЯ)`](./JS/EVENT/Event.md)
   - [`.bubbles (ВСПЛЫВАЮЩЕЕ СОБЫТИЕ)`](./JS/EVENT/bubbles.md)
-  - [`.currentTarget (ЭЛЕМЕНТ НА КОТОРОМ ВИСИТ ОБРАБОТЧИК)`](./JS/EVENT/currentTarget.md)
   - [`.cancelable (ОТМЕНЯЕМОЕ СОБЫТИЕ)`](./JS/EVENT/cancelable.md)
+  - [`.currentTarget (ЭЛЕМЕНТ НА КОТОРОМ ВИСИТ ОБРАБОТЧИК)`](./JS/EVENT/currentTarget.md)
+  - [`.defaultPrevented (СОБЫТИЕ ПО УМОЛЧАНИЮ ОТМЕНЕНО)`](./JS/EVENT/defaultPrevented.md)
+  - [`.eventPhase (ФАЗА СОБЫТИЯ)`](./JS/EVENT/eventPhase.md)
+
   - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
