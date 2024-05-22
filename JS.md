@@ -86,5 +86,6 @@
 - [`.new Event() (КАСТОМНОЕ СОБЫТИЕ)`](<./JS/EVENT/new Event.md>)
 - [`.new CustomEvent() (КАСТОМНОЕ СОБЫТИЕ С ДАННЫМИ)`](<./JS/EVENT/new CustomEvent.md>)
 - [`Event (ОБЪЕКТ СОБЫТИЯ)`](./JS/EVENT/Event.md)
-  - [`.bubbles (ВСПЛЫВАЕТ ЛИ СОБЫТИЕ)`](./JS/EVENT/bubbles.md)
+  - [`.bubbles (ВСПЛЫВАЮЩЕЕ СОБЫТИЕ)`](./JS/EVENT/bubbles.md)
+  - [`.cancelable (ОТМЕНЯЕМОЕ СОБЫТИЕ)`](./JS/EVENT/cancelable.md)
   - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
