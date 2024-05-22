@@ -1,0 +1,40 @@
+# `target`
+
+Cсылка на объект, которым было инициировано событие. Например, если событие произошло на поле ввода, мы получим ссылку на этот DOM элемент.
+
+Свойство `evt.target` никак не зависит от того, куда вы повесили обработчик. Куда бы вы ни нажали, в `evt.target` попадёт самый глубокий элемент DOM-дерева из всех, где сработало событие.
+
+## Синтаксис
+
+```js
+event.target;
+```
+
+## Возвращает
+
+### `element`
+
+Элемент, на котором было инициировано событие.
+
+## Пример
+
+```js
+// Создадим список
+var ul = document.createElement('ul');
+document.body.appendChild(ul);
+
+var li1 = document.createElement('li');
+var li2 = document.createElement('li');
+ul.appendChild(li1);
+ul.appendChild(li2);
+
+function hide(e) {
+  // e.target ссылается на кликнутый <li> элемент
+  // Он отличается от e.currentTarget который будет ссылаться на родительский <ul> в этом контексте
+  e.target.style.visibility = 'hidden';
+}
+
+// Назначим обработчик к списку
+// Он будет вызван когда кликнут на любой <li>
+ul.addEventListener('click', hide, false);
+```
