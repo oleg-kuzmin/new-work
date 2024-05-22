@@ -95,6 +95,7 @@
   - [`.eventPhase (ФАЗА СОБЫТИЯ)`](./JS/EVENT/eventPhase.md)
   - [`.isTrusted (ПОЛЬЗОВАТЕЛЬСКОЕ СОБЫТИЕ)`](./JS/EVENT/isTrusted.md)
   - [`.preventDefault() (ОТМЕНЯЕТ ПОВЕДЕНИЕ ПО УМОЛЧАНЮ)`](./JS/EVENT/preventDefault.md)
+  - [`.stopImmediatePropagation() (ОСТАНОВКА ВСПЛЫТИЯ И ОБРАБОТЧИКОВ)`](./JS/EVENT/stopImmediatePropagation.md)
   - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
   - [`.target (ЭЛЕМЕНТ ГДЕ ПРОИЗОШЛО СОБЫТИЕ)`](./JS/EVENT/target.md)
   - [`.timeStamp (ВРЕМЯ ВОЗНИКНОВЕНИЯ СОБЫТИЙ)`](./JS/EVENT/timeStamp.md)
