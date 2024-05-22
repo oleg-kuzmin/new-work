@@ -70,5 +70,6 @@
 - [`pointermove (ДВИЖЕНИЕ МЫШИ В ЛЮБОМ МЕСТЕ)`](./JS/СОБЫТИЯ/pointermove.md)
 - [`scroll (ПРОКРУТКА СТРАНИЦЫ)`](./JS/СОБЫТИЯ/scroll.md)
 - [`storage (ОБНОВЛЕНИЕ LOCAL ИЛИ SESSION STORAGE)`](./JS/СОБЫТИЯ/storage.md)
+- [`submit (ОТПРАВКА ФОРМЫ)`](./JS/СОБЫТИЯ/submit.md)
 - [`unhandledrejection (ОТСУТСТВУЕТ ОБРАБОТЧИК ОШИБКИ PROMISE)`](./JS/СОБЫТИЯ/unhandledrejection.md)
 - [`wheel (ПРОКРУТКА КОЛЕСА МЫШИ)`](./JS/СОБЫТИЯ/wheel.md)
