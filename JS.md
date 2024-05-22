@@ -49,6 +49,7 @@
 ## ELEMENT
 
 - [`.addEventListener() (ДОБАВЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/addEventListener.md)
+- [`.dispatchEvent() (ЗАПУСКАЕТ КАСТОМНОЕ СОБЫТИЕ)`](./JS/ELEMENT/dispatchEvent.md)
 - [`.removeEventListener() (УДАЛЕНИЕ СЛУШАТЕЛЯ)`](./JS/ELEMENT/removeEventListener.md)
 
 ## СОБЫТИЯ
@@ -70,6 +71,7 @@
 - [`mouseout (УБИРАНИЕ КУРСОРА МЫШИ)`](./JS/СОБЫТИЯ/mouseout.md)
 - [`mouseover (НАВЕДЕНИЕ КУРСОРА МЫШИ)`](./JS/СОБЫТИЯ/mouseover.md)
 - [`mouseup (ОТПУСКАНИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mouseup.md)
+- [`offline (ОТКЛЮЧЕНИЕ ИНТЕРНЕТА)`](./JS/СОБЫТИЯ/offline.md)
 - [`orientationchange (ИЗМЕНЕНИЕ ОРИЕНТАЦИИ ЭКРАНА)`](./JS/СОБЫТИЯ/orientationchange.md)
 - [`pointermove (ДВИЖЕНИЕ МЫШИ В ЛЮБОМ МЕСТЕ)`](./JS/СОБЫТИЯ/pointermove.md)
 - [`onresize (ИЗМЕНЕНИЕ ОКНА БРАУЗЕРА)`](./JS/СОБЫТИЯ/resize.md)
@@ -78,3 +80,11 @@
 - [`submit (ОТПРАВКА ФОРМЫ)`](./JS/СОБЫТИЯ/submit.md)
 - [`unhandledrejection (ОТСУТСТВУЕТ ОБРАБОТЧИК ОШИБКИ PROMISE)`](./JS/СОБЫТИЯ/unhandledrejection.md)
 - [`wheel (ПРОКРУТКА КОЛЕСА МЫШИ)`](./JS/СОБЫТИЯ/wheel.md)
+
+## EVENT
+
+- [`.new Event() (КАСТОМНОЕ СОБЫТИЕ)`](<./JS/EVENT/new Event.md>)
+- [`.new CustomEvent() (КАСТОМНОЕ СОБЫТИЕ С ДАННЫМИ)`](<./JS/EVENT/new CustomEvent.md>)
+- [`Event (ОБЪЕКТ СОБЫТИЯ)`](./JS/EVENT/Event.md)
+  - [`.bubbles (ВСПЛЫВАЕТ ЛИ СОБЫТИЕ)`](./JS/EVENT/bubbles.md)
+  - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
