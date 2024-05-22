@@ -100,3 +100,4 @@
   - [`.target (ЭЛЕМЕНТ ГДЕ ПРОИЗОШЛО СОБЫТИЕ)`](./JS/EVENT/target.md)
   - [`.timeStamp (ВРЕМЯ ВОЗНИКНОВЕНИЯ СОБЫТИЙ)`](./JS/EVENT/timeStamp.md)
   - [`.type (ТИП СОБЫТИЯ)`](./JS/EVENT/type.md)
+  - [`.view (WINDOW ГДЕ ПРОИЗОШЛО СОБЫТИЕ)`](./JS/EVENT/view.md)
