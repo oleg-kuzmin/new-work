@@ -95,4 +95,5 @@
   - [`.isTrusted (ПОЛЬЗОВАТЕЛЬСКОЕ СОБЫТИЕ)`](./JS/EVENT/isTrusted.md)
   - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
   - [`.target (ЭЛЕМЕНТ ГДЕ ПРОИЗОШЛО СОБЫТИЕ)`](./JS/EVENT/target.md)
+  - [`.timeStamp (ВРЕМЯ ВОЗНИКНОВЕНИЯ СОБЫТИЙ)`](./JS/EVENT/timeStamp.md)
   - [`.type (ТИП СОБЫТИЯ)`](./JS/EVENT/type.md)

@@ -1,0 +1,32 @@
+# `timeStamp`
+
+Время возникновения события в миллисекундах.
+
+Не все системы предоставляют эту информацию, поэтому метка времени может быть доступна не для всех систем/событий.
+
+## Синтаксис
+
+```js
+event.timeStamp;
+```
+
+## Возвращает
+
+### `number`
+
+Количество миллисекунд с момента завершения загрузки документа до создания определенного события.
+
+## Пример
+
+```html
+<p>Focus this iframe and press any key to get the current timestamp for the keypress event.</p>
+<p>timeStamp: <span id="time">-</span></p>
+```
+
+```js
+function getTime(event) {
+  const time = document.getElementById('time');
+  time.firstChild.nodeValue = event.timeStamp;
+}
+document.body.addEventListener('keypress', getTime);
+```
