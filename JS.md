@@ -69,4 +69,5 @@
 - [`mouseup (ОТПУСКАНИЕ ЛЮБОЙ КНОПКИ МЫШИ)`](./JS/СОБЫТИЯ/mouseup.md)
 - [`pointermove (ДВИЖЕНИЕ МЫШИ В ЛЮБОМ МЕСТЕ)`](./JS/СОБЫТИЯ/pointermove.md)
 - [`scroll (ПРОКРУТКА СТРАНИЦЫ)`](./JS/СОБЫТИЯ/scroll.md)
-- [`wheel (ПРОКРУТКА КОЛЕСА МЫШИ)`](./JS/СОБЫТИЯ/wheel.md)-
+- [`unhandledrejection (ОТСУТСТВУЕТ ОБРАБОТЧИК ОШИБКИ PROMISE)`](./JS/СОБЫТИЯ/unhandledrejection.md)
+- [`wheel (ПРОКРУТКА КОЛЕСА МЫШИ)`](./JS/СОБЫТИЯ/wheel.md)
