@@ -1,13 +1,13 @@
-# `composedPath`
+# `composedPath()`
 
-Массив объектов, где будут вызываться слушатели.
+Метод возвращает массив объектов, где будут вызываться слушатели.
 
 Сюда не входят узлы Shadow Dom.
 
 ## Синтаксис
 
 ```js
-event.composedPath;
+event.composedPath();
 ```
 
 ## Возвращает
@@ -19,7 +19,7 @@ event.composedPath;
 ## Пример
 
 ```js
-function func1(event) {
+function func(event) {
   alert(event.composedPath());
 }
 ```
