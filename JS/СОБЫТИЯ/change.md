@@ -25,7 +25,7 @@ select.addEventListener('change', function () {
 });
 ```
 
-_Свойство элемента onchange_
+_Свойство элемента_
 
 ```js
 select.onchange = function () {

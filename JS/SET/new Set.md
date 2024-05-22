@@ -30,7 +30,7 @@ const set = new Set([итерируемый список значений])
 
 ## Пример
 
-_Базовый пример:_
+_Базовый пример_
 
 ```js
 const uniqueIds = new Set();
@@ -50,7 +50,7 @@ uniqueIds.clear();
 console.log(uniqueIds.size); // 0
 ```
 
-_Пример forEach:_
+_Пример forEach_
 
 ```js
 const filled = new Set([1, 2, 3, 3, 3, 'hello']);
@@ -65,7 +65,7 @@ filled.forEach(function (value) {
 // 'hello'
 ```
 
-_Пример for...of:_
+_Пример for...of_
 
 ```js
 const filled = new Set([1, 2, 3, 3, 3, 'hello']);

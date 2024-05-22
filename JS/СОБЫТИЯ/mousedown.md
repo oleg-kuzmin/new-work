@@ -12,7 +12,7 @@ button.addEventListener('mousedown', function () {
 });
 ```
 
-_Свойство элемента onmousedown_
+_Свойство элемента_
 
 ```js
 button.onmousedown = function () {

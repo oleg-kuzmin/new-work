@@ -16,7 +16,7 @@ button.addEventListener('click', function () {
 });
 ```
 
-_Свойство элемента onclick_
+_Свойство элемента_
 
 ```js
 button.onclick = function () {

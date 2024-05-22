@@ -16,7 +16,7 @@ element.addEventListener('mouseout', function () {
 });
 ```
 
-_Свойство элемента onmouseout_
+_Свойство элемента_
 
 ```js
 element.onmouseout = function () {

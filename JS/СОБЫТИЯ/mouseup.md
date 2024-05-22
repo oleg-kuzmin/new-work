@@ -20,7 +20,7 @@ document.addEventListener('mouseup', function () {
 });
 ```
 
-_Свойство элемента onmouseup_
+_Свойство элемента_
 
 ```js
 document.onmouseup = function () {

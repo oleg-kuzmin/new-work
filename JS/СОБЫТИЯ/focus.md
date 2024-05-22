@@ -18,7 +18,7 @@ window.addEventListener('focus', function () {
 });
 ```
 
-_Свойство элемента onfocus_
+_Свойство элемента_
 
 ```js
 element.onfocus = function () {

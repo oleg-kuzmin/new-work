@@ -29,7 +29,7 @@ input.addEventListener('input', function () {
 });
 ```
 
-_Свойство элемента oninput_
+_Свойство элемента_
 
 ```js
 input.oninput = function () {

@@ -12,7 +12,7 @@ button.addEventListener('dblclick', function () {
 });
 ```
 
-_Свойство элемента ondblclick_
+_Свойство элемента_
 
 ```js
 button.ondblclick = function () {

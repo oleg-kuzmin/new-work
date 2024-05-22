@@ -16,7 +16,7 @@ element.addEventListener('mouseover', function () {
 });
 ```
 
-_Свойство элемента onmouseover_
+_Свойство элемента_
 
 ```js
 element.onmouseover = function () {

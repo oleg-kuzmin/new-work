@@ -18,7 +18,7 @@ window.addEventListener('blur', function () {
 });
 ```
 
-_Свойство элемента onblur_
+_Свойство элемента_
 
 ```js
 element.onblur = function () {

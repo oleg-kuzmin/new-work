@@ -25,7 +25,7 @@ collection.forEach(callback);
 
 ## Пример
 
-_Использование forEach:_
+_Использование forEach_
 
 ```js
 const map = new Map();
@@ -42,7 +42,7 @@ map.forEach((value, key) => {
 // js - JavaScript
 ```
 
-_Использование for of:_
+_Использование for of_
 
 ```js
 const map = new Map();
