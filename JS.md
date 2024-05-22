@@ -91,5 +91,7 @@
   - [`.currentTarget (ЭЛЕМЕНТ НА КОТОРОМ ВИСИТ ОБРАБОТЧИК)`](./JS/EVENT/currentTarget.md)
   - [`.defaultPrevented (СОБЫТИЕ ПО УМОЛЧАНИЮ ОТМЕНЕНО)`](./JS/EVENT/defaultPrevented.md)
   - [`.eventPhase (ФАЗА СОБЫТИЯ)`](./JS/EVENT/eventPhase.md)
+  - [`.isTrusted (ПОЛЬЗОВАТЕЛЬСКОЕ СОБЫТИЕ)`](./JS/EVENT/isTrusted.md)
+
 
   - [`.stopPropagation() (ОСТАНОВКА ВСПЛЫТИЯ СОБЫТИЯ)`](./JS/EVENT/stopPropagation.md)
