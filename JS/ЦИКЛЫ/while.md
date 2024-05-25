@@ -59,7 +59,7 @@ while (count) {
 // напечатает 5, 4, 3, 2, 1
 ```
 
-_Пример break:_
+_Пример break_
 
 ```js
 let count = 5;
@@ -72,7 +72,7 @@ while (count > 0) {
 }
 ```
 
-_Пример continue:_
+_Пример continue_
 
 ```js
 let count = 5;
