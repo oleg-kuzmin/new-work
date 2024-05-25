@@ -8,24 +8,21 @@
   }
 </style>
 
-## Promise
-
-- [`new Promise()`](<./PROMISE/new Promise.md>) создает promise
-  - [`.resolve()`](./PROMISE/resolve.md) создает выполненный успешно promise
-  - [`.reject()`](./PROMISE/reject.md) создает выполненный с ошибкой promise
-  - [`.all()`](./PROMISE/reject.md) все promise выполнены успешно
-  - [`.allSettled()`](./PROMISE/allSettled.md) все promise выполнены
-  - [`.any()`](./PROMISE/any.md) первый успешно выполненный promise
-  - [`.race()`](./PROMISE/race.md) первый выполненный promise
-
 ## Function
 
 - [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
 
 ## Async
 
-- [`Статусы запросов`](<./ASYNC/Статусы запросов.md>)
 - [`Асинхронные функции`](<./ASYNC/Асинхронные функции.md>)
+- [`Статусы запросов`](<./ASYNC/Статусы запросов.md>)
+- [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
+  - [`.resolve()`](./ASYNC/PROMISE/resolve.md) создает выполненный успешно promise
+  - [`.reject()`](./ASYNC/PROMISE/reject.md) создает выполненный с ошибкой promise
+  - [`.all()`](./ASYNC/PROMISE/reject.md) все promise выполнены успешно
+  - [`.allSettled()`](./ASYNC/PROMISE/allSettled.md) все promise выполнены
+  - [`.any()`](./ASYNC/PROMISE/any.md) первый успешно выполненный promise
+  - [`.race()`](./ASYNC/PROMISE/race.md) первый выполненный promise
 
 ## ООП
 
