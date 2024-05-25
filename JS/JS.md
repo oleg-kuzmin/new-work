@@ -8,6 +8,10 @@
   }
 </style>
 
+## Object
+
+- [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
+
 ## Function
 
 - [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
