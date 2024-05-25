@@ -17,6 +17,7 @@ Promise.race(arrayPromises);
 ### `object promise`
 
 `.state` - `fulfilled` || `rejected`
+
 `.result` - `value` || `error`
 
 ## Пример

@@ -17,6 +17,7 @@ Promise.resolve(value);
 ### `object promise`
 
 `.state` - `fulfilled`
+
 `.result` - `value`
 
 ## Пример

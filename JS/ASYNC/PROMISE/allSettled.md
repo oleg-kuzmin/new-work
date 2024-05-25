@@ -17,18 +17,19 @@ Promise.allSettled(arrayPromises);
 ### `object promise`
 
 `.state` - `fulfilled`
+
 `.result` - массив объектов, при этом сохраняется порядок оригинального (переданного) массива, но не порядок выполнения.
 
 ```js
 // fulfilled
 {
-  status:"fulfilled",
+  status: "fulfilled",
   value: {объект responce}
 }
 
 // rejected
 {
-  status:"rejected",
+  status: "rejected",
   reason: {объект error}
 }
 ```

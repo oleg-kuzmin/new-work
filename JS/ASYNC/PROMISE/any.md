@@ -19,6 +19,7 @@ Promise.any(arrayPromises);
 ### `object promise`
 
 `.state` - `fulfilled`
+
 `.result` - `value`
 
 ## Пример

@@ -14,8 +14,9 @@
 
 ## Async
 
-- [`Асинхронные функции`](<./ASYNC/Асинхронные функции.md>)
-- [`Статусы запросов`](<./ASYNC/Статусы запросов.md>)
+- [`async await`](<./ASYNC/Async await.md>) асинхронные функции
+- [`fetch`](./ASYNC/fetch.md) асинхронный запрос на сервер
+- [`responce.status`](./ASYNC/responce.status.md) статусы запросов
 - [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
   - [`.resolve()`](./ASYNC/PROMISE/resolve.md) создает выполненный успешно promise
   - [`.reject()`](./ASYNC/PROMISE/reject.md) создает выполненный с ошибкой promise

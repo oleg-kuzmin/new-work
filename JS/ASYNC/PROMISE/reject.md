@@ -17,6 +17,7 @@ Promise.reject(error);
 ### `object promise`
 
 `.state` - `rejected`
+
 `.result` - `error`
 
 ## Пример
