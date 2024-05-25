@@ -11,6 +11,7 @@
 ## Object
 
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
 ## Function
 
