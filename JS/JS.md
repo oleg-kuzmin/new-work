@@ -8,6 +8,13 @@
   }
 </style>
 
+## Promise
+
+- [`new Promise()`](<./PROMISE/new Promise.md>) создает promise
+  - [`.resolve()`](./PROMISE/resolve.md) создает выполненный успешно promise
+  - [`.reject()`](./PROMISE/reject.md) создает выполненный с ошибкой promise
+  - [`.all()`](./PROMISE/reject.md) все promise выполнены успешно
+
 ## Function
 
 - [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
@@ -55,7 +62,7 @@
 
 ## Set
 
-- [`new Set`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
+- [`new Set()`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
   - [`.add()`](./SET/add.md) добавляет значение в коллекцию
   - [`.clear()`](./SET/clear.md) удаляет все значения
   - [`.delete()`](./SET/delete.md) удаляет значение из коллекции
@@ -65,7 +72,7 @@
 
 ## Map
 
-- [`new Map`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
+- [`new Map()`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
   - [`.clear()`](./MAP/clear.md) удаляет все значения
   - [`.delete()`](./MAP/delete.md) удаляет значение из коллекции
   - [`.entries()`](./MAP/entries.md) возвращает итератор пар ключ-значение
@@ -79,7 +86,7 @@
 
 ## RegExp
 
-- [`new RegExp`](<./REGEXP/new RegExp.md>) создает регулярное выражение
+- [`new RegExp()`](<./REGEXP/new RegExp.md>) создает регулярное выражение
   - [`.exec()`](./REGEXP/exec.md) подробный поиск одного совпадения
   - [`.test()`](./REGEXP/test.md) соответствие
 
