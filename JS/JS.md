@@ -15,6 +15,8 @@
   - [`.reject()`](./PROMISE/reject.md) создает выполненный с ошибкой promise
   - [`.all()`](./PROMISE/reject.md) все promise выполнены успешно
   - [`.allSettled()`](./PROMISE/allSettled.md) все promise выполнены
+  - [`.any()`](./PROMISE/any.md) первый успешно выполненный promise
+  - [`.race()`](./PROMISE/race.md) первый выполненный promise
 
 ## Function
 
