@@ -14,6 +14,7 @@
   - [`.resolve()`](./PROMISE/resolve.md) создает выполненный успешно promise
   - [`.reject()`](./PROMISE/reject.md) создает выполненный с ошибкой promise
   - [`.all()`](./PROMISE/reject.md) все promise выполнены успешно
+  - [`.allSettled()`](./PROMISE/allSettled.md) все promise выполнены
 
 ## Function
 

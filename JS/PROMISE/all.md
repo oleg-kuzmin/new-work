@@ -18,24 +18,25 @@ Promise.all(arrayPromises);
 
 ### `object promise`
 
+`.state` - `fulfilled`
+`.result` - массив значений всех переданных промисов, при этом сохраняется порядок оригинального (переданного) массива, но не порядок выполнения.
+
 ## Пример
 
 ```js
 // Создаём первый промис
-const firstPromise = new Promise((resolve, reject) => {
+const promise1 = new Promise((resolve, reject) => {
   resolve('Первый промис');
 });
 
 // Создаём второй промис
-const secondPromise = new Promise((resolve, reject) => {
+const promise2 = new Promise((resolve, reject) => {
   resolve('Второй промис');
 });
 
-// Создаём массив с промисами
-const promises = [firstPromise, secondPromise];
-
 // Передаём массив с промисами методу all()
-Promise.all(promises).then(results => {
-  console.log(results); // ["Первый промис", "Второй промис"]
+Promise.all([promise1, promise2]).then(([response1, response2]) => {
+  console.log(response1); // "Первый промис"
+  console.log(response2); // "Второй промис"
 });
 ```
