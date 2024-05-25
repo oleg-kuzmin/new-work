@@ -17,13 +17,16 @@
 - [`async await`](<./ASYNC/Async await.md>) асинхронные функции
 - [`fetch()`](./ASYNC/fetch.md) запрос на сервер
 - [`responce.status`](./ASYNC/responce.status.md) статусы запросов
+- [`.then()`](./ASYNC/then.md) обработчик выполненного promise
+- [`.catch()`](./ASYNC/catch.md) обработчик отклоненного promise
+- [`.finally()`](./ASYNC/finally.md) обработчик завершенного promise
 - [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
-  - [`.resolve()`](./ASYNC/PROMISE/resolve.md) создает выполненный успешно promise
-  - [`.reject()`](./ASYNC/PROMISE/reject.md) создает выполненный с ошибкой promise
-  - [`.all()`](./ASYNC/PROMISE/reject.md) все promise выполнены успешно
-  - [`.allSettled()`](./ASYNC/PROMISE/allSettled.md) все promise выполнены
-  - [`.any()`](./ASYNC/PROMISE/any.md) первый успешно выполненный promise
-  - [`.race()`](./ASYNC/PROMISE/race.md) первый выполненный promise
+  - [`.resolve()`](./ASYNC/PROMISE/resolve.md) создает выполненный promise
+  - [`.reject()`](./ASYNC/PROMISE/reject.md) создает отклоненный promise
+  - [`.all()`](./ASYNC/PROMISE/all.md) все promise выполнены
+  - [`.allSettled()`](./ASYNC/PROMISE/allSettled.md) все promise завершены
+  - [`.any()`](./ASYNC/PROMISE/any.md) первый выполненный promise
+  - [`.race()`](./ASYNC/PROMISE/race.md) первый завершенный promise
 
 ## ООП
 
