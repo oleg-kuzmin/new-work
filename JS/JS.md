@@ -13,8 +13,13 @@
 - [`console.dir()`](./WINDOW/console.dir.md) выведет в консоль содержимое
 - [`console.log()`](./WINDOW/console.log.md) выведет в консоль свойства
 - [`console.table()`](./WINDOW/console.table.md) выведет в консоль таблицу
+- [`getComputedStyle()`](./WINDOW/getComputedStyle.md) возвращает объект со стилями
+- [`isFinite()`](./WINDOW/isFinite.md) проверяет преобразованное число на конечность
+- [`isNaN()`](./WINDOW/isNaN.md) проверяет преобразованное число на NaN
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
+- [`window.innerHeight`](./WINDOW/innerHeight.md) высота окна браузера
+- [`window.innerWidth`](./WINDOW/innerWidth.md) ширина окна браузера
 
 ## Object
 
