@@ -20,6 +20,10 @@
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
 - [`window.innerHeight`](./WINDOW/innerHeight.md) высота окна браузера
 - [`window.innerWidth`](./WINDOW/innerWidth.md) ширина окна браузера
+- [`window.scroll()`](./WINDOW/window.scroll.md) прокрутит окно браузера
+- [`window.scrollTo()`](./WINDOW/window.scrollTo.md) прокрутит окно браузера
+- [`window.scrollX`](./WINDOW/window.scrollX.md) прокрутка окна браузера по горизонтали
+- [`window.scrollY`](./WINDOW/window.scrollY.md) прокрутка окна браузера по вертикали
 
 ## Object
 
