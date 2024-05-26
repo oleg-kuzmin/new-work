@@ -2,15 +2,12 @@
   * {
     user-select: none;    
   }
-  li, ul {
-    padding: 0;
-    margin: 0;
-  }
 </style>
 
 ## Object
 
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
+- [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
