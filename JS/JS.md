@@ -16,6 +16,13 @@
 - [`getComputedStyle()`](./WINDOW/getComputedStyle.md) объект со стилями
 - [`isFinite()`](./WINDOW/isFinite.md) проверяет преобразованное число на конечность
 - [`isNaN()`](./WINDOW/isNaN.md) проверяет преобразованное число на NaN
+- [`localStorage`](./WINDOW/localStorage.md) локальное хранилище данных
+  - [`localStorage.clear()`](./WINDOW/localStorage.clear.md) полная очистка хранилища
+  - [`localStorage.getItem()`](./WINDOW/localStorage.getItem.md) получение значения по ключу
+  - [`localStorage.key()`](./WINDOW/localStorage.key.md) получение ключа по индексу
+  - [`localStorage.length`](./WINDOW/localStorage.length.md) количество записей в хранилище
+  - [`localStorage.removeItem()`](./WINDOW/localStorage.removeItem.md) удаление записи из хранилища
+  - [`localStorage.setItem()`](./WINDOW/localStorage.setItem.md) сохранение данных в хранилище
 - [`navigator`](./WINDOW/navigator.md) объект описания приложения
   - [`navigator.cookieEnabled`](./WINDOW/navigator.cookieEnabled.md) включена ли поддержка cookie
   - [`navigator.geolocation`](./WINDOW/navigator.geolocation.md) объект геолокации
