@@ -19,6 +19,7 @@
 - [`prompt()`](./WINDOW/prompt.md) модальное окно с вводом
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
+- [`typeof`](./WINDOW/typeof.md) оператор проверки типа
 - [`window.innerHeight`](./WINDOW/innerHeight.md) высота окна браузера
 - [`window.innerWidth`](./WINDOW/innerWidth.md) ширина окна браузера
 - [`window.scroll()`](./WINDOW/window.scroll.md) прокрутит окно браузера
@@ -28,10 +29,9 @@
 
 ## Object
 
-- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
+- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
@@ -43,6 +43,7 @@
 - [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
 ## Function
 
@@ -52,9 +53,9 @@
 
 - [`async await`](<./ASYNC/async await.md>) асинхронные функции
 - [`fetch()`](./ASYNC/FETCH/fetch.md) запрос на сервер
+  - [`responce.ok`](./ASYNC/FETCH/responce.ok.md) успешность ответа
   - [`responce.status`](./ASYNC/FETCH/responce.status.md) статус ответа
   - [`responce.statusText`](./ASYNC/FETCH/responce.statusText.md) сообщение статуса ответа
-  - [`responce.ok`](./ASYNC/FETCH/responce.ok.md) успешность ответа
   - [`responce.json()`](./ASYNC/FETCH/responce.json.md) преобразует json-ответ в объект js
   - [`responce.text()`](./ASYNC/FETCH/responce.text.md) преобразует json-ответ в текст
   - [`responce.blob()`](./ASYNC/FETCH/responce.blob.md) преобразует json-ответ в бинарные данные
