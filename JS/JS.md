@@ -8,6 +8,7 @@
 
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
