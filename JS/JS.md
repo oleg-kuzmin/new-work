@@ -4,6 +4,14 @@
   }
 </style>
 
+## Window
+
+- [`alert()`](./WINDOW/alert.md) модальное окно с текстом
+- [`clearInterval()`](./WINDOW/clearInterval.md) удаление интервала
+- [`clearTimeout()`](./WINDOW/clearTimeout.md) удаление таймера
+- [`setInterval()`](./WINDOW/setInterval.md) установка интервала
+- [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
+
 ## Object
 
 - [`in`](./OBJECT/in.md) оператор проверки наличия ключа
