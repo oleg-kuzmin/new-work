@@ -16,6 +16,7 @@
 - [`getComputedStyle()`](./WINDOW/getComputedStyle.md) возвращает объект со стилями
 - [`isFinite()`](./WINDOW/isFinite.md) проверяет преобразованное число на конечность
 - [`isNaN()`](./WINDOW/isNaN.md) проверяет преобразованное число на NaN
+- [`prompt()`](./WINDOW/prompt.md) модальное окно с вводом
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
 - [`window.innerHeight`](./WINDOW/innerHeight.md) высота окна браузера
