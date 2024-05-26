@@ -1,0 +1,32 @@
+# `Object.entries()`
+
+Метод возвращает массив, состоящий из элементов - других массивов [ 'ключ', значение ].
+
+## Синтаксис
+
+```js
+Object.entries(someObject);
+```
+
+### `someObject`
+
+Объект, который должен будет преобразован в массив.
+
+## Возвращает
+
+### `array (Массив)`
+
+Созданный массив.
+
+## Пример
+
+```js
+const person = {
+  name: 'Oleg',
+  isProgrammer: true,
+  cars: ['Lada', 'Porshe'],
+};
+
+console.log(Object.entries(person));
+// [ ['name', 'Oleg'], ['isProgrammer', true], ['cars', ['Lada', 'Porshe'] ] ]
+```

@@ -13,6 +13,7 @@
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
+- [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
 
 ## Function
 
