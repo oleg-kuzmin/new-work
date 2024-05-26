@@ -14,6 +14,13 @@
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
 - [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
+- [`Object.getOwnPropertyNames()`](./OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
+- [`Object.getOwnPropertySymbols()`](./OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
+- [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) возвращает объект прототипа
+- [`Object.hasOwn()`](./OBJECT/Object.hasOwn.md) проверяет собственное ли свойство
+- [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
+- [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
+- [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
 
 ## Function
 
