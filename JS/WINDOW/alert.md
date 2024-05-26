@@ -11,7 +11,7 @@
 ## Синтаксис
 
 ```js
-alert('message');
+alert(message);
 ```
 
 ### `message (Строка)`

@@ -9,6 +9,10 @@
 - [`alert()`](./WINDOW/alert.md) модальное окно с текстом
 - [`clearInterval()`](./WINDOW/clearInterval.md) удаление интервала
 - [`clearTimeout()`](./WINDOW/clearTimeout.md) удаление таймера
+- [`confirm()`](./WINDOW/confirm.md) модальное окно с вопросом
+- [`console.dir()`](./WINDOW/console.dir.md) выведет в консоль содержимое
+- [`console.log()`](./WINDOW/console.log.md) выведет в консоль свойства
+- [`console.table()`](./WINDOW/console.table.md) выведет в консоль таблицу
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
 
