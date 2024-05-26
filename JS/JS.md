@@ -8,10 +8,11 @@
 
 - [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
+- [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
-  - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-  - [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
+- [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
 
 ## Function
 
