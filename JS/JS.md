@@ -6,11 +6,12 @@
 
 ## Object
 
-- [`delete`](./OBJECT/delete.md) оператор удаления свойства
-- [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
 - [`in`](./OBJECT/in.md) оператор проверки наличия ключа
+- [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
-- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
+  - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+  - [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
+- [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 
 ## Function
 
@@ -18,19 +19,25 @@
 
 ## Async
 
-- [`async await`](<./ASYNC/Async await.md>) асинхронные функции
-- [`fetch()`](./ASYNC/fetch.md) запрос на сервер
-- [`responce.status`](./ASYNC/responce.status.md) статусы запросов
-- [`.then()`](./ASYNC/then.md) обработчик выполненного promise
-- [`.catch()`](./ASYNC/catch.md) обработчик отклоненного promise
-- [`.finally()`](./ASYNC/finally.md) обработчик завершенного promise
+- [`async await`](<./ASYNC/async await.md>) асинхронные функции
+- [`fetch()`](./ASYNC/FETCH/fetch.md) запрос на сервер
+  - [`responce.status`](./ASYNC/FETCH/responce.status.md) статус ответа
+  - [`responce.statusText`](./ASYNC/FETCH/responce.statusText.md) сообщение статуса ответа
+  - [`responce.ok`](./ASYNC/FETCH/responce.ok.md) успешность ответа
+  - [`responce.json()`](./ASYNC/FETCH/responce.json.md) преобразует json-ответ в объект js
+  - [`responce.text()`](./ASYNC/FETCH/responce.text.md) преобразует json-ответ в текст
+  - [`responce.blob()`](./ASYNC/FETCH/responce.blob.md) преобразует json-ответ в бинарные данные
+  - [`responce.headers.get()`](./ASYNC/FETCH/responce.headers.get.md) получает значение заголовка
 - [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
-  - [`.resolve()`](./ASYNC/PROMISE/resolve.md) создает выполненный promise
-  - [`.reject()`](./ASYNC/PROMISE/reject.md) создает отклоненный promise
-  - [`.all()`](./ASYNC/PROMISE/all.md) все promise выполнены
-  - [`.allSettled()`](./ASYNC/PROMISE/allSettled.md) все promise завершены
-  - [`.any()`](./ASYNC/PROMISE/any.md) первый выполненный promise
-  - [`.race()`](./ASYNC/PROMISE/race.md) первый завершенный promise
+  - [`.then()`](./ASYNC/PROMISE/then.md) обработчик выполненного promise
+  - [`.catch()`](./ASYNC/PROMISE/catch.md) обработчик отклоненного promise
+  - [`.finally()`](./ASYNC/PROMISE/finally.md) обработчик завершенного promise
+- [`Promise.resolve()`](./ASYNC/PROMISE/Promise.resolve.md) создает выполненный promise
+- [`Promise.reject()`](./ASYNC/PROMISE/Promise.reject.md) создает отклоненный promise
+- [`Promise.all()`](./ASYNC/PROMISE/Promise.all.md) все promise выполнены
+- [`Promise.allSettled()`](./ASYNC/PROMISE/Promise.allSettled.md) все promise завершены
+- [`Promise.any()`](./ASYNC/PROMISE/Promise.any.md) первый выполненный promise
+- [`Promise.race()`](./ASYNC/PROMISE/Promise.race.md) первый завершенный promise
 
 ## ООП
 
