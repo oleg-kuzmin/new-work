@@ -13,10 +13,16 @@
 - [`console.dir()`](./WINDOW/console.dir.md) выведет в консоль содержимое
 - [`console.log()`](./WINDOW/console.log.md) выведет в консоль свойства
 - [`console.table()`](./WINDOW/console.table.md) выведет в консоль таблицу
-- [`getComputedStyle()`](./WINDOW/getComputedStyle.md) возвращает объект со стилями
+- [`getComputedStyle()`](./WINDOW/getComputedStyle.md) объект со стилями
 - [`isFinite()`](./WINDOW/isFinite.md) проверяет преобразованное число на конечность
 - [`isNaN()`](./WINDOW/isNaN.md) проверяет преобразованное число на NaN
-- [`navigator`](./WINDOW/navigator.md) возвращает объект описания приложения
+- [`navigator`](./WINDOW/navigator.md) объект описания приложения
+  - [`navigator.cookieEnabled`](./WINDOW/navigator.cookieEnabled.md) включена ли поддержка cookie
+  - [`navigator.geolocation`](./WINDOW/navigator.geolocation.md) объект геолокации
+  - [`navigator.language`](./WINDOW/navigator.language.md) предпочтительный язык интерфейса
+  - [`navigator.languages`](./WINDOW/navigator.languages.md) массив предпочтительных языков интерфейса
+  - [`navigator.onLine`](./WINDOW/navigator.onLine.md) проверяет наличие подключения к сети
+  - [`navigator.userAgent`](./WINDOW/navigator.userAgent.md) название браузера пользователя
 - [`prompt()`](./WINDOW/prompt.md) модальное окно с вводом
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
@@ -39,7 +45,7 @@
 - [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
 - [`Object.getOwnPropertyNames()`](./OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
 - [`Object.getOwnPropertySymbols()`](./OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
-- [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) возвращает объект прототипа
+- [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) объект прототипа
 - [`Object.hasOwn()`](./OBJECT/Object.hasOwn.md) проверяет собственное ли свойство
 - [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
