@@ -166,6 +166,7 @@
   - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
   - [`.split()`](./STRING/split.md) разделение на массив по regexp
+  - [`.endsWith()`](./STRING/endsWith.md) сравнивает начало строки с аргументом
 
 ## Element
 
