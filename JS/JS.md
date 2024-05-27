@@ -159,11 +159,12 @@
 
 ## String
 
-- [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
-- [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
-- [`.replace()`](./STRING/replace.md) замена совпадения по regexp
-- [`.search()`](./STRING/search.md) поиск индекса по regexp
-- [`.split()`](./STRING/split.md) разделение на массив по regexp
+- [`new String()`](<./STRING/new String.md>) создает объект String
+  - [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
+  - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
+  - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
+  - [`.search()`](./STRING/search.md) поиск индекса по regexp
+  - [`.split()`](./STRING/split.md) разделение на массив по regexp
 
 ## Element
 
