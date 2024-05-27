@@ -161,6 +161,7 @@
 
 - [`new String()`](<./STRING/new String.md>) создает объект String
   - [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
+  - [`.endsWith()`](./STRING/endsWith.md) сравнивает конец строки с аргументом
   - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
   - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
