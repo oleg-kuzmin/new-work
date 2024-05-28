@@ -4,6 +4,30 @@
   }
 </style>
 
+## Number
+
+- [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+
+## Array
+
+- [`.includes()`](./ARRAY/includes.md) проверяет наличие в массиве аргумента
+- [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
+
+## String
+
+- [`new String()`](<./STRING/new String.md>) создает объект String
+  - [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
+  - [`.endsWith()`](./STRING/endsWith.md) сравнивает конец строки с аргументом
+  - [`.includes()`](./STRING/includes.md) проверяет наличие в строке аргумента
+  - [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
+  - [`.length`](./STRING/length.md) длина строки
+  - [`.localeCompare()`](./STRING/localeCompare.md) сравнивает две строки
+  - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
+  - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
+  - [`.search()`](./STRING/search.md) поиск индекса по regexp
+  - [`.split()`](./STRING/split.md) разделение на массив по regexp
+  - [`.endsWith()`](./STRING/endsWith.md) сравнивает начало строки с аргументом
+
 ## Window
 
 - [`alert()`](./WINDOW/alert.md) модальное окно с текстом
@@ -156,26 +180,6 @@
 - [`new RegExp()`](<./REGEXP/new RegExp.md>) создает регулярное выражение
   - [`.exec()`](./REGEXP/exec.md) подробный поиск одного совпадения
   - [`.test()`](./REGEXP/test.md) соответствие
-
-## Array
-
-- [`.includes()`](./ARRAY/includes.md) проверяет наличие в массиве аргумента
-- [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
-
-## String
-
-- [`new String()`](<./STRING/new String.md>) создает объект String
-  - [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
-  - [`.endsWith()`](./STRING/endsWith.md) сравнивает конец строки с аргументом
-  - [`.includes()`](./STRING/includes.md) проверяет наличие в строке аргумента
-  - [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
-  - [`.length`](./STRING/length.md) длина строки
-  - [`.localeCompare()`](./STRING/localeCompare.md) сравнивает две строки
-  - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
-  - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
-  - [`.search()`](./STRING/search.md) поиск индекса по regexp
-  - [`.split()`](./STRING/split.md) разделение на массив по regexp
-  - [`.endsWith()`](./STRING/endsWith.md) сравнивает начало строки с аргументом
 
 ## Element
 
