@@ -169,6 +169,7 @@
   - [`.endsWith()`](./STRING/endsWith.md) сравнивает конец строки с аргументом
   - [`.includes()`](./STRING/includes.md) проверяет наличие в строке аргумента
   - [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
+  - [`.length`](./STRING/length.md) длина строки
   - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
   - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
