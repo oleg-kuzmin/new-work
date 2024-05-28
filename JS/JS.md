@@ -24,7 +24,7 @@
   - [`.localeCompare()`](./STRING/localeCompare.md) сравнивает две строки
   - [`.match()`](./STRING/match.md) поиск всех совпадений по regexp
   - [`.repeat()`](./STRING/repeat.md) повторяет строку несколько раз
-  - [`.replace()`](./STRING/replace.md) замена совпадения по regexp
+  - [`.replace()`](./STRING/replace.md) замена части строки, можно использовать regexp
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
   - [`.split()`](./STRING/split.md) разделение на массив по regexp
   - [`.endsWith()`](./STRING/endsWith.md) сравнивает начало строки с аргументом
