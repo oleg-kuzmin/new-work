@@ -4,7 +4,7 @@
   }
 
   h1, h2 {
-    scroll-margin: 100px;
+    scroll-margin: 60px;
   }
 </style>
 
@@ -20,9 +20,10 @@
 - [Array](#array)
 - [Object](#object)
 - [Function](#function)
-- [Window](#window)
 - [Set](#set)
 - [Map](#map)
+- [Window](#window)
+- [Document](#document)
 - [DOM-Element](#dom-element)
 - [Event](#event)
 - [Event.type](#eventtype)
@@ -174,6 +175,30 @@
 
 - [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
 
+## [Set](#оглавление)
+
+- [`new Set()`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
+  - [`.add()`](./SET/add.md) добавляет значение в коллекцию
+  - [`.clear()`](./SET/clear.md) удаляет все значения
+  - [`.delete()`](./SET/delete.md) удаляет значение из коллекции
+  - [`.forEach()`](./SET/forEach.md) обход коллекции
+  - [`.has()`](./SET/has.md) проверяет наличие значения
+  - [`.size`](./SET/size.md) количество значений
+
+## [Map](#оглавление)
+
+- [`new Map()`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
+  - [`.clear()`](./MAP/clear.md) удаляет все значения
+  - [`.delete()`](./MAP/delete.md) удаляет значение из коллекции
+  - [`.entries()`](./MAP/entries.md) возвращает итератор пар ключ-значение
+  - [`.forEach()`](./MAP/forEach.md) обход коллекции
+  - [`.get()`](./MAP/get.md) получает значение
+  - [`.has()`](./MAP/has.md) проверяет наличие значения
+  - [`.keys()`](./MAP/keys.md) возвращает итератор ключей
+  - [`.set()`](./MAP/set.md) сохраняет значение в коллекцию
+  - [`.size`](./MAP/size.md) количество значений
+  - [`.values()`](./MAP/values.md) возвращает итератор значений
+
 ## [Window](#оглавление)
 
 - [`alert()`](./WINDOW/alert.md) модальное окно с текстом
@@ -213,29 +238,10 @@
 - [`window.scrollX`](./WINDOW/window.scrollX.md) прокрутка окна браузера по горизонтали
 - [`window.scrollY`](./WINDOW/window.scrollY.md) прокрутка окна браузера по вертикали
 
-## [Set](#оглавление)
+## [Document](#оглавление)
 
-- [`new Set()`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
-  - [`.add()`](./SET/add.md) добавляет значение в коллекцию
-  - [`.clear()`](./SET/clear.md) удаляет все значения
-  - [`.delete()`](./SET/delete.md) удаляет значение из коллекции
-  - [`.forEach()`](./SET/forEach.md) обход коллекции
-  - [`.has()`](./SET/has.md) проверяет наличие значения
-  - [`.size`](./SET/size.md) количество значений
-
-## [Map](#оглавление)
-
-- [`new Map()`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
-  - [`.clear()`](./MAP/clear.md) удаляет все значения
-  - [`.delete()`](./MAP/delete.md) удаляет значение из коллекции
-  - [`.entries()`](./MAP/entries.md) возвращает итератор пар ключ-значение
-  - [`.forEach()`](./MAP/forEach.md) обход коллекции
-  - [`.get()`](./MAP/get.md) получает значение
-  - [`.has()`](./MAP/has.md) проверяет наличие значения
-  - [`.keys()`](./MAP/keys.md) возвращает итератор ключей
-  - [`.set()`](./MAP/set.md) сохраняет значение в коллекцию
-  - [`.size`](./MAP/size.md) количество значений
-  - [`.values()`](./MAP/values.md) возвращает итератор значений
+- [`document.body`](./DOCUMENT/document.body.md) тело страницы
+- [`document.cookie`](./DOCUMENT/document.cookie.md) cookie страницы
 
 ## [DOM-Element](#оглавление)
 
