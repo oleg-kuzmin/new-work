@@ -245,11 +245,17 @@
 - [`document.createElement()`](./DOCUMENT/document.createElement.md) создает элемент
 - [`document.createTextNode()`](./DOCUMENT/document.createTextNode.md) создает текстовый узел
 - [`document.documentElement`](./DOCUMENT/document.documentElement.md) коревой элемент страницы
+- [`document.forms`](./DOCUMENT/document.forms.md) коллекция всех форм
+- [`document.getElementById()`](./DOCUMENT/document.getElementById.md) поиск элемента по id
+- [`document.getElementsByClassName()`](./DOCUMENT/document.getElementsByClassName.md) коллекция элементов по классу
+- [`document.getElementsByTagName()`](./DOCUMENT/document.getElementsByTagName.md) коллекция элементов по тегу
 
 ## [DOM-Element](#оглавление)
 
 - [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
 - [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
+- [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
+- [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
 - [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
 ## [Event](#оглавление)
