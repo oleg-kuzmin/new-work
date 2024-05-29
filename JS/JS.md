@@ -258,12 +258,17 @@
 
 ## [DOM-Element](#оглавление)
 
-- [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
-- [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
+### DOM Поиск
+
 - [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
 - [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
 - [`.querySelector()`](./ELEMENT/querySelector.md) поиск элемента по селектору
 - [`.querySelectorAll()`](./ELEMENT/querySelectorAll.md) коллекция элементов по селектору
+
+### DOM События
+
+- [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
+- [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
 - [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
 ## [Event](#оглавление)
