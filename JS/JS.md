@@ -244,6 +244,7 @@
 - [`document.cookie`](./DOCUMENT/document.cookie.md) cookie страницы
 - [`document.createElement()`](./DOCUMENT/document.createElement.md) создает элемент
 - [`document.createTextNode()`](./DOCUMENT/document.createTextNode.md) создает текстовый узел
+- [`document.documentElement`](./DOCUMENT/document.documentElement.md) коревой элемент страницы
 
 ## [DOM-Element](#оглавление)
 
