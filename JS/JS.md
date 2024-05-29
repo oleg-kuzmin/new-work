@@ -39,6 +39,7 @@
 - [`Преобразование (логическое)`](<./ТЕОРИЯ/Преобразование (логическое).md>)
 - [`Преобразование (строковое)`](<./ТЕОРИЯ/Преобразование (строковое).md>)
 - [`Преобразование (численное)`](<./ТЕОРИЯ/Преобразование (численное).md>)
+- [`Словарь`](./ТЕОРИЯ/Словарь.md)
 - [`Тип BigInt`](<./ТЕОРИЯ/Тип BigInt.md>)
 - [`Тип Boolean`](<./ТЕОРИЯ/Тип Boolean.md>)
 - [`Тип Null`](<./ТЕОРИЯ/Тип Null.md>)
@@ -248,6 +249,7 @@
 - [`document.forms`](./DOCUMENT/document.forms.md) коллекция всех форм
 - [`document.getElementById()`](./DOCUMENT/document.getElementById.md) поиск элемента по id
 - [`document.getElementsByClassName()`](./DOCUMENT/document.getElementsByClassName.md) коллекция элементов по классу
+- [`document.getElementsByName()`](./DOCUMENT/document.getElementsByName.md) коллекция элементов по имени
 - [`document.getElementsByTagName()`](./DOCUMENT/document.getElementsByTagName.md) коллекция элементов по тегу
 
 ## [DOM-Element](#оглавление)
