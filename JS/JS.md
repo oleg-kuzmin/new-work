@@ -61,6 +61,8 @@
   - [`navigator.languages`](./WINDOW/navigator.languages.md) массив предпочтительных языков интерфейса
   - [`navigator.onLine`](./WINDOW/navigator.onLine.md) проверяет наличие подключения к сети
   - [`navigator.userAgent`](./WINDOW/navigator.userAgent.md) название браузера пользователя
+- [`parseFloat()`](./WINDOW/parseFloat.md) преобразует строку в число c плавающей точкой
+- [`parseInt()`](./WINDOW/parseInt.md) преобразует строку в целое число
 - [`prompt()`](./WINDOW/prompt.md) модальное окно с вводом
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
