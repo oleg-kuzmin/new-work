@@ -263,6 +263,9 @@
 - [`.contentEditable`](./ELEMENT/contentEditable.md) делает элемент редактируемым
 - [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
 - [`.disabled`](./ELEMENT/disabled.md) блокировка кнопки
+- [`.getAttribute()`](./ELEMENT/getAttribute.md) возвращает значение атрибута
+- [`.hasAttribute()`](./ELEMENT/hasAttribute.md) проверяет наличие атрибута
+- [`.hidden`](./ELEMENT/hidden.md) скрывает элемент
 
 ### DOM Поиск
 
