@@ -266,6 +266,9 @@
 - [`.getAttribute()`](./ELEMENT/getAttribute.md) возвращает значение атрибута
 - [`.hasAttribute()`](./ELEMENT/hasAttribute.md) проверяет наличие атрибута
 - [`.hidden`](./ELEMENT/hidden.md) скрывает элемент
+- [`.id`](./ELEMENT/id.md) идентификатор элемента
+- [`.removeAttribute()`](./ELEMENT/removeAttribute.md) удаляет атрибут
+- [`.setAttribute()`](./ELEMENT/setAttribute.md) устанавливает атрибут
 
 ### DOM Поиск
 

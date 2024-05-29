@@ -7,10 +7,10 @@
 ## Синтаксис
 
 ```js
-element.getAttribute(attribute);
+element.getAttribute(nameAttribute);
 ```
 
-### `attribute`
+### `nameAttribute`
 
 Строка - имя атрибута
 

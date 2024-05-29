@@ -5,10 +5,10 @@
 ## Синтаксис
 
 ```js
-element.hasAttribute(attribute);
+element.hasAttribute(nameAttribute);
 ```
 
-### `attribute`
+### `nameAttribute`
 
 Строка - имя атрибута.
 
