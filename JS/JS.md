@@ -6,6 +6,7 @@
 
 ## Number
 
+- [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
 
 ## Array
