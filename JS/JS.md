@@ -252,6 +252,8 @@
 - [`document.getElementsByName()`](./DOCUMENT/document.getElementsByName.md) коллекция элементов по имени
 - [`document.getElementsByTagName()`](./DOCUMENT/document.getElementsByTagName.md) коллекция элементов по тегу
 - [`document.head`](./DOCUMENT/document.head.md) голова страницы
+- [`document.querySelector()`](./DOCUMENT/document.querySelector.md) поиск элемента по селектору
+- [`document.querySelectorAll()`](./DOCUMENT/document.querySelectorAll.md) коллекция элементов по селектору
 - [`document.title`](./DOCUMENT/document.title.md) заголовок страницы
 
 ## [DOM-Element](#оглавление)
@@ -260,6 +262,8 @@
 - [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
 - [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
 - [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
+- [`.querySelector()`](./ELEMENT/querySelector.md) поиск элемента по селектору
+- [`.querySelectorAll()`](./ELEMENT/querySelectorAll.md) коллекция элементов по селектору
 - [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
 ## [Event](#оглавление)
