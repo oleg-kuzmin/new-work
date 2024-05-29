@@ -10,7 +10,7 @@ window.localStorage.removeItem(key);
 
 ### `key (Строка)`
 
-Ключ
+Строка - ключ.
 
 ## Возвращает
 

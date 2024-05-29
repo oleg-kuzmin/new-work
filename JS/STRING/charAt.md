@@ -8,9 +8,9 @@
 string.charAt(index);
 ```
 
-### `index (Число)`
+### `index`
 
-Целое число от 0 до (string.length - 1).
+Число - целое число от 0 до (string.length - 1).
 
 ## Возвращает
 

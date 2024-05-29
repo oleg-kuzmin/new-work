@@ -8,9 +8,9 @@
 clearInterval(intervalId);
 ```
 
-### `intervalId (Число)`
+### `intervalId`
 
-Идентификатор интервала.
+Число - идентификатор интервала.
 
 ## Пример
 
