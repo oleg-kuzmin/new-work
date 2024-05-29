@@ -24,7 +24,7 @@
 - [Map](#map)
 - [Window](#window)
 - [Document](#document)
-- [DOM-Element](#dom-element)
+- [Element](#element)
 - [Event](#event)
 - [Event.type](#eventtype)
 
@@ -256,7 +256,13 @@
 - [`document.querySelectorAll()`](./DOCUMENT/document.querySelectorAll.md) коллекция элементов по селектору
 - [`document.title`](./DOCUMENT/document.title.md) заголовок страницы
 
-## [DOM-Element](#оглавление)
+## [Element](#оглавление)
+
+### Атрибуты
+
+- [`.contentEditable`](./ELEMENT/contentEditable.md) делает элемент редактируемым
+- [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
+- [`.disabled`](./ELEMENT/disabled.md) блокировка кнопки
 
 ### DOM Поиск
 
