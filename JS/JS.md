@@ -262,13 +262,15 @@
 
 - [`.contentEditable`](./ELEMENT/contentEditable.md) делает элемент редактируемым
 - [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
-- [`.disabled`](./ELEMENT/disabled.md) блокировка кнопки
+- [`.disabled`](./ELEMENT/disabled.md) блокировка button
 - [`.getAttribute()`](./ELEMENT/getAttribute.md) возвращает значение атрибута
 - [`.hasAttribute()`](./ELEMENT/hasAttribute.md) проверяет наличие атрибута
 - [`.hidden`](./ELEMENT/hidden.md) скрывает элемент
 - [`.id`](./ELEMENT/id.md) идентификатор элемента
 - [`.removeAttribute()`](./ELEMENT/removeAttribute.md) удаляет атрибут
 - [`.setAttribute()`](./ELEMENT/setAttribute.md) устанавливает атрибут
+- [`.style`](./ELEMENT/style.md) стиль элемента
+- [`.type`](./ELEMENT/type.md) тип input
 
 ### DOM Поиск
 
