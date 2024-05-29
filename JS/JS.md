@@ -15,9 +15,12 @@
 - [`Math.random()`](./NUMBER/Math.random.md) случайное число
 - [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
 - [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
-- [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+- [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
 - [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
+- [`Number.isInteger()`](./NUMBER/Number.isInteger.md) проверяет число на целое или дробное
+- [`Number.isNaN()`](./NUMBER/Number.isNaN.md) проверяет число на NaN
+- [`toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
 
 ## Array
 
