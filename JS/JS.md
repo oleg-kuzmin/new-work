@@ -15,7 +15,9 @@
 - [`Math.random()`](./NUMBER/Math.random.md) случайное число
 - [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
 - [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
+- [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+- [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
 
 ## Array
 
@@ -25,6 +27,7 @@
 ## String
 
 - [`new String()`](<./STRING/new String.md>) создает объект String
+- [`String()`](./STRING/String.md) преобразует в строку
   - [`.charAt()`](./STRING/charAt.md) получение ключа по индексу
   - [`.endsWith()`](./STRING/endsWith.md) сравнивает конец строки с аргументом
   - [`.includes()`](./STRING/includes.md) проверяет наличие в строке аргумента
