@@ -9,6 +9,8 @@
 - [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
 - [`Math.ceil()`](./NUMBER/Math.ceil.md) округление до целого вверх
 - [`Math.floor()`](./NUMBER/Math.floor.md) округление до целого вниз
+- [`Math.max()`](./NUMBER/Math.max.md) наибольшее из переданных аргументов
+- [`Math.min()`](./NUMBER/Math.min.md) наименьшее из переданных аргументов
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
 
 ## Array
