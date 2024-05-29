@@ -20,7 +20,9 @@
 - [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
 - [`Number.isInteger()`](./NUMBER/Number.isInteger.md) проверяет число на целое или дробное
 - [`Number.isNaN()`](./NUMBER/Number.isNaN.md) проверяет число на NaN
-- [`toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
+- [`.toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
+- [`.toLocaleString()`](./NUMBER/toLocaleString.md) преобразует в строку c учетом языка
+- [`.toString()`](./NUMBER/toString.md) преобразует в строку
 
 ## Array
 
@@ -47,7 +49,7 @@
   - [`.startsWith()`](./STRING/startsWith.md) сравнивает начало строки с аргументом
   - [`.substring()`](./STRING/substring.md) копирует часть строки
   - [`.toLowerCase()`](./STRING/toLowerCase.md) приводит к нижнему регистру
-  - [`.toUpperCase()`](./STRING/toUpperCase.md) приводит к верхнему регистру
+  - [`.toUpperCase()`](./STRING/toUpperCase.md) приводит к верхнему регистр
   - [`.trim()`](./STRING/trim.md) очистка от пробелов
 
 ## Window
