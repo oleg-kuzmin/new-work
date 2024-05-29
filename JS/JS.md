@@ -113,12 +113,15 @@
   - [`.replaceAll()`](./STRING/replaceAll.md) замена всех частей строки
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
   - [`.slice()`](./STRING/slice.md) копирует часть строки
-  - [`.split()`](./STRING/split.md) разделение на массив строк, можно использовать regexp
+  - [`.split()`](./STRING/split.md) разделение на массив, можно использовать regexp
   - [`.startsWith()`](./STRING/startsWith.md) сравнивает начало строки с аргументом
   - [`.substring()`](./STRING/substring.md) копирует часть строки
   - [`.toLowerCase()`](./STRING/toLowerCase.md) приводит к нижнему регистру
   - [`.toUpperCase()`](./STRING/toUpperCase.md) приводит к верхнему регистр
   - [`.trim()`](./STRING/trim.md) очистка от пробелов
+- [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+- [`parseFloat()`](./WINDOW/parseFloat.md) преобразует строку в число c плавающей точкой
+- [`parseInt()`](./WINDOW/parseInt.md) преобразует строку в целое число
 
 ## [Number](#оглавление)
 
@@ -132,13 +135,14 @@
 - [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
 - [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+  - [`.toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
+  - [`.toLocaleString()`](./NUMBER/toLocaleString.md) преобразует в строку c учетом языка
+  - [`.toString()`](./NUMBER/toString.md) преобразует в строку
 - [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
 - [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
 - [`Number.isInteger()`](./NUMBER/Number.isInteger.md) проверяет число на целое или дробное
 - [`Number.isNaN()`](./NUMBER/Number.isNaN.md) проверяет число на NaN
-- [`.toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
-- [`.toLocaleString()`](./NUMBER/toLocaleString.md) преобразует в строку c учетом языка
-- [`.toString()`](./NUMBER/toString.md) преобразует в строку
+- [`String()`](./STRING/String.md) преобразует в строку
 
 ## [Array](#оглавление)
 
@@ -147,9 +151,10 @@
 
 ## [Object](#оглавление)
 
+- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
@@ -161,7 +166,6 @@
 - [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
-- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
 ## [Function](#оглавление)
 
