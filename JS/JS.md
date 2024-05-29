@@ -71,6 +71,9 @@
 - [`Promise.allSettled()`](./ASYNC/PROMISE/Promise.allSettled.md) все promise завершены
 - [`Promise.any()`](./ASYNC/PROMISE/Promise.any.md) первый выполненный promise
 - [`Promise.race()`](./ASYNC/PROMISE/Promise.race.md) первый завершенный promise
+- [`JSON`](./ASYNC/JSON/JSON.md) формат обмена данными
+  - [`JSON.stringify()`](./ASYNC/JSON/JSON.stringify.md) преобразует объект в JSON
+  - [`JSON.parse()`](./ASYNC/JSON/JSON.parse.md) преобразует JSON в объект
 
 ## [ООП](#оглавление)
 
