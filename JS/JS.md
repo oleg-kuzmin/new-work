@@ -13,6 +13,8 @@
 - [`Math.min()`](./NUMBER/Math.min.md) наименьшее из переданных аргументов
 - [`Math.pow()`](./NUMBER/Math.pow.md) возведение в степень
 - [`Math.random()`](./NUMBER/Math.random.md) случайное число
+- [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
+- [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
 
 ## Array
