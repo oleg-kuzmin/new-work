@@ -28,7 +28,7 @@
   - [`.replaceAll()`](./STRING/replaceAll.md) замена всех частей строки
   - [`.search()`](./STRING/search.md) поиск индекса по regexp
   - [`.slice()`](./STRING/slice.md) копирует часть строки
-  - [`.split()`](./STRING/split.md) разделение на массив по regexp
+  - [`.split()`](./STRING/split.md) разделение на массив строк, можно использовать regexp
   - [`.startsWith()`](./STRING/startsWith.md) сравнивает начало строки с аргументом
   - [`.substring()`](./STRING/substring.md) копирует часть строки
 
