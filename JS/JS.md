@@ -251,6 +251,8 @@
 - [`document.getElementsByClassName()`](./DOCUMENT/document.getElementsByClassName.md) коллекция элементов по классу
 - [`document.getElementsByName()`](./DOCUMENT/document.getElementsByName.md) коллекция элементов по имени
 - [`document.getElementsByTagName()`](./DOCUMENT/document.getElementsByTagName.md) коллекция элементов по тегу
+- [`document.head`](./DOCUMENT/document.head.md) голова страницы
+- [`document.title`](./DOCUMENT/document.title.md) заголовок страницы
 
 ## [DOM-Element](#оглавление)
 
