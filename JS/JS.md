@@ -260,23 +260,27 @@
 
 ### Атрибуты
 
-- [`.contentEditable`](./ELEMENT/contentEditable.md) делает элемент редактируемым
+- [`.className`](./ELEMENT/className.md) атрибут class
+- [`.contentEditable`](./ELEMENT/contentEditable.md) атрибут contentEditable
 - [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
-- [`.disabled`](./ELEMENT/disabled.md) блокировка button
+- [`.disabled`](./ELEMENT/disabled.md) атрибут disabled
 - [`.getAttribute()`](./ELEMENT/getAttribute.md) возвращает значение атрибута
 - [`.hasAttribute()`](./ELEMENT/hasAttribute.md) проверяет наличие атрибута
-- [`.hidden`](./ELEMENT/hidden.md) скрывает элемент
-- [`.id`](./ELEMENT/id.md) идентификатор элемента
+- [`.hidden`](./ELEMENT/hidden.md) атрибут hidden
+- [`.id`](./ELEMENT/id.md) атрибут id
 - [`.removeAttribute()`](./ELEMENT/removeAttribute.md) удаляет атрибут
 - [`.setAttribute()`](./ELEMENT/setAttribute.md) устанавливает атрибут
-- [`.style`](./ELEMENT/style.md) стиль элемента
-- [`.type`](./ELEMENT/type.md) тип input
+- [`.style`](./ELEMENT/style.md) атрибут style
+- [`.type`](./ELEMENT/type.md) атрибут type
 
 ### Классы
 
 - [`.classList`](./ELEMENT/classList.md) псевдомассив классов
   - [`.classList.add()`](./ELEMENT/classList.add.md) добавляет класс
   - [`.classList.contains()`](./ELEMENT/classList.contains.md) проверяет наличие класса
+  - [`.classList.remove()`](./ELEMENT/classList.remove.md) удаляет класс
+  - [`.classList.replace()`](./ELEMENT/classList.replace.md) заменяет класс
+  - [`.classList.toggle()`](./ELEMENT/classList.toggle.md) переключает класс
 
 ### DOM Поиск
 
