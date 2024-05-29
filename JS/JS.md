@@ -2,34 +2,102 @@
   * {
     user-select: none;    
   }
+
+  h1, h2 {
+    scroll-margin: 100px;
+  }
 </style>
 
-## Number
+# Оглавление
 
-- [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
-- [`Math.ceil()`](./NUMBER/Math.ceil.md) округление до целого вверх
-- [`Math.floor()`](./NUMBER/Math.floor.md) округление до целого вниз
-- [`Math.max()`](./NUMBER/Math.max.md) наибольшее из переданных аргументов
-- [`Math.min()`](./NUMBER/Math.min.md) наименьшее из переданных аргументов
-- [`Math.pow()`](./NUMBER/Math.pow.md) возведение в степень
-- [`Math.random()`](./NUMBER/Math.random.md) случайное число
-- [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
-- [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
-- [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
-- [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
-- [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
-- [`Number.isInteger()`](./NUMBER/Number.isInteger.md) проверяет число на целое или дробное
-- [`Number.isNaN()`](./NUMBER/Number.isNaN.md) проверяет число на NaN
-- [`.toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
-- [`.toLocaleString()`](./NUMBER/toLocaleString.md) преобразует в строку c учетом языка
-- [`.toString()`](./NUMBER/toString.md) преобразует в строку
+- [Теория](#теория)
+- [Асинхронные действия](#асинхронные-действия)
+- [ООП](#ооп)
+- [Циклы](#циклы)
+- [RegExp](#regexp)
+- [String](#string)
+- [Number](#number)
+- [Array](#array)
+- [Object](#object)
+- [Function](#function)
+- [Window](#window)
+- [Set](#set)
+- [Map](#map)
+- [DOM-Element](#dom-element)
+- [Event](#event)
+- [Event.type](#eventtype)
 
-## Array
+## [Теория](#оглавление)
 
-- [`.includes()`](./ARRAY/includes.md) проверяет наличие в массиве аргумента
-- [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
+- [`Деструктуризация`](./ТЕОРИЯ/Деструктуризация.md)
+- [`Замыкания`](./ТЕОРИЯ/Замыкания.md)
+- [`Операторы`](./ТЕОРИЯ/Операторы.md)
+- [`Определение типа`](<./ТЕОРИЯ/Определение типа.md>)
+- [`Ошибки`](./ТЕОРИЯ/Ошибки.md)
+- [`Переменные const, let и var`](<./ТЕОРИЯ/Переменные const, let и var.md>)
+- [`Преобразование (логическое)`](<./ТЕОРИЯ/Преобразование (логическое).md>)
+- [`Преобразование (строковое)`](<./ТЕОРИЯ/Преобразование (строковое).md>)
+- [`Преобразование (численное)`](<./ТЕОРИЯ/Преобразование (численное).md>)
+- [`Тип BigInt`](<./ТЕОРИЯ/Тип BigInt.md>)
+- [`Тип Boolean`](<./ТЕОРИЯ/Тип Boolean.md>)
+- [`Тип Null`](<./ТЕОРИЯ/Тип Null.md>)
+- [`Тип Number`](<./ТЕОРИЯ/Тип Number.md>)
+- [`Тип Object`](<./ТЕОРИЯ/Тип Object.md>)
+- [`Тип String`](<./ТЕОРИЯ/Тип String.md>)
+- [`Тип Symbol`](<./ТЕОРИЯ/Тип Symbol.md>)
+- [`Тип Undefined`](<./ТЕОРИЯ/Тип Undefined.md>)
+- [`Условные конструкции`](<./ТЕОРИЯ/Условные конструкции.md>)
+- [`Функции`](./ТЕОРИЯ/Функции.md)
+- [`Экспорт и импорт`](<./ТЕОРИЯ/Экспорт и импорт.md>)
 
-## String
+## [Асинхронные действия](#оглавление)
+
+- [`async await`](<./ASYNC/async await.md>) асинхронные функции
+- [`fetch()`](./ASYNC/FETCH/fetch.md) запрос на сервер
+  - [`responce.ok`](./ASYNC/FETCH/responce.ok.md) успешность ответа
+  - [`responce.status`](./ASYNC/FETCH/responce.status.md) статус ответа
+  - [`responce.statusText`](./ASYNC/FETCH/responce.statusText.md) сообщение статуса ответа
+  - [`responce.json()`](./ASYNC/FETCH/responce.json.md) преобразует json-ответ в объект js
+  - [`responce.text()`](./ASYNC/FETCH/responce.text.md) преобразует json-ответ в текст
+  - [`responce.blob()`](./ASYNC/FETCH/responce.blob.md) преобразует json-ответ в бинарные данные
+  - [`responce.headers.get()`](./ASYNC/FETCH/responce.headers.get.md) получает значение заголовка
+- [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
+  - [`.then()`](./ASYNC/PROMISE/then.md) обработчик выполненного promise
+  - [`.catch()`](./ASYNC/PROMISE/catch.md) обработчик отклоненного promise
+  - [`.finally()`](./ASYNC/PROMISE/finally.md) обработчик завершенного promise
+- [`Promise.resolve()`](./ASYNC/PROMISE/Promise.resolve.md) создает выполненный promise
+- [`Promise.reject()`](./ASYNC/PROMISE/Promise.reject.md) создает отклоненный promise
+- [`Promise.all()`](./ASYNC/PROMISE/Promise.all.md) все promise выполнены
+- [`Promise.allSettled()`](./ASYNC/PROMISE/Promise.allSettled.md) все promise завершены
+- [`Promise.any()`](./ASYNC/PROMISE/Promise.any.md) первый выполненный promise
+- [`Promise.race()`](./ASYNC/PROMISE/Promise.race.md) первый завершенный promise
+
+## [ООП](#оглавление)
+
+- [`Наследование`](./ООП/Наследование.md)
+- [`Полиморфизм`](./ООП/Полиморфизм.md)
+- [`Приватные поля`](<./ООП/Приватные поля.md>)
+- [`Принципы ООП`](<./ООП/Принципы ООП.md>)
+- [`Создание класса`](<./ООП/Создание класса.md>)
+- [`Создание экземпляра класса`](<./ООП/Создание экземпляра класса.md>)
+- [`Теория ООП`](<./ООП/Теория ООП.md>)
+- [`Что такое this`](<./ООП/Что такое this.md>)
+
+## [Циклы](#оглавление)
+
+- [`while`](./ЦИКЛЫ/while.md) проверка условия до первой итерации
+- [`do while`](<./ЦИКЛЫ/do while.md>) проверка условия после первой итерации
+- [`for`](./ЦИКЛЫ/for.md) цикл со счетчиком
+- [`for of`](<./ЦИКЛЫ/for of.md>) обход свойств итерируемого объекта, не включая пользовательские прототипы
+- [`for in`](<./ЦИКЛЫ/for in.md>) обход свойств объекта, включая пользовательские прототипы
+
+## [RegExp](#оглавление)
+
+- [`new RegExp()`](<./REGEXP/new RegExp.md>) создает регулярное выражение
+  - [`.exec()`](./REGEXP/exec.md) подробный поиск одного совпадения
+  - [`.test()`](./REGEXP/test.md) соответствие
+
+## [String](#оглавление)
 
 - [`new String()`](<./STRING/new String.md>) создает объект String
 - [`String()`](./STRING/String.md) преобразует в строку
@@ -52,7 +120,54 @@
   - [`.toUpperCase()`](./STRING/toUpperCase.md) приводит к верхнему регистр
   - [`.trim()`](./STRING/trim.md) очистка от пробелов
 
-## Window
+## [Number](#оглавление)
+
+- [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
+- [`Math.ceil()`](./NUMBER/Math.ceil.md) округление до целого вверх
+- [`Math.floor()`](./NUMBER/Math.floor.md) округление до целого вниз
+- [`Math.max()`](./NUMBER/Math.max.md) наибольшее из переданных аргументов
+- [`Math.min()`](./NUMBER/Math.min.md) наименьшее из переданных аргументов
+- [`Math.pow()`](./NUMBER/Math.pow.md) возведение в степень
+- [`Math.random()`](./NUMBER/Math.random.md) случайное число
+- [`Math.round()`](./NUMBER/Math.round.md) округление до ближайшего целого
+- [`Math.trunc()`](./NUMBER/Math.trunc.md) отбрасывает дробную часть
+- [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
+- [`new Number()`](<./NUMBER/new Number.md>) создает объект Number
+- [`Number.isFinite()`](./NUMBER/Number.isFinite.md) проверяет число на конечность
+- [`Number.isInteger()`](./NUMBER/Number.isInteger.md) проверяет число на целое или дробное
+- [`Number.isNaN()`](./NUMBER/Number.isNaN.md) проверяет число на NaN
+- [`.toFixed()`](./NUMBER/toFixed.md) преобразует в строку и округляет
+- [`.toLocaleString()`](./NUMBER/toLocaleString.md) преобразует в строку c учетом языка
+- [`.toString()`](./NUMBER/toString.md) преобразует в строку
+
+## [Array](#оглавление)
+
+- [`.includes()`](./ARRAY/includes.md) проверяет наличие в массиве аргумента
+- [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
+
+## [Object](#оглавление)
+
+- [`delete`](./OBJECT/delete.md) оператор удаления свойства
+- [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
+- [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
+- [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
+- [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
+- [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
+- [`Object.getOwnPropertyNames()`](./OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
+- [`Object.getOwnPropertySymbols()`](./OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
+- [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) объект прототипа
+- [`Object.hasOwn()`](./OBJECT/Object.hasOwn.md) проверяет собственное ли свойство
+- [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
+- [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
+- [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
+
+## [Function](#оглавление)
+
+- [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
+
+## [Window](#оглавление)
 
 - [`alert()`](./WINDOW/alert.md) модальное окно с текстом
 - [`clearInterval()`](./WINDOW/clearInterval.md) удаление интервала
@@ -84,100 +199,14 @@
 - [`setInterval()`](./WINDOW/setInterval.md) установка интервала
 - [`setTimeout()`](./WINDOW/setTimeout.md) установка таймера
 - [`typeof`](./WINDOW/typeof.md) оператор проверки типа
-- [`window.innerHeight`](./WINDOW/innerHeight.md) высота окна браузера
-- [`window.innerWidth`](./WINDOW/innerWidth.md) ширина окна браузера
+- [`window.innerHeight`](./WINDOW/window.innerHeight.md) высота окна браузера
+- [`window.innerWidth`](./WINDOW/window.innerWidth.md) ширина окна браузера
 - [`window.scroll()`](./WINDOW/window.scroll.md) прокрутит окно браузера
 - [`window.scrollTo()`](./WINDOW/window.scrollTo.md) прокрутит окно браузера
 - [`window.scrollX`](./WINDOW/window.scrollX.md) прокрутка окна браузера по горизонтали
 - [`window.scrollY`](./WINDOW/window.scrollY.md) прокрутка окна браузера по вертикали
 
-## Object
-
-- [`delete`](./OBJECT/delete.md) оператор удаления свойства
-- [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
-- [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
-- [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
-- [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
-- [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
-- [`Object.getOwnPropertyNames()`](./OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
-- [`Object.getOwnPropertySymbols()`](./OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
-- [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) объект прототипа
-- [`Object.hasOwn()`](./OBJECT/Object.hasOwn.md) проверяет собственное ли свойство
-- [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
-- [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
-- [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
-- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
-
-## Function
-
-- [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
-
-## Async
-
-- [`async await`](<./ASYNC/async await.md>) асинхронные функции
-- [`fetch()`](./ASYNC/FETCH/fetch.md) запрос на сервер
-  - [`responce.ok`](./ASYNC/FETCH/responce.ok.md) успешность ответа
-  - [`responce.status`](./ASYNC/FETCH/responce.status.md) статус ответа
-  - [`responce.statusText`](./ASYNC/FETCH/responce.statusText.md) сообщение статуса ответа
-  - [`responce.json()`](./ASYNC/FETCH/responce.json.md) преобразует json-ответ в объект js
-  - [`responce.text()`](./ASYNC/FETCH/responce.text.md) преобразует json-ответ в текст
-  - [`responce.blob()`](./ASYNC/FETCH/responce.blob.md) преобразует json-ответ в бинарные данные
-  - [`responce.headers.get()`](./ASYNC/FETCH/responce.headers.get.md) получает значение заголовка
-- [`new Promise()`](<./ASYNC/PROMISE/new Promise.md>) создает promise
-  - [`.then()`](./ASYNC/PROMISE/then.md) обработчик выполненного promise
-  - [`.catch()`](./ASYNC/PROMISE/catch.md) обработчик отклоненного promise
-  - [`.finally()`](./ASYNC/PROMISE/finally.md) обработчик завершенного promise
-- [`Promise.resolve()`](./ASYNC/PROMISE/Promise.resolve.md) создает выполненный promise
-- [`Promise.reject()`](./ASYNC/PROMISE/Promise.reject.md) создает отклоненный promise
-- [`Promise.all()`](./ASYNC/PROMISE/Promise.all.md) все promise выполнены
-- [`Promise.allSettled()`](./ASYNC/PROMISE/Promise.allSettled.md) все promise завершены
-- [`Promise.any()`](./ASYNC/PROMISE/Promise.any.md) первый выполненный promise
-- [`Promise.race()`](./ASYNC/PROMISE/Promise.race.md) первый завершенный promise
-
-## ООП
-
-- [`Наследование`](./ООП/Наследование.md)
-- [`Полиморфизм`](./ООП/Полиморфизм.md)
-- [`Приватные поля`](<./ООП/Приватные поля.md>)
-- [`Принципы ООП`](<./ООП/Принципы ООП.md>)
-- [`Создание класса`](<./ООП/Создание класса.md>)
-- [`Создание экземпляра класса`](<./ООП/Создание экземпляра класса.md>)
-- [`Теория ООП`](<./ООП/Теория ООП.md>)
-- [`Что такое this`](<./ООП/Что такое this.md>)
-
-## Теория
-
-- [`Деструктуризация`](./ТЕОРИЯ/Деструктуризация.md)
-- [`Замыкания`](./ТЕОРИЯ/Замыкания.md)
-- [`Операторы`](./ТЕОРИЯ/Операторы.md)
-- [`Определение типа`](<./ТЕОРИЯ/Определение типа.md>)
-- [`Ошибки`](./ТЕОРИЯ/Ошибки.md)
-- [`Переменные const, let и var`](<./ТЕОРИЯ/Переменные const, let и var.md>)
-- [`Преобразование (логическое)`](<./ТЕОРИЯ/Преобразование (логическое).md>)
-- [`Преобразование (строковое)`](<./ТЕОРИЯ/Преобразование (строковое).md>)
-- [`Преобразование (численное)`](<./ТЕОРИЯ/Преобразование (численное).md>)
-- [`Тип BigInt`](<./ТЕОРИЯ/Тип BigInt.md>)
-- [`Тип Boolean`](<./ТЕОРИЯ/Тип Boolean.md>)
-- [`Тип Null`](<./ТЕОРИЯ/Тип Null.md>)
-- [`Тип Number`](<./ТЕОРИЯ/Тип Number.md>)
-- [`Тип Object`](<./ТЕОРИЯ/Тип Object.md>)
-- [`Тип String`](<./ТЕОРИЯ/Тип String.md>)
-- [`Тип Symbol`](<./ТЕОРИЯ/Тип Symbol.md>)
-- [`Тип Undefined`](<./ТЕОРИЯ/Тип Undefined.md>)
-- [`Условные конструкции`](<./ТЕОРИЯ/Условные конструкции.md>)
-- [`Функции`](./ТЕОРИЯ/Функции.md)
-- [`Экспорт и импорт`](<./ТЕОРИЯ/Экспорт и импорт.md>)
-
-## Циклы
-
-- [`while`](./ЦИКЛЫ/while.md) проверка условия до первой итерации
-- [`do while`](<./ЦИКЛЫ/do while.md>) проверка условия после первой итерации
-- [`for`](./ЦИКЛЫ/for.md) цикл со счетчиком
-- [`for of`](<./ЦИКЛЫ/for of.md>) обход свойств итерируемого объекта, не включая пользовательские прототипы
-- [`for in`](<./ЦИКЛЫ/for in.md>) обход свойств объекта, включая пользовательские прототипы
-
-## Set
+## [Set](#оглавление)
 
 - [`new Set()`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
   - [`.add()`](./SET/add.md) добавляет значение в коллекцию
@@ -187,7 +216,7 @@
   - [`.has()`](./SET/has.md) проверяет наличие значения
   - [`.size`](./SET/size.md) количество значений
 
-## Map
+## [Map](#оглавление)
 
 - [`new Map()`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
   - [`.clear()`](./MAP/clear.md) удаляет все значения
@@ -201,19 +230,13 @@
   - [`.size`](./MAP/size.md) количество значений
   - [`.values()`](./MAP/values.md) возвращает итератор значений
 
-## RegExp
-
-- [`new RegExp()`](<./REGEXP/new RegExp.md>) создает регулярное выражение
-  - [`.exec()`](./REGEXP/exec.md) подробный поиск одного совпадения
-  - [`.test()`](./REGEXP/test.md) соответствие
-
-## Element
+## [DOM-Element](#оглавление)
 
 - [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
 - [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
 - [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
-## Event
+## [Event](#оглавление)
 
 - [`.new Event()`](<./EVENT/new Event.md>) создает кастомное событие
 - [`.new CustomEvent()`](<./EVENT/new CustomEvent.md>) создает кастомное событие с данными
@@ -240,7 +263,7 @@
   - [`.type`](./EVENT/type.md) тип события
   - [`.view`](./EVENT/view.md) объект window где произошло событие
 
-## Event.type
+## [Event.type](#оглавление)
 
 - [`blur`](<./EVENT TYPE/blur.md>) снятие фокуса
 - [`change`](<./EVENT TYPE/change.md>) изменение и фиксирование значения

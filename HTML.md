@@ -21,7 +21,7 @@
 
 ## Теория
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`(МНЕМОНИКИ)`](./HTML/ТЕОРИЯ/Мнемоники.md)
 - [`(ОТНОСИТЕЛЬНЫЕ ПУТИ)`](<./HTML/ТЕОРИЯ/Относительные пути.md>)
@@ -31,7 +31,7 @@
 
 ## Атрибуты Глобальные
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`class (ЗАДАЕТ КЛАСС ЭЛЕМЕНТУ)`](<./HTML/ATTRIBUTES GLOBAL/class.md>)
 - [`contenteditable (ДЕЛАЕТ РЕДАКТИРУЕМЫМ)`](<./HTML/ATTRIBUTES GLOBAL/contenteditable.md>)
@@ -46,7 +46,7 @@
 
 ## Атрибуты Общие
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА)`](./HTML/ATTRIBUTES/allowfullscreen.md)
 - [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](./HTML/ATTRIBUTES/alt.md)
@@ -112,7 +112,7 @@
 
 ## Атрибуты Формы
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`accept (ТИП ФАЙЛА ДЛЯ INPUT FILE)`](<./HTML/ATTRIBUTES FORM/accept.md>)
 - [`accept-charset (КОДИРОВКА ФОРМЫ)`](<./HTML/ATTRIBUTES FORM/accept-charset.md>)
@@ -157,7 +157,7 @@
 
 ## Теги head
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<base> (ОСНОВНОЙ URL-АДРЕС)`](<./HTML/TAGS HEAD/base.md>)
 - [`<head> (ОСНОВНАЯ ИНФОРМАЦИЯ)`](<./HTML/TAGS HEAD/head.md>)
@@ -170,7 +170,7 @@
 
 ## Теги block
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<address> (КОНТАКТНАЯ ИНФОРМАЦИЯ)`](<./HTML/TAGS BLOCK/address.md>)
 - [`<article> (НЕЗАВИСИМЫЙ РАЗДЕЛ)`](<./HTML/TAGS BLOCK/article.md>)
@@ -199,7 +199,7 @@
 
 ## Теги inline
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<a> (ССЫЛКА)`](<./HTML/TAGS INLINE/a.md>)
 - [`<abbr> (АББРЕВИАТУРА)`](<./HTML/TAGS INLINE/abbr.md>)
@@ -228,7 +228,7 @@
 
 ## Теги form
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<button> (КНОПКА)`](<./HTML/TAGS FORM/button.md>)
 - [`<datalist> (СПИСОК ПОДСКАЗОК ДЛЯ INPUT)`](<./HTML/TAGS FORM/datalist.md>)
@@ -246,7 +246,7 @@
 
 ## Теги media
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<audio> (АУДИО)`](<./HTML/TAGS MEDIA/audio.md>)
   - [`<source> (ИСТОЧНИК МЕДИА)`](<./HTML/TAGS MEDIA/source.md>)
@@ -267,7 +267,7 @@
 
 ## Теги ui
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<details> (АККОРДЕОН)`](<./HTML/TAGS UI/details.md>)
   - [`<summary> (ЗАГОЛОВОК АККОРДЕОНА)`](<./HTML/TAGS UI/summary.md>)
@@ -282,7 +282,7 @@
 
 ## Теги table
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<table> (ТАБЛИЦА)`](<./HTML/TAGS TABLE/table.md>)
   - [`<caption> (ПОДПИСЬ К ТАБЛИЦЕ)`](<./HTML/TAGS TABLE/caption.md>)
@@ -301,7 +301,7 @@
 
 ## Теги deprecated
 
-[наверх ↑](#html)
+[наверх ↑](#оглавление)
 
 - [`<acronym (ВИД АББРЕВИАТУРЫ)>`](<./HTML/TAGS DEPRECATED/acronym.md>)
 - [`<applet (ВСТРАИВАНИЕ JAVA-ПРИЛОЖЕНИЯ)>`](<./HTML/TAGS DEPRECATED/applet.md>)
