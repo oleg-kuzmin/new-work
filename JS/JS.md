@@ -31,6 +31,7 @@
   - [`.split()`](./STRING/split.md) разделение на массив строк, можно использовать regexp
   - [`.startsWith()`](./STRING/startsWith.md) сравнивает начало строки с аргументом
   - [`.substring()`](./STRING/substring.md) копирует часть строки
+  - [`.trim()`](./STRING/trim.md) очистка от пробелов
 
 ## Window
 
