@@ -242,6 +242,7 @@
 
 - [`document.body`](./DOCUMENT/document.body.md) тело страницы
 - [`document.cookie`](./DOCUMENT/document.cookie.md) cookie страницы
+- [`document.createElement()`](./DOCUMENT/document.createElement.md) создает элемент
 
 ## [DOM-Element](#оглавление)
 
