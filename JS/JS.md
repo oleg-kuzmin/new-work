@@ -272,6 +272,12 @@
 - [`.style`](./ELEMENT/style.md) стиль элемента
 - [`.type`](./ELEMENT/type.md) тип input
 
+### Классы
+
+- [`.classList`](./ELEMENT/classList.md) псевдомассив классов
+  - [`.classList.add()`](./ELEMENT/classList.add.md) добавляет класс
+  - [`.classList.contains()`](./ELEMENT/classList.contains.md) проверяет наличие класса
+
 ### DOM Поиск
 
 - [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
