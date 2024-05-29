@@ -7,6 +7,8 @@
 ## Number
 
 - [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
+- [`Math.ceil()`](./NUMBER/Math.ceil.md) округление до целого вверх
+- [`Math.floor()`](./NUMBER/Math.floor.md) округление до целого вниз
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
 
 ## Array
