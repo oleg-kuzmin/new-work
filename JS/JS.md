@@ -11,6 +11,7 @@
 - [`Math.floor()`](./NUMBER/Math.floor.md) округление до целого вниз
 - [`Math.max()`](./NUMBER/Math.max.md) наибольшее из переданных аргументов
 - [`Math.min()`](./NUMBER/Math.min.md) наименьшее из переданных аргументов
+- [`Math.pow()`](./NUMBER/Math.pow.md) возведение в степень
 - [`Number()`](./NUMBER/Number.md) преобразует аргумент в число
 
 ## Array
