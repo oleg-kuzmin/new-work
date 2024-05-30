@@ -261,6 +261,7 @@
 ### Атрибуты
 
 - [`.className`](./ELEMENT/className.md) атрибут class
+- [`.checked`](./ELEMENT/checked.md) атрибут checked
 - [`.contentEditable`](./ELEMENT/contentEditable.md) атрибут contentEditable
 - [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
 - [`.disabled`](./ELEMENT/disabled.md) атрибут disabled
@@ -282,6 +283,11 @@
 - [`.insertAdjacentText()`](./ELEMENT/insertAdjacentText.md) вставляет текст
 - [`.outerHTML`](./ELEMENT/outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
 - [`.textContent`](./ELEMENT/textContent.md) текстовое содержимое
+
+### Форма
+
+- [`.focus()`](./ELEMENT/focus.md) фокус на элементе
+- [`.reset()`](./ELEMENT/reset.md) сбрасывает поля формы
 
 ### Классы
 

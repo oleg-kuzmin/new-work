@@ -1,0 +1,35 @@
+# `.checked`
+
+Это свойство есть только у чекбоксов и радиокнопок.
+
+## Синтаксис
+
+```js
+input.checked;
+```
+
+## Возвращает
+
+### `boolean`
+
+- `true` - если чекбокс отмечен
+- `false` - если нет
+
+## Пример
+
+```js
+<form name="myForm">
+  <input type="checkbox" name="myCheckbox" />
+  <button class="button">Отправить</button>
+</form>
+```
+
+```js
+const button = document.querySelector('.button');
+const checkbox = document.forms.myForm.elements.myCheckbox;
+
+button.addEventListener('click', function (evt) {
+  evt.preventDefault();
+  console.log(checkbox.checked); // true или false
+});
+```
