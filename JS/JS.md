@@ -273,6 +273,12 @@
 - [`.style`](./ELEMENT/style.md) атрибут style
 - [`.type`](./ELEMENT/type.md) атрибут type
 
+### Содержимое
+
+- [`.content`](./ELEMENT/content.md) содержимое template
+- [`.innerHTML`](./ELEMENT/innerHTML.md) содержимое с разметкой
+- [`.innerText`](./ELEMENT/innerText.md) видимое текстовое содержимое
+
 ### Классы
 
 - [`.classList`](./ELEMENT/classList.md) псевдомассив классов
