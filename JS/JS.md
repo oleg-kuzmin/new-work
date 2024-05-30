@@ -283,16 +283,6 @@
   - [`.classList.replace()`](./ELEMENT/classList.replace.md) заменяет класс
   - [`.classList.toggle()`](./ELEMENT/classList.toggle.md) переключает класс
 
-### Содержимое
-
-- [`.content`](./ELEMENT/content.md) содержимое template
-- [`.innerHTML`](./ELEMENT/innerHTML.md) содержимое с разметкой
-- [`.innerText`](./ELEMENT/innerText.md) видимое текстовое содержимое
-- [`.insertAdjacentHTML()`](./ELEMENT/insertAdjacentHTML.md) вставляет разметку
-- [`.insertAdjacentText()`](./ELEMENT/insertAdjacentText.md) вставляет текст
-- [`.outerHTML`](./ELEMENT/outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
-- [`.textContent`](./ELEMENT/textContent.md) текстовое содержимое
-
 ### Форма
 
 - [`.focus()`](./ELEMENT/focus.md) фокус на элементе
@@ -302,18 +292,22 @@
 - [`.validity`](./ELEMENT/validity.md) объект проверки ошибок
 - [`.value`](./ELEMENT/value.md) значение поля ввода
 
+### DOM Содержимое
+
+- [`.content`](./ELEMENT/content.md) содержимое template
+- [`.innerHTML`](./ELEMENT/innerHTML.md) содержимое с разметкой
+- [`.innerText`](./ELEMENT/innerText.md) видимое текстовое содержимое
+- [`.insertAdjacentHTML()`](./ELEMENT/insertAdjacentHTML.md) вставляет разметку
+- [`.insertAdjacentText()`](./ELEMENT/insertAdjacentText.md) вставляет текст
+- [`.outerHTML`](./ELEMENT/outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
+- [`.textContent`](./ELEMENT/textContent.md) текстовое содержимое
+
 ### DOM Поиск
 
 - [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
 - [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
 - [`.querySelector()`](./ELEMENT/querySelector.md) поиск элемента по селектору
 - [`.querySelectorAll()`](./ELEMENT/querySelectorAll.md) коллекция элементов по селектору
-
-### DOM События
-
-- [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
-- [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
-- [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
 ### DOM Перемещение
 
@@ -322,6 +316,14 @@
 - [`.prepend()`](./ELEMENT/prepend.md) добавляет, перемещает в НАЧАЛО узла
 - [`.append()`](./ELEMENT/append.md) добавляет, перемещает в КОНЕЦ узла
 - [`.replaceWith()`](./ELEMENT/replaceWith.md) заменяет элемент
+- [`.cloneNode()`](./ELEMENT/cloneNode.md) клонирует элемент
+- [`.remove()`](./ELEMENT/remove.md) удаляет элемент
+
+### DOM События
+
+- [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
+- [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
+- [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
 
 ## [Event](#оглавление)
 
