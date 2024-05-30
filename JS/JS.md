@@ -274,6 +274,15 @@
 - [`.style`](./ELEMENT/style.md) атрибут style
 - [`.type`](./ELEMENT/type.md) атрибут type
 
+### Классы
+
+- [`.classList`](./ELEMENT/classList.md) псевдомассив классов
+  - [`.classList.add()`](./ELEMENT/classList.add.md) добавляет класс
+  - [`.classList.contains()`](./ELEMENT/classList.contains.md) проверяет наличие класса
+  - [`.classList.remove()`](./ELEMENT/classList.remove.md) удаляет класс
+  - [`.classList.replace()`](./ELEMENT/classList.replace.md) заменяет класс
+  - [`.classList.toggle()`](./ELEMENT/classList.toggle.md) переключает класс
+
 ### Содержимое
 
 - [`.content`](./ELEMENT/content.md) содержимое template
@@ -288,15 +297,10 @@
 
 - [`.focus()`](./ELEMENT/focus.md) фокус на элементе
 - [`.reset()`](./ELEMENT/reset.md) сбрасывает поля формы
-
-### Классы
-
-- [`.classList`](./ELEMENT/classList.md) псевдомассив классов
-  - [`.classList.add()`](./ELEMENT/classList.add.md) добавляет класс
-  - [`.classList.contains()`](./ELEMENT/classList.contains.md) проверяет наличие класса
-  - [`.classList.remove()`](./ELEMENT/classList.remove.md) удаляет класс
-  - [`.classList.replace()`](./ELEMENT/classList.replace.md) заменяет класс
-  - [`.classList.toggle()`](./ELEMENT/classList.toggle.md) переключает класс
+- [`.submit()`](./ELEMENT/submit.md) отправка формы
+- [`.validationMessage`](./ELEMENT/validationMessage.md) текст сообщения об ошибке
+- [`.validity`](./ELEMENT/validity.md) объект проверки ошибок
+- [`.value`](./ELEMENT/value.md) значение поля ввода
 
 ### DOM Поиск
 
@@ -310,6 +314,8 @@
 - [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
 - [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
 - [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
+
+### DOM Перемещение
 
 ## [Event](#оглавление)
 
