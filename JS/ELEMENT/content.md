@@ -5,14 +5,14 @@
 ## Синтаксис
 
 ```js
-element..content;
+element.content;
 ```
 
 ## Возвращает
 
 ### `element`
 
-Элемент с html-содержимым `<template>`.
+Элемент - с html-содержимым `<template>`.
 
 ## Пример
 

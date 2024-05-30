@@ -278,6 +278,10 @@
 - [`.content`](./ELEMENT/content.md) содержимое template
 - [`.innerHTML`](./ELEMENT/innerHTML.md) содержимое с разметкой
 - [`.innerText`](./ELEMENT/innerText.md) видимое текстовое содержимое
+- [`.insertAdjacentHTML()`](./ELEMENT/insertAdjacentHTML.md) вставляет разметку
+- [`.insertAdjacentText()`](./ELEMENT/insertAdjacentText.md) вставляет текст
+- [`.outerHTML`](./ELEMENT/outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
+- [`.textContent`](./ELEMENT/textContent.md) текстовое содержимое
 
 ### Классы
 
