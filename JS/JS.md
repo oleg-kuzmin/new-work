@@ -324,78 +324,94 @@
 
 ### Атрибуты
 
-- [`.className`](./ELEMENT/className.md) атрибут class
-- [`.checked`](./ELEMENT/checked.md) атрибут checked
-- [`.contentEditable`](./ELEMENT/contentEditable.md) атрибут contentEditable
-- [`.dataset`](./ELEMENT/dataset.md) объект с data-атрибутами
-- [`.disabled`](./ELEMENT/disabled.md) атрибут disabled
-- [`.getAttribute()`](./ELEMENT/getAttribute.md) возвращает значение атрибута
-- [`.hasAttribute()`](./ELEMENT/hasAttribute.md) проверяет наличие атрибута
-- [`.hidden`](./ELEMENT/hidden.md) атрибут hidden
-- [`.id`](./ELEMENT/id.md) атрибут id
-- [`.removeAttribute()`](./ELEMENT/removeAttribute.md) удаляет атрибут
-- [`.setAttribute()`](./ELEMENT/setAttribute.md) устанавливает атрибут
-- [`.style`](./ELEMENT/style.md) атрибут style
-- [`.type`](./ELEMENT/type.md) атрибут type
+- [`.checked`](./ELEMENT/АТРИБУТЫ/checked.md) атрибут checked
+- [`.className`](./ELEMENT/АТРИБУТЫ/className.md) атрибут class
+- [`.contentEditable`](./ELEMENT/АТРИБУТЫ/contentEditable.md) атрибут contentEditable
+- [`.dataset`](./ELEMENT/АТРИБУТЫ/dataset.md) объект с data-атрибутами
+- [`.disabled`](./ELEMENT/АТРИБУТЫ/disabled.md) атрибут disabled
+- [`.getAttribute()`](./ELEMENT/АТРИБУТЫ/getAttribute.md) возвращает значение атрибута
+- [`.hasAttribute()`](./ELEMENT/АТРИБУТЫ/hasAttribute.md) проверяет наличие атрибута
+- [`.hidden`](./ELEMENT/АТРИБУТЫ/hidden.md) атрибут hidden
+- [`.id`](./ELEMENT/АТРИБУТЫ/id.md) атрибут id
+- [`.removeAttribute()`](./ELEMENT/АТРИБУТЫ/removeAttribute.md) удаляет атрибут
+- [`.setAttribute()`](./ELEMENT/АТРИБУТЫ/setAttribute.md) устанавливает атрибут
+- [`.style`](./ELEMENT/АТРИБУТЫ/style.md) атрибут style
+- [`.type`](./ELEMENT/АТРИБУТЫ/type.md) атрибут type
+- [`.value`](./ELEMENT/АТРИБУТЫ/value.md) атрибут value
 
 ### Классы
 
-- [`.classList`](./ELEMENT/classList.md) псевдомассив классов
-  - [`.classList.add()`](./ELEMENT/classList.add.md) добавляет класс
-  - [`.classList.contains()`](./ELEMENT/classList.contains.md) проверяет наличие класса
-  - [`.classList.remove()`](./ELEMENT/classList.remove.md) удаляет класс
-  - [`.classList.replace()`](./ELEMENT/classList.replace.md) заменяет класс
-  - [`.classList.toggle()`](./ELEMENT/classList.toggle.md) переключает класс
+- [`.classList`](./ELEMENT/КЛАССЫ/classList.md) псевдомассив классов
+  - [`.classList.add()`](./ELEMENT/КЛАССЫ/classList.add.md) добавляет класс
+  - [`.classList.contains()`](./ELEMENT/КЛАССЫ/classList.contains.md) проверяет наличие класса
+  - [`.classList.remove()`](./ELEMENT/КЛАССЫ/classList.remove.md) удаляет класс
+  - [`.classList.replace()`](./ELEMENT/КЛАССЫ/classList.replace.md) заменяет класс
+  - [`.classList.toggle()`](./ELEMENT/КЛАССЫ/classList.toggle.md) переключает класс
+
+### Метрики
+
+- [`.clientHeight`](./ELEMENT/МЕТРИКИ/clientHeight.md) высота (content + padding)
+- [`.clientWidth`](./ELEMENT/МЕТРИКИ/clientWidth.md) ширина (content + padding)
+- [`.clientLeft`](./ELEMENT/МЕТРИКИ/clientLeft.md) отступ сверху (border)
+- [`.clientTop`](./ELEMENT/МЕТРИКИ/clientTop.md) отступ сверху (border)
+- [`.scrollHeight`](./ELEMENT/МЕТРИКИ/scrollHeight.md) высота (content + padding + scrollBar)
+- [`.scrollWidth`](./ELEMENT/МЕТРИКИ/scrollWidth.md) ширина (content + padding + scrollBar)
+- [`.offsetHeight`](./ELEMENT/МЕТРИКИ/offsetHeight.md) высота (content + padding + scrollBar + border)
+- [`.offsetWidth`](./ELEMENT/МЕТРИКИ/offsetWidth.md) ширина (content + padding + scrollBar + border)
+- [`.scrollLeft`](./ELEMENT/МЕТРИКИ/scrollLeft.md) ширина прокрученной области
+- [`.scrollTop`](./ELEMENT/МЕТРИКИ/scrollTop.md) высота прокрученной области
+- [`.offsetParent`](./ELEMENT/МЕТРИКИ/offsetParent.md) ближайший родитель-ориентир для рендеринга
+- [`.offsetLeft`](./ELEMENT/МЕТРИКИ/offsetLeft.md) отступ слева от offsetParent
+- [`.offsetTop`](./ELEMENT/МЕТРИКИ/offsetTop.md) отступ сверху от offsetParent
 
 ### Форма
 
-- [`.focus()`](./ELEMENT/focus.md) фокус на элементе
-- [`.reset()`](./ELEMENT/reset.md) сбрасывает поля формы
-- [`.submit()`](./ELEMENT/submit.md) отправка формы
-- [`.validationMessage`](./ELEMENT/validationMessage.md) текст сообщения об ошибке
-- [`.validity`](./ELEMENT/validity.md) объект проверки ошибок
-- [`.value`](./ELEMENT/value.md) значение поля ввода
-
-### DOM Содержимое
-
-- [`.content`](./ELEMENT/content.md) содержимое template
-- [`.innerHTML`](./ELEMENT/innerHTML.md) содержимое с разметкой
-- [`.innerText`](./ELEMENT/innerText.md) видимое текстовое содержимое
-- [`.insertAdjacentHTML()`](./ELEMENT/insertAdjacentHTML.md) вставляет разметку
-- [`.insertAdjacentText()`](./ELEMENT/insertAdjacentText.md) вставляет текст
-- [`.outerHTML`](./ELEMENT/outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
-- [`.textContent`](./ELEMENT/textContent.md) текстовое содержимое
-
-### DOM Поиск
-
-- [`.childNodes`](./ELEMENT/childNodes.md) коллекция дочерних узлов
-- [`.children`](./ELEMENT/children.md) коллекция дочерних элементов
-- [`.closest()`](./ELEMENT/closest.md) находит ближайщего родителя по селектору
-- [`.firstElementChild`](./ELEMENT/firstElementChild.md) первый дочерний элемент
-- [`.lastElementChild`](./ELEMENT/lastElementChild.md) последний дочерний элемент
-- [`.nextElementSibling`](./ELEMENT/nextElementSibling.md) следующий соседний элемент
-- [`.previousElementSibling`](./ELEMENT/previousElementSibling.md) предыдущий соседний элемент
-- [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
-- [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
-- [`.parentElement`](./ELEMENT/parentElement.md) ближайший родитель
-- [`.querySelector()`](./ELEMENT/querySelector.md) поиск элемента по селектору
-- [`.querySelectorAll()`](./ELEMENT/querySelectorAll.md) коллекция элементов по селектору
+- [`.focus()`](./ELEMENT/ФОРМА/focus.md) фокус на элементе
+- [`.reset()`](./ELEMENT/ФОРМА/reset.md) сбрасывает поля формы
+- [`.submit()`](./ELEMENT/ФОРМА/submit.md) отправка формы
+- [`.validationMessage`](./ELEMENT/ФОРМА/validationMessage.md) текст сообщения об ошибке
+- [`.validity`](./ELEMENT/ФОРМА/validity.md) объект проверки ошибок
 
 ### DOM Перемещение
 
-- [`.before()`](./ELEMENT/before.md) добавляет, перемещает ДО узла
-- [`.after()`](./ELEMENT/after.md) добавляет, перемещает ПОСЛЕ узла
-- [`.prepend()`](./ELEMENT/prepend.md) добавляет, перемещает в НАЧАЛО узла
-- [`.append()`](./ELEMENT/append.md) добавляет, перемещает в КОНЕЦ узла
-- [`.replaceWith()`](./ELEMENT/replaceWith.md) заменяет элемент
-- [`.cloneNode()`](./ELEMENT/cloneNode.md) клонирует элемент
-- [`.remove()`](./ELEMENT/remove.md) удаляет элемент
+- [`.after()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/after.md>) добавляет, перемещает ПОСЛЕ узла
+- [`.append()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/append.md>) добавляет, перемещает в КОНЕЦ узла
+- [`.before()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/before.md>) добавляет, перемещает ДО узла
+- [`.cloneNode()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/cloneNode.md>) клонирует элемент
+- [`.prepend()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/prepend.md>) добавляет, перемещает в НАЧАЛО узла
+- [`.remove()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/remove.md>) удаляет элемент
+- [`.replaceWith()`](<./ELEMENT/DOM ПЕРЕМЕЩЕНИЕ/replaceWith.md>) заменяет элемент
+
+### DOM Поиск
+
+- [`.childNodes`](<./ELEMENT/DOM ПОИСК/childNodes.md>) коллекция дочерних узлов
+- [`.children`](<./ELEMENT/DOM ПОИСК/children.md>) коллекция дочерних элементов
+- [`.closest()`](<./ELEMENT/DOM ПОИСК/closest.md>) находит ближайщего родителя по селектору
+- [`.firstElementChild`](<./ELEMENT/DOM ПОИСК/firstElementChild.md>) первый дочерний элемент
+- [`.getElementsByClassName()`](<./ELEMENT/DOM ПОИСК/getElementsByClassName.md>) коллекция элементов по классу
+- [`.getElementsByTagName()`](<./ELEMENT/DOM ПОИСК/getElementsByTagName.md>) коллекция элементов по тегу
+- [`.lastElementChild`](<./ELEMENT/DOM ПОИСК/lastElementChild.md>) последний дочерний элемент
+- [`.nextElementSibling`](<./ELEMENT/DOM ПОИСК/nextElementSibling.md>) следующий соседний элемент
+- [`.parentElement`](<./ELEMENT/DOM ПОИСК/parentElement.md>) ближайший родитель
+- [`.previousElementSibling`](<./ELEMENT/DOM ПОИСК/previousElementSibling.md>) предыдущий соседний элемент
+- [`.querySelector()`](<./ELEMENT/DOM ПОИСК/querySelector.md>) поиск элемента по селектору
+- [`.querySelectorAll()`](<./ELEMENT/DOM ПОИСК/querySelectorAll.md>) коллекция элементов по селектору
 
 ### DOM События
 
-- [`.addEventListener()`](./ELEMENT/addEventListener.md) добавление слушателя
-- [`.dispatchEvent()`](./ELEMENT/dispatchEvent.md) запускает кастомное событие
-- [`.removeEventListener()`](./ELEMENT/removeEventListener.md) удаление слушателя
+- [`.addEventListener()`](<./ELEMENT/DOM СОБЫТИЯ/addEventListener.md>) добавление слушателя
+- [`.dispatchEvent()`](<./ELEMENT/DOM СОБЫТИЯ/dispatchEvent.md>) запускает кастомное событие
+- [`.removeEventListener()`](<./ELEMENT/DOM СОБЫТИЯ/removeEventListener.md>) удаление слушателя
+
+### DOM Содержимое
+
+- [`.content`](<./ELEMENT/DOM СОДЕРЖИМОЕ/content.md>) содержимое template
+- [`.innerHTML`](<./ELEMENT/DOM СОДЕРЖИМОЕ/innerHTML.md>) содержимое с разметкой
+- [`.innerText`](<./ELEMENT/DOM СОДЕРЖИМОЕ/innerText.md>) видимое текстовое содержимое
+- [`.insertAdjacentHTML()`](<./ELEMENT/DOM СОДЕРЖИМОЕ/insertAdjacentHTML.md>) вставляет разметку
+- [`.insertAdjacentText()`](<./ELEMENT/DOM СОДЕРЖИМОЕ/insertAdjacentText.md>) вставляет текст
+- [`.outerHTML`](<./ELEMENT/DOM СОДЕРЖИМОЕ/outerHTML.md>) видимое содержимое разметки, не изменяет сам элемент
+- [`.textContent`](<./ELEMENT/DOM СОДЕРЖИМОЕ/textContent.md>) текстовое содержимое
 
 ## [Event](#оглавление)
 
