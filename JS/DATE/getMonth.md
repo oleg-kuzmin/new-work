@@ -1,0 +1,16 @@
+# `.getMonth()`
+
+Возвращает месяц (0-11). Также есть метод `getUTCMonth()`.
+
+## Синтаксис
+
+```js
+const currentDate = new Date();
+currentDate.getMonth();
+```
+
+## Возвращает
+
+### `number`
+
+Число - месяц.

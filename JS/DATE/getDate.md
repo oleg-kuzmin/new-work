@@ -1,0 +1,16 @@
+# `.getDate()`
+
+Возвращает день месяца (1-31). Также есть метод `getUTCDate()`.
+
+## Синтаксис
+
+```js
+const currentDate = new Date();
+currentDate.getDate();
+```
+
+## Возвращает
+
+### `number`
+
+Число - день месяца.

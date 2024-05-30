@@ -100,7 +100,24 @@
 ## [Date](#оглавление)
 
 - [`Date.now()`](./DATE/Date.now.md) миллисекунды с 01 января 1970
+- [`.getDate()`](./DATE/getDate.md) возвращает день месяца (1-31)
+- [`.getDay()`](./DATE/getDay.md) возвращает день недели (0-6)
+- [`.getFullYear()`](./DATE/getFullYear.md) возвращает год
+- [`.getHours()`](./DATE/getHours.md) возвращает час (0-23)
+- [`.getMilliseconds()`](./DATE/getMilliseconds.md) возвращает миллисекунды (0-999)
+- [`.getMinutes()`](./DATE/getMinutes.md) возвращает минуты (0-59)
+- [`.getMonth()`](./DATE/getMonth.md) возвращает месяц (0-11)
+- [`.getSeconds()`](./DATE/getSeconds.md) возвращает секунды (0-59)
+- [`.getTime()`](./DATE/getTime.md) возвращает миллисекунды с 01 января 1970
 - [`new Date()`](<./DATE/new Date.md>) создает объект Date
+- [`setDate()`](./DATE/setDate.md) устанавливает день месяца (1-31)
+- [`setFullYear()`](./DATE/setFullYear.mdd) устанавливает год
+- [`setHours()`](./DATE/setHours.md) устанавливает час (0-23)
+- [`setMilliseconds()`](./DATE/setMilliseconds.md) устанавливает миллисекунды (0-999)
+- [`setMinutes()`](./DATE/setMinutes.md) устанавливает минуты (0-59)
+- [`setMonth()`](./DATE/setMonth.md) устанавливает месяц (0-11)
+- [`setSeconds()`](./DATE/setSeconds.md) устанавливает секунды (0-59)
+- [`setTime()`](./DATE/setTime.md) устанавливает миллисекунды с 01 января 1970
 
 ## [RegExp](#оглавление)
 
