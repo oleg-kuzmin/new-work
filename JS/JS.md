@@ -172,18 +172,20 @@
 - [`.slice()`](<./ARRAY/ИММУТАБЕЛЬНЫЕ МЕТОДЫ/slice.md>) создает копию массива из нужных элементов
 - [`.some()`](<./ARRAY/ИММУТАБЕЛЬНЫЕ МЕТОДЫ/some.md>) проверяет один элемент соответствуют условию
 
-### Дополнительно
+### Преобразование
+
+- [`Object.fromEntries()`](./OBJECT/Object.fromEntries.md) создает объект из массива
 
 ## [Object](#оглавление)
 
-- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
+- [`in`](./OBJECT/in.md) оператор проверки наличия ключа
 - [`new Object()`](<./OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./OBJECT/Object.create.md) создает объект с прототипом
 - [`Object.entries()`](./OBJECT/Object.entries.md) создает массив из объекта
+- [`Object.fromEntries()`](./OBJECT/Object.fromEntries.md) создает объект из массива
 - [`Object.getOwnPropertyNames()`](./OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
 - [`Object.getOwnPropertySymbols()`](./OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
 - [`Object.getPrototypeOf()`](./OBJECT/Object.getPrototypeOf.md) объект прототипа
@@ -191,6 +193,7 @@
 - [`Object.is()`](./OBJECT/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./OBJECT/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
+- [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
 ## [Function](#оглавление)
 
