@@ -99,6 +99,7 @@
 
 ## [Date](#оглавление)
 
+- [`Date.now()`](./DATE/Date.now.md) миллисекунды с 01 января 1970
 - [`new Date()`](<./DATE/new Date.md>) создает объект Date
 
 ## [RegExp](#оглавление)
