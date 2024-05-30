@@ -151,6 +151,9 @@
 
 ## [Array](#оглавление)
 
+- [`Array.from()`](./ARRAY/Array.from.md) создает массив из коллекции
+- [`Array.isArray()`](./ARRAY/Array.isArray.md) проверка аргумента на массив
+- [`Array()`](./ARRAY/Array.md) создает массив
 - [`.includes()`](./ARRAY/includes.md) проверяет наличие в массиве аргумента
 - [`.indexOf()`](./STRING/indexOf.md) поиск индекса переданного аргумента
 
