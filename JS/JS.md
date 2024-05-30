@@ -317,6 +317,12 @@
 
 ### DOM Перемещение
 
+- [`.before()`](./ELEMENT/before.md) добавляет, перемещает ДО узла
+- [`.after()`](./ELEMENT/after.md) добавляет, перемещает ПОСЛЕ узла
+- [`.prepend()`](./ELEMENT/prepend.md) добавляет, перемещает в НАЧАЛО узла
+- [`.append()`](./ELEMENT/append.md) добавляет, перемещает в КОНЕЦ узла
+- [`.replaceWith()`](./ELEMENT/replaceWith.md) заменяет элемент
+
 ## [Event](#оглавление)
 
 - [`.new Event()`](<./EVENT/new Event.md>) создает кастомное событие
