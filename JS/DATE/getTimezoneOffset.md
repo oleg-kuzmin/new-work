@@ -1,0 +1,16 @@
+# `.getTimezoneOffset()`
+
+Возвращает смещение в минутах между текущей часовой зоной и UTC.
+
+## Синтаксис
+
+```js
+const currentDate = new Date();
+currentDate.getTimezoneOffset();
+```
+
+## Возвращает
+
+### `number`
+
+Число - минуты смещения между текущей часовой зоной и UTC.

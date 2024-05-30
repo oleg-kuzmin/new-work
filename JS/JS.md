@@ -100,6 +100,7 @@
 ## [Date](#оглавление)
 
 - [`Date.now()`](./DATE/Date.now.md) миллисекунды с 01 января 1970
+- [`Date.parse()`](./DATE/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
 - [`.getDate()`](./DATE/getDate.md) возвращает день месяца (1-31)
 - [`.getDay()`](./DATE/getDay.md) возвращает день недели (0-6)
 - [`.getFullYear()`](./DATE/getFullYear.md) возвращает год
@@ -109,6 +110,7 @@
 - [`.getMonth()`](./DATE/getMonth.md) возвращает месяц (0-11)
 - [`.getSeconds()`](./DATE/getSeconds.md) возвращает секунды (0-59)
 - [`.getTime()`](./DATE/getTime.md) возвращает миллисекунды с 01 января 1970
+- [`.getTimezoneOffset()`](./DATE/getTimezoneOffset.md) возвращает разницу в минутах с UTC
 - [`new Date()`](<./DATE/new Date.md>) создает объект Date
 - [`setDate()`](./DATE/setDate.md) устанавливает день месяца (1-31)
 - [`setFullYear()`](./DATE/setFullYear.mdd) устанавливает год
@@ -118,6 +120,10 @@
 - [`setMonth()`](./DATE/setMonth.md) устанавливает месяц (0-11)
 - [`setSeconds()`](./DATE/setSeconds.md) устанавливает секунды (0-59)
 - [`setTime()`](./DATE/setTime.md) устанавливает миллисекунды с 01 января 1970
+- [`.toISOString()`](./DATE/toISOString.md) преобразует объект Date в строку формата iso
+- [`.toLocaleDateString()`](./DATE/toLocaleDateString.md) преобразует объект Date в строку различных форматов
+- [`.toLocaleTimeString()`](./DATE/toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
+- [`.toUTCString()`](./DATE/toUTCString.md) преобразует объект Date в строку в формате UTC
 
 ## [RegExp](#оглавление)
 
