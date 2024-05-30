@@ -307,9 +307,13 @@
 - [`.childNodes`](./ELEMENT/childNodes.md) коллекция дочерних узлов
 - [`.children`](./ELEMENT/children.md) коллекция дочерних элементов
 - [`.closest()`](./ELEMENT/closest.md) находит ближайщего родителя по селектору
+- [`.firstElementChild`](./ELEMENT/firstElementChild.md) первый дочерний элемент
+- [`.lastElementChild`](./ELEMENT/lastElementChild.md) последний дочерний элемент
+- [`.nextElementSibling`](./ELEMENT/nextElementSibling.md) следующий соседний элемент
+- [`.previousElementSibling`](./ELEMENT/previousElementSibling.md) предыдущий соседний элемент
 - [`.getElementsByClassName()`](./ELEMENT/getElementsByClassName.md) коллекция элементов по классу
 - [`.getElementsByTagName()`](./ELEMENT/getElementsByTagName.md) коллекция элементов по тегу
-- [`.parentElement`](./ELEMENT/parentElement.md) ближайщий родитель
+- [`.parentElement`](./ELEMENT/parentElement.md) ближайший родитель
 - [`.querySelector()`](./ELEMENT/querySelector.md) поиск элемента по селектору
 - [`.querySelectorAll()`](./ELEMENT/querySelectorAll.md) коллекция элементов по селектору
 
