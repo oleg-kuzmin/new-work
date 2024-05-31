@@ -1,4 +1,4 @@
-# `formtarget` (Отображение после submit)
+# `formtarget`
 
 Переопределяет атрибут `target` у родительской формы.
 
@@ -6,7 +6,7 @@
 
 ## Применяется к тегам
 
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
 
 ## Пример
 

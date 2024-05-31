@@ -1,4 +1,4 @@
-# `autocomplete` (Автозаполнение)
+# `autocomplete`
 
 Атрибут, при помощи которого форма заполняется в один клик — браузер подставит значения в соответствующие поля.
 
@@ -18,10 +18,10 @@
 
 ## Применяется к тегам
 
-- [`<form> (ФОРМА)`](<../TAGS FORM/form.md>)
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
-- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<../TAGS FORM/select.md>)
-- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea.md>)
+- [`<form>`](<../TAGS FORM/form.md>) форма
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
+- [`<select>`](<../TAGS FORM/select.md>) выпадающий список
+- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
 
 ## Пример
 

@@ -1,11 +1,11 @@
-# `value` (Значение поля)
+# `value`
 
 Значение поля. Используется при отправке формы.
 
 ## Применяется к тегам
 
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
 
 ## Пример
 

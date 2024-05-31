@@ -1,10 +1,10 @@
-# `defaultchecked` (Автовыбор checkbox, radio)
+# `defaultchecked`
 
 Сделает поле ввода уже выбранным.
 
 ## Применяется к тегам
 
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
 
 ## Пример
 

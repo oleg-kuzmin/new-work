@@ -1,4 +1,4 @@
-# `minlength`, `maxlength` (Ограничение символов)
+# `minlength`, `maxlength`
 
 Атрибуты `minlength` и `maxlength` устанавливают минимальное и максимальное количество символов, которые можно ввести в поля `<input>` или `<textarea>`.
 
@@ -10,8 +10,8 @@
 
 ## Применяется к тегам
 
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
-- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea.md>)
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
+- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
 
 ## Пример
 

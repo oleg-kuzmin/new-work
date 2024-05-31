@@ -1,4 +1,4 @@
-# `disabled` (Отключает элемент)
+# `disabled`
 
 С помощью атрибута `disabled` можно отключать интерактивные элементы форм. Пока этот атрибут есть, с элементом нельзя будет взаимодействовать.
 
@@ -16,13 +16,13 @@
 
 ## Применяется к тегам
 
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
-- [`<fieldset> (ГРУППИРОВКА ЭЛЕМЕНТОВ)`](<../TAGS FORM/fieldset.md>)
-- [`<optgroup> (ГРУППИРУЕТ OPTION)`](<../TAGS FORM/optgroup.md>)
-- [`<option> (ПУНКТ СПИСКА)`](<../TAGS FORM/option.md>)
-- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<../TAGS FORM/select.md>)
-- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea.md>)
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
+- [`<fieldset>`](<../TAGS FORM/fieldset.md>) группировка элементов
+- [`<optgroup>`](<../TAGS FORM/optgroup.md>) группирует option
+- [`<option>`](<../TAGS FORM/option.md>) пункт списка
+- [`<select>`](<../TAGS FORM/select.md>) выпадающий список
+- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
 
 ## Пример
 

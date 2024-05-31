@@ -1,17 +1,17 @@
-# `form` (Связь с формой)
+# `form`
 
 Cвязывает контролы внутри тега с формой (будто они располагаются внутри) — для этого в значении атрибута следует указать ID формы. Если атрибут не указать, элемент будет связан с ближайшей формой.
 
 ## Применяется к тегам
 
-- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object.md>)
-- [`<meter> (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР)`](<../TAGS UI/meter.md>)
-- [`<output> (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ)`](<../TAGS UI/output.md>)
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
-- [`<fieldset> (ГРУППИРОВКА ЭЛЕМЕНТОВ)`](<../TAGS FORM/fieldset.md>)
-- [`<select> (ВЫПАДАЮЩИЙ СПИСОК)`](<../TAGS FORM/select.md>)
-- [`<textarea> (МНОГОСТРОЧНОЕ ПОЛЕ ВВОДА)`](<../TAGS FORM/textarea.md>)
+- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
+- [`<meter>`](<../TAGS UI/meter.md>) статический прогресс-бар
+- [`<output>`](<../TAGS UI/output.md>) результат вычислений, действий
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
+- [`<fieldset>`](<../TAGS FORM/fieldset.md>) группировка элементов
+- [`<select>`](<../TAGS FORM/select.md>) выпадающий список
+- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
 
 ## Пример
 

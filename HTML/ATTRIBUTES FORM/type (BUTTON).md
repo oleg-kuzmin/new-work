@@ -1,10 +1,10 @@
-# `type` (Тип button)
+# `type`
 
 Задаёт действие кнопки при нажатии.
 
 ## Применяется к тегам
 
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
 
 ## Пример
 

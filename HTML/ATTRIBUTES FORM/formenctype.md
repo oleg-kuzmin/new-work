@@ -1,4 +1,4 @@
-# `formenctype` (Тип шифрования данных)
+# `formenctype`
 
 Переопределяет атрибут `enctype` у родительской формы.
 
@@ -6,8 +6,8 @@
 
 ## Применяется к тегам
 
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
-- [`<input> (ПОЛЕ ВВОДА)`](<../TAGS FORM/input.md>)
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<input>`](<../TAGS FORM/input.md>) поле ввода
 
 ## Пример
 

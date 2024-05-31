@@ -1,12 +1,12 @@
-# `name` (Имя)
+# `name`
 
 Имя. Используется при отправке формы.
 
 ## Применяется к тегам
 
-- [`<output> (РЕЗУЛЬТАТ ВЫЧИСЛЕНИЙ, ДЕЙСТВИЙ)`](<../TAGS UI/output.md>)
-- [`<button> (КНОПКА)`](<../TAGS FORM/button.md>)
-- [`<form> (ФОРМА)`](<../TAGS FORM/form.md>)
+- [`<output>`](<../TAGS UI/output.md>) результат вычислений, действий
+- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<form>`](<../TAGS FORM/form.md>) форма
 
 ## Пример
 
