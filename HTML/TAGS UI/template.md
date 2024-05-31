@@ -1,4 +1,4 @@
-# `<template>` (Шаблон)
+# `<template>`
 
 _(template: шаблон)_
 

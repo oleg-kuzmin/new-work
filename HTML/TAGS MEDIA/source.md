@@ -1,4 +1,4 @@
-# `<source>` (Источник медиа)
+# `<source>`
 
 При помощи тега `<source>` можно указать несколько источников для видео (`<video>`), аудио (`<audio>`) или изображения (`<picture>`). Очень пригождается, когда нужно подключить контент в нескольких форматах для лучшей поддержки в разных браузерах.
 
@@ -50,7 +50,7 @@
 
 ## Атрибуты
 
-- [`media (МЕДИА-ЗАПРОС)`](../ATTRIBUTES/media.md)
-- [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ)`](<../ATTRIBUTES/srcset, sizes.md>)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)
+- [`media`](../ATTRIBUTES/media.md) медиа-запрос
+- [`src`](../ATTRIBUTES/src.md) url источника
+- [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes.md>) набор изображений
+- [`type`](../ATTRIBUTES/type.md) тип mime

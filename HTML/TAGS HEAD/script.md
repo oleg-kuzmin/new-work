@@ -1,4 +1,4 @@
-# `<script>` (Добавляет скрипт)
+# `<script>`
 
 Теги `<script>` можно располагать в любом месте в `<head>` или `<body>` HTML-документа. Но лучше всего добавлять их в самый конец перед закрывающим тегом `</body>`.
 
@@ -18,7 +18,7 @@
 
 ## Атрибуты
 
-- [`async (ЗАПУСК АСИНХРОННО)`](../ATTRIBUTES/async.md)
-- [`defer (ЗАПУСК ПОСЛЕ ЗАГРУЗКИ СТРАНИЦЫ)`](../ATTRIBUTES/defer.md)
-- [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`type (ТИП МОДУЛЕЙ)`](<../ATTRIBUTES/type (SCRIPT).md>)
+- [`async`](../ATTRIBUTES/async.md) запуск асинхронно
+- [`defer`](../ATTRIBUTES/defer.md) запуск после загрузки страницы
+- [`src`](../ATTRIBUTES/src.md) url источника
+- [`type`](<../ATTRIBUTES/type (SCRIPT).md>) тип модулей

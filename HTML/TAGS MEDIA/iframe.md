@@ -1,4 +1,4 @@
-# `<iframe>` (Встраивание фрейма)
+# `<iframe>`
 
 _(inline frame: встроенная в строку рамка)_
 
@@ -35,9 +35,9 @@ _(inline frame: встроенная в строку рамка)_
 
 ## Атрибуты
 
-- [`allowfullscreen (ПОЛНОЭКРАННЫЙ РЕЖИМ ФРЕЙМА)`](../ATTRIBUTES/allowfullscreen.md)
-- [`name (ИМЯ)`](../ATTRIBUTES/name.md)
-- [`sandbox (ОГРАНИЧЕНИЯ ФРЕЙМА)`](../ATTRIBUTES/sandbox.md)
-- [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`srcdoc (ВСТРАИВАНИЕ КОДА В ФРЕЙМ)`](../ATTRIBUTES/srcdoc.md)
-- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height.md>)
+- [`allowfullscreen`](../ATTRIBUTES/allowfullscreen.md) полноэкранный режим фрейма
+- [`name`](../ATTRIBUTES/name.md) имя
+- [`sandbox`](../ATTRIBUTES/sandbox.md) ограничения фрейма
+- [`src`](../ATTRIBUTES/src.md) url источника
+- [`srcdoc`](../ATTRIBUTES/srcdoc.md) встраивание кода в фрейм
+- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота

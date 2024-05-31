@@ -1,4 +1,4 @@
-# `<link>` (Внешний файл)
+# `<link>`
 
 _(link: ссылка)_
 
@@ -64,9 +64,9 @@ _(link: ссылка)_
 
 ## Атрибуты
 
-- [`as (ТИП ЗАГРУЖАЕМОГО КОНТЕНТА)`](../ATTRIBUTES/as.md)
-- [`crossorigin (ОБРАБОТКА CORS)`](../ATTRIBUTES/crossorigin.md)
-- [`href (ССЫЛКА НА URL)`](../ATTRIBUTES/href.md)
-- [`media (МЕДИА-ЗАПРОС)`](../ATTRIBUTES/media.md)
-- [`rel (СВЯЗЬ ФАЙЛА СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (LINK).md>)
-- [`sizes (РАЗМЕР ДЛЯ ИКОНКИ)`](../ATTRIBUTES/sizes.md)
+- [`as`](../ATTRIBUTES/as.md) тип загружаемого контента
+- [`crossorigin`](../ATTRIBUTES/crossorigin.md) обработка cors
+- [`href`](../ATTRIBUTES/href.md) ссылка на url
+- [`media`](../ATTRIBUTES/media.md) медиа-запрос
+- [`rel`](<../ATTRIBUTES/rel (LINK).md>) связь файла со страницей
+- [`sizes`](../ATTRIBUTES/sizes.md) размер для фавиконки

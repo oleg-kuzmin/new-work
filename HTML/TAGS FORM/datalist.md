@@ -1,4 +1,4 @@
-# `<datalist>` (Список подсказок для input)
+# `<datalist>`
 
 _(data list: список данных)_
 

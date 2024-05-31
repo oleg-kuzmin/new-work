@@ -1,4 +1,4 @@
-# `<area>` (Ссылки на области карты)
+# `<area>`
 
 _(area: область)_
 
@@ -27,11 +27,11 @@ _(area: область)_
 
 ## Атрибуты
 
-- [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](../ATTRIBUTES/alt.md)
-- [`coords (КООРДИНАТЫ ОБЛАСТЕЙ КАРТЫ)`](../ATTRIBUTES/coords.md)
-- [`href (ССЫЛКА НА URL)`](../ATTRIBUTES/href.md)
-- [`ping (POST-ЗАПРОС ПРИ ПЕРЕХОДЕ ПО КАРТЕ)`](../ATTRIBUTES/ping.md)
-- [`referrerpolicy (ДАННЫЕ ПРИ ПЕРЕХОДЕ ПО КАРТЕ)`](../ATTRIBUTES/referrerpolicy.md)
-- [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (A).md>)
-- [`shape (ФОРМА ОБЛАСТЕЙ КАРТЫ)`](../ATTRIBUTES/shape.md)
-- [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](../ATTRIBUTES/target.md)
+- [`alt`](../ATTRIBUTES/alt.md) альтернативный текст
+- [`coords`](../ATTRIBUTES/coords.md) координаты областей карты
+- [`href`](../ATTRIBUTES/href.md) ссылка на url
+- [`ping`](../ATTRIBUTES/ping.md) post-запрос при переходе по карте
+- [`referrerpolicy`](../ATTRIBUTES/referrerpolicy.md) данные при переходе по карте
+- [`rel`](<../ATTRIBUTES/rel (A).md>) связь ссылки со страницей
+- [`shape`](../ATTRIBUTES/shape.md) форма областей карты
+- [`target`](../ATTRIBUTES/target.md) способ открытия ссылки

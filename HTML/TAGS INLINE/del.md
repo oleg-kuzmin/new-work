@@ -1,4 +1,4 @@
-# `<del>` (Удаленный контент)
+# `<del>`
 
 _(delete: удалить)_
 
@@ -31,5 +31,5 @@ _(delete: удалить)_
 
 ## Атрибуты
 
-- [`cite (ИСТОЧНИК ПРАВКИ)`](../ATTRIBUTES/cite.md)
-- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](../ATTRIBUTES/datetime.md)
+- [`cite`](../ATTRIBUTES/cite.md) источник правки
+- [`datetime`](../ATTRIBUTES/datetime.md) дата и время для машины

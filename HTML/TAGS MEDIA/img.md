@@ -1,4 +1,4 @@
-# `<img>` (Изображение)
+# `<img>`
 
 Тег `<img>` добавляет изображение на страницу.
 
@@ -26,10 +26,10 @@
 
 ## Атрибуты
 
-- [`alt (АЛЬТЕРНАТИВНЫЙ ТЕКСТ)`](../ATTRIBUTES/alt.md)
-- [`decoding (ДЕКОДИРОВАНИЕ)`](../ATTRIBUTES/decoding.md)
-- [`loading (ЗАГРУЗКА)`](../ATTRIBUTES/loading.md)
-- [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ)`](<../ATTRIBUTES/srcset, sizes.md>)
-- [`usemap (ID КАРТЫ)`](../ATTRIBUTES/usemap.md)
-- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height.md>)
+- [`alt`](../ATTRIBUTES/alt.md) альтернативный текст
+- [`decoding`](../ATTRIBUTES/decoding.md) декодирование
+- [`loading`](../ATTRIBUTES/loading.md) загрузка
+- [`src`](../ATTRIBUTES/src.md) url источника
+- [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes.md>) набор изображений
+- [`usemap`](../ATTRIBUTES/usemap.md) id карты
+- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота

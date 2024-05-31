@@ -1,4 +1,4 @@
-## `<textarea>` (Многострочное поле ввода)
+## `<textarea>`
 
 Тег `<textarea>` используется для создания многострочного поля ввода. Например, поля ввода комментария.
 
@@ -21,16 +21,15 @@
 
 ## Атрибуты
 
-- [`cols (КОЛИЧЕСТВО КОЛОНОК TEXTAREA)`](<../ATTRIBUTES FORM/cols.md>)
-- [`rows (КОЛИЧЕСТВО СТРОК TEXTAREA)`](<../ATTRIBUTES FORM/rows.md>)
-- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>)
-- [`autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ)`](<../ATTRIBUTES FORM/autofocus.md>)
-- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled.md>)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
-- [`formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/formenctype.md>)
-- [`inputmode (КЛАВИАТУРА ДЛЯ INPUT)`](<../ATTRIBUTES FORM/inputmode.md>)
-- [`minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ)`](<../ATTRIBUTES FORM/minlength, maxlength.md>)
-- [`placeholder (ПОДСКАЗКА ВВОДА)`](<../ATTRIBUTES FORM/placeholder.md>)
-- [`readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ)`](<../ATTRIBUTES FORM/readonly.md>)
-- [`required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ)`](<../ATTRIBUTES FORM/required.md>)
-- [`wrap (СИМВОЛЫ ПЕРЕНОСА В TEXTAREA)`](<../ATTRIBUTES FORM/wrap.md>)
+- [`cols (КОЛИЧЕСТВО КОЛОНОК TEXTAREA)`](<../ATTRIBUTES FORM/cols.md>) количество колонок textarea
+- [`rows (КОЛИЧЕСТВО СТРОК TEXTAREA)`](<../ATTRIBUTES FORM/rows.md>) количество строк textarea
+- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>) автозаполнение
+- [`autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ)`](<../ATTRIBUTES FORM/autofocus.md>) фокус при загрузке страницы
+- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled.md>) отключает элемент
+- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>) связь с формой
+- [`inputmode (КЛАВИАТУРА ДЛЯ INPUT)`](<../ATTRIBUTES FORM/inputmode.md>) клавиатура для input
+- [`minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ)`](<../ATTRIBUTES FORM/minlength, maxlength.md>) ограничений символов
+- [`placeholder (ПОДСКАЗКА ВВОДА)`](<../ATTRIBUTES FORM/placeholder.md>) подсказка ввода
+- [`readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ)`](<../ATTRIBUTES FORM/readonly.md>) только для чтения
+- [`required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ)`](<../ATTRIBUTES FORM/required.md>) обязательное поле
+- [`wrap (СИМВОЛЫ ПЕРЕНОСА В TEXTAREA)`](<../ATTRIBUTES FORM/wrap.md>) символы переноса в textarea

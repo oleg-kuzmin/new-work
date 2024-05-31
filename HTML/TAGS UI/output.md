@@ -1,4 +1,4 @@
-# `<output>` (Результат вычислений, действий)
+# `<output>`
 
 _(output: выход, вывод)_
 
@@ -31,6 +31,6 @@ _(output: выход, вывод)_
 
 ## Атрибуты
 
-- [`for (СВЯЗЬ С ЭЛЕМЕНТОМ ФОРМЫ)`](<../ATTRIBUTES FORM/for.md>)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
-- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name.md>)
+- [`for`](<../ATTRIBUTES FORM/for.md>) связь с элементом формы
+- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
+- [`name`](<../ATTRIBUTES FORM/name.md>) имя

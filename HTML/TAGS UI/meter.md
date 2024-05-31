@@ -1,4 +1,4 @@
-# `<meter>` (Статический прогресс-бар)
+# `<meter>`
 
 Тег `<meter>` нужен для визуального отображения числового значения в заданном диапазоне.
 
@@ -47,10 +47,10 @@
 
 ## Атрибуты
 
-- [`min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/min.md>)
-- [`max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/max.md>)
-- [`optimum (ОПТИМАЛЬНОЕ ЗНАЧЕНИЕ)`](../ATTRIBUTES/optimum.md)
-- [`low (НИЗШЕЕ ЗНАЧЕНИЕ)`](../ATTRIBUTES/low.md)
-- [`high (ВЫСШЕЕ ЗНАЧЕНИЕ)`](../ATTRIBUTES/high.md)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
-- [`value (ЗНАЧЕНИЕ)`](../ATTRIBUTES/value.md)
+- [`min`](<../ATTRIBUTES FORM/min.md>) минимальное значение
+- [`max`](<../ATTRIBUTES FORM/max.md>) максимальное значение
+- [`optimum`](../ATTRIBUTES/optimum.md) оптимальное значение
+- [`low`](../ATTRIBUTES/low.md) низшее значение
+- [`high`](../ATTRIBUTES/high.md) высшее значение
+- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
+- [`value`](../ATTRIBUTES/value.md) значение

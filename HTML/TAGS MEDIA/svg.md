@@ -1,4 +1,4 @@
-# `<svg>` (Векторая графика)
+# `<svg>`
 
 SVG — векторный формат графики, доступный в вебе. Формат основан на технологии XML.
 
@@ -28,7 +28,7 @@ https://inkscape.org/
 
 ## Атрибуты
 
-- [`fill (ЦВЕТ ЗАЛИВКИ SVG)`](../ATTRIBUTES/fill.md)
-- [`preserveAspectRatio (ПРОПОРЦИИ SVG)`](../ATTRIBUTES/preserveAspectRatio.md)
-- [`stroke (ТОЛЩИНА И ЦВЕТ ОБВОДКИ SVG)`](../ATTRIBUTES/stroke.md)
-- [`viewBox (РАЗМЕРЫ ОКНА ОТОБРАЖЕНИЯ SVG)`](../ATTRIBUTES/viewBox.md)
+- [`fill`](../ATTRIBUTES/fill.md) цвет заливки svg
+- [`preserveAspectRatio`](../ATTRIBUTES/preserveAspectRatio.md) пропорции svg
+- [`stroke`](../ATTRIBUTES/stroke.md) толщина и цвет обводки svg
+- [`viewBox`](../ATTRIBUTES/viewBox.md) размеры окна отображения svg

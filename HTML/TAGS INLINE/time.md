@@ -1,4 +1,4 @@
-# `<time>` (Дата, время)
+# `<time>`
 
 _(time: время)_
 
@@ -27,4 +27,4 @@ _(time: время)_
 
 ## Атрибуты
 
-- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](../ATTRIBUTES/datetime.md)
+- [`datetime`](../ATTRIBUTES/datetime.md) дата и время для машины

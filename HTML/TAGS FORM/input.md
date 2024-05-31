@@ -1,4 +1,4 @@
-# `<input>` (Поле ввода)
+# `<input>`
 
 _(input: ввод)_
 
@@ -23,25 +23,25 @@ _(input: ввод)_
 
 ## Атрибуты
 
-- [`accept (ТИП ФАЙЛА ДЛЯ INPUT FILE)`](<../ATTRIBUTES FORM/accept.md>)
-- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>)
-- [`autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ)`](<../ATTRIBUTES FORM/autofocus.md>)
-- [`capture (ВИД КАМЕРЫ ДЛЯ INPUT FILE)`](<../ATTRIBUTES FORM/capture.md>)
-- [`defaultchecked (АВТОВЫБОР CHECKBOX, RADIO)`](<../ATTRIBUTES FORM/defaultchecked.md>)
-- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled.md>)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
-- [`formenctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/formenctype.md>)
-- [`inputmode (КЛАВИАТУРА ДЛЯ INPUT)`](<../ATTRIBUTES FORM/inputmode.md>)
-- [`list (ССЫЛКА НА ID DATALIST)`](<../ATTRIBUTES FORM/list.md>)
-- [`min (МИНИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/min.md>)
-- [`max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/max.md>)
-- [`minlength, maxlength (ОГРАНИЧЕНИЕ СИМВОЛОВ)`](<../ATTRIBUTES FORM/minlength, maxlength.md>)
-- [`multiple (ВЫБОР НЕСКОЛЬКИХ ЗНАЧЕНИЙ)`](<../ATTRIBUTES FORM/multiple.md>)
-- [`pattern (РЕГУЛЯРНОЕ ВЫРАЖЕНИЕ)`](<../ATTRIBUTES FORM/pattern.md>)
-- [`placeholder (ПОДСКАЗКА ВВОДА)`](<../ATTRIBUTES FORM/placeholder.md>)
-- [`readonly (ТОЛЬКО ДЛЯ ЧТЕНИЯ)`](<../ATTRIBUTES FORM/readonly.md>)
-- [`required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ)`](<../ATTRIBUTES FORM/required.md>)
-- [`size (ШИРИНА ПОЛЯ ИЛИ ЧИСЛО ОПЦИЙ)`](<../ATTRIBUTES FORM/size.md>)
-- [`step (ШАГ ИЗМЕНЕНИЯ INPUT)`](<../ATTRIBUTES FORM/step.md>)
-- [`type (ТИП INPUT)`](<../ATTRIBUTES FORM/type (INPUT).md>)
-- [`value (ЗНАЧЕНИЕ ПОЛЯ)`](<../ATTRIBUTES FORM/value.md>)
+- [`accept`](<../ATTRIBUTES FORM/accept.md>) тип файла для input file
+- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete.md>) автозаполнени
+- [`autofocus`](<../ATTRIBUTES FORM/autofocus.md>) фокус при загрузке страницы
+- [`capture`](<../ATTRIBUTES FORM/capture.md>) вид камеры для input file
+- [`defaultchecked`](<../ATTRIBUTES FORM/defaultchecked.md>) автовыбор checkbox, radio
+- [`disabled`](<../ATTRIBUTES FORM/disabled.md>) отключает элемент
+- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
+- [`formenctype`](<../ATTRIBUTES FORM/formenctype.md>) переопределяет тип шифрования данных
+- [`inputmode`](<../ATTRIBUTES FORM/inputmode.md>) клавиатура для input
+- [`list`](<../ATTRIBUTES FORM/list.md>) ссылка на id datalist
+- [`min`](<../ATTRIBUTES FORM/min.md>) минимальное значение
+- [`max`](<../ATTRIBUTES FORM/max.md>) максимальное значение
+- [`minlength, maxlength`](<../ATTRIBUTES FORM/minlength, maxlength.md>) ограничение символов
+- [`multiple`](<../ATTRIBUTES FORM/multiple.md>) выбор нескольких значений
+- [`pattern`](<../ATTRIBUTES FORM/pattern.md>) регулярное выражение
+- [`placeholder`](<../ATTRIBUTES FORM/placeholder.md>) подсказка ввода
+- [`readonly`](<../ATTRIBUTES FORM/readonly.md>) только для чтения
+- [`required`](<../ATTRIBUTES FORM/required.md>) обязательное поле
+- [`size`](<../ATTRIBUTES FORM/size.md>) ширина поля или число опций
+- [`step`](<../ATTRIBUTES FORM/step.md>) шаг изменения input
+- [`type`](<../ATTRIBUTES FORM/type (INPUT).md>) тип input
+- [`value`](<../ATTRIBUTES FORM/value.md>) значение поля ввода

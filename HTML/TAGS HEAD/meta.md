@@ -1,4 +1,4 @@
-# `<meta>` (Метаданные)
+# `<meta>`
 
 _(meta: мета)_
 
@@ -41,7 +41,7 @@ _(meta: мета)_
 
 ## Атрибуты
 
-- [`charset (КОДИРОВКА СТРАНИЦЫ)`](../ATTRIBUTES/charset.md)
-- [`http-equiv, content (ПОВЕДЕНИЕ СТРАНИЦЫ)`](<../ATTRIBUTES/http-equiv, content.md>)
-- [`name, content (ДАННЫЕ СТРАНИЦЫ)`](<../ATTRIBUTES/name, content.md>)
-- [`property, content (OPEN-GRAPH РАЗМЕТКА)`](<../ATTRIBUTES/property, content.md>)
+- [`charset`](../ATTRIBUTES/charset.md) кодировка страницы
+- [`http-equiv, content`](<../ATTRIBUTES/http-equiv, content.md>) поведение страницы
+- [`name, content`](<../ATTRIBUTES/name, content.md>) данные страницы
+- [`property, content`](<../ATTRIBUTES/property, content.md>) open-graph разметка

@@ -1,4 +1,4 @@
-# `<html>` (Содержимое страницы)
+# `<html>`
 
 _(hyperText markup language: язык гипертекстовой разметки)_
 
@@ -30,4 +30,4 @@ _(hyperText markup language: язык гипертекстовой размет�
 
 ## Атрибуты
 
-[`prefix (OPEN-GRAPH РАЗМЕТКА)`](<../ATTRIBUTES/prefix.md>)
+- [`prefix`](../ATTRIBUTES/prefix.md) open-graph разметка

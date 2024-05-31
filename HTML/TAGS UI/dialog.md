@@ -1,4 +1,4 @@
-# `<dialog>` (Модальное окно)
+# `<dialog>`
 
 _(dialog: диалог, всплывающее окно)_
 
@@ -84,4 +84,4 @@ if (dialog.returnValue === 'debug') {
 
 ## Атрибуты
 
-- [`open (ОТКРЫВАЕТ DETAILS, DIALOG)`](../ATTRIBUTES/open.md)
+- [`open`](../ATTRIBUTES/open.md) открывает details, dialog

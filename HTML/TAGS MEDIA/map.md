@@ -1,4 +1,4 @@
-# `<map>` (Карта)
+# `<map>`
 
 _(map: карта)_
 
@@ -22,4 +22,4 @@ _(map: карта)_
 
 ## Атрибуты
 
-- [`name (ИМЯ)`](../ATTRIBUTES/name.md)
+- [`name`](../ATTRIBUTES/name.md) имя

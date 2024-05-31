@@ -1,4 +1,4 @@
-# `<details>` (Аккордеон)
+# `<details>`
 
 _(details: подробности)_
 
@@ -39,4 +39,4 @@ _(details: подробности)_
 
 ## Атрибуты
 
-- [`open (ОТКРЫВАЕТ DETAILS, DIALOG)`](../ATTRIBUTES/open.md)
+- [`open`](../ATTRIBUTES/open.md) открывает details, dialog

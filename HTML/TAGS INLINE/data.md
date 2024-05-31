@@ -1,4 +1,4 @@
-# `<data>` (Машинные данные)
+# `<data>`
 
 _(data: данные)_
 
@@ -30,4 +30,4 @@ _(data: данные)_
 
 ## Атрибуты
 
-- [`value (ЗНАЧЕНИЕ)`](../ATTRIBUTES/value.md)
+- [`value`](../ATTRIBUTES/value.md) значение

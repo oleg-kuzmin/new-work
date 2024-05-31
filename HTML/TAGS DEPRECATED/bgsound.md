@@ -1,4 +1,4 @@
-# `<bgsound>` (Фоновая музыка)
+# `<bgsound>`
 
 _(background sound: фоновая музыка)_
 

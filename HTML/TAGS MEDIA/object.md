@@ -1,4 +1,4 @@
-# `<object>` (Встраивание медиа)
+# `<object>`
 
 Тег `<object>` используется для встраивания на страницу других страниц или мультимедийных элементов (PDF, Flash, видео- или аудио-плееров).
 
@@ -24,9 +24,9 @@
 
 ## Атрибуты
 
-- [`data (ССЫЛКА НА URL MEDIA)`](../ATTRIBUTES/data.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)
-- [`name (ИМЯ)`](../ATTRIBUTES/name.md)
-- [`usemap (ID КАРТЫ)`](../ATTRIBUTES/usemap.md)
-- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height.md>)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
+- [`data`](../ATTRIBUTES/data.md) ссылка на url медиа
+- [`type`](../ATTRIBUTES/type.md) тип mime
+- [`name`](../ATTRIBUTES/name.md) имя
+- [`usemap`](../ATTRIBUTES/usemap.md) id карты
+- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота
+- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой

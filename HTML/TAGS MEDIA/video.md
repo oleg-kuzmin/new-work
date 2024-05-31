@@ -1,4 +1,4 @@
-# `<video>` (Видео)
+# `<video>`
 
 Встраивает видео на страницу
 
@@ -32,14 +32,14 @@
 
 ## Атрибуты
 
-- [`autoplay (АВТОПРОИГРЫВАНИЕ МЕДИА)`](../ATTRIBUTES/autoplay.md)
-- [`buffered (ИНФОРМАЦИЯ О ЗАГРУЗКЕ ВИДЕО)`](../ATTRIBUTES/buffered.md)
-- [`controls (ЭЛЕМЕНТЫ УПРАВЛЕНИЯ МЕДИА)`](../ATTRIBUTES/controls.md)
-- [`loop (ЗАЦИКЛИВАНИЕ)`](../ATTRIBUTES/loop.md)
-- [`muted (ВЫКЛЮЧАЕТ ЗВУК МЕДИА)`](../ATTRIBUTES/muted.md)
-- [`playsinline (ПОЛНЫЙ ЭКРАН ВИДЕО)`](../ATTRIBUTES/playsinline.md)
-- [`poster (ОБЛОЖКА ВИДЕО)`](../ATTRIBUTES/poster.md)
-- [`preload (ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА МЕДИА)`](../ATTRIBUTES/preload.md)
-- [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)
-- [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height.md>)
+- [`autoplay`](../ATTRIBUTES/autoplay.md) автопроигрывание медиа
+- [`buffered`](../ATTRIBUTES/buffered.md) информация о загрузке видео
+- [`controls`](../ATTRIBUTES/controls.md) элементы управления медиа
+- [`loop`](../ATTRIBUTES/loop.md) зацикливание
+- [`muted`](../ATTRIBUTES/muted.md) выключает звук медиа
+- [`playsinline`](../ATTRIBUTES/playsinline.md) полный экран видео
+- [`poster`](../ATTRIBUTES/poster.md) обложка видео
+- [`preload`](../ATTRIBUTES/preload.md) предварительная загрузка медиа
+- [`src`](../ATTRIBUTES/src.md) url источника
+- [`type`](../ATTRIBUTES/type.md) тип mime
+- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота

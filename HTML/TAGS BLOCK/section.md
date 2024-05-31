@@ -1,4 +1,4 @@
-# `<section>` (Секция)
+# `<section>`
 
 _(section: секция)_
 

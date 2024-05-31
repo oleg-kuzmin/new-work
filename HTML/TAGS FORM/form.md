@@ -1,4 +1,4 @@
-# `<form>` (Форма)
+# `<form>`
 
 Тег `<form>` добавляет на страницу форму, которую пользователь может заполнить. Например, ввести своё имя, фамилию или почту. Данные формы отправляются на сервер.
 
@@ -26,11 +26,11 @@
 
 ## Атрибуты
 
-- [`accept-charset (КОДИРОВКА ФОРМЫ)`](<../ATTRIBUTES FORM/accept-charset.md>)
-- [`action (ОБРАБОТЧИК ФОРМЫ)`](<../ATTRIBUTES FORM/action.md>)
-- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>)
-- [`enctype (ТИП ШИФРОВАНИЯ ДАННЫХ)`](<../ATTRIBUTES FORM/enctype.md>)
-- [`method (МЕТОД ОТПРАВКИ ФОРМЫ)`](<../ATTRIBUTES FORM/method.md>)
-- [`name (ИМЯ)`](<../ATTRIBUTES FORM/name.md>)
-- [`novalidate (ОТКЛЮЧАЕТ ВАЛИДАЦИЮ)`](<../ATTRIBUTES FORM/novalidate.md>)
-- [`target (ОТОБРАЖЕНИЕ ПОСЛЕ SUBMIT)`](<../ATTRIBUTES FORM/target.md>)
+- [`accept-charset`](<../ATTRIBUTES FORM/accept-charset.md>) кодировка формы
+- [`action`](<../ATTRIBUTES FORM/action.md>) обработчик формы
+- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete.md>) автозаполнение
+- [`enctype`](<../ATTRIBUTES FORM/enctype.md>) тип шифрования данных
+- [`method`](<../ATTRIBUTES FORM/method.md>) метод отправки формы
+- [`name`](<../ATTRIBUTES FORM/name.md>) имя
+- [`novalidate`](<../ATTRIBUTES FORM/novalidate.md>) отключает валидацию
+- [`target`](<../ATTRIBUTES FORM/target.md>) отображение после submit

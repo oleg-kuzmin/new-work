@@ -1,4 +1,4 @@
-# `<a>` (Ссылка)
+# `<a>`
 
 Тег `<a>` превращает любой объект в ссылку.
 
@@ -38,9 +38,9 @@
 
 ## Атрибуты
 
-- [`download (ЗАГРУЗКА ФАЙЛА)`](../ATTRIBUTES/download.md)
-- [`href (ССЫЛКА НА URL)`](../ATTRIBUTES/href.md)
-- [`hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ)`](../ATTRIBUTES/hreflang.md)
-- [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (A).md>)
-- [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](../ATTRIBUTES/target.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)
+- [`download`](../ATTRIBUTES/download.md) загрузка файла
+- [`href`](../ATTRIBUTES/href.md) ссылка на url
+- [`hreflang`](../ATTRIBUTES/hreflang.md) язык документа по ссылке
+- [`rel`](<../ATTRIBUTES/rel (A).md>) связь ссылки со страницей
+- [`target`](../ATTRIBUTES/target.md) способ открытия ссылки
+- [`type`](../ATTRIBUTES/type.md) тип mime

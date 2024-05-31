@@ -1,4 +1,4 @@
-# `<option>` (Пункт списка)
+# `<option>`
 
 _(option: вариант, выбор)_
 
@@ -25,6 +25,6 @@ _(option: вариант, выбор)_
 
 ## Атрибуты
 
-- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled.md>)
-- [`label (ПОДПИСЬ OPTGROUP ИЛИ OPTION)`](<../ATTRIBUTES FORM/label.md>)
-- [`selected (АВТОВЫБОР OPTION)`](<../ATTRIBUTES FORM/selected.md>)
+- [`disabled`](<../ATTRIBUTES FORM/disabled.md>) отключает элемент
+- [`label`](<../ATTRIBUTES FORM/label.md>) подпись optgroup или option
+- [`selected`](<../ATTRIBUTES FORM/selected.md>) автовыбор option

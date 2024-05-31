@@ -1,4 +1,4 @@
-# `<li>` (Элемент списка)
+# `<li>`
 
 _(list item: пункт списка)_
 
@@ -52,4 +52,4 @@ _(list item: пункт списка)_
 
 ## Атрибуты
 
-[`value (ЗНАЧЕНИЕ)`](../ATTRIBUTES/value.md)
+- [`value`](../ATTRIBUTES/value.md) значение

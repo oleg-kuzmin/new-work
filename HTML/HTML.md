@@ -79,7 +79,7 @@
 - [`rowspan`](./ATTRIBUTES/rowspan.md) объединение ячеек в строках
 - [`sandbox`](./ATTRIBUTES/sandbox.md) ограничения фрейма
 - [`shape`](./ATTRIBUTES/shape.md) форма областей карты
-- [`sizes`](./ATTRIBUTES/sizes.md) размер для иконки
+- [`sizes`](./ATTRIBUTES/sizes.md) размер для фавиконки
 - [`src`](./ATTRIBUTES/src.md) url источника
 - [`srcdoc`](./ATTRIBUTES/srcdoc.md) встраивание кода в фрейм
 - [`srcset, sizes`](<./ATTRIBUTES/srcset, sizes.md>) набор изображений
@@ -135,7 +135,7 @@
 - [`target`](<./ATTRIBUTES FORM/target.md>) отображение после submit
 - [`type <button>`](<./ATTRIBUTES FORM/type (BUTTON).md>) тип button
 - [`type <input>`](<./ATTRIBUTES FORM/type (INPUT).md>) тип input
-- [`value`](<./ATTRIBUTES FORM/value.md>) значение поля
+- [`value`](<./ATTRIBUTES FORM/value.md>) значение поля ввода
 - [`wrap`](<./ATTRIBUTES FORM/wrap.md>) символы переноса в textarea
 
 ## [Attrubutes Global](#оглавление)
@@ -241,7 +241,7 @@
 - [`<strong>`](<./TAGS INLINE/strong.md>) очень важный текст
 - [`<sub>`](<./TAGS INLINE/sub.md>) нижний индекс
 - [`<sup>`](<./TAGS INLINE/sup.md>) верхний индекс
-- [`<time>`](<./TAGS INLINE/time.md>) дата, время
+- [`<time>`](<./TAGS INLINE/time.md>) дата и время для машины
 - [`<u>`](<./TAGS INLINE/u.md>) текст с ошибкой
 - [`<var>`](<./TAGS INLINE/var.md>) переменная
 

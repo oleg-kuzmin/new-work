@@ -1,4 +1,4 @@
-## `<blockquote>` (Блок цитат)
+## `<blockquote>`
 
 _(block quotation: блок цитат)_
 
@@ -39,4 +39,4 @@ _(block quotation: блок цитат)_
 
 ## Атрибуты
 
-- [`cite (ИСТОЧНИК)`](../ATTRIBUTES/cite.md)
+- [`cite`](../ATTRIBUTES/cite.md) источник

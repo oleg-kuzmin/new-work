@@ -1,4 +1,4 @@
-# `<ins>` (Добавленный контент)
+# `<ins>`
 
 _(insert: вставить)_
 
@@ -33,5 +33,5 @@ _(insert: вставить)_
 
 ## Атрибуты
 
-- [`cite (ИСТОЧНИК ПРАВКИ)`](../ATTRIBUTES/cite.md)
-- [`datetime (ДАТА-ВРЕМЯ ПРАВКИ)`](../ATTRIBUTES/datetime.md)
+- [`cite`](../ATTRIBUTES/cite.md) источник правки
+- [`datetime`](../ATTRIBUTES/datetime.md) дата и время для машины

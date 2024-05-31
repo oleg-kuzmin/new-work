@@ -1,4 +1,4 @@
-# `<applet>` (Встраивание JAVA-приложения)
+# `<applet>`
 
 _(application let: приложение)_
 

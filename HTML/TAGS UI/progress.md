@@ -1,4 +1,4 @@
-# `<progress>` (Динамический прогресс-бар)
+# `<progress>`
 
 Тег `<progress>` создаёт индикатор выполнения задачи. Обычно выглядит как прогресс-бар.
 
@@ -56,5 +56,5 @@
 
 ## Атрибуты
 
-- [`max (МАКСИМАЛЬНОЕ ЗНАЧЕНИЕ)`](<../ATTRIBUTES FORM/max.md>)
-- [`value (ЗНАЧЕНИЕ)`](../ATTRIBUTES/value.md)
+- [`max`](<../ATTRIBUTES FORM/max.md>) максимальное значение
+- [`value`](../ATTRIBUTES/value.md) значение

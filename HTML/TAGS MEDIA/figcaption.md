@@ -1,4 +1,4 @@
-# `<figcaption>` (Подпись к figure)
+# `<figcaption>`
 
 _(figure caption: подпись к рисунку)_
 

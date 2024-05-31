@@ -1,4 +1,4 @@
-# `<select>` (Выпадающий список)
+# `<select>`
 
 Элемент `<select>` используется, когда нужно показать выпадающий список.
 
@@ -38,9 +38,9 @@
 
 ## Атрибуты
 
-- [`autocomplete (АВТОЗАПОЛНЕНИЕ)`](<../ATTRIBUTES FORM/autocomplete.md>)
-- [`autofocus (ФОКУС ПРИ ЗАГРУЗКЕ СТРАНИЦЫ)`](<../ATTRIBUTES FORM/autofocus.md>)
-- [`disabled (ОТКЛЮЧАЕТ ЭЛЕМЕНТ)`](<../ATTRIBUTES FORM/disabled.md>)
-- [`form (СВЯЗЬ С ФОРМОЙ)`](<../ATTRIBUTES FORM/form.md>)
-- [`required (ОБЯЗАТЕЛЬНОЕ ПОЛЕ)`](<../ATTRIBUTES FORM/required.md>)
-- [`size (ШИРИНА ПОЛЯ ИЛИ ЧИСЛО ОПЦИЙ)`](<../ATTRIBUTES FORM/size.md>)
+- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete.md>) автозаполнение
+- [`autofocus`](<../ATTRIBUTES FORM/autofocus.md>) фокус при загрузке страницы
+- [`disabled`](<../ATTRIBUTES FORM/disabled.md>) отключает элемент
+- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
+- [`required`](<../ATTRIBUTES FORM/required.md>) обязательное поле
+- [`size`](<../ATTRIBUTES FORM/size.md>) ширина поля или число опций
