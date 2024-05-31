@@ -10,26 +10,26 @@
 
 # Оглавление
 
-- [Асинхронные действия](#асинхронные-действия)
+- [АСИНХРОННЫЕ ДЕЙСТВИЯ](#асинхронные-действия)
 - [ООП](#ооп)
-- [Теория](#теория)
-- [Циклы](#циклы)
-- [Array](#array)
-- [Date](#date)
-- [Document](#document)
-- [Element](#element)
-- [Event](#event)
-- [Event.type](#eventtype)
-- [Function](#function)
-- [Map](#map)
-- [Number](#number)
-- [Object](#object)
-- [RegExp](#regexp)
-- [Set](#set)
-- [String](#string)
-- [Window](#window)
+- [ТЕОРИЯ](#теория)
+- [ЦИКЛЫ](#циклы)
+- [ARRAY](#array)
+- [DATE](#date)
+- [DOCUMENT](#document)
+- [ELEMENT](#element)
+- [EVENT](#event)
+- [EVENT.TYPE](#eventtype)
+- [FUNCTION](#function)
+- [MAP](#map)
+- [NUMBER](#number)
+- [OBJECT](#object)
+- [REGEXP](#regexp)
+- [SET](#set)
+- [STRING](#string)
+- [WINDOW](#window)
 
-## [Асинхронные действия](#оглавление)
+## [АСИНХРОННЫЕ ДЕЙСТВИЯ](#оглавление)
 
 - [`async await`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/async await.md>) асинхронные функции
 - [`fetch()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/fetch.md>) запрос на сервер
@@ -65,7 +65,7 @@
 - [`Теория ООП`](<./ООП/Теория ООП.md>)
 - [`Что такое this`](<./ООП/Что такое this.md>)
 
-## [Теория](#оглавление)
+## [ТЕОРИЯ](#оглавление)
 
 - [`Деструктуризация`](./ТЕОРИЯ/Деструктуризация.md)
 - [`Замыкания`](./ТЕОРИЯ/Замыкания.md)
@@ -89,7 +89,7 @@
 - [`Функции`](./ТЕОРИЯ/Функции.md)
 - [`Экспорт и импорт`](<./ТЕОРИЯ/Экспорт и импорт.md>)
 
-## [Циклы](#оглавление)
+## [ЦИКЛЫ](#оглавление)
 
 - [`while`](./ЦИКЛЫ/while.md) проверка условия до первой итерации
 - [`do while`](<./ЦИКЛЫ/do while.md>) проверка условия после первой итерации
@@ -97,7 +97,7 @@
 - [`for of`](<./ЦИКЛЫ/for of.md>) обход свойств итерируемого объекта, не включая пользовательские прототипы
 - [`for in`](<./ЦИКЛЫ/for in.md>) обход свойств объекта, включая пользовательские прототипы
 
-## [Array](#оглавление)
+## [ARRAY](#оглавление)
 
 ### Иммутабельные методы
 
@@ -136,7 +136,7 @@
 
 - [`Object.fromEntries()`](./OBJECT/Object.fromEntries.md) преобразует в объект
 
-## [Date](#оглавление)
+## [DATE](#оглавление)
 
 - [`Date.now()`](./DATE/Date.now.md) миллисекунды с 01 января 1970
 - [`Date.parse()`](./DATE/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
@@ -164,7 +164,7 @@
 - [`.toLocaleTimeString()`](./DATE/toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
 - [`.toUTCString()`](./DATE/toUTCString.md) преобразует объект Date в строку в формате UTC
 
-## [Document](#оглавление)
+## [DOCUMENT](#оглавление)
 
 - [`document.body`](./DOCUMENT/document.body.md) тело страницы
 - [`document.cookie`](./DOCUMENT/document.cookie.md) cookie страницы
@@ -181,7 +181,7 @@
 - [`document.querySelectorAll()`](./DOCUMENT/document.querySelectorAll.md) коллекция элементов по селектору
 - [`document.title`](./DOCUMENT/document.title.md) заголовок страницы
 
-## [Element](#оглавление)
+## [ELEMENT](#оглавление)
 
 ### Атрибуты
 
@@ -274,7 +274,7 @@
 - [`.outerHTML`](<./ELEMENT/DOM СОДЕРЖИМОЕ/outerHTML.md>) видимое содержимое разметки, не изменяет сам элемент
 - [`.textContent`](<./ELEMENT/DOM СОДЕРЖИМОЕ/textContent.md>) текстовое содержимое
 
-## [Event](#оглавление)
+## [EVENT](#оглавление)
 
 - [`.new Event()`](<./EVENT/new Event.md>) создает кастомное событие
 - [`.new CustomEvent()`](<./EVENT/new CustomEvent.md>) создает кастомное событие с данными
@@ -301,7 +301,7 @@
   - [`.type`](./EVENT/type.md) тип события
   - [`.view`](./EVENT/view.md) объект window где произошло событие
 
-## [Event.type](#оглавление)
+## [EVENT.TYPE](#оглавление)
 
 - [`blur`](<./EVENT TYPE/blur.md>) снятие фокуса
 - [`change`](<./EVENT TYPE/change.md>) изменение и фиксирование значения
@@ -330,11 +330,11 @@
 - [`unhandledrejection`](<./EVENT TYPE/unhandledrejection.md>) отсутствует обработчик ошибки promise
 - [`wheel`](<./EVENT TYPE/wheel.md>) прокрутка колеса мыши
 
-## [Function](#оглавление)
+## [FUNCTION](#оглавление)
 
 - [`arguments`](./FUNCTION/arguments.md) псевдомассив всех переданных аргументов
 
-## [Map](#оглавление)
+## [MAP](#оглавление)
 
 - [`new Map()`](<./MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
   - [`.clear()`](./MAP/clear.md) удаляет все значения
@@ -348,7 +348,7 @@
   - [`.size`](./MAP/size.md) количество значений
   - [`.values()`](./MAP/values.md) возвращает итератор значений
 
-## [Number](#оглавление)
+## [NUMBER](#оглавление)
 
 - [`Math.abs()`](./NUMBER/Math.abs.md) вычисляет модуль числа
 - [`Math.ceil()`](./NUMBER/Math.ceil.md) округление до целого вверх
@@ -372,7 +372,7 @@
 
 - [`String()`](./STRING/String.md) преобразует в строку
 
-## [Object](#оглавление)
+## [OBJECT](#оглавление)
 
 - [`delete`](./OBJECT/delete.md) оператор удаления свойства
 - [`.hasownproperty`](./OBJECT/hasownproperty.md) принадлежность свойства самому объекту
@@ -391,13 +391,13 @@
 - [`Object.values()`](./OBJECT/Object.values.md) создает массив из перечисляемых свойств
 - [`.prototype`](./OBJECT/prototype.md) свойство прототип функции-конструктора
 
-## [RegExp](#оглавление)
+## [REGEXP](#оглавление)
 
 - [`new RegExp()`](<./REGEXP/new RegExp.md>) создает регулярное выражение
   - [`.exec()`](./REGEXP/exec.md) подробный поиск одного совпадения
   - [`.test()`](./REGEXP/test.md) соответствие
 
-## [Set](#оглавление)
+## [SET](#оглавление)
 
 - [`new Set()`](<./SET/new Set.md>) создает коллекцию для хранения уникальных значений
   - [`.add()`](./SET/add.md) добавляет значение в коллекцию
@@ -407,7 +407,7 @@
   - [`.has()`](./SET/has.md) проверяет наличие значения
   - [`.size`](./SET/size.md) количество значений
 
-## [String](#оглавление)
+## [STRING](#оглавление)
 
 - [`new String()`](<./STRING/new String.md>) создает объект String
 - [`String()`](./STRING/String.md) преобразует в строку
@@ -437,7 +437,7 @@
 - [`parseInt()`](./WINDOW/parseInt.md) преобразует строку в целое число
 - [`.split()`](./STRING/split.md) преобразует в массив, можно использовать regexp
 
-## [Window](#оглавление)
+## [WINDOW](#оглавление)
 
 - [`alert()`](./WINDOW/alert.md) модальное окно с текстом
 - [`clearInterval()`](./WINDOW/clearInterval.md) удаление интервала

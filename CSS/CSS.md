@@ -10,27 +10,27 @@
 
 # Оглавление
 
-- [Псевдоэлементы](#псевдоэлементы)
-- [Теория](#теория)
-- [Bootstrap](#bootstrap)
+- [ПСЕВДОЭЛЕМЕНТЫ](#псевдоэлементы)
+- [ТЕОРИЯ](#теория)
+- [BOOTSTRAP](#bootstrap)
 - [SASS](#sass)
-- [Styles Animation](#styles-animation)
-- [Styles Background](#styles-background)
-- [Styles Border](#styles-border)
-- [Styles List-style](#styles-list-style)
-- [Styles Margin](#styles-margin)
-- [Styles](#styles)
+- [ANIMATION](#animation)
+- [BACKGROUND](#background)
+- [BORDER](#border)
+- [LIST-STYLE](#list-style)
+- [MARGIN](#margin)
+- [STYLES](#styles)
 
-## [Псевдоэлементы](#оглавление)
+## [ПСЕВДОЭЛЕМЕНТЫ](#оглавление)
 
 - [`::marker`](./ПСЕВДОЭЛЕМЕНТЫ/marker.md) маркеры списка
 
-## [Теория](#оглавление)
+## [ТЕОРИЯ](#оглавление)
 
 - [`Вложенность селекторов`](<./ТЕОРИЯ/Вложенность селекторов.md>)
 - [`Переменные`](./ТЕОРИЯ/Переменные.md)
 
-## [Bootstrap](#оглавление)
+## [BOOTSTRAP](#оглавление)
 
 - [`Установка`](./BOOTSTRAP/Установка.md)
 - [`margin, padding`](<./BOOTSTRAP/margin, padding.md>)
@@ -43,7 +43,7 @@
 - [`Переменные`](./SASS/Переменные.md)
 - [`Функции`](./SASS/Функции.md)
 
-## [Styles Animation](#оглавление)
+## [ANIMATION](#оглавление)
 
 - [`animation`](./STYLES/ANIMATION/animation.md) анимация
   - [`animation-delay`](./STYLES/ANIMATION/animation-delay.md) задержка старта анимации
@@ -55,7 +55,7 @@
   - [`animation-play-state`](./STYLES/ANIMATION/animation-play-state.md) позволяет поставить на паузу
   - [`animation-timing-function`](./STYLES/ANIMATION/animation-timing-function.md) проигрывание кадров
 
-## [Styles Background](#оглавление)
+## [BACKGROUND](#оглавление)
 
 - [`background`](./STYLES/BACKGROUND/background.md) задний фон
   - [`background-attachment`](./STYLES/BACKGROUND/background-attachment.md) прокрутка фона
@@ -66,7 +66,7 @@
   - [`background-repeat`](./STYLES/BACKGROUND/background-repeat.md) повтор фона
   - [`background-size`](./STYLES/BACKGROUND/background-size.md) размер фона
 
-## [Styles Border](#оглавление)
+## [BORDER](#оглавление)
 
 - [`border`](./STYLES/border.md) границы
   - [`border-width`](./STYLES/border-width.md) толщина границ
@@ -143,14 +143,14 @@
   - [`border-top-left-radius`](./STYLES/border-top-left-radius.md) скругление границы сверху слева
   - [`border-top-right-radius`](./STYLES/border-top-right-radius.md) скругление границы сверху справа
 
-## [Styles List-style](#оглавление)
+## [LIST-STYLE](#оглавление)
 
 - [`list-style`](./STYLES/LIST-STYLE/list-style.md) маркеры списка
   - [`list-style-image`](./STYLES/LIST-STYLE/list-style-image.md) маркеры в виде картинок
   - [`list-style-position`](./STYLES/LIST-STYLE/list-style-position.md) положение маркеров
   - [`list-style-type`](./STYLES/LIST-STYLE/list-style-type.md) тип маркеров
 
-## [Styles Margin](#оглавление)
+## [MARGIN](#оглавление)
 
 - [`margin`](./STYLES/margin.md) внешние отступы
   - [`margin-top`](./STYLES/margin-top.md) внешний отступ сверху
@@ -158,7 +158,7 @@
   - [`margin-bottom`](./STYLES/margin-bottom.md) внешний отступ снизу
   - [`margin-left`](./STYLES/margin-left.md) внешний отступ слева
 
-## [Styles](#оглавление)
+## [STYLES](#оглавление)
 
 - [`all`](./STYLES/all.md) все свойства
 - [`backface-visibility`](./STYLES/backface-visibility.md) обратная сторона элемента
