@@ -1,7 +1,7 @@
-# `columns` (Колонки)
+# `columns`
 
-- [`column-count (КОЛИЧЕСТВО КОЛОНОК)`](./column-count.md)
-- [`column-width (ШИРИНА КОЛОНОК)`](./column-width.md)
+- [`column-count`](./column-count.md) количество колонок
+- [`column-width`](./column-width.md) ширина колонок
 
 ## Пример
 
