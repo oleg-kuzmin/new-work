@@ -1,11 +1,11 @@
-# `usemap` (Id карты)
+# `usemap`
 
 Способ связи с тегом `<map>`.
 
 ## Применяется к тегам
 
-- [`<img> (ИЗОБРАЖЕНИЕ)`](<../TAGS MEDIA/img.md>)
-- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object.md>)
+- [`<img>`](<../TAGS MEDIA/img.md>) изображение
+- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
 
 ## Пример
 

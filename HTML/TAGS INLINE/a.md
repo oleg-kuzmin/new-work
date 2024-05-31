@@ -43,4 +43,4 @@
 - [`hreflang (ЯЗЫК ДОКУМЕНТА ПО ССЫЛКЕ)`](../ATTRIBUTES/hreflang.md)
 - [`rel (СВЯЗЬ ССЫЛКИ СО СТРАНИЦЕЙ)`](<../ATTRIBUTES/rel (A).md>)
 - [`target (СПОСОБ ОТКРЫТИЯ ССЫЛКИ)`](../ATTRIBUTES/target.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type (MIME).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)

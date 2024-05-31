@@ -25,7 +25,7 @@
 ## Атрибуты
 
 - [`data (ССЫЛКА НА URL MEDIA)`](../ATTRIBUTES/data.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type (MIME).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)
 - [`name (ИМЯ)`](../ATTRIBUTES/name.md)
 - [`usemap (ID КАРТЫ)`](../ATTRIBUTES/usemap.md)
 - [`width, height (ШИРИНА, ВЫСОТА)`](<../ATTRIBUTES/width, height.md>)

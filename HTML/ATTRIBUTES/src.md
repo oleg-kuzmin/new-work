@@ -1,15 +1,15 @@
-# `src` (Url источника)
+# `src`
 
 В качестве значения указывается адрес медиа. Абсолютная или относительная ссылка до файла в любом допустимом формате.
 
 ## Применяется к тегам
 
-- [`<img> (ИЗОБРАЖЕНИЕ)`](<../TAGS MEDIA/img.md>)
-- [`<audio> (АУДИО)`](<../TAGS MEDIA/audio.md>)
-- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video.md>)
-- [`<source> (ИСТОЧНИК МЕДИА)`](<../TAGS MEDIA/source.md>)
-- [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<../TAGS MEDIA/iframe.md>)
-- [`<script> (ДОБАВЛЯЕТ СКРИПТ)`](<../TAGS HEAD/script.md>)
+- [`<img>`](<../TAGS MEDIA/img.md>) изображение
+- [`<audio>`](<../TAGS MEDIA/audio.md>) аудио
+- [`<video>`](<../TAGS MEDIA/video.md>) видео
+- [`<source>`](<../TAGS MEDIA/source.md>) источник медиа
+- [`<iframe>`](<../TAGS MEDIA/iframe.md>) встраивание фрейма
+- [`<script>`](<../TAGS HEAD/script.md>) добавляет скрипт
 
 ## Пример
 

@@ -1,4 +1,4 @@
-# `name` (Имя)
+# `name`
 
 Для тегов `<object>`, `<iframe>` используется для связи с JS.
 
@@ -6,9 +6,9 @@
 
 ## Применяется к тегам
 
-- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object.md>)
-- [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<../TAGS MEDIA/iframe.md>)
-- [`<map> (КАРТА)`](<../TAGS MEDIA/map.md>)
+- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
+- [`<iframe>`](<../TAGS MEDIA/iframe.md>) встраивание фрейма
+- [`<map>`](<../TAGS MEDIA/map.md>) карта
 
 ## Пример
 

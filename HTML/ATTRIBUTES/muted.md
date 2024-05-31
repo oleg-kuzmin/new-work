@@ -1,11 +1,11 @@
-# `muted` (Выключает звук медиа)
+# `muted`
 
 Звук будет на нуле, пока пользователь его не увеличит.
 
 ## Применяется к тегам
 
-- [`<audio> (АУДИО)`](<../TAGS MEDIA/audio.md>)
-- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video.md>)
+- [`<audio>`](<../TAGS MEDIA/audio.md>) аудио
+- [`<video>`](<../TAGS MEDIA/video.md>) видео
 
 ## Пример
 

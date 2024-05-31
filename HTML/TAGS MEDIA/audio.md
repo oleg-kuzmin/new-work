@@ -40,4 +40,4 @@ URL-адрес звукового файла задаётся с помощью 
 - [`muted (ВЫКЛЮЧАЕТ ЗВУК МЕДИА)`](../ATTRIBUTES/muted.md)
 - [`preload (ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА МЕДИА)`](../ATTRIBUTES/preload.md)
 - [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type (MIME).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)

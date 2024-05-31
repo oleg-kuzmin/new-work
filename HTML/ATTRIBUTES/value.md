@@ -1,13 +1,13 @@
-# `value` (Значение)
+# `value`
 
 Содержит значение для элемента.
 
 ## Применяется к тегам
 
-- [`<data> (МАШИННЫЕ ДАННЫЕ)`](<../TAGS INLINE/data.md>)
-- [`<li> (ЭЛЕМЕНТ СПИСКА)`](<../TAGS BLOCK/li.md>)
-- [`<meter> (СТАТИЧЕСКИЙ ПРОГРЕСС-БАР)`](<../TAGS UI/meter.md>)
-- [`<progress> (ДИНАМИЧЕСКИЙ ПРОГРЕСС-БАР)`](<../TAGS UI/progress.md>)
+- [`<data>`](<../TAGS INLINE/data.md>) машинные данные
+- [`<li>`](<../TAGS BLOCK/li.md>) элемент списка
+- [`<meter>`](<../TAGS UI/meter.md>) статический прогресс-бар
+- [`<progress>`](<../TAGS UI/progress.md>) динамический прогресс-бар
 
 ## Пример
 

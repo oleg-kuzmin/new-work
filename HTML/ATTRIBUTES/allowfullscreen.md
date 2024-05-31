@@ -1,10 +1,10 @@
-# `allowfullscreen` (Полноэкранный режим фрейма)
+# `allowfullscreen`
 
 Разрешает полноэкранный режим
 
 ## Применяется к тегам
 
-- [`<iframe> (ВСТРАИВАНИЕ ФРЕЙМА)`](<../TAGS MEDIA/iframe.md>)
+- [`<iframe>`](<../TAGS MEDIA/iframe.md>) встраивание фрейма
 
 # Пример
 

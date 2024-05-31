@@ -1,10 +1,10 @@
-# `data` (Ссылка на url-адрес медиа)
+# `data`
 
 URL-ссылка на внешний файл или адрес. Ссылка может быть как полной или абсолютной: `http://localhost/sitename/css/style.css`, так и неполной или относительной: `/sitename/css/style.css`.
 
 ## Применяется к тегам
 
-- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object.md>)
+- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
 
 ## Пример
 

@@ -53,4 +53,4 @@
 - [`media (МЕДИА-ЗАПРОС)`](../ATTRIBUTES/media.md)
 - [`src (URL ИСТОЧНИКА)`](../ATTRIBUTES/src.md)
 - [`srcset, sizes (НАБОР ИЗОБРАЖЕНИЙ)`](<../ATTRIBUTES/srcset, sizes.md>)
-- [`type (ТИП MIME)`](<../ATTRIBUTES/type (MIME).md>)
+- [`type (ТИП MIME)`](<../ATTRIBUTES/type.md>)

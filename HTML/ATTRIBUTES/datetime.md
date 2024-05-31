@@ -1,12 +1,12 @@
-# `datetime` (Дата-время правки)
+# `datetime`
 
 Позволяет указать время правки.
 
 ## Применяется к тегам
 
-- [`<del> (УДАЛЕННЫЙ КОНТЕНТ)`](<../TAGS INLINE/del.md>)
-- [`<ins> (ДОБАВЛЕННЫЙ КОНТЕНТ)`](<../TAGS INLINE/ins.md>)
-- [`<time> (ДАТА, ВРЕМЯ)`](<../TAGS INLINE/time.md>)
+- [`<del>`](<../TAGS INLINE/del.md>) удаленный контент
+- [`<ins>`](<../TAGS INLINE/ins.md>) добавленный контент
+- [`<time>`](<../TAGS INLINE/time.md>) дата, время
 
 ## Значения
 

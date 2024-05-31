@@ -1,14 +1,14 @@
-# `type` (Тип mime)
+# `type`
 
 Определяет, к какому типу относится документ. Речь идёт о типах по стандарту MIME. Это чисто техническая информация, но её можно указать, чтобы применить общий стиль.
 
 ## Применяется к тегам
 
-- [`<a> (ССЫЛКА)`](<../TAGS INLINE/a.md>)
-- [`<audio> (АУДИО)`](<../TAGS MEDIA/audio.md>)
-- [`<video> (ВИДЕО)`](<../TAGS MEDIA/video.md>)
-- [`<object> (ВСТРАИВАНИЕ МЕДИА)`](<../TAGS MEDIA/object.md>)
-- [`<source> (ИСТОЧНИК МЕДИА)`](<../TAGS MEDIA/source.md>)
+- [`<a>`](<../TAGS INLINE/a.md>) ссылка
+- [`<audio>`](<../TAGS MEDIA/audio.md>) аудио
+- [`<video>`](<../TAGS MEDIA/video.md>) видео
+- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
+- [`<source>`](<../TAGS MEDIA/source.md>) источник медиа
 
 ## Пример
 

@@ -1,4 +1,4 @@
-# `cite` (Источник)
+# `cite`
 
 _(cite: цитировать)_
 
@@ -8,10 +8,10 @@ _(cite: цитировать)_
 
 ## Применяется к тегам
 
-- [`<del> (УДАЛЕННЫЙ КОНТЕНТ)`](<../TAGS INLINE/del.md>)
-- [`<ins> (ДОБАВЛЕННЫЙ КОНТЕНТ)`](<../TAGS INLINE/ins.md>)
-- [`<blockquote> (БЛОК ЦИТАТ)`](<../TAGS BLOCK/blockquote.md>)
-- [`<q> (НЕБОЛЬШАЯ ЦИТАТА)`](<../TAGS INLINE/q.md>)
+- [`<del>`](<../TAGS INLINE/del.md>) удаленный контент
+- [`<ins>`](<../TAGS INLINE/ins.md>) добавленный контент
+- [`<blockquote>`](<../TAGS BLOCK/blockquote.md>) блок цитат
+- [`<q>`](<../TAGS INLINE/q.md>) небольшая цитата
 
 ## Пример
 

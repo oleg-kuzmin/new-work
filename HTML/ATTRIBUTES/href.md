@@ -1,13 +1,13 @@
-# `href` (Ссылка на url)
+# `href`
 
 URL-ссылка на внешний файл или адрес. Ссылка может быть как полной или абсолютной: `http://localhost/sitename/css/style.css`, так и неполной или относительной: `/sitename/css/style.css`.
 
 ## Применяется к тегам
 
-- [`<link> (ВНЕШНИЙ ФАЙЛ)`](<../TAGS HEAD/link.md>)
-- [`<base> (ОСНОВНОЙ URL-АДРЕС)`](<../TAGS HEAD/base.md>)
-- [`<a> (ССЫЛКА)`](<../TAGS INLINE/a.md>)
-- [`<area> (ССЫЛКИ НА ОБЛАСТИ КАРТЫ)`](<../TAGS MEDIA/area.md>)
+- [`<link>`](<../TAGS HEAD/link.md>) внешний файл
+- [`<base>`](<../TAGS HEAD/base.md>) основной url-адрес
+- [`<a>`](<../TAGS INLINE/a.md>) ссылка
+- [`<area>`](<../TAGS MEDIA/area.md>) ссылки на области карты
 
 ## Пример
 
