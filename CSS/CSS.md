@@ -18,8 +18,8 @@
 - [ANIMATION](#animation)
 - [BACKGROUND](#background)
 - [BORDER](#border)
-- [GRID-CONTAINER](#border)
-- [GRID-ITEMS](#border)
+- [GRID-CONTAINER](#grid-container)
+- [GRID-ITEMS](#grid-items)
 - [LIST-STYLE](#list-style)
 - [MARGIN](#margin)
 
@@ -31,6 +31,7 @@
 
 - [`Вложенность селекторов`](<./ТЕОРИЯ/Вложенность селекторов.md>)
 - [`Переменные`](./ТЕОРИЯ/Переменные.md)
+- [`Grid`](./ТЕОРИЯ/Grid.md)
 
 ## [BOOTSTRAP](#оглавление)
 
