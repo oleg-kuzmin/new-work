@@ -97,120 +97,124 @@
 
 ### border
 
-- [`border`](./STYLES/border.md) границы
-  - [`border-width`](./STYLES/border-width.md) толщина границ
-    - [`border-top-width`](./STYLES/border-top-width.md) толщина границы сверху
-    - [`border-right-width`](./STYLES/border-right-width.md) толщина границы справа
-    - [`border-bottom-width`](./STYLES/border-bottom-width.md) толщина границы снизу
-    - [`border-left-width`](./STYLES/border-left-width.md) толщина границы слева
-  - [`border-style`](./STYLES/border-style.md) стиль границ
-    - [`border-top-style`](./STYLES/border-top-style.md) стиль границы сверху
-    - [`border-right-style`](./STYLES/border-right-style.md) стиль границы справа
-    - [`border-bottom-style`](./STYLES/border-bottom-style.md) стиль границы снизу
-    - [`border-left-style`](./STYLES/border-left-style.md) стиль границы слева
-  - [`border-color`](./STYLES/border-color.md) цвет границ
-    - [`border-top-color`](./STYLES/border-top-color.md) цвет границы сверху
-    - [`border-right-color`](./STYLES/border-right-color.md) цвет границы справа
-    - [`border-bottom-color`](./STYLES/border-bottom-color.md) цвет границы снизу
-    - [`border-left-color`](./STYLES/border-left-color.md) цвет границы слева
+- [`border`](./STYLES/BORDER/border.md) границы
+  - [`border-width`](./STYLES/BORDER/border-width.md) толщина границ
+    - [`border-top-width`](./STYLES/BORDER/border-top-width.md) толщина границы сверху
+    - [`border-right-width`](./STYLES/BORDER/border-right-width.md) толщина границы справа
+    - [`border-bottom-width`](./STYLES/BORDER/border-bottom-width.md) толщина границы снизу
+    - [`border-left-width`](./STYLES/BORDER/border-left-width.md) толщина границы слева
+  - [`border-style`](./STYLES/BORDER/border-style.md) стиль границ
+    - [`border-top-style`](./STYLES/BORDER/border-top-style.md) стиль границы сверху
+    - [`border-right-style`](./STYLES/BORDER/border-right-style.md) стиль границы справа
+    - [`border-bottom-style`](./STYLES/BORDER/border-bottom-style.md) стиль границы снизу
+    - [`border-left-style`](./STYLES/BORDER/border-left-style.md) стиль границы слева
+  - [`border-color`](./STYLES/BORDER/border-color.md) цвет границ
+    - [`border-top-color`](./STYLES/BORDER/border-top-color.md) цвет границы сверху
+    - [`border-right-color`](./STYLES/BORDER/border-right-color.md) цвет границы справа
+    - [`border-bottom-color`](./STYLES/BORDER/border-bottom-color.md) цвет границы снизу
+    - [`border-left-color`](./STYLES/BORDER/border-left-color.md) цвет границы слева
 
 ### border-top
 
-- [`border-top`](./STYLES/border-top.md) граница сверху
-  - [`border-top-width`](./STYLES/border-top-width.md) толщина границы сверху
-  - [`border-top-style`](./STYLES/border-top-style.md) стиль границы сверху
-  - [`border-top-color`](./STYLES/border-top-color.md) цвет границы сверху
+- [`border-top`](./STYLES/BORDER/border-top.md) граница сверху
+  - [`border-top-width`](./STYLES/BORDER/border-top-width.md) толщина границы сверху
+  - [`border-top-style`](./STYLES/BORDER/border-top-style.md) стиль границы сверху
+  - [`border-top-color`](./STYLES/BORDER/border-top-color.md) цвет границы сверху
 
 ### border-right
 
-- [`border-right`](./STYLES/border-right.md) граница справа
-  - [`border-right-width`](./STYLES/border-right-width.md) толщина границы справа
-  - [`border-right-style`](./STYLES/border-right-style.md) стиль границы справа
-  - [`border-right-color`](./STYLES/border-right-color.md) цвет границы справа
+- [`border-right`](./STYLES/BORDER/border-right.md) граница справа
+  - [`border-right-width`](./STYLES/BORDER/border-right-width.md) толщина границы справа
+  - [`border-right-style`](./STYLES/BORDER/border-right-style.md) стиль границы справа
+  - [`border-right-color`](./STYLES/BORDER/border-right-color.md) цвет границы справа
 
 ### border-bottom
 
-- [`border-bottom`](./STYLES/border-bottom.md) граница снизу
-  - [`border-bottom-width`](./STYLES/border-bottom-width.md) толщина границы снизу
-  - [`border-bottom-style`](./STYLES/border-bottom-style.md) стиль границы снизу
-  - [`border-bottom-color`](./STYLES/border-bottom-color.md) цвет границы снизу
+- [`border-bottom`](./STYLES/BORDER/border-bottom.md) граница снизу
+  - [`border-bottom-width`](./STYLES/BORDER/border-bottom-width.md) толщина границы снизу
+  - [`border-bottom-style`](./STYLES/BORDER/border-bottom-style.md) стиль границы снизу
+  - [`border-bottom-color`](./STYLES/BORDER/border-bottom-color.md) цвет границы снизу
 
 ### border-left
 
-- [`border-left`](./STYLES/border-left.md) граница слева
-  - [`border-left-width`](./STYLES/border-left-width.md) толщина границы слева
-  - [`border-left-style`](./STYLES/border-left-style.md) стиль границы слева
-  - [`border-left-color`](./STYLES/border-left-color.md) цвет границы слева
+- [`border-left`](./STYLES/BORDER/border-left.md) граница слева
+  - [`border-left-width`](./STYLES/BORDER/border-left-width.md) толщина границы слева
+  - [`border-left-style`](./STYLES/BORDER/border-left-style.md) стиль границы слева
+  - [`border-left-color`](./STYLES/BORDER/border-left-color.md) цвет границы слева
 
 ### border-block
 
-- [`border-block`](./STYLES/border-block.md) границы блочная ось
-  - [`border-block-width`](./STYLES/border-block-width.md) толщина границ
-    - [`border-block-start-width`](./STYLES/border-block-start-width.md) толщина первой границы
-    - [`border-block-end-width`](./STYLES/border-block-end-width.md) толщина второй границы
-  - [`border-block-style`](./STYLES/border-block-style.md) стиль границ
-    - [`border-block-start-style`](./STYLES/border-block-start-style.md) стиль первой границы
-    - [`border-block-end-style`](./STYLES/border-block-end-style.md) стиль второй границы
-  - [`border-block-color`](./STYLES/border-block-color.md) цвет границ
-    - [`border-block-start-color`](./STYLES/border-block-start-color.md) цвет первой границы
-    - [`border-block-end-color`](./STYLES/border-block-end-color.md) цвет второй границы
+- [`border-block`](./STYLES/BORDER/border-block.md) границы блочная ось
+  - [`border-block-width`](./STYLES/BORDER/border-block-width.md) толщина границ
+    - [`border-block-start-width`](./STYLES/BORDER/border-block-start-width.md) толщина первой границы
+    - [`border-block-end-width`](./STYLES/BORDER/border-block-end-width.md) толщина второй границы
+  - [`border-block-style`](./STYLES/BORDER/border-block-style.md) стиль границ
+    - [`border-block-start-style`](./STYLES/BORDER/border-block-start-style.md) стиль первой границы
+    - [`border-block-end-style`](./STYLES/BORDER/border-block-end-style.md) стиль второй границы
+  - [`border-block-color`](./STYLES/BORDER/border-block-color.md) цвет границ
+    - [`border-block-start-color`](./STYLES/BORDER/border-block-start-color.md) цвет первой границы
+    - [`border-block-end-color`](./STYLES/BORDER/border-block-end-color.md) цвет второй границы
 
 ### border-block-start
 
-- [`border-block-start`](./STYLES/border-block-start.md) первая границы блочной оси
-  - [`border-block-start-width`](./STYLES/border-block-start-width.md) толщина первой границы
-  - [`border-block-start-style`](./STYLES/border-block-start-style.md) стиль первой границы
-  - [`border-block-start-color`](./STYLES/border-block-start-color.md) цвет первой границы
+- [`border-block-start`](./STYLES/BORDER/border-block-start.md) первая границы блочной оси
+  - [`border-block-start-width`](./STYLES/BORDER/border-block-start-width.md) толщина первой границы
+  - [`border-block-start-style`](./STYLES/BORDER/border-block-start-style.md) стиль первой границы
+  - [`border-block-start-color`](./STYLES/BORDER/border-block-start-color.md) цвет первой границы
 
 ### border-block-end
 
-- [`border-block-end`](./STYLES/border-block-end.md) вторая граница блочной оси
-  - [`border-block-end-width`](./STYLES/border-block-end-width.md) толщина второй границы
-  - [`border-block-end-style`](./STYLES/border-block-end-style.md) стиль второй границы
-  - [`border-block-end-color`](./STYLES/border-block-end-color.md) цвет второй границы
+- [`border-block-end`](./STYLES/BORDER/border-block-end.md) вторая граница блочной оси
+  - [`border-block-end-width`](./STYLES/BORDER/border-block-end-width.md) толщина второй границы
+  - [`border-block-end-style`](./STYLES/BORDER/border-block-end-style.md) стиль второй границы
+  - [`border-block-end-color`](./STYLES/BORDER/border-block-end-color.md) цвет второй границы
 
 ### border-inline
 
-- [`border-inline`](./STYLES/border-inline.md) границы строчная ось
-  - [`border-inline-width`](./STYLES/border-inline-width.md) толщина границ
-    - [`border-inline-start-width`](./border-inline-start-width.md) толщина первой границы
-    - [`border-inline-end-width`](./STYLES/border-inline-end-width.md) толщина второй границы
-  - [`border-inline-style`](./STYLES/border-inline-style.md) стиль границ
-    - [`border-inline-start-style`](./STYLES/border-inline-start-style.md) стиль первой границы
-    - [`border-inline-end-style`](./STYLES/border-inline-end-style.md) стиль второй границы
-  - [`border-inline-color`](./STYLES/border-inline-color.md) цвет границ
-    - [`border-inline-start-color`](./STYLES/border-inline-start-color.md) цвет первой границы
-    - [`border-inline-end-color`](./STYLES/border-inline-end-color.md) цвет второй границы
+- [`border-inline`](./STYLES/BORDER/border-inline.md) границы строчная ось
+  - [`border-inline-width`](./STYLES/BORDER/border-inline-width.md) толщина границ
+    - [`border-inline-start-width`](./BORDER/border-inline-start-width.md) толщина первой границы
+    - [`border-inline-end-width`](./STYLES/BORDER/border-inline-end-width.md) толщина второй границы
+  - [`border-inline-style`](./STYLES/BORDER/border-inline-style.md) стиль границ
+    - [`border-inline-start-style`](./STYLES/BORDER/border-inline-start-style.md) стиль первой границы
+    - [`border-inline-end-style`](./STYLES/BORDER/border-inline-end-style.md) стиль второй границы
+  - [`border-inline-color`](./STYLES/BORDER/border-inline-color.md) цвет границ
+    - [`border-inline-start-color`](./STYLES/BORDER/border-inline-start-color.md) цвет первой границы
+    - [`border-inline-end-color`](./STYLES/BORDER/border-inline-end-color.md) цвет второй границы
 
 ### border-inline-start
 
-- [`border-inline-start`](./STYLES/border-inline-start.md) первая границы строчной оси
-  - [`border-inline-start-width`](./border-inline-start-width.md) толщина первой границы
-  - [`border-inline-start-style`](./STYLES/border-inline-start-style.md) стиль первой границы
-  - [`border-inline-start-color`](./STYLES/border-inline-start-color.md) цвет первой границы
+- [`border-inline-start`](./STYLES/BORDER/border-inline-start.md) первая границы строчной оси
+  - [`border-inline-start-width`](./BORDER/border-inline-start-width.md) толщина первой границы
+  - [`border-inline-start-style`](./STYLES/BORDER/border-inline-start-style.md) стиль первой границы
+  - [`border-inline-start-color`](./STYLES/BORDER/border-inline-start-color.md) цвет первой границы
 
 ### border-inline-end
 
-- [`border-inline-end`](./STYLES/border-inline-end.md) вторая границы строчной оси
-  - [`border-inline-end-width`](./STYLES/border-inline-end-width.md) толщина второй границы
-  - [`border-inline-end-style`](./STYLES/border-inline-end-style.md) стиль второй границы
-  - [`border-inline-end-color`](./STYLES/border-inline-end-color.md) цвет второй границы
+- [`border-inline-end`](./STYLES/BORDER/border-inline-end.md) вторая границы строчной оси
+  - [`border-inline-end-width`](./STYLES/BORDER/border-inline-end-width.md) толщина второй границы
+  - [`border-inline-end-style`](./STYLES/BORDER/border-inline-end-style.md) стиль второй границы
+  - [`border-inline-end-color`](./STYLES/BORDER/border-inline-end-color.md) цвет второй границы
 
 ### border-image
 
-- [`border-image`](./STYLES/border-image.md) изображение границы
+- [`border-image`](./STYLES/BORDER/border-image.md) изображение границы
 
 ### border-radius
 
-- [`border-radius`](./STYLES/border-radius.md) скругление границ
-  - [`border-bottom-left-radius`](./STYLES/border-bottom-left-radius.md) скругление границы снизу слева
-  - [`border-bottom-right-radius`](./STYLES/border-bottom-right-radius.md) скругление границы снизу справа
-  - [`border-top-left-radius`](./STYLES/border-top-left-radius.md) скругление границы сверху слева
-  - [`border-top-right-radius`](./STYLES/border-top-right-radius.md) скругление границы сверху справа
+- [`border-radius`](./STYLES/BORDER/border-radius.md) скругление границ
+  - [`border-bottom-left-radius`](./STYLES/BORDER/border-bottom-left-radius.md) скругление границы снизу слева
+  - [`border-bottom-right-radius`](./STYLES/BORDER/border-bottom-right-radius.md) скругление границы снизу справа
+  - [`border-top-left-radius`](./STYLES/BORDER/border-top-left-radius.md) скругление границы сверху слева
+  - [`border-top-right-radius`](./STYLES/BORDER/border-top-right-radius.md) скругление границы сверху справа
 
 ## [GRID-CONTAINER](#оглавление)
 
 ## [GRID-ITEMS](#оглавление)
+
+- [`grid-column`](./STYLES/GRID-ITEMS/grid-column.md) расположение по горизонтали
+  - [`grid-column-start`](./STYLES/GRID-ITEMS/grid-column-start.md) начало элемента по горизонтали
+  - [`grid-column-end`](./STYLES/GRID-ITEMS/grid-column-end.md) конец элемента по горизонтали
 
 ## [LIST-STYLE](#оглавление)
 
