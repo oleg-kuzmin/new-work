@@ -11,7 +11,7 @@
 # Оглавление
 
 - [ТЕОРИЯ](#теория)
-- [ATTRUBUTES ALL](#attrubutes)
+- [ATTRUBUTES ALL](#attrubutes-all)
 - [ATTRUBUTES FORM](#attrubutes-form)
 - [ATTRUBUTES GLOBAL](#attrubutes-global)
 - [BLOCK](#block)

@@ -14,12 +14,14 @@
 - [ТЕОРИЯ](#теория)
 - [BOOTSTRAP](#bootstrap)
 - [SASS](#sass)
+- [ALL](#all)
 - [ANIMATION](#animation)
 - [BACKGROUND](#background)
 - [BORDER](#border)
+- [GRID-CONTAINER](#border)
+- [GRID-ITEMS](#border)
 - [LIST-STYLE](#list-style)
 - [MARGIN](#margin)
-- [STYLES](#styles)
 
 ## [ПСЕВДОЭЛЕМЕНТЫ](#оглавление)
 
@@ -42,6 +44,30 @@
 - [`Наследование и шаблоны`](<./SASS/Наследование и шаблоны.md>)
 - [`Переменные`](./SASS/Переменные.md)
 - [`Функции`](./SASS/Функции.md)
+
+## [ALL](#оглавление)
+
+- [`all`](./STYLES/ALL/all.md) все свойства
+- [`backface-visibility`](./STYLES/ALL/backface-visibility.md) обратная сторона элемента
+- [`border-collapse`](./STYLES/ALL/border-collapse.md) смежные границы ячеек
+- [`border-spacing`](./STYLES/ALL/border-spacing.md) отступ между ячейками таблицы
+- [`box-shadow`](./STYLES/ALL/box-shadow.md) тень блока
+- [`box-sizing`](./STYLES/ALL/box-sizing.md) размер блочной модели
+- [`caption-side`](./STYLES/ALL/caption-side.md) положение подписи таблицы
+- [`clip-path`](./STYLES/ALL/clip-path.md) видимая область
+- [`columns`](./STYLES/ALL/columns.md) колонки
+  - [`column-count`](./STYLES/ALL/column-count.md) количество колонок
+  - [`column-width`](./STYLES/ALL/column-width.md) ширина колонок
+- [`column-gap`](./STYLES/ALL/column-gap.md) отступ между колонками
+- [`display`](./STYLES/ALL/display.md) тип отображения
+- [`fill`](./STYLES/ALL/fill.md) цвет заливки svg
+- [`float`](./STYLES/ALL/float.md) обтекание блока текстом
+- [`height`](./STYLES/ALL/height.md) высота
+- [`max-height`](./STYLES/ALL/max-height.md) максимальная высота
+- [`min-height`](./STYLES/ALL/min-height.md) минимальная высота
+- [`resize`](./STYLES/ALL/resize.md) изменений размеров элемента
+- [`text-align`](./STYLES/ALL/text-align.md) горизонтальное выравнивание
+- [`text-align-last`](./STYLES/ALL/text-align-last.md) выравнивание последней строки
 
 ## [ANIMATION](#оглавление)
 
@@ -181,6 +207,10 @@
   - [`border-top-left-radius`](./STYLES/border-top-left-radius.md) скругление границы сверху слева
   - [`border-top-right-radius`](./STYLES/border-top-right-radius.md) скругление границы сверху справа
 
+## [GRID-CONTAINER](#оглавление)
+
+## [GRID-ITEMS](#оглавление)
+
 ## [LIST-STYLE](#оглавление)
 
 - [`list-style`](./STYLES/LIST-STYLE/list-style.md) маркеры списка
@@ -203,27 +233,3 @@
 - [`margin-block`](./STYLES/MARGIN/margin-block.md) внешние отступы блочная ось
   - [`margin-block-start`](./STYLES/MARGIN/margin-block-start.md) внешний отступ начало блочной оси
   - [`margin-block-end`](./STYLES/MARGIN/margin-block-end.md) внешний отступ конец блочной оси
-
-## [STYLES](#оглавление)
-
-- [`all`](./STYLES/all.md) все свойства
-- [`backface-visibility`](./STYLES/backface-visibility.md) обратная сторона элемента
-- [`border-collapse`](./STYLES/border-collapse.md) смежные границы ячеек
-- [`border-spacing`](./STYLES/border-spacing.md) отступ между ячейками таблицы
-- [`box-shadow`](./STYLES/box-shadow.md) тень блока
-- [`box-sizing`](./STYLES/box-sizing.md) размер блочной модели
-- [`caption-side`](./STYLES/caption-side.md) положение подписи таблицы
-- [`clip-path`](./STYLES/clip-path.md) видимая область
-- [`columns`](./STYLES/columns.md) колонки
-  - [`column-count`](./STYLES/column-count.md) количество колонок
-  - [`column-width`](./STYLES/column-width.md) ширина колонок
-- [`column-gap`](./STYLES/column-gap.md) отступ между колонками
-- [`display`](./STYLES/display.md) тип отображения
-- [`fill`](./STYLES/fill.md) цвет заливки svg
-- [`float`](./STYLES/float.md) обтекание блока текстом
-- [`height`](./STYLES/height.md) высота
-- [`max-height`](./STYLES/max-height.md) максимальная высота
-- [`min-height`](./STYLES/min-height.md) минимальная высота
-- [`resize`](./STYLES/resize.md) изменений размеров элемента
-- [`text-align`](./STYLES/text-align.md) горизонтальное выравнивание
-- [`text-align-last`](./STYLES/text-align-last.md) выравнивание последней строки
