@@ -1,4 +1,4 @@
-# `grid-column-end`
+# `grid-row-end`
 
 Определяет положение элемента при помощи указания на грид-линии.
 
@@ -14,29 +14,29 @@
 
 ```css
 .grid-element {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 ```
 
 ## Значения
 
-### `grid-column-end: auto` (по умолчанию)
+### `grid-row-end: auto` (по умолчанию)
 
 Aвтоматическое размещение, автоматический диапазон ячеек или дефолтное растягивание элемента, равное одному.
 
-### `grid-column-end: 2`
+### `grid-row-end: 2`
 
 Порядковый номер конкретной линии.
 
-### `grid-column-end: column-end`
+### `grid-row-end: row-end`
 
 Название конкретной линии.
 
-### `grid-column-end: span 2`
+### `grid-row-end: span 2`
 
 Элемент растянется на указанное количество ячеек.
 
-### `grid-column-end: span column-end`
+### `grid-row-end: span row-end`
 
 Элемент будет растягиваться до следующей указанной линии.

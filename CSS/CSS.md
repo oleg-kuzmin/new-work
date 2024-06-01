@@ -215,6 +215,9 @@
 - [`grid-column`](./STYLES/GRID-ITEMS/grid-column.md) расположение по горизонтали
   - [`grid-column-start`](./STYLES/GRID-ITEMS/grid-column-start.md) начало элемента по горизонтали
   - [`grid-column-end`](./STYLES/GRID-ITEMS/grid-column-end.md) конец элемента по горизонтали
+- [`grid-row`](./STYLES/GRID-ITEMS/grid-row.md) расположение по вертикали
+  - [`grid-column-start`](./STYLES/GRID-ITEMS/grid-row-start.md) начало элемента по вертикали
+  - [`grid-column-end`](./STYLES/GRID-ITEMS/grid-row-end.md) конец элемента по вертикали
 
 ## [LIST-STYLE](#оглавление)
 
