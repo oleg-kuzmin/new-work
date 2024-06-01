@@ -1,9 +1,7 @@
-# `margin`
+# `margin-block`
 
-- [`margin-top`](./margin-top.md) внешний отступ сверху
-- [`margin-right`](./margin-right.md) внешний отступ справ
-- [`margin-bottom`](./margin-bottom.md) внешний отступ снизу
-- [`margin-left`](./margin-left.md) внешний отступ слева
+- [`margin-block-start`](./margin-block-start.md) внешний отступ начало блочной оси
+- [`margin-block-end`](./margin-block-end.md) внешний отступ конец блочной оси
 
 `margin` задаёт расстояние от края элемента до родительского элемента, а если такого нет, то до края окна браузера.
 
@@ -23,26 +21,20 @@
 
 ## Синтаксис
 
-### `margin: [top, right, bottom, left]`
-
-### `margin: [top, bottom] [right, left]`
-
-### `margin: [top] [right, left] [bottom]`
-
-### `margin: [top] [right] [bottom] [left]`
+### `margin-block: [margin-block-start margin-block-end]`
 
 ## Значения
 
 Значение margin может выражаться в пикселях (`px`), процентах (`%`) от ширины блока или словом `auto`, а также в любых других доступных в вебе единицах измерения. Также можно использовать функцию `calc()`.
 
-### `margin: 10px`
+### `margin-block: 10px`
 
 Отступы со всех сторон.
 
-### `margin: auto`
+### `margin-block: auto`
 
 Браузер сам выбирает подходящий размер отступа. Например, можно использовать в некоторых случаях, чтобы центровать элемент.
 
-### `margin: -10px`
+### `margin-block: -10px`
 
 Отрицательное значение margin тоже возможно: вместо отступа, оно, наоборот, ставит элемент ближе к соседнему.
