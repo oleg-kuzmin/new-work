@@ -1,12 +1,12 @@
 # `grid-column`
 
-- [`grid-column-start`](./grid-column-start.md) начало элемента по горизонтали
-- [`grid-column-end`](./grid-column-end.md) конец элемента по горизонтали
+- [`grid-column-start`](./grid-column-start.md) начало элемента по колонкам
+- [`grid-column-end`](./grid-column-end.md) конец элемента по колонкам
 
 ## Пример
 
 ```css
-.grid-element {
+.element {
   grid-column: 2 / 3;
 }
 ```
@@ -15,7 +15,7 @@
 
 ### `grid-column: [grid-column-start] / [grid-column-end]`
 
-Значения разделяются слэшем `/`.
+Значения разделяются слэшем `/`. 
 
 ### `grid-column: 2 / span 2`
 

@@ -1,12 +1,12 @@
 # `grid-row`
 
-- [`grid-row-start`](./grid-row-start.md) начало элемента по вертикали
-- [`grid-row-end`](./grid-row-end.md) конец элемента по вертикали
+- [`grid-row-start`](./grid-row-start.md) начало элемента по строкам
+- [`grid-row-end`](./grid-row-end.md) конец элемента по строкам
 
 ## Пример
 
 ```css
-.grid-element {
+.element {
   grid-row: 2 / 3;
 }
 ```

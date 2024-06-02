@@ -13,7 +13,7 @@
 ## Пример
 
 ```css
-.grid-element {
+.element {
   grid-row-start: 2;
   grid-row-end: 3;
 }
