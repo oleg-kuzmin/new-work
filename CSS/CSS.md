@@ -66,6 +66,7 @@
 - [`height`](./STYLES/ALL/height.md) высота
 - [`max-height`](./STYLES/ALL/max-height.md) максимальная высота
 - [`min-height`](./STYLES/ALL/min-height.md) минимальная высота
+- [`object-fit`](./STYLES/ALL/object-fit.md) подстройка размера медиа
 - [`resize`](./STYLES/ALL/resize.md) изменений размеров элемента
 - [`text-align`](./STYLES/ALL/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./STYLES/ALL/text-align-last.md) выравнивание последней строки
@@ -91,7 +92,7 @@
   - [`background-image`](./STYLES/BACKGROUND/background-image.md) картинка, градиент фона
   - [`background-position`](./STYLES/BACKGROUND/background-position.md) позиционирование фона
   - [`background-repeat`](./STYLES/BACKGROUND/background-repeat.md) повтор фона
-  - [`background-size`](./STYLES/BACKGROUND/background-size.md) размер фона
+  - [`background-size`](./STYLES/BACKGROUND/background-size.md) подстройка размера фона
 
 ## [BORDER](#оглавление)
 
