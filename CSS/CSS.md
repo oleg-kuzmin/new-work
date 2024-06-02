@@ -67,6 +67,7 @@
 - [`max-height`](./STYLES/ALL/max-height.md) максимальная высота
 - [`min-height`](./STYLES/ALL/min-height.md) минимальная высота
 - [`object-fit`](./STYLES/ALL/object-fit.md) подстройка размера медиа
+- [`object-position`](./STYLES/ALL/object-position.md) позиционирование медиа
 - [`resize`](./STYLES/ALL/resize.md) изменений размеров элемента
 - [`text-align`](./STYLES/ALL/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./STYLES/ALL/text-align-last.md) выравнивание последней строки
