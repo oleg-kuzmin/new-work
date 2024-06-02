@@ -241,3 +241,9 @@
 - [`margin-block`](./STYLES/MARGIN/margin-block.md) внешние отступы блочная ось
   - [`margin-block-start`](./STYLES/MARGIN/margin-block-start.md) внешний отступ начало блочной оси
   - [`margin-block-end`](./STYLES/MARGIN/margin-block-end.md) внешний отступ конец блочной оси
+
+### margin-inline
+
+- [`margin-inline`](./STYLES/MARGIN/margin-inline.md) внешние отступы строчная ось
+  - [`margin-inline-start`](./STYLES/MARGIN/margin-inline-start.md) внешний отступ начало строчной оси
+  - [`margin-inline-end`](./STYLES/MARGIN/margin-inline-end.md) внешний отступ конец строчной оси
