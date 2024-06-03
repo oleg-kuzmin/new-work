@@ -230,7 +230,7 @@
   - [`justify-content`](./STYLES/GRID/justify-content.md) выравнивание элементов по горизонтали
   - [`align-content`](./STYLES/GRID/align-content.md) выравнивание элементов по вертикали
 
-### grit-item
+### grid-item
 
 - [`grid-column`](./STYLES/GRID/grid-column.md) расположение элемента по горизонтали
   - [`grid-column-start`](./STYLES/GRID/grid-column-start.md) начало элемента по горизонтали
