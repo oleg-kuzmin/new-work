@@ -18,8 +18,7 @@
 - [ANIMATION](#animation)
 - [BACKGROUND](#background)
 - [BORDER](#border)
-- [GRID-CONTAINER](#grid-container)
-- [GRID-ITEMS](#grid-items)
+- [GRID](#grid)
 - [LIST-STYLE](#list-style)
 - [MARGIN](#margin)
 
@@ -210,23 +209,40 @@
   - [`border-top-left-radius`](./STYLES/BORDER/border-top-left-radius.md) скругление границы сверху слева
   - [`border-top-right-radius`](./STYLES/BORDER/border-top-right-radius.md) скругление границы сверху справа
 
-## [GRID-CONTAINER](#оглавление)
+## [GRID](#оглавление)
 
-- [`grid-template-columns`](./STYLES/GRID-CONTAINER/grid-template-columns.md) шаблон количество колонок
-- [`grid-template-rows`](./STYLES/GRID-CONTAINER/grid-template-rows.md) шаблон количество строк
-- [`gap`](./STYLES/GRID-CONTAINER/gap.md) отступы
-  - [`row-gap`](./STYLES/GRID-CONTAINER/row-gap.md) отступы между строками
-  - [`column-gap`](./STYLES/GRID-CONTAINER/column-gap.md) отступы между колонками
+### grid-container
 
-## [GRID-ITEMS](#оглавление)
+- [`grid-template`](./STYLES/GRID/grid-template.md) явные строки и колонки
+  - [`grid-template-rows`](./STYLES/GRID/grid-template-rows.md) явные строки
+  - [`grid-template-columns`](./STYLES/GRID/grid-template-columns.md) явные колонки
+  - [`grid-template-areas`](./STYLES/GRID/grid-template-areas.md) грид-области
+- [`gap`](./STYLES/GRID/gap.md) отступы
+  - [`row-gap`](./STYLES/GRID/row-gap.md) отступы между строками
+  - [`column-gap`](./STYLES/GRID/column-gap.md) отступы между колонками
+- [`grid-auto-flow`](./STYLES/GRID/grid-auto-flow.md) правило добавления неявных элементов
+- [`grid-auto-rows`](./STYLES/GRID/grid-auto-rows.md) неявные строки
+- [`grid-auto-columns`](./STYLES/GRID/grid-auto-columns.md) неявные колонки
+- [`place-items`](./STYLES/GRID/place-items.md) выравнивание контента внутри ячеек
+  - [`align-items`](./STYLES/GRID/align-items.md) выравнивание контента внутри ячеек по вертикали
+  - [`justify-items`](./STYLES/GRID/justify-items.md) выравнивание контента внутри ячеек по горизонтали
+- [`place-items`](./STYLES/GRID/place-content.md) выравнивание элементов
+  - [`justify-content`](./STYLES/GRID/justify-content.md) выравнивание элементов по горизонтали
+  - [`align-content`](./STYLES/GRID/align-content.md) выравнивание элементов по вертикали
 
-- [`grid-column`](./STYLES/GRID-ITEMS/grid-column.md) расположение по колонкам
-  - [`grid-column-start`](./STYLES/GRID-ITEMS/grid-column-start.md) начало элемента по колонкам
-  - [`grid-column-end`](./STYLES/GRID-ITEMS/grid-column-end.md) конец элемента по колонкам
-- [`grid-row`](./STYLES/GRID-ITEMS/grid-row.md) расположение по строкам
-  - [`grid-column-start`](./STYLES/GRID-ITEMS/grid-row-start.md) начало элемента по строкам
-  - [`grid-column-end`](./STYLES/GRID-ITEMS/grid-row-end.md) конец элемента по строкам
-- [`order`](./STYLES/GRID-ITEMS/order.md) порядок элемента
+### grit-item
+
+- [`grid-column`](./STYLES/GRID/grid-column.md) расположение элемента по горизонтали
+  - [`grid-column-start`](./STYLES/GRID/grid-column-start.md) начало элемента по горизонтали
+  - [`grid-column-end`](./STYLES/GRID/grid-column-end.md) конец элемента по горизонтали
+- [`grid-row`](./STYLES/GRID/grid-column.md) расположение элемента по вертикали
+  - [`grid-row-start`](./STYLES/GRID/grid-row-start.md) начало элемента по вертикали
+  - [`grid-row-end`](./STYLES/GRID/grid-row-end.md) конец элемента по вертикали
+- [`grid-area`](./STYLES/GRID/grid-area.md) название грид-области
+- [`place-self`](./STYLES/GRID/place-self.md) выравнивание контента внутри ячейки
+  - [`align-self`](./STYLES/GRID/align-self.md) выравнивание контента внутри ячейки по вертикали
+  - [`justify-self`](./STYLES/GRID/justify-self.md) выравнивание контента внутри ячейки по горизонтали
+- [`order`](./STYLES/GRID/order.md) порядок отображения элемента
 
 ## [LIST-STYLE](#оглавление)
 
