@@ -299,6 +299,10 @@
 - [`object-fit`](./STYLES/object/object-fit.md) подстройка размера медиа
 - [`object-position`](./STYLES/object/object-position.md) позиционирование медиа
 
+### opacity
+
+- [`opacity`](./STYLES/opacity/opacity.md) прозрачность
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменений размеров элемента
