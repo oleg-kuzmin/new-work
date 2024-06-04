@@ -53,6 +53,7 @@
 - [Parallax](https://github.com/wagerfield/parallax/)
 - [Paroller](https://tgomilar.github.io/paroller.js/)
 - [Scrollmagic](https://scrollmagic.io/)
+- [Plyr](https://plyr.io/)
 
 ## Игры
 
