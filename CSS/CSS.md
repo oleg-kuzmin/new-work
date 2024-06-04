@@ -220,7 +220,7 @@
 - [`gap`](./STYLES/GRID/gap.md) отступы
   - [`row-gap`](./STYLES/GRID/row-gap.md) отступы между строками
   - [`column-gap`](./STYLES/GRID/column-gap.md) отступы между колонками
-- [`grid-auto-flow`](./STYLES/GRID/grid-auto-flow.md) правило добавления неявных элементов
+- [`grid-auto-flow`](./STYLES/GRID/grid-auto-flow.md) поток элементов
 - [`grid-auto-rows`](./STYLES/GRID/grid-auto-rows.md) неявные строки
 - [`grid-auto-columns`](./STYLES/GRID/grid-auto-columns.md) неявные колонки
 - [`place-items`](./STYLES/GRID/place-items.md) выравнивание контента внутри ячеек
