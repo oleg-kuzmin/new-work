@@ -303,6 +303,11 @@
 
 - [`opacity`](./STYLES/opacity/opacity.md) прозрачность
 
+### outline
+
+- [`outline-style`](./STYLES/outline/outline-style.md) стиль обводки
+- [`outline-width`](./STYLES/outline/outline-width.md) толщина обводки
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменений размеров элемента
