@@ -197,6 +197,7 @@
 - [`.removeAttribute()`](./METHODS/ELEMENT/АТРИБУТЫ/removeAttribute.md) удаляет атрибут
 - [`.setAttribute()`](./METHODS/ELEMENT/АТРИБУТЫ/setAttribute.md) устанавливает атрибут
 - [`.style`](./METHODS/ELEMENT/АТРИБУТЫ/style.md) атрибут style
+  - [`.style.setProperty()`](./METHODS/ELEMENT/АТРИБУТЫ/style.setProperty.md) устанавливает стиль
 - [`.type`](./METHODS/ELEMENT/АТРИБУТЫ/type.md) атрибут type
 - [`.value`](./METHODS/ELEMENT/АТРИБУТЫ/value.md) атрибут value
 

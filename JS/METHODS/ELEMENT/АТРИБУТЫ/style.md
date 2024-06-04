@@ -22,6 +22,6 @@ element.style;
 
 ```js
 element.style.backgroundColor = 'beige'; // CSS-свойство background-color
-element.style.color = 'gray';            // CSS-свойство color
-element.style.marginTop = '20px';        // CSS-свойство margin-top
+element.style.color = 'gray'; // CSS-свойство color
+element.style.marginTop = '20px'; // CSS-свойство margin-top
 ```
