@@ -305,6 +305,7 @@
 
 ### outline
 
+- [`outline-color`](./STYLES/outline/outline-color.md) цвет обводки
 - [`outline-style`](./STYLES/outline/outline-style.md) стиль обводки
 - [`outline-width`](./STYLES/outline/outline-width.md) толщина обводки
 
