@@ -212,9 +212,6 @@
 - [`columns`](./STYLES/ALL/columns.md) колонки
   - [`column-count`](./STYLES/ALL/column-count.md) количество колонок
   - [`column-width`](./STYLES/ALL/column-width.md) ширина колонок
-
-### column-gap
-
 - [`column-gap`](./STYLES/ALL/column-gap.md) отступ между колонками
 
 ### display
