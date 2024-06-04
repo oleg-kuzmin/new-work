@@ -14,13 +14,8 @@
 - [ТЕОРИЯ](#теория)
 - [BOOTSTRAP](#bootstrap)
 - [SASS](#sass)
-- [ALL](#all)
-- [ANIMATION](#animation)
-- [BACKGROUND](#background)
-- [BORDER](#border)
+- [STYLES](#styles)
 - [GRID](#grid)
-- [LIST-STYLE](#list-style)
-- [MARGIN](#margin)
 
 ## [ПСЕВДОЭЛЕМЕНТЫ](#оглавление)
 
@@ -45,33 +40,13 @@
 - [`Переменные`](./SASS/Переменные.md)
 - [`Функции`](./SASS/Функции.md)
 
-## [ALL](#оглавление)
+## [STYLES](#оглавление)
+
+### all
 
 - [`all`](./STYLES/ALL/all.md) все свойства
-- [`backface-visibility`](./STYLES/ALL/backface-visibility.md) обратная сторона элемента
-- [`border-collapse`](./STYLES/ALL/border-collapse.md) смежные границы ячеек
-- [`border-spacing`](./STYLES/ALL/border-spacing.md) отступ между ячейками таблицы
-- [`box-shadow`](./STYLES/ALL/box-shadow.md) тень блока
-- [`box-sizing`](./STYLES/ALL/box-sizing.md) размер блочной модели
-- [`caption-side`](./STYLES/ALL/caption-side.md) положение подписи таблицы
-- [`clip-path`](./STYLES/ALL/clip-path.md) видимая область
-- [`columns`](./STYLES/ALL/columns.md) колонки
-  - [`column-count`](./STYLES/ALL/column-count.md) количество колонок
-  - [`column-width`](./STYLES/ALL/column-width.md) ширина колонок
-- [`column-gap`](./STYLES/ALL/column-gap.md) отступ между колонками
-- [`display`](./STYLES/ALL/display.md) тип отображения
-- [`fill`](./STYLES/ALL/fill.md) цвет заливки svg
-- [`float`](./STYLES/ALL/float.md) обтекание блока текстом
-- [`height`](./STYLES/ALL/height.md) высота
-- [`max-height`](./STYLES/ALL/max-height.md) максимальная высота
-- [`min-height`](./STYLES/ALL/min-height.md) минимальная высота
-- [`object-fit`](./STYLES/ALL/object-fit.md) подстройка размера медиа
-- [`object-position`](./STYLES/ALL/object-position.md) позиционирование медиа
-- [`resize`](./STYLES/ALL/resize.md) изменений размеров элемента
-- [`text-align`](./STYLES/ALL/text-align.md) горизонтальное выравнивание
-- [`text-align-last`](./STYLES/ALL/text-align-last.md) выравнивание последней строки
 
-## [ANIMATION](#оглавление)
+### animation
 
 - [`animation`](./STYLES/ANIMATION/animation.md) анимация
   - [`animation-delay`](./STYLES/ANIMATION/animation-delay.md) задержка старта анимации
@@ -83,7 +58,11 @@
   - [`animation-play-state`](./STYLES/ANIMATION/animation-play-state.md) позволяет поставить на паузу
   - [`animation-timing-function`](./STYLES/ANIMATION/animation-timing-function.md) проигрывание кадров
 
-## [BACKGROUND](#оглавление)
+### backface-visibility
+
+- [`backface-visibility`](./STYLES/ALL/backface-visibility.md) обратная сторона элемента
+
+### background
 
 - [`background`](./STYLES/BACKGROUND/background.md) задний фон
   - [`background-attachment`](./STYLES/BACKGROUND/background-attachment.md) прокрутка фона
@@ -93,8 +72,6 @@
   - [`background-position`](./STYLES/BACKGROUND/background-position.md) позиционирование фона
   - [`background-repeat`](./STYLES/BACKGROUND/background-repeat.md) повтор фона
   - [`background-size`](./STYLES/BACKGROUND/background-size.md) подстройка размера фона
-
-## [BORDER](#оглавление)
 
 ### border
 
@@ -209,49 +186,61 @@
   - [`border-top-left-radius`](./STYLES/BORDER/border-top-left-radius.md) скругление границы сверху слева
   - [`border-top-right-radius`](./STYLES/BORDER/border-top-right-radius.md) скругление границы сверху справа
 
-## [GRID](#оглавление)
+### border-collapse
 
-### grid-container
+- [`border-collapse`](./STYLES/ALL/border-collapse.md) смежные границы ячеек
 
-- [`grid-template`](./STYLES/GRID/grid-template.md) явные строки и колонки
-  - [`grid-template-rows`](./STYLES/GRID/grid-template-rows.md) явные строки
-  - [`grid-template-columns`](./STYLES/GRID/grid-template-columns.md) явные колонки
-  - [`grid-template-areas`](./STYLES/GRID/grid-template-areas.md) грид-области
-- [`gap`](./STYLES/GRID/gap.md) отступы
-  - [`row-gap`](./STYLES/GRID/row-gap.md) отступы между строками
-  - [`column-gap`](./STYLES/GRID/column-gap.md) отступы между колонками
-- [`grid-auto-flow`](./STYLES/GRID/grid-auto-flow.md) поток элементов
-- [`grid-auto-rows`](./STYLES/GRID/grid-auto-rows.md) неявные строки
-- [`grid-auto-columns`](./STYLES/GRID/grid-auto-columns.md) неявные колонки
-- [`place-items`](./STYLES/GRID/place-items.md) выравнивание контента внутри ячеек
-  - [`align-items`](./STYLES/GRID/align-items.md) выравнивание контента внутри ячеек по вертикали
-  - [`justify-items`](./STYLES/GRID/justify-items.md) выравнивание контента внутри ячеек по горизонтали
-- [`place-items`](./STYLES/GRID/place-content.md) выравнивание элементов
-  - [`justify-content`](./STYLES/GRID/justify-content.md) выравнивание элементов по горизонтали
-  - [`align-content`](./STYLES/GRID/align-content.md) выравнивание элементов по вертикали
+### border-spacing
 
-### grid-item
+- [`border-spacing`](./STYLES/ALL/border-spacing.md) отступ между ячейками таблицы
 
-- [`grid-column`](./STYLES/GRID/grid-column.md) расположение элемента по горизонтали
-  - [`grid-column-start`](./STYLES/GRID/grid-column-start.md) начало элемента по горизонтали
-  - [`grid-column-end`](./STYLES/GRID/grid-column-end.md) конец элемента по горизонтали
-- [`grid-row`](./STYLES/GRID/grid-column.md) расположение элемента по вертикали
-  - [`grid-row-start`](./STYLES/GRID/grid-row-start.md) начало элемента по вертикали
-  - [`grid-row-end`](./STYLES/GRID/grid-row-end.md) конец элемента по вертикали
-- [`grid-area`](./STYLES/GRID/grid-area.md) название грид-области
-- [`place-self`](./STYLES/GRID/place-self.md) выравнивание контента внутри ячейки
-  - [`align-self`](./STYLES/GRID/align-self.md) выравнивание контента внутри ячейки по вертикали
-  - [`justify-self`](./STYLES/GRID/justify-self.md) выравнивание контента внутри ячейки по горизонтали
-- [`order`](./STYLES/GRID/order.md) порядок отображения элемента
+### box
 
-## [LIST-STYLE](#оглавление)
+- [`box-shadow`](./STYLES/ALL/box-shadow.md) тень блока
+- [`box-sizing`](./STYLES/ALL/box-sizing.md) размер блочной модели
+
+### caption-side
+
+- [`caption-side`](./STYLES/ALL/caption-side.md) положение подписи таблицы
+
+### clip-path
+
+- [`clip-path`](./STYLES/ALL/clip-path.md) видимая область
+
+### columns
+
+- [`columns`](./STYLES/ALL/columns.md) колонки
+  - [`column-count`](./STYLES/ALL/column-count.md) количество колонок
+  - [`column-width`](./STYLES/ALL/column-width.md) ширина колонок
+
+### column-gap
+
+- [`column-gap`](./STYLES/ALL/column-gap.md) отступ между колонками
+
+### display
+
+- [`display`](./STYLES/ALL/display.md) тип отображения
+
+### fill
+
+- [`fill`](./STYLES/ALL/fill.md) цвет заливки svg
+
+### float
+
+- [`float`](./STYLES/ALL/float.md) обтекание блока текстом
+
+### height
+
+- [`height`](./STYLES/ALL/height.md) высота
+- [`max-height`](./STYLES/ALL/max-height.md) максимальная высота
+- [`min-height`](./STYLES/ALL/min-height.md) минимальная высота
+
+### list-style
 
 - [`list-style`](./STYLES/LIST-STYLE/list-style.md) маркеры списка
   - [`list-style-image`](./STYLES/LIST-STYLE/list-style-image.md) маркеры в виде картинок
   - [`list-style-position`](./STYLES/LIST-STYLE/list-style-position.md) положение маркеров
   - [`list-style-type`](./STYLES/LIST-STYLE/list-style-type.md) тип маркеров
-
-## [MARGIN](#оглавление)
 
 ### margin
 
@@ -272,3 +261,52 @@
 - [`margin-inline`](./STYLES/MARGIN/margin-inline.md) внешние отступы строчная ось
   - [`margin-inline-start`](./STYLES/MARGIN/margin-inline-start.md) внешний отступ начало строчной оси
   - [`margin-inline-end`](./STYLES/MARGIN/margin-inline-end.md) внешний отступ конец строчной оси
+
+### object
+
+- [`object-fit`](./STYLES/ALL/object-fit.md) подстройка размера медиа
+- [`object-position`](./STYLES/ALL/object-position.md) позиционирование медиа
+
+### resize
+
+- [`resize`](./STYLES/ALL/resize.md) изменений размеров элемента
+
+### text-align
+
+- [`text-align`](./STYLES/ALL/text-align.md) горизонтальное выравнивание
+- [`text-align-last`](./STYLES/ALL/text-align-last.md) выравнивание последней строки
+
+## [GRID](#оглавление)
+
+### grid-container
+
+- [`grid-template`](./GRID/grid-template.md) явные строки и колонки
+  - [`grid-template-rows`](./GRID/grid-template-rows.md) явные строки
+  - [`grid-template-columns`](./GRID/grid-template-columns.md) явные колонки
+  - [`grid-template-areas`](./GRID/grid-template-areas.md) грид-области
+- [`gap`](./GRID/gap.md) отступы
+  - [`row-gap`](./GRID/row-gap.md) отступы между строками
+  - [`column-gap`](./GRID/column-gap.md) отступы между колонками
+- [`grid-auto-flow`](./GRID/grid-auto-flow.md) поток элементов
+- [`grid-auto-rows`](./GRID/grid-auto-rows.md) неявные строки
+- [`grid-auto-columns`](./GRID/grid-auto-columns.md) неявные колонки
+- [`place-items`](./GRID/place-items.md) выравнивание контента внутри ячеек
+  - [`align-items`](./GRID/align-items.md) выравнивание контента внутри ячеек по вертикали
+  - [`justify-items`](./GRID/justify-items.md) выравнивание контента внутри ячеек по горизонтали
+- [`place-items`](./GRID/place-content.md) выравнивание элементов
+  - [`justify-content`](./GRID/justify-content.md) выравнивание элементов по горизонтали
+  - [`align-content`](./GRID/align-content.md) выравнивание элементов по вертикали
+
+### grid-item
+
+- [`grid-column`](./GRID/grid-column.md) расположение элемента по горизонтали
+  - [`grid-column-start`](./GRID/grid-column-start.md) начало элемента по горизонтали
+  - [`grid-column-end`](./GRID/grid-column-end.md) конец элемента по горизонтали
+- [`grid-row`](./GRID/grid-column.md) расположение элемента по вертикали
+  - [`grid-row-start`](./GRID/grid-row-start.md) начало элемента по вертикали
+  - [`grid-row-end`](./GRID/grid-row-end.md) конец элемента по вертикали
+- [`grid-area`](./GRID/grid-area.md) название грид-области
+- [`place-self`](./GRID/place-self.md) выравнивание контента внутри ячейки
+  - [`align-self`](./GRID/align-self.md) выравнивание контента внутри ячейки по вертикали
+  - [`justify-self`](./GRID/justify-self.md) выравнивание контента внутри ячейки по горизонтали
+- [`order`](./GRID/order.md) порядок отображения элемента
