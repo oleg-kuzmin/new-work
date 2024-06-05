@@ -5,10 +5,6 @@
 - [BEM](https://ru.bem.info/)
 - [Validator](https://validator.w3.org/)
 
-## Work
-
-- [Регулярные выражения](https://regex101.com/)
-
 ## Учебные материалы
 
 - [Учебник от W3C](https://www.w3schools.com/)
@@ -40,7 +36,7 @@
 - [Проверка использования](https://caniuse.com/)
 - [Конвертор форматов файлов](https://www.online-convert.com/ru)
 - [Бесплатные макеты Figma](https://www.uxcrush.com/figma-website-templates/)
-- [Шаблонные строки](https://regex101.com/)
+- [Регулярные выражения](https://regex101.com/)
 
 ## Библиотеки
 
