@@ -319,3 +319,9 @@
 
 - [`text-align`](./STYLES/text-align/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./STYLES/text-align/text-align-last.md) выравнивание последней строки
+
+### overflow
+
+- [`overflow`](./STYLES/overflow/overflow.md) переполнение блока
+  - [`overflow-x`](./STYLES/overflow/overflow-x.md) переполнение блока по горизонтали
+  - [`overflow-y`](./STYLES/overflow/overflow-y.md) переполнение блока по вертикали
