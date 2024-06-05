@@ -325,3 +325,4 @@
 - [`overflow`](./STYLES/overflow/overflow.md) переполнение блока
   - [`overflow-x`](./STYLES/overflow/overflow-x.md) переполнение блока по горизонтали
   - [`overflow-y`](./STYLES/overflow/overflow-y.md) переполнение блока по вертикали
+- [`overflow-wrap`](./STYLES/overflow/overflow-wrap.md) перенос слов
