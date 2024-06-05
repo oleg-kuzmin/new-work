@@ -311,6 +311,33 @@
   - [`outline-color`](./STYLES/outline/outline-color.md) цвет обводки
 - [`outline-offset`](./STYLES/outline/outline-offset.md) отступ до обводки
 
+### overflow
+
+- [`overflow`](./STYLES/overflow/overflow.md) переполнение блока
+  - [`overflow-x`](./STYLES/overflow/overflow-x.md) переполнение блока по горизонтали
+  - [`overflow-y`](./STYLES/overflow/overflow-y.md) переполнение блока по вертикали
+- [`overflow-wrap`](./STYLES/overflow/overflow-wrap.md) перенос слов
+
+### padding
+
+- [`padding`](./STYLES/padding/padding.md) внутренний отступ
+  - [`padding-top`](./STYLES/padding/padding-top.md) внутренний отступ сверху
+  - [`padding-right`](./STYLES/padding/padding-right.md) внутренний отступ справа
+  - [`padding-bottom`](./STYLES/padding/padding-bottom.md) внутренний отступ снизу
+  - [`padding-left`](./STYLES/padding/padding-left.md) внутренний отступ слева
+
+### padding-block
+
+- [`padding-block`](./STYLES/padding/padding-block.md) внутренние отступы блочная ось
+  - [`padding-block-start`](./STYLES/padding/padding-block-start.md) внутренний отступ начало блочной оси
+  - [`padding-block-end`](./STYLES/padding/padding-block-end.md) внутренний отступ конец блочной оси
+
+### padding-inline
+
+- [`padding-inline`](./STYLES/padding/padding-inline.md) внутренние отступы строчная ось
+  - [`padding-inline-start`](./STYLES/padding/padding-inline-start.md) внутренний отступ начало строчной оси
+  - [`padding-inline-end`](./STYLES/padding/padding-inline-end.md) внутренний отступ конец строчной оси
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменений размеров элемента
@@ -319,10 +346,3 @@
 
 - [`text-align`](./STYLES/text-align/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./STYLES/text-align/text-align-last.md) выравнивание последней строки
-
-### overflow
-
-- [`overflow`](./STYLES/overflow/overflow.md) переполнение блока
-  - [`overflow-x`](./STYLES/overflow/overflow-x.md) переполнение блока по горизонтали
-  - [`overflow-y`](./STYLES/overflow/overflow-y.md) переполнение блока по вертикали
-- [`overflow-wrap`](./STYLES/overflow/overflow-wrap.md) перенос слов
