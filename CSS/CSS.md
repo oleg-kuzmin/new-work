@@ -305,10 +305,11 @@
 
 ### outline
 
-- [`outline-color`](./STYLES/outline/outline-color.md) цвет обводки
+- [`outline`](./STYLES/outline/outline.md) обводка
+  - [`outline-width`](./STYLES/outline/outline-width.md) толщина обводки
+  - [`outline-style`](./STYLES/outline/outline-style.md) стиль обводки
+  - [`outline-color`](./STYLES/outline/outline-color.md) цвет обводки
 - [`outline-offset`](./STYLES/outline/outline-offset.md) отступ до обводки
-- [`outline-style`](./STYLES/outline/outline-style.md) стиль обводки
-- [`outline-width`](./STYLES/outline/outline-width.md) толщина обводки
 
 ### resize
 
