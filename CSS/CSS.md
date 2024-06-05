@@ -338,6 +338,10 @@
   - [`padding-inline-start`](./STYLES/padding/padding-inline-start.md) внутренний отступ начало строчной оси
   - [`padding-inline-end`](./STYLES/padding/padding-inline-end.md) внутренний отступ конец строчной оси
 
+### pointer-events
+
+- [`pointer-events`](./STYLES/pointer-events/pointer-events.md) реагирование на события
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменений размеров элемента
