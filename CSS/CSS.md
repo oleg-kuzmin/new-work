@@ -344,7 +344,7 @@
 
 ### resize
 
-- [`resize`](./STYLES/resize/resize.md) изменений размеров элемента
+- [`resize`](./STYLES/resize/resize.md) изменение размеров элемента
 
 ### text-align
 
