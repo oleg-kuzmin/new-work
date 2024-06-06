@@ -14,7 +14,7 @@
 - [ООП](#ооп)
 - [ТЕОРИЯ](#теория)
 - [ЦИКЛЫ](#циклы)
-- [ARRAY](#array)
+- [ARRAY](#array)ц
 - [DATE](#date)
 - [DOCUMENT](#document)
 - [ELEMENT](#element)
