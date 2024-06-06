@@ -8,10 +8,10 @@ _(cite: цитировать)_
 
 ## Применяется к тегам
 
-- [`<del>`](<../TAGS INLINE/del.md>) удаленный контент
-- [`<ins>`](<../TAGS INLINE/ins.md>) добавленный контент
-- [`<blockquote>`](<../TAGS BLOCK/blockquote.md>) блок цитат
-- [`<q>`](<../TAGS INLINE/q.md>) небольшая цитата
+- [`<del>`](../../TAGS/INLINE/del.md) удаленный контент
+- [`<ins>`](../../TAGS/INLINE/ins.md) добавленный контент
+- [`<blockquote>`](../../TAGS/BLOCK/blockquote.md) блок цитат
+- [`<q>`](../../TAGS/INLINE/q.md) небольшая цитата
 
 ## Пример
 

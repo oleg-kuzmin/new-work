@@ -18,8 +18,8 @@
 
 ## Применяется к тегам
 
-- [`<abbr>`](<../TAGS INLINE/abbr.md>) аббревиатура
-- [`<dfn>`](<../TAGS INLINE/dfn.md>) термин
+- [`<abbr>`](../../TAGS/INLINE/abbr.md) аббревиатура
+- [`<dfn>`](../../TAGS/INLINE/dfn.md) термин
 
 ## Пример
 

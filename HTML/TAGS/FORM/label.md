@@ -34,4 +34,4 @@
 
 ## Атрибуты
 
-- [`for`](<../ATTRIBUTES FORM/for.md>) связь с элементом формы
+- [`for`](../../ATTRIBUTES/FORM/for.md) связь с элементом формы

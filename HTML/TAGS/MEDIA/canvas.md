@@ -30,4 +30,4 @@ _(canvas: холст)_
 
 ## Атрибутыw
 
-- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота
+- [`width, height`](<../../ATTRIBUTES/ALL/width, height.md>) ширина, высота

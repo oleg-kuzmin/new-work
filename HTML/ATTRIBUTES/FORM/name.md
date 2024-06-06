@@ -4,9 +4,9 @@
 
 ## Применяется к тегам
 
-- [`<output>`](<../TAGS UI/output.md>) результат вычислений, действий
-- [`<button>`](<../TAGS FORM/button.md>) кнопка
-- [`<form>`](<../TAGS FORM/form.md>) форма
+- [`<output>`](../../TAGS/UI/output.md) результат вычислений, действий
+- [`<button>`](../../TAGS/FORM/button.md) кнопка
+- [`<form>`](../../TAGS/FORM/form.md) форма
 
 ## Пример
 

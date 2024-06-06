@@ -22,4 +22,4 @@ _(map: карта)_
 
 ## Атрибуты
 
-- [`name`](../ATTRIBUTES/name.md) имя
+- [`name`](../../ATTRIBUTES/ALL/name.md) имя

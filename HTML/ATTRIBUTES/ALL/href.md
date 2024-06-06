@@ -4,10 +4,10 @@ URL-ссылка на внешний файл или адрес. Ссылка м
 
 ## Применяется к тегам
 
-- [`<link>`](<../TAGS HEAD/link.md>) внешний файл
-- [`<base>`](<../TAGS HEAD/base.md>) основной url-адрес
-- [`<a>`](<../TAGS INLINE/a.md>) ссылка
-- [`<area>`](<../TAGS MEDIA/area.md>) ссылки на области карты
+- [`<link>`](../../TAGS/HEAD/link.md) внешний файл
+- [`<base>`](../../TAGS/HEAD/base.md) основной url-адрес
+- [`<a>`](../../TAGS/INLINE/a.md) ссылка
+- [`<area>`](../../TAGS/MEDIA/area.md) ссылки на области карты
 
 ## Пример
 

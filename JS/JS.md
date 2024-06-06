@@ -1,4 +1,4 @@
-<style>
+w<style>
   * {
     user-select: none;    
   }

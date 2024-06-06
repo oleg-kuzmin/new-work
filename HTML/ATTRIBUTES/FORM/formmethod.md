@@ -10,7 +10,7 @@
 
 ## Применяется к тегам
 
-- [`<button>`](<../TAGS FORM/button.md>) кнопка
+- [`<button>`](../../TAGS/FORM/button.md) кнопка
 
 ## Пример
 

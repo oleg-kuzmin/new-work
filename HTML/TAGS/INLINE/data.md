@@ -30,4 +30,4 @@ _(data: данные)_
 
 ## Атрибуты
 
-- [`value`](../ATTRIBUTES/value.md) значение
+- [`value`](../../ATTRIBUTES/ALL/value.md) значение

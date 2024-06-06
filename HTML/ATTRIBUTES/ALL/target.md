@@ -10,9 +10,9 @@
 
 ## Применяется к тегам
 
-- [`<base>`](<../TAGS HEAD/base.md>) основной url-адрес
-- [`<a>`](<../TAGS INLINE/a.md>) ссылка
-- [`<area>`](<../TAGS MEDIA/area.md>) ссылки на области карты
+- [`<base>`](../../TAGS/HEAD/base.md) основной url-адрес
+- [`<a>`](../../TAGS/INLINE/a.md) ссылка
+- [`<area>`](../../TAGS/MEDIA/area.md) ссылки на области карты
 
 ## Пример
 

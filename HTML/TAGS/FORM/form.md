@@ -26,11 +26,11 @@
 
 ## Атрибуты
 
-- [`accept-charset`](<../ATTRIBUTES FORM/accept-charset.md>) кодировка формы
-- [`action`](<../ATTRIBUTES FORM/action.md>) обработчик формы
-- [`autocomplete`](<../ATTRIBUTES FORM/autocomplete.md>) автозаполнение
-- [`enctype`](<../ATTRIBUTES FORM/enctype.md>) тип шифрования данных
-- [`method`](<../ATTRIBUTES FORM/method.md>) метод отправки формы
-- [`name`](<../ATTRIBUTES FORM/name.md>) имя
-- [`novalidate`](<../ATTRIBUTES FORM/novalidate.md>) отключает валидацию
-- [`target`](<../ATTRIBUTES FORM/target.md>) отображение после submit
+- [`accept-charset`](../../ATTRIBUTES/FORM/accept-charset.md) кодировка формы
+- [`action`](../../ATTRIBUTES/FORM/action.md) обработчик формы
+- [`autocomplete`](../../ATTRIBUTES/FORM/autocomplete.md) автозаполнение
+- [`enctype`](../../ATTRIBUTES/FORM/enctype.md) тип шифрования данных
+- [`method`](../../ATTRIBUTES/FORM/method.md) метод отправки формы
+- [`name`](../../ATTRIBUTES/FORM/name.md) имя
+- [`novalidate`](../../ATTRIBUTES/FORM/novalidate.md) отключает валидацию
+- [`target`](../../ATTRIBUTES/FORM/target.md) отображение после submit

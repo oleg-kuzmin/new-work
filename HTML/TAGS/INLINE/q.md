@@ -25,4 +25,4 @@ _(quotation: цитата, кавычки)_
 
 ## Атрибуты
 
-[`cite`](../ATTRIBUTES/cite.md) источник цитаты
+- [`cite`](../../ATTRIBUTES/ALL/cite.md) источник цитаты

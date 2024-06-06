@@ -27,4 +27,4 @@ _(time: время)_
 
 ## Атрибуты
 
-- [`datetime`](../ATTRIBUTES/datetime.md) дата и время для машины
+- [`datetime`](../../ATTRIBUTES/ALL/datetime.md) дата и время для машины

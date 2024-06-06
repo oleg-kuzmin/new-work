@@ -52,4 +52,4 @@ _(list item: пункт списка)_
 
 ## Атрибуты
 
-- [`value`](../ATTRIBUTES/value.md) значение
+- [`value`](../../ATTRIBUTES/ALL/value.md) значение

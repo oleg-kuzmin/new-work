@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<details>`](<../TAGS UI/details.md>) аккордеон
-- [`<dialog>`](<../TAGS UI/dialog.md>) модальное окно
+- [`<details>`](../../TAGS/UI/details.md) аккордеон
+- [`<dialog>`](../../TAGS/UI/dialog.md) модальное окно
 
 ## Пример
 

@@ -27,11 +27,11 @@ _(area: область)_
 
 ## Атрибуты
 
-- [`alt`](../ATTRIBUTES/alt.md) альтернативный текст
-- [`coords`](../ATTRIBUTES/coords.md) координаты областей карты
-- [`href`](../ATTRIBUTES/href.md) ссылка на url
-- [`ping`](../ATTRIBUTES/ping.md) post-запрос при переходе по карте
-- [`referrerpolicy`](../ATTRIBUTES/referrerpolicy.md) данные при переходе по карте
-- [`rel`](<../ATTRIBUTES/rel (A).md>) связь ссылки со страницей
-- [`shape`](../ATTRIBUTES/shape.md) форма областей карты
-- [`target`](../ATTRIBUTES/target.md) способ открытия ссылки
+- [`alt`](../../ATTRIBUTES/ALL/alt.md) альтернативный текст
+- [`coords`](../../ATTRIBUTES/ALL/coords.md) координаты областей карты
+- [`href`](../../ATTRIBUTES/ALL/href.md) ссылка на url
+- [`ping`](../../ATTRIBUTES/ALL/ping.md) post-запрос при переходе по карте
+- [`referrerpolicy`](../../ATTRIBUTES/ALL/referrerpolicy.md) данные при переходе по карте
+- [`rel`](<../../ATTRIBUTES/ALL/rel (A).md>) связь ссылки со страницей
+- [`shape`](../../ATTRIBUTES/ALL/shape.md) форма областей карты
+- [`target`](../../ATTRIBUTES/ALL/target.md) способ открытия ссылки

@@ -8,10 +8,10 @@
 
 ## Применяется к тегам
 
-- [`<button>`](<../TAGS FORM/button.md>) кнопка
-- [`<input>`](<../TAGS FORM/input.md>) поле ввода
-- [`<select>`](<../TAGS FORM/select.md>) выпадающий список
-- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
+- [`<button>`](../../TAGS/FORM/button.md) кнопка
+- [`<input>`](../../TAGS/FORM/input.md) поле ввода
+- [`<select>`](../../TAGS/FORM/select.md) выпадающий список
+- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
 
 ## Пример
 

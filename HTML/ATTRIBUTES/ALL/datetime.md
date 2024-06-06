@@ -4,9 +4,9 @@
 
 ## Применяется к тегам
 
-- [`<del>`](<../TAGS INLINE/del.md>) удаленный контент
-- [`<ins>`](<../TAGS INLINE/ins.md>) добавленный контент
-- [`<time>`](<../TAGS INLINE/time.md>) дата, время
+- [`<del>`](../../TAGS/INLINE/del.md) удаленный контент
+- [`<ins>`](../../TAGS/INLINE/ins.md) добавленный контент
+- [`<time>`](../../TAGS/INLINE/time.md) дата, время
 
 ## Значения
 

@@ -26,10 +26,10 @@
 
 ## Атрибуты
 
-- [`alt`](../ATTRIBUTES/alt.md) альтернативный текст
-- [`decoding`](../ATTRIBUTES/decoding.md) декодирование
-- [`loading`](../ATTRIBUTES/loading.md) загрузка
-- [`src`](../ATTRIBUTES/src.md) url источника
-- [`srcset, sizes`](<../ATTRIBUTES/srcset, sizes.md>) набор изображений
-- [`usemap`](../ATTRIBUTES/usemap.md) id карты
-- [`width, height`](<../ATTRIBUTES/width, height.md>) ширина, высота
+- [`alt`](../../ATTRIBUTES/ALL/alt.md) альтернативный текст
+- [`decoding`](../../ATTRIBUTES/ALL/decoding.md) декодирование
+- [`loading`](../../ATTRIBUTES/ALL/loading.md) загрузка
+- [`src`](../../ATTRIBUTES/ALL/src.md) url источника
+- [`srcset, sizes`](<../../ATTRIBUTES/ALL/srcset, sizes.md>) набор изображений
+- [`usemap`](../../ATTRIBUTES/ALL/usemap.md) id карты
+- [`width, height`](<../../ATTRIBUTES/ALL/width, height.md>) ширина, высота

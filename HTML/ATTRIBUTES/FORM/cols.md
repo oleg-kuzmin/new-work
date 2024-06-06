@@ -4,7 +4,7 @@
 
 ## Применяется к тегам
 
-- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
+- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
 
 ## Пример
 

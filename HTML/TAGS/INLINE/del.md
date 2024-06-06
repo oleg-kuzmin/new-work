@@ -31,5 +31,5 @@ _(delete: удалить)_
 
 ## Атрибуты
 
-- [`cite`](../ATTRIBUTES/cite.md) источник правки
-- [`datetime`](../ATTRIBUTES/datetime.md) дата и время для машины
+- [`cite`](../../ATTRIBUTES/ALL/cite.md) источник правки
+- [`datetime`](../../ATTRIBUTES/ALL/datetime.md) дата и время для машины

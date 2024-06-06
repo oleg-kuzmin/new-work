@@ -4,10 +4,10 @@
 
 ## Применяется к тегам
 
-- [`<data>`](<../TAGS INLINE/data.md>) машинные данные
-- [`<li>`](<../TAGS BLOCK/li.md>) элемент списка
-- [`<meter>`](<../TAGS UI/meter.md>) статический прогресс-бар
-- [`<progress>`](<../TAGS UI/progress.md>) динамический прогресс-бар
+- [`<data>`](../../TAGS/INLINE/data.md) машинные данные
+- [`<li>`](../../TAGS/BLOCK/li.md) элемент списка
+- [`<meter>`](../../TAGS/UI/meter.md) статический прогресс-бар
+- [`<progress>`](../../TAGS/UI/progress.md) динамический прогресс-бар
 
 ## Пример
 

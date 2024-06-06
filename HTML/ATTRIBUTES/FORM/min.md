@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<meter>`](<../TAGS UI/meter.md>) статический прогресс-бар
-- [`<input>`](<../TAGS FORM/input.md>) поле ввода
+- [`<meter>`](../../TAGS/UI/meter.md) статический прогресс-бар
+- [`<input>`](../../TAGS/FORM/input.md) поле ввода
 
 ## Пример
 

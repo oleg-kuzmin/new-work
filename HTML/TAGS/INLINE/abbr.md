@@ -24,4 +24,4 @@ _(abbreviation: аббревиатура)_
 
 ## Атрибуты
 
-- [`title`](../ATTRIBUTES/title.md) расшифровка аббревиатуры, термина
+- [`title`](../../ATTRIBUTES/ALL/title.md) расшифровка аббревиатуры, термина

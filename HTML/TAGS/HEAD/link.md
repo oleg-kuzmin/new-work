@@ -64,9 +64,9 @@ _(link: ссылка)_
 
 ## Атрибуты
 
-- [`as`](../ATTRIBUTES/as.md) тип загружаемого контента
-- [`crossorigin`](../ATTRIBUTES/crossorigin.md) обработка cors
-- [`href`](../ATTRIBUTES/href.md) ссылка на url
-- [`media`](../ATTRIBUTES/media.md) медиа-запрос
-- [`rel`](<../ATTRIBUTES/rel (LINK).md>) связь файла со страницей
-- [`sizes`](../ATTRIBUTES/sizes.md) размер для фавиконки
+- [`as`](../../ATTRIBUTES/ALL/as.md) тип загружаемого контента
+- [`crossorigin`](../../ATTRIBUTES/ALL/crossorigin.md) обработка cors
+- [`href`](../../ATTRIBUTES/ALL/href.md) ссылка на url
+- [`media`](../../ATTRIBUTES/ALL/media.md) медиа-запрос
+- [`rel`](<../../ATTRIBUTES/ALL/rel (LINK).md>) связь файла со страницей
+- [`sizes`](../../ATTRIBUTES/ALL/sizes.md) размер для фавиконки

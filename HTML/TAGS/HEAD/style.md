@@ -25,4 +25,4 @@
 
 ## Атрибуты
 
-- [`media`](../ATTRIBUTES/media.md) медиа-запрос
+- [`media`](../../ATTRIBUTES/ALL/media.md) медиа-запрос

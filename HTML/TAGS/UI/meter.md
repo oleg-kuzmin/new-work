@@ -47,10 +47,10 @@
 
 ## Атрибуты
 
-- [`min`](<../ATTRIBUTES FORM/min.md>) минимальное значение
-- [`max`](<../ATTRIBUTES FORM/max.md>) максимальное значение
-- [`optimum`](../ATTRIBUTES/optimum.md) оптимальное значение
-- [`low`](../ATTRIBUTES/low.md) низшее значение
-- [`high`](../ATTRIBUTES/high.md) высшее значение
-- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
-- [`value`](../ATTRIBUTES/value.md) значение
+- [`min`](../../ATTRIBUTES/FORM/min.md) минимальное значение
+- [`max`](../../ATTRIBUTES/FORM/max.md) максимальное значение
+- [`optimum`](../../ATTRIBUTES/ALL/optimum.md) оптимальное значение
+- [`low`](../../ATTRIBUTES/ALL/low.md) низшее значение
+- [`high`](../../ATTRIBUTES/ALL/high.md) высшее значение
+- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
+- [`value`](../../ATTRIBUTES/ALL/value.md) значение

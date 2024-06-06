@@ -35,8 +35,8 @@
 
 ## Применяется к тегам
 
-- [`<input>`](<../TAGS FORM/input.md>) поле ввода
-- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
+- [`<input>`](../../TAGS/FORM/input.md) поле ввода
+- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
 
 ## Пример
 

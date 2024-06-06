@@ -4,14 +4,14 @@ Cвязывает контролы внутри тега с формой (буд
 
 ## Применяется к тегам
 
-- [`<object>`](<../TAGS MEDIA/object.md>) встраивание медиа
-- [`<meter>`](<../TAGS UI/meter.md>) статический прогресс-бар
-- [`<output>`](<../TAGS UI/output.md>) результат вычислений, действий
-- [`<button>`](<../TAGS FORM/button.md>) кнопка
-- [`<input>`](<../TAGS FORM/input.md>) поле ввода
-- [`<fieldset>`](<../TAGS FORM/fieldset.md>) группировка элементов
-- [`<select>`](<../TAGS FORM/select.md>) выпадающий список
-- [`<textarea>`](<../TAGS FORM/textarea.md>) многострочное поле ввода
+- [`<object>`](../../TAGS/MEDIA/object.md) встраивание медиа
+- [`<meter>`](../../TAGS/UI/meter.md) статический прогресс-бар
+- [`<output>`](../../TAGS/UI/output.md) результат вычислений, действий
+- [`<button>`](../../TAGS/FORM/button.md) кнопка
+- [`<input>`](../../TAGS/FORM/input.md) поле ввода
+- [`<fieldset>`](../../TAGS/FORM/fieldset.md) группировка элементов
+- [`<select>`](../../TAGS/FORM/select.md) выпадающий список
+- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
 
 ## Пример
 

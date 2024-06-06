@@ -31,6 +31,6 @@ _(output: выход, вывод)_
 
 ## Атрибуты
 
-- [`for`](<../ATTRIBUTES FORM/for.md>) связь с элементом формы
-- [`form`](<../ATTRIBUTES FORM/form.md>) связь с формой
-- [`name`](<../ATTRIBUTES FORM/name.md>) имя
+- [`for`](../../ATTRIBUTES/FORM/for.md) связь с элементом формы
+- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
+- [`name`](../../ATTRIBUTES/FORM/name.md) имя
