@@ -2,13 +2,15 @@
 
 ## Working Directory (Рабочая директория)
 
-
 - Untracker (Неотслеживаемые файлы)
 - Modified (Измененные файлы)
 
 ```bash
 # Добавит в Staging Area все неотслеживаемые и измененые файлы
 git add .
+
+# Удалит каталог из Staging Area
+git rm --cached имя_папки
 ```
 
 ## Staging Area (Состояние)

@@ -36,3 +36,8 @@
 
 - [`git add`](<./КОМАНДЫ/git add.md>) добавить файл/каталог в stage
 - [`git rm`](<./КОМАНДЫ/git rm.md>) удалить файл/каталог из stage
+
+### Git Ветки
+
+- [`git branch`](<./КОМАНДЫ/git branch.md>) создание/удаление ветки
+- [`git checkout`](<./КОМАНДЫ/git checkout.md>) смена ветки
