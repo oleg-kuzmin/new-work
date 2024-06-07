@@ -8,10 +8,6 @@
 ```bash
 # Добавит в Staging Area все неотслеживаемые и измененые файлы
 git add .
-
-# Добавит в Staging Area все неотслеживаемые и измененые файлы
-# Добавит в Local Git Repository
-git commit -am "text"
 ```
 
 ## Staging Area (Состояние)
