@@ -358,6 +358,10 @@
 
 - [`resize`](./STYLES/resize/resize.md) изменение размеров элемента
 
+### scroll-behavior
+
+- [`scroll-behavior`](./STYLES/scroll-behavior/scroll-behavior.md) плавная прокрутка
+
 ### text-align
 
 - [`text-align`](./STYLES/text-align/text-align.md) горизонтальное выравнивание
