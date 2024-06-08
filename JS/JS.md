@@ -376,7 +376,7 @@
 ## [OBJECT](#оглавление)
 
 - [`delete`](./METHODS/OBJECT/delete.md) оператор удаления свойства
-- [`.hasownproperty`](./METHODS/OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+- [`.hasownproperty()`](./METHODS/OBJECT/hasownproperty.md) принадлежность свойства самому объекту
 - [`in`](./METHODS/OBJECT/in.md) оператор проверки наличия ключа
 - [`new Object()`](<./METHODS/OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./METHODS/OBJECT/Object.assign.md) поверхностное копирование, объединение
