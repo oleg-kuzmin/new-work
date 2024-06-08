@@ -1,4 +1,4 @@
-# `.hasownproperty()`
+# `.hasOwnProperty()`
 
 Содержит информацию о принадлежности свойства самому объекту, исключая свойства прототипов.
 
@@ -7,7 +7,7 @@
 ## Синтаксис
 
 ```js
-obj.hasownproperty('keyName');
+obj.hasOwnProperty('keyName');
 ```
 
 ### `keyName`

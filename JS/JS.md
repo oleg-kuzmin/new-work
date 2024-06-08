@@ -375,9 +375,10 @@
 
 ## [OBJECT](#оглавление)
 
-- [`delete`](./METHODS/OBJECT/delete.md) оператор удаления свойства
-- [`.hasownproperty()`](./METHODS/OBJECT/hasownproperty.md) принадлежность свойства самому объекту
 - [`in`](./METHODS/OBJECT/in.md) оператор проверки наличия ключа
+- [`delete`](./METHODS/OBJECT/delete.md) оператор удаления свойства
+- [`.hasOwnProperty()`](./METHODS/OBJECT/hasownproperty.md) принадлежность свойства самому объекту
+- [`.prototype`](./METHODS/OBJECT/prototype.md) свойство прототип функции-конструктора
 - [`new Object()`](<./METHODS/OBJECT/new Object.md>) создает новый объект
 - [`Object.assign()`](./METHODS/OBJECT/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./METHODS/OBJECT/Object.create.md) создает объект с прототипом
@@ -390,7 +391,6 @@
 - [`Object.is()`](./METHODS/OBJECT/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./METHODS/OBJECT/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./METHODS/OBJECT/Object.values.md) создает массив из перечисляемых свойств
-- [`.prototype`](./METHODS/OBJECT/prototype.md) свойство прототип функции-конструктора
 
 ## [REGEXP](#оглавление)
 
