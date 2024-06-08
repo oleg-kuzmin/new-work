@@ -370,3 +370,7 @@
 
 - [`text-align`](./STYLES/text-align/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./STYLES/text-align/text-align-last.md) выравнивание последней строки
+
+### transform
+
+- [`transform`](./STYLES/transform/transform.md) трансформация
