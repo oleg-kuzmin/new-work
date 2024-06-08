@@ -362,6 +362,10 @@
 
 - [`scroll-behavior`](./STYLES/scroll-behavior/scroll-behavior.md) плавная прокрутка
 
+### stroke
+
+- [`stroke`](./STYLES/stroke/stroke.md) цвет обводки svg
+
 ### text-align
 
 - [`text-align`](./STYLES/text-align/text-align.md) горизонтальное выравнивание
