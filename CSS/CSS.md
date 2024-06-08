@@ -342,6 +342,10 @@
 
 - [`pointer-events`](./STYLES/pointer-events/pointer-events.md) реагирование на события
 
+### position
+
+- [`position`](./STYLES/position/position.md) позиционирование
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменение размеров элемента
