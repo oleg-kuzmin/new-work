@@ -350,6 +350,10 @@
   - [`bottom`](./STYLES/position/bottom.md) смещение снизу
   - [`left`](./STYLES/position/left.md) смещение слева
 
+### quotes
+
+- [`quotes`](./STYLES/quotes/quotes.md) кавычки
+
 ### resize
 
 - [`resize`](./STYLES/resize/resize.md) изменение размеров элемента
