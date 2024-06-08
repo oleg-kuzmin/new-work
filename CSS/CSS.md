@@ -345,6 +345,10 @@
 ### position
 
 - [`position`](./STYLES/position/position.md) позиционирование
+  - [`top`](./STYLES/position/top.md) смещение сверху
+  - [`right`](./STYLES/position/right.md) смещение справа
+  - [`bottom`](./STYLES/position/bottom.md) смещение снизу
+  - [`left`](./STYLES/position/left.md) смещение слева
 
 ### resize
 
