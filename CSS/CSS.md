@@ -375,3 +375,4 @@
 
 - [`transform`](./STYLES/transform/transform.md) трансформация
 - [`transform-origin`](./STYLES/transform/transform-origin.md) точка отсчета
+- [`perspective`](./STYLES/transform/perspective.md) точка перспективы
