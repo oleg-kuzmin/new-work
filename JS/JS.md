@@ -135,6 +135,7 @@
 ### Преобразование
 
 - [`Object.fromEntries()`](./METHODS/OBJECT/Object.fromEntries.md) преобразует в объект
+- [`.join()`](<./METHODS/ARRAY/ИММУТАБЕЛЬНЫЕ МЕТОДЫ/join.md>) преобразует в строку
 
 ## [DATE](#оглавление)
 
