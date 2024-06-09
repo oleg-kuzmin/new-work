@@ -377,3 +377,4 @@
 - [`transform-origin`](./STYLES/transform/transform-origin.md) точка отсчета
 - [`perspective`](./STYLES/transform/perspective.md) точка перспективы
 - [`translate`](./STYLES/transform/translate.md) смещение
+- [`scale`](./STYLES/transform/scale.md) увеличение
