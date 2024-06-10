@@ -381,3 +381,7 @@
 - [`rotate`](./STYLES/transform/rotate.md) вращение
 - [`skew`](./STYLES/transform/skew.md) наклон
 - [`matrix`](./STYLES/transform/matrix.md) матрица трансформации
+
+### transition
+
+- [`transition-property`](./STYLES/transition/transition-property.md) название свойства
