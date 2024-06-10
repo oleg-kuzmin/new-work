@@ -385,3 +385,4 @@
 ### transition
 
 - [`transition-property`](./STYLES/transition/transition-property.md) название свойства
+- [`transition-duration`](./STYLES/transition/transition-duration.md) время
