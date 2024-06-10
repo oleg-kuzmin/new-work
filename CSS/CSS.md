@@ -380,3 +380,4 @@
 - [`scale`](./STYLES/transform/scale.md) увеличение
 - [`rotate`](./STYLES/transform/rotate.md) вращение
 - [`skew`](./STYLES/transform/skew.md) наклон
+- [`matrix`](./STYLES/transform/matrix.md) матрица трансформации
