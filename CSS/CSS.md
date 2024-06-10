@@ -378,3 +378,5 @@
 - [`perspective`](./STYLES/transform/perspective.md) точка перспективы
 - [`translate`](./STYLES/transform/translate.md) смещение
 - [`scale`](./STYLES/transform/scale.md) увеличение
+- [`rotate`](./STYLES/transform/rotate.md) вращение
+- [`skew`](./STYLES/transform/skew.md) наклон
