@@ -385,4 +385,5 @@
 ### transition
 
 - [`transition-property`](./STYLES/transition/transition-property.md) название свойства
-- [`transition-duration`](./STYLES/transition/transition-duration.md) время
+- [`transition-duration`](./STYLES/transition/transition-duration.md) время анимации
+- [`transition-timing-function`](./STYLES/transition/transition-timing-function.md) проигрывание анимации
