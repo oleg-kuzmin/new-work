@@ -1,11 +1,11 @@
-# `defaultPrevented`
+# `evt.defaultPrevented`
 
 Свойство содержит информацию о том отменено ли поведение события по умолчанию.
 
 ## Синтаксис
 
 ```js
-event.defaultPrevented;
+evt.defaultPrevented;
 ```
 
 ## Возвращает
@@ -24,15 +24,15 @@ event.defaultPrevented;
 ```
 
 ```js
-function stopLink(event) {
-  event.preventDefault();
+function stopLink(evt) {
+  evt.preventDefault();
 }
 
-function logClick(event) {
+function logClick(evt) {
   const log = document.getElementById('log');
 
-  if (event.target.tagName === 'A') {
-    log.innerText = event.defaultPrevented
+  if (evt.target.tagName === 'A') {
+    log.innerText = evt.defaultPreventedevtevtevt
       ? `Sorry, but you cannot visit this link!\n${log.innerText}`
       : `Visiting link…\n${log.innerText}`;
   }

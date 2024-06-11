@@ -1,4 +1,4 @@
-# `timeStamp`
+# `evt.timeStamp`
 
 Время возникновения события в миллисекундах.
 
@@ -7,7 +7,7 @@
 ## Синтаксис
 
 ```js
-event.timeStamp;
+evt.timeStamp;
 ```
 
 ## Возвращает
@@ -24,9 +24,9 @@ event.timeStamp;
 ```
 
 ```js
-function getTime(event) {
+function getTime(evt) {
   const time = document.getElementById('time');
-  time.firstChild.nodeValue = event.timeStamp;
+  time.firstChild.nodeValue = evt.timeStamp;
 }
 document.body.addEventListener('keypress', getTime);
 ```

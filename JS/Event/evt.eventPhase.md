@@ -1,11 +1,11 @@
-# `eventPhase`
+# `evt.eventPhase`
 
 Указывает на фазу срабатывания события.
 
 ## Синтаксис
 
 ```js
-event.eventPhase;
+evt.eventPhase;
 ```
 
 ## Возвращает
@@ -20,9 +20,9 @@ event.eventPhase;
 ## Пример
 
 ```js
-function onDivClick(e) {
-  if (e.eventPhase === 2) {
-    e.currentTarget.style.backgroundColor = 'red';
+function onDivClick(evt) {
+  if (evt.eventPhase === 2) {
+    evt.currentTarget.style.backgroundColor = 'red';
   }
 }
 ```

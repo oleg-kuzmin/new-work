@@ -1,11 +1,11 @@
-# `key`
+# `evt.key`
 
 Хранит название нажатой клавиши.
 
 ## Синтаксис
 
 ```js
-event.key;
+evt.key;
 ```
 
 ## Возвращает
@@ -18,7 +18,7 @@ event.key;
 
 ```js
 function keyDown(evt) {
-  if (event.key === 'Enter') {
+  if (evt.key === 'Enter') {
     console.log('Нажали Enter');
   }
 }

@@ -1,4 +1,4 @@
-# `stopImmediatePropagation()`
+# `evt.stopImmediatePropagation()`
 
 Делает то же самое, что и stopPropagation, но, в том числе, предотвращает вызов обработчиков события, которые были установлены на этом же элементе.
 
@@ -9,7 +9,7 @@
 ## Синтаксис
 
 ```js
-event.stopImmediatePropagation();
+evt.stopImmediatePropagation();
 ```
 
 ## Пример

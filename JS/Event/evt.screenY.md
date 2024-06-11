@@ -1,11 +1,11 @@
-# `screenY`
+# `evt.screenY`
 
 Координаты по вертикали от угла монитора. Используется крайне редко.
 
 ## Синтаксис
 
 ```js
-event.screenY;
+evt.screenY;
 ```
 
 ## Возвращает
@@ -17,5 +17,5 @@ event.screenY;
 ## Пример
 
 ```js
-event.screenY;
+evt.screenY;
 ```

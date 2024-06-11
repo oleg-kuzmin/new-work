@@ -19,9 +19,9 @@
 - [Date](#date)
 - [Document](#document)
 - [Element](#element)
-
 - [Event](#event)
-- [EVENT.TYPE](#eventtype)
+- [Event.type](#eventtype)
+
 - [FUNCTION](#function)
 - [MAP](#map)
 - [NUMBER](#number)
@@ -336,59 +336,59 @@
 
 ## [Event](#оглавление)
 
-- [`.new Event()`](<./METHODS/EVENT/new Event.md>) создает кастомное событие
-- [`.new CustomEvent()`](<./METHODS/EVENT/new CustomEvent.md>) создает кастомное событие с данными
-- [`Event`](./METHODS/EVENT/Event.md) объект события
-  - [`.bubbles`](./METHODS/EVENT/bubbles.md) всплывающее событие
-  - [`.cancelable`](./METHODS/EVENT/cancelable.md) отменяемое событие
-  - [`.clientX`](./METHODS/EVENT/clientX.md) координаты X от окна просмотра
-  - [`.clientY`](./METHODS/EVENT/clientY.md) координаты Y от окна просмотра
-  - [`.composedPath()`](./METHODS/EVENT/composedPath.md) элементы где сработало событие
-  - [`.currentTarget`](./METHODS/EVENT/currentTarget.md) элемент на котором висит обработчик
-  - [`.defaultPrevented`](./METHODS/EVENT/defaultPrevented.md) отменено ли событие по умолчанию
-  - [`.eventPhase`](./METHODS/EVENT/eventPhase.md) фаза события
-  - [`.isTrusted`](./METHODS/EVENT/isTrusted.md) пользовательское ли это событие
-  - [`.key`](./METHODS/EVENT/key.md) название нажатой клавиши
-  - [`.pageX`](./METHODS/EVENT/pageX.md) координаты X от угла страницы
-  - [`.pageY`](./METHODS/EVENT/pageY.md) координаты Y от угла страницы
-  - [`.preventDefault()`](./METHODS/EVENT/preventDefault.md) отменяет поведение по умолчанию
-  - [`.screenX`](./METHODS/EVENT/screenX.md) координаты X от угла монитора
-  - [`.screenY`](./METHODS/EVENT/screenY.md) координаты Y от угла монитора
-  - [`.stopImmediatePropagation()`](./METHODS/EVENT/stopImmediatePropagation.md) остановка всплытия и обработчиков
-  - [`.stopPropagation()`](./METHODS/EVENT/stopPropagation.md) остановка всплытия события
-  - [`.target`](./METHODS/EVENT/target.md) элемент где произошло событие
-  - [`.timeStamp`](./METHODS/EVENT/timeStamp.md) время возникновения события
-  - [`.type`](./METHODS/EVENT/type.md) тип события
-  - [`.view`](./METHODS/EVENT/view.md) объект window где произошло событие
+- [`.new Event()`](<./Event/new Event.md>) создает кастомное событие
+- [`.new CustomEvent()`](<./Event/new CustomEvent.md>) создает кастомное событие с данными
+- [`evt`](./Event/Evt.md) объект события
+  - [`evt.bubbles`](./Event/evt.bubbles.md) всплывающее событие
+  - [`evt.cancelable`](./Event/evt.cancelable.md) отменяемое событие
+  - [`evt.clientX`](./Event/evt.clientX.md) координаты X от окна просмотра
+  - [`evt.clientY`](./Event/evt.clientY.md) координаты Y от окна просмотра
+  - [`evt.composedPath()`](./Event/evt.composedPath.md) элементы где сработало событие
+  - [`evt.currentTarget`](./Event/evt.currentTarget.md) элемент на котором висит обработчик
+  - [`evt.defaultPrevented`](./Event/evt.defaultPrevented.md) отменено ли событие по умолчанию
+  - [`evt.eventPhase`](./Event/evt.eventPhase.md) фаза события
+  - [`evt.isTrusted`](./Event/evt.isTrusted.md) пользовательское ли это событие
+  - [`evt.key`](./Event/evt.key.md) название нажатой клавиши
+  - [`evt.pageX`](./Event/evt.pageX.md) координаты X от угла страницы
+  - [`evt.pageY`](./Event/evt.pageY.md) координаты Y от угла страницы
+  - [`evt.preventDefault()`](./Event/evt.preventDefault.md) отменяет поведение по умолчанию
+  - [`evt.screenX`](./Event/evt.screenX.md) координаты X от угла монитора
+  - [`evt.screenY`](./Event/evt.screenY.md) координаты Y от угла монитора
+  - [`evt.stopImmediatePropagation()`](./Event/evt.stopImmediatePropagation.md) остановка всплытия и обработчиков
+  - [`evt.stopPropagation()`](./Event/evt.stopPropagation.md) остановка всплытия события
+  - [`evt.target`](./Event/evt.target.md) элемент где произошло событие
+  - [`evt.timeStamp`](./Event/evt.timeStamp.md) время возникновения события
+  - [`evt.type`](./Event/evt.type.md) тип события
+  - [`evt.view`](./Event/evt.view.md) объект window где произошло событие
 
-## [EVENT.TYPE](#оглавление)
+## [Event.type](#оглавление)
 
-- [`blur`](<./METHODS/EVENT TYPE/blur.md>) снятие фокуса
-- [`change`](<./METHODS/EVENT TYPE/change.md>) изменение и фиксирование значения
-- [`click`](<./METHODS/EVENT TYPE/click.md>) левая кнопка мыши нажата и отпущена
-- [`contextmenu`](<./METHODS/EVENT TYPE/contextmenu.md>) нажатие правой кнопки мыши
-- [`dblclick`](<./METHODS/EVENT TYPE/dblclick.md>) два события click подряд
-- [`DOMContentLoaded`](<./METHODS/EVENT TYPE/DOMContentLoaded.md>) dom подготовлен
-- [`focus`](<./METHODS/EVENT TYPE/focus.md>) установление фокуса
-- [`input`](<./METHODS/EVENT TYPE/input.md>) изменение значения
-- [`keydown`](<./METHODS/EVENT TYPE/keydown.md>) нажатие на любую клавишу
-- [`keypress`](<./METHODS/EVENT TYPE/keypress.md>) нажатие на клавишу не-модификатор
-- [`keyup`](<./METHODS/EVENT TYPE/keyup.md>) отпускание любой клавиши
-- [`load`](<./METHODS/EVENT TYPE/load.md>) html и ресурсы заружены
-- [`mousedown`](<./METHODS/EVENT TYPE/mousedown.md>) нажатие любой кнопки мыши
-- [`mousemove`](<./METHODS/EVENT TYPE/mousemove.md>) движение мыши над элементом
-- [`mouseout`](<./METHODS/EVENT TYPE/mouseout.md>) убирание курсора мыши
-- [`mouseover`](<./METHODS/EVENT TYPE/mouseover.md>) наведение курсора мыши
-- [`mouseup`](<./METHODS/EVENT TYPE/mouseup.md>) отпускание любой кнопки мыши
-- [`offline`](<./METHODS/EVENT TYPE/offline.md>) отключение интернета
-- [`orientationchange`](<./METHODS/EVENT TYPE/orientationchange.md>) изменение ориентации экрана
-- [`pointermove`](<./METHODS/EVENT TYPE/pointermove.md>) движение мыши в любом месте
-- [`onresize`](<./METHODS/EVENT TYPE/resize.md>) изменение окна браузера
-- [`scroll`](<./METHODS/EVENT TYPE/scroll.md>) прокрутка страницы
-- [`storage`](<./METHODS/EVENT TYPE/storage.md>) обновление local или session storage
-- [`submit`](<./METHODS/EVENT TYPE/submit.md>) отправка формы
-- [`unhandledrejection`](<./METHODS/EVENT TYPE/unhandledrejection.md>) отсутствует обработчик ошибки promise
-- [`wheel`](<./METHODS/EVENT TYPE/wheel.md>) прокрутка колеса мыши
+- [`blur`](<./Event Type/blur.md>) снятие фокуса
+- [`change`](<./Event Type/change.md>) изменение и фиксирование значения
+- [`click`](<./Event Type/click.md>) левая кнопка мыши нажата и отпущена
+- [`contextmenu`](<./Event Type/contextmenu.md>) нажатие правой кнопки мыши
+- [`dblclick`](<./Event Type/dblclick.md>) два события click подряд
+- [`DOMContentLoaded`](<./Event Type/DOMContentLoaded.md>) dom подготовлен
+- [`focus`](<./Event Type/focus.md>) установление фокуса
+- [`input`](<./Event Type/input.md>) изменение значения
+- [`keydown`](<./Event Type/keydown.md>) нажатие на любую клавишу
+- [`keypress`](<./Event Type/keypress.md>) нажатие на клавишу не-модификатор
+- [`keyup`](<./Event Type/keyup.md>) отпускание любой клавиши
+- [`load`](<./Event Type/load.md>) html и ресурсы заружены
+- [`mousedown`](<./Event Type/mousedown.md>) нажатие любой кнопки мыши
+- [`mousemove`](<./Event Type/mousemove.md>) движение мыши над элементом
+- [`mouseout`](<./Event Type/mouseout.md>) убирание курсора мыши
+- [`mouseover`](<./Event Type/mouseover.md>) наведение курсора мыши
+- [`mouseup`](<./Event Type/mouseup.md>) отпускание любой кнопки мыши
+- [`offline`](<./Event Type/offline.md>) отключение интернета
+- [`orientationchange`](<./Event Type/orientationchange.md>) изменение ориентации экрана
+- [`pointermove`](<./Event Type/pointermove.md>) движение мыши в любом месте
+- [`onresize`](<./Event Type/resize.md>) изменение окна браузера
+- [`scroll`](<./Event Type/scroll.md>) прокрутка страницы
+- [`storage`](<./Event Type/storage.md>) обновление local или session storage
+- [`submit`](<./Event Type/submit.md>) отправка формы
+- [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
+- [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
 ## [FUNCTION](#оглавление)
 

@@ -1,4 +1,4 @@
-# `target`
+# `evt.target`
 
 Cсылка на объект, которым было инициировано событие. Например, если событие произошло на поле ввода, мы получим ссылку на этот DOM элемент.
 
@@ -7,7 +7,7 @@ Cсылка на объект, которым было инициировано 
 ## Синтаксис
 
 ```js
-event.target;
+evt.target;
 ```
 
 ## Возвращает
@@ -28,10 +28,10 @@ var li2 = document.createElement('li');
 ul.appendChild(li1);
 ul.appendChild(li2);
 
-function hide(e) {
+function hide(evt) {
   // e.target ссылается на кликнутый <li> элемент
   // Он отличается от e.currentTarget который будет ссылаться на родительский <ul> в этом контексте
-  e.target.style.visibility = 'hidden';
+  evt.target.style.visibility = 'hidden';
 }
 
 // Назначим обработчик к списку

@@ -1,11 +1,11 @@
-# `type`
+# `evt.type`
 
 В свойстве хранится тип события.
 
 ## Синтаксис
 
 ```js
-event.type;
+evt.type;
 ```
 
 ## Возвращает
@@ -17,9 +17,9 @@ event.type;
 ## Пример
 
 ```js
-function getEventType(event) {
+function getEventType(evt) {
   const log = document.getElementById('log');
-  log.innerText = `${event.type}\n${log.innerText}`;
+  log.innerText = `${evt.type}\n${log.innerText}`;
 }
 
 // Keyboard events

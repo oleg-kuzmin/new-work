@@ -1,4 +1,4 @@
-# `composedPath()`
+# `evt.composedPath()`
 
 Метод возвращает массив объектов, где будут вызываться слушатели.
 
@@ -7,7 +7,7 @@
 ## Синтаксис
 
 ```js
-event.composedPath();
+evt.composedPath();
 ```
 
 ## Возвращает
@@ -19,7 +19,7 @@ event.composedPath();
 ## Пример
 
 ```js
-function func(event) {
-  alert(event.composedPath());
+function func(evt) {
+  alert(evt.composedPath());
 }
 ```

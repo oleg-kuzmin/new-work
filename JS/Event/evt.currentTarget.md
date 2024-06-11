@@ -1,11 +1,11 @@
-# `currentTarget`
+# `evt.currentTarget`
 
 Свойство указывает на элемент, на котором установлен обработчик события.
 
 ## Синтаксис
 
 ```js
-event.currentTarget;
+evt.currentTarget;
 ```
 
 ## Возвращает
@@ -29,9 +29,9 @@ event.currentTarget;
 ```js
 const output = document.querySelector('#output');
 const parent = document.querySelector('#parent');
-parent.addEventListener('click', event => {
-  const currentTarget = event.currentTarget.getAttribute('id');
-  const target = event.target.getAttribute('id');
+parent.addEventListener('click', evt => {
+  const currentTarget = evt.currentTarget.getAttribute('id');
+  const target = evt.target.getAttribute('id');
   output.textContent = `Current target: ${currentTarget}\n`;
   output.textContent += `Target: ${target}`;
 });

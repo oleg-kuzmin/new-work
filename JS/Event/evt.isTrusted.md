@@ -1,11 +1,11 @@
-# `isTrusted`
+# `evt.isTrusted`
 
 Указывает на происхождение события.
 
 ## Синтаксис
 
 ```js
-event.isTrusted;
+evt.isTrusted;
 ```
 
 ## Возвращает
@@ -18,7 +18,7 @@ event.isTrusted;
 ## Пример
 
 ```js
-if (e.isTrusted) {
+if (evt.isTrusted) {
   /* The event is trusted */
 } else {
   /* The event is not trusted */

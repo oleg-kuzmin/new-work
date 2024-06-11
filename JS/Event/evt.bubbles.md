@@ -1,11 +1,11 @@
-# `bubbles`
+# `evt.bubbles`
 
 Свойство содержит информацию о том является ли данное событие всплывающим.
 
 ## Синтаксис
 
 ```js
-event.bubbles;
+evt.bubbles;
 ```
 
 ## Возвращает
@@ -18,14 +18,14 @@ event.bubbles;
 ## Пример
 
 ```js
-function handleInput(e) {
+function handleInput(evt) {
   // Проверяем всплывает ли событие и ...
-  if (!e.bubbles) {
+  if (!evt.bubbles) {
     // ... пропускаем событие сюда если нет
-    passItOn(e);
+    passItOn(evt);
   }
 
   // Уже всплыло
-  doOutput(e);
+  doOutput(evt);
 }
 ```
