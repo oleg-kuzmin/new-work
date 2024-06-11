@@ -10,18 +10,18 @@
 
 # Оглавление
 
-- [теория](#теория)
-- [attrubutes All](#attrubutes-all)
-- [attrubutes Form](#attrubutes-form)
-- [attrubutes Global](#attrubutes-global)
-- [tags Block](#tags-block)
-- [tags Deprecated](#tags-deprecated)
-- [tags Form](#tags-form)
-- [tags Head](#tags-head)
-- [tags Inline](#tags-inline)
-- [tags Media](#tags-media)
-- [tags Table](#tags-table)
-- [tags Ui](#tags-ui)
+- [Теория](#теория)
+- [Attrubutes All](#attrubutes-all)
+- [Attrubutes Form](#attrubutes-form)
+- [Attrubutes Global](#attrubutes-global)
+- [Tags Block](#tags-block)
+- [Tags Deprecated](#tags-deprecated)
+- [Tags Form](#tags-form)
+- [Tags Head](#tags-head)
+- [Tags Inline](#tags-inline)
+- [Tags Media](#tags-media)
+- [Tags Table](#tags-table)
+- [Tags Ui](#tags-ui)
 
 ## [теория](#оглавление)
 
