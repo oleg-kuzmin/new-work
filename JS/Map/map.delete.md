@@ -1,11 +1,11 @@
-# `.delete()`
+# `map.delete()`
 
 Метод `delete()` удаляет значение из коллекции `Map`.
 
 ## Синтаксис
 
 ```js
-collection.delete(key);
+map.delete(key);
 ```
 
 ### `key`

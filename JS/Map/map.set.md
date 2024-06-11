@@ -1,11 +1,11 @@
-# `.set()`
+# `map.set()`
 
 Чтобы сохранить значение в коллекции, нужно использовать метод set().
 
 ## Синтаксис
 
 ```js
-collection.set(key, value);
+map.set(key, value);
 ```
 
 ### `key`

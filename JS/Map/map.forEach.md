@@ -1,4 +1,4 @@
-# `.forEach()`
+# `map.forEach()`
 
 Метод `forEach()` используется для обхода элементов коллекции `Map`. Обход происходит в порядке добавления значений в коллекцию от старых к новым.
 
@@ -13,7 +13,7 @@
 ## Синтаксис
 
 ```js
-collection.forEach(callback);
+map.forEach(callback);
 ```
 
 ### `callback(key, value)`

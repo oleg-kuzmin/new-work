@@ -1,11 +1,11 @@
-# `.entries()`
+# `map.entries()`
 
 Возвращает итератор пар `[ключ, значение]`.
 
 ## Синтаксис
 
 ```js
-collection.entries();
+map.entries();
 ```
 
 ## Возвращает

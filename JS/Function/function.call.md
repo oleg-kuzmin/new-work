@@ -1,20 +1,22 @@
-# `bind()`
+# `function.call()`
 
-Привяжи конкретный контекст для функции.
+Метод вызывает функцию с конкретным контекстом и конкретным параметром.
 
-Метод `.bind()` не вызывает функцию. Он указывает значение `this`, с которым эта функция будет вызываться.
+Метод функций, который передает определенный контекст (this) при вызове.
 
 ## Синтаксис
 
 ```js
-functionMethod.bind(context);
+functionMethod.call(context, arg);
 ```
 
 ### `context`
 
 Ссылка на контекст - объект который попадет в this.
 
-## Пример
+### `arg`
+
+Аргументы передаются вторым параметром. Их может быть несколько через запятую.
 
 ```js
 const developer = {
@@ -33,6 +35,4 @@ const manager = {
 developer.getBonus(500); // Oleg has a salary this month 3000
 developer.getBonus.call(manager, 150); // Anna has a salary this month 1950
 developer.getBonus.apply(manager, [150]); // Anna has a salary this month 1950
-manager.getBonus = developer.getBonus.bind(manager);
-manager.getBonus(150); // Anna has a salary this month 1950
 ```

@@ -1,4 +1,4 @@
-# `toFixed()`
+# `number.toFixed()`
 
 Метод toFixed() преобразует число в строку с указанным количеством знаков после запятой.
 
@@ -37,5 +37,5 @@ console.log(number.toFixed(3)); // '10.468'
 console.log(number.toFixed(2)); // '10.47'
 console.log(number.toFixed(1)); // '10.5'
 console.log(number.toFixed(0)); // '10'
-console.log(number.toFixed());  // '10'
+console.log(number.toFixed()); // '10'
 ```

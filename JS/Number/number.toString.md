@@ -1,4 +1,4 @@
-# `.toString()`
+# `number.toString()`
 
 Метод `toString()` преобразует число в строку в указанной системе счисления. По умолчанию используется десятичная система счисления.
 
@@ -43,8 +43,8 @@ Cтроковое представление числа в запрошенно�
 
 ```js
 const number = 42;
-console.log(number.toString());   // '42'
-console.log(number.toString(2));  // '101010'
-console.log(number.toString(8));  // '52'
+console.log(number.toString()); // '42'
+console.log(number.toString(2)); // '101010'
+console.log(number.toString(8)); // '52'
 console.log(number.toString(16)); // '2a'
 ```

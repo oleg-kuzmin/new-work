@@ -159,12 +159,12 @@
 
 ## [Array](#оглавление)
 
+- [`Array()`](./Array/Array.md) создает массив
+  - [`array.length`](./Array/array.length.md) размер массива
+  - [`array.join()`](./Array/join.md) преобразует массив в строку
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
-- [`Array()`](./Array/Array.md) создает массив
-- [`array.length`](./Array/array.length.md) размер массива
 - [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив в объект
-- [`array.join()`](./Array/join.md) преобразует массив в строку
 
 ### Иммутабельные методы
 
@@ -390,69 +390,69 @@
 - [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
 - [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
-## [FUNCTION](#оглавление)
+## [Function](#оглавление)
 
-- [`arguments`](./METHODS/FUNCTION/arguments.md) псевдомассив всех переданных аргументов
-- [`apply()`](./METHODS/FUNCTION/apply.md) вызывает метод объекта с конкретными контекстом и значением
-- [`bind()`](./METHODS/FUNCTION/bind.md) привязывает конкретный контекст к методу объекта
-- [`call()`](./METHODS/FUNCTION/call.md) вызывает метод объекта с конкретными контекстом и значением
+- [`arguments`](./Function/arguments.md) псевдомассив всех переданных аргументов
+- [`function.apply()`](./Function/function.apply.md) вызывает метод объекта с конкретными контекстом и значением
+- [`function.bind()`](./Function/function.bind.md) привязывает конкретный контекст к методу объекта
+- [`function.call()`](./Function/function.call.md) вызывает метод объекта с конкретными контекстом и значением
 
-## [MAP](#оглавление)
+## [Map](#оглавление)
 
-- [`new Map()`](<./METHODS/MAP/new Map.md>) создает коллекцию для хранения пар ключ-значение
-  - [`.clear()`](./METHODS/MAP/clear.md) удаляет все значения
-  - [`.delete()`](./METHODS/MAP/delete.md) удаляет значение из коллекции
-  - [`.entries()`](./METHODS/MAP/entries.md) возвращает итератор пар ключ-значение
-  - [`.forEach()`](./METHODS/MAP/forEach.md) обход коллекции
-  - [`.get()`](./METHODS/MAP/get.md) получает значение
-  - [`.has()`](./METHODS/MAP/has.md) проверяет наличие значения
-  - [`.keys()`](./METHODS/MAP/keys.md) возвращает итератор ключей
-  - [`.set()`](./METHODS/MAP/set.md) сохраняет значение в коллекцию
-  - [`.size`](./METHODS/MAP/size.md) количество значений
-  - [`.values()`](./METHODS/MAP/values.md) возвращает итератор значений
+- [`new Map()`](<./Map/new Map.md>) создает коллекцию для хранения пар ключ-значение
+  - [`map.clear()`](./Map/map.clear.md) удаляет все значения
+  - [`map.delete()`](./Map/map.delete.md) удаляет значение из коллекции
+  - [`map.entries()`](./Map/map.entries.md) возвращает итератор пар ключ-значение
+  - [`map.forEach()`](./Map/map.forEach.md) обход коллекции
+  - [`map.get()`](./Map/map.get.md) получает значение
+  - [`map.has()`](./Map/map.has.md) проверяет наличие значения
+  - [`map.keys()`](./Map/map.keys.md) возвращает итератор ключей
+  - [`map.set()`](./Map/map.set.md) сохраняет значение в коллекцию
+  - [`map.size`](./Map/map.size.md) количество значений
+  - [`map.values()`](./Map/map.values.md) возвращает итератор значений
 
-## [NUMBER](#оглавление)
+## [Number](#оглавление)
 
-- [`Math.abs()`](./METHODS/NUMBER/Math.abs.md) вычисляет модуль числа
-- [`Math.ceil()`](./METHODS/NUMBER/Math.ceil.md) округление до целого вверх
-- [`Math.floor()`](./METHODS/NUMBER/Math.floor.md) округление до целого вниз
-- [`Math.max()`](./METHODS/NUMBER/Math.max.md) наибольшее из переданных аргументов
-- [`Math.min()`](./METHODS/NUMBER/Math.min.md) наименьшее из переданных аргументов
-- [`Math.pow()`](./METHODS/NUMBER/Math.pow.md) возведение в степень
-- [`Math.random()`](./METHODS/NUMBER/Math.random.md) случайное число
-- [`Math.round()`](./METHODS/NUMBER/Math.round.md) округление до ближайшего целого
-- [`Math.trunc()`](./METHODS/NUMBER/Math.trunc.md) отбрасывает дробную часть
-- [`Number()`](./METHODS/NUMBER/Number.md) преобразует аргумент в число
-  - [`.toFixed()`](./METHODS/NUMBER/toFixed.md) преобразует в строку и округляет
-  - [`.toLocaleString()`](./METHODS/NUMBER/toLocaleString.md) преобразует в строку c учетом языка
-  - [`.toString()`](./METHODS/NUMBER/toString.md) преобразует в строку
-- [`new Number()`](<./METHODS/NUMBER/new Number.md>) создает объект Number
-- [`Number.isFinite()`](./METHODS/NUMBER/Number.isFinite.md) проверяет число на конечность
-- [`Number.isInteger()`](./METHODS/NUMBER/Number.isInteger.md) проверяет число на целое или дробное
-- [`Number.isNaN()`](./METHODS/NUMBER/Number.isNaN.md) проверяет число на NaN
+- [`Number()`](./Number/Number.md) преобразует аргумент в число
+  - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
+  - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
+  - [`number.toString()`](./Number/number.toString.md) преобразует в строку
+- [`String()`](./String/String.md) преобразует в строку
+- [`new Number()`](<./Number/new Number.md>) создает объект Number
+- [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
+- [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
+- [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
 
-### Преобразование
+### Math
 
-- [`String()`](./METHODS/STRING/String.md) преобразует в строку
+- [`Math.abs()`](./Number/Math.abs.md) вычисляет модуль числа
+- [`Math.ceil()`](./Number/Math.ceil.md) округление до целого вверх
+- [`Math.floor()`](./Number/Math.floor.md) округление до целого вниз
+- [`Math.max()`](./Number/Math.max.md) наибольшее из переданных аргументов
+- [`Math.min()`](./Number/Math.min.md) наименьшее из переданных аргументов
+- [`Math.pow()`](./Number/Math.pow.md) возведение в степень
+- [`Math.random()`](./Number/Math.random.md) случайное число
+- [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
+- [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
-## [OBJECT](#оглавление)
+## [Object](#оглавление)
 
-- [`in`](./METHODS/OBJECT/in.md) оператор проверки наличия ключа
-- [`delete`](./METHODS/OBJECT/delete.md) оператор удаления свойства
-- [`.hasOwnProperty()`](./METHODS/OBJECT/hasownproperty.md) принадлежность свойства самому объекту
-- [`.prototype`](./METHODS/OBJECT/prototype.md) свойство прототип функции-конструктора
-- [`new Object()`](<./METHODS/OBJECT/new Object.md>) создает новый объект
-- [`Object.assign()`](./METHODS/OBJECT/Object.assign.md) поверхностное копирование, объединение
-- [`Object.create()`](./METHODS/OBJECT/Object.create.md) создает объект с прототипом
-- [`Object.entries()`](./METHODS/OBJECT/Object.entries.md) создает массив из объекта
-- [`Object.fromEntries()`](./METHODS/OBJECT/Object.fromEntries.md) создает объект из массива
-- [`Object.getOwnPropertyNames()`](./METHODS/OBJECT/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
-- [`Object.getOwnPropertySymbols()`](./METHODS/OBJECT/Object.getOwnPropertySymbols.md) создает массив ключей-символов
-- [`Object.getPrototypeOf()`](./METHODS/OBJECT/Object.getPrototypeOf.md) объект прототипа
-- [`Object.hasOwn()`](./METHODS/OBJECT/Object.hasOwn.md) проверяет собственное ли свойство
-- [`Object.is()`](./METHODS/OBJECT/Object.is.md) проверяет равны ли значения
-- [`Object.keys()`](./METHODS/OBJECT/Object.keys.md) создает массив из перечисляемых свойств
-- [`Object.values()`](./METHODS/OBJECT/Object.values.md) создает массив из перечисляемых свойств
+- [`in`](./Object/in.md) оператор проверки наличия ключа
+- [`delete`](./Object/delete.md) оператор удаления свойства
+- [`new Object()`](<./Object/new Object.md>) создает новый объект
+  - [`object.hasOwnProperty()`](./Object/object.hasownproperty.md) принадлежность свойства самому объекту
+  - [`object.prototype`](./Object/object.prototype.md) свойство прототип функции-конструктора
+- [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
+- [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
+- [`Object.entries()`](./Object/Object.entries.md) создает массив из объекта
+- [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
+- [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
+- [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив ключей-символов
+- [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
+- [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
+- [`Object.is()`](./Object/Object.is.md) проверяет равны ли значения
+- [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
+- [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
 
 ## [REGEXP](#оглавление)
 
