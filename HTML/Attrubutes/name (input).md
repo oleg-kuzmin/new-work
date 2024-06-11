@@ -4,10 +4,10 @@
 
 ## Применяется к тегам
 
-- [`<button>`](../../TAGS/FORM/button.md) кнопка
-- [`<form>`](../../TAGS/FORM/form.md) форма
-- [`<input>`](./TAGS/FORM/input.md) поле ввода
-- [`<output>`](../../TAGS/UI/output.md) результат вычислений, действий
+- [`<button>`](../Tags/button.md) кнопка
+- [`<form>`](../Tags/form.md) форма
+- [`<input>`](../Tags/input.md) поле ввода
+- [`<output>`](../Tags/output.md) результат вычислений, действий
 
 ## Пример
 

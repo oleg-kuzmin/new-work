@@ -10,8 +10,8 @@
 
 ## Применяется к тегам
 
-- [`<button>`](../../TAGS/FORM/button.md) кнопка
-- [`<input>`](../../TAGS/FORM/input.md) поле ввода
+- [`<button>`](../Tags/button.md) кнопка
+- [`<input>`](../Tags/input.md) поле ввода
 
 ## Пример
 

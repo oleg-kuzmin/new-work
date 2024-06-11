@@ -6,9 +6,9 @@
 
 ## Применяется к тегам
 
-- [`<iframe>`](../../TAGS/MEDIA/iframe.md) встраивание фрейма
-- [`<map>`](../../TAGS/MEDIA/map.md) карта
-- [`<object>`](../../TAGS/MEDIA/object.md) встраивание медиа
+- [`<iframe>`](../Tags/iframe.md) встраивание фрейма
+- [`<map>`](../Tags/map.md) карта
+- [`<object>`](../Tags/object.md) встраивание медиа
 
 ## Пример
 

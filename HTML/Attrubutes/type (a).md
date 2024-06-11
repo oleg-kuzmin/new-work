@@ -4,11 +4,11 @@
 
 ## Применяется к тегам
 
-- [`<a>`](../../TAGS/INLINE/a.md) ссылка
-- [`<audio>`](../../TAGS/MEDIA/audio.md) аудио
-- [`<video>`](../../TAGS/MEDIA/video.md) видео
-- [`<object>`](../../TAGS/MEDIA/object.md) встраивание медиа
-- [`<source>`](../../TAGS/MEDIA/source.md) источник медиа
+- [`<a>`](../Tags/a.md) ссылка
+- [`<audio>`](../Tags/audio.md) аудио
+- [`<video>`](../Tags/video.md) видео
+- [`<object>`](../Tags/object.md) встраивание медиа
+- [`<source>`](../Tags/source.md) источник медиа
 
 ## Пример
 

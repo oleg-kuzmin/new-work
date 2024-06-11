@@ -36,9 +36,9 @@
 
 ## Применяется к тегам
 
-- [`<input>`](../../TAGS/FORM/input.md) поле ввода
-- [`<select>`](../../TAGS/FORM/select.md) выпадающий список
-- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
+- [`<input>`](../Tags/input.md) поле ввода
+- [`<select>`](../Tags/select.md) выпадающий список
+- [`<textarea>`](../Tags/textarea.md) многострочное поле ввода
 
 ## Пример
 

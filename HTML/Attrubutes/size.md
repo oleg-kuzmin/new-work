@@ -19,8 +19,8 @@
 
 ## Применяется к тегам
 
-- [`<input>`](../../TAGS/FORM/input.md) поле ввода
-- [`<select>`](../../TAGS/FORM/select.md) выпадающий список
+- [`<input>`](../Tags/input.md) поле ввода
+- [`<select>`](../Tags/select.md) выпадающий список
 
 ## Пример
 

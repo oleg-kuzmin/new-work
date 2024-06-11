@@ -16,13 +16,13 @@
 
 ## Применяется к тегам
 
-- [`<button>`](../../TAGS/FORM/button.md) кнопка
-- [`<input>`](../../TAGS/FORM/input.md) поле ввода
-- [`<fieldset>`](../../TAGS/FORM/fieldset.md) группировка элементов
-- [`<optgroup>`](../../TAGS/FORM/optgroup.md) группирует option
-- [`<option>`](../../TAGS/FORM/option.md) пункт списка
-- [`<select>`](../../TAGS/FORM/select.md) выпадающий список
-- [`<textarea>`](../../TAGS/FORM/textarea.md) многострочное поле ввода
+- [`<button>`](../Tags/button.md) кнопка
+- [`<input>`](../Tags/input.md) поле ввода
+- [`<fieldset>`](../Tags/fieldset.md) группировка элементов
+- [`<optgroup>`](../Tags/optgroup.md) группирует option
+- [`<option>`](../Tags/option.md) пункт списка
+- [`<select>`](../Tags/select.md) выпадающий список
+- [`<textarea>`](../Tags/textarea.md) многострочное поле ввода
 
 ## Пример
 

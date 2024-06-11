@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<audio>`](../../TAGS/MEDIA/audio.md) аудио
-- [`<video>`](../../TAGS/MEDIA/video.md) видео
+- [`<audio>`](../Tags/audio.md) аудио
+- [`<video>`](../Tags/video.md) видео
 
 ## Пример
 

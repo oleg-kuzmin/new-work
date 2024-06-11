@@ -1,4 +1,4 @@
-# `spellcheck` (Проверка правописания)
+# `spellcheck`
 
 _(spellcheck: проверка орфографии)_
 

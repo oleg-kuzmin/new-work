@@ -4,8 +4,8 @@
 
 ## Применяется к тегам
 
-- [`<img>`](../../TAGS/MEDIA/img.md) изображение
-- [`<object>`](../../TAGS/MEDIA/object.md) встраивание медиа
+- [`<img>`](../Tags/img.md) изображение
+- [`<object>`](../Tags/object.md) встраивание медиа
 
 ## Пример
 

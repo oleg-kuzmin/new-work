@@ -45,7 +45,7 @@
 - [`controls`](./Attrubutes/controls.md) элементы управления медиа
 - [`coords`](./Attrubutes/coords.md) координаты областей карты
 - [`crossorigin`](./Attrubutes/crossorigin.md) обработка cors
-- [`data`](./Attrubutes/data.md) ссылка на url медиа
+- [`data`](<./Attrubutes/data (object).md>) ссылка на url медиа
 - [`datetime`](./Attrubutes/datetime.md) дата и время правка
 - [`decoding`](./Attrubutes/decoding.md) декодирование
 - [`defer`](./Attrubutes/defer.md) запуск после загрузки страницы
@@ -86,7 +86,7 @@
 - [`start`](./Attrubutes/start.md) начало нумерации
 - [`stroke`](./Attrubutes/stroke.md) толщина и цвет обводки svg
 - [`target`](<./Attrubutes/target (a).md>) способ открытия ссылки
-- [`title`](./Attrubutes/title.md) расшифровка аббревиатуры, термина
+- [`title`](<./Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
 - [`type <a>`](<./Attrubutes/type (a).md>) тип mime
 - [`type <ol>`](<./Attrubutes/type (ol).md>) тип маркеров
 - [`type <script>`](<./Attrubutes/type (script).md>) для js-модулей
@@ -142,14 +142,14 @@
 
 - [`class`](./Attrubutes/class.md) задает класс элементу
 - [`contenteditable`](./Attrubutes/contenteditable.md) делает редактируемым
-- [`data`](./Attrubutes/data.md) пользовательский атрибут
+- [`data`](<./Attrubutes/data (global).md>) пользовательский атрибут
 - [`hidden`](./Attrubutes/hidden.md) скрывает элемент
 - [`id`](./Attrubutes/id.md) идентификатор
 - [`lang`](./Attrubutes/lang.md) язык
 - [`spellcheck`](./Attrubutes/spellcheck.md) проверка правописания
 - [`style`](./Attrubutes/style.md) стили
 - [`tabindex`](./Attrubutes/tabindex.md) порядок табуляции
-- [`title`](./Attrubutes/title.md) подсказка при наведении
+- [`title`](<./Attrubutes/title (global).md>) подсказка при наведении
 
 ## [tags Block](#оглавление)
 
