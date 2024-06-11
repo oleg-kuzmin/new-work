@@ -2,9 +2,13 @@
   * {
     user-select: none;    
   }
+
+  h1, h2 {
+    scroll-margin: 60px;
+  }
 </style>
 
-## NPM
+## Npm
 
 - [`npm init`](<./NPM/npm init.md>) инициализация
 - [`npm i`](<./NPM/npm i.md>) установка пакетов
@@ -12,7 +16,7 @@
 - [`npm ls`](<./NPM/npm ls.md>) список установленных пакетов (древовидный)
 - [`npm uninstall`](<./NPM/npm uninstall.md>) удаление пакета
 
-## YARN
+## Yarn
 
 - [`yarn init`](<./YARN/yarn init.md>) инициализация
 - [`yarn`](<./YARN/yarn && yarn install.md>) установка пакетов
