@@ -153,143 +153,143 @@
 
 ## [tags Block](#оглавление)
 
-- [`<address>`](./TAGS/BLOCK/address.md) контактная информация
-- [`<article>`](./TAGS/BLOCK/article.md) независимый раздел
-- [`<aside>`](./TAGS/BLOCK/aside.md) дополнительное содержимое
-- [`<blockquote>`](./TAGS/BLOCK/blockquote.md) блок цитат
-- [`<body>`](./TAGS/BLOCK/body.md) тело страницы
-- [`<br>`](./TAGS/BLOCK/br.md) перенос строки
-- [`<dl>`](./TAGS/BLOCK/dl.md) список описаний
-  - [`<dt>`](./TAGS/BLOCK/dt.md) термин
-  - [`<dd>`](./TAGS/BLOCK/dd.md) описание
-- [`<div>`](./TAGS/BLOCK/div.md) пустой блок
-- [`<footer>`](./TAGS/BLOCK/footer.md) подвал страницы
-- [`<h1-h6>`](./TAGS/BLOCK/h1-h6.md) заголовки
-- [`<header>`](./TAGS/BLOCK/header.md) шапка страницы
-- [`<hr>`](./TAGS/BLOCK/hr.md) горизонтальная черта
-- [`<html>`](./TAGS/BLOCK/html.md) содержимое страницы
-- [`<main>`](./TAGS/BLOCK/main.md) основное содержимое
-- [`<nav>`](./TAGS/BLOCK/nav.md) блок навигации
-- [`<ol>`](./TAGS/BLOCK/ol.md) упорядоченный список
-  - [`<li>`](./TAGS/BLOCK/li.md) элемент списка
-- [`<ul>`](./TAGS/BLOCK/ul.md) неупорядоченный список
-  - [`<li>`](./TAGS/BLOCK/li.md) элемент списка
-- [`<p>`](./TAGS/BLOCK/p.md) параграф
-- [`<pre>`](./TAGS/BLOCK/pre.md) преформатированный текст
-- [`<section>`](./TAGS/BLOCK/section.md) секция
+- [`<address>`](./Tags/address.md) контактная информация
+- [`<article>`](./Tags/article.md) независимый раздел
+- [`<aside>`](./Tags/aside.md) дополнительное содержимое
+- [`<blockquote>`](./Tags/blockquote.md) блок цитат
+- [`<body>`](./Tags/body.md) тело страницы
+- [`<br>`](./Tags/br.md) перенос строки
+- [`<dl>`](./Tags/dl.md) список описаний
+  - [`<dt>`](./Tags/dt.md) термин
+  - [`<dd>`](./Tags/dd.md) описание
+- [`<div>`](./Tags/div.md) пустой блок
+- [`<footer>`](./Tags/footer.md) подвал страницы
+- [`<h1-h6>`](./Tags/h1-h6.md) заголовки
+- [`<header>`](./Tags/header.md) шапка страницы
+- [`<hr>`](./Tags/hr.md) горизонтальная черта
+- [`<html>`](./Tags/html.md) содержимое страницы
+- [`<main>`](./Tags/main.md) основное содержимое
+- [`<nav>`](./Tags/nav.md) блок навигации
+- [`<ol>`](./Tags/ol.md) упорядоченный список
+  - [`<li>`](./Tags/li.md) элемент списка
+- [`<ul>`](./Tags/ul.md) неупорядоченный список
+  - [`<li>`](./Tags/li.md) элемент списка
+- [`<p>`](./Tags/p.md) параграф
+- [`<pre>`](./Tags/pre.md) преформатированный текст
+- [`<section>`](./Tags/section.md) секция
 
 ## [tags Deprecated](#оглавление)
 
-- [`<acronym>`](./TAGS/DEPRECATED/acronym.md) вид аббревиатуры
-- [`<applet>`](./TAGS/DEPRECATED/applet.md) встраивание java-приложения
-- [`<bgsound>`](./TAGS/DEPRECATED/bgsound.md) фоновая музыка
-- [`<blink>`](./TAGS/DEPRECATED/blink.md) мигающий текст
-- [`<center>`](./TAGS/DEPRECATED/center.md) центрирование контента
-- [`<embed>`](./TAGS/DEPRECATED/embed.md) встраивание мультимедиа
-- [`<font>`](./TAGS/DEPRECATED/font.md) стилизация текста
-- [`<marquee>`](./TAGS/DEPRECATED/marquee.md) бегущая строка
-- [`<nobr>`](./TAGS/DEPRECATED/nobr.md) неразрывный текст
-- [`<strike>`](./TAGS/DEPRECATED/strike.md) зачеркнутый текст
+- [`<acronym>`](./Tags/acronym.md) вид аббревиатуры
+- [`<applet>`](./Tags/applet.md) встраивание java-приложения
+- [`<bgsound>`](./Tags/bgsound.md) фоновая музыка
+- [`<blink>`](./Tags/blink.md) мигающий текст
+- [`<center>`](./Tags/center.md) центрирование контента
+- [`<embed>`](./Tags/embed.md) встраивание мультимедиа
+- [`<font>`](./Tags/font.md) стилизация текста
+- [`<marquee>`](./Tags/marquee.md) бегущая строка
+- [`<nobr>`](./Tags/nobr.md) неразрывный текст
+- [`<strike>`](./Tags/strike.md) зачеркнутый текст
 
 ## [tags Form](#оглавление)
 
-- [`<button>`](./TAGS/FORM/button.md) кнопка
-- [`<datalist>`](./TAGS/FORM/datalist.md) список подсказок для input
-  - [`<option>`](./TAGS/FORM/option.md) пункт списка
-- [`<fieldset>`](./TAGS/FORM/fieldset.md) группировка элементов
-  - [`<legend>`](./TAGS/FORM/legend.md) заголовок fieldset
-- [`<form>`](./TAGS/FORM/form.md) форма
-- [`<input>`](./TAGS/FORM/input.md) поле ввода
-- [`<label>`](./TAGS/FORM/label.md) ярлык к элементу формы
-- [`<search>`](./TAGS/FORM/search.md) сематическая секция для поиска
-- [`<select>`](./TAGS/FORM/select.md) выпадающий список
-  - [`<optgroup>`](./TAGS/FORM/optgroup.md) группирует option
-    - [`<option>`](./TAGS/FORM/option.md) пункт списка
-- [`<textarea>`](./TAGS/FORM/textarea.md) многострочное поле ввода
+- [`<button>`](./Tags/button.md) кнопка
+- [`<datalist>`](./Tags/datalist.md) список подсказок для input
+  - [`<option>`](./Tags/option.md) пункт списка
+- [`<fieldset>`](./Tags/fieldset.md) группировка элементов
+  - [`<legend>`](./Tags/legend.md) заголовок fieldset
+- [`<form>`](./Tags/form.md) форма
+- [`<input>`](./Tags/input.md) поле ввода
+- [`<label>`](./Tags/label.md) ярлык к элементу формы
+- [`<search>`](./Tags/search.md) сематическая секция для поиска
+- [`<select>`](./Tags/select.md) выпадающий список
+  - [`<optgroup>`](./Tags/optgroup.md) группирует option
+    - [`<option>`](./Tags/option.md) пункт списка
+- [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
 
 ## [tags Head](#оглавление)
 
-- [`<base>`](./TAGS/HEAD/base.md) основноый url-адрес
-- [`<head>`](./TAGS/HEAD/head.md) основная информация
-- [`<link>`](./TAGS/HEAD/link.md) внешний файл
-- [`<meta>`](./TAGS/HEAD/meta.md) метаданные
-- [`<noscript>`](./TAGS/HEAD/noscript.md) контент при отключенном js
-- [`<script>`](./TAGS/HEAD/script.md) добавляет скрипт
-- [`<style>`](./TAGS/HEAD/style.md) стили
-- [`<title>`](./TAGS/HEAD/title.md) заголовок страницы
+- [`<base>`](./Tags/base.md) основноый url-адрес
+- [`<head>`](./Tags/head.md) основная информация
+- [`<link>`](./Tags/link.md) внешний файл
+- [`<meta>`](./Tags/meta.md) метаданные
+- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
+- [`<script>`](./Tags/script.md) добавляет скрипт
+- [`<style>`](./Tags/style.md) стили
+- [`<title>`](./Tags/title.md) заголовок страницы
 
 ## [tags Inline](#оглавление)
 
-- [`<a>`](./TAGS/INLINE/a.md) ссылка
-- [`<abbr>`](./TAGS/INLINE/abbr.md) аббревиатура
-- [`<b>`](./TAGS/INLINE/b.md) важный текст
-- [`<bdi>`](./TAGS/INLINE/bdi.md) изоляция направления текста
-- [`<bdo>`](./TAGS/INLINE/bdo.md) изменение направления текста
-- [`<cite>`](./TAGS/INLINE/cite.md) источник цитаты
-- [`<code>`](./TAGS/INLINE/code.md) программный код
-- [`<data>`](./TAGS/INLINE/data.md) машинные данные
-- [`<del>`](./TAGS/INLINE/del.md) удаленный контент
-- [`<dfn>`](./TAGS/INLINE/dfn.md) термин
-- [`<em>`](./TAGS/INLINE/em.md) акцент
-- [`<i>`](./TAGS/INLINE/i.md) изменения голоса
-- [`<ins>`](./TAGS/INLINE/ins.md) добавленный контент
-- [`<mark>`](./TAGS/INLINE/mark.md) выделение текста
-- [`<q>`](./TAGS/INLINE/q.md) небольшая цитата
-- [`<s>`](./TAGS/INLINE/s.md) неактуальный текст
-- [`<small>`](./TAGS/INLINE/small.md) мелкий текст
-- [`<span>`](./TAGS/INLINE/span.md) обертка текста
-- [`<strong>`](./TAGS/INLINE/strong.md) очень важный текст
-- [`<sub>`](./TAGS/INLINE/sub.md) нижний индекс
-- [`<sup>`](./TAGS/INLINE/sup.md) верхний индекс
-- [`<time>`](./TAGS/INLINE/time.md) дата и время для машины
-- [`<u>`](./TAGS/INLINE/u.md) текст с ошибкой
-- [`<var>`](./TAGS/INLINE/var.md) переменная
+- [`<a>`](./Tags/a.md) ссылка
+- [`<abbr>`](./Tags/abbr.md) аббревиатура
+- [`<b>`](./Tags/b.md) важный текст
+- [`<bdi>`](./Tags/bdi.md) изоляция направления текста
+- [`<bdo>`](./Tags/bdo.md) изменение направления текста
+- [`<cite>`](./Tags/cite.md) источник цитаты
+- [`<code>`](./Tags/code.md) программный код
+- [`<data>`](./Tags/data.md) машинные данные
+- [`<del>`](./Tags/del.md) удаленный контент
+- [`<dfn>`](./Tags/dfn.md) термин
+- [`<em>`](./Tags/em.md) акцент
+- [`<i>`](./Tags/i.md) изменения голоса
+- [`<ins>`](./Tags/ins.md) добавленный контент
+- [`<mark>`](./Tags/mark.md) выделение текста
+- [`<q>`](./Tags/q.md) небольшая цитата
+- [`<s>`](./Tags/s.md) неактуальный текст
+- [`<small>`](./Tags/small.md) мелкий текст
+- [`<span>`](./Tags/span.md) обертка текста
+- [`<strong>`](./Tags/strong.md) очень важный текст
+- [`<sub>`](./Tags/sub.md) нижний индекс
+- [`<sup>`](./Tags/sup.md) верхний индекс
+- [`<time>`](./Tags/time.md) дата и время для машины
+- [`<u>`](./Tags/u.md) текст с ошибкой
+- [`<var>`](./Tags/var.md) переменная
 
 ## [tags Media](#оглавление)
 
-- [`<audio>`](./TAGS/MEDIA/audio.md) аудио
-  - [`<source>`](./TAGS/MEDIA/source.md) источник медиа
-- [`<canvas>`](./TAGS/MEDIA/canvas.md) отрисовка графики
-- [`<figure>`](./TAGS/MEDIA/figure.md) независимое изображение
-  - [`<figcaption>`](./TAGS/MEDIA/figcaption.md) подпись к figure
-- [`<iframe>`](./TAGS/MEDIA/iframe.md) встраивание фрейма
-- [`<img>`](./TAGS/MEDIA/img.md) изображение
-- [`<map>`](./TAGS/MEDIA/map.md) карта
-  - [`<area>`](./TAGS/MEDIA/area.md) ссылки на области карты
-- [`<object>`](./TAGS/MEDIA/object.md) встраивание медиа
-- [`<picture>`](./TAGS/MEDIA/picture.md) контейнер для разных изображений
-  - [`<img>`](./TAGS/MEDIA/img.md) изображение
-  - [`<source>`](./TAGS/MEDIA/source.md) источник медиа
-- [`<svg>`](./TAGS/MEDIA/svg.md) векторная графика
-- [`<video>`](./TAGS/MEDIA/video.md) видео
-  - [`<source>`](./TAGS/MEDIA/source.md) источник медиа
+- [`<audio>`](./Tags/audio.md) аудио
+  - [`<source>`](./Tags/source.md) источник медиа
+- [`<canvas>`](./Tags/canvas.md) отрисовка графики
+- [`<figure>`](./Tags/figure.md) независимое изображение
+  - [`<figcaption>`](./Tags/figcaption.md) подпись к figure
+- [`<iframe>`](./Tags/iframe.md) встраивание фрейма
+- [`<img>`](./Tags/img.md) изображение
+- [`<map>`](./Tags/map.md) карта
+  - [`<area>`](./Tags/area.md) ссылки на области карты
+- [`<object>`](./Tags/object.md) встраивание медиа
+- [`<picture>`](./Tags/picture.md) контейнер для разных изображений
+  - [`<img>`](./Tags/img.md) изображение
+  - [`<source>`](./Tags/source.md) источник медиа
+- [`<svg>`](./Tags/svg.md) векторная графика
+- [`<video>`](./Tags/video.md) видео
+  - [`<source>`](./Tags/source.md) источник медиа
 
 ## [tags Table](#оглавление)
 
-- [`<table>`](./TAGS/TABLE/table.md) таблица
-  - [`<caption>`](./TAGS/TABLE/caption.md) подпись к таблице
-  - [`<thead>`](./TAGS/TABLE/thead.md) шапка таблицы
-    - [`<tr>`](./TAGS/TABLE/tr.md) строка
-      - [`<th>`](./TAGS/TABLE/th.md) заголовок
-      - [`<td>`](./TAGS/TABLE/td.md) ячейка
-  - [`<tbody>`](./TAGS/TABLE/tbody.md) основное содержимое таблицы
-    - [`<tr>`](./TAGS/TABLE/tr.md) строка
-      - [`<th>`](./TAGS/TABLE/th.md) заголовок
-      - [`<td>`](./TAGS/TABLE/td.md) ячейка
-  - [`<tfoot>`](./TAGS/TABLE/tfoot.md) подвал таблицы
-    - [`<tr>`](./TAGS/TABLE/tr.md) строка
-      - [`<th>`](./TAGS/TABLE/th.md) заголовок
-      - [`<td>`](./TAGS/TABLE/td.md) ячейка
+- [`<table>`](./Tags/table.md) таблица
+  - [`<caption>`](./Tags/caption.md) подпись к таблице
+  - [`<thead>`](./Tags/thead.md) шапка таблицы
+    - [`<tr>`](./Tags/tr.md) строка
+      - [`<th>`](./Tags/th.md) заголовок
+      - [`<td>`](./Tags/td.md) ячейка
+  - [`<tbody>`](./Tags/tbody.md) основное содержимое таблицы
+    - [`<tr>`](./Tags/tr.md) строка
+      - [`<th>`](./Tags/th.md) заголовок
+      - [`<td>`](./Tags/td.md) ячейка
+  - [`<tfoot>`](./Tags/tfoot.md) подвал таблицы
+    - [`<tr>`](./Tags/tr.md) строка
+      - [`<th>`](./Tags/th.md) заголовок
+      - [`<td>`](./Tags/td.md) ячейка
 
 ## [tags Ui](#оглавление)
 
-- [`<details>`](./TAGS/UI/details.md) аккордеон
-  - [`<summary>`](./TAGS/UI/summary.md) заголовок аккордеона
-- [`<dialog>`](./TAGS/UI/dialog.md) модальное окно
-- [`<kbd>`](./TAGS/UI/kbd.md) подсказка, образец ввода
-- [`<meter>`](./TAGS/UI/meter.md) статический прогресс-бар
-- [`<noscript>`](./TAGS/UI/noscript.md) контент при отключенном js
-- [`<output>`](./TAGS/UI/output.md) результат вычислений, действий
-- [`<progress>`](./TAGS/UI/progress.md) динамический прогресс-бар
-- [`<samp>`](./TAGS/UI/samp.md) подсказка, образец вывода
-- [`<template>`](./TAGS/UI/template.md) шаблон
+- [`<details>`](./Tags/details.md) аккордеон
+  - [`<summary>`](./Tags/summary.md) заголовок аккордеона
+- [`<dialog>`](./Tags/dialog.md) модальное окно
+- [`<kbd>`](./Tags/kbd.md) подсказка, образец ввода
+- [`<meter>`](./Tags/meter.md) статический прогресс-бар
+- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
+- [`<output>`](./Tags/output.md) результат вычислений, действий
+- [`<progress>`](./Tags/progress.md) динамический прогресс-бар
+- [`<samp>`](./Tags/samp.md) подсказка, образец вывода
+- [`<template>`](./Tags/template.md) шаблон
