@@ -33,5 +33,5 @@ _(insert: вставить)_
 
 ## Атрибуты
 
-- [`cite`](../../ATTRIBUTES/ALL/cite.md) источник правки
-- [`datetime`](../../ATTRIBUTES/ALL/datetime.md) дата и время для машины
+- [`cite`](../Attrubutes/cite.md) источник правки
+- [`datetime`](../Attrubutes/datetime.md) дата и время для машины

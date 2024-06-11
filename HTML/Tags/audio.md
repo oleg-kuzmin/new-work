@@ -34,10 +34,10 @@ URL-адрес звукового файла задаётся с помощью 
 
 ## Атрибуты
 
-- [`autoplay`](../../ATTRIBUTES/ALL/autoplay.md) автопроигрывание медиа
-- [`controls`](../../ATTRIBUTES/ALL/controls.md) элементы управления медиа
-- [`loop`](../../ATTRIBUTES/ALL/loop.md) зацикливание
-- [`muted`](../../ATTRIBUTES/ALL/muted.md) выключает звук медиа
-- [`preload`](../../ATTRIBUTES/ALL/preload.md) предварительная загрузка медиа
-- [`src`](../../ATTRIBUTES/ALL/src.md) url источника
-- [`type`](../../ATTRIBUTES/ALL/type.md) тип mime
+- [`autoplay`](../Attrubutes/autoplay.md) автопроигрывание медиа
+- [`controls`](../Attrubutes/controls.md) элементы управления медиа
+- [`loop`](../Attrubutes/loop.md) зацикливание
+- [`muted`](../Attrubutes/muted.md) выключает звук медиа
+- [`preload`](../Attrubutes/preload.md) предварительная загрузка медиа
+- [`src`](../Attrubutes/src.md) url источника
+- [`type`](<../Attrubutes/type (a).md>) тип mime

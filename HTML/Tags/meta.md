@@ -41,7 +41,7 @@ _(meta: мета)_
 
 ## Атрибуты
 
-- [`charset`](../../ATTRIBUTES/ALL/charset.md) кодировка страницы
-- [`http-equiv, content`](<../../ATTRIBUTES/ALL/http-equiv, content.md>) поведение страницы
-- [`name, content`](<../../ATTRIBUTES/ALL/name, content.md>) данные страницы
-- [`property, content`](<../../ATTRIBUTES/ALL/property, content.md>) open-graph разметка
+- [`charset`](../Attrubutes/charset.md) кодировка страницы
+- [`http-equiv, content`](<../Attrubutes/http-equiv, content.md>) поведение страницы
+- [`name, content`](<../Attrubutes/name, content.md>) данные страницы
+- [`property, content`](<../Attrubutes/property, content.md>) open-graph разметка

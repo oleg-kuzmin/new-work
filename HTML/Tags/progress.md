@@ -56,5 +56,5 @@
 
 ## Атрибуты
 
-- [`max`](../../ATTRIBUTES/FORM/max.md) максимальное значение
-- [`value`](../../ATTRIBUTES/ALL/value.md) значение
+- [`max`](../Attrubutes/max.md) максимальное значение
+- [`value`](<../Attrubutes/value (data).md>) значение

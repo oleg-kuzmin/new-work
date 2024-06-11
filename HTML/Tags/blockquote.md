@@ -39,4 +39,4 @@ _(block quotation: блок цитат)_
 
 ## Атрибуты
 
-- [`cite`](../../ATTRIBUTES/ALL/cite.md) источник
+- [`cite`](../Attrubutes/cite.md) источник

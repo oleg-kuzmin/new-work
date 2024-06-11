@@ -21,5 +21,5 @@
 
 ## Атрибуты
 
-- [`href`](../../ATTRIBUTES/ALL/href.md) ссылка на url
-- [`target`](../../ATTRIBUTES/ALL/target.md) способ открытия ссылки
+- [`href`](../Attrubutes/href.md) ссылка на url
+- [`target`](<../Attrubutes/target (a).md>) способ открытия ссылки

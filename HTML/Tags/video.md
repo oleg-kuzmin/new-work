@@ -32,14 +32,14 @@
 
 ## Атрибуты
 
-- [`autoplay`](../../ATTRIBUTES/ALL/autoplay.md) автопроигрывание медиа
-- [`buffered`](../../ATTRIBUTES/ALL/buffered.md) информация о загрузке видео
-- [`controls`](../../ATTRIBUTES/ALL/controls.md) элементы управления медиа
-- [`loop`](../../ATTRIBUTES/ALL/loop.md) зацикливание
-- [`muted`](../../ATTRIBUTES/ALL/muted.md) выключает звук медиа
-- [`playsinline`](../../ATTRIBUTES/ALL/playsinline.md) полный экран видео
-- [`poster`](../../ATTRIBUTES/ALL/poster.md) обложка видео
-- [`preload`](../../ATTRIBUTES/ALL/preload.md) предварительная загрузка медиа
-- [`src`](../../ATTRIBUTES/ALL/src.md) url источника
-- [`type`](../../ATTRIBUTES/ALL/type.md) тип mime
-- [`width, height`](<../../ATTRIBUTES/ALL/width, height.md>) ширина, высота
+- [`autoplay`](../Attrubutes/autoplay.md) автопроигрывание медиа
+- [`buffered`](../Attrubutes/buffered.md) информация о загрузке видео
+- [`controls`](../Attrubutes/controls.md) элементы управления медиа
+- [`loop`](../Attrubutes/loop.md) зацикливание
+- [`muted`](../Attrubutes/muted.md) выключает звук медиа
+- [`playsinline`](../Attrubutes/playsinline.md) полный экран видео
+- [`poster`](../Attrubutes/poster.md) обложка видео
+- [`preload`](../Attrubutes/preload.md) предварительная загрузка медиа
+- [`src`](../Attrubutes/src.md) url источника
+- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`width, height`](<../Attrubutes/width, height.md>) ширина, высота

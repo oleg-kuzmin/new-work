@@ -89,7 +89,7 @@
 - [`title`](<./Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
 - [`type <a>`](<./Attrubutes/type (a).md>) тип mime
 - [`type <ol>`](<./Attrubutes/type (ol).md>) тип маркеров
-- [`type <script>`](<./Attrubutes/type (script).md>) для js-модулей
+- [`type <script>`](<./Attrubutes/type (script).md>) тип для js-модулей
 - [`usemap`](./Attrubutes/usemap.md) id карты
 - [`value`](<./Attrubutes/value (data).md>) значение
 - [`viewBox`](./Attrubutes/viewBox.md) размеры окна отображения svg

@@ -36,14 +36,14 @@
 
 ## Атрибуты
 
-- [`autofocus`](../../ATTRIBUTES/FORM/autofocus.md) фокус при загрузке страницы
-- [`disabled`](../../ATTRIBUTES/FORM/disabled.md) отключает элемент
-- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
-- [`formaction`](../../ATTRIBUTES/FORM/formaction.md) переопределяет обработчик формы
-- [`formenctype`](../../ATTRIBUTES/FORM/formenctype.md) переопределяет тип шифрования данных
-- [`formmethod`](../../ATTRIBUTES/FORM/formmethod.md) переопределяет метод отправки формы
-- [`formnovalidate`](../../ATTRIBUTES/FORM/formnovalidate.md) переопределяет отключение валидации
-- [`formtarget`](../../ATTRIBUTES/FORM/formtarget.md) переопределяет отображение после submit
-- [`name`](../../ATTRIBUTES/FORM/name.md) имя
-- [`type`](<../../ATTRIBUTES/FORM/type (BUTTON).md>) тип button
-- [`value`](../../ATTRIBUTES/FORM/value.md) значение поля ввода
+- [`autofocus`](../Attrubutes/autofocus.md) фокус при загрузке страницы
+- [`disabled`](../Attrubutes/disabled.md) отключает элемент
+- [`form`](../Attrubutes/form.md) связь с формой
+- [`formaction`](../Attrubutes/formaction.md) переопределяет обработчик формы
+- [`formenctype`](../Attrubutes/formenctype.md) переопределяет тип шифрования данных
+- [`formmethod`](../Attrubutes/formmethod.md) переопределяет метод отправки формы
+- [`formnovalidate`](../Attrubutes/formnovalidate.md) переопределяет отключение валидации
+- [`formtarget`](../Attrubutes/formtarget.md) переопределяет отображение после submit
+- [`name`](<../Attrubutes/name (input).md>) имя
+- [`type`](<../Attrubutes/type (button).md>) тип button
+- [`value`](<../Attrubutes/value (input).md>) значение поля ввода

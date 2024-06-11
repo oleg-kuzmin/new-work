@@ -38,9 +38,9 @@
 
 ## Атрибуты
 
-- [`autocomplete`](../../ATTRIBUTES/FORM/autocomplete.md) автозаполнение
-- [`autofocus`](../../ATTRIBUTES/FORM/autofocus.md) фокус при загрузке страницы
-- [`disabled`](../../ATTRIBUTES/FORM/disabled.md) отключает элемент
-- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
-- [`required`](../../ATTRIBUTES/FORM/required.md) обязательное поле
-- [`size`](../../ATTRIBUTES/FORM/size.md) ширина поля или число опций
+- [`autocomplete`](../Attrubutes/autocomplete.md) автозаполнение
+- [`autofocus`](../Attrubutes/autofocus.md) фокус при загрузке страницы
+- [`disabled`](../Attrubutes/disabled.md) отключает элемент
+- [`form`](../Attrubutes/form.md) связь с формой
+- [`required`](../Attrubutes/required.md) обязательное поле
+- [`size`](../Attrubutes/size.md) ширина поля или число опций

@@ -29,6 +29,6 @@ _(ordered list: упорядоченный список)_
 
 ## Атрибуты
 
-- [`reversed`](../../ATTRIBUTES/ALL/reversed.md) направление нумерации
-- [`start`](../../ATTRIBUTES/ALL/start.md) начало нумерации
-- [`type`](<../../ATTRIBUTES/ALL/type (OL).md>) тип маркеров
+- [`reversed`](../Attrubutes/reversed.md) направление нумерации
+- [`start`](../Attrubutes/start.md) начало нумерации
+- [`type`](<../Attrubutes/type (ol).md>) тип маркеров

@@ -21,15 +21,15 @@
 
 ## Атрибуты
 
-- [`cols`](../../ATTRIBUTES/FORM/cols.md) количество колонок textarea
-- [`rows`](../../ATTRIBUTES/FORM/rows.md) количество строк textarea
-- [`autocomplete`](../../ATTRIBUTES/FORM/autocomplete.md) автозаполнение
-- [`autofocus`](../../ATTRIBUTES/FORM/autofocus.md) фокус при загрузке страницы
-- [`disabled`](../../ATTRIBUTES/FORM/disabled.md) отключает элемент
-- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
-- [`inputmode`](../../ATTRIBUTES/FORM/inputmode.md) клавиатура для input
-- [`minlength, maxlength`](<../../ATTRIBUTES/FORM/minlength, maxlength.md>) ограничений символов
-- [`placeholder`](../../ATTRIBUTES/FORM/placeholder.md) подсказка ввода
-- [`readonly`](../../ATTRIBUTES/FORM/readonly.md) только для чтения
-- [`required`](../../ATTRIBUTES/FORM/required.md) обязательное поле
-- [`wrap`](../../ATTRIBUTES/FORM/wrap.md) символы переноса в textarea
+- [`cols`](../Attrubutes/cols.md) количество колонок textarea
+- [`rows`](../Attrubutes/rows.md) количество строк textarea
+- [`autocomplete`](../Attrubutes/autocomplete.md) автозаполнение
+- [`autofocus`](../Attrubutes/autofocus.md) фокус при загрузке страницы
+- [`disabled`](../Attrubutes/disabled.md) отключает элемент
+- [`form`](../Attrubutes/form.md) связь с формой
+- [`inputmode`](../Attrubutes/inputmode.md) клавиатура для input
+- [`minlength, maxlength`](<../Attrubutes/minlength, maxlength.md>) ограничений символов
+- [`placeholder`](../Attrubutes/placeholder.md) подсказка ввода
+- [`readonly`](../Attrubutes/readonly.md) только для чтения
+- [`required`](../Attrubutes/required.md) обязательное поле
+- [`wrap`](../Attrubutes/wrap.md) символы переноса в textarea

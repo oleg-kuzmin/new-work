@@ -32,5 +32,5 @@
 
 ## Атрибуты
 
-- [`disabled`](../../ATTRIBUTES/FORM/disabled.md) отключает элемент
-- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
+- [`disabled`](../Attrubutes/disabled.md) отключает элемент
+- [`form`](../Attrubutes/form.md) связь с формой

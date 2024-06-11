@@ -38,9 +38,9 @@
 
 ## Атрибуты
 
-- [`download`](../../ATTRIBUTES/ALL/download.md) загрузка файла
-- [`href`](../../ATTRIBUTES/ALL/href.md) ссылка на url
-- [`hreflang`](../../ATTRIBUTES/ALL/hreflang.md) язык документа по ссылке
-- [`rel`](<../../ATTRIBUTES/ALL/rel (A).md>) связь ссылки со страницей
-- [`target`](../../ATTRIBUTES/ALL/target.md) способ открытия ссылки
-- [`type`](../../ATTRIBUTES/ALL/type.md) тип mime
+- [`download`](../Attrubutes/download.md) загрузка файла
+- [`href`](../Attrubutes/href.md) ссылка на url
+- [`hreflang`](../Attrubutes/hreflang.md) язык документа по ссылке
+- [`rel`](<../Attrubutes/rel (а).md>) связь ссылки со страницей
+- [`target`](<../Attrubutes/target (a).md>) способ открытия ссылки
+- [`type`](<../Attrubutes/type (a).md>) тип mime

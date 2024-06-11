@@ -35,9 +35,9 @@ _(inline frame: встроенная в строку рамка)_
 
 ## Атрибуты
 
-- [`allowfullscreen`](../../ATTRIBUTES/ALL/allowfullscreen.md) полноэкранный режим фрейма
-- [`name`](../../ATTRIBUTES/ALL/name.md) имя
-- [`sandbox`](../../ATTRIBUTES/ALL/sandbox.md) ограничения фрейма
-- [`src`](../../ATTRIBUTES/ALL/src.md) url источника
-- [`srcdoc`](../../ATTRIBUTES/ALL/srcdoc.md) встраивание кода в фрейм
-- [`width, height`](<../../ATTRIBUTES/ALL/width, height.md>) ширина, высота
+- [`allowfullscreen`](../Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
+- [`name`](<../Attrubutes/name (object).md>) имя
+- [`sandbox`](../Attrubutes/sandbox.md) ограничения фрейма
+- [`src`](../Attrubutes/src.md) url источника
+- [`srcdoc`](../Attrubutes/srcdoc.md) встраивание кода в фрейм
+- [`width, height`](<../Attrubutes/width, height.md>) ширина, высота

@@ -24,9 +24,9 @@
 
 ## Атрибуты
 
-- [`data`](../../ATTRIBUTES/ALL/data.md) ссылка на url медиа
-- [`type`](../../ATTRIBUTES/ALL/type.md) тип mime
-- [`name`](../../ATTRIBUTES/ALL/name.md) имя
-- [`usemap`](../../ATTRIBUTES/ALL/usemap.md) id карты
-- [`width, height`](<../../ATTRIBUTES/ALL/width, height.md>) ширина, высота
-- [`form`](../../ATTRIBUTES/FORM/form.md) связь с формой
+- [`data`](<../Attrubutes/data (object).md>) ссылка на url медиа
+- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`name`](<../Attrubutes/name (object).md>) имя
+- [`usemap`](../Attrubutes/usemap.md) id карты
+- [`width, height`](<../Attrubutes/width, height.md>) ширина, высота
+- [`form`](../Attrubutes/form.md) связь с формой

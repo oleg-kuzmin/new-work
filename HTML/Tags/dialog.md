@@ -84,4 +84,4 @@ if (dialog.returnValue === 'debug') {
 
 ## Атрибуты
 
-- [`open`](../../ATTRIBUTES/ALL/open.md) открывает details, dialog
+- [`open`](../Attrubutes/open.md) открывает details, dialog

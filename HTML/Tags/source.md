@@ -50,7 +50,7 @@
 
 ## Атрибуты
 
-- [`media`](../../ATTRIBUTES/ALL/media.md) медиа-запрос
-- [`src`](../../ATTRIBUTES/ALL/src.md) url источника
-- [`srcset, sizes`](<../../ATTRIBUTES/ALL/srcset, sizes.md>) набор изображений
-- [`type`](../../ATTRIBUTES/ALL/type.md) тип mime
+- [`media`](../Attrubutes/media.md) медиа-запрос
+- [`src`](../Attrubutes/src.md) url источника
+- [`srcset, sizes`](<../Attrubutes/srcset, sizes.md>) набор изображений
+- [`type`](<../Attrubutes/type (a).md>) тип mime

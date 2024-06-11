@@ -31,5 +31,5 @@
 
 ## Атрибуты
 
-- [`label`](../../ATTRIBUTES/FORM/label.md) подпись optgroup или option
-- [`disabled`](../../ATTRIBUTES/FORM/disabled.md) отключает элемент
+- [`label`](../Attrubutes/label.md) подпись optgroup или option
+- [`disabled`](../Attrubutes/disabled.md) отключает элемент
