@@ -160,7 +160,6 @@
 
 - [`Array()`](./Array/Array.md) создает массив
   - [`array.length`](./Array/array.length.md) размер массива
-  - [`array.join()`](./Array/join.md) преобразует массив в строку
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 
@@ -174,7 +173,7 @@
 - [`array.forEach()`](./Array/array.forEach.md) перебирает элементы массива
 - [`array.includes()`](./Array/array.includes.md) проверяет наличие в массиве аргумента
 - [`array.indexOf()`](./Array/array.indexOf.md) поиск индекса переданного аргумента
-- [`array.join()`](./Array/array.join.md) преобразует в строку
+- [`array.join()`](./Array/array.join.md) преобразует массив в строку
 - [`array.lastIndexOf()`](./Array/array.lastIndexOf.md) поиск последнего индекса переданного аргумента
 - [`array.map()`](./Array/array.map.md) создание массива из другого
 - [`array.reduce()`](./Array/array.reduce.md) сведение массива к одному значению
@@ -192,6 +191,14 @@
 - [`array.sort()`](./Array/array.sort.md) сортирует элементы массива
 - [`array.splice()`](./Array/array.splice.md) заменяет часть элементов
 - [`array.unshift()`](./Array/array.unshift.md) добавляет в начало массива
+
+### Array => String
+
+- [`array.join()`](./Array/array.join.md) преобразует массив в строку
+
+### Array => Object
+
+- [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
 
 ## [Date](#оглавление)
 
@@ -432,6 +439,13 @@
 - [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
 - [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
+### Number => String
+
+- [`String()`](./String/String.md) преобразует в строку
+- [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
+- [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
+- [`number.toString()`](./Number/number.toString.md) преобразует в строку
+
 ## [Object](#оглавление)
 
 - [`in`](./Object/in.md) оператор проверки наличия ключа
@@ -450,6 +464,10 @@
 - [`Object.is()`](./Object/Object.is.md) проверяет равны ли значения
 - [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
+
+### Object => Array
+
+- [`Object.entries()`](./Object/Object.entries.md) создает массив из объекта
 
 ## [RegExp](#оглавление)
 
@@ -489,6 +507,16 @@
   - [`string.toUpperCase()`](./String/string.toUpperCase.md) приводит к верхнему регистр
   - [`string.trim()`](./String/string.trim.md) очистка от пробелов
 - [`new String()`](<./String/new String.md>) создает объект String
+
+### String => Number
+
+- [`Number()`](./Number/Number.md) преобразует аргумент в число
+- [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
+- [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
+
+### String => Array
+
+- [`string.split()`](./String/string.split.md) преобразует в массив, можно использовать regexp
 
 ## [Window](#оглавление)
 
