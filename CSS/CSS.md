@@ -231,159 +231,159 @@
 
 ### box
 
-- [`box-shadow`](./Styles/box/box-shadow.md) тень блока
-- [`box-sizing`](./Styles/box/box-sizing.md) размер блочной модели
+- [`box-shadow`](./Styles/box-shadow.md) тень блока
+- [`box-sizing`](./Styles/box-sizing.md) размер блочной модели
 
 ### caption-side
 
-- [`caption-side`](./Styles/caption-side/caption-side.md) положение подписи таблицы
+- [`caption-side`](./Styles/caption-side.md) положение подписи таблицы
 
 ### clip-path
 
-- [`clip-path`](./Styles/clip-path/clip-path.md) видимая область
+- [`clip-path`](./Styles/clip-path.md) видимая область
 
 ### columns
 
-- [`columns`](./Styles/columns/columns.md) колонки
-  - [`column-count`](./Styles/columns/column-count.md) количество колонок
-  - [`column-width`](./Styles/columns/column-width.md) ширина колонок
-- [`column-gap`](./Styles/columns/column-gap.md) отступ между колонками
+- [`columns`](./Styles/columns.md) колонки
+  - [`column-count`](./Styles/column-count.md) количество колонок
+  - [`column-width`](./Styles/column-width.md) ширина колонок
+- [`column-gap`](./Styles/column-gap.md) отступ между колонками
 
 ### display
 
-- [`display`](./Styles/display/display.md) тип отображения
+- [`display`](./Styles/display.md) тип отображения
 
 ### fill
 
-- [`fill`](./Styles/fill/fill.md) цвет заливки svg
+- [`fill`](./Styles/fill.md) цвет заливки svg
 
 ### float
 
-- [`float`](./Styles/float/float.md) обтекание блока текстом
+- [`float`](./Styles/float.md) обтекание блока текстом
 
 ### height
 
-- [`height`](./Styles/height/height.md) высота
-- [`max-height`](./Styles/height/max-height.md) максимальная высота
-- [`min-height`](./Styles/height/min-height.md) минимальная высота
+- [`height`](./Styles/height.md) высота
+- [`max-height`](./Styles/max-height.md) максимальная высота
+- [`min-height`](./Styles/min-height.md) минимальная высота
 
 ### list-style
 
-- [`list-style`](./Styles/list-style/list-style.md) маркеры списка
-  - [`list-style-image`](./Styles/list-style/list-style-image.md) маркеры в виде картинок
-  - [`list-style-position`](./Styles/list-style/list-style-position.md) положение маркеров
-  - [`list-style-type`](./Styles/list-style/list-style-type.md) тип маркеров
+- [`list-style`](./Styles/list-style.md) маркеры списка
+  - [`list-style-image`](./Styles/list-style-image.md) маркеры в виде картинок
+  - [`list-style-position`](./Styles/list-style-position.md) положение маркеров
+  - [`list-style-type`](./Styles/list-style-type.md) тип маркеров
 
 ### margin
 
-- [`margin`](./Styles/margin/margin.md) внешние отступы
-  - [`margin-top`](./Styles/margin/margin-top.md) внешний отступ сверху
-  - [`margin-right`](./Styles/margin/margin-right.md) внешний отступ справа
-  - [`margin-bottom`](./Styles/margin/margin-bottom.md) внешний отступ снизу
-  - [`margin-left`](./Styles/margin/margin-left.md) внешний отступ слева
+- [`margin`](./Styles/margin.md) внешние отступы
+  - [`margin-top`](./Styles/margin-top.md) внешний отступ сверху
+  - [`margin-right`](./Styles/margin-right.md) внешний отступ справа
+  - [`margin-bottom`](./Styles/margin-bottom.md) внешний отступ снизу
+  - [`margin-left`](./Styles/margin-left.md) внешний отступ слева
 
 ### margin-block
 
-- [`margin-block`](./Styles/margin/margin-block.md) внешние отступы блочная ось
-  - [`margin-block-start`](./Styles/margin/margin-block-start.md) внешний отступ начало блочной оси
-  - [`margin-block-end`](./Styles/margin/margin-block-end.md) внешний отступ конец блочной оси
+- [`margin-block`](./Styles/margin-block.md) внешние отступы блочная ось
+  - [`margin-block-start`](./Styles/margin-block-start.md) внешний отступ начало блочной оси
+  - [`margin-block-end`](./Styles/margin-block-end.md) внешний отступ конец блочной оси
 
 ### margin-inline
 
-- [`margin-inline`](./Styles/margin/margin-inline.md) внешние отступы строчная ось
-  - [`margin-inline-start`](./Styles/margin/margin-inline-start.md) внешний отступ начало строчной оси
-  - [`margin-inline-end`](./Styles/margin/margin-inline-end.md) внешний отступ конец строчной оси
+- [`margin-inline`](./Styles/margin-inline.md) внешние отступы строчная ось
+  - [`margin-inline-start`](./Styles/margin-inline-start.md) внешний отступ начало строчной оси
+  - [`margin-inline-end`](./Styles/margin-inline-end.md) внешний отступ конец строчной оси
 
 ### object
 
-- [`object-fit`](./Styles/object/object-fit.md) подстройка размера медиа
-- [`object-position`](./Styles/object/object-position.md) позиционирование медиа
+- [`object-fit`](./Styles/object-fit.md) подстройка размера медиа
+- [`object-position`](./Styles/object-position.md) позиционирование медиа
 
 ### opacity
 
-- [`opacity`](./Styles/opacity/opacity.md) прозрачность
+- [`opacity`](./Styles/opacity.md) прозрачность
 
 ### outline
 
-- [`outline`](./Styles/outline/outline.md) обводка
-  - [`outline-width`](./Styles/outline/outline-width.md) толщина обводки
-  - [`outline-style`](./Styles/outline/outline-style.md) стиль обводки
-  - [`outline-color`](./Styles/outline/outline-color.md) цвет обводки
-- [`outline-offset`](./Styles/outline/outline-offset.md) отступ до обводки
+- [`outline`](./Styles/outline.md) обводка
+  - [`outline-width`](./Styles/outline-width.md) толщина обводки
+  - [`outline-style`](./Styles/outline-style.md) стиль обводки
+  - [`outline-color`](./Styles/outline-color.md) цвет обводки
+- [`outline-offset`](./Styles/outline-offset.md) отступ до обводки
 
 ### overflow
 
-- [`overflow`](./Styles/overflow/overflow.md) переполнение блока
-  - [`overflow-x`](./Styles/overflow/overflow-x.md) переполнение блока по горизонтали
-  - [`overflow-y`](./Styles/overflow/overflow-y.md) переполнение блока по вертикали
-- [`overflow-wrap`](./Styles/overflow/overflow-wrap.md) перенос слов
+- [`overflow`](./Styles/overflow.md) переполнение блока
+  - [`overflow-x`](./Styles/overflow-x.md) переполнение блока по горизонтали
+  - [`overflow-y`](./Styles/overflow-y.md) переполнение блока по вертикали
+- [`overflow-wrap`](./Styles/overflow-wrap.md) перенос слов
 
 ### padding
 
-- [`padding`](./Styles/padding/padding.md) внутренний отступ
-  - [`padding-top`](./Styles/padding/padding-top.md) внутренний отступ сверху
-  - [`padding-right`](./Styles/padding/padding-right.md) внутренний отступ справа
-  - [`padding-bottom`](./Styles/padding/padding-bottom.md) внутренний отступ снизу
-  - [`padding-left`](./Styles/padding/padding-left.md) внутренний отступ слева
+- [`padding`](./Styles/padding.md) внутренний отступ
+  - [`padding-top`](./Styles/padding-top.md) внутренний отступ сверху
+  - [`padding-right`](./Styles/padding-right.md) внутренний отступ справа
+  - [`padding-bottom`](./Styles/padding-bottom.md) внутренний отступ снизу
+  - [`padding-left`](./Styles/padding-left.md) внутренний отступ слева
 
 ### padding-block
 
-- [`padding-block`](./Styles/padding/padding-block.md) внутренние отступы блочная ось
-  - [`padding-block-start`](./Styles/padding/padding-block-start.md) внутренний отступ начало блочной оси
-  - [`padding-block-end`](./Styles/padding/padding-block-end.md) внутренний отступ конец блочной оси
+- [`padding-block`](./Styles/padding-block.md) внутренние отступы блочная ось
+  - [`padding-block-start`](./Styles/padding-block-start.md) внутренний отступ начало блочной оси
+  - [`padding-block-end`](./Styles/padding-block-end.md) внутренний отступ конец блочной оси
 
 ### padding-inline
 
-- [`padding-inline`](./Styles/padding/padding-inline.md) внутренние отступы строчная ось
-  - [`padding-inline-start`](./Styles/padding/padding-inline-start.md) внутренний отступ начало строчной оси
-  - [`padding-inline-end`](./Styles/padding/padding-inline-end.md) внутренний отступ конец строчной оси
+- [`padding-inline`](./Styles/padding-inline.md) внутренние отступы строчная ось
+  - [`padding-inline-start`](./Styles/padding-inline-start.md) внутренний отступ начало строчной оси
+  - [`padding-inline-end`](./Styles/padding-inline-end.md) внутренний отступ конец строчной оси
 
 ### pointer-events
 
-- [`pointer-events`](./Styles/pointer-events/pointer-events.md) реагирование на события
+- [`pointer-events`](./Styles/pointer-events.md) реагирование на события
 
 ### position
 
-- [`position`](./Styles/position/position.md) позиционирование
-  - [`top`](./Styles/position/top.md) смещение сверху
-  - [`right`](./Styles/position/right.md) смещение справа
-  - [`bottom`](./Styles/position/bottom.md) смещение снизу
-  - [`left`](./Styles/position/left.md) смещение слева
+- [`position`](./Styles/position.md) позиционирование
+  - [`top`](./Styles/top.md) смещение сверху
+  - [`right`](./Styles/right.md) смещение справа
+  - [`bottom`](./Styles/bottom.md) смещение снизу
+  - [`left`](./Styles/left.md) смещение слева
 
 ### quotes
 
-- [`quotes`](./Styles/quotes/quotes.md) кавычки
+- [`quotes`](./Styles/quotes.md) кавычки
 
 ### resize
 
-- [`resize`](./Styles/resize/resize.md) изменение размеров элемента
+- [`resize`](./Styles/resize.md) изменение размеров элемента
 
 ### scroll-behavior
 
-- [`scroll-behavior`](./Styles/scroll-behavior/scroll-behavior.md) плавная прокрутка
+- [`scroll-behavior`](./Styles/scroll-behavior.md) плавная прокрутка
 
 ### stroke
 
-- [`stroke`](./Styles/stroke/stroke.md) цвет обводки svg
+- [`stroke`](./Styles/stroke.md) цвет обводки svg
 
 ### text-align
 
-- [`text-align`](./Styles/text-align/text-align.md) горизонтальное выравнивание
-- [`text-align-last`](./Styles/text-align/text-align-last.md) выравнивание последней строки
+- [`text-align`](./Styles/text-align.md) горизонтальное выравнивание
+- [`text-align-last`](./Styles/text-align-last.md) выравнивание последней строки
 
 ### transform
 
-- [`transform`](./Styles/transform/transform.md) трансформация
-- [`transform-origin`](./Styles/transform/transform-origin.md) точка отсчета
-- [`perspective`](./Styles/transform/perspective.md) точка перспективы
-- [`translate`](./Styles/transform/translate.md) смещение
-- [`scale`](./Styles/transform/scale.md) увеличение
-- [`rotate`](./Styles/transform/rotate.md) вращение
-- [`skew`](./Styles/transform/skew.md) наклон
-- [`matrix`](./Styles/transform/matrix.md) матрица трансформации
+- [`transform`](./Styles/transform.md) трансформация
+- [`transform-origin`](./Styles/transform-origin.md) точка отсчета
+- [`perspective`](./Styles/perspective.md) точка перспективы
+- [`translate`](./Styles/translate.md) смещение
+- [`scale`](./Styles/scale.md) увеличение
+- [`rotate`](./Styles/rotate.md) вращение
+- [`skew`](./Styles/skew.md) наклон
+- [`matrix`](./Styles/matrix.md) матрица трансформации
 
 ### transition
 
-- [`transition-property`](./Styles/transition/transition-property.md) название свойства
-- [`transition-duration`](./Styles/transition/transition-duration.md) время анимации
-- [`transition-timing-function`](./Styles/transition/transition-timing-function.md) проигрывание анимации
+- [`transition-property`](./Styles/transition-property.md) название свойства
+- [`transition-duration`](./Styles/transition-duration.md) время анимации
+- [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание анимации
