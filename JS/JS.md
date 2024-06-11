@@ -10,7 +10,7 @@
 
 # Оглавление
 
-- [АСИНХРОННЫЕ ДЕЙСТВИЯ](#асинхронные-действия)
+- [Асинхронные действия](#асинхронные-действия)
 - [ООП](#ооп)
 - [ТЕОРИЯ](#теория)
 - [ЦИКЛЫ](#циклы)
@@ -29,30 +29,39 @@
 - [STRING](#string)
 - [WINDOW](#window)
 
-## [АСИНХРОННЫЕ ДЕЙСТВИЯ](#оглавление)
+## [Асинхронные действия](#оглавление)
 
-- [`async await`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/async await.md>) асинхронные функции
-- [`fetch()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/fetch.md>) запрос на сервер
-  - [`responce.ok`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.ok.md>) успешность ответа
-  - [`responce.status`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.status.md>) статус ответа
-  - [`responce.statusText`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.statusText.md>) сообщение статуса ответа
-  - [`responce.json()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.json.md>) преобразует json-ответ в объект js
-  - [`responce.text()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.text.md>) преобразует json-ответ в текст
-  - [`responce.blob()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.blob.md>) преобразует json-ответ в бинарные данные
-  - [`responce.headers.get()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/FETCH/responce.headers.get.md>) получает значение заголовка
-- [`new Promise()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/new Promise.md>) создает promise
-  - [`.then()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/then.md>) обработчик выполненного promise
-  - [`.catch()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/catch.md>) обработчик отклоненного promise
-  - [`.finally()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/finally.md>) обработчик завершенного promise
-- [`Promise.resolve()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.resolve.md>) создает выполненный promise
-- [`Promise.reject()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.reject.md>) создает отклоненный promise
-- [`Promise.all()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.all.md>) все promise выполнены
-- [`Promise.allSettled()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.allSettled.md>) все promise завершены
-- [`Promise.any()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.any.md>) первый выполненный promise
-- [`Promise.race()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/PROMISE/Promise.race.md>) первый завершенный promise
-- [`JSON`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/JSON/JSON.md>) формат обмена данными
-  - [`JSON.stringify()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/JSON/JSON.stringify.md>) преобразует объект в JSON
-  - [`JSON.parse()`](<./АСИНХРОННЫЕ ДЕЙСТВИЯ/JSON/JSON.parse.md>) преобразует JSON в объект
+- [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
+
+### Fetch
+
+- [`fetch()`](<./Асинхронные действия/fetch.md>) запрос на сервер
+  - [`responce.ok`](<./Асинхронные действия/responce.ok.md>) успешность ответа
+  - [`responce.status`](<./Асинхронные действия/responce.status.md>) статус ответа
+  - [`responce.statusText`](<./Асинхронные действия/responce.statusText.md>) сообщение статуса ответа
+  - [`responce.json()`](<./Асинхронные действия/responce.json.md>) преобразует json-ответ в объект js
+  - [`responce.text()`](<./Асинхронные действия/responce.text.md>) преобразует json-ответ в текст
+  - [`responce.blob()`](<./Асинхронные действия/responce.blob.md>) преобразует json-ответ в бинарные данные
+  - [`responce.headers.get()`](<./Асинхронные действия/responce.headers.get.md>) получает значение заголовка
+
+### Promise
+
+- [`new Promise()`](<./Асинхронные действия/new Promise.md>) создает promise
+  - [`promise.then()`](<./Асинхронные действия/promise.then.md>) обработчик выполненного promise
+  - [`promise.catch()`](<./Асинхронные действия/promise.catch.md>) обработчик отклоненного promise
+  - [`promise.finally()`](<./Асинхронные действия/promise.finally.md>) обработчик завершенного promise
+- [`Promise.resolve()`](<./Асинхронные действия/Promise.resolve.md>) создает выполненный promise
+- [`Promise.reject()`](<./Асинхронные действия/Promise.reject.md>) создает отклоненный promise
+- [`Promise.all()`](<./Асинхронные действия/Promise.all.md>) все promise выполнены
+- [`Promise.allSettled()`](<./Асинхронные действия/Promise.allSettled.md>) все promise завершены
+- [`Promise.any()`](<./Асинхронные действия/Promise.any.md>) первый выполненный promise
+- [`Promise.race()`](<./Асинхронные действия/Promise.race.md>) первый завершенный promise
+
+### JSON
+
+- [`JSON`](<./Асинхронные действия/JSON.md>) формат обмена данными
+  - [`JSON.stringify()`](<./Асинхронные действия/JSON.stringify.md>) преобразует объект в JSON
+  - [`JSON.parse()`](<./Асинхронные действия/JSON.parse.md>) преобразует JSON в объект
 
 ## [ООП](#оглавление)
 
