@@ -1,0 +1,22 @@
+# `string.toLowerCase()`
+
+Используется для приведения всех символов строки к нижнему регистру.
+
+## Синтаксис
+
+```js
+string.toLowerCase();
+```
+
+## Возвращает
+
+### `string`
+
+Новую строку.
+
+## Пример
+
+```js
+const lowerCased = 'СОБАКА'.toLowerCase();
+console.log(lowerCased); // собака
+```

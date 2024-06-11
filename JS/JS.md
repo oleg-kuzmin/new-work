@@ -21,15 +21,14 @@
 - [Element](#element)
 - [Event](#event)
 - [Event.type](#eventtype)
-
-- [FUNCTION](#function)
-- [MAP](#map)
-- [NUMBER](#number)
-- [OBJECT](#object)
-- [REGEXP](#regexp)
-- [SET](#set)
-- [STRING](#string)
-- [WINDOW](#window)
+- [Function](#function)
+- [Map](#map)
+- [Number](#number)
+- [Object](#object)
+- [RegExp](#regexp)
+- [Set](#set)
+- [String](#string)
+- [Window](#window)
 
 ## [Теория Общее](#оглавление)
 
@@ -164,7 +163,6 @@
   - [`array.join()`](./Array/join.md) преобразует массив в строку
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
-- [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив в объект
 
 ### Иммутабельные методы
 
@@ -417,7 +415,6 @@
   - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
   - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
   - [`number.toString()`](./Number/number.toString.md) преобразует в строку
-- [`String()`](./String/String.md) преобразует в строку
 - [`new Number()`](<./Number/new Number.md>) создает объект Number
 - [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
 - [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
@@ -454,87 +451,80 @@
 - [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
 
-## [REGEXP](#оглавление)
+## [RegExp](#оглавление)
 
-- [`new RegExp()`](<./METHODS/REGEXP/new RegExp.md>) создает регулярное выражение
-  - [`.exec()`](./METHODS/REGEXP/exec.md) подробный поиск одного совпадения
-  - [`.test()`](./METHODS/REGEXP/test.md) соответствие
+- [`new RegExp()`](<./RegExp/new RegExp.md>) создает регулярное выражение
+  - [`regexp.exec()`](./RegExp/regexp.exec.md) подробный поиск одного совпадения
+  - [`regexp.test()`](./RegExp/regexp.test.md) соответствие
 
-## [SET](#оглавление)
+## [Set](#оглавление)
 
-- [`new Set()`](<./METHODS/SET/new Set.md>) создает коллекцию для хранения уникальных значений
-  - [`.add()`](./METHODS/SET/add.md) добавляет значение в коллекцию
-  - [`.clear()`](./METHODS/SET/clear.md) удаляет все значения
-  - [`.delete()`](./METHODS/SET/delete.md) удаляет значение из коллекции
-  - [`.forEach()`](./METHODS/SET/forEach.md) обход коллекции
-  - [`.has()`](./METHODS/SET/has.md) проверяет наличие значения
-  - [`.size`](./METHODS/SET/size.md) количество значений
+- [`new Set()`](<./Set/new Set.md>) создает коллекцию для хранения уникальных значений
+  - [`set.add()`](./Set/set.add.md) добавляет значение в коллекцию
+  - [`set.clear()`](./Set/set.clear.md) удаляет все значения
+  - [`set.delete()`](./Set/set.delete.md) удаляет значение из коллекции
+  - [`set.forEach()`](./Set/set.forEach.md) обход коллекции
+  - [`set.has()`](./Set/set.has.md) проверяет наличие значения
+  - [`set.size`](./Set/set.size.md) количество значений
 
-## [STRING](#оглавление)
+## [String](#оглавление)
 
-- [`new String()`](<./METHODS/STRING/new String.md>) создает объект String
-- [`String()`](./METHODS/STRING/String.md) преобразует в строку
-  - [`.charAt()`](./METHODS/STRING/charAt.md) получение ключа по индексу
-  - [`.endsWith()`](./METHODS/STRING/endsWith.md) сравнивает конец строки с аргументом
-  - [`.includes()`](./METHODS/STRING/includes.md) проверяет наличие в строке аргумента
-  - [`.indexOf()`](./METHODS/STRING/indexOf.md) поиск индекса переданного аргумента
-  - [`.length`](./METHODS/STRING/length.md) длина строки
-  - [`.localeCompare()`](./METHODS/STRING/localeCompare.md) сравнивает две строки
-  - [`.match()`](./METHODS/STRING/match.md) поиск всех совпадений по regexp
-  - [`.repeat()`](./METHODS/STRING/repeat.md) повторяет строку несколько раз
-  - [`.replace()`](./METHODS/STRING/replace.md) замена части строки, можно использовать regexp
-  - [`.replaceAll()`](./METHODS/STRING/replaceAll.md) замена всех частей строки
-  - [`.search()`](./METHODS/STRING/search.md) поиск индекса по regexp
-  - [`.slice()`](./METHODS/STRING/slice.md) копирует часть строки
-  - [`.split()`](./METHODS/STRING/split.md) преобразует в массив, можно использовать regexp
-  - [`.startsWith()`](./METHODS/STRING/startsWith.md) сравнивает начало строки с аргументом
-  - [`.substring()`](./METHODS/STRING/substring.md) копирует часть строки
-  - [`.toLowerCase()`](./METHODS/STRING/toLowerCase.md) приводит к нижнему регистру
-  - [`.toUpperCase()`](./METHODS/STRING/toUpperCase.md) приводит к верхнему регистр
-  - [`.trim()`](./METHODS/STRING/trim.md) очистка от пробелов
+- [`String()`](./String/String.md) преобразует в строку
+  - [`string.charAt()`](./String/string.charAt.md) получение ключа по индексу
+  - [`string.endsWith()`](./String/string.endsWith.md) сравнивает конец строки с аргументом
+  - [`string.includes()`](./String/string.includes.md) проверяет наличие в строке аргумента
+  - [`string.indexOf()`](./String/string.indexOf.md) поиск индекса переданного аргумента
+  - [`string.length`](./String/string.length.md) длина строки
+  - [`string.localeCompare()`](./String/string.localeCompare.md) сравнивает две строки
+  - [`string.match()`](./String/string.match.md) поиск всех совпадений по regexp
+  - [`string.repeat()`](./String/string.repeat.md) повторяет строку несколько раз
+  - [`string.replace()`](./String/string.replace.md) замена части строки, можно использовать regexp
+  - [`string.replaceAll()`](./String/string.replaceAll.md) замена всех частей строки
+  - [`string.search()`](./String/string.search.md) поиск индекса по regexp
+  - [`string.slice()`](./String/string.slice.md) копирует часть строки
+  - [`string.split()`](./String/string.split.md) преобразует в массив, можно использовать regexp
+  - [`string.startsWith()`](./String/string.startsWith.md) сравнивает начало строки с аргументом
+  - [`string.substring()`](./String/string.substring.md) копирует часть строки
+  - [`string.toLowerCase()`](./String/string.toLowerCase.md) приводит к нижнему регистру
+  - [`string.toUpperCase()`](./String/string.toUpperCase.md) приводит к верхнему регистр
+  - [`string.trim()`](./String/string.trim.md) очистка от пробелов
+- [`new String()`](<./String/new String.md>) создает объект String
 
-### Преобразование
+## [Window](#оглавление)
 
-- [`Number()`](./METHODS/NUMBER/Number.md) преобразует аргумент в число
-- [`parseFloat()`](./METHODS/WINDOW/parseFloat.md) преобразует строку в число c плавающей точкой
-- [`parseInt()`](./METHODS/WINDOW/parseInt.md) преобразует строку в целое число
-- [`.split()`](./METHODS/STRING/split.md) преобразует в массив, можно использовать regexp
-
-## [WINDOW](#оглавление)
-
-- [`alert()`](./METHODS/WINDOW/alert.md) модальное окно с текстом
-- [`clearInterval()`](./METHODS/WINDOW/clearInterval.md) удаление интервала
-- [`clearTimeout()`](./METHODS/WINDOW/clearTimeout.md) удаление таймера
-- [`confirm()`](./METHODS/WINDOW/confirm.md) модальное окно с вопросом
-- [`console.dir()`](./METHODS/WINDOW/console.dir.md) выведет в консоль содержимое
-- [`console.log()`](./METHODS/WINDOW/console.log.md) выведет в консоль свойства
-- [`console.table()`](./METHODS/WINDOW/console.table.md) выведет в консоль таблицу
-- [`getComputedStyle()`](./METHODS/WINDOW/getComputedStyle.md) объект со стилями
-- [`isFinite()`](./METHODS/WINDOW/isFinite.md) проверяет преобразованное число на конечность
-- [`isNaN()`](./METHODS/WINDOW/isNaN.md) проверяет преобразованное число на NaN
-- [`localStorage`](./METHODS/WINDOW/localStorage.md) локальное хранилище данных
-  - [`localStorage.clear()`](./METHODS/WINDOW/localStorage.clear.md) полная очистка хранилища
-  - [`localStorage.getItem()`](./METHODS/WINDOW/localStorage.getItem.md) получение значения по ключу
-  - [`localStorage.key()`](./METHODS/WINDOW/localStorage.key.md) получение ключа по индексу
-  - [`localStorage.length`](./METHODS/WINDOW/localStorage.length.md) количество записей в хранилище
-  - [`localStorage.removeItem()`](./METHODS/WINDOW/localStorage.removeItem.md) удаление записи из хранилища
-  - [`localStorage.setItem()`](./METHODS/WINDOW/localStorage.setItem.md) сохранение данных в хранилище
-- [`navigator`](./METHODS/WINDOW/navigator.md) объект описания приложения
-  - [`navigator.cookieEnabled`](./METHODS/WINDOW/navigator.cookieEnabled.md) включена ли поддержка cookie
-  - [`navigator.geolocation`](./METHODS/WINDOW/navigator.geolocation.md) объект геолокации
-  - [`navigator.language`](./METHODS/WINDOW/navigator.language.md) предпочтительный язык интерфейса
-  - [`navigator.languages`](./METHODS/WINDOW/navigator.languages.md) массив предпочтительных языков интерфейса
-  - [`navigator.onLine`](./METHODS/WINDOW/navigator.onLine.md) проверяет наличие подключения к сети
-  - [`navigator.userAgent`](./METHODS/WINDOW/navigator.userAgent.md) название браузера пользователя
-- [`parseFloat()`](./METHODS/WINDOW/parseFloat.md) преобразует строку в число c плавающей точкой
-- [`parseInt()`](./METHODS/WINDOW/parseInt.md) преобразует строку в целое число
-- [`prompt()`](./METHODS/WINDOW/prompt.md) модальное окно с вводом
-- [`setInterval()`](./METHODS/WINDOW/setInterval.md) установка интервала
-- [`setTimeout()`](./METHODS/WINDOW/setTimeout.md) установка таймера
-- [`typeof`](./METHODS/WINDOW/typeof.md) оператор проверки типа
-- [`window.innerHeight`](./METHODS/WINDOW/window.innerHeight.md) высота окна браузера
-- [`window.innerWidth`](./METHODS/WINDOW/window.innerWidth.md) ширина окна браузера
-- [`window.scroll()`](./METHODS/WINDOW/window.scroll.md) прокрутит окно браузера
-- [`window.scrollTo()`](./METHODS/WINDOW/window.scrollTo.md) прокрутит окно браузера
-- [`window.scrollX`](./METHODS/WINDOW/window.scrollX.md) прокрутка окна браузера по горизонтали
-- [`window.scrollY`](./METHODS/WINDOW/window.scrollY.md) прокрутка окна браузера по вертикали
+- [`window.alert()`](./Window/window.alert.md) модальное окно с текстом
+- [`window.clearInterval()`](./Window/window.clearInterval.md) удаление интервала
+- [`window.clearTimeout()`](./Window/window.clearTimeout.md) удаление таймера
+- [`window.confirm()`](./Window/window.confirm.md) модальное окно с вопросом
+- [`window.console.dir()`](./Window/window.console.dir.md) выведет в консоль содержимое
+- [`window.console.log()`](./Window/window.console.log.md) выведет в консоль свойства
+- [`window.console.table()`](./Window/window.console.table.md) выведет в консоль таблицу
+- [`window.getComputedStyle()`](./Window/window.getComputedStyle.md) объект со стилями
+- [`window.isFinite()`](./Window/window.isFinite.md) проверяет преобразованное число на конечность
+- [`window.isNaN()`](./Window/window.isNaN.md) проверяет преобразованное число на NaN
+- [`window.localStorage`](./Window/window.localStorage.md) локальное хранилище данных
+  - [`window.localStorage.clear()`](./Window/window.localStorage.clear.md) полная очистка хранилища
+  - [`window.localStorage.getItem()`](./Window/window.localStorage.getItem.md) получение значения по ключу
+  - [`window.localStorage.key()`](./Window/window.localStorage.key.md) получение ключа по индексу
+  - [`window.localStorage.length`](./Window/window.localStorage.length.md) количество записей в хранилище
+  - [`window.localStorage.removeItem()`](./Window/window.localStorage.removeItem.md) удаление записи из хранилища
+  - [`window.localStorage.setItem()`](./Window/window.localStorage.setItem.md) сохранение данных в хранилище
+- [`window.navigator`](./Window/window.navigator.md) объект описания приложения
+  - [`window.navigator.cookieEnabled`](./Window/window.navigator.cookieEnabled.md) включена ли поддержка cookie
+  - [`window.navigator.geolocation`](./Window/window.navigator.geolocation.md) объект геолокации
+  - [`window.navigator.language`](./Window/window.navigator.language.md) предпочтительный язык интерфейса
+  - [`window.navigator.languages`](./Window/window.navigator.languages.md) массив предпочтительных языков интерфейса
+  - [`window.navigator.onLine`](./Window/window.navigator.onLine.md) проверяет наличие подключения к сети
+  - [`window.navigator.userAgent`](./Window/window.navigator.userAgent.md) название браузера пользователя
+- [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
+- [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
+- [`window.prompt()`](./Window/window.prompt.md) модальное окно с вводом
+- [`window.setInterval()`](./Window/window.setInterval.md) установка интервала
+- [`window.setTimeout()`](./Window/window.setTimeout.md) установка таймера
+- [`window.typeof`](./Window/window.typeof.md) оператор проверки типа
+- [`window.innerHeight`](./Window/window.innerHeight.md) высота окна браузера
+- [`window.innerWidth`](./Window/window.innerWidth.md) ширина окна браузера
+- [`window.scroll()`](./Window/window.scroll.md) прокрутит окно браузера
+- [`window.scrollTo()`](./Window/window.scrollTo.md) прокрутит окно браузера
+- [`window.scrollX`](./Window/window.scrollX.md) прокрутка окна браузера по горизонтали
+- [`window.scrollY`](./Window/window.scrollY.md) прокрутка окна браузера по вертикали

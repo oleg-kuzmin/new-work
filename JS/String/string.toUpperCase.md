@@ -1,0 +1,22 @@
+# `string.toUpperCase()`
+
+Используется для приведения всех символов строки к верхнему регистру.
+
+## Синтаксис
+
+```js
+string.toUpperCase();
+```
+
+## Возвращает
+
+### `string`
+
+Новую строку.
+
+## Пример
+
+```js
+const upperCased = 'котик'.toUpperCase();
+console.log(upperCased); // КОТИК
+```
