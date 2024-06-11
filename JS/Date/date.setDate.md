@@ -1,11 +1,11 @@
-# `setDate()`
+# `date.setDate()`
 
 Устанавливает день месяца (1-31). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCDate()`.
 
 ## Синтаксис
 
 ```js
-setDate(value);
+date.setDate(value);
 ```
 
 ### `value`

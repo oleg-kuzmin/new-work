@@ -1,11 +1,11 @@
-# `setSeconds()`
+# `date.setSeconds()`
 
 Устанавливает секунды (0-59). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCSeconds()`.
 
 ## Синтаксис
 
 ```js
-setSeconds(secondsValue, msValue);
+date.setSeconds(secondsValue, msValue);
 ```
 
 ### `secondsValue`

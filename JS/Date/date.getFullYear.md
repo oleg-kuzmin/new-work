@@ -1,4 +1,4 @@
-# `.getFullYear()`
+# `date.getFullYear()`
 
 Возвращает год. Также есть метод `getUTCFullYear()`.
 

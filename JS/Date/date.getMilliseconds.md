@@ -1,4 +1,4 @@
-# `.getMilliseconds()`
+# `date.getMilliseconds()`
 
 Возвращает миллисекунды (0-999). Также есть методы `getUTCMilliseconds()`.
 

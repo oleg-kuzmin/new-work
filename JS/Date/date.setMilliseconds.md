@@ -1,11 +1,11 @@
-# `setMilliseconds()`
+# `date.setMilliseconds()`
 
 Устанавливает миллисекунды (0-999). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCMilliseconds()`.
 
 ## Синтаксис
 
 ```js
-setMilliseconds(millisecondsValue);
+date.setMilliseconds(millisecondsValue);
 ```
 
 ### `millisecondsValue`

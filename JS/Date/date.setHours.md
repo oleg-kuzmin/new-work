@@ -1,11 +1,11 @@
-# `setHours()`
+# `date.setHours()`
 
 Устанавливает часы (0-23). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCHours()`.
 
 # Синтаксис
 
 ```js
-setHours(hoursValue, minutesValue, secondsValue, msValue);
+date.setHours(hoursValue, minutesValue, secondsValue, msValue);
 ```
 
 ### `hoursValue`

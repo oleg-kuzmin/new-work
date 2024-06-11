@@ -1,11 +1,11 @@
-# `setMonth()`
+# `date.setMonth()`
 
 Устанавливает месяц (0-11). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCMonth()`.
 
 # Синтаксис
 
 ```js
-setMonth(monthValue, dayValue);
+date.setMonth(monthValue, dayValue);
 ```
 
 ### `monthValue`

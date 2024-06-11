@@ -1,11 +1,11 @@
-# `.toLocaleDateString()`
+# `date.toLocaleDateString()`
 
 Для отображения `Date` в различных форматах существует метод `toLocaleDateString()`.
 
 ## Синтаксис
 
 ```js
-toLocaleDateString(local, options);
+date.toLocaleDateString(local, options);
 ```
 
 ### `local` / опционально

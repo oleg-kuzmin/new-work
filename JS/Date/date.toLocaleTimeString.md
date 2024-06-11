@@ -1,4 +1,4 @@
-# `.toLocaleTimeString()`
+# `date.toLocaleTimeString()`
 
 Возвращает данные о времени.
 

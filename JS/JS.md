@@ -15,9 +15,9 @@
 - [Операторы](#операторы)
 - [Циклы](#циклы)
 - [Асинхронные действия](#асинхронные-действия)
+- [Array](#array)
+- [Date](#date)
 
-- [ARRAY](#array)
-- [DATE](#date)
 - [DOCUMENT](#document)
 - [ELEMENT](#element)
 - [EVENT](#event)
@@ -195,33 +195,33 @@
 - [`array.splice()`](./Array/array.splice.md) заменяет часть элементов
 - [`array.unshift()`](./Array/array.unshift.md) добавляет в начало массива
 
-## [DATE](#оглавление)
+## [Date](#оглавление)
 
-- [`Date.now()`](./METHODS/DATE/Date.now.md) миллисекунды с 01 января 1970
-- [`Date.parse()`](./METHODS/DATE/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
-- [`.getDate()`](./METHODS/DATE/getDate.md) возвращает день месяца (1-31)
-- [`.getDay()`](./METHODS/DATE/getDay.md) возвращает день недели (0-6)
-- [`.getFullYear()`](./METHODS/DATE/getFullYear.md) возвращает год
-- [`.getHours()`](./METHODS/DATE/getHours.md) возвращает час (0-23)
-- [`.getMilliseconds()`](./METHODS/DATE/getMilliseconds.md) возвращает миллисекунды (0-999)
-- [`.getMinutes()`](./METHODS/DATE/getMinutes.md) возвращает минуты (0-59)
-- [`.getMonth()`](./METHODS/DATE/getMonth.md) возвращает месяц (0-11)
-- [`.getSeconds()`](./METHODS/DATE/getSeconds.md) возвращает секунды (0-59)
-- [`.getTime()`](./METHODS/DATE/getTime.md) возвращает миллисекунды с 01 января 1970
-- [`.getTimezoneOffset()`](./METHODS/DATE/getTimezoneOffset.md) возвращает разницу в минутах с UTC
-- [`new Date()`](<./METHODS/DATE/new Date.md>) создает объект Date
-- [`setDate()`](./METHODS/DATE/setDate.md) устанавливает день месяца (1-31)
-- [`setFullYear()`](./METHODS/DATE/setFullYear.md) устанавливает год
-- [`setHours()`](./METHODS/DATE/setHours.md) устанавливает час (0-23)
-- [`setMilliseconds()`](./METHODS/DATE/setMilliseconds.md) устанавливает миллисекунды (0-999)
-- [`setMinutes()`](./METHODS/DATE/setMinutes.md) устанавливает минуты (0-59)
-- [`setMonth()`](./METHODS/DATE/setMonth.md) устанавливает месяц (0-11)TAGS UI
-- [`setSeconds()`](./METHODS/DATE/setSeconds.md) устанавливает секунды (0-59)
-- [`setTime()`](./METHODS/DATE/setTime.md) устанавливает миллисекунды с 01 января 1970
-- [`.toISOString()`](./METHODS/DATE/toISOString.md) преобразует объект Date в строку формата iso
-- [`.toLocaleDateString()`](./METHODS/DATE/toLocaleDateString.md) преобразует объект Date в строку различных форматов
-- [`.toLocaleTimeString()`](./METHODS/DATE/toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
-- [`.toUTCString()`](./METHODS/DATE/toUTCString.md) преобразует объект Date в строку в формате UTC
+- [`Date.now()`](./Date/Date.now.md) миллисекунды с 01 января 1970
+- [`Date.parse()`](./Date/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
+- [`new Date()`](<./Date/new Date.md>) создает объект Date
+  - [`date.getDate()`](./Date/date.getDate.md) возвращает день месяца (1-31)
+  - [`date.getDay()`](./Date/date.getDay.md) возвращает день недели (0-6)
+  - [`date.getFullYear()`](./Date/date.getFullYear.md) возвращает год
+  - [`date.getHours()`](./Date/date.getHours.md) возвращает час (0-23)
+  - [`date.getMilliseconds()`](./Date/date.getMilliseconds.md) возвращает миллисекунды (0-999)
+  - [`date.getMinutes()`](./Date/date.getMinutes.md) возвращает минуты (0-59)
+  - [`date.getMonth()`](./Date/date.getMonth.md) возвращает месяц (0-11)
+  - [`date.getSeconds()`](./Date/date.getSeconds.md) возвращает секунды (0-59)
+  - [`date.getTime()`](./Date/date.getTime.md) возвращает миллисекунды с 01 января 1970
+  - [`date.getTimezoneOffset()`](./Date/date.getTimezoneOffset.md) возвращает разницу в минутах с UTC
+  - [`date.setDate()`](./Date/date.setDate.md) устанавливает день месяца (1-31)
+  - [`date.setFullYear()`](./Date/date.setFullYear.md) устанавливает год
+  - [`date.setHours()`](./Date/date.setHours.md) устанавливает час (0-23)
+  - [`date.setMilliseconds()`](./Date/date.setMilliseconds.md) устанавливает миллисекунды (0-999)
+  - [`date.setMinutes()`](./Date/date.setMinutes.md) устанавливает минуты (0-59)
+  - [`date.setMonth()`](./Date/date.setMonth.md) устанавливает месяц (0-11)TAGS UI
+  - [`date.setSeconds()`](./Date/date.setSeconds.md) устанавливает секунды (0-59)
+  - [`date.setTime()`](./Date/date.setTime.md) устанавливает миллисекунды с 01 января 1970
+  - [`date.toISOString()`](./Date/date.toISOString.md) преобразует объект Date в строку формата iso
+  - [`date.toLocaleDateString()`](./Date/date.toLocaleDateString.md) преобразует объект Date в строку различных форматов
+  - [`date.toLocaleTimeString()`](./Date/date.toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
+  - [`date.toUTCString()`](./Date/date.toUTCString.md) преобразует объект Date в строку в формате UTC
 
 ## [DOCUMENT](#оглавление)
 

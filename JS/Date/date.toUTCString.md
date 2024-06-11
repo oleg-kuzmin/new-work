@@ -1,4 +1,4 @@
-# `.toUTCString()`
+# `date.toUTCString()`
 
 Возвращает дату в формате utc.
 

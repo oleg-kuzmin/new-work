@@ -1,11 +1,11 @@
-# `setFullYear()`
+# `date.setFullYear()`
 
 Устанавливает год. Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCFullYear()`.
 
 # Cинтаксис
 
 ```js
-setFullYear(yearValue, monthValue, dayValue);
+date.setFullYear(yearValue, monthValue, dayValue);
 ```
 
 ### `yearValue`

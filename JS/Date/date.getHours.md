@@ -1,4 +1,4 @@
-# `.getHours()`
+# `date.getHours()`
 
 Возвращает час (0-23). Также есть метод `getUTCHours()`.
 

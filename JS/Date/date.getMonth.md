@@ -1,4 +1,4 @@
-# `.getMonth()`
+# `date.getMonth()`
 
 Возвращает месяц (0-11). Также есть метод `getUTCMonth()`.
 

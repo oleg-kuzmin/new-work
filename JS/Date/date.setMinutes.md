@@ -1,11 +1,11 @@
-# `setMinutes()`
+# `date.setMinutes()`
 
 Устанавливает минуты (0-59). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCMinutes()`.
 
 ## Синтаксис
 
 ```js
-setMinutes(minutesValue, secondsValue, msValue);
+date.setMinutes(minutesValue, secondsValue, msValue);
 ```
 
 ### `minutesValue`

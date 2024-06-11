@@ -1,11 +1,11 @@
-# `setTime()`
+# `date.setTime()`
 
 Устанавливает значение, которое равно количеству миллисекунд, прошедших с 1 января 1970 года. Изменяет объект - экземпляр класса `new Date()`.
 
 ## Синтаксис
 
 ```js
-setTime(millisecondsValue);
+date.setTime(millisecondsValue);
 ```
 
 ### `millisecondsValue`

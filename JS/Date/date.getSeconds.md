@@ -1,4 +1,4 @@
-# `.getSeconds()`
+# `date.getSeconds()`
 
 Возвращает секунды (0-59). Также есть метод `getUTCSeconds()`.
 

@@ -1,4 +1,4 @@
-# `.getTimezoneOffset()`
+# `date.getTimezoneOffset()`
 
 Возвращает смещение в минутах между текущей часовой зоной и UTC.
 
