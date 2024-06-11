@@ -17,8 +17,8 @@
 - [Асинхронные действия](#асинхронные-действия)
 - [Array](#array)
 - [Date](#date)
+- [Document](#document)
 
-- [DOCUMENT](#document)
 - [ELEMENT](#element)
 - [EVENT](#event)
 - [EVENT.TYPE](#eventtype)
@@ -223,22 +223,22 @@
   - [`date.toLocaleTimeString()`](./Date/date.toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
   - [`date.toUTCString()`](./Date/date.toUTCString.md) преобразует объект Date в строку в формате UTC
 
-## [DOCUMENT](#оглавление)
+## [Document](#оглавление)
 
-- [`document.body`](./METHODS/DOCUMENT/document.body.md) тело страницы
-- [`document.cookie`](./METHODS/DOCUMENT/document.cookie.md) cookie страницы
-- [`document.createElement()`](./METHODS/DOCUMENT/document.createElement.md) создает элемент
-- [`document.createTextNode()`](./METHODS/DOCUMENT/document.createTextNode.md) создает текстовый узел
-- [`document.documentElement`](./METHODS/DOCUMENT/document.documentElement.md) коревой элемент страницы
-- [`document.forms`](./METHODS/DOCUMENT/document.forms.md) коллекция всех форм
-- [`document.getElementById()`](./METHODS/DOCUMENT/document.getElementById.md) поиск элемента по id
-- [`document.getElementsByClassName()`](./METHODS/DOCUMENT/document.getElementsByClassName.md) коллекция элементов по классу
-- [`document.getElementsByName()`](./METHODS/DOCUMENT/document.getElementsByName.md) коллекция элементов по имени
-- [`document.getElementsByTagName()`](./METHODS/DOCUMENT/document.getElementsByTagName.md) коллекция элементов по тегу
-- [`document.head`](./METHODS/DOCUMENT/document.head.md) голова страницы
-- [`document.querySelector()`](./METHODS/DOCUMENT/document.querySelector.md) поиск элемента по селектору
-- [`document.querySelectorAll()`](./METHODS/DOCUMENT/document.querySelectorAll.md) коллекция элементов по селектору
-- [`document.title`](./METHODS/DOCUMENT/document.title.md) заголовок страницы
+- [`document.body`](./Document/document.body.md) тело страницы
+- [`document.cookie`](./Document/document.cookie.md) cookie страницы
+- [`document.createElement()`](./Document/document.createElement.md) создает элемент
+- [`document.createTextNode()`](./Document/document.createTextNode.md) создает текстовый узел
+- [`document.documentElement`](./Document/document.documentElement.md) коревой элемент страницы
+- [`document.forms`](./Document/document.forms.md) коллекция всех форм
+- [`document.getElementById()`](./Document/document.getElementById.md) поиск элемента по id
+- [`document.getElementsByClassName()`](./Document/document.getElementsByClassName.md) коллекция элементов по классу
+- [`document.getElementsByName()`](./Document/document.getElementsByName.md) коллекция элементов по имени
+- [`document.getElementsByTagName()`](./Document/document.getElementsByTagName.md) коллекция элементов по тегу
+- [`document.head`](./Document/document.head.md) голова страницы
+- [`document.querySelector()`](./Document/document.querySelector.md) поиск элемента по селектору
+- [`document.querySelectorAll()`](./Document/document.querySelectorAll.md) коллекция элементов по селектору
+- [`document.title`](./Document/document.title.md) заголовок страницы
 
 ## [ELEMENT](#оглавление)
 
