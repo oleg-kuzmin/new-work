@@ -1,11 +1,9 @@
 # Keybindings
 
-- [keybindings](file:///C:/Users/Oleg/AppData/Roaming/Code/User/keybindings.json)
-
 Для удаления можно просто вставить пустой массив вместо того, что есть в файле.
 
 ```json
-// keybindings.json
+// C:/Users/Oleg/AppData/Roaming/Code/User/keybindings.json
 [
   {
     // Удаление - Закомментировать или раскомментировать блок
