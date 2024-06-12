@@ -1,0 +1,17 @@
+# Snippets
+
+- [snippets](file:///C:/Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets)
+
+```js
+// my-snippets.code-snippets
+{
+	"custom console": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
+		"prefix": "lg",
+		"body": [
+			"console.log($0);",
+		],
+		"description": "Log output to console"
+	},
+}
+```
