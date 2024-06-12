@@ -138,6 +138,11 @@
     // Добавление - eCSStractor Run (With BEM Nesting)
     "key": "ctrl+numpad8",
     "command": "extension.ecsstractor_port_runwithbem"
+  },
+  {
+    // Добавление - Live Server: Change Live Server workSpace
+    "key": "ctrl+numpad9",
+    "command": "extension.liveServer.changeWorkspace"
   }
 ]
 ```
