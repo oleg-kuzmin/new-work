@@ -23,4 +23,6 @@ Array.from(collection);
 ```js
 const posts = content.querySelectorAll('.post');
 const postsArray = Array.from(posts);
+
+Array.from('hello'); // ['h', 'e', 'l', 'l', 'o']
 ```

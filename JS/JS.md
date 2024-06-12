@@ -4,7 +4,7 @@
   }
 
   h1, h2 {
-    scroll-margin: 150px;
+    scroll-margin: 100px;
   }
 </style>
 
@@ -162,8 +162,9 @@
 
 - [`Array()`](./Array/Array.md) создает массив
   - [`array.length`](./Array/array.length.md) размер массива
-- [`Array.from()`](./Array/Array.from.md) создает массив из коллекции
+- [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
+- [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
 
 ### Иммутабельные методы
 

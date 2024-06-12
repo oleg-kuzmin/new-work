@@ -4,7 +4,7 @@
   }
 
   h1, h2 {
-    scroll-margin: 150px;
+    scroll-margin: 100px;
   }
 </style>
 
