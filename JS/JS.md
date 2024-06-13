@@ -303,7 +303,7 @@
 - [`element.validationMessage`](./Element/element.validationMessage.md) текст сообщения об ошибке
 - [`element.validity`](./Element/element.validity.md) объект проверки ошибок
 
-### DOM Перемещение
+### DOM Добавление, перемещение, удаление
 
 - [`element.before()`](./Element/element.before.md) добавляет, перемещает ДО узла
 - [`element.prepend()`](./Element/element.prepend.md) добавляет, перемещает в НАЧАЛО узла

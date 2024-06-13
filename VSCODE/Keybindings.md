@@ -74,6 +74,18 @@ file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   },
   {
+    // Добавление - удалить строку
+    "key": "shift+alt+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    // Удаление - удалить строку
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
     // Удаление - Live Server: Open with Live Server
     "key": "alt+l alt+o",
     "command": "-extension.liveServer.goOnline",
