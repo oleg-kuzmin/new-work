@@ -13,13 +13,23 @@ file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 		],
 		"description": "log output to console"
 	},
-	"preventDefault": {
+	"custom preventDefault": {
 		"scope": "javascript, javascriptreact, typescript, typescriptreact",
 		"prefix": "preventDefault",
 		"body": [
 			"preventDefault()",
 		],
 		"description": "preventDefault"
+	},
+	"custom forEach": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
+		"prefix": "forEach",
+		"body": [
+			"forEach(item => {",
+			"  $0",
+			"})",
+		],
+		"description": "forEach"
 	},
 }
 ```
