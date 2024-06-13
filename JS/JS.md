@@ -260,10 +260,12 @@
 - [`element.getAttribute()`](./Element/element.getAttribute.md) возвращает значение атрибута
 - [`element.hasAttribute()`](./Element/element.hasAttribute.md) проверяет наличие атрибута
 - [`element.hidden`](./Element/element.hidden.md) атрибут hidden
+- [`element.href`](./Element/element.href.md) атрибут href
+- [`element.htmlFor`](./Element/element.htmlFor.md) атрибут for
 - [`element.id`](./Element/element.id.md) атрибут id
 - [`element.removeAttribute()`](./Element/element.removeAttribute.md) удаляет атрибут
 - [`element.setAttribute()`](./Element/element.setAttribute.md) устанавливает атрибут
-- [`element.style`](./Element/element.style.md) атрибут style
+- [`element.style`](./Element/element.style.md) объект с атрибутом style
   - [`element.style.setProperty()`](./Element/element.style.setProperty.md) устанавливает стиль
 - [`element.type`](./Element/element.type.md) атрибут type
 - [`element.value`](./Element/element.value.md) атрибут value
@@ -336,11 +338,11 @@
 
 - [`element.content`](./Element/element.content.md) содержимое template
 - [`element.innerHTML`](./Element/element.innerHTML.md) содержимое с разметкой
-- [`element.innerText`](./Element/element.innerText.md) видимое текстовое содержимое
+- [`element.innerText`](./Element/element.innerText.md) текстовое содержимое (видимое)
 - [`element.insertAdjacentHTML()`](./Element/element.insertAdjacentHTML.md) вставляет разметку
 - [`element.insertAdjacentText()`](./Element/element.insertAdjacentText.md) вставляет текст
-- [`element.outerHTML`](./Element/element.outerHTML.md) видимое содержимое разметки, не изменяет сам элемент
-- [`element.textContent`](./Element/element.textContent.md) текстовое содержимое
+- [`element.outerHTML`](./Element/element.outerHTML.md) содержимое с разметкой + сам элемент
+- [`element.textContent`](./Element/element.textContent.md) текстовое содержимое (видимое и скрытое)
 
 ## [Event](#оглавление)
 
