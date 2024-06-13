@@ -305,34 +305,34 @@
 
 ### DOM Перемещение
 
-- [`element.after()`](./Element/element.after.md) добавляет, перемещает ПОСЛЕ узла
-- [`element.append()`](./Element/element.append.md) добавляет, перемещает в КОНЕЦ узла
 - [`element.before()`](./Element/element.before.md) добавляет, перемещает ДО узла
-- [`element.cloneNode()`](./Element/element.cloneNode.md) клонирует элемент
 - [`element.prepend()`](./Element/element.prepend.md) добавляет, перемещает в НАЧАЛО узла
+- [`element.append()`](./Element/element.append.md) добавляет, перемещает в КОНЕЦ узла
+- [`element.after()`](./Element/element.after.md) добавляет, перемещает ПОСЛЕ узла
+- [`element.cloneNode()`](./Element/element.cloneNode.md) клонирует элемент
 - [`element.remove()`](./Element/element.remove.md) удаляет элемент
 - [`element.replaceWith()`](./Element/element.replaceWith.md) заменяет элемент
 
 ### DOM Поиск
 
-- [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
-- [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
+- [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
 - [`element.closest()`](./Element/element.closest.md) находит ближайщего родителя по селектору
+- [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
+- [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
 - [`element.firstElementChild`](./Element/element.firstElementChild.md) первый дочерний элемент
-- [`element.getElementsByClassName()`](./Element/element.getElementsByClassName.md) HTMLCollection по классу (динамическая)
-- [`element.getElementsByTagName()`](./Element/element.getElementsByTagName.md) HTMLCollection по тегу (динамическая)
 - [`element.lastElementChild`](./Element/element.lastElementChild.md) последний дочерний элемент
 - [`element.nextElementSibling`](./Element/element.nextElementSibling.md) следующий соседний элемент
-- [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
 - [`element.previousElementSibling`](./Element/element.previousElementSibling.md) предыдущий соседний элемент
+- [`element.getElementsByClassName()`](./Element/element.getElementsByClassName.md) HTMLCollection по классу (динамическая)
+- [`element.getElementsByTagName()`](./Element/element.getElementsByTagName.md) HTMLCollection по тегу (динамическая)
 - [`element.querySelector()`](./Element/element.querySelector.md) поиск элемента по селектору
 - [`element.querySelectorAll()`](./Element/element.querySelectorAll.md) NodeList по селектору (статическая)
 
 ### DOM События
 
 - [`element.addEventListener()`](./Element/element.addEventListener.md) добавление слушателя
-- [`element.dispatchEvent()`](./Element/element.dispatchEvent.md) запускает кастомное событие
 - [`element.removeEventListener()`](./Element/element.removeEventListener.md) удаление слушателя
+- [`element.dispatchEvent()`](./Element/element.dispatchEvent.md) запускает кастомное событие
 
 ### DOM Содержимое
 
