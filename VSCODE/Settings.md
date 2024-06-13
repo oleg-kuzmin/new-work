@@ -1,5 +1,7 @@
 # Settings
 
+file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
+
 ```json
 // C:/Users/Oleg/AppData/Roaming/Code/User/settings.json
 {
@@ -326,8 +328,8 @@
   // цветовая тема по умолчанию
   "workbench.colorTheme": "Kimbie Dark",
 
-  // сохранение разделения экрана при закрытии вкладки
-  "workbench.editor.closeEmptyGroups": false,
+  // отключает сохранение разделения экрана при закрытии вкладки
+  "workbench.editor.closeEmptyGroups": true,
 
   // автоматическое закрытии редактора при удалении файла
   "workbench.editor.closeOnFileDelete": true,
@@ -388,12 +390,6 @@
 
   // подсказки частых слов в emmet
   "editor.suggest.showWords": false,
-
-  // исправление бага - не всегда работающий emmet
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
 
   // ссылка на MDN при наведении
   "html.hover.references": false,

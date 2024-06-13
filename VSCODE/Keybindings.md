@@ -2,6 +2,8 @@
 
 Для удаления можно просто вставить пустой массив вместо того, что есть в файле.
 
+file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
+
 ```json
 // C:/Users/Oleg/AppData/Roaming/Code/User/keybindings.json
 [

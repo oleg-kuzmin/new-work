@@ -1,5 +1,7 @@
 # Snippets
 
+file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
+
 ```js
 // C:/Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 {
@@ -9,7 +11,15 @@
 		"body": [
 			"console.log($0);",
 		],
-		"description": "Log output to console"
+		"description": "log output to console"
+	},
+	"preventDefault": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
+		"prefix": "preventDefault",
+		"body": [
+			"preventDefault()",
+		],
+		"description": "preventDefault"
 	},
 }
 ```
