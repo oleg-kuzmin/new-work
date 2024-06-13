@@ -294,6 +294,7 @@
 - [`element.offsetParent`](./Element/element.offsetParent.md) ближайший родитель-ориентир для рендеринга
 - [`element.offsetLeft`](./Element/element.offsetLeft.md) отступ слева от offsetParent
 - [`element.offsetTop`](./Element/element.offsetTop.md) отступ сверху от offsetParent
+- [`element.getBoundingClientRect()`](./Element/element.getBoundingClientRect.md) объект с координатами
 
 ### Форма
 
