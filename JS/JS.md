@@ -238,14 +238,14 @@
 - [`document.createElement()`](./Document/document.createElement.md) создает элемент
 - [`document.createTextNode()`](./Document/document.createTextNode.md) создает текстовый узел
 - [`document.documentElement`](./Document/document.documentElement.md) коревой элемент страницы
-- [`document.forms`](./Document/document.forms.md) коллекция всех форм
+- [`document.forms`](./Document/document.forms.md) HTMLCollection всех форм (динамическая)
 - [`document.getElementById()`](./Document/document.getElementById.md) поиск элемента по id
-- [`document.getElementsByClassName()`](./Document/document.getElementsByClassName.md) коллекция элементов по классу
-- [`document.getElementsByName()`](./Document/document.getElementsByName.md) коллекция элементов по имени
-- [`document.getElementsByTagName()`](./Document/document.getElementsByTagName.md) коллекция элементов по тегу
+- [`document.getElementsByClassName()`](./Document/document.getElementsByClassName.md) HTMLCollection по классу (динамическая)
+- [`document.getElementsByName()`](./Document/document.getElementsByName.md) NodeList по имени (динамическая)
+- [`document.getElementsByTagName()`](./Document/document.getElementsByTagName.md) HTMLCollection по тегу (динамическая)
 - [`document.head`](./Document/document.head.md) голова страницы
 - [`document.querySelector()`](./Document/document.querySelector.md) поиск элемента по селектору
-- [`document.querySelectorAll()`](./Document/document.querySelectorAll.md) коллекция элементов по селектору
+- [`document.querySelectorAll()`](./Document/document.querySelectorAll.md) NodeList по селектору (статическая)
 - [`document.title`](./Document/document.title.md) заголовок страницы
 
 ## [Element](#оглавление)
@@ -313,18 +313,18 @@
 
 ### DOM Поиск
 
-- [`element.childNodes`](./Element/element.childNodes.md) коллекция дочерних узлов
-- [`element.children`](./Element/element.children.md) коллекция дочерних элементов
+- [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
+- [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
 - [`element.closest()`](./Element/element.closest.md) находит ближайщего родителя по селектору
 - [`element.firstElementChild`](./Element/element.firstElementChild.md) первый дочерний элемент
-- [`element.getElementsByClassName()`](./Element/element.getElementsByClassName.md) коллекция элементов по классу
-- [`element.getElementsByTagName()`](./Element/element.getElementsByTagName.md) коллекция элементов по тегу
+- [`element.getElementsByClassName()`](./Element/element.getElementsByClassName.md) HTMLCollection по классу (динамическая)
+- [`element.getElementsByTagName()`](./Element/element.getElementsByTagName.md) HTMLCollection по тегу (динамическая)
 - [`element.lastElementChild`](./Element/element.lastElementChild.md) последний дочерний элемент
 - [`element.nextElementSibling`](./Element/element.nextElementSibling.md) следующий соседний элемент
 - [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
 - [`element.previousElementSibling`](./Element/element.previousElementSibling.md) предыдущий соседний элемент
 - [`element.querySelector()`](./Element/element.querySelector.md) поиск элемента по селектору
-- [`element.querySelectorAll()`](./Element/element.querySelectorAll.md) коллекция элементов по селектору
+- [`element.querySelectorAll()`](./Element/element.querySelectorAll.md) NodeList по селектору (статическая)
 
 ### DOM События
 
