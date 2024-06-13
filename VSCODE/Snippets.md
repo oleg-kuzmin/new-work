@@ -17,9 +17,17 @@ file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 		"scope": "javascript, javascriptreact, typescript, typescriptreact",
 		"prefix": "preventDefault",
 		"body": [
-			"preventDefault()",
+			"preventDefault();",
 		],
 		"description": "preventDefault"
+	},
+	"custom stopPropagation": {
+		"scope": "javascript, javascriptreact, typescript, typescriptreact",
+		"prefix": "stopPropagation",
+		"body": [
+			"stopPropagation();",
+		],
+		"description": "stopPropagation"
 	},
 	"custom forEach": {
 		"scope": "javascript, javascriptreact, typescript, typescriptreact",
@@ -27,7 +35,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 		"body": [
 			"forEach(item => {",
 			"  $0",
-			"})",
+			"});",
 		],
 		"description": "forEach"
 	},
