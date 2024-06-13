@@ -269,7 +269,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // скобки вокруг единственного параметра стрелочной функции (Prettier)
   "prettier.arrowParens": "avoid",
 
-  // пробелы в объектах между скобками
+  // пробелы в объектах между скобками (Prettier)
   "prettier.bracketSpacing": true,
 
   // всегда точка с запятой (Prettier)
@@ -280,6 +280,9 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // максимальная ширина кода (Prettier)
   "prettier.printWidth": 120,
+
+  // требует файл конфига для форматирования (Prettier)
+  "prettier.requireConfig": false,
 
   // одиночные кавычки (Prettier)
   "prettier.singleQuote": true,
