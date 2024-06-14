@@ -318,6 +318,7 @@
 
 - [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
 - [`element.closest()`](./Element/element.closest.md) находит ближайщего родителя по селектору
+- [`element.matches()`](./Element/element.matches.md) проверяет элемент на соответствие селектору
 - [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
 - [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
 - [`element.firstElementChild`](./Element/element.firstElementChild.md) первый дочерний элемент
