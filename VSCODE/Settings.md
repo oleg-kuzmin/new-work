@@ -366,7 +366,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // открытие файлов markdown по умолчанию
   "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor" // "vscode.markdown.preview.editor" || "default"
+    "*.md": "default" // "vscode.markdown.preview.editor" || "default"
   },
 
   // иконки папок в проводнике по умолчанию

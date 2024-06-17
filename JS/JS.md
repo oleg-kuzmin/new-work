@@ -127,6 +127,11 @@
 ## [Асинхронные действия](#оглавление)
 
 - [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
+- [`new XMLHttpRequest()`](<./Асинхронные действия/new XMLHttpRequest.md>) объект legacy-запроса
+  - [`request.open()`](<./Асинхронные действия/request.open.md>) 
+  - [`request.responseType`](<./Асинхронные действия/request.responseType.md>) объект запроса
+  - [`request.send()`](<./Асинхронные действия/request.send.md>) объект запросаы
+  - [`request.response`](<./Асинхронные действия/request.response.md>) объект запроса
 
 ### Fetch
 
