@@ -12,10 +12,11 @@
 
 - [`npm --version`](<./Npm/npm --version.md>) покажет версию npm
 - [`npm init`](<./Npm/npm init.md>) инициализация
-- [`npm i`](<./Npm/npm i.md>) установка пакетов
+- [`npm install`](<./Npm/npm install.md>) установка пакетов
 - [`npm list`](<./Npm/npm list.md>) список установленных пакетов (простой)
 - [`npm ls`](<./Npm/npm ls.md>) список установленных пакетов (древовидный)
 - [`npm uninstall`](<./Npm/npm uninstall.md>) удаление пакета
+- [`npm run`](<./Npm/npm run.md>) запуск скрипта
 
 ## Yarn
 
