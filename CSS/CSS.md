@@ -384,7 +384,8 @@
 
 ### transition
 
-- [`transition-property`](./Styles/transition-property.md) название свойства
-- [`transition-duration`](./Styles/transition-duration.md) время анимации
-- [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание анимации
-- [`transition-delay`](./Styles/transition-delay.md) задержка до старта
+- [`transition`](./Styles/transition.md) переход
+  - [`transition-property`](./Styles/transition-property.md) название свойства
+  - [`transition-duration`](./Styles/transition-duration.md) длительность перехода
+  - [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание перехода
+  - [`transition-delay`](./Styles/transition-delay.md) задержка до старта
