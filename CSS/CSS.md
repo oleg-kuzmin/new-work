@@ -393,3 +393,7 @@
 ### vertical-align
 
 - [`vertical-align`](./Styles/vertical-align.md) вертикальное выравнивание inline-элементов
+
+### visibility
+
+- [`visibility`](./Styles/visibility.md) видимость
