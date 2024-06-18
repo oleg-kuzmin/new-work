@@ -18,4 +18,5 @@ npm i -D scss
 
 # установит пакет 'scss' локально как dev-зависимость
 npm i -D scss
+npm i scss --save-dev
 ```

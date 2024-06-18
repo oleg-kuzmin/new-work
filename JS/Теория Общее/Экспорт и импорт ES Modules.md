@@ -1,4 +1,4 @@
-# Экспорт и импорт
+# Экспорт и импорт ES Modules
 
 ## По умолчанию
 
@@ -13,8 +13,11 @@ import renderItems from './render-items.js';
 ## Именованный
 
 ```js
-// Экспорт одного файла
+// Экспорт одного файла (пишем export рядом с названием)
 export function renderItems() {}
+
+// Экспорт одного файла (пишем export внизу файла)
+export { renderItems };
 
 // Импорт одного файла
 import { str } from './lib.js';
