@@ -550,6 +550,7 @@
   - [`window.localStorage.length`](./Window/window.localStorage.length.md) количество записей в хранилище
   - [`window.localStorage.removeItem()`](./Window/window.localStorage.removeItem.md) удаление записи из хранилища
   - [`window.localStorage.setItem()`](./Window/window.localStorage.setItem.md) сохранение данных в хранилище
+- [`window.matchMedia()`](./Window/window.matchMedia.md) возвращает медиа-объект
 - [`window.navigator`](./Window/window.navigator.md) объект описания приложения
   - [`window.navigator.cookieEnabled`](./Window/window.navigator.cookieEnabled.md) включена ли поддержка cookie
   - [`window.navigator.geolocation`](./Window/window.navigator.geolocation.md) объект геолокации
