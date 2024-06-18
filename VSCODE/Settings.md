@@ -328,7 +328,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     "[Kimbie Dark]": {
       // "editorIndentGuide.activeBackground1": "#681214", // цвет активной вертикальной линии редактора
       // "editorIndentGuide.background1": "#681214", // цвет вертикальной линии редактора
-      "gitDecoration.ignoredResourceForeground": "#cccccc", // цвет игнорируемых файлов git
+      // "gitDecoration.ignoredResourceForeground": "#cccccc", // цвет игнорируемых файлов git
       "tab.activeBackground": "#5e4416", // цвет вкладки файла
       "tab.activeBorder": "#cc8d21", // граница вкладки файла
       "editorGutter.modifiedBackground": "#0000", // цвет вертикальной полоски измененных файлов git
