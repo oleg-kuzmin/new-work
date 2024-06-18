@@ -10,6 +10,7 @@
 
 ## Npm
 
+- [`npm --version`](<./Npm/npm --version.md>) покажет версию npm
 - [`npm init`](<./Npm/npm init.md>) инициализация
 - [`npm i`](<./Npm/npm i.md>) установка пакетов
 - [`npm list`](<./Npm/npm list.md>) список установленных пакетов (простой)
