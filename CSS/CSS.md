@@ -390,6 +390,6 @@
   - [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание перехода
   - [`transition-delay`](./Styles/transition-delay.md) задержка до старта
 
-###
+### vertical-align
 
 - [`vertical-align`](./Styles/vertical-align.md) вертикальное выравнивание inline-элементов
