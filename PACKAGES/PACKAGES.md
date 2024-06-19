@@ -8,6 +8,10 @@
   }
 </style>
 
+## Общее
+
+- [`package.json`](./package.md) описание файла
+
 ## Npm
 
 - [`npm -v`](<./Команды/npm -v.md>) покажет версию npm
