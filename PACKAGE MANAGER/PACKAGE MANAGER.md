@@ -10,18 +10,22 @@
 
 ## Npm
 
-- [`npm --version`](<./Npm/npm --version.md>) покажет версию npm
-- [`npm init`](<./Npm/npm init.md>) инициализация
-- [`npm install`](<./Npm/npm install.md>) установка пакетов
-- [`npm list`](<./Npm/npm list.md>) список установленных пакетов (простой)
-- [`npm ls`](<./Npm/npm ls.md>) список установленных пакетов (древовидный)
-- [`npm uninstall`](<./Npm/npm uninstall.md>) удаление пакета
-- [`npm run`](<./Npm/npm run.md>) запуск скрипта
+- [`npm -v`](<./Команды/npm -v.md>) покажет версию npm
+- [`npm init`](<./Команды/npm init.md>) инициализация
+- [`npm i`](<./Команды/npm i.md>) установка пакетов
+- [`npm list`](<./Команды/npm list.md>) список установленных пакетов (простой)
+- [`npm ls`](<./Команды/npm ls.md>) список установленных пакетов (древовидный)
+- [`npm uninstall`](<./Команды/npm uninstall.md>) удаление пакета
+- [`npm run`](<./Команды/npm run.md>) запуск скрипта
 
 ## Yarn
 
-- [`yarn init`](<./Yarn/yarn init.md>) инициализация
-- [`yarn`](<./Yarn/yarn && yarn install.md>) установка пакетов
-- [`yarn install`](<./Yarn/yarn && yarn install.md>) установка пакетов
-- [`yarn add`](<./Yarn/yarn add.md>) установка пакета
-- [`yarn remove`](<./Yarn/yarn remove.md>) удаление пакета
+- [`yarn init`](<./Команды/yarn init.md>) инициализация
+- [`yarn`](<./Команды/yarn && yarn install.md>) установка пакетов
+- [`yarn install`](<./Команды/yarn && yarn install.md>) установка пакетов
+- [`yarn add`](<./Команды/yarn add.md>) установка пакета
+- [`yarn remove`](<./Команды/yarn remove.md>) удаление пакета
+
+## Node
+
+- [`node -v`](<./Команды/node -v.md>) покажет версию node
