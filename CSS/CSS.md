@@ -401,3 +401,5 @@
 ### width
 
 - [`width`](./Styles/width.md) ширина
+- [`max-width`](./Styles/max-width.md) максимальная ширина
+- [`min-width`](./Styles/min-width.md) минимальная ширина
