@@ -6,15 +6,15 @@
 # установит все зависимости в соответствии с package.json
 npm i
 
-# установит пакет 'scss' глобально
-npm i -g scss
+# установит пакет 'scss' локально как dev-зависимость
+npm i scss -D
+npm i scss --save-dev
 
 # установит пакет 'scss' локально как prod-зависимость
-npm i -D scss
+npm i scss
 
-# установит пакет 'scss' локально как dev-зависимость
-npm i -D scss
-npm i scss --save-dev
+# установит пакет 'scss' глобально
+npm i scss -g
 
 # полная запись
 npm install
