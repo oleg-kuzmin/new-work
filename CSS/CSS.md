@@ -397,3 +397,7 @@
 ### visibility
 
 - [`visibility`](./Styles/visibility.md) видимость
+
+### width
+
+- [`width`](./Styles/width.md) ширина
