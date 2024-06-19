@@ -500,6 +500,7 @@
 
 ## [String](#оглавление)
 
+- [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
   - [`string.charAt()`](./String/string.charAt.md) получение ключа по индексу
   - [`string.endsWith()`](./String/string.endsWith.md) сравнивает конец строки с аргументом
@@ -519,7 +520,6 @@
   - [`string.toLowerCase()`](./String/string.toLowerCase.md) приводит к нижнему регистру
   - [`string.toUpperCase()`](./String/string.toUpperCase.md) приводит к верхнему регистр
   - [`string.trim()`](./String/string.trim.md) очистка от пробелов
-- [`new String()`](<./String/new String.md>) создает объект String
 
 ### String => Number
 
