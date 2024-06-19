@@ -14,3 +14,20 @@ JavaScript часто описывают как язык прототипног�
 // Метод split() для строк сохранен здесь:
 String.prototype.split;
 ```
+
+Добавление метода в prototype
+
+```js
+function Player(login, score = 100) {
+  this.login = login;
+  this.score = score;
+}
+
+Player.prototype.increaseScore = function (num = 10) {
+  this.score += num;
+};
+
+Player.prototype.decreaseScore = function (num = 10) {
+  this.score -= num;
+};
+```
