@@ -61,6 +61,7 @@
 - [`npm list`](<./Gitbash/npm list.md>) список установленных пакетов (простой)
 - [`npm ls`](<./Gitbash/npm ls.md>) список установленных пакетов (древовидный)
 - [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
+- [`npm outdated`](<./Gitbash/npm outdated.md>) покажет устаревшие пакеты
 - [`npm run`](<./Gitbash/npm run.md>) запуск скрипта
 
 ### Yarn
