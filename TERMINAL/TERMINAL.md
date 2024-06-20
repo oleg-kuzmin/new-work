@@ -30,8 +30,8 @@
 ### Репозиторий
 
 - [`git clone`](<./Git/git clone.md>) клонирование удаленного репозитория
-- [`git init`](<./Git/git init.md>) инициализация локального репозитория
 - [`git fetch`](<./Git/git fetch.md>) сравнивает удаленный репозиторий с локальным
+- [`git init`](<./Git/git init.md>) инициализация локального репозитория
 - [`git pull`](<./Git/git pull.md>) забирает изменения из удаленного репозитория
 - [`git push`](<./Git/git push.md>) отправка изменений в удаленный репозиторий
 - [`git remote`](<./Git/git remote.md>) привязка удаленного репозитория с локальным
@@ -56,22 +56,22 @@
 ### Npm
 
 - [`npm -v`](<./Gitbash/npm -v.md>) покажет версию npm
-- [`npm init`](<./Gitbash/npm init.md>) инициализация
 - [`npm i`](<./Gitbash/npm i.md>) установка пакетов
+- [`npm init`](<./Gitbash/npm init.md>) инициализация
 - [`npm list`](<./Gitbash/npm list.md>) список установленных пакетов (простой)
 - [`npm ls`](<./Gitbash/npm ls.md>) список установленных пакетов (древовидный)
-- [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
 - [`npm outdated`](<./Gitbash/npm outdated.md>) покажет устаревшие пакеты
 - [`npm run`](<./Gitbash/npm run.md>) запуск скрипта
+- [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
 
 ### Yarn
 
-- [`yarn init`](<./Gitbash/yarn init.md>) инициализация
-- [`yarn`](<./Gitbash/yarn && yarn install.md>) установка пакетов
-- [`yarn install`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 - [`yarn add`](<./Gitbash/yarn add.md>) установка пакета
+- [`yarn init`](<./Gitbash/yarn init.md>) инициализация
+- [`yarn install`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 - [`yarn remove`](<./Gitbash/yarn remove.md>) удаление пакета
+- [`yarn`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 
 ### Node
 
-- [`node -v`](<./Gitbash/node -v.md>) покажет версию node
+<!-- - [`node -v`](<./Gitbash/node -v.md>) покажет версию node -->
