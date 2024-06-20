@@ -407,3 +407,7 @@
 ### writing-mode
 
 - [`writing-mode`](./Styles/writing-mode.md) направление потока
+
+### z-index
+
+- [`z-index`](./Styles/z-index.md) порядок наложения элементов
