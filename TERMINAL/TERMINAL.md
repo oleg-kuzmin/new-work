@@ -52,11 +52,13 @@
 - [`ls`](./Gitbash/ls.md) посмотреть содержимое каталога
 - [`mkdir`](./Gitbash/mkdir.md) создать каталог
 - [`mv`](./Gitbash/mv.md) переместить файл
+- [`nano`](./Gitbash/nano.md) откроет редактор кода nano
 - [`pwd`](./Gitbash/pwd.md) показать текущий каталог
 - [`rm`](./Gitbash/rm.md) удалить файл/каталог с файлами
 - [`rmdir`](./Gitbash/rmdir.md) удалить пустой каталог
 - [`tail`](./Gitbash/tail.md) выводит конец файла
 - [`touch`](./Gitbash/touch.md) создать файл
+- [`vim`](./Gitbash/vim.md) откроет редактор кода vim
 
 ### Npm
 
