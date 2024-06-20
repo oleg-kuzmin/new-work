@@ -46,6 +46,7 @@
 - [`cd`](./Gitbash/cd.md) сменить каталог
 - [`code`](./Gitbash/code.md) откроет редактор кода по умолчанию
 - [`cp`](./Gitbash/cp.md) скопировать файл
+- [`less`](./Gitbash/less.md) чтение файла
 - [`ls`](./Gitbash/ls.md) посмотреть содержимое каталога
 - [`mkdir`](./Gitbash/mkdir.md) создать каталог
 - [`mv`](./Gitbash/mv.md) переместить файл
