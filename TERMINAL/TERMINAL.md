@@ -44,6 +44,7 @@
 
 - [`cat`](./Gitbash/cat.md) посмотреть содержимое файла
 - [`cd`](./Gitbash/cd.md) сменить каталог
+- [`code`](./Gitbash/code.md) откроет редактор кода по умолчанию
 - [`cp`](./Gitbash/cp.md) скопировать файл
 - [`ls`](./Gitbash/ls.md) посмотреть содержимое каталога
 - [`mkdir`](./Gitbash/mkdir.md) создать каталог
