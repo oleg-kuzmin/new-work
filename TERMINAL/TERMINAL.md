@@ -42,17 +42,20 @@
 
 ### Файлы и папки
 
-- [`cat`](./Gitbash/cat.md) посмотреть содержимое файла
+- [`cat`](./Gitbash/cat.md) выводит содержимое файла
 - [`cd`](./Gitbash/cd.md) сменить каталог
 - [`code`](./Gitbash/code.md) откроет редактор кода по умолчанию
 - [`cp`](./Gitbash/cp.md) скопировать файл
-- [`less`](./Gitbash/less.md) чтение файла
+- [`echo`](./Gitbash/echo.md) выводит содержимое, перезаписывает, добавляет в файл
+- [`head`](./Gitbash/head.md) выводит начало файла
+- [`less`](./Gitbash/less.md) выводит содержимое файла
 - [`ls`](./Gitbash/ls.md) посмотреть содержимое каталога
 - [`mkdir`](./Gitbash/mkdir.md) создать каталог
 - [`mv`](./Gitbash/mv.md) переместить файл
 - [`pwd`](./Gitbash/pwd.md) показать текущий каталог
 - [`rm`](./Gitbash/rm.md) удалить файл/каталог с файлами
 - [`rmdir`](./Gitbash/rmdir.md) удалить пустой каталог
+- [`tail`](./Gitbash/tail.md) выводит конец файла
 - [`touch`](./Gitbash/touch.md) создать файл
 
 ### Npm
