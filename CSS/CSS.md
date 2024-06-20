@@ -403,3 +403,7 @@
 - [`width`](./Styles/width.md) ширина
 - [`max-width`](./Styles/max-width.md) максимальная ширина
 - [`min-width`](./Styles/min-width.md) минимальная ширина
+
+### writing-mode
+
+- [`writing-mode`](./Styles/writing-mode.md) направление потока
