@@ -10,17 +10,17 @@
 
 # Оглавление
 
+- [Асинхронные действия](#асинхронные-действия)
+- [Операторы](#операторы)
 - [Теория Общее](#теория-общее)
 - [Теория ООП](#теория-ооп)
-- [Операторы](#операторы)
 - [Циклы](#циклы)
-- [Асинхронные действия](#асинхронные-действия)
 - [Array](#array)
 - [Date](#date)
 - [Document](#document)
 - [Element](#element)
-- [Event](#event)
 - [Event.type](#eventtype)
+- [Event](#event)
 - [Function](#function)
 - [Map](#map)
 - [Number](#number)
@@ -30,42 +30,44 @@
 - [String](#string)
 - [Window](#window)
 
-## [Теория Общее](#оглавление)
+## [Асинхронные действия](#оглавление)
 
-- [`Деструктуризация`](<./Теория Общее/Деструктуризация.md>)
-- [`Замыкания`](<./Теория Общее/Замыкания.md>)
-- [`Определение типа`](<./Теория Общее/Определение типа.md>)
-- [`Ошибки`](<./Теория Общее/Ошибки.md>)
-- [`Переменные const, let и var`](<./Теория Общее/Переменные const, let и var.md>)
-- [`Преобразование (логическое)`](<./Теория Общее/Преобразование (логическое).md>)
-- [`Преобразование (строковое)`](<./Теория Общее/Преобразование (строковое).md>)
-- [`Преобразование (численное)`](<./Теория Общее/Преобразование (численное).md>)
-- [`Словарь`](<./Теория Общее/Словарь.md>)
-- [`Тип BigInt`](<./Теория Общее/Тип BigInt.md>)
-- [`Тип Boolean`](<./Теория Общее/Тип Boolean.md>)
-- [`Тип Null`](<./Теория Общее/Тип Null.md>)
-- [`Тип Number`](<./Теория Общее/Тип Number.md>)
-- [`Тип Object`](<./Теория Общее/Тип Object.md>)
-- [`Тип String`](<./Теория Общее/Тип String.md>)
-- [`Тип Symbol`](<./Теория Общее/Тип Symbol.md>)
-- [`Тип Undefined`](<./Теория Общее/Тип Undefined.md>)
-- [`Условные конструкции`](<./Теория Общее/Условные конструкции.md>)
-- [`Функции`](<./Теория Общее/Функции.md>)
-- [`Экспорт и импорт CommonJS`](<./Теория Общее/Экспорт и импорт CommonJS.md>)
-- [`Экспорт и импорт ES Modules`](<./Теория Общее/Экспорт и импорт ES Modules.md>)
+- [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
+- [`new XMLHttpRequest()`](<./Асинхронные действия/new XMLHttpRequest.md>) объект legacy-запроса
+  - [`request.open()`](<./Асинхронные действия/request.open.md>) создает запрос
+  - [`request.response`](<./Асинхронные действия/request.response.md>) объект ответа
+  - [`request.responseType`](<./Асинхронные действия/request.responseType.md>) тип ответа
+  - [`request.send()`](<./Асинхронные действия/request.send.md>) отправляет запрос
 
-## [Теория ООП](#оглавление)
+### Fetch
 
-- [`Наследование`](<./Теория ООП/Наследование.md>)
-- [`Полиморфизм`](<./Теория ООП/Полиморфизм.md>)
-- [`Приватные поля`](<./Теория ООП/Приватные поля.md>)
-- [`Принципы ООП`](<./Теория ООП/Принципы ООП.md>)
-- [`Создание класса`](<./Теория ООП/Создание класса.md>)
-- [`Создание экземпляра класса`](<./Теория ООП/Создание экземпляра класса.md>)
-- [`Статические свойства и методы`](<./Теория ООП/Статические свойства и методы.md>)
-- [`Теория ООП`](<./Теория ООП/Теория ООП.md>)
-- [`Что такое this`](<./Теория ООП/Что такое this.md>)
-- [`Get и Set`](<./Теория ООП/Get и Set.md>)
+- [`fetch()`](<./Асинхронные действия/fetch.md>) запрос на сервер
+  - [`responce.blob()`](<./Асинхронные действия/responce.blob.md>) преобразует json-ответ в бинарные данные
+  - [`responce.headers.get()`](<./Асинхронные действия/responce.headers.get.md>) получает значение заголовка
+  - [`responce.json()`](<./Асинхронные действия/responce.json.md>) преобразует json-ответ в объект js
+  - [`responce.ok`](<./Асинхронные действия/responce.ok.md>) успешность ответа
+  - [`responce.status`](<./Асинхронные действия/responce.status.md>) статус ответа
+  - [`responce.statusText`](<./Асинхронные действия/responce.statusText.md>) сообщение статуса ответа
+  - [`responce.text()`](<./Асинхронные действия/responce.text.md>) преобразует json-ответ в текст
+
+### Promise
+
+- [`new Promise()`](<./Асинхронные действия/new Promise.md>) создает promise
+  - [`promise.catch()`](<./Асинхронные действия/promise.catch.md>) обработчик отклоненного promise
+  - [`promise.finally()`](<./Асинхронные действия/promise.finally.md>) обработчик завершенного promise
+  - [`promise.then()`](<./Асинхронные действия/promise.then.md>) обработчик выполненного promise
+- [`Promise.all()`](<./Асинхронные действия/Promise.all.md>) все promise выполнены
+- [`Promise.allSettled()`](<./Асинхронные действия/Promise.allSettled.md>) все promise завершены
+- [`Promise.any()`](<./Асинхронные действия/Promise.any.md>) первый выполненный promise
+- [`Promise.race()`](<./Асинхронные действия/Promise.race.md>) первый завершенный promise
+- [`Promise.reject()`](<./Асинхронные действия/Promise.reject.md>) создает отклоненный promise
+- [`Promise.resolve()`](<./Асинхронные действия/Promise.resolve.md>) создает выполненный promise
+
+### JSON
+
+- [`JSON`](<./Асинхронные действия/JSON.md>) формат обмена данными
+  - [`JSON.parse()`](<./Асинхронные действия/JSON.parse.md>) преобразует JSON в объект
+  - [`JSON.stringify()`](<./Асинхронные действия/JSON.stringify.md>) преобразует объект в JSON
 
 ## [Операторы](#оглавление)
 
@@ -119,6 +121,43 @@
 
 - [`.. ? .. : ..`](<./Операторы/Тернарный оператор.md>) тернарный оператор (2)
 
+## [Теория Общее](#оглавление)
+
+- [`Деструктуризация`](<./Теория Общее/Деструктуризация.md>)
+- [`Замыкания`](<./Теория Общее/Замыкания.md>)
+- [`Определение типа`](<./Теория Общее/Определение типа.md>)
+- [`Ошибки`](<./Теория Общее/Ошибки.md>)
+- [`Переменные const, let и var`](<./Теория Общее/Переменные const, let и var.md>)
+- [`Преобразование (логическое)`](<./Теория Общее/Преобразование (логическое).md>)
+- [`Преобразование (строковое)`](<./Теория Общее/Преобразование (строковое).md>)
+- [`Преобразование (численное)`](<./Теория Общее/Преобразование (численное).md>)
+- [`Словарь`](<./Теория Общее/Словарь.md>)
+- [`Тип BigInt`](<./Теория Общее/Тип BigInt.md>)
+- [`Тип Boolean`](<./Теория Общее/Тип Boolean.md>)
+- [`Тип Null`](<./Теория Общее/Тип Null.md>)
+- [`Тип Number`](<./Теория Общее/Тип Number.md>)
+- [`Тип Object`](<./Теория Общее/Тип Object.md>)
+- [`Тип String`](<./Теория Общее/Тип String.md>)
+- [`Тип Symbol`](<./Теория Общее/Тип Symbol.md>)
+- [`Тип Undefined`](<./Теория Общее/Тип Undefined.md>)
+- [`Условные конструкции`](<./Теория Общее/Условные конструкции.md>)
+- [`Функции`](<./Теория Общее/Функции.md>)
+- [`Экспорт и импорт CommonJS`](<./Теория Общее/Экспорт и импорт CommonJS.md>)
+- [`Экспорт и импорт ES Modules`](<./Теория Общее/Экспорт и импорт ES Modules.md>)
+
+## [Теория ООП](#оглавление)
+
+- [`Наследование`](<./Теория ООП/Наследование.md>)
+- [`Полиморфизм`](<./Теория ООП/Полиморфизм.md>)
+- [`Приватные поля`](<./Теория ООП/Приватные поля.md>)
+- [`Принципы ООП`](<./Теория ООП/Принципы ООП.md>)
+- [`Создание класса`](<./Теория ООП/Создание класса.md>)
+- [`Создание экземпляра класса`](<./Теория ООП/Создание экземпляра класса.md>)
+- [`Статические свойства и методы`](<./Теория ООП/Статические свойства и методы.md>)
+- [`Теория ООП`](<./Теория ООП/Теория ООП.md>)
+- [`Что такое this`](<./Теория ООП/Что такое this.md>)
+- [`Get и Set`](<./Теория ООП/Get и Set.md>)
+
 ## [Циклы](#оглавление)
 
 - [`while`](./Циклы/while.md) проверка условия до первой итерации
@@ -126,45 +165,6 @@
 - [`for`](./Циклы/for.md) цикл со счетчиком
 - [`for in`](<./Циклы/for in.md>) обход свойств объекта
 - [`for of`](<./Циклы/for of.md>) обход свойств массива, итерируемого объекта, коллекции
-
-## [Асинхронные действия](#оглавление)
-
-- [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
-- [`new XMLHttpRequest()`](<./Асинхронные действия/new XMLHttpRequest.md>) объект legacy-запроса
-  - [`request.open()`](<./Асинхронные действия/request.open.md>) создает запрос
-  - [`request.responseType`](<./Асинхронные действия/request.responseType.md>) тип ответа
-  - [`request.send()`](<./Асинхронные действия/request.send.md>) отправляет запрос
-  - [`request.response`](<./Асинхронные действия/request.response.md>) объект ответа
-
-### Fetch
-
-- [`fetch()`](<./Асинхронные действия/fetch.md>) запрос на сервер
-  - [`responce.ok`](<./Асинхронные действия/responce.ok.md>) успешность ответа
-  - [`responce.status`](<./Асинхронные действия/responce.status.md>) статус ответа
-  - [`responce.statusText`](<./Асинхронные действия/responce.statusText.md>) сообщение статуса ответа
-  - [`responce.json()`](<./Асинхронные действия/responce.json.md>) преобразует json-ответ в объект js
-  - [`responce.text()`](<./Асинхронные действия/responce.text.md>) преобразует json-ответ в текст
-  - [`responce.blob()`](<./Асинхронные действия/responce.blob.md>) преобразует json-ответ в бинарные данные
-  - [`responce.headers.get()`](<./Асинхронные действия/responce.headers.get.md>) получает значение заголовка
-
-### Promise
-
-- [`new Promise()`](<./Асинхронные действия/new Promise.md>) создает promise
-  - [`promise.then()`](<./Асинхронные действия/promise.then.md>) обработчик выполненного promise
-  - [`promise.catch()`](<./Асинхронные действия/promise.catch.md>) обработчик отклоненного promise
-  - [`promise.finally()`](<./Асинхронные действия/promise.finally.md>) обработчик завершенного promise
-- [`Promise.resolve()`](<./Асинхронные действия/Promise.resolve.md>) создает выполненный promise
-- [`Promise.reject()`](<./Асинхронные действия/Promise.reject.md>) создает отклоненный promise
-- [`Promise.all()`](<./Асинхронные действия/Promise.all.md>) все promise выполнены
-- [`Promise.allSettled()`](<./Асинхронные действия/Promise.allSettled.md>) все promise завершены
-- [`Promise.any()`](<./Асинхронные действия/Promise.any.md>) первый выполненный promise
-- [`Promise.race()`](<./Асинхронные действия/Promise.race.md>) первый завершенный promise
-
-### JSON
-
-- [`JSON`](<./Асинхронные действия/JSON.md>) формат обмена данными
-  - [`JSON.stringify()`](<./Асинхронные действия/JSON.stringify.md>) преобразует объект в JSON
-  - [`JSON.parse()`](<./Асинхронные действия/JSON.parse.md>) преобразует JSON в объект
 
 ## [Array](#оглавление)
 
@@ -290,19 +290,19 @@
 ### Метрики
 
 - [`element.clientHeight`](./Element/element.clientHeight.md) высота (content + padding)
-- [`element.clientWidth`](./Element/element.clientWidth.md) ширина (content + padding)
 - [`element.clientLeft`](./Element/element.clientLeft.md) отступ сверху (border)
 - [`element.clientTop`](./Element/element.clientTop.md) отступ сверху (border)
-- [`element.scrollHeight`](./Element/element.scrollHeight.md) высота (content + padding + scrollBar)
-- [`element.scrollWidth`](./Element/element.scrollWidth.md) ширина (content + padding + scrollBar)
+- [`element.clientWidth`](./Element/element.clientWidth.md) ширина (content + padding)
+- [`element.getBoundingClientRect()`](./Element/element.getBoundingClientRect.md) объект с координатами
 - [`element.offsetHeight`](./Element/element.offsetHeight.md) высота (content + padding + scrollBar + border)
+- [`element.offsetLeft`](./Element/element.offsetLeft.md) отступ слева от offsetParent
+- [`element.offsetParent`](./Element/element.offsetParent.md) ближайший родитель-ориентир для рендеринга
+- [`element.offsetTop`](./Element/element.offsetTop.md) отступ сверху от offsetParent
 - [`element.offsetWidth`](./Element/element.offsetWidth.md) ширина (content + padding + scrollBar + border)
+- [`element.scrollHeight`](./Element/element.scrollHeight.md) высота (content + padding + scrollBar)
 - [`element.scrollLeft`](./Element/element.scrollLeft.md) ширина прокрученной области
 - [`element.scrollTop`](./Element/element.scrollTop.md) высота прокрученной области
-- [`element.offsetParent`](./Element/element.offsetParent.md) ближайший родитель-ориентир для рендеринга
-- [`element.offsetLeft`](./Element/element.offsetLeft.md) отступ слева от offsetParent
-- [`element.offsetTop`](./Element/element.offsetTop.md) отступ сверху от offsetParent
-- [`element.getBoundingClientRect()`](./Element/element.getBoundingClientRect.md) объект с координатами
+- [`element.scrollWidth`](./Element/element.scrollWidth.md) ширина (content + padding + scrollBar)
 
 ### Форма
 
@@ -314,35 +314,35 @@
 
 ### DOM Добавление, перемещение, удаление
 
-- [`element.before()`](./Element/element.before.md) добавляет, перемещает ДО узла
-- [`element.prepend()`](./Element/element.prepend.md) добавляет, перемещает в НАЧАЛО узла
-- [`element.append()`](./Element/element.append.md) добавляет, перемещает в КОНЕЦ узла
 - [`element.after()`](./Element/element.after.md) добавляет, перемещает ПОСЛЕ узла
+- [`element.append()`](./Element/element.append.md) добавляет, перемещает в КОНЕЦ узла
+- [`element.before()`](./Element/element.before.md) добавляет, перемещает ДО узла
 - [`element.cloneNode()`](./Element/element.cloneNode.md) клонирует элемент
+- [`element.prepend()`](./Element/element.prepend.md) добавляет, перемещает в НАЧАЛО узла
 - [`element.remove()`](./Element/element.remove.md) удаляет элемент
 - [`element.replaceWith()`](./Element/element.replaceWith.md) заменяет элемент
 
 ### DOM Поиск
 
-- [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
-- [`element.closest()`](./Element/element.closest.md) находит ближайщего родителя по селектору
-- [`element.matches()`](./Element/element.matches.md) проверяет элемент на соответствие селектору
-- [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
 - [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
+- [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
+- [`element.closest()`](./Element/element.closest.md) находит ближайщего родителя по селектору
 - [`element.firstElementChild`](./Element/element.firstElementChild.md) первый дочерний элемент
-- [`element.lastElementChild`](./Element/element.lastElementChild.md) последний дочерний элемент
-- [`element.nextElementSibling`](./Element/element.nextElementSibling.md) следующий соседний элемент
-- [`element.previousElementSibling`](./Element/element.previousElementSibling.md) предыдущий соседний элемент
 - [`element.getElementsByClassName()`](./Element/element.getElementsByClassName.md) HTMLCollection по классу (динамическая)
 - [`element.getElementsByTagName()`](./Element/element.getElementsByTagName.md) HTMLCollection по тегу (динамическая)
+- [`element.lastElementChild`](./Element/element.lastElementChild.md) последний дочерний элемент
+- [`element.matches()`](./Element/element.matches.md) проверяет элемент на соответствие селектору
+- [`element.nextElementSibling`](./Element/element.nextElementSibling.md) следующий соседний элемент
+- [`element.parentElement`](./Element/element.parentElement.md) ближайший родитель
+- [`element.previousElementSibling`](./Element/element.previousElementSibling.md) предыдущий соседний элемент
 - [`element.querySelector()`](./Element/element.querySelector.md) поиск элемента по селектору
 - [`element.querySelectorAll()`](./Element/element.querySelectorAll.md) NodeList по селектору (статическая)
 
 ### DOM События
 
 - [`element.addEventListener()`](./Element/element.addEventListener.md) добавление слушателя
-- [`element.removeEventListener()`](./Element/element.removeEventListener.md) удаление слушателя
 - [`element.dispatchEvent()`](./Element/element.dispatchEvent.md) запускает кастомное событие
+- [`element.removeEventListener()`](./Element/element.removeEventListener.md) удаление слушателя
 
 ### DOM Содержимое
 
@@ -353,6 +353,35 @@
 - [`element.insertAdjacentText()`](./Element/element.insertAdjacentText.md) вставляет текст
 - [`element.outerHTML`](./Element/element.outerHTML.md) содержимое с разметкой + сам элемент
 - [`element.textContent`](./Element/element.textContent.md) текстовое содержимое (видимое и скрытое)
+
+## [Event.type](#оглавление)
+
+- [`blur`](<./Event Type/blur.md>) снятие фокуса
+- [`change`](<./Event Type/change.md>) изменение и фиксирование значения
+- [`click`](<./Event Type/click.md>) левая кнопка мыши нажата и отпущена
+- [`contextmenu`](<./Event Type/contextmenu.md>) нажатие правой кнопки мыши
+- [`dblclick`](<./Event Type/dblclick.md>) два события click подряд
+- [`DOMContentLoaded`](<./Event Type/DOMContentLoaded.md>) dom подготовлен
+- [`focus`](<./Event Type/focus.md>) установление фокуса
+- [`input`](<./Event Type/input.md>) изменение значения
+- [`keydown`](<./Event Type/keydown.md>) нажатие на любую клавишу
+- [`keypress`](<./Event Type/keypress.md>) нажатие на клавишу не-модификатор
+- [`keyup`](<./Event Type/keyup.md>) отпускание любой клавиши
+- [`load`](<./Event Type/load.md>) html и ресурсы заружены
+- [`mousedown`](<./Event Type/mousedown.md>) нажатие любой кнопки мыши
+- [`mousemove`](<./Event Type/mousemove.md>) движение мыши над элементом
+- [`mouseout`](<./Event Type/mouseout.md>) убирание курсора мыши
+- [`mouseover`](<./Event Type/mouseover.md>) наведение курсора мыши
+- [`mouseup`](<./Event Type/mouseup.md>) отпускание любой кнопки мыши
+- [`offline`](<./Event Type/offline.md>) отключение интернета
+- [`onresize`](<./Event Type/resize.md>) изменение окна браузера
+- [`orientationchange`](<./Event Type/orientationchange.md>) изменение ориентации экрана
+- [`pointermove`](<./Event Type/pointermove.md>) движение мыши в любом месте
+- [`scroll`](<./Event Type/scroll.md>) прокрутка страницы
+- [`storage`](<./Event Type/storage.md>) обновление local или session storage
+- [`submit`](<./Event Type/submit.md>) отправка формы
+- [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
+- [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
 ## [Event](#оглавление)
 
@@ -380,35 +409,6 @@
   - [`evt.timeStamp`](./Event/evt.timeStamp.md) время возникновения события
   - [`evt.type`](./Event/evt.type.md) тип события
   - [`evt.view`](./Event/evt.view.md) объект window где произошло событие
-
-## [Event.type](#оглавление)
-
-- [`blur`](<./Event Type/blur.md>) снятие фокуса
-- [`change`](<./Event Type/change.md>) изменение и фиксирование значения
-- [`click`](<./Event Type/click.md>) левая кнопка мыши нажата и отпущена
-- [`contextmenu`](<./Event Type/contextmenu.md>) нажатие правой кнопки мыши
-- [`dblclick`](<./Event Type/dblclick.md>) два события click подряд
-- [`DOMContentLoaded`](<./Event Type/DOMContentLoaded.md>) dom подготовлен
-- [`focus`](<./Event Type/focus.md>) установление фокуса
-- [`input`](<./Event Type/input.md>) изменение значения
-- [`keydown`](<./Event Type/keydown.md>) нажатие на любую клавишу
-- [`keypress`](<./Event Type/keypress.md>) нажатие на клавишу не-модификатор
-- [`keyup`](<./Event Type/keyup.md>) отпускание любой клавиши
-- [`load`](<./Event Type/load.md>) html и ресурсы заружены
-- [`mousedown`](<./Event Type/mousedown.md>) нажатие любой кнопки мыши
-- [`mousemove`](<./Event Type/mousemove.md>) движение мыши над элементом
-- [`mouseout`](<./Event Type/mouseout.md>) убирание курсора мыши
-- [`mouseover`](<./Event Type/mouseover.md>) наведение курсора мыши
-- [`mouseup`](<./Event Type/mouseup.md>) отпускание любой кнопки мыши
-- [`offline`](<./Event Type/offline.md>) отключение интернета
-- [`orientationchange`](<./Event Type/orientationchange.md>) изменение ориентации экрана
-- [`pointermove`](<./Event Type/pointermove.md>) движение мыши в любом месте
-- [`onresize`](<./Event Type/resize.md>) изменение окна браузера
-- [`scroll`](<./Event Type/scroll.md>) прокрутка страницы
-- [`storage`](<./Event Type/storage.md>) обновление local или session storage
-- [`submit`](<./Event Type/submit.md>) отправка формы
-- [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
-- [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
 ## [Function](#оглавление)
 
@@ -456,15 +456,15 @@
 
 ### Number => String
 
-- [`String()`](./String/String.md) преобразует в строку
 - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
 - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
 - [`number.toString()`](./Number/number.toString.md) преобразует в строку
+- [`String()`](./String/String.md) преобразует в строку
 
 ## [Object](#оглавление)
 
-- [`in`](./Object/in.md) оператор проверки наличия ключа
 - [`delete`](./Object/delete.md) оператор удаления свойства
+- [`in`](./Object/in.md) оператор проверки наличия ключа
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
   - [`object.hasOwnProperty()`](./Object/object.hasownproperty.md) принадлежность свойства самому объекту
   - [`object.prototype`](./Object/object.prototype.md) свойство прототип функции-конструктора
@@ -560,15 +560,15 @@
   - [`window.navigator.languages`](./Window/window.navigator.languages.md) массив предпочтительных языков интерфейса
   - [`window.navigator.onLine`](./Window/window.navigator.onLine.md) проверяет наличие подключения к сети
   - [`window.navigator.userAgent`](./Window/window.navigator.userAgent.md) название браузера пользователя
+- [`window.innerHeight`](./Window/window.innerHeight.md) высота окна браузера
+- [`window.innerWidth`](./Window/window.innerWidth.md) ширина окна браузера
 - [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
 - [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
 - [`window.prompt()`](./Window/window.prompt.md) модальное окно с вводом
-- [`window.setInterval()`](./Window/window.setInterval.md) установка интервала
-- [`window.setTimeout()`](./Window/window.setTimeout.md) установка таймера
-- [`window.typeof`](./Window/window.typeof.md) оператор проверки типа
-- [`window.innerHeight`](./Window/window.innerHeight.md) высота окна браузера
-- [`window.innerWidth`](./Window/window.innerWidth.md) ширина окна браузера
 - [`window.scroll()`](./Window/window.scroll.md) прокрутит окно браузера
 - [`window.scrollTo()`](./Window/window.scrollTo.md) прокрутит окно браузера
 - [`window.scrollX`](./Window/window.scrollX.md) прокрутка окна браузера по горизонтали
 - [`window.scrollY`](./Window/window.scrollY.md) прокрутка окна браузера по вертикали
+- [`window.setInterval()`](./Window/window.setInterval.md) установка интервала
+- [`window.setTimeout()`](./Window/window.setTimeout.md) установка таймера
+- [`window.typeof`](./Window/window.typeof.md) оператор проверки типа

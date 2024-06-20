@@ -10,12 +10,16 @@
 
 # Оглавление
 
-- [Теория](#теория)
-- [Sass](#sass)
-- [Bootstrap](#bootstrap)
 - [Псевдоэлементы](#псевдоэлементы)
+- [Теория](#теория)
+- [Bootstrap](#bootstrap)
 - [Grid](#grid)
+- [Sass](#sass)
 - [Styles](#styles)
+
+## [Псевдоэлементы](#оглавление)
+
+- [`::marker`](./Псевдоэлементы/marker.md) маркеры списка
 
 ## [Теория](#оглавление)
 
@@ -23,57 +27,53 @@
 - [`Переменные`](./Теория/Переменные.md)
 - [`Grid`](./Теория/Grid.md)
 
-## [Sass](#оглавление)
-
-- [`Установка`](./Sass/Установка.md)
-- [`Миксины`](./Sass/Миксины.md)
-- [`Наследование и шаблоны`](<./Sass/Наследование и шаблоны.md>)
-- [`Переменные`](./Sass/Переменные.md)
-- [`Функции`](./Sass/Функции.md)
-
 ## [Bootstrap](#оглавление)
 
 - [`Установка`](./Bootstrap/Установка.md)
 - [`margin, padding`](<./Bootstrap/margin, padding.md>)
 
-## [Псевдоэлементы](#оглавление)
-
-- [`::marker`](./Псевдоэлементы/marker.md) маркеры списка
-
 ## [Grid](#оглавление)
 
 ### grid-container
 
-- [`grid-template`](./Grid/grid-template.md) явные строки и колонки
-  - [`grid-template-rows`](./Grid/grid-template-rows.md) явные строки
-  - [`grid-template-columns`](./Grid/grid-template-columns.md) явные колонки
-  - [`grid-template-areas`](./Grid/grid-template-areas.md) грид-области
 - [`gap`](./Grid/gap.md) отступы
-  - [`row-gap`](./Grid/row-gap.md) отступы между строками
   - [`column-gap`](./Grid/column-gap.md) отступы между колонками
+  - [`row-gap`](./Grid/row-gap.md) отступы между строками
+- [`grid-auto-columns`](./Grid/grid-auto-columns.md) неявные колонки
 - [`grid-auto-flow`](./Grid/grid-auto-flow.md) поток элементов
 - [`grid-auto-rows`](./Grid/grid-auto-rows.md) неявные строки
-- [`grid-auto-columns`](./Grid/grid-auto-columns.md) неявные колонки
+- [`grid-template`](./Grid/grid-template.md) явные строки и колонки
+  - [`grid-template-areas`](./Grid/grid-template-areas.md) грид-области
+  - [`grid-template-columns`](./Grid/grid-template-columns.md) явные колонки
+  - [`grid-template-rows`](./Grid/grid-template-rows.md) явные строки
+- [`place-content`](./Grid/place-content.md) выравнивание элементов
+  - [`align-content`](./Grid/align-content.md) выравнивание элементов по вертикали
+  - [`justify-content`](./Grid/justify-content.md) выравнивание элементов по горизонтали
 - [`place-items`](./Grid/place-items.md) выравнивание контента внутри ячеек
   - [`align-items`](./Grid/align-items.md) выравнивание контента внутри ячеек по вертикали
   - [`justify-items`](./Grid/justify-items.md) выравнивание контента внутри ячеек по горизонтали
-- [`place-items`](./Grid/place-content.md) выравнивание элементов
-  - [`justify-content`](./Grid/justify-content.md) выравнивание элементов по горизонтали
-  - [`align-content`](./Grid/align-content.md) выравнивание элементов по вертикали
 
 ### grid-item
 
+- [`grid-area`](./Grid/grid-area.md) название грид-области
 - [`grid-column`](./Grid/grid-column.md) расположение элемента по горизонтали
   - [`grid-column-start`](./Grid/grid-column-start.md) начало элемента по горизонтали
   - [`grid-column-end`](./Grid/grid-column-end.md) конец элемента по горизонтали
 - [`grid-row`](./Grid/grid-column.md) расположение элемента по вертикали
   - [`grid-row-start`](./Grid/grid-row-start.md) начало элемента по вертикали
   - [`grid-row-end`](./Grid/grid-row-end.md) конец элемента по вертикали
-- [`grid-area`](./Grid/grid-area.md) название грид-области
+- [`order`](./Grid/order.md) порядок отображения элемента
 - [`place-self`](./Grid/place-self.md) выравнивание контента внутри ячейки
   - [`align-self`](./Grid/align-self.md) выравнивание контента внутри ячейки по вертикали
   - [`justify-self`](./Grid/justify-self.md) выравнивание контента внутри ячейки по горизонтали
-- [`order`](./Grid/order.md) порядок отображения элемента
+
+## [Sass](#оглавление)
+
+- [`Миксины`](./Sass/Миксины.md)
+- [`Наследование и шаблоны`](<./Sass/Наследование и шаблоны.md>)
+- [`Переменные`](./Sass/Переменные.md)
+- [`Установка`](./Sass/Установка.md)
+- [`Функции`](./Sass/Функции.md)
 
 ## [Styles](#оглавление)
 
@@ -112,20 +112,20 @@
 
 - [`border`](./Styles/border.md) границы
   - [`border-width`](./Styles/border-width.md) толщина границ
-    - [`border-top-width`](./Styles/border-top-width.md) толщина границы сверху
-    - [`border-right-width`](./Styles/border-right-width.md) толщина границы справа
     - [`border-bottom-width`](./Styles/border-bottom-width.md) толщина границы снизу
     - [`border-left-width`](./Styles/border-left-width.md) толщина границы слева
+    - [`border-right-width`](./Styles/border-right-width.md) толщина границы справа
+    - [`border-top-width`](./Styles/border-top-width.md) толщина границы сверху
   - [`border-style`](./Styles/border-style.md) стиль границ
-    - [`border-top-style`](./Styles/border-top-style.md) стиль границы сверху
-    - [`border-right-style`](./Styles/border-right-style.md) стиль границы справа
     - [`border-bottom-style`](./Styles/border-bottom-style.md) стиль границы снизу
     - [`border-left-style`](./Styles/border-left-style.md) стиль границы слева
+    - [`border-right-style`](./Styles/border-right-style.md) стиль границы справа
+    - [`border-top-style`](./Styles/border-top-style.md) стиль границы сверху
   - [`border-color`](./Styles/border-color.md) цвет границ
-    - [`border-top-color`](./Styles/border-top-color.md) цвет границы сверху
-    - [`border-right-color`](./Styles/border-right-color.md) цвет границы справа
     - [`border-bottom-color`](./Styles/border-bottom-color.md) цвет границы снизу
     - [`border-left-color`](./Styles/border-left-color.md) цвет границы слева
+    - [`border-right-color`](./Styles/border-right-color.md) цвет границы справа
+    - [`border-top-color`](./Styles/border-top-color.md) цвет границы сверху
 
 ### border-top
 
@@ -373,14 +373,14 @@
 
 ### transform
 
-- [`transform`](./Styles/transform.md) трансформация
-- [`transform-origin`](./Styles/transform-origin.md) точка отсчета
-- [`perspective`](./Styles/perspective.md) точка перспективы
-- [`translate`](./Styles/translate.md) смещение
-- [`scale`](./Styles/scale.md) увеличение
-- [`rotate`](./Styles/rotate.md) вращение
-- [`skew`](./Styles/skew.md) наклон
 - [`matrix`](./Styles/matrix.md) матрица трансформации
+- [`perspective`](./Styles/perspective.md) точка перспективы
+- [`rotate`](./Styles/rotate.md) вращение
+- [`scale`](./Styles/scale.md) увеличение
+- [`skew`](./Styles/skew.md) наклон
+- [`transform-origin`](./Styles/transform-origin.md) точка отсчета
+- [`transform`](./Styles/transform.md) трансформация
+- [`translate`](./Styles/translate.md) смещение
 
 ### transition
 
