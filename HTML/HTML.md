@@ -61,8 +61,8 @@
 - [`low`](./Attrubutes/low.md) низшее значение
 - [`media`](./Attrubutes/media.md) медиа-запрос
 - [`muted`](./Attrubutes/muted.md) выключает звук медиа
-- [`name`](<./Attrubutes/name (object).md>) имя
 - [`name, content`](<./Attrubutes/name, content.md>) данные страницы
+- [`name`](<./Attrubutes/name (object).md>) имя
 - [`open`](./Attrubutes/open.md) открывает details, dalog
 - [`optimum`](./Attrubutes/optimum.md) оптимальное значение
 - [`ping`](./Attrubutes/ping.md) post-запрос при переходе по карте
@@ -97,8 +97,8 @@
 
 ## [attrubutes Form](#оглавление)
 
-- [`accept`](./Attrubutes/accept.md) тип файла для input file
 - [`accept-charset`](./Attrubutes/accept-charset.md) кодировка формы
+- [`accept`](./Attrubutes/accept.md) тип файла для input file
 - [`action`](./Attrubutes/action.md) обработчик формы
 - [`autocomplete`](./Attrubutes/autocomplete.md) автозаполнение
 - [`autofocus`](./Attrubutes/autofocus.md) фокус при загрузке страницы
@@ -159,10 +159,10 @@
 - [`<blockquote>`](./Tags/blockquote.md) блок цитат
 - [`<body>`](./Tags/body.md) тело страницы
 - [`<br>`](./Tags/br.md) перенос строки
-- [`<dl>`](./Tags/dl.md) список описаний
-  - [`<dt>`](./Tags/dt.md) термин
-  - [`<dd>`](./Tags/dd.md) описание
 - [`<div>`](./Tags/div.md) пустой блок
+- [`<dl>`](./Tags/dl.md) список описаний
+  - [`<dd>`](./Tags/dd.md) описание
+  - [`<dt>`](./Tags/dt.md) термин
 - [`<footer>`](./Tags/footer.md) подвал страницы
 - [`<h1-h6>`](./Tags/h1-h6.md) заголовки
 - [`<header>`](./Tags/header.md) шапка страницы
@@ -172,11 +172,11 @@
 - [`<nav>`](./Tags/nav.md) блок навигации
 - [`<ol>`](./Tags/ol.md) упорядоченный список
   - [`<li>`](./Tags/li.md) элемент списка
-- [`<ul>`](./Tags/ul.md) неупорядоченный список
-  - [`<li>`](./Tags/li.md) элемент списка
 - [`<p>`](./Tags/p.md) параграф
 - [`<pre>`](./Tags/pre.md) преформатированный текст
 - [`<section>`](./Tags/section.md) секция
+- [`<ul>`](./Tags/ul.md) неупорядоченный список
+  - [`<li>`](./Tags/li.md) элемент списка
 
 ## [tags Deprecated](#оглавление)
 
