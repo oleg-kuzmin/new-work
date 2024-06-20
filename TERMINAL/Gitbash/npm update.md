@@ -4,5 +4,6 @@
 в файле `package.json` остаётся неизменным. Изменяется только `package-lock.json`
 
 ```bash
+# Синтаксис.
 npm update
 ```

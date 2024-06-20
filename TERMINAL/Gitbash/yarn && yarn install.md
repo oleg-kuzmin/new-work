@@ -1,9 +1,9 @@
-# yarn && yarn install
+# `yarn` && `yarn install`
+
+Установка пакетов.
 
 ```bash
-# установит все зависимости в соответствии с package.json
+# Установит все зависимости в соответствии с package.json.
 yarn
-
-# полная запись
 yarn install
 ```

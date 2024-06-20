@@ -57,7 +57,7 @@
 
 - [`npm -v`](<./Gitbash/npm -v.md>) покажет версию npm
 - [`npm i`](<./Gitbash/npm i.md>) установка пакетов
-- [`npm init`](<./Gitbash/npm init.md>) инициализация
+- [`npm init`](<./Gitbash/npm init.md>) инициализация npm
 - [`npm list`](<./Gitbash/npm list.md>) список установленных пакетов (простой)
 - [`npm ls`](<./Gitbash/npm ls.md>) список установленных пакетов (древовидный)
 - [`npm outdated`](<./Gitbash/npm outdated.md>) покажет устаревшие пакеты
@@ -67,11 +67,11 @@
 ### Yarn
 
 - [`yarn add`](<./Gitbash/yarn add.md>) установка пакета
-- [`yarn init`](<./Gitbash/yarn init.md>) инициализация
+- [`yarn init`](<./Gitbash/yarn init.md>) инициализация yarn
 - [`yarn install`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 - [`yarn remove`](<./Gitbash/yarn remove.md>) удаление пакета
 - [`yarn`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 
 ### Node
 
-<!-- - [`node -v`](<./Gitbash/node -v.md>) покажет версию node -->
+- [`node -v`](<./Gitbash/node -v.md>) покажет версию node
