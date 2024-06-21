@@ -9,13 +9,6 @@
 - [`Gitkeep - пустая папка`](<./Git/Gitkeep - пустая папка.md>)
 - [`Nojekyll - файлы с нижним подчеркиванием`](<./Git/Nojekyll - файлы с нижним подчеркиванием.md>)
 
-### Ветки
-
-- [`git branch`](<./Git/git branch.md>) создание/удаление ветки
-- [`git checkout`](<./Git/git checkout.md>) сменить ветку
-- [`git merge`](<./Git/git merge.md>) слияние ветки с главной
-- [`git revert`](<./Git/git revert.md>) отмена слияния веток, отмена коммита
-
 ### Коммиты
 
 - [`git add`](<./Git/git add.md>) добавить файл/каталог в stage
@@ -26,6 +19,13 @@
 - [`git rm`](<./Git/git rm.md>) удалить файл/каталог из stage
 - [`git stash`](<./Git/git stash.md>) спрятать изменения
 - [`git status`](<./Git/git status.md>) проверить изменения
+
+### Ветки
+
+- [`git branch`](<./Git/git branch.md>) создание/удаление ветки
+- [`git checkout`](<./Git/git checkout.md>) сменить ветку
+- [`git merge`](<./Git/git merge.md>) слияние ветки с главной
+- [`git revert`](<./Git/git revert.md>) отмена слияния веток, отмена коммита
 
 ### Репозиторий
 
