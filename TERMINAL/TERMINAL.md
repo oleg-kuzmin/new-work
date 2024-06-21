@@ -74,7 +74,6 @@
 - [`npm run`](<./Gitbash/npm run.md>) запуск скрипта
 - [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
 - [`npm update`](<./Gitbash/npm update.md>) обновление пакета
-- [`package.json`](./Gitbash/package.md) описание файла package.json
 
 ### Yarn
 
@@ -82,9 +81,8 @@
 - [`yarn -v`](<./Gitbash/yarn -v.md>) покажет версию yarn
 - [`yarn add`](<./Gitbash/yarn add.md>) установка пакета
 - [`yarn init`](<./Gitbash/yarn init.md>) инициализация yarn
-- [`yarn install`](<./Gitbash/yarn && yarn install.md>) установка пакетов
 - [`yarn remove`](<./Gitbash/yarn remove.md>) удаление пакета
-- [`yarn`](<./Gitbash/yarn && yarn install.md>) установка пакетов
+- [`yarn`](./Gitbash/yarn.md) установка пакетов, запуск скрипта
 
 ### Node
 

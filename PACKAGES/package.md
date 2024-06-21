@@ -16,10 +16,12 @@
 
   // скрипты
   "scripts": {
+    "start": "node index.js",
+    "clear": "rm -rf './build' && mkdir build",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build", // скрипты с pre будут выполнятся перед основным
+    "deploy": "gh-pages -d dist"
   },
   // автор
   "author": "Oleg Kuzmin",
