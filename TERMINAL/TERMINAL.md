@@ -31,6 +31,7 @@
 
 - [`git -v`](<./Git/git -v.md>) покажет версию npm
 - [`git clone`](<./Git/git clone.md>) клонирование удаленного репозитория
+- [`git config`](<./Git/git config.md>) настройка git
 - [`git fetch`](<./Git/git fetch.md>) сравнивает удаленный репозиторий с локальным
 - [`git init`](<./Git/git init.md>) инициализация локального репозитория
 - [`git pull`](<./Git/git pull.md>) забирает изменения из удаленного репозитория
