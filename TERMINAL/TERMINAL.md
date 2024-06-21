@@ -83,3 +83,9 @@
 ### Node
 
 - [`node -v`](<./Gitbash/node -v.md>) покажет версию node
+
+<style>
+  * {
+    user-select: none;    
+  }
+</style>

@@ -1,13 +1,3 @@
-<style>
-  * {
-    user-select: none;    
-  }
-
-  h1, h2 {
-    scroll-margin: 100px;
-  }
-</style>
-
 # Оглавление
 
 - [Псевдоэлементы](#псевдоэлементы)
@@ -411,3 +401,13 @@
 ### z-index
 
 - [`z-index`](./Styles/z-index.md) порядок наложения элементов
+
+<style>
+  * {
+    user-select: none;    
+  }
+
+  h1, h2 {
+    scroll-margin: 25vh;
+  }
+</style>

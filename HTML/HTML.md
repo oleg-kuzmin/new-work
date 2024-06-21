@@ -1,13 +1,3 @@
-<style>
-  * {
-    user-select: none;    
-  }
-
-  h1, h2 {
-    scroll-margin: 100px;
-  }
-</style>
-
 # Оглавление
 
 - [Теория](#теория)
@@ -293,3 +283,13 @@
 - [`<progress>`](./Tags/progress.md) динамический прогресс-бар
 - [`<samp>`](./Tags/samp.md) подсказка, образец вывода
 - [`<template>`](./Tags/template.md) шаблон
+
+<style>
+  * {
+    user-select: none;    
+  }
+
+  h1, h2 {
+    scroll-margin: 25vh;
+  }
+</style>

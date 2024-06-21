@@ -1,13 +1,3 @@
-<style>
-  * {
-    user-select: none;    
-  }
-
-  h1, h2 {
-    scroll-margin: 100px;
-  }
-</style>
-
 # Оглавление
 
 - [Асинхронные действия](#асинхронные-действия)
@@ -572,3 +562,13 @@
 - [`window.setInterval()`](./Window/window.setInterval.md) установка интервала
 - [`window.setTimeout()`](./Window/window.setTimeout.md) установка таймера
 - [`window.typeof`](./Window/window.typeof.md) оператор проверки типа
+
+<style>
+  * {
+    user-select: none;    
+  }
+
+  h1, h2 {
+    scroll-margin: 25vh;
+  }
+</style>
