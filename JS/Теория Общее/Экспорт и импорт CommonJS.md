@@ -23,3 +23,11 @@ const { y } = require('./example.js');
 // Именованный экспорт
 exports.y = 12;
 ```
+
+## Обертка
+
+Каждый модуль автоматически оборачивается функцией:
+
+```js
+(function (exports, require, module, __filenam, dirname) {});
+```
