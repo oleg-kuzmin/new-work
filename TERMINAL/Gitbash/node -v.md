@@ -4,6 +4,6 @@
 
 ```bash
 # Синтаксис.
-node -v
 node --version
+node -v
 ```

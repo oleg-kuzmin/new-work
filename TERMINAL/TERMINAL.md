@@ -78,6 +78,8 @@
 
 ### Yarn
 
+- [`npm i yarn -g`](<./Gitbash/npm i yarn -g.md>) установка yarn
+- [`yarn -v`](<./Gitbash/yarn -v.md>) покажет версию yarn
 - [`yarn add`](<./Gitbash/yarn add.md>) установка пакета
 - [`yarn init`](<./Gitbash/yarn init.md>) инициализация yarn
 - [`yarn install`](<./Gitbash/yarn && yarn install.md>) установка пакетов

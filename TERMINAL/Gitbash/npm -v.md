@@ -4,6 +4,6 @@
 
 ```bash
 # Синтаксис.
-npm -v
 npm --version
+npm -v
 ```
