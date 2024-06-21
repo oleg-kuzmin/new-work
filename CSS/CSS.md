@@ -232,6 +232,10 @@
 
 - [`clip-path`](./Styles/clip-path.md) видимая область
 
+### color
+
+- [`color`](./Styles/color.md) цвет текста
+
 ### columns
 
 - [`columns`](./Styles/columns.md) колонки
