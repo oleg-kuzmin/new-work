@@ -73,6 +73,8 @@
 - [`npm outdated`](<./Gitbash/npm outdated.md>) покажет устаревшие пакеты
 - [`npm run`](<./Gitbash/npm run.md>) запуск скрипта
 - [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
+- [`npm update`](<./Gitbash/npm update.md>) обновление пакета
+- [`package.json`](./Gitbash/package.md) описание файла package.json
 
 ### Yarn
 

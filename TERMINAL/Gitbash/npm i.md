@@ -7,14 +7,14 @@
 npm i
 npm install
 
-# Установит пакет 'scss' локально как dev-зависимость.
-npm i scss --save-dev
-npm i scss -D
+# Установит пакет 'sass' локально как dev-зависимость.
+npm i sass --save-dev
+npm i sass -D
 
-# Установит пакет 'scss' локально как prod-зависимость.
-npm i scss
+# Установит пакет 'sass' локально как prod-зависимость.
+npm i sass
 
-# Установит пакет 'scss' глобально.
-npm i scss --global
-npm i scss -g
+# Установит пакет 'sass' глобально.
+npm i sass --global
+npm i sass -g
 ```
