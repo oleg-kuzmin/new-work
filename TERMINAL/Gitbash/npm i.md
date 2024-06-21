@@ -8,12 +8,13 @@ npm i
 npm install
 
 # Установит пакет 'scss' локально как dev-зависимость.
-npm i scss -D
 npm i scss --save-dev
+npm i scss -D
 
 # Установит пакет 'scss' локально как prod-зависимость.
 npm i scss
 
 # Установит пакет 'scss' глобально.
+npm i scss --global
 npm i scss -g
 ```
