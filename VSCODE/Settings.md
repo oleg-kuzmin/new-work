@@ -3,7 +3,6 @@
 file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
 ```json
-// C:/Users/Oleg/AppData/Roaming/Code/User/settings.json
 {
   // настройка (Better Comments)
   "better-comments.tags": [
@@ -206,6 +205,9 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // добавление файлов в stage при коммите
   "git.enableSmartCommit": true,
 
+  // никогда не открывать репозиторий
+  "git.openRepositoryInParentFolders": "never",
+
   // обновление импортов при переименовании/перемещении файла
   "javascript.updateImportsOnFileMove.enabled": "never",
 
@@ -251,16 +253,16 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     "html.md": "html",
     "css.md": "css",
     "js.md": "javascript",
-    "git.md": "git",
-    "package manager.md": "webpack"
+    "terminal.md": "powershell"
   },
 
   // настройка иконок папок (Material Icon Theme)
   "material-icon-theme.folders.associations": {
     "git": "github",
-    "package manager": "webpack",
+    "gitbash": "vm",
     "packages": "webpack",
-    "vite": "config"
+    "vite": "config",
+    "terminal": "desktop"
   },
 
   // скрытие стрелок возле папок в проводнике (Material Icon Theme)
@@ -313,6 +315,9 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // на какой язык переводить (Vscode Google Translate)
   "vscodeGoogleTranslate.preferredLanguage": "Russian",
+
+  // не сохранять рабочую область при закрытии
+  "window.confirmSaveUntitledWorkspace": false,
 
   // высота вкладок
   "window.density.editorTabHeight": "default",

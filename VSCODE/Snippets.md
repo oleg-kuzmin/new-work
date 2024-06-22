@@ -3,7 +3,6 @@
 file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 
 ```js
-// C:/Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 {
 	"custom console": {
 		"scope": "javascript, javascriptreact, typescript, typescriptreact",

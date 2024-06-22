@@ -5,7 +5,6 @@
 file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
 
 ```json
-// C:/Users/Oleg/AppData/Roaming/Code/User/keybindings.json
 [
   {
     // Удаление - Закомментировать или раскомментировать блок
