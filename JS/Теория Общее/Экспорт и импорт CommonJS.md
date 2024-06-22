@@ -13,6 +13,9 @@ module.exports = {
   y: 1,
 };
 
+// Экспорт по умолчанию
+exports.default = defaultTask;
+
 // Импорт по умолчанию
 const y = require('./example.js');
 ```
