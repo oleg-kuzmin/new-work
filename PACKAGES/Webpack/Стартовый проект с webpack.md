@@ -16,11 +16,11 @@
 
 ### +`npm i clean-webpack-plugin -D` (Установка плагина для очистки dist)
 
-### +`npm i mini-css-extract-plugin -D` (Установка плагина для объединения css)
-
 ### +`npm i css-loader -D` (Установка плагина для работы с css)
 
-### +`npm i style-loader -D` (Установка плагина для импорта css в html)
+### +`npm i mini-css-extract-plugin -D` (Установка плагина для объединения css в один для prod)
+
+### +`npm i style-loader -D` (Установка плагина для работы с css, импортирует стили в html через style)
 
 ### `npm i postcss-loader -D` (Установка плагина для модификации css)
 
