@@ -83,7 +83,7 @@
 - [`yarn remove`](<./Gitbash/yarn remove.md>) удаление пакета
 - [`yarn`](./Gitbash/yarn.md) установка пакетов, запуск скрипта
 
-### Node
+### Nodew
 
 - [`node -v`](<./Gitbash/node -v.md>) покажет версию node
 
