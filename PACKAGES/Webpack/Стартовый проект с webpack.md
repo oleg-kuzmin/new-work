@@ -20,6 +20,8 @@
 
 ### +`npm i css-loader -D` (Установка плагина для работы с css)
 
+### +`npm i style-loader -D` (Установка плагина для импорта css в html)
+
 ### `npm i postcss-loader -D` (Установка плагина для модификации css)
 
 ### +`npm i sass -D` (Установка поддержки sass)
