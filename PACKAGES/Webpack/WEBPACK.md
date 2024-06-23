@@ -5,6 +5,14 @@
 
 ## Установка
 
+```bash
+npm init -y
+```
+
+```bash
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core @babel/preset-env babel-loader css-loader mini-css-extract-plugin sass sass-loader postcss postcss-loader postcss-preset-env
+```
+
 ### `webpack`
 
 Перед началом установки нужно проверить наличие `node.js` и `npm`.
