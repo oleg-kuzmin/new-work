@@ -14,7 +14,7 @@
 
 ### +`npm i html-webpack-plugin -D` (Установка плагина для работы с html)
 
-### `npm i clean-webpack-plugin -D` (Установка плагина для очистки dist)
+### +`npm i clean-webpack-plugin -D` (Установка плагина для очистки dist)
 
 ### +`npm i mini-css-extract-plugin -D` (Установка плагина для объединения css)
 
