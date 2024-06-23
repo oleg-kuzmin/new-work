@@ -1,6 +1,4 @@
-# Стартовый проект с webpack ЯНДЕКС
-
-### `npm i gh-pages -D` (Установка gh-pages)
+# `npm i gh-pages -D`
 
 Если во время скрипта `gh-pages` появилась ошибка ввести `npx gh-pages-clean`.
 
