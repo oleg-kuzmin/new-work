@@ -11,8 +11,7 @@
   font-family: 'Gilroy';
   font-weight: 400;
   font-style: normal;
-  src: local('Gilroy'), 
-    url('Gilroy-Regular.woff2') format('woff2'), 
+  src: local('Gilroy'), url('Gilroy-Regular.woff2') format('woff2'), 
 }
 
 body {
