@@ -20,7 +20,7 @@
 - [String](#string)
 - [Window](#window)
 
-## [Асинхронные действия](#оглавление)
+## [Асинхронные действия](#javascript)
 
 - [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
 - [`new XMLHttpRequest()`](<./Асинхронные действия/new XMLHttpRequest.md>) объект legacy-запроса
@@ -29,7 +29,7 @@
   - [`request.responseType`](<./Асинхронные действия/request.responseType.md>) тип ответа
   - [`request.send()`](<./Асинхронные действия/request.send.md>) отправляет запрос
 
-### Fetch
+### [Fetch](#javascript)
 
 - [`fetch()`](<./Асинхронные действия/fetch.md>) запрос на сервер
   - [`responce.blob()`](<./Асинхронные действия/responce.blob.md>) преобразует json-ответ в бинарные данные
@@ -40,7 +40,7 @@
   - [`responce.statusText`](<./Асинхронные действия/responce.statusText.md>) сообщение статуса ответа
   - [`responce.text()`](<./Асинхронные действия/responce.text.md>) преобразует json-ответ в текст
 
-### Promise
+### [Promise](#javascript)
 
 - [`new Promise()`](<./Асинхронные действия/new Promise.md>) создает promise
   - [`promise.catch()`](<./Асинхронные действия/promise.catch.md>) обработчик отклоненного promise
@@ -53,21 +53,21 @@
 - [`Promise.reject()`](<./Асинхронные действия/Promise.reject.md>) создает отклоненный promise
 - [`Promise.resolve()`](<./Асинхронные действия/Promise.resolve.md>) создает выполненный promise
 
-### JSON
+### [JSON](#javascript)
 
 - [`JSON`](<./Асинхронные действия/JSON.md>) формат обмена данными
   - [`JSON.parse()`](<./Асинхронные действия/JSON.parse.md>) преобразует JSON в объект
   - [`JSON.stringify()`](<./Асинхронные действия/JSON.stringify.md>) преобразует объект в JSON
 
-## [Операторы](#оглавление)
+## [Операторы](#javascript)
 
 - [`...`](<./Операторы/Spread, Rest.md>) spread и rest оператор
 
-## Операторы группировки
+### [Операторы группировки](#javascript)
 
 - [`(..)`](./Операторы/Скобки.md) скобки (18)
 
-## Унарные операторы
+### [Унарные операторы](#javascript)
 
 - [`..++`](<./Операторы/Постфиксный инкремент.md>) постфиксный инкремент (15)
 - [`..--`](<./Операторы/Постфиксный декремент.md>) постфиксный декремент (15)
@@ -77,7 +77,7 @@
 - [`..-`](<./Операторы/Унарный минус.md>) унарный минус (14)
 - [`..!`](<./Операторы/Логическое НЕ.md>) логическое НЕ (14)
 
-## Бинарные операторы
+### [Бинарные операторы](#javascript)
 
 - [`.. ** ..`](<./Операторы/Возведение в степень.md>) возведение в степень (13)
 - [`.. * ..`](./Операторы/Умножение.md) умножение (12)
@@ -107,11 +107,11 @@
 - [`.. ??= ..`](<./Операторы/Присваивание c нулевым слиянием.md>) присваивание с нулевым слиянием (2)
 - [`.. , ..`](./Операторы/Запятая.md) запятая (1)
 
-## Тернарный оператор
+### [Тернарный оператор](#javascript)
 
 - [`.. ? .. : ..`](<./Операторы/Тернарный оператор.md>) тернарный оператор (2)
 
-## [Теория Общее](#оглавление)
+## [Теория Общее](#javascript)
 
 - [`Деструктуризация`](<./Теория Общее/Деструктуризация.md>)
 - [`Замыкания`](<./Теория Общее/Замыкания.md>)
@@ -135,7 +135,7 @@
 - [`Экспорт и импорт CommonJS`](<./Теория Общее/Экспорт и импорт CommonJS.md>)
 - [`Экспорт и импорт ES Modules`](<./Теория Общее/Экспорт и импорт ES Modules.md>)
 
-## [Теория ООП](#оглавление)
+## [Теория ООП](#javascript)
 
 - [`Наследование`](<./Теория ООП/Наследование.md>)
 - [`Полиморфизм`](<./Теория ООП/Полиморфизм.md>)
@@ -148,7 +148,7 @@
 - [`Что такое this`](<./Теория ООП/Что такое this.md>)
 - [`Get и Set`](<./Теория ООП/Get и Set.md>)
 
-## [Циклы](#оглавление)
+## [Циклы](#javascript)
 
 - [`while`](./Циклы/while.md) проверка условия до первой итерации
 - [`do while`](<./Циклы/do while.md>) проверка условия после первой итерации
@@ -156,7 +156,7 @@
 - [`for in`](<./Циклы/for in.md>) обход свойств объекта
 - [`for of`](<./Циклы/for of.md>) обход свойств массива, итерируемого объекта, коллекции
 
-## [Array](#оглавление)
+## [Array](#javascript)
 
 - [`Array()`](./Array/Array.md) создает массив
   - [`array.length`](./Array/array.length.md) размер массива
@@ -164,7 +164,7 @@
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 - [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
 
-### Иммутабельные методы
+### [Иммутабельные методы](#javascript)
 
 - [`array.concat()`](./Array/array.concat.md) объединяет элементы
 - [`array.every()`](./Array/array.every.md) проверяет все ли элементы соответствуют условию
@@ -181,7 +181,7 @@
 - [`array.slice()`](./Array/array.slice.md) создает копию массива из нужных элементов
 - [`array.some()`](./Array/array.some.md) проверяет один элемент соответствуют условию
 
-### Мутабельные методы
+### [Мутабельные методы](#javascript)
 
 - [`array.fill()`](./Array/array.fill.md) заполняет значениями
 - [`array.flat()`](./Array/array.flat.md) разворачивает вложенные массивы
@@ -193,15 +193,15 @@
 - [`array.splice()`](./Array/array.splice.md) заменяет часть элементов
 - [`array.unshift()`](./Array/array.unshift.md) добавляет в начало массива
 
-### Array => String
+### [Array => String](#javascript)
 
 - [`array.join()`](./Array/array.join.md) преобразует массив в строку
 
-### Array => Object
+### [Array => Object](#javascript)
 
 - [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
 
-## [Date](#оглавление)
+## [Date](#javascript)
 
 - [`Date.now()`](./Date/Date.now.md) миллисекунды с 01 января 1970
 - [`Date.parse()`](./Date/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
@@ -229,7 +229,7 @@
   - [`date.toLocaleTimeString()`](./Date/date.toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
   - [`date.toUTCString()`](./Date/date.toUTCString.md) преобразует объект Date в строку в формате UTC
 
-## [Document](#оглавление)
+## [Document](#javascript)
 
 - [`document.body`](./Document/document.body.md) тело страницы
 - [`document.cookie`](./Document/document.cookie.md) cookie страницы
@@ -246,9 +246,9 @@
 - [`document.querySelectorAll()`](./Document/document.querySelectorAll.md) NodeList по селектору (статическая)
 - [`document.title`](./Document/document.title.md) заголовок страницы
 
-## [Element](#оглавление)
+## [Element](#javascript)
 
-### Атрибуты
+### [Атрибуты](#javascript)
 
 - [`element.checked`](./Element/element.checked.md) атрибут checked
 - [`element.className`](./Element/element.className.md) атрибут class
@@ -268,7 +268,7 @@
 - [`element.type`](./Element/element.type.md) атрибут type
 - [`element.value`](./Element/element.value.md) атрибут value
 
-### Классы
+### [Классы](#javascript)
 
 - [`element.classList`](./Element/element.classList.md) псевдомассив классов
   - [`element.classList.add()`](./Element/element.classList.add.md) добавляет класс
@@ -277,7 +277,7 @@
   - [`element.classList.replace()`](./Element/element.classList.replace.md) заменяет класс
   - [`element.classList.toggle()`](./Element/element.classList.toggle.md) переключает класс
 
-### Метрики
+### [Метрики](#javascript)
 
 - [`element.clientHeight`](./Element/element.clientHeight.md) высота (content + padding)
 - [`element.clientLeft`](./Element/element.clientLeft.md) отступ сверху (border)
@@ -294,7 +294,7 @@
 - [`element.scrollTop`](./Element/element.scrollTop.md) высота прокрученной области
 - [`element.scrollWidth`](./Element/element.scrollWidth.md) ширина (content + padding + scrollBar)
 
-### Форма
+### [Форма](#javascript)
 
 - [`element.focus()`](./Element/element.focus.md) фокус на элементе
 - [`element.reset()`](./Element/element.reset.md) сбрасывает поля формы
@@ -302,7 +302,7 @@
 - [`element.validationMessage`](./Element/element.validationMessage.md) текст сообщения об ошибке
 - [`element.validity`](./Element/element.validity.md) объект проверки ошибок
 
-### DOM Добавление, перемещение, удаление
+### [DOM Добавление, перемещение, удаление](#javascript)
 
 - [`element.after()`](./Element/element.after.md) добавляет, перемещает ПОСЛЕ узла
 - [`element.append()`](./Element/element.append.md) добавляет, перемещает в КОНЕЦ узла
@@ -312,7 +312,7 @@
 - [`element.remove()`](./Element/element.remove.md) удаляет элемент
 - [`element.replaceWith()`](./Element/element.replaceWith.md) заменяет элемент
 
-### DOM Поиск
+### [DOM Поиск](#javascript)
 
 - [`element.childNodes`](./Element/element.childNodes.md) NodeList дочерних узлов (динамическая)
 - [`element.children`](./Element/element.children.md) HTMLCollection дочерних элементов (динамическая)
@@ -328,13 +328,13 @@
 - [`element.querySelector()`](./Element/element.querySelector.md) поиск элемента по селектору
 - [`element.querySelectorAll()`](./Element/element.querySelectorAll.md) NodeList по селектору (статическая)
 
-### DOM События
+### [DOM События](#javascript)
 
 - [`element.addEventListener()`](./Element/element.addEventListener.md) добавление слушателя
 - [`element.dispatchEvent()`](./Element/element.dispatchEvent.md) запускает кастомное событие
 - [`element.removeEventListener()`](./Element/element.removeEventListener.md) удаление слушателя
 
-### DOM Содержимое
+### [DOM Содержимое](#javascript)
 
 - [`element.content`](./Element/element.content.md) содержимое template
 - [`element.innerHTML`](./Element/element.innerHTML.md) содержимое с разметкой
@@ -344,7 +344,7 @@
 - [`element.outerHTML`](./Element/element.outerHTML.md) содержимое с разметкой + сам элемент
 - [`element.textContent`](./Element/element.textContent.md) текстовое содержимое (видимое и скрытое)
 
-## [Event.type](#оглавление)
+## [Event.type](#javascript)
 
 - [`blur`](<./Event Type/blur.md>) снятие фокуса
 - [`change`](<./Event Type/change.md>) изменение и фиксирование значения
@@ -373,7 +373,7 @@
 - [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
 - [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
-## [Event](#оглавление)
+## [Event](#javascript)
 
 - [`.new Event()`](<./Event/new Event.md>) создает кастомное событие
 - [`.new CustomEvent()`](<./Event/new CustomEvent.md>) создает кастомное событие с данными
@@ -400,14 +400,14 @@
   - [`evt.type`](./Event/evt.type.md) тип события
   - [`evt.view`](./Event/evt.view.md) объект window где произошло событие
 
-## [Function](#оглавление)
+## [Function](#javascript)
 
 - [`arguments`](./Function/arguments.md) псевдомассив всех переданных аргументов
 - [`function.apply()`](./Function/function.apply.md) вызывает метод объекта с конкретными контекстом и значением
 - [`function.bind()`](./Function/function.bind.md) привязывает конкретный контекст к методу объекта
 - [`function.call()`](./Function/function.call.md) вызывает метод объекта с конкретными контекстом и значением
 
-## [Map](#оглавление)
+## [Map](#javascript)
 
 - [`new Map()`](<./Map/new Map.md>) создает коллекцию для хранения пар ключ-значение
   - [`map.clear()`](./Map/map.clear.md) удаляет все значения
@@ -421,7 +421,7 @@
   - [`map.size`](./Map/map.size.md) количество значений
   - [`map.values()`](./Map/map.values.md) возвращает итератор значений
 
-## [Number](#оглавление)
+## [Number](#javascript)
 
 - [`Number()`](./Number/Number.md) преобразует аргумент в число
   - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
@@ -432,7 +432,7 @@
 - [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
 - [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
 
-### Math
+### [Math](#javascript)
 
 - [`Math.abs()`](./Number/Math.abs.md) вычисляет модуль числа
 - [`Math.ceil()`](./Number/Math.ceil.md) округление до целого вверх
@@ -444,14 +444,14 @@
 - [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
 - [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
-### Number => String
+### [Number => String](#javascript)
 
 - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
 - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
 - [`number.toString()`](./Number/number.toString.md) преобразует в строку
 - [`String()`](./String/String.md) преобразует в строку
 
-## [Object](#оглавление)
+## [Object](#javascript)
 
 - [`delete`](./Object/delete.md) оператор удаления свойства
 - [`in`](./Object/in.md) оператор проверки наличия ключа
@@ -470,17 +470,17 @@
 - [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
 
-### Object => Array
+### [Object => Array](#javascript)
 
 - [`Object.entries()`](./Object/Object.entries.md) создает массив из объекта
 
-## [RegExp](#оглавление)
+## [RegExp](#javascript)
 
 - [`new RegExp()`](<./RegExp/new RegExp.md>) создает регулярное выражение
   - [`regexp.exec()`](./RegExp/regexp.exec.md) подробный поиск одного совпадения
   - [`regexp.test()`](./RegExp/regexp.test.md) соответствие
 
-## [Set](#оглавление)
+## [Set](#javascript)
 
 - [`new Set()`](<./Set/new Set.md>) создает коллекцию для хранения уникальных значений
   - [`set.add()`](./Set/set.add.md) добавляет значение в коллекцию
@@ -490,7 +490,7 @@
   - [`set.has()`](./Set/set.has.md) проверяет наличие значения
   - [`set.size`](./Set/set.size.md) количество значений
 
-## [String](#оглавление)
+## [String](#javascript)
 
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
@@ -513,17 +513,17 @@
   - [`string.toUpperCase()`](./String/string.toUpperCase.md) приводит к верхнему регистр
   - [`string.trim()`](./String/string.trim.md) очистка от пробелов
 
-### String => Number
+### [String => Number](#javascript)
 
 - [`Number()`](./Number/Number.md) преобразует аргумент в число
 - [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
 - [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
 
-### String => Array
+### [String => Array](#javascript)
 
 - [`string.split()`](./String/string.split.md) преобразует в массив, можно использовать regexp
 
-## [Window](#оглавление)
+## [Window](#javascript)
 
 - [`window.alert()`](./Window/window.alert.md) модальное окно с текстом
 - [`window.clearInterval()`](./Window/window.clearInterval.md) удаление интервала

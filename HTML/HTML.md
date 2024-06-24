@@ -13,7 +13,7 @@
 - [Tags Table](#tags-table)
 - [Tags Ui](#tags-ui)
 
-## [Теория](#оглавление)
+## [Теория](#html)
 
 - [`Мнемоники`](./Теория/Мнемоники.md)
 - [`Относительные пути`](<./Теория/Относительные пути.md>)
@@ -21,7 +21,7 @@
 - [`Семантика блоки`](<./Теория/Семантика блоки.md>)
 - [`Семантика текст`](<./Теория/Семантика текст.md>)
 
-## [attrubutes All](#оглавление)
+## [attrubutes All](#html)
 
 - [`allowfullscreen`](./Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
 - [`alt`](./Attrubutes/alt.md) альтернативный текст
@@ -85,7 +85,7 @@
 - [`viewBox`](./Attrubutes/viewBox.md) размеры окна отображения svg
 - [`width, height`](<./Attrubutes/width, height.md>) ширина, высота
 
-## [attrubutes Form](#оглавление)
+## [attrubutes Form](#html)
 
 - [`accept-charset`](./Attrubutes/accept-charset.md) кодировка формы
 - [`accept`](./Attrubutes/accept.md) тип файла для input file
@@ -128,7 +128,7 @@
 - [`value`](<./Attrubutes/value (input).md>) значение поля ввода
 - [`wrap`](./Attrubutes/wrap.md) символы переноса в textarea
 
-## [attrubutes Global](#оглавление)
+## [attrubutes Global](#html)
 
 - [`class`](./Attrubutes/class.md) задает класс элементу
 - [`contenteditable`](./Attrubutes/contenteditable.md) делает редактируемым
@@ -141,7 +141,7 @@
 - [`tabindex`](./Attrubutes/tabindex.md) порядок табуляции
 - [`title`](<./Attrubutes/title (global).md>) подсказка при наведении
 
-## [tags Block](#оглавление)
+## [tags Block](#html)
 
 - [`<address>`](./Tags/address.md) контактная информация
 - [`<article>`](./Tags/article.md) независимый раздел
@@ -168,7 +168,7 @@
 - [`<ul>`](./Tags/ul.md) неупорядоченный список
   - [`<li>`](./Tags/li.md) элемент списка
 
-## [tags Deprecated](#оглавление)
+## [tags Deprecated](#html)
 
 - [`<acronym>`](./Tags/acronym.md) вид аббревиатуры
 - [`<applet>`](./Tags/applet.md) встраивание java-приложения
@@ -181,7 +181,7 @@
 - [`<nobr>`](./Tags/nobr.md) неразрывный текст
 - [`<strike>`](./Tags/strike.md) зачеркнутый текст
 
-## [tags Form](#оглавление)
+## [tags Form](#html)
 
 - [`<button>`](./Tags/button.md) кнопка
 - [`<datalist>`](./Tags/datalist.md) список подсказок для input
@@ -197,7 +197,7 @@
     - [`<option>`](./Tags/option.md) пункт списка
 - [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
 
-## [tags Head](#оглавление)
+## [tags Head](#html)
 
 - [`<base>`](./Tags/base.md) основноый url-адрес
 - [`<head>`](./Tags/head.md) основная информация
@@ -208,7 +208,7 @@
 - [`<style>`](./Tags/style.md) стили
 - [`<title>`](./Tags/title.md) заголовок страницы
 
-## [tags Inline](#оглавление)
+## [tags Inline](#html)
 
 - [`<a>`](./Tags/a.md) ссылка
 - [`<abbr>`](./Tags/abbr.md) аббревиатура
@@ -235,7 +235,7 @@
 - [`<u>`](./Tags/u.md) текст с ошибкой
 - [`<var>`](./Tags/var.md) переменная
 
-## [tags Media](#оглавление)
+## [tags Media](#html)
 
 - [`<audio>`](./Tags/audio.md) аудио
   - [`<source>`](./Tags/source.md) источник медиа
@@ -254,7 +254,7 @@
 - [`<video>`](./Tags/video.md) видео
   - [`<source>`](./Tags/source.md) источник медиа
 
-## [tags Table](#оглавление)
+## [tags Table](#html)
 
 - [`<table>`](./Tags/table.md) таблица
   - [`<caption>`](./Tags/caption.md) подпись к таблице
@@ -271,7 +271,7 @@
       - [`<th>`](./Tags/th.md) заголовок
       - [`<td>`](./Tags/td.md) ячейка
 
-## [tags Ui](#оглавление)
+## [tags Ui](#html)
 
 - [`<details>`](./Tags/details.md) аккордеон
   - [`<summary>`](./Tags/summary.md) заголовок аккордеона
