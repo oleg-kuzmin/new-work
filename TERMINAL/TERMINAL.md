@@ -91,4 +91,10 @@
   * {
     user-select: none;    
   }
+  li::marker {
+    color: #e3d50e;
+  }
+  a:link {
+    color: #fc9937;
+  }  
 </style>

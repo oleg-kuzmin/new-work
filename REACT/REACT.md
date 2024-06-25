@@ -2,7 +2,7 @@
 
 - [Теория Общее](#теория-общее)
 - [Теория ООП](#теория-ооп)
-- [React Legacy](#react-legacy)
+- [Legacy](#legacy)
 
 ## [Теория Общее](#react)
 
@@ -13,7 +13,7 @@
 
 - [`Создание компонента`](<./Теория ООП/Создание компонента.md>)
 
-## [React Legacy](#react)
+## [Legacy](#react)
 
 - [`React.createElement()`](./React.createElement.md) создает react-компонент
 - [`ReactDOM.createRoot()`](./ReactDOM.createRoot.md) создает корневой react-компонент
@@ -23,8 +23,13 @@
   * {
     user-select: none;    
   }
-
   h1, h2 {
     scroll-margin: 25vh;
   }
+  li::marker {
+    color: #e3d50e;
+  }
+  a:link {
+    color: #fc9937;
+  }  
 </style>

@@ -446,8 +446,13 @@
   * {
     user-select: none;    
   }
-
   h1, h2 {
     scroll-margin: 25vh;
   }
+  li::marker {
+    color: #e3d50e;
+  }
+  a:link {
+    color: #fc9937;
+  }  
 </style>
