@@ -6,10 +6,12 @@
 ## [Теория](#react)
 
 - [`Установка`](./Теория/Установка.md)
+- [`JSX`](./Теория/JSX.md)
 
 ## [React Legacy](#react)
 
 - [`React.createElement()`](./React.createElement.md) создает react-компонент
+- [`ReactDOM.createRoot()`](./ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDom.render()`](./ReactDom.render.md) рендерит react-компонент
 
 <style>
