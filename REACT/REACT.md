@@ -1,10 +1,16 @@
 # React
 
 - [Теория](#теория)
+- [React Legacy](#react-legacy)
 
 ## [Теория](#react)
 
 - [`Установка`](./Теория/Установка.md)
+
+## [React Legacy](#react)
+
+- [`React.createElement()`](./React.createElement.md) создает react-компонент
+- [`ReactDom.render()`](./ReactDom.render.md) рендерит react-компонент
 
 <style>
   * {
