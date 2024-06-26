@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../VSCODE/markdown.css">
+
 # `:out-of-range`
 
 Эти псевдоклассы используются для стилизации полей ввода, поддерживающих атрибуты `min` и `max`:

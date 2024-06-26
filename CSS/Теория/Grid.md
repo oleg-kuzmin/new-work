@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../VSCODE/markdown.css">
+
 # Grid
 
 Чтобы превратить элемент в грид-контейнер, нужно задать ему значение свойства `display: grid`.

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../VSCODE/markdown.css">
+
 # `type`
 
 Псевдокласс `li:first-child` означачает выбрать элемент, если:

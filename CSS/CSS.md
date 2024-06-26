@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../VSCODE/markdown.css">
+
 # CSS
 
 - [Директивы](#директивы)
@@ -441,18 +443,3 @@
 ### [z-index](#css)
 
 - [`z-index`](./Styles/z-index.md) порядок наложения элементов
-
-<style>
-  * {
-    user-select: none;    
-  }
-  h1, h2 {
-    scroll-margin: 25vh;
-  }
-  li::marker {
-    color: #e3d50e;
-  }
-  a:link {
-    color: #fc9937;
-  }  
-</style>

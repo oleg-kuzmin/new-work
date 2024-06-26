@@ -1,0 +1,19 @@
+* {
+  user-select: none;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  scroll-margin: 25vh;
+}
+
+li::marker {
+  color: #e3d50e;
+}
+
+a:link {
+  color: #fc9937;
+}
+
+h1 {
+  color: red;
+}

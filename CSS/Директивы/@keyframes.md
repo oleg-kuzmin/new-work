@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../VSCODE/markdown.css">
+
 # `@keyframes`
 
 Директива `@keyframes` используется для создания ключевых кадров CSS-анимаций.
