@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `margin`, `padding`
 
 После указания параметров 1 и 2 параметры 3 и 4 пишут с разделителем `-`.

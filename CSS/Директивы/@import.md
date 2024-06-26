@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `@import`
 
 При помощи директивы `@import` можно импортировать один файл со стилями в другой файл со стилями.

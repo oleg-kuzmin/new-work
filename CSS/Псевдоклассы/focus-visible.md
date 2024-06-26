@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `:focus-visible`
 
 Псевдокласс `:focus-visible` используется, когда действительно нужно визуально выделить элементы в фокусе.

@@ -86,15 +86,3 @@
 ### Nodew
 
 - [`node -v`](<./Gitbash/node -v.md>) покажет версию node
-
-<style>
-  * {
-    user-select: none;    
-  }
-  li::marker {
-    color: #e3d50e;
-  }
-  a:link {
-    color: #fc9937;
-  }  
-</style>

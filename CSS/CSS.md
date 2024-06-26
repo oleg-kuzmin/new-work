@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../VSCODE/markdown.css">
-
 # CSS
 
 - [Директивы](#директивы)

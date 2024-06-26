@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `:fullscreen`
 
 Признак того, что документ развернули на всё окно (с помощью JavaScript).

@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `:focus-within`
 
 Псевдокласс `:focus-within` применяется к элементам, которые либо сами находятся в фокусе, либо имеют дочерние элементы в фокусе.

@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../../VSCODE/markdown.css">
-
 # `:disabled`
 
 Псевдоклассы `:disabled` и `:enabled` помогают стилизовать интерактивные элементы — на которые можно и нельзя нажать.
