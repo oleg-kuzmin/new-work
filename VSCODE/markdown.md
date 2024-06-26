@@ -15,20 +15,25 @@
 ## Код
 
 ```css
-* {
-  user-select: none;
+li {
+  user-select: none !important;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-  scroll-margin: 25vh;
-  color: #fc9937;
+  scroll-margin: 25vh !important;
+  color: #fc9937 !important;
 }
 
 li::marker {
-  color: #e3d50e;
+  color: #e3d50e !important;
 }
 
 a:link {
-  color: #fc9937;
+  color: #fc9937 !important;
+  user-select: none !important;
+}
+
+code:not(pre code) {
+  color: #fc9937 !important;
 }
 ```
