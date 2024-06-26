@@ -19,6 +19,7 @@ file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0
 
 :is(h1, h2, h3, h4, h5, h6) {
   scroll-margin: 25vh;
+  color: #fc9937;
 }
 
 li::marker {
@@ -27,9 +28,5 @@ li::marker {
 
 a:link {
   color: #fc9937;
-}
-
-h1 {
-  color: red;
 }
 ```
