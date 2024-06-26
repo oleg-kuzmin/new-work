@@ -28,7 +28,7 @@
 
 ### `background-position: [по обоим осям]`
 
-### `background-position: [сторона X] [отступ X] [сторона Y] [отступ Y]` 
+### `background-position: [сторона X] [отступ X] [сторона Y] [отступ Y]`
 
 ## Значения (ключевые слова)
 
