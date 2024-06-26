@@ -1,16 +1,18 @@
 # Стили для markdown
 
-### `dark_dimmed`
+## Markdown Preview Github Styling
 
-file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/github-markdown-dark-dimmed.css
+[dark_dimmed](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/github-markdown-dark-dimmed.css)
 
-## `base`
+[base](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/base.css)
 
-file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/base.css
+[highlight-js](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/highlight-js.css)
 
-## `highlight-js`
+## Стандартная тема
 
-file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/highlight-js.css
+[theme-kimbie-dark](<file:///Users/Oleg/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/theme-kimbie-dark/themes/kimbie-dark-color-theme.json>)
+
+## Код
 
 ```css
 * {
