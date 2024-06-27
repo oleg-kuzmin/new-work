@@ -41,6 +41,7 @@
 - [`:not()`](./Псевдоклассы/not.md) функция - отсекает селекторы
 - [`:optional`](./Псевдоклассы/optional.md) необязательные поля ввода
 - [`:out-of-range`](./Псевдоклассы/out-of-range.md) вне диапазона min-max
+- [`:placeholder-shown`](./Псевдоклассы/placeholder-shown.md) поле ввода с видимым placeholder
 - [`:required`](./Псевдоклассы/required.md) обязательные поля ввода
 - [`:type`](./Псевдоклассы/type.md) группа type
 
