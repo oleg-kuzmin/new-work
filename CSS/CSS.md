@@ -42,7 +42,8 @@
 - [`:optional`](./Псевдоклассы/optional.md) поля ввода без атрибута required
 - [`:out-of-range`](./Псевдоклассы/out-of-range.md) вне диапазона min-max
 - [`:placeholder-shown`](./Псевдоклассы/placeholder-shown.md) поле ввода с видимым placeholder
-- [`:read-only`](./Псевдоклассы/read-only.md) поля ввода с атрибутом readonly
+- [`:read-only`](./Псевдоклассы/read-only.md) поля ввода только для чтения
+- [`:read-write`](./Псевдоклассы/read-write.md) поля ввода доступные для изменения
 - [`:required`](./Псевдоклассы/required.md) поля ввода с атрибутом required
 - [`:nth-type`](./Псевдоклассы/nth-type.md) первый найденный элемент своего типа
 
