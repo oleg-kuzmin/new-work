@@ -11,7 +11,7 @@
 
 ## [Теория ООП](#react)
 
-- [`class React.Component`](<./Теория ООП/class React.Component.md>) класс React.Component
+- [`React.Component`](<./Теория ООП/React.Component.md>) class React.Component
   - [`this`](<./Теория ООП/this.md>) привязка this к методу класса
   - [`this.state()`](<./Теория ООП/this.state.md>) инициализация состояния
   - [`this.setState()`](<./Теория ООП/this.setState.md>) изменение состояния
