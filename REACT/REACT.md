@@ -11,7 +11,7 @@
 
 ## [Теория ООП](#react)
 
-- [`Создание компонента`](<./Теория ООП/Создание компонента.md>)
+- [`class React.Component`](<./Теория ООП/class React.Component.md>)
 
 ## [Legacy](#react)
 
