@@ -11,10 +11,13 @@
 
 ## [Теория ООП](#react)
 
-- [`class React.Component`](<./Теория ООП/class React.Component.md>)
+- [`class React.Component`](<./Теория ООП/class React.Component.md>) класс React.Component
+  - [`this`](<./Теория ООП/this.state.md>) привязка this к методу класса
+  - [`this.state()`](<./Теория ООП/this.state.md>) инициализация состояния
+  - [`this.setState()`](<./Теория ООП/this.setState.md>) изменение состояния
 
 ## [Legacy](#react)
 
 - [`React.createElement()`](./React.createElement.md) создает react-компонент
 - [`ReactDOM.createRoot()`](./ReactDOM.createRoot.md) создает корневой react-компонент
-- [`ReactDom.render()`](./ReactDom.render.md) рендерит react-компонент
+- [`ReactDOM.render()`](./ReactDom.render.md) рендерит react-компонент

@@ -8,7 +8,7 @@
 ReactDOM.createRoot(domContainer);
 ```
 
-### `domContainer`
+### `1. domContainer`
 
 Указатель на DOM-узел, который будем использовать в качестве корневого.
 
