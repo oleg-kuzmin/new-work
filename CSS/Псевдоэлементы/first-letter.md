@@ -14,7 +14,7 @@
 - `padding` и внутренние отступы, начинающиеся на `padding`
 - `border` и свойства рамок, начинающиеся на `border`
 - цвет текста `color`
-- текстовые свойства `text-decoration`, `text-shadow`, `text-transform`, `letter-spacing`, `word-spacing`, `line-height`, `text-decoration-color`, `text-decoration-line`, `text-decoration-style`, `box-shadow`, `float`, `vertical-align`.
+- текстовые свойства `text-decoration`, `text-shadow`, `text-transform`, `letter-spacing`, `word-spacing`, `line-height`, `text-decoration-color`, `text-decoration-line`, `text-decoration-style`, `box-shadow`, `float`, `vertical-align`
 
 ## Пример
 
