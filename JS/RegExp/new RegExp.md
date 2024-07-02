@@ -201,9 +201,7 @@ const regexp = /\d/g;
 
 // без флагов
 const regexp = /\d/;
-```
 
-```js
 // Все русские буквы
 const regexp = /[А-Яа-яЁё]/;
 
