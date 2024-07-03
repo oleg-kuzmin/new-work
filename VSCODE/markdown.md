@@ -20,7 +20,7 @@ li {
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-  scroll-margin: 25vh !important;
+  scroll-margin-top: 25vh !important;
   color: #fc9937 !important;
 }
 
