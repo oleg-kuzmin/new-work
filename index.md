@@ -2,22 +2,22 @@
 
 ---
 
-## [HTML](./HTML/index.md)
+- ### [HTML](./HTML/index.md)
 
-## [CSS](./CSS/index.md)
+- ### [CSS](./CSS/index.md)
 
-## [JS](./JS/index.md)
+- ### [JS](./JS/index.md)
 
-## [WEBPACK](./WEBPACK/index.md)
+- ### [PACKAGES](./PACKAGES/index.md)
 
-## [PACKAGES](./PACKAGES/index.md)
+- ### [REACT](./REACT/index.md)
 
-## [TERMINAL](./TERMINAL/index.md)
+- ### [TASKS](./TASKS/index.md)
 
-## [VITE](./VITE/index.md)
+- ### [TERMINAL](./TERMINAL/index.md)
 
-## [VSCODE](./VSCODE/index.md)
+- ### [VITE](./VITE/index.md)
 
-## [TASKS](./TASKS/index.md)
+- ### [VSCODE](./VSCODE/index.md)
 
-## [REACT](./REACT/index.md)
+- ### [WEBPACK](./WEBPACK/index.md)
