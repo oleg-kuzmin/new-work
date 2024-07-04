@@ -8,16 +8,16 @@
 
 - ### [JS](./JS/index.md)
 
-- ### [PACKAGES](./PACKAGES/index.md)
-
 - ### [REACT](./REACT/index.md)
-
-- ### [TASKS](./TASKS/index.md)
 
 - ### [TERMINAL](./TERMINAL/index.md)
 
-- ### [VITE](./VITE/index.md)
+- ### [PACKAGES](./PACKAGES/index.md)
 
 - ### [VSCODE](./VSCODE/index.md)
 
 - ### [WEBPACK](./WEBPACK/index.md)
+
+- ### [VITE](./VITE/index.md)
+
+- ### [TASKS](./TASKS/index.md)
