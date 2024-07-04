@@ -1,4 +1,4 @@
-# `string.substring()`
+# [`string.substring()`](../index.md)
 
 Самый удобный способ получить подстроку — это метод `substring()`.
 

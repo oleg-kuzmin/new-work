@@ -1,4 +1,4 @@
-# `string.slice()`
+# [`string.slice()`](../index.md)
 
 Метод `slice()` возвращает часть строки.
 

@@ -1,4 +1,4 @@
-# `string.charAt()`
+# [`string.charAt()`](../index.md)
 
 Метод `charAt()` возвращает указанный символ из строки.
 

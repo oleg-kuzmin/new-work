@@ -1,4 +1,4 @@
-# `string.includes()`
+# [`string.includes()`](../index.md)
 
 Проверяет, есть ли искомая подстрока в строке.
 

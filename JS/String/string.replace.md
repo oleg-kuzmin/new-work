@@ -1,4 +1,4 @@
-# `string.replace()`
+# [`string.replace()`](../index.md)
 
 Для замены одной части строки на другой существует метод `replace()`.
 

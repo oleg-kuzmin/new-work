@@ -1,4 +1,4 @@
-# `string.toLowerCase()`
+# [`string.toLowerCase()`](../index.md)
 
 Используется для приведения всех символов строки к нижнему регистру.
 

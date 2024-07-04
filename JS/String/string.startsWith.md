@@ -1,4 +1,4 @@
-# `string.startsWith()`
+# [`string.startsWith()`](../index.md)
 
 Метод `startsWith()` сравнивает начало строки с переданной ему подстрокой.
 

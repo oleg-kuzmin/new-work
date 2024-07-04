@@ -1,4 +1,4 @@
-# `string.localeCompare()`
+# [`string.localeCompare()`](../index.md)
 
 Сравнивает значение строк.
 

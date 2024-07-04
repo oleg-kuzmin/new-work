@@ -1,4 +1,4 @@
-# `string.endsWith()`
+# [`string.endsWith()`](../index.md)
 
 Метод `endsWith()` сравнивает конец строки с переданной ему подстрокой.
 
