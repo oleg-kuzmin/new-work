@@ -1,4 +1,4 @@
-# `JSX`
+# [`JSX`](../index.md)
 
 ```jsx
 <h1 className="title">Text</h1>;

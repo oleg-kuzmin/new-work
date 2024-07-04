@@ -15,3 +15,9 @@
 ## [TERMINAL](./TERMINAL/index.md)
 
 ## [VITE](./VITE/index.md)
+
+## [VSCODE](./VSCODE/index.md)
+
+## [TASKS](./TASKS/index.md)
+
+## [REACT](./REACT/index.md)

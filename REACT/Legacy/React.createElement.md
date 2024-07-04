@@ -1,4 +1,4 @@
-# `React.createElement()`
+# [`React.createElement()`](../index.md)
 
 Создает react-компонент, который возвращает разметку html (react-element).
 

@@ -1,4 +1,4 @@
-# `ReactDOM.render()`
+# [`ReactDOM.render()`](../index.md)
 
 Отрисовывает элемент в DOM.
 

@@ -1,4 +1,4 @@
-# `ReactDOM.createRoot()`
+# [`ReactDOM.createRoot()`](../index.md)
 
 Более современный способ создания корневого элемента, чем `React.createElement`.
 

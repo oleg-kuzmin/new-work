@@ -1,4 +1,4 @@
-# [`settings`](./index.md)
+# [`settings.json`](./index.md)
 
 file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 

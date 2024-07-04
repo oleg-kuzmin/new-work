@@ -1,4 +1,4 @@
-# `this.setState()`
+# [`this.setState()`](../index.md)
 
 Для обновления состояния используется метод `this.setState`. Выполняется асинхронно.
 
