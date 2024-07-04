@@ -1,4 +1,4 @@
-# `array.length`
+# [`array.length`](../index.md)
 
 Массивы хранят свой размер в свойстве `length`.
 

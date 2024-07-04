@@ -1,4 +1,4 @@
-# `array.forEach()`
+# [`array.forEach()`](../index.md)
 
 Метод `forEach()` нужен для обхода массива.
 

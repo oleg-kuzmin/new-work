@@ -1,4 +1,4 @@
-# `array.includes()`
+# [`array.includes()`](../index.md)
 
 Проверяет, есть ли искомый элемент в массиве.
 

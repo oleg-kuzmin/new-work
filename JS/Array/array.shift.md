@@ -1,4 +1,4 @@
-# `array.shift()`
+# [`array.shift()`](../index.md)
 
 Метод `shift()` удаляет первый элемент массива.
 
