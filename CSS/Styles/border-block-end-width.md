@@ -1,4 +1,4 @@
-# `border-block-end-width`
+# [`border-block-end-width`](../index.md)
 
 Можно управлять толщиной границы каждой стороны в отдельности.
 

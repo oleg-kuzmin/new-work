@@ -1,4 +1,4 @@
-# `border-block-start-style`
+# [`border-block-start-style`](../index.md)
 
 Можно управлять стилем границы каждой стороны в отдельности.
 

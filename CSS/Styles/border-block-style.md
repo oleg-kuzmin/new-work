@@ -1,4 +1,4 @@
-# `border-block-style`
+# [`border-block-style`](../index.md)
 
 - [`border-block-start-style`](./border-block-start-style.md) стиль первой границы
 - [`border-block-end-style`](./border-block-end-style.md) стиль второй границы

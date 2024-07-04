@@ -1,4 +1,4 @@
-# `border-top`
+# [`border-top`](../index.md)
 
 - [`border-top-width`](./border-top-width.md) толщина границы сверху
 - [`border-top-style`](./border-top-style.md) стиль границы сверху

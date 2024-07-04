@@ -1,4 +1,4 @@
-# `animation-iteration-count`
+# [`animation-iteration-count`](../index.md)
 
 При помощи свойства `animation-iteration-count` можно указать, сколько раз будет проигрываться CSS-анимация.
 

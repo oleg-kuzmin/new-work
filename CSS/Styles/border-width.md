@@ -1,4 +1,9 @@
-# `border-width`
+# [`border-width`](../index.md)
+
+- [`border-bottom-width`](./border-bottom-width.md) толщина границы снизу
+- [`border-left-width`](./border-left-width.md) толщина границы слева
+- [`border-right-width`](./border-right-width.md) толщина границы справа
+- [`border-top-width`](./border-top-width.md) толщина границы сверху
 
 Свойство `border-width` управляет толщиной рамки элемента.
 

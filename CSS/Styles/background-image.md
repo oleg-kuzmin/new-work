@@ -1,4 +1,4 @@
-# `background-image`
+# [`background-image`](../index.md)
 
 Свойство `background-image` задаёт элементу фоновую картинку.
 

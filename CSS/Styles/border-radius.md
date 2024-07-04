@@ -1,4 +1,4 @@
-# `border-radius`
+# [`border-radius`](../index.md)
 
 - [`border-bottom-left-radius`](./border-bottom-left-radius.md) скругление границы снизу слева
 - [`border-bottom-right-radius`](./border-bottom-right-radius.md) скругление границы снизу справа

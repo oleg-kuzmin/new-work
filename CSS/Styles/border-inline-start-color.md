@@ -1,4 +1,4 @@
-# `border-inline-start-color`
+# [`border-inline-start-color`](../index.md)
 
 Можно управлять цветом границы каждой стороны в отдельности.
 

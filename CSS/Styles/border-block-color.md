@@ -1,4 +1,4 @@
-# `border-block-color`
+# [`border-block-color`](../index.md)
 
 - [`border-block-start-color`](./border-block-start-color.md) цвет первой границы
 - [`border-block-end-color`](./border-block-end-color.md) цвет второй границы

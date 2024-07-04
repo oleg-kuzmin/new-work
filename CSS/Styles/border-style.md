@@ -1,4 +1,9 @@
-# `border-style`
+# [`border-style`](../index.md)
+
+- [`border-bottom-style`](./border-bottom-style.md) стиль границы снизу
+- [`border-left-style`](./border-left-style.md) стиль границы слева
+- [`border-right-style`](./border-right-style.md) стиль границы справа
+- [`border-top-style`](./border-top-style.md) стиль границы сверху
 
 Свойство `border-style` управляет стилем рамки элемента.
 

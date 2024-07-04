@@ -1,4 +1,4 @@
-# `background-position`
+# [`background-position`](../index.md)
 
 При помощи свойства `background-position` можно управлять положением фоновой картинки внутри элемента.
 

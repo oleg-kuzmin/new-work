@@ -1,4 +1,4 @@
-# `border-block-end`
+# [`border-block-end`](../index.md)s
 
 - [`border-block-end-width`](./border-block-end-width.md) толщина второй границы
 - [`border-block-end-style`](./border-block-end-style.md) стиль второй границы

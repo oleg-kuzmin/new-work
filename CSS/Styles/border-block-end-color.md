@@ -1,4 +1,4 @@
-# `border-block-end-color`
+# [`border-block-end-color`](../index.md)
 
 Можно управлять цветом границы каждой стороны в отдельности.
 

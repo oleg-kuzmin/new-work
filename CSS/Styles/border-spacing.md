@@ -1,4 +1,4 @@
-# `border-spacing`
+# [`border-spacing`](../index.md)
 
 Свойство `border-spacing` задаёт отступ между рамками ячеек таблицы.
 

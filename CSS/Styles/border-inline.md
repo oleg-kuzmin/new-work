@@ -1,4 +1,4 @@
-# `border-inline`
+# [`border-inline`](../index.md)
 
 - [`border-inline-width`](./border-inline-width.md) толщина границ
 - [`border-inline-style`](./border-inline-style.md) стиль границ

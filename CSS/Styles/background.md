@@ -1,4 +1,4 @@
-# `background`
+# [`background`](../index.md)
 
 - [`background-attachment`](./background-attachment.md) прокрутка фона
 - [`background-clip`](./background-clip.md) блочная модель фона

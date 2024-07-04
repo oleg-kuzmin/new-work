@@ -1,4 +1,4 @@
-# `animation-delay`
+# [`animation-delay`](../index.md)
 
 Свойство задаёт задержку воспроизведения CSS-анимации.
 

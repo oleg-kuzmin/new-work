@@ -1,4 +1,4 @@
-# `animation-name`
+# [`animation-name`](../index.md)
 
 Чтобы связать ключевые кадры CSS-анимации с конкретным элементом, используется свойство `animation-name`.
 

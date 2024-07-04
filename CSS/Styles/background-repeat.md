@@ -1,4 +1,4 @@
-# `background-repeat`
+# [`background-repeat`](../index.md)
 
 Свойство `background-repeat` управляет повтором фонового изображения.
 

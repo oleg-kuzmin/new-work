@@ -1,4 +1,4 @@
-# `animation-duration`
+# [`animation-duration`](../index.md)
 
 При помощи свойства `animation-duration` прописывается длительность одного цикла анимации.
 

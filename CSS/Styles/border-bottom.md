@@ -1,4 +1,4 @@
-# `border-bottom`
+# [`border-bottom`](../index.md)
 
 - [`border-bottom-width`](./border-bottom-width.md) толщина границы сверху
 - [`border-bottom-style`](./border-bottom-style.md) стиль границы сверху

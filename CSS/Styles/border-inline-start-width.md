@@ -1,4 +1,4 @@
-# `border-inline-start-width`
+# [`border-inline-start-width`](../index.md)
 
 Можно управлять толщиной границы каждой стороны в отдельности.
 

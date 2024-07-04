@@ -1,4 +1,4 @@
-# `border-bottom-style`
+# [`border-bottom-style`](../index.md)
 
 Можно управлять стилем границы каждой стороны в отдельности.
 

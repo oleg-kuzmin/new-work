@@ -1,4 +1,4 @@
-# `border-inline-start`
+# [`border-inline-start`](../index.md)
 
 - [`border-inline-start-width`](./border-inline-start-width.md) толщина первой границы
 - [`border-inline-start-style`](./border-inline-start-style.md) стиль певой границы

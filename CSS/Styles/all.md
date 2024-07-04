@@ -1,4 +1,4 @@
-# `all`
+# [`all`](../index.md)
 
 Свойство `all` сбрасывает значения всех CSS-свойств, кроме `direction` и `unicode-bidi`.
 

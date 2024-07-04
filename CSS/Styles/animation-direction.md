@@ -1,4 +1,4 @@
-# `animation-direction`
+# [`animation-direction`](../index.md)
 
 Свойство `animation-direction` сообщает браузеру как должна проигрываться анимация.
 

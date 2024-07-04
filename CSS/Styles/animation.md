@@ -1,4 +1,4 @@
-# `animation`
+# [`animation`](../index.md)
 
 - [`animation-name`](./animation-name.md) имя анимации
 - [`animation-duration`](./animation-duration.md) длительность одного цикла

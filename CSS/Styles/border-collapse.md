@@ -1,4 +1,4 @@
-# `border-collapse`
+# [`border-collapse`](../index.md)
 
 Свойство `border-collapse` управляет отображением границ таблицы и её ячеек.
 

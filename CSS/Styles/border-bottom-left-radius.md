@@ -1,4 +1,4 @@
-# `border-bottom-left-radius`
+# [`border-bottom-left-radius`](../index.md)
 
 Можно управлять радиусом закругления каждого угла в отдельности.
 

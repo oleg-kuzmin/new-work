@@ -1,4 +1,4 @@
-# `border-block-width`
+# [`border-block-width`](../index.md)
 
 - [`border-block-start-width`](./border-block-start-width.md) толщина первой границы
 - [`border-block-end-width`](./border-block-end-width.md) толщина второй границы

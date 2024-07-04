@@ -1,4 +1,4 @@
-# `border-inline-start-style`
+# [`border-inline-start-style`](../index.md)
 
 Можно управлять стилем границы каждой стороны в отдельности.
 

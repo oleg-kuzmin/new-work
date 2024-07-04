@@ -1,4 +1,4 @@
-# `animation-play-state`
+# [`animation-play-state`](../index.md)
 
 Свойство, позволяющее ставить CSS-анимацию на паузу и запускать снова.
 

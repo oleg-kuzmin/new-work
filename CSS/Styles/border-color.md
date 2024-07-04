@@ -1,4 +1,9 @@
-# `border-color`
+# [`border-color`](../index.md)
+
+- [`border-bottom-color`](./border-bottom-color.md) цвет границы снизу
+- [`border-left-color`](./border-left-color.md) цвет границы слева
+- [`border-right-color`](./border-right-color.md) цвет границы справа
+- [`border-top-color`](./border-top-color.md) цвет границы сверху
 
 Свойство `border-color` управляет цветом рамки элемента.
 

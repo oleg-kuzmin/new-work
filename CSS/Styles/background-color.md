@@ -1,4 +1,4 @@
-# `background-color`
+# [`background-color`](../index.md)
 
 При помощи свойства background-color можно задать цвет фона элемента. Задать фоновый цвет можно любому элементу — строчному (`inline`), блочному (`block`) или строчно-блочному (`inline-block`).
 
