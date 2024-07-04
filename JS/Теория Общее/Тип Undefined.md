@@ -1,4 +1,4 @@
-# `Undefined`
+# [`Undefined`](../index.md)
 
 `Undefined` — это примитивный тип данных, состоящий из одного значения `undefined`.
 
