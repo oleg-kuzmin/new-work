@@ -1,4 +1,4 @@
-# `storage`
+# [`storage`](../index.md)
 
 Когда обновляются данные в `localStorage` или `sessionStorage`, генерируется событие `storage` со следующими свойствами:
 

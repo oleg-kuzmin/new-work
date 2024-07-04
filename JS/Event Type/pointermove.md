@@ -1,4 +1,4 @@
-# `pointermove `
+# [`pointermove`](../index.md)
 
 Возникает при движении мышки в любом месте.
 

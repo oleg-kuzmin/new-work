@@ -1,4 +1,4 @@
-# `mouseMove`
+# [`mousemove`](../index.md)
 
 Возникает при каждом движении мыши над элементом.
 
@@ -15,7 +15,7 @@ button.addEventListener('mousemove', function () {
 _Свойство элемента_
 
 ```js
-button.onmousedown = function () {
+button.onmousemove = function () {
   console.log('Двигаемся');
 };
 ```

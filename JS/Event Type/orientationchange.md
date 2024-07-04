@@ -1,4 +1,4 @@
-# `orientationchange`
+# [`orientationchange`](../index.md)
 
 Срабатывает при изменении ориентации с альбомной на книжную и наоборот.
 

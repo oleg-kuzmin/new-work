@@ -1,13 +1,21 @@
-//# keypress (НАЖАТИЕ НА КЛАВИШУ НЕ-МОДИФИКАТОР)
-// Нажатие на клавишу. Cработает при нажатии, но проигнорирует клавиши-модификаторы: alt, ctrl, shft и win — на Windows, и control, option, shift и command — на macOS.
+# [`keypress`](../index.md)
 
-//# Пример
-//* onkeypress
-document.onkeypress = function () {
-  console.log('Нажали клавишу');
-};
+Нажатие на клавишу. Cработает при нажатии, но проигнорирует клавиши-модификаторы: alt, ctrl, shft и win — на Windows, и control, option, shift и command — на macOS.
 
-//* addEventListener
-document.addEventListener('keypress', function () {
+## Пример
+
+_Событие для addEventListener_
+
+```js
+element.addEventListener('keypress', function () {
   console.log('Нажали клавишу');
 });
+```
+
+_Свойство элемента_
+
+```js
+element.onkeypress = function () {
+  console.log('Нажали клавишу');
+};
+```
