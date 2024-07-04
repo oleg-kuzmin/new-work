@@ -1,4 +1,4 @@
-# `window.localStorage.clear()`
+# [`window.localStorage.clear()`](../index.md)
 
 Метод очищает локальное хранилище полностью.
 

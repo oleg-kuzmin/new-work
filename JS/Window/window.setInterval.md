@@ -1,4 +1,4 @@
-# `window.setInterval()`
+# [`window.setInterval()`](../index.md)
 
 `setInterval()` позволяет регулярно исполнять функцию через указанный промежуток времени.
 

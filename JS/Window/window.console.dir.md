@@ -1,4 +1,4 @@
-# `window.console.dir()`
+# [`window.console.dir()`](../index.md)
 
 Отображает свойства объекта.
 

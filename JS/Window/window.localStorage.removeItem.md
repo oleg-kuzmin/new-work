@@ -1,4 +1,4 @@
-# `window.localStorage.removeItem()`
+# [`window.localStorage.removeItem()`](../index.md)
 
 Удаляет запись из хранилища. Успешно выполнится даже если указанного ключа не существует в хранилище.
 

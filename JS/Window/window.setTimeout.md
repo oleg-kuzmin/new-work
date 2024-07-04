@@ -1,4 +1,4 @@
-# `window.setTimeout()`
+# [`window.setTimeout()`](../index.md)
 
 `setTimeout()` позволяет исполнить функцию через указанный промежуток времени.
 

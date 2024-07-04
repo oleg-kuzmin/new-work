@@ -1,4 +1,4 @@
-# `window.getComputedStyle()`
+# [`window.getComputedStyle()`](../index.md)
 
 Получаем текущее значение CSS-свойства элемента.
 

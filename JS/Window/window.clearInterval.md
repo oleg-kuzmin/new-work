@@ -1,4 +1,4 @@
-# `window.clearInterval()`
+# [`window.clearInterval()`](../index.md)
 
 Когда интервал не нужен, его следует удалить, чтобы не тратить ресурсы браузера.
 

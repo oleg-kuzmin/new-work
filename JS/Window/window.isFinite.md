@@ -1,4 +1,4 @@
-# `window.isFinite()`
+# [`window.isFinite()`](../index.md)
 
 Преобразует переданный аргумент в число.
 

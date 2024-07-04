@@ -1,4 +1,4 @@
-# `window.navigator.geolocation`
+# [`window.navigator.geolocation`](../index.md)
 
 Получить доступ к геолокации позволяет свойство объекта `navigator.geolocation`.
 

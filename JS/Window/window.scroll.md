@@ -1,4 +1,4 @@
-# `window.scroll()`
+# [`window.scroll()`](../index.md)
 
 Прокрутит страницу в нужное место.
 

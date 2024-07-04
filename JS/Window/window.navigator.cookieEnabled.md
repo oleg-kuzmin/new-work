@@ -1,4 +1,4 @@
-# `window.navigator.cookieEnabled`
+# [`window.navigator.cookieEnabled`](../index.md)
 
 Метод проверяет браузер пользователя на поддержку `cookie`.
 

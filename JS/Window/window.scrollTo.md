@@ -1,4 +1,4 @@
-# `window.scrollTo()`
+# [`window.scrollTo()`](../index.md)
 
 `window.scroll()` аналогичен методу `window.scrollTo()`.
 

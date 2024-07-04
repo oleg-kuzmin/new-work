@@ -1,4 +1,4 @@
-# `window.innerHeight`
+# [`window.innerHeight`](../index.md)
 
 Покажет полную высоту окна браузера. Включает в себя полосу прокрутки.
 

@@ -1,4 +1,4 @@
-# `window.console.log()`
+# [`window.console.log()`](../index.md)
 
 Отображает содержимое объекта.
 

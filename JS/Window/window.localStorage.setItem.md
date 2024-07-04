@@ -1,4 +1,4 @@
-# `window.localStorage.setItem()`
+# [`window.localStorage.setItem()`](../index.md)
 
 Сохраняет данные в формате ключ-значение в объект `window.localStorage`. Повторная запись по тому же ключу приведёт к перезаписи данных.
 

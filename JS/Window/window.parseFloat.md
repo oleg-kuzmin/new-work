@@ -1,4 +1,4 @@
-# `window.parseFloat()`
+# [`window.parseFloat()`](../index.md)
 
 Преобразует строку в число с плавающей точкой.
 
@@ -27,10 +27,10 @@ parseFloat(string);
 ## Пример
 
 ```js
-console.log(parseFloat('12.12'));        // 12.12
-console.log(parseFloat('12'));           // 12
-console.log(parseFloat('  12.42'));      // 12.42, пробелы в начале игнорируются
-console.log(parseFloat('absa'));         // NaN
+console.log(parseFloat('12.12')); // 12.12
+console.log(parseFloat('12')); // 12
+console.log(parseFloat('  12.42')); // 12.42, пробелы в начале игнорируются
+console.log(parseFloat('absa')); // NaN
 console.log(parseFloat('123.123hello')); // 123.123
-console.log(parseFloat('123.456.789'));  // 123.456
+console.log(parseFloat('123.456.789')); // 123.456
 ```

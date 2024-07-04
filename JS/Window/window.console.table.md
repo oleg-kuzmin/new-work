@@ -1,4 +1,4 @@
-# `window.console.table()`
+# [`window.console.table()`](../index.md)
 
 Отображает массив объектов в виде таблицы.
 

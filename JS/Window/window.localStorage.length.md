@@ -1,4 +1,4 @@
-# `window.localStorage.length`
+# [`window.localStorage.length`](../index.md)
 
 Используя свойство `localStorage.length`, можно узнать, сколько всего полей было записано в хранилище.
 
