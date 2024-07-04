@@ -1,4 +1,4 @@
-# `vertical-align`
+# [`vertical-align`](../index.md)
 
 _(vertical align: вертикальное выравнивание)_
 

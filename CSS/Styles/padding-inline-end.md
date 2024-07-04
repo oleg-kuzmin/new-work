@@ -1,4 +1,4 @@
-# `padding-inline-end`
+# [`padding-inline-end`](../index.md)
 
 Внутренний отступ конец строчной оси.
 

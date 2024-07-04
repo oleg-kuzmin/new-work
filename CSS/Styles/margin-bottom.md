@@ -1,4 +1,4 @@
-# `margin-bottom`
+# [`margin-bottom`](../index.md)
 
 Нижний внешний отступ.
 

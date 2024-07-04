@@ -1,4 +1,4 @@
-# `padding-block-end`
+# [`padding-block-end`](../index.md)
 
 Внутренний отступ конец блочной оси.
 

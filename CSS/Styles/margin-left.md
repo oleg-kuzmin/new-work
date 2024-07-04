@@ -1,4 +1,4 @@
-# `margin-left`
+# [`margin-left`](../index.md)
 
 Левый внешний отступ.
 

@@ -1,4 +1,4 @@
-# `padding-block`
+# [`padding-block`](../index.md)
 
 - [`padding-block-start`](./padding-block-start.md) внутренний отступ начало блочной оси
 - [`padding-block-end`](./padding-block-end.md) внутренний отступ конец блочной оси

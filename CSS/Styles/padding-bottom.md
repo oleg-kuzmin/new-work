@@ -1,4 +1,4 @@
-# `padding-bottom`
+# [`padding-bottom`](../index.md)
 
 Внутренний отступ снизу.
 

@@ -1,4 +1,4 @@
-# `column-gap`
+# [`column-gap`](../index.md)
 
 Отступ между колонками.
 

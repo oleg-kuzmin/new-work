@@ -1,4 +1,4 @@
-# `outline-color`
+# [`outline-color`](../index.md)
 
 Свойство `outline-color` задаёт цвет обводки элемента. Аналог свойства `border-color` для цвета рамки.
 

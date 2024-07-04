@@ -1,4 +1,4 @@
-# `list-style-position`
+# [`list-style-position`](../index.md)
 
 Свойство `list-style-position` задаёт положение маркера списка относительно элемента списка.
 

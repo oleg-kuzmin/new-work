@@ -1,4 +1,4 @@
-# `margin-inline`
+# [`margin-inline`](../index.md)
 
 - [`margin-inline-start`](./margin-inline-start.md) внешний отступ начало строчной оси
 - [`margin-inline-end`](./margin-inline-end.md) внешний отступ конец строчной оси

@@ -1,4 +1,4 @@
-# `padding-block-start`
+# [`padding-block-start`](../index.md)
 
 Внутренний отступ начало блочной оси.
 

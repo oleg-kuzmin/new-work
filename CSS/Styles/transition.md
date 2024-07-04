@@ -1,4 +1,4 @@
-# `transition`
+# [`transition`](../index.md)
 
 - [`transition-property`](./transition-property.md) название свойства
 - [`transition-duration`](./transition-duration.md) длительность перехода

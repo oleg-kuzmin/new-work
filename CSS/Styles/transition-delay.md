@@ -1,4 +1,4 @@
-# `transition-delay`
+# [`transition-delay`](../index.md)
 
 Если нужно плавно изменить какое-то CSS-свойство, но запустить изменение не сразу, а с задержкой, то используем `transition-delay`.
 

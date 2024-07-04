@@ -1,4 +1,4 @@
-# `columns`
+# [`columns`](../index.md)
 
 - [`column-count`](./column-count.md) количество колонок
 - [`column-width`](./column-width.md) ширина колонок

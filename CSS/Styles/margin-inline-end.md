@@ -1,4 +1,4 @@
-# `margin-inline-end`
+# [`margin-inline-end`](../index.md)
 
 Внешний отступ конец строчной оси.
 

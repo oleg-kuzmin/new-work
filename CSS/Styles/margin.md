@@ -1,4 +1,4 @@
-# `margin`
+# [`margin`](../index.md)
 
 - [`margin-top`](./margin-top.md) внешний отступ сверху
 - [`margin-right`](./margin-right.md) внешний отступ справ

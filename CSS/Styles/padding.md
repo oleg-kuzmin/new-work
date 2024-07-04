@@ -1,4 +1,4 @@
-# `padding`
+# [`padding`](../index.md)
 
 - [`padding-top`](./padding-top.md) внутренний отступ сверху
 - [`padding-right`](./padding-right.md) внутренний отступ справа

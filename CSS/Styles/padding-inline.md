@@ -1,4 +1,4 @@
-# `padding-inline`
+# [`padding-inline`](../index.md)
 
 - [`padding-inline-start`](./padding-inline-start.md) внутренний отступ начало строчной оси
 - [`padding-inline-end`](./padding-inline-end.md) внутренний отступ конец строчной оси

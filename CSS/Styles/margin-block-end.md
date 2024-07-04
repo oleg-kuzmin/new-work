@@ -1,4 +1,4 @@
-# `margin-block-end`
+# [`margin-block-end`](../index.md)
 
 Внешний отступ конец блочной оси.
 

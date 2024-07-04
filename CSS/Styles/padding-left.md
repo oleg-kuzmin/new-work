@@ -1,4 +1,4 @@
-# `padding-left`
+# [`padding-left`](../index.md)
 
 Внутренний отступ слева.
 

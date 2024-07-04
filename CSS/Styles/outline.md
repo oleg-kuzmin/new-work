@@ -1,4 +1,4 @@
-# `outline`
+# [`outline`](../index.md)
 
 - [`outline-width`](./STYLES/outline/outline-width.md) толщина обводки
 - [`outline-style`](./STYLES/outline/outline-style.md) стиль обводки

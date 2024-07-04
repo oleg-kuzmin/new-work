@@ -1,4 +1,4 @@
-# `list-style`
+# [`list-style`](../index.md)
 
 - [`list-style-image`](./list-style-image.md) маркеры в виде картинок
 - [`list-style-position`](./list-style-position.md) положение маркеров

@@ -1,4 +1,4 @@
-# `padding-top`
+# [`padding-top`](../index.md)
 
 Внутренний отступ сверху.
 

@@ -1,4 +1,4 @@
-# `margin-right`
+# [`margin-right`](../index.md)
 
 Правый внешний отступ.
 
