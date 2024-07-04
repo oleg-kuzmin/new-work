@@ -1,4 +1,4 @@
-# [`<address>`](../HTML.md)
+# [`<address>`](../index.md)
 
 _(address: адрес)_
 

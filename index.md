@@ -2,4 +2,4 @@
 
 ---
 
-## [HTML](./HTML/HTML.md)
+## [HTML](./HTML/index.md)
