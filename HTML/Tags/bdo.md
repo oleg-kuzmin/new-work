@@ -1,4 +1,4 @@
-# `<bdo>`
+# [`<bdo>`](../index.md)
 
 _(bidirectional override: переопределение двунаправленности)_
 

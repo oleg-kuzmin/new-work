@@ -1,4 +1,4 @@
-# `<strike>`
+# [`<strike>`](../index.md)
 
 _(strikethrough: зачеркнутый)_
 

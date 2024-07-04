@@ -1,4 +1,4 @@
-# `<datalist>`
+# [`<datalist>`](../index.md)
 
 _(data list: список данных)_
 

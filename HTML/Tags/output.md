@@ -1,4 +1,4 @@
-# `<output>`
+# [`<output>`](../index.md)
 
 _(output: выход, вывод)_
 

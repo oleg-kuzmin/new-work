@@ -1,4 +1,4 @@
-# `<dt>`
+# [`<dt>`](../index.md)
 
 _(description term: термин списка описаний)_
 

@@ -1,4 +1,4 @@
-# `<bdi>`
+# [`<bdi>`](../index.md)
 
 _(bidirectional isolate: изоляция двунаправленности)_
 

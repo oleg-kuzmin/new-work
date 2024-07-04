@@ -1,4 +1,4 @@
-# `<bgsound>`
+# [`<bgsound>`](../index.md)
 
 _(background sound: фоновая музыка)_
 

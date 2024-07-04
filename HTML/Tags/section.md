@@ -1,4 +1,4 @@
-# `<section>`
+# [`<section>`](../index.md)
 
 _(section: секция)_
 

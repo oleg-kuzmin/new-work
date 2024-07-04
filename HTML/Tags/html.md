@@ -1,4 +1,4 @@
-# `<html>`
+# [`<html>`](../index.md)
 
 _(hyperText markup language: язык гипертекстовой разметки)_
 

@@ -1,4 +1,4 @@
-# `<nobr>`
+# [`<nobr>`](../index.md)
 
 _(no line break: нет переноса строки)_
 

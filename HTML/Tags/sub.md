@@ -1,4 +1,4 @@
-# `<sub>`
+# [`<sub>`](../index.md)
 
 _(subscript: нижний индекс)_
 

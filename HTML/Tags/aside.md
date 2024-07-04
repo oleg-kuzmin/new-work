@@ -1,4 +1,4 @@
-# `<aside>`
+# [`<aside>`](../index.md)
 
 _(aside: в стороне)_
 

@@ -1,4 +1,4 @@
-# `<table>`
+# [`<table>`](../index.md)
 
 _(table: таблица)_
 

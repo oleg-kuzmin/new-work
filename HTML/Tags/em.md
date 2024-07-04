@@ -1,4 +1,4 @@
-# `<em>`
+# [`<em>`](../index.md)
 
 _(emphasis: акцент)_
 

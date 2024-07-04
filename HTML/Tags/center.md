@@ -1,4 +1,4 @@
-# `<center>`
+# [`<center>`](../index.md)
 
 _(center: центр, середина)_
 

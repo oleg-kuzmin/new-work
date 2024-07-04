@@ -1,4 +1,4 @@
-# `<search>`
+# [`<search>`](../index.md)
 
 _(search: поиск)_
 

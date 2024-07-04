@@ -1,4 +1,4 @@
-# `<var>`
+# [`<var>`](../index.md)
 
 _(variable: переменная)_
 

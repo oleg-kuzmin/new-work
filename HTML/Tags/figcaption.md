@@ -1,4 +1,4 @@
-# `<figcaption>`
+# [`<figcaption>`](../index.md)
 
 _(figure caption: подпись к рисунку)_
 

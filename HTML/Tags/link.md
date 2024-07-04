@@ -1,4 +1,4 @@
-# `<link>`
+# [`<link>`](../index.md)
 
 _(link: ссылка)_
 

@@ -1,4 +1,4 @@
-# `<acronym>`
+# [`<acronym>`](../index.md)
 
 _(acronym: акроним)_
 

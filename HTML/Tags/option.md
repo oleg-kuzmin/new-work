@@ -1,4 +1,4 @@
-# `<option>`
+# [`<option>`](../index.md)
 
 _(option: вариант, выбор)_
 

@@ -1,4 +1,4 @@
-# `<applet>`
+# [`<applet>`](../index.md)
 
 _(application let: приложение)_
 

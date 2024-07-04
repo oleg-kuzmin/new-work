@@ -1,4 +1,4 @@
-# `<article>`
+# [`<article>`](../index.md)
 
 _(article: статья, изделие, предмет)_
 

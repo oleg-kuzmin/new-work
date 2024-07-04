@@ -1,4 +1,4 @@
-# `<s>`
+# [`<s>`](../index.md)
 
 _(strikethrough: зачёркнутый)_
 

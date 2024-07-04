@@ -1,4 +1,4 @@
-# `<kbd>`
+# [`<kbd>`](../index.md)
 
 _(keyboard: клавиатура)_
 

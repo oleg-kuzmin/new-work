@@ -1,4 +1,4 @@
-# `<head>`
+# [`<head>`](../index.md)
 
 _(head: голова)_
 

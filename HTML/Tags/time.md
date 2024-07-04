@@ -1,4 +1,4 @@
-# `<time>`
+# [`<time>`](../index.md)
 
 _(time: время)_
 

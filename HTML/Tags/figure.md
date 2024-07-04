@@ -1,4 +1,4 @@
-# `<figure>`
+# [`<figure>`](../index.md)
 
 _(figure: рисунок, иллюстрация)_
 

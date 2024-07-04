@@ -1,4 +1,4 @@
-# `<iframe>`
+# [`<iframe>`](../index.md)
 
 _(inline frame: встроенная в строку рамка)_
 

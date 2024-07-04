@@ -1,4 +1,4 @@
-# `<abbr>`
+# [`<abbr>`](../index.md)
 
 _(abbreviation: аббревиатура)_
 

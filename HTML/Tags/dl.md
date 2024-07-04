@@ -1,4 +1,4 @@
-# `<dl>`
+# [`<dl>`](../index.md)
 
 _(description list: список описаний)_
 

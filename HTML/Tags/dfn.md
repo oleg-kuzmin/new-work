@@ -1,4 +1,4 @@
-# `<dfn>`
+# [`<dfn>`](../index.md)
 
 _(definition: определение)_
 

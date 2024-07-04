@@ -1,4 +1,4 @@
-# `<audio>`
+# [`<audio>`](../index.md)
 
 _(audio: звук)_
 

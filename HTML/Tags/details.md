@@ -1,4 +1,4 @@
-# `<details>`
+# [`<details>`](../index.md)
 
 _(details: подробности)_
 

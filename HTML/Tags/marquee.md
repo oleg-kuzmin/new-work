@@ -1,4 +1,4 @@
-# `<marquee>`
+# [`<marquee>`](../index.md)
 
 _(marquee: бегущая строка)_
 

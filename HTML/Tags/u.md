@@ -1,4 +1,4 @@
-# `<u>`
+# [`<u>`](../index.md)
 
 _(unarticulated: невнятный)_
 

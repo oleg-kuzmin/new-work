@@ -1,4 +1,4 @@
-# `<meta>`
+# [`<meta>`](../index.md)
 
 _(meta: мета)_
 

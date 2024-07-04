@@ -1,4 +1,4 @@
-# `<sup>`
+# [`<sup>`](../index.md)
 
 _(superscript: верхний индекс)_
 

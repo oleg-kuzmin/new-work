@@ -1,4 +1,4 @@
-# `<font>`
+# [`<font>`](../index.md)
 
 _(font: шрифт)_
 

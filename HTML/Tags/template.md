@@ -1,4 +1,4 @@
-# `<template>`
+# [`<template>`](../index.md)
 
 _(template: шаблон)_
 

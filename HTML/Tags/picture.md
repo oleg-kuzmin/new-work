@@ -1,4 +1,4 @@
-# `<picture>`
+# [`<picture>`](../index.md)
 
 _(picture: картинка, изображение)_
 

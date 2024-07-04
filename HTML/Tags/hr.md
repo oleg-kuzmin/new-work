@@ -1,4 +1,4 @@
-# `<hr>`
+# [`<hr>`](../index.md)
 
 _(horizontal rule: горизонтальная черта)_
 

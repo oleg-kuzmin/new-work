@@ -1,4 +1,4 @@
-# `<input>`
+# [`<input>`](../index.md)
 
 _(input: ввод)_
 

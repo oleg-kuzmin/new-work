@@ -1,4 +1,4 @@
-# `<strong>`
+# [`<strong>`](../index.md)
 
 _(strong: сильный)_
 

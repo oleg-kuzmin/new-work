@@ -1,4 +1,4 @@
-## `<blockquote>`
+# [`<blockquote>`](../index.md)
 
 _(block quotation: блок цитат)_
 

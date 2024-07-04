@@ -1,4 +1,4 @@
-# `<small>`
+# [`<small>`](../index.md)
 
 _(small: маленький)_
 
