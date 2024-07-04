@@ -1,4 +1,4 @@
-# `element.style`
+# [`element.style`](../index.md)
 
 `element.style` - объект с свойствами стилей.
 

@@ -1,4 +1,4 @@
-# `element.dataset`
+# [`element.dataset`](../index.md)
 
 Свойство `dataset` позволяет считывать или устанавливать любые дата-атрибуты на HTML-элементе.
 

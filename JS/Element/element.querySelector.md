@@ -1,4 +1,4 @@
-# `element.querySelector()`
+# [`element.querySelector()`](../index.md)
 
 Метод определён для объекта `document` и любого HTML-элемента (`element`) страницы.
 

@@ -1,4 +1,4 @@
-# `element.checked`
+# [`element.checked`](../index.md)
 
 Это свойство есть только у чекбоксов и радиокнопок.
 

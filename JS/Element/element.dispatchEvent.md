@@ -1,4 +1,4 @@
-# `element.dispatchEvent()`
+# [`element.dispatchEvent()`](../index.md)
 
 Отправляет кастомное событие на элементе в общую систему событий.
 

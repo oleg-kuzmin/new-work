@@ -1,4 +1,4 @@
-# `element.getBoundingClientRect()`
+# [`element.getBoundingClientRect()`](../index.md)
 
 Возвращает объект с координатами относительно страницы.
 

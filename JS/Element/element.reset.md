@@ -1,4 +1,4 @@
-# `element.reset()`
+# [`element.reset()`](../index.md)
 
 Сбрасываем (очищаем) все поля формы.
 

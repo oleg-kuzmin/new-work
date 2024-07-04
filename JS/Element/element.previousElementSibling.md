@@ -1,4 +1,4 @@
-# `element.previousElementSibling`
+# [`element.previousElementSibling`](../index.md)
 
 Свойство `previousElementSibling` позволяет получить предыдущий соседний элемент.
 

@@ -1,4 +1,4 @@
-# `element.insertAdjacentHTML()`
+# [`element.insertAdjacentHTML()`](../index.md)
 
 Добавляет разметку и текст в документ и не затрагивает существующие элементы.
 

@@ -1,4 +1,4 @@
-# `element.lastElementChild`
+# [`element.lastElementChild`](../index.md)
 
 Свойство `lastElementChild` позволяет получить последний дочерний элемент.
 

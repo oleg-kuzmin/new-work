@@ -1,4 +1,4 @@
-# `element.nextElementSibling`
+# [`element.nextElementSibling`](../index.md)
 
 Свойство `nextElementSibling` позволяет получить следующий соседний элемент.
 

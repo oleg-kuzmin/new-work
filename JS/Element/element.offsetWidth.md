@@ -1,4 +1,4 @@
-# `element.offsetWidth`
+# [`element.offsetWidth`](../index.md)
 
 Content + Padding + ScrollBar + Border. Содержимое + Внутренние отступы + Полоса прокрутки + Границы.
 

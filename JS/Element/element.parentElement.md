@@ -1,4 +1,4 @@
-# `element.parentElement`
+# [`element.parentElement`](../index.md)
 
 Свойство `parentElement` позволяет получить родительский элемент.
 

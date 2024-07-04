@@ -1,4 +1,4 @@
-# `element.className`
+# [`element.className`](../index.md)
 
 С его помощью можно прочитать или записать значение атрибута `class`.
 

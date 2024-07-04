@@ -1,4 +1,4 @@
-# `element.value`
+# [`element.value`](../index.md)
 
 Значение поля ввода. Оно есть у всех элементов input и textarea.
 

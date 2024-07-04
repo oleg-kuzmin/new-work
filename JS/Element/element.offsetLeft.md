@@ -1,4 +1,4 @@
-# `element.offsetLeft`
+# [`element.offsetLeft`](../index.md)
 
 Отступ слева от `offsetParent`.
 

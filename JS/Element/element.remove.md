@@ -1,4 +1,4 @@
-# `element.remove()`
+# [`element.remove()`](../index.md)
 
 Удаляет элемент из DOM.
 

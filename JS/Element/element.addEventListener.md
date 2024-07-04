@@ -1,4 +1,4 @@
-# `element.addEventListener()`
+# [`element.addEventListener()`](../index.md)
 
 Добавляет на элемент обработчик события, на которое нужно отреагировать.
 

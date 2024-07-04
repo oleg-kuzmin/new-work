@@ -1,4 +1,4 @@
-# `element.scrollWidth`
+# [`element.scrollWidth`](../index.md)
 
 Content + Padding + ScrollBar. Содержимое + Внутренние отступы + Полоса прокрутки.
 

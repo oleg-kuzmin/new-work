@@ -1,4 +1,4 @@
-# `element.htmlFor`
+# [`element.htmlFor`](../index.md)
 
 Позволяет получить значение атрибута `htmlFor` у HTML-элемента.
 

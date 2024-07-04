@@ -1,4 +1,4 @@
-# `element.clientLeft`
+# [`element.clientLeft`](../index.md)
 
 Отступ слева от начала border до content. По сути это border. Но если документ справа налево, будет включать в себя также полосу прокрутки.
 

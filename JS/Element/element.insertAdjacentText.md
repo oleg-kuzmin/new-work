@@ -1,4 +1,4 @@
-# `element.insertAdjacentText()`
+# [`element.insertAdjacentText()`](../index.md)
 
 Добавляет текст в документ и не затрагивает существующие элементы.
 

@@ -1,4 +1,4 @@
-# `element.clientWidth`
+# [`element.clientWidth`](../index.md)
 
 Content + Padding. Содержимое + Внутренние отступы.
 

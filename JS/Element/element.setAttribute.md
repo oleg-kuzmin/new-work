@@ -1,4 +1,4 @@
-# `element.setAttribute()`
+# [`element.setAttribute()`](../index.md)
 
 Устанавливает конкретное значение атрибута у элемента.
 

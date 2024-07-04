@@ -1,4 +1,4 @@
-# `element.validationMessage`
+# [`element.validationMessage`](../index.md)
 
 Свойство `validationMessage` есть у всех полей ввода. В нём записан текст сообщения об ошибке. Браузер показывает его по умолчанию, когда вводят некорректные данные.
 

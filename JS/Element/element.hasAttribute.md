@@ -1,4 +1,4 @@
-# `element.hasAttribute()`
+# [`element.hasAttribute()`](../index.md)
 
 Метод проверяет наличие атрибута у HTML-элемента.
 

@@ -1,4 +1,4 @@
-# `element.classList.replace()`
+# [`element.classList.replace()`](../index.md)
 
 Метод позволяет заменить одно значение класса другим.
 

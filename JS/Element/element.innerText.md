@@ -1,4 +1,4 @@
-# `element.innerText`
+# [`element.innerText`](../index.md)
 
 Предназначено для получения текстового содержимого. Оно отличается от `textContent` тем, что `innerText` возвращает только видимое текстовое содержимое. То есть `innerText` проигнорирует всё, что скрыто свойством `display: none`, а `textContent` — нет.
 

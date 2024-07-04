@@ -1,4 +1,4 @@
-# `element.removeAttribute()`
+# [`element.removeAttribute()`](../index.md)
 
 Удаляет атрибут у элемента.
 

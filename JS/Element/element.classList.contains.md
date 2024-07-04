@@ -1,4 +1,4 @@
-# `element.classList.contains()`
+# [`element.classList.contains()`](../index.md)
 
 Метод позволяет проверить наличие класса у элемента.
 

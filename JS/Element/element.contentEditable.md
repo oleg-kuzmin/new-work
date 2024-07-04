@@ -1,4 +1,4 @@
-# `element.contentEditable`
+# [`element.contentEditable`](../index.md)
 
 Свойство `contentEditable` элемента - признак, указывающий можно или нет редактировать содержимое элемента.
 

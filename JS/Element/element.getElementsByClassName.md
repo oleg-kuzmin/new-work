@@ -1,4 +1,4 @@
-# `element.getElementsByClassName()`
+# [`element.getElementsByClassName()`](../index.md)
 
 Метод определён для объекта `document` и любого HTML-элемента (`element`) страницы. Позволяет найти все элементы с заданным классом или классами среди дочерних.
 

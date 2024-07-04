@@ -1,4 +1,4 @@
-# `element.disabled`
+# [`element.disabled`](../index.md)
 
 Блокировать и разблокировать кнопку в JavaScript можно, присваивая булевы значения свойству `disabled` этой кнопки.
 

@@ -1,4 +1,4 @@
-# `element.innerHTML`
+# [`element.innerHTML`](../index.md)
 
 Свойство `innerHTML` позволяет получить внутреннее HTML-содержимое элемента в виде строки.
 

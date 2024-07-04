@@ -1,4 +1,4 @@
-# `element.firstElementChild`
+# [`element.firstElementChild`](../index.md)
 
 Свойство `firstElementChild` позволяет получить первый дочерний элемент.
 

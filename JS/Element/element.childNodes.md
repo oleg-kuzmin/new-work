@@ -1,4 +1,4 @@
-# `element.childNodes`
+# [`element.childNodes`](../index.md)
 
 Возвращает коллекцию дочерних элементов данного элемента.
 

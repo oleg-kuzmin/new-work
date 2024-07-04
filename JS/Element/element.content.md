@@ -1,4 +1,4 @@
-# `element.content`
+# [`element.content`](../index.md)
 
 Мы можем получить доступ к `<template>` из JavaScript, клонировать его и переиспользовать в новом компоненте.
 

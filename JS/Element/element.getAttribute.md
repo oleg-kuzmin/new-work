@@ -1,4 +1,4 @@
-# `element.getAttribute()`
+# [`element.getAttribute()`](../index.md)
 
 Метод `getAttribute()` позволяет получить значение указанного атрибута у HTML-элемента.
 

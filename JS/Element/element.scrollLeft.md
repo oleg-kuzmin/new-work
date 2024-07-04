@@ -1,4 +1,4 @@
-# `element.scrollLeft`
+# [`element.scrollLeft`](../index.md)
 
 Ширина прокрученной области от самой левой точки.
 

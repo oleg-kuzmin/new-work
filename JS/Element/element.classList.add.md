@@ -1,4 +1,4 @@
-# `element.classList.add()`
+# [`element.classList.add()`](../index.md)
 
 Этот метод используется для добавления класса к элементу.
 

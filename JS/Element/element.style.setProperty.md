@@ -1,4 +1,4 @@
-# `element.style.setProperty()`
+# [`element.style.setProperty()`](../index.md)
 
 Метод `setProperty()` устанавливает стиль. Может быть применён как к DOM-элементу, так и конкретному CSS-правилу.
 

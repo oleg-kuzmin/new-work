@@ -1,4 +1,4 @@
-# `element.submit()`
+# [`element.submit()`](../index.md)
 
 Программная отправка формы с помощью метода.
 

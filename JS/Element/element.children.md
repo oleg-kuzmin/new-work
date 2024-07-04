@@ -1,4 +1,4 @@
-# `element.children`
+# [`element.children`](../index.md)
 
 Свойство `children` содержит псевдомассив всех дочерних элементов указанного элемента.
 
