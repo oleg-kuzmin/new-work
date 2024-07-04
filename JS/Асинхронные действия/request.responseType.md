@@ -1,4 +1,4 @@
-# `request.responseType`
+# [`request.responseType`](../index.md)
 
 Тип передачи данных ответа.
 

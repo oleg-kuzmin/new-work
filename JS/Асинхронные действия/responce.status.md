@@ -1,4 +1,4 @@
-# `responce.status`
+# [`responce.status`](../index.md)
 
 Код статуса ответа от сервера.
 

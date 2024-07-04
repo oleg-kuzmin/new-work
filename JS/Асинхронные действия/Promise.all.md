@@ -1,4 +1,4 @@
-# `Promise.all()`
+# [`Promise.all()`](../index.md)
 
 Возвращает объект `promise` со статусом `fulfilled`, когда все промисы-аргументы вернулись со статусом `fulfilled`.
 

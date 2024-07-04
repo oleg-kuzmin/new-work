@@ -1,4 +1,4 @@
-# `new Promise()`
+# [`new Promise()`](../index.md)
 
 Создание объекта - экземпляра класса `Promise` происходит через конструктор `new Promise`.
 

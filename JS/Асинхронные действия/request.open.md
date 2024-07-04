@@ -1,4 +1,4 @@
-## `request.open()`
+# [`request.open()`](../index.md)
 
 Метод открывает запрос.
 
