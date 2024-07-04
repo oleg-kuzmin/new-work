@@ -1,4 +1,4 @@
-# `start`
+# [`start`](../index.md)
 
 _(start: начинать)_
 

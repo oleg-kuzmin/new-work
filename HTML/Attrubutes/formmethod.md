@@ -1,4 +1,4 @@
-# `formmethod`
+# [`formmethod`](../index.md)
 
 Переопределяет атрибут `method` у родительской формы.
 

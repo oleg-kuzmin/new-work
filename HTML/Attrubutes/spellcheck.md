@@ -1,4 +1,4 @@
-# `spellcheck`
+# [`spellcheck`](../index.md)
 
 _(spellcheck: проверка орфографии)_
 

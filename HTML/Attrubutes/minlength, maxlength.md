@@ -1,4 +1,4 @@
-# `minlength`, `maxlength`
+# [`minlength, maxlength`](../index.md)
 
 Атрибуты `minlength` и `maxlength` устанавливают минимальное и максимальное количество символов, которые можно ввести в поля `<input>` или `<textarea>`.
 

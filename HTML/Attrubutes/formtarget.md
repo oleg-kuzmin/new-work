@@ -1,4 +1,4 @@
-# `formtarget`
+# [`formtarget`](../index.md)
 
 Переопределяет атрибут `target` у родительской формы.
 

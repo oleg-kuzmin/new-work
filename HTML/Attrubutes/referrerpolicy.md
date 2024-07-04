@@ -1,4 +1,4 @@
-# `referrerpolicy`
+# [`referrerpolicy`](../index.md)
 
 Атрибут `referrerpolicy` определяет, какие реферальные данные следует отправлять при переходе по ссылке в заголовке `Referer`.
 

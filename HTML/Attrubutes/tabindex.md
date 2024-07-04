@@ -1,4 +1,4 @@
-# `tabindex`
+# [`tabindex`](../index.md)
 
 _(tabindex: индекс табуляции)_
 

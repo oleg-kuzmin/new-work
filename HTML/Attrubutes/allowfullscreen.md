@@ -1,4 +1,4 @@
-# `allowfullscreen`
+# [`allowfullscreen`](../index.md)
 
 Разрешает полноэкранный режим
 

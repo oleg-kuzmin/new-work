@@ -1,4 +1,4 @@
-# `type`
+# [`type`](../index.md)
 
 _(type: тип)_
 

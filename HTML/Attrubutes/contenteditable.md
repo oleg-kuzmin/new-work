@@ -1,4 +1,4 @@
-# `contenteditable`
+# [`contenteditable`](../index.md)
 
 _(contenteditable: редактируемый контент)_
 

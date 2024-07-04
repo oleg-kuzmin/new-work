@@ -1,4 +1,4 @@
-# `class`
+# [`class`](../index.md)
 
 _(class: класс)_
 

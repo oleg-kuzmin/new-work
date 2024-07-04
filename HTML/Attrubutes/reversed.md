@@ -1,4 +1,4 @@
-# `reversed`
+# [`reversed`](../index.md)
 
 _(reversed: перевернутый)_
 

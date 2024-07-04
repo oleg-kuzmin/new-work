@@ -1,4 +1,4 @@
-# `formaction`
+# [`formaction`](../index.md)
 
 Переопределяет атрибут `action` у родительской формы.
 

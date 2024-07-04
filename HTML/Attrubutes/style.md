@@ -1,4 +1,4 @@
-# `style`
+# [`style`](../index.md)
 
 _(style: стиль)_
 

@@ -1,4 +1,4 @@
-# `lang`
+# [`lang`](../index.md)
 
 _(lang: язык)_
 

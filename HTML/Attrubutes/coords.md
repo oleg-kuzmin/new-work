@@ -1,4 +1,4 @@
-# `coords`
+# [`coords`](../index.md)
 
 _(coords: координаты)_
 

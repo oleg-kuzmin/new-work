@@ -1,4 +1,4 @@
-# `formnovalidate`
+# [`formnovalidate`](../index.md)
 
 Переопределяет атрибут `novalidate` у родительской формы.
 

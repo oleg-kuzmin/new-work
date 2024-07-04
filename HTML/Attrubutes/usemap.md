@@ -1,4 +1,4 @@
-# `usemap`
+# [`usemap`](../index.md)
 
 Способ связи с тегом `<map>`.
 

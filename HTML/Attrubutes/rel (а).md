@@ -1,4 +1,4 @@
-# `rel`
+# [`rel`](../index.md)
 
 _(relation: связь)_
 

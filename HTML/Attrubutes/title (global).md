@@ -1,4 +1,4 @@
-# `title`
+# [`title`](../index.md)
 
 _(title: заголовок)_
 

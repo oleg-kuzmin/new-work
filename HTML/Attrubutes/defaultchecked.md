@@ -1,4 +1,4 @@
-# `defaultchecked`
+# [`defaultchecked`](../index.md)
 
 Сделает поле ввода уже выбранным.
 

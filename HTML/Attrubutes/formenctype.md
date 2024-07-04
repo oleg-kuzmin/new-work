@@ -1,4 +1,4 @@
-# `formenctype`
+# [`formenctype`](../index.md)
 
 Переопределяет атрибут `enctype` у родительской формы.
 

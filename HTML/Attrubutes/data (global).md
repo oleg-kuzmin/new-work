@@ -1,4 +1,4 @@
-# `data`
+# [`data`](../index.md)
 
 _(data: данные)_
 
