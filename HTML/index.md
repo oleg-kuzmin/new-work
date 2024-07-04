@@ -1,4 +1,4 @@
-# [HTML](../index.md)
+# [`HTML`](../index.md)
 
 - [Теория](#теория)
 - [Attrubutes All](#attrubutes-all)

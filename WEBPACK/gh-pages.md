@@ -1,4 +1,4 @@
-# `npm i gh-pages -D`
+# [`gh-pages`](./index.md)
 
 Если во время скрипта `gh-pages` появилась ошибка ввести `npx gh-pages-clean`.
 

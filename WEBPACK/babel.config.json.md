@@ -1,4 +1,4 @@
-# `babel.config.json`
+# [`babel.config.json`](./index.md)
 
 Другой вариант - файл `.babelrc` в корне проекта.
 

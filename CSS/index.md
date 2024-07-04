@@ -1,4 +1,4 @@
-# [CSS](../index.md)
+# [`CSS`](../index.md)
 
 - [Директивы](#директивы)
 - [Псевдоклассы](#псевдоклассы)
@@ -82,8 +82,8 @@
 
 ## [Bootstrap](#css)
 
-- [`Bootstrap - установка`](<./Bootstrap/Bootstrap - установка.md>)
-- [`Bootstrap - margin, padding`](<./Bootstrap/Bootstrap - margin, padding.md>)
+- [`установка`](./Bootstrap/установка.md)
+- [`margin, padding`](<./Bootstrap/margin, padding.md>)
 
 ## [Grid](#css)
 

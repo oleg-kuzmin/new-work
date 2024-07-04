@@ -1,4 +1,4 @@
-# [`Bootstrap - margin, padding`](../index.md)
+# [`margin, padding`](../index.md)
 
 После указания параметров 1 и 2 параметры 3 и 4 пишут с разделителем `-`.
 

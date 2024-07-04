@@ -1,19 +1,18 @@
-# Webpack
+# [`Webpack`](../index.md)
 
-- [`Импорт в html`](<./Импорт в html.md>)
-- [`Импорт в js`](<./Импорт в js.md>)
+- [`Импорт картинок в html`](<./Импорт в html.md>)
+- [`Импорт картинок в js`](<./Импорт в js.md>)
 
 ## Установка
 
 ```bash
 npm init -y
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
+npm i -D @babel/core @babel/preset-env babel-loader css-loader mini-css-extract-plugin
+npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 ```
 
-```bash
-npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core @babel/preset-env babel-loader css-loader mini-css-extract-plugin sass sass-loader postcss postcss-loader postcss-preset-env
-```
-
-### `webpack`
+## Установка webpack
 
 Перед началом установки нужно проверить наличие `node.js` и `npm`.
 
@@ -22,7 +21,7 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin @babel/core 
 - `npm i webpack-cli -D` интерфейс командной строки
 - `npm i webpack-dev-server -D` установка локального сервера
 
-### `plugins and loaders`
+## Установка plugins and loaders
 
 - `npm i html-webpack-plugin -D` плагин для обработки html
 - `npm i @babel/core -D` ядро babel

@@ -1,4 +1,4 @@
-# `webpack.config.mjs`
+# [`webpack.config.mjs`](./index.md)
 
 Все плагины нужно импортировать, лоадеры - нет.
 
