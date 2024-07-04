@@ -1,4 +1,4 @@
-# `npm init`
+# [`npm init`](../index.md)
 
 Инициализация npm.
 

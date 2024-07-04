@@ -1,4 +1,4 @@
-# `yarn -v`
+# [`yarn -v`](../index.md)
 
 Покажет версию `yarn`.
 

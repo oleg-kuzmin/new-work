@@ -1,4 +1,4 @@
-# Стили для markdown
+# [`Стилизация файлов markdown`](./index.md)
 
 ## Markdown Preview Github Styling
 

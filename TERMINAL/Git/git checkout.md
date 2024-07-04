@@ -1,4 +1,4 @@
-# `git checkout`
+# [`git checkout`](../index.md)
 
 ```bash
 # Переключение на другую ветку.

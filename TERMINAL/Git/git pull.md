@@ -1,4 +1,4 @@
-# `git pull`
+# [`git pull`](../index.md)
 
 ```bash
 # Синтаксис.

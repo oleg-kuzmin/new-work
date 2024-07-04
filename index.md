@@ -9,3 +9,9 @@
 ## [JS](./JS/index.md)
 
 ## [WEBPACK](./WEBPACK/index.md)
+
+## [PACKAGES](./PACKAGES/index.md)
+
+## [TERMINAL](./TERMINAL/index.md)
+
+## [VITE](./VITE/index.md)

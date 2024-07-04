@@ -1,4 +1,4 @@
-# `git config`
+# [`git config`](../index.md)
 
 Установка глобальных настроек.
 

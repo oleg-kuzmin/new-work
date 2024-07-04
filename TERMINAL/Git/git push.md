@@ -1,4 +1,4 @@
-# `git push`
+# [`git push`](../index.md)
 
 ```bash
 # "origin main" - название главной ветки удаленного репозитория.

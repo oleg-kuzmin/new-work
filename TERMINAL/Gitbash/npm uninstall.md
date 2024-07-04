@@ -1,4 +1,4 @@
-# `npm uninstall`
+# [`npm uninstall`](../index.md)
 
 Не важно, где располагается информация о пакете - в секции dependencies или devDependencies, пакет удаляется из любой из этих секций.
 

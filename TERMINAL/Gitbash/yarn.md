@@ -1,4 +1,4 @@
-# `yarn` && `yarn install`
+# [`yarn, yarn install`](../index.md)
 
 Установка пакетов. Запуск скрипта
 

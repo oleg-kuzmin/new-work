@@ -1,4 +1,4 @@
-# `ls`
+# [`ls`](../index.md)
 
 _(list directory contents: вывести список содержимого каталога)_
 

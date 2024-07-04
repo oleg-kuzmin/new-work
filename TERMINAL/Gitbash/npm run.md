@@ -1,4 +1,4 @@
-# `npm run`
+# [`npm run`](../index.md)
 
 Запустит скрипт из package.json
 

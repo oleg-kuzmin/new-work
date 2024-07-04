@@ -1,4 +1,4 @@
-# `node -v`
+# [`node -v`](../index.md)
 
 Покажет версию `node.js`.
 

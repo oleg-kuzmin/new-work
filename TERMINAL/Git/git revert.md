@@ -1,4 +1,4 @@
-# `git revert`
+# [`git revert`](../index.md)
 
 ## С опцией `-m`
 

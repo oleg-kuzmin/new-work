@@ -1,4 +1,4 @@
-# `git reset`
+# [`git reset`](../index.md)
 
 ## Мягкий сброс
 

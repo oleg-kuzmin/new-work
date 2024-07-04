@@ -1,4 +1,4 @@
-# Snippets
+# [`Пользовательские snippets`](./index.md)
 
 file:///Users/Oleg/AppData/Roaming/Code/User/snippets/my-snippets.code-snippets
 
