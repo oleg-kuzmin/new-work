@@ -1,4 +1,4 @@
-# `Math.ceil()`
+# [`Math.ceil()`](../index.md)
 
 _(ceil: потолок)_
 

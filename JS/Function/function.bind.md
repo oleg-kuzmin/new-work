@@ -1,4 +1,4 @@
-# `function.bind()`
+# [`function.bind()`](../index.md)
 
 Привяжи конкретный контекст для функции.
 

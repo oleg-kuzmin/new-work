@@ -1,4 +1,4 @@
-# `map.delete()`
+# [`map.delete()`](../index.md)
 
 Метод `delete()` удаляет значение из коллекции `Map`.
 

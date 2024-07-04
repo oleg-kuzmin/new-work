@@ -1,4 +1,4 @@
-# `new Number()`
+# [`new Number()`](../index.md)
 
 Cоздаёт пустой экземпляр класса Number.
 

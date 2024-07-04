@@ -1,4 +1,4 @@
-# `Number.isNaN()`
+# [`Number.isNaN()`](../index.md)
 
 Статический метод `Number.isNaN()` проверяет переданное аргументом значение и возвращает `true`, если это значение `NaN`.
 
@@ -24,11 +24,11 @@ Number.isNaN(argument);
 ## Пример
 
 ```js
-Number.isNaN(NaN);       // true
-Number.isNaN();          // false
-Number.isNaN(42);        // false
-Number.isNaN('42');      // false
-Number.isNaN(null);      // false
+Number.isNaN(NaN); // true
+Number.isNaN(); // false
+Number.isNaN(42); // false
+Number.isNaN('42'); // false
+Number.isNaN(null); // false
 Number.isNaN(undefined); // false
-Number.isNaN(false);     // false
+Number.isNaN(false); // false
 ```

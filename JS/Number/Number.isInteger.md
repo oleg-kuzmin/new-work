@@ -1,4 +1,4 @@
-# `Number.isInteger()`
+# [`Number.isInteger()`](../index.md)
 
 Метод `Number.isInteger` принимает число как аргумент и проверяет, целое оно или дробное.
 

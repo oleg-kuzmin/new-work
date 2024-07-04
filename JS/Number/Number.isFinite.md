@@ -1,4 +1,4 @@
-# `Number.isFinite()`
+# [`Number.isFinite()`](../index.md)
 
 Метод `Number.isFinite()` позволяет проверить, является ли переданное в аргументе число конечным.
 
@@ -28,11 +28,11 @@ Number.isFinite(argument);
 ## Пример
 
 ```js
-Number.isFinite(3.14);            // true
-Number.isFinite(10e5);            // true
-Number.isFinite(0);               // true
-Number.isFinite(Infinity);        // false
-Number.isFinite(-Infinity);       // false
-Number.isFinite([]);              // false
+Number.isFinite(3.14); // true
+Number.isFinite(10e5); // true
+Number.isFinite(0); // true
+Number.isFinite(Infinity); // false
+Number.isFinite(-Infinity); // false
+Number.isFinite([]); // false
 Number.isFinite('Двадцать пять'); // false
 ```

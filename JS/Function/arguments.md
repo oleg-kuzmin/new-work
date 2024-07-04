@@ -1,4 +1,4 @@
-# `arguments`
+# [`arguments`](../index.md)
 
 В старом коде, до появления оператора `spread`, можно встретить переменную `arguments`.
 

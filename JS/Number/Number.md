@@ -1,4 +1,4 @@
-# `Number()`
+# [`Number()`](../index.md)
 
 - [`Преобразование (численное)`](<../ТЕОРИЯ/Преобразование (численное).md>)
 
@@ -34,11 +34,11 @@ Number(argument);
 
 ```js
 Number(undefined); // NaN
-Number(null);      // 0
-Number(false);     // 0
-Number(true);      // 1
-Number('');        // 0
-Number('42');      // 42
-Number('  42');    // 42
-Number('4px');     // NaN
+Number(null); // 0
+Number(false); // 0
+Number(true); // 1
+Number(''); // 0
+Number('42'); // 42
+Number('  42'); // 42
+Number('4px'); // NaN
 ```
