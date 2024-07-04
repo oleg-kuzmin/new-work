@@ -1,4 +1,4 @@
-# `date.getMilliseconds()`
+# [`date.getMilliseconds()`](../index.md)
 
 Возвращает миллисекунды (0-999). Также есть методы `getUTCMilliseconds()`.
 

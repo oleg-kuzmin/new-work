@@ -1,4 +1,4 @@
-# `document.documentElement`
+# [`document.documentElement`](../index.md)
 
 `document.documentElement` - свойство только для чтения, которое возвращает `element`, который является коренным элементом документа document (например элемент `<html>` для HTML документов).
 

@@ -1,4 +1,4 @@
-# `date.toLocaleTimeString()`
+# [`date.toLocaleTimeString()`](../index.md)
 
 Возвращает данные о времени.
 

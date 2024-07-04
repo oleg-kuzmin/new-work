@@ -1,4 +1,4 @@
-# `document.querySelectorAll()`
+# [`document.querySelectorAll()`](../index.md)
 
 Метод определён для объекта `document` и любого HTML-элемента (`element`) страницы. Позволяет найти все элементы по CSS-селектору среди дочерних.
 

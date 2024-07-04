@@ -1,4 +1,4 @@
-# `document.createTextNode()`
+# [`document.createTextNode()`](../index.md)
 
 Создает текстовой узел.
 

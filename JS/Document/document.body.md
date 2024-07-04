@@ -1,4 +1,4 @@
-# `document.body`
+# [`document.body`](../index.md)
 
 Свойство позволяет получить объект страницы - `<body>`.
 

@@ -1,4 +1,4 @@
-# `date.toLocaleDateString()`
+# [`date.toLocaleDateString()`](../index.md)
 
 Для отображения `Date` в различных форматах существует метод `toLocaleDateString()`.
 

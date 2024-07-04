@@ -1,4 +1,4 @@
-# `new Date()`
+# [`new Date()`](../index.md)
 
 `Date` — класс для работы со временем. В основном используется для отображения и вычисления.
 
@@ -20,6 +20,7 @@
 ## Синтаксис
 
 ```js
+const currentDate = new Date();
 const currentDate = new Date(value);
 ```
 

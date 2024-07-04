@@ -1,4 +1,4 @@
-# `document.head`
+# [`document.head`](../index.md)
 
 Свойство позволяет получить объект страницы - `<head>`.
 

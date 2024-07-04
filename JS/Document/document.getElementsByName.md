@@ -1,4 +1,4 @@
-# `document.getElementsByName()`
+# [`document.getElementsByName()`](../index.md)
 
 Возвращает элементы с заданным атрибутом name. Очень редко используется.
 

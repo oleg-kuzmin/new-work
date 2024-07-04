@@ -1,4 +1,4 @@
-# `date.getSeconds()`
+# [`date.getSeconds()`](../index.md)
 
 Возвращает секунды (0-59). Также есть метод `getUTCSeconds()`.
 

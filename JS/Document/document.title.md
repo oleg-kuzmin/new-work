@@ -1,4 +1,4 @@
-# `document.title`
+# [`document.title`](../index.md)
 
 Свойство позволяет получить `<title>`.
 

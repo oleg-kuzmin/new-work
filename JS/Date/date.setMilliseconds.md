@@ -1,4 +1,4 @@
-# `date.setMilliseconds()`
+# [`date.setMilliseconds()`](../index.md)
 
 Устанавливает миллисекунды (0-999). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCMilliseconds()`.
 

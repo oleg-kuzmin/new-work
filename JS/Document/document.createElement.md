@@ -1,4 +1,4 @@
-# `document.createElement()`
+# [`document.createElement()`](../index.md)
 
 Создает html-элемент.
 

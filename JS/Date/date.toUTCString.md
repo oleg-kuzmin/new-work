@@ -1,4 +1,4 @@
-# `date.toUTCString()`
+# [`date.toUTCString()`](../index.md)
 
 Возвращает дату в формате utc.
 

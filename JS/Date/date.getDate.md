@@ -1,4 +1,4 @@
-# `date.getDate()`
+# [`date.getDate()`](../index.md)
 
 Возвращает день месяца (1-31). Также есть метод `getUTCDate()`.
 

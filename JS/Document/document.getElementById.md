@@ -1,4 +1,4 @@
-# `document.getElementById()`
+# [`document.getElementById()`](../index.md)
 
 Метод объекта `document`, который позволяет найти элемент на веб-странице по его идентификатору (атрибут `id`).
 

@@ -1,4 +1,4 @@
-# `date.setMonth()`
+# [`date.setMonth()`](../index.md)
 
 Устанавливает месяц (0-11). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCMonth()`.
 

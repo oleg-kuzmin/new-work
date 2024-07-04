@@ -1,4 +1,4 @@
-# `date.getTimezoneOffset()`
+# [`date.getTimezoneOffset()`](../index.md)
 
 Возвращает смещение в минутах между текущей часовой зоной и UTC.
 

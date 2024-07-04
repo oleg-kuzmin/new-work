@@ -1,4 +1,4 @@
-# `date.setSeconds()`
+# [`date.setSeconds()`](../index.md)
 
 Устанавливает секунды (0-59). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCSeconds()`.
 

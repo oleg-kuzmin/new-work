@@ -1,4 +1,4 @@
-# `date.getHours()`
+# [`date.getHours()`](../index.md)
 
 Возвращает час (0-23). Также есть метод `getUTCHours()`.
 

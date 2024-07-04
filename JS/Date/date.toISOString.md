@@ -1,4 +1,4 @@
-# `date.toISOString()`
+# [`date.toISOString()`](../index.md)
 
 Возвращает дату в формате `iso`.
 

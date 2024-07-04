@@ -1,4 +1,4 @@
-# `date.getDay()`
+# [`date.getDay()`](../index.md)
 
 Возвращает день недели (0-6). Также есть метод `getUTCDay()`.
 

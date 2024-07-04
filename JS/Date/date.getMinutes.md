@@ -1,4 +1,4 @@
-# `date.getMinutes()`
+# [`date.getMinutes()`](../index.md)
 
 Возвращает минуты (0-59). Также есть метод `getUTCMinutes()`.
 

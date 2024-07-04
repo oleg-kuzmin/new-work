@@ -1,4 +1,4 @@
-# `date.setHours()`
+# [`date.setHours()`](../index.md)
 
 Устанавливает часы (0-23). Изменяет объект - экземпляр класса `new Date()`. Также есть метод `setUTCHours()`.
 

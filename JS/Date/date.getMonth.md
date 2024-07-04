@@ -1,4 +1,4 @@
-# `date.getMonth()`
+# [`date.getMonth()`](../index.md)
 
 Возвращает месяц (0-11). Также есть метод `getUTCMonth()`.
 

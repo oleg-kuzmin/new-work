@@ -1,4 +1,4 @@
-# `date.getFullYear()`
+# [`date.getFullYear()`](../index.md)
 
 Возвращает год. Также есть метод `getUTCFullYear()`.
 
