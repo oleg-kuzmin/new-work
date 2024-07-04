@@ -1,4 +1,4 @@
-# `Object.getOwnPropertySymbols()`
+# [`Object.getOwnPropertySymbols()`](../index.md)
 
 Статический метод возвращает массив всех свойств символа, найденных непосредственно в данном объекте.
 

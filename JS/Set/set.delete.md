@@ -1,4 +1,4 @@
-# `set.delete()`
+# [`set.delete()`](../index.md)
 
 Метод `delete()` удаляет значение из коллекции `Set`.
 

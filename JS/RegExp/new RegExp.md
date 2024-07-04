@@ -1,4 +1,4 @@
-# `new RegExp()`
+# [`new RegExp()`](../index.md)
 
 _(regular expression: регулярное выражение)_
 

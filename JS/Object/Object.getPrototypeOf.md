@@ -1,4 +1,4 @@
-# `Object.getPrototypeOf()`
+# [`Object.getPrototypeOf()`](../index.md)
 
 Статический метод `Object.getPrototypeOf()` возвращает прототип указанного объекта. Другими словами - значение внутреннего свойства `[[Prototype]]`.
 
