@@ -1,4 +1,4 @@
-# Код-стайл
+# [`Код-стайл Maxgraph`](../index.md)
 
 ```css
 .element {

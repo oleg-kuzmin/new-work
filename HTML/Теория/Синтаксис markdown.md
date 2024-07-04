@@ -1,4 +1,4 @@
-# [Синтаксис markdown](../index.md)
+# [`Синтаксис markdown`](../index.md)
 
 ## Работа с текстом
 
