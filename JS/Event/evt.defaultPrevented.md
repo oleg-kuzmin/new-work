@@ -1,4 +1,4 @@
-# `evt.defaultPrevented`
+# [`evt.defaultPrevented`](../index.md)
 
 Свойство содержит информацию о том отменено ли поведение события по умолчанию.
 

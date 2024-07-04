@@ -1,4 +1,4 @@
-# `evt.eventPhase`
+# [`evt.eventPhase`](../index.md)
 
 Указывает на фазу срабатывания события.
 

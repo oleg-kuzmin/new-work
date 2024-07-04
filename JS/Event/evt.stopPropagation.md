@@ -1,4 +1,4 @@
-# `evt.stopPropagation()`
+# [`evt.stopPropagation()`](../index.md)
 
 Метод, с помощью которого можно остановить всплытие события.
 

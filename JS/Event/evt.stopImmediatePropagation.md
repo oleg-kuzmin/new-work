@@ -1,4 +1,4 @@
-# `evt.stopImmediatePropagation()`
+# [`evt.stopImmediatePropagation()`](../index.md)
 
 Делает то же самое, что и stopPropagation, но, в том числе, предотвращает вызов обработчиков события, которые были установлены на этом же элементе.
 

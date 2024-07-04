@@ -1,4 +1,4 @@
-# `evt.timeStamp`
+# [`evt.timeStamp`](../index.md)
 
 Время возникновения события в миллисекундах.
 

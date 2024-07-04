@@ -1,4 +1,4 @@
-# `evt.isTrusted`
+# [`evt.isTrusted`](../index.md)
 
 Указывает на происхождение события.
 

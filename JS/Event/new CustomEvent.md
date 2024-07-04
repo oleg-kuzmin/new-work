@@ -1,4 +1,4 @@
-# `new CustomEvent()`
+# [`new CustomEvent()`](../index.md)
 
 Создает кастомное событие с дополнительными данными.
 
