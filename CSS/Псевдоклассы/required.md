@@ -1,4 +1,4 @@
-# `required`
+# [`:required`](../index.md)
 
 Псевдокласс `:required`, дополняющий основной селектор, поможет выбрать элементы `<input>`, `<textarea>` или `<select>`, у которых задан атрибут `required`.
 

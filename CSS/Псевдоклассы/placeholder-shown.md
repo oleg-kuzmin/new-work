@@ -1,4 +1,4 @@
-# `:placeholder-shown`
+# [`:placeholder-shown`](../index.md)
 
 Псевдокласс `:placeholder-shown` выбирает на странице все `<input>` или `<textarea>`, у которых показывается подсказка.
 

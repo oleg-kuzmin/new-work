@@ -1,4 +1,4 @@
-# `:nth-child`
+# [`:nth-child`](../index.md)
 
 Псевдокласс `li:first-child` означачает выбрать элемент, если:
 

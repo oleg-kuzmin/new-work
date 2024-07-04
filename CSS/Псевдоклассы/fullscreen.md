@@ -1,4 +1,4 @@
-# `:fullscreen`
+# [`:fullscreen`](../index.md)
 
 Признак того, что документ развернули на всё окно (с помощью JavaScript).
 

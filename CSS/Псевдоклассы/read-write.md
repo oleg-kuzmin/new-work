@@ -1,4 +1,4 @@
-# :read-write
+# [`:read-write`](../index.md)
 
 Псевдокласс `:read-write` показывает что элемент, например, `<input>` или `<textarea>`, изменяется.
 

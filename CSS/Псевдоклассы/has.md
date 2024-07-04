@@ -1,4 +1,4 @@
-# `:has()`
+# [`:has()`](../index.md)
 
 Функция-псевдокласс `:has()` позволяет уточнить основной селектор дополнительным. Это единственный способ выбрать элемент на основе дочернего или соседнего элемента посредством CSS.
 
@@ -13,7 +13,8 @@
 ## Синтаксис
 
 ```css
-selector:has(s1, s2, s3) {}
+selector:has(s1, s2, s3) {
+}
 ```
 
 ### `selector`
@@ -28,16 +29,19 @@ selector:has(s1, s2, s3) {}
 
 ```css
 /* Применяем стили ко всем ссылкам, которые также содержат селектор изображения */
-a:has(img) {}
+a:has(img) {
+}
 
 /* Стили применятся только к такому <dt>, за которым сразу следует элемент <dd> */
-dt:has(+ dd) {}
+dt:has(+ dd) {
+}
 ```
 
 ### Один аргумент.
 
 ```css
-selector:has(img) {}
+selector:has(img) {
+}
 ```
 
 ### Два аргумента.
@@ -47,11 +51,13 @@ selector:has(img) {}
 Если `.content` — валидный селектор, а `#link` — нет, то `selector` будет уточнён за счёт `.content`.
 
 ```css
-selector:has(.content, #link) {}
+selector:has(.content, #link) {
+}
 ```
 
 ### Цепочка
 
 ```css
-selector:has(.content):has(#link) {}
+selector:has(.content):has(#link) {
+}
 ```
