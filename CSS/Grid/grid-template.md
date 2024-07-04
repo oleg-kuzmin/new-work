@@ -1,4 +1,4 @@
-# `grid-template`
+# [`grid-template`](../index.md)
 
 - [`grid-template-rows`](./grid-template-rows.md) явные строки
 - [`grid-template-columns`](./grid-template-columns.md) явные колонки

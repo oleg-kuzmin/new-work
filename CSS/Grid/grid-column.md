@@ -1,4 +1,4 @@
-# `grid-column`
+# [`grid-column`](../index.md)
 
 - [`grid-column-start`](./grid-column-start.md) начало элемента по горизонтали
 - [`grid-column-end`](./grid-column-end.md) конец элемента по горизонтали

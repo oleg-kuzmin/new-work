@@ -82,8 +82,8 @@
 
 ## [Bootstrap](#css)
 
-- [`Bootstrap - установка`](./Bootstrap/Установка.md)
-- [`Bootstrap - margin, padding`](<./Bootstrap/margin, padding.md>)
+- [`Bootstrap - установка`](<./Bootstrap/Bootstrap - установка.md>)
+- [`Bootstrap - margin, padding`](<./Bootstrap/Bootstrap - margin, padding.md>)
 
 ## [Grid](#css)
 

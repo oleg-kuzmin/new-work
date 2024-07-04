@@ -1,4 +1,4 @@
-# `grid-auto-flow`
+# [`grid-auto-flow`](../index.md)
 
 Управляет потоком элементов.
 

@@ -1,4 +1,4 @@
-# `gap`
+# [`gap`](../index.md)
 
 - [`row-gap`](./row-gap.md) отступы между строками
 - [`column-gap`](./column-gap.md) отступы между колонками

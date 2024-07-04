@@ -1,4 +1,4 @@
-# `place-content`
+# [`place-content`](../index.md)
 
 Выравнивание элементов.
 
