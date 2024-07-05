@@ -2,6 +2,7 @@
 
 - [Теория Общее](#теория-общее)
 - [Теория ООП](#теория-ооп)
+- [Hooks](#hooks)
 - [Legacy](#legacy)
 
 ## [Теория Общее](#react)
@@ -16,6 +17,10 @@
 - [`this.setState()`](<./Теория ООП/this.setState.md>) изменение состояния
 - [`this.state()`](<./Теория ООП/this.state.md>) инициализация состояния
 - [`this`](<./Теория ООП/this.md>) привязка this к методу класса
+
+## [Hooks](#react)
+
+- [`useState()`](./Hooks/useState.md) использование состояния
 
 ## [Legacy](#react)
 
