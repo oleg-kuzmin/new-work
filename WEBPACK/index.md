@@ -2,6 +2,7 @@
 
 - [`Импорт картинок в html`](<./Импорт в html.md>)
 - [`Импорт картинок в js`](<./Импорт в js.md>)
+- [`gh-pages`](./gh-pages.md)
 
 ## Установка
 
@@ -38,7 +39,6 @@ npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 ## Настройка
 
 - [`babel.config.json`](./babel.config.json.md) файл конфигурации babel
-- [`gh-pages`](./gh-pages.md) размещение сайта на gh-pages
 - [`package.json`](./package.json.md) файл конфигурации npm
 - [`postcssrc.json`](./postcssrc.json.md) файл конфигурации postcss
 - [`webpack.config.mjs`](./webpack.config.mjs.md) файл конфигурации webpack
