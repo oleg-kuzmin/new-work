@@ -14,14 +14,16 @@
 
 - [`Жизненный цикл компонента`](<./Теория ООП//Жизненный цикл компонента.md>)
 - [`React.Component`](<./Теория ООП/React.Component.md>) class React.Component
+- [`React.createRef()`](<./Теория ООП/React.createRef.md>) ссылка на элемент
 - [`this.setState()`](<./Теория ООП/this.setState.md>) изменение состояния
 - [`this.state()`](<./Теория ООП/this.state.md>) инициализация состояния
 - [`this`](<./Теория ООП/this.md>) привязка this к методу класса
 
 ## [Hooks](#react)
 
-- [`useState()`](./Hooks/useState.md) состояние
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
+- [`useRef()`](./Hooks/useRef.md) ссылка на элемент
+- [`useState()`](./Hooks/useState.md) состояние
 
 ## [Legacy](#react)
 

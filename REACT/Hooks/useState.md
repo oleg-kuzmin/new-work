@@ -32,7 +32,11 @@ const [value, setValue] = useState(initial);
 
 Функция для обновления переменной и запуска React для повторного рендеринга компонента.
 
+Сама функция принимает в качестве аргумента новое состояние или другую функцию с аргументом `prevValue`.
+
 ## Пример
+
+### Базовое использование
 
 ```jsx
 // импорт
@@ -41,6 +45,95 @@ import { useState } from 'react';
 function App() {
   // создание (деструктуризация массива)
   const [value, setValue] = useState(null);
+
+  // использование (новое значение)
+  setValue(1);
+
+  // использование (функция обновления значения)
+  setValue(prev => prev + 1);
+
+  // return
   return <div></div>;
 }
+```
+
+### Изменения состояния объекта
+
+При изменении и неглубоком копировании объекта можно использовать спред-синтаксис для сохранения предыдущих значений и ключей.
+
+```jsx
+const [person, setPerson] = useState({
+  firstName: 'Barbara',
+  lastName: 'Hepworth',
+  email: 'bhepworth@sculpture.com',
+});
+
+setPerson({
+  ...person,
+  firstName: e.target.value,
+});
+```
+
+```jsx
+const [personHard, setPersonHard] = useState({
+  name: 'Niki de Saint Phalle',
+  artwork: {
+    title: 'Blue Nana',
+    city: 'Hamburg',
+    image: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  },
+});
+
+setPersonHard({
+  ...personHard,
+  artwork: {
+    ...personHard.artwork,
+    title: e.target.value,
+  },
+});
+```
+
+### Изменения состояния массива
+
+```jsx
+const [artists, setArtists] = useState([
+  { id: 0, name: 'Marta Colvin Andrade' },
+  { id: 1, name: 'Lamidi Olonade Fakeye' },
+  { id: 2, name: 'Louise Nevelson' },
+]);
+
+// добавление в конец
+setArtists([...artists, { id: id, name: name }]);
+
+// добавление в начало
+setArtists([{ id: id, name: name }, ...artists]);
+
+// Добавление в другое место
+setArtists([...artists.slice(0, 5), { id: id, name: name }, ...artists.slice(5)]);
+
+// удаление
+setArtists(artists.filter(a => a.id !== artist.id));
+
+// точечное изменение
+setArtists(
+  artists.map(artist => {
+    if ((artist.id = 2)) {
+      return { ...artist, name: 'newName' };
+    } else {
+      return artist;
+    }
+  })
+);
+
+// замена
+const newArtist = { id: 3, name: 'newName' };
+setArtists(
+  artists.map(artist => {
+    if ((artist.id = 2)) {
+      return newArtist;
+    } else {
+      return artist;
+    }
+  })
+);
 ```
