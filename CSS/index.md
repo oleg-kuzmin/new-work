@@ -6,6 +6,7 @@
 - [Решения](#теория)
 - [Теория](#теория)
 - [Bootstrap](#bootstrap)
+- [Flex](#grid)
 - [Grid](#grid)
 - [Sass](#sass)
 - [Styles](#styles)
@@ -85,7 +86,13 @@
 - [`установка`](./Bootstrap/установка.md)
 - [`margin, padding`](<./Bootstrap/margin, padding.md>)
 
+## [Flex](#css)
+
+- [`Теория Flex`](<./Flex/Теория Flex.md>)
+
 ## [Grid](#css)
+
+- [`Теория Grid`](<./Grid/Теория Grid.md>)
 
 ### [grid-container](#css)
 
