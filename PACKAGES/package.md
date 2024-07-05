@@ -1,4 +1,4 @@
-# Описание файла `package.json`
+# [`Описание файла package.json`](./index.md)
 
 ```json
 {
