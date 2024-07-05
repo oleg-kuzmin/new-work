@@ -21,6 +21,7 @@
 ## [Hooks](#react)
 
 - [`useState()`](./Hooks/useState.md) состояние
+- [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
 
 ## [Legacy](#react)
 
