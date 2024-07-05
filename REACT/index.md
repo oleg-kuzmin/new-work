@@ -22,7 +22,7 @@
 ## [Hooks](#react)
 
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
-- [`useRef()`](./Hooks/useRef.md) ссылка на элемент
+- [`useRef()`](./Hooks/useRef.md) ссылка на элемент, хранение и обновление значения без перерендера
 - [`useState()`](./Hooks/useState.md) состояние
 
 ## [Legacy](#react)
