@@ -4,6 +4,6 @@
 - [`Полное удаление`](<./Полное удаление.md>)
 - [`Пользовательские snippets`](./Snippets.md)
 - [`Расширения`](./Расширения.md)
-- [`Стилизация файлов markdown`](./Markdown.md)
+- [`Стилизация файлов markdown`](<./Стилизация файлов markdown.md>)
 - [`keybindings.json`](./Keybindings.md)
 - [`settings.json`](./Settings.md)
