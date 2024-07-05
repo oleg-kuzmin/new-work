@@ -95,6 +95,10 @@
 
 - [`Теория Flex`](<./Flex/Теория Flex.md>)
 
+### [flex-container](#css)
+
+- [`flex-direction`](./Flex/flex-direction.md) направление основной оси
+
 ## [Grid](#css)
 
 - [`Теория Grid`](<./Grid/Теория Grid.md>)
