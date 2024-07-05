@@ -20,7 +20,7 @@
 
 ## [Hooks](#react)
 
-- [`useState()`](./Hooks/useState.md) использование состояния
+- [`useState()`](./Hooks/useState.md) состояние
 
 ## [Legacy](#react)
 
