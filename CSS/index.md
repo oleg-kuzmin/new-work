@@ -98,6 +98,7 @@
 ### [flex-container](#css)
 
 - [`flex-direction`](./Flex/flex-direction.md) направление основной оси
+- [`flex-wrap`](./Flex/flex-wrap.md) перенос на новый ряд
 
 ## [Grid](#css)
 
