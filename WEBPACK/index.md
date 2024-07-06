@@ -4,7 +4,7 @@
 - [`Импорт картинок в js`](<./Импорт в js.md>)
 - [`gh-pages`](./gh-pages.md)
 
-## Установка
+## [Установка](#webpack)
 
 ```bash
 npm init -y
@@ -13,7 +13,7 @@ npm i -D @babel/core @babel/preset-env babel-loader css-loader mini-css-extract-
 npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 ```
 
-## Установка webpack
+## [Установка webpack](#webpack)
 
 Перед началом установки нужно проверить наличие `node.js` и `npm`.
 
@@ -22,7 +22,7 @@ npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 - `npm i webpack-cli -D` интерфейс командной строки
 - `npm i webpack-dev-server -D` установка локального сервера
 
-## Установка plugins and loaders
+## [Установка plugins and loaders](#webpack)
 
 - `npm i html-webpack-plugin -D` плагин для обработки html
 - `npm i @babel/core -D` ядро babel
@@ -36,7 +36,7 @@ npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 - `npm i postcss-loader -D` лоадер для обработки
 - `npm i postcss-preset-env -D` набор правил для postcss
 
-## Настройка
+## [Настройка](#webpack)
 
 - [`babel.config.json`](./babel.config.json.md) файл конфигурации babel
 - [`package.json`](./package.json.md) файл конфигурации npm

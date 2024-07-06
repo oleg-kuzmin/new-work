@@ -1,6 +1,6 @@
 # [`Terminal`](../index.md)
 
-## Теория Git
+## [Теория Git](#terminal)
 
 - [`Структура Git`](<./Git/Структура Git.md>)
 - [`Установка Git`](<./Git/Установка Git.md>)
@@ -9,7 +9,7 @@
 - [`Gitkeep - пустая папка`](<./Git/Gitkeep - пустая папка.md>)
 - [`Nojekyll - файлы с нижним подчеркиванием`](<./Git/Nojekyll - файлы с нижним подчеркиванием.md>)
 
-## Коммиты Git
+## [Коммиты Git](#terminal)
 
 - [`git add`](<./Git/git add.md>) добавить файл/каталог в stage
 - [`git commit`](<./Git/git commit.md>) добавить файл/каталог в локальный репозиторий
@@ -20,14 +20,14 @@
 - [`git stash`](<./Git/git stash.md>) спрятать изменения
 - [`git status`](<./Git/git status.md>) проверить изменения
 
-## Ветки Git
+## [Ветки Git](#terminal)
 
 - [`git branch`](<./Git/git branch.md>) создание/удаление ветки
 - [`git checkout`](<./Git/git checkout.md>) сменить ветку
 - [`git merge`](<./Git/git merge.md>) слияние ветки с главной
 - [`git revert`](<./Git/git revert.md>) отмена слияния веток, отмена коммита
 
-## Репозиторий Git
+## [Репозиторий Git](#terminal)
 
 - [`git -v`](<./Git/git -v.md>) покажет версию npm
 - [`git clone`](<./Git/git clone.md>) клонирование удаленного репозитория
@@ -38,7 +38,7 @@
 - [`git push`](<./Git/git push.md>) отправка изменений в удаленный репозиторий
 - [`git remote`](<./Git/git remote.md>) привязка удаленного репозитория с локальным
 
-## Gitbash
+## [Gitbash](#terminal)
 
 - [`Горячие клавиши Git Bash`](<./Gitbash/Горячие клавиши Git Bash.md>)
 - [`cat`](./Gitbash/cat.md) выводит содержимое файла
@@ -60,7 +60,7 @@
 - [`touch`](./Gitbash/touch.md) создать файл
 - [`vim`](./Gitbash/vim.md) откроет редактор кода vim
 
-## Npm
+## [Npm](#terminal)
 
 - [`npm -v`](<./Gitbash/npm -v.md>) покажет версию npm
 - [`npm i`](<./Gitbash/npm i.md>) установка пакетов
@@ -72,7 +72,7 @@
 - [`npm uninstall`](<./Gitbash/npm uninstall.md>) удаление пакета
 - [`npm update`](<./Gitbash/npm update.md>) обновление пакета
 
-## Yarn
+## [Yarn](#terminal)
 
 - [`yarn -v`](<./Gitbash/yarn -v.md>) покажет версию yarn
 - [`yarn add`](<./Gitbash/yarn add.md>) установка пакета
@@ -80,6 +80,6 @@
 - [`yarn remove`](<./Gitbash/yarn remove.md>) удаление пакета
 - [`yarn`](./Gitbash/yarn.md) установка пакетов, запуск скрипта
 
-## Nodew
+## [Node](#terminal)
 
 - [`node -v`](<./Gitbash/node -v.md>) покажет версию node
