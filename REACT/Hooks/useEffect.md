@@ -4,7 +4,7 @@
 
 Обычно пишется перед `return`.
 
-Хук полностью асинхронный.
+Хук полностью асинхронный, любая функционально внутри не будет блокировать работу всего приложения.
 
 React сперва рендерит компонент, и только потом вызывает `useEffect`.
 
@@ -49,18 +49,29 @@ function App() {
 
 ## Использование имени функции
 
+При наличии двух и более useEffect лучше добавить комментарии перед началом о том, что делает эффект. Или в качестве аргумента передать не анонимную функцию, а именованную.
+
 ```jsx
-function App() {
-  useEffect(function initPlugin() {
-    plugin.start();
-    return () => plugin.end();
-  }, []);
+useEffect(() => {}, []);
 
-  useEffect(function getApi() {
-    api.start();
-    return () => api.end();
-  }, []);
+useEffect(function initPlugin() {
+  console.log('Какой-то плагин инициализируется');
 
-  return <div></div>;
-}
+  return () => {
+    console.log('Какой-то плагин прекращает работу');
+  };
+}, []);
+```
+
+## Снятие и установление обработчиков
+
+```jsx
+useEffect(() => {
+  const handler = () => {};
+  document.addEventListener('click', handler);
+
+  return () => {
+    document.removeEventListener('click', handler);
+  };
+}, []);
 ```
