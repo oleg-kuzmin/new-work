@@ -24,11 +24,13 @@
 
 ## [Hooks](#react)
 
+- [`useCallback()`](./Hooks/useCallback.md) запоминание функции
+- [`useContext()`](./Hooks/useContext.md) общедоступный контекст
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
 - [`useLayoutEffect()`](./Hooks/useLayoutEffect.md) жизненный цикл до отрисовки
+- [`useMemo()`](./Hooks/useMemo.md) запоминание значения функции
 - [`useRef()`](./Hooks/useRef.md) ссылка на элемент или хранение значения
 - [`useState()`](./Hooks/useState.md) состояние
-- [`useContext()`](./Hooks/useContext.md) общедоступный контекст
 
 ## [Legacy](#react)
 
