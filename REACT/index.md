@@ -24,9 +24,10 @@
 ## [Hooks](#react)
 
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
-- [`useRef()`](./Hooks/useRef.md) ссылка на элемент, хранение и обновление значения без перерендера
+- [`useLayoutEffect()`](./Hooks/useLayoutEffect.md) жизненный цикл до отрисовки
+- [`useRef()`](./Hooks/useRef.md) ссылка на элемент или хранение значения
 - [`useState()`](./Hooks/useState.md) состояние
-- [`useContext()`](./Hooks/useContext.md) контекст
+- [`useContext()`](./Hooks/useContext.md) общедоступный контекст
 
 ## [Legacy](#react)
 
