@@ -101,6 +101,7 @@
   - [`flex-direction`](./Flex/flex-direction.md) направление
   - [`flex-wrap`](./Flex/flex-wrap.md) перенос
 - [`align-content`](./Flex/align-content.md) расположение строк поперечная ось
+- [`justify-content`](./Flex/justify-content.md) расположение элементов основная ось
 
 ## [Grid](#css)
 
