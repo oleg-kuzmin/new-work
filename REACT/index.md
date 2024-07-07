@@ -35,5 +35,6 @@
 ## [Legacy](#react)
 
 - [`React.createElement()`](./Legacy/React.createElement.md) создает react-компонент
+- [`React.Fragment`](./Legacy/React.Fragment.md) создает фрагмент
 - [`ReactDOM.createRoot()`](./Legacy/ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDOM.render()`](./Legacy/ReactDom.render.md) рендерит react-компонент
