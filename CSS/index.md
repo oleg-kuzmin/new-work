@@ -95,7 +95,7 @@
 
 - [`Теория Flex`](<./Flex/Теория Flex.md>)
 
-### [flex-container](#css)
+### [container](#css)
 
 - [`flex-flow`](./Flex/flex-flow.md) направление и перенос
   - [`flex-direction`](./Flex/flex-direction.md) направление
@@ -108,11 +108,15 @@
   - [`row-gap`](./Flex/row-gap.md) отступы между строками
   - [`column-gap`](./Flex/column-gap.md) отступы между колонками
 
+### [element](#css)
+
+- [`align-self`](./Flex/align-self.md) выравнивание одного элемента поперечная ось
+
 ## [Grid](#css)
 
 - [`Теория Grid`](<./Grid/Теория Grid.md>)
 
-### [grid-container](#css)
+### [container](#css)
 
 - [`gap`](./Grid/gap.md) отступы
   - [`column-gap`](./Grid/column-gap.md) отступы между колонками
@@ -131,7 +135,7 @@
   - [`align-items`](./Grid/align-items.md) выравнивание контента внутри ячеек по вертикали
   - [`justify-items`](./Grid/justify-items.md) выравнивание контента внутри ячеек по горизонтали
 
-### [grid-item](#css)
+### [element](#css)
 
 - [`grid-area`](./Grid/grid-area.md) название грид-области
 - [`grid-column`](./Grid/grid-column.md) расположение элемента по горизонтали
