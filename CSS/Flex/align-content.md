@@ -13,7 +13,7 @@
 ## Пример
 
 ```css
-.flex-container {
+.container {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
