@@ -24,7 +24,7 @@
 
 ## [Hooks](#react)
 
-- [`custom`](./Hooks/custom.md) кастомные хуки
+- [`custom Hooks`](<./Hooks/custom Hooks.md>) кастомные хуки
 - [`useCallback()`](./Hooks/useCallback.md) запоминание функции
 - [`useContext()`](./Hooks/useContext.md) общедоступный контекст
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
