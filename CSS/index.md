@@ -100,8 +100,9 @@
 - [`flex-flow`](./Flex/flex-flow.md) направление и перенос
   - [`flex-direction`](./Flex/flex-direction.md) направление
   - [`flex-wrap`](./Flex/flex-wrap.md) перенос
-- [`align-content`](./Flex/align-content.md) расположение строк поперечная ось
-- [`justify-content`](./Flex/justify-content.md) расположение элементов основная ось
+- [`place-content`](./Flex/place-content.md) выравнивание строк и элементов
+  - [`align-content`](./Flex/align-content.md) выравнивание строк поперечная ось
+  - [`justify-content`](./Flex/justify-content.md) выравнивание элементов основная ось
 
 ## [Grid](#css)
 
