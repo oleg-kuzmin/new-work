@@ -104,6 +104,9 @@
   - [`align-content`](./Flex/align-content.md) выравнивание строк поперечная ось
   - [`justify-content`](./Flex/justify-content.md) выравнивание элементов основная ось
 - [`align-items`](./Flex/align-items.md) выравнивание элементов поперечная ось
+- [`gap`](./Flex/gap.md) отступы
+  - [`row-gap`](./Flex/row-gap.md) отступы между строками
+  - [`column-gap`](./Flex/column-gap.md) отступы между колонками
 
 ## [Grid](#css)
 
