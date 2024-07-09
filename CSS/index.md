@@ -111,6 +111,7 @@
 ### [element](#css)
 
 - [`align-self`](./Flex/align-self.md) выравнивание одного элемента поперечная ось
+- [`order`](./Flex/order.md) порядок отображения элемента
 
 ## [Grid](#css)
 
