@@ -13,7 +13,7 @@
 ## Пример
 
 ```css
-.flex-container {
+.container {
   display: flex;
   justify-content: space-between;
 }

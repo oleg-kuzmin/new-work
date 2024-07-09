@@ -5,7 +5,7 @@
 ## Пример
 
 ```css
-.flex-container {
+.container {
   display: flex;
   column-gap: 50px;
 }

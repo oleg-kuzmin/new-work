@@ -11,7 +11,7 @@
 ## Пример
 
 ```css
-.flex-element {
+.element {
   align-self: stretch;
 }
 ```

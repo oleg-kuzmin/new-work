@@ -10,7 +10,7 @@
 ## Пример
 
 ```css
-.flex-container {
+.container {
   place-content: center;
 }
 ```

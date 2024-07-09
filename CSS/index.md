@@ -113,6 +113,7 @@
 - [`align-self`](./Flex/align-self.md) выравнивание одного элемента поперечная ось
 - [`order`](./Flex/order.md) порядок отображения элемента
 - [`flex-basis`](./Flex/flex-basis.md) размер элемента до распределения свободного места
+- [`flex-grow`](./Flex/flex-grow.md) рост элемента при свободном месте
 
 ## [Grid](#css)
 

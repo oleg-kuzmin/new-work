@@ -7,7 +7,7 @@
 ## Пример
 
 ```css
-.flex-element {
+.element {
   flex-basis: auto;
 }
 ```
