@@ -49,3 +49,4 @@
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>)
 - [`<BrowserRouter>`](<./React Router/BrowserRouter.md>)
 - [`<Link>`](<./React Router/Link.md>)
+- [`<Outlet>`](<./React Router/Outlet.md>)

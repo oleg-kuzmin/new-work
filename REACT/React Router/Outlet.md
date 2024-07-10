@@ -1,13 +1,11 @@
-# [`Базовый роутинг`](../index.md)
+# [`<Outlet>`](../index.md)
+
+Суть компонента в том, чтобы сказать роутеру куда мы хотим вставить всю остальную разметку.
+
+## Пример
 
 ```jsx
-// App.jsx
-import { Routes, Route } from 'react-router-dom';
-import { AboutPage } from './pages/AboutPage';
-import { BlogPage } from './pages/BlogPage';
-import { HomePage } from './pages/HomePage';
-import { NotFoundPage } from './pages/NotFoundPage';
-
+// Все что внутри <Route></Route> (как в props.children) попадет в <Outlet />
 function App() {
   return (
     <Routes>
@@ -21,9 +19,6 @@ function App() {
   );
 }
 
-export default App;
-
-// Layout.jsx
 import { Link, Outlet } from 'react-router-dom';
 
 const Layout = () => {
@@ -34,11 +29,11 @@ const Layout = () => {
         <Link to="/blog">Blog</Link>
         <Link to="/about">About</Link>
       </header>
-      <main className="container">
-        <Outlet />
-      </main>
-      <footer className="container">2024</footer>
+      <Outlet />
+      <footer>2024</footer>
     </>
   );
 };
+
+export { Layout };
 ```
