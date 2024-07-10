@@ -48,5 +48,7 @@
 - [`Установка`](<./React Router/Установка.md>)
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>)
 - [`<BrowserRouter>`](<./React Router/BrowserRouter.md>)
-- [`<Link>`](<./React Router/Link.md>)
-- [`<Outlet>`](<./React Router/Outlet.md>)
+- [`<Link>`](<./React Router/Link.md>) компонент ссылки
+- [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
+- [`<Outlet>`](<./React Router/Outlet.md>) компонент children
+- [`useMatch()`](<./React Router/useMatch.md>) хук проверяет какая ссылка навигации активна
