@@ -4,6 +4,7 @@
 - [ООП](#ооп)
 - [Hooks](#hooks)
 - [Legacy](#legacy)
+- [React Router](#legacy)
 
 ## [Общее](#react)
 
@@ -41,3 +42,8 @@
 - [`React.Fragment`](./Legacy/React.Fragment.md) создает фрагмент
 - [`ReactDOM.createRoot()`](./Legacy/ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDOM.render()`](./Legacy/ReactDom.render.md) рендерит react-компонент
+
+## [React Router](#react)
+
+- [`Установка`](<./React Router/Установка.md>)
+- [`BrowserRouter`](<./React Router/BrowserRouter.md>)
