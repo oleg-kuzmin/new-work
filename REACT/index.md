@@ -47,8 +47,10 @@
 
 - [`Установка`](<./React Router/Установка.md>) установка
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
+- [`Параметры роутов`](<./React Router/Параметры роутов.md>) параметры Route
 - [`<BrowserRouter>`](<./React Router/BrowserRouter.md>) обертка над приложением
 - [`<Link>`](<./React Router/Link.md>) компонент ссылки
 - [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
 - [`<Outlet>`](<./React Router/Outlet.md>) компонент children
 - [`useMatch()`](<./React Router/useMatch.md>) хук проверяет какая ссылка навигации активна
+- [`useParams()`](<./React Router/useParams.md>) хук возвращает параметры Route
