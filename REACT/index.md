@@ -4,7 +4,7 @@
 - [ООП](#ооп)
 - [Hooks](#hooks)
 - [Legacy](#legacy)
-- [React Router](#legacy)
+- [React Router](#react-router)
 
 ## [Общее](#react)
 
@@ -46,4 +46,6 @@
 ## [React Router](#react)
 
 - [`Установка`](<./React Router/Установка.md>)
-- [`BrowserRouter`](<./React Router/BrowserRouter.md>)
+- [`Базовый роутинг`](<./React Router/Базовый роутинг.md>)
+- [`<BrowserRouter>`](<./React Router/BrowserRouter.md>)
+- [`<Link>`](<./React Router/Link.md>)
