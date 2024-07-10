@@ -45,9 +45,9 @@
 
 ## [React Router](#react)
 
-- [`Установка`](<./React Router/Установка.md>)
-- [`Базовый роутинг`](<./React Router/Базовый роутинг.md>)
-- [`<BrowserRouter>`](<./React Router/BrowserRouter.md>)
+- [`Установка`](<./React Router/Установка.md>) установка
+- [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
+- [`<BrowserRouter>`](<./React Router/BrowserRouter.md>) обертка над приложением
 - [`<Link>`](<./React Router/Link.md>) компонент ссылки
 - [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
 - [`<Outlet>`](<./React Router/Outlet.md>) компонент children
