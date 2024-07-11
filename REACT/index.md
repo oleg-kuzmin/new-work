@@ -45,12 +45,19 @@
 
 ## [React Router](#react)
 
+### [Общее](#react)
+
 - [`Установка`](<./React Router/Установка.md>) установка
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
 - [`Параметры роутов`](<./React Router/Параметры роутов.md>) параметры Route
+
+### [Компоненты и хуки](#react)
+
 - [`<BrowserRouter>`](<./React Router/BrowserRouter.md>) обертка над приложением
 - [`<Link>`](<./React Router/Link.md>) компонент ссылки
+- [`<Navigate>`](<./React Router/Navigate.md>) переадресация
 - [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
-- [`<Outlet>`](<./React Router/Outlet.md>) компонент children
-- [`useMatch()`](<./React Router/useMatch.md>) хук проверяет какая ссылка навигации активна
-- [`useParams()`](<./React Router/useParams.md>) хук возвращает параметры Route
+- [`<Outlet>`](<./React Router/Outlet.md>) компонент остальной разметки
+- [`useMatch()`](<./React Router/useMatch.md>) какая ссылка навигации активна
+- [`useNavigate()`](<./React Router/useNavigate.md>) функция навигации
+- [`useParams()`](<./React Router/useParams.md>) параметры Route
