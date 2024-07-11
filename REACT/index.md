@@ -49,7 +49,6 @@
 
 - [`Установка`](<./React Router/Установка.md>) установка
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
-- [`Параметры роутов`](<./React Router/Параметры роутов.md>) параметры Route
 
 ### [Компоненты и хуки](#react)
 
@@ -58,8 +57,9 @@
 - [`<Navigate>`](<./React Router/Navigate.md>) переадресация
 - [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
 - [`<Outlet>`](<./React Router/Outlet.md>) компонент остальной разметки
+- [`<Route>`](<./React Router/Route.md>) Route
 - [`useLocation()`](<./React Router/useLocation.md>) информация о локации страницы
 - [`useMatch()`](<./React Router/useMatch.md>) какая ссылка навигации активна
 - [`useNavigate()`](<./React Router/useNavigate.md>) функция навигации
-- [`useParams()`](<./React Router/useParams.md>) параметры Route
+- [`useParams()`](<./React Router/useParams.md>) получение переданных в Route параметров
 - [`useSearchParams()`](<./React Router/useSearchParams.md>) url-параметры поиска
