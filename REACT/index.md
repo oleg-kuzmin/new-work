@@ -62,3 +62,4 @@
 - [`useMatch()`](<./React Router/useMatch.md>) какая ссылка навигации активна
 - [`useNavigate()`](<./React Router/useNavigate.md>) функция навигации
 - [`useParams()`](<./React Router/useParams.md>) параметры Route
+- [`useSearchParams()`](<./React Router/useSearchParams.md>) url-параметры поиска
