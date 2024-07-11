@@ -371,9 +371,10 @@
 
 - [`float`](./Styles/float.md) обтекание блока текстом
 
-### [font-family](#css)
+### [font](#css)
 
 - [`font-family`](./Styles/font-family.md) семейство шрифтов
+- [`font-size`](./Styles/font-size.md) размер шрифта
 
 ### [height](#css)
 
