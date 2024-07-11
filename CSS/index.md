@@ -377,6 +377,7 @@
 - [`font-size`](./Styles/font-size.md) размер шрифта
 - [`font-stretch`](./Styles/font-stretch.md) ширина начертания шрифта
 - [`font-style`](./Styles/font-style.md) начертание шрифта
+- [`font-weight`](./Styles/font-weight.md) насыщенность шрифта
 
 ### [height](#css)
 
