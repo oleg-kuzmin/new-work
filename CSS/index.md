@@ -375,6 +375,7 @@
 
 - [`font-family`](./Styles/font-family.md) семейство шрифтов
 - [`font-size`](./Styles/font-size.md) размер шрифта
+- [`font-stretch`](./Styles/font-stretch.md) ширина начертания шрифта
 
 ### [height](#css)
 
