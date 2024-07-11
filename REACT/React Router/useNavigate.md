@@ -19,8 +19,11 @@ function Component() {
   const goBack = () => navigate(-1);
 
   // возвращает на главную, replace: true - не сохранит запись в истории
-  // плохая практика, лучше использовать <Link>
+  // плохая практика для кнопки, лучше использовать компонент <Link>
   const goHome = () => navigate('/', { replace: true });
+
+  // можно использовать состояние и далее получать его в useLocation()
+  const goBack = () => navigate('/posts', { state: 123 });
 
   return <button onClick={goBack}>Go back</button>;
 }
