@@ -389,6 +389,10 @@
 
 - [`letter-spacing`](./Styles/letter-spacing.md) межбуквенное расстояние
 
+### [line-height](#css)
+
+- [`line-height`](./Styles/line-height.md) междустрочное расстояние
+
 ### [list-style](#css)
 
 - [`list-style`](./Styles/list-style.md) маркеры списка
