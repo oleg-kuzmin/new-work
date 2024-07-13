@@ -385,6 +385,10 @@
 - [`max-height`](./Styles/max-height.md) максимальная высота
 - [`min-height`](./Styles/min-height.md) минимальная высота
 
+### [letter-spacing](#css)
+
+- [`letter-spacing`](./Styles/letter-spacing.md) межбуквенное расстояние
+
 ### [list-style](#css)
 
 - [`list-style`](./Styles/list-style.md) маркеры списка
