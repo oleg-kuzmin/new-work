@@ -497,6 +497,13 @@
 - [`text-align`](./Styles/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./Styles/text-align-last.md) выравнивание последней строки
 
+### [text-decoration](#css)
+
+- [`text-decoration`](./Styles/text-decoration.md) декоративные линии
+  - [`text-decoration-line`](./Styles/text-decoration-line.md) расположение линии
+  - [`text-decoration-style`](./Styles/text-decoration-style.md) стиль линии
+  - [`text-decoration-color`](./Styles/text-decoration-color.md) цвет линии
+
 ### [transform](#css)
 
 - [`matrix`](./Styles/matrix.md) матрица трансформации
