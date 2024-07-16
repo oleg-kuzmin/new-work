@@ -56,4 +56,5 @@ request().then(() => {});
 ### `object promise`
 
 `.state` - `fulfilled`
+
 `.result` - `value`
