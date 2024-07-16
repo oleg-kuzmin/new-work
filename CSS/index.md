@@ -492,17 +492,15 @@
 
 - [`stroke`](./Styles/stroke.md) цвет обводки svg
 
-### [text-align](#css)
+### [text](#css)
 
 - [`text-align`](./Styles/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./Styles/text-align-last.md) выравнивание последней строки
-
-### [text-decoration](#css)
-
 - [`text-decoration`](./Styles/text-decoration.md) декоративные линии
   - [`text-decoration-line`](./Styles/text-decoration-line.md) расположение линии
   - [`text-decoration-style`](./Styles/text-decoration-style.md) стиль линии
   - [`text-decoration-color`](./Styles/text-decoration-color.md) цвет линии
+- [`text-indent`](./Styles/text-indent.md) отступ первой строки слева
 
 ### [transform](#css)
 
