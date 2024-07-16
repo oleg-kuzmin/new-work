@@ -12,6 +12,7 @@
 - [`Списки и ключи`](<./Общее/Списки и ключи.md>)
 - [`Установка`](./Общее/Установка.md)
 - [`Форма`](./Общее/Форма.md)
+- [`CSS-модули`](./Общее/JSX.md)
 - [`Export Import`](<./Общее/Export Import.md>)
 - [`JSX`](./Общее/JSX.md)
 
@@ -40,6 +41,7 @@
 
 - [`React.createElement()`](./Legacy/React.createElement.md) создает react-компонент
 - [`React.Fragment`](./Legacy/React.Fragment.md) создает фрагмент
+- [`ReactDOM.createPortal()`](./Legacy/ReactDom.createPortal.md) создает портал в нужный узел DOM
 - [`ReactDOM.createRoot()`](./Legacy/ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDOM.render()`](./Legacy/ReactDom.render.md) рендерит react-компонент
 
