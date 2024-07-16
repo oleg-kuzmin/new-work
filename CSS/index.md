@@ -501,6 +501,7 @@
   - [`text-decoration-style`](./Styles/text-decoration-style.md) стиль линии
   - [`text-decoration-color`](./Styles/text-decoration-color.md) цвет линии
 - [`text-indent`](./Styles/text-indent.md) отступ первой строки слева
+- [`text-overflow`](./Styles/text-overflow.md) обрезка текста при переполнении
 
 ### [transform](#css)
 
