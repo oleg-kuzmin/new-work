@@ -524,6 +524,10 @@
   - [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание перехода
   - [`transition-delay`](./Styles/transition-delay.md) задержка до старта
 
+### [user-select](#css)
+
+- [`user-select`](./Styles/user-select.md) выделение текста
+
 ### [vertical-align](#css)
 
 - [`vertical-align`](./Styles/vertical-align.md) вертикальное выравнивание inline-элементов
