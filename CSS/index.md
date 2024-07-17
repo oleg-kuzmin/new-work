@@ -553,6 +553,7 @@
 ### [word](#css)
 
 - [`word-spacing`](./Styles/word-spacing.md) размер пробела
+- [`word-wrap`](./Styles/word-wrap.md) перенос длинных слов
 
 ### [z-index](#css)
 
