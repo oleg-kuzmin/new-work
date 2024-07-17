@@ -5,7 +5,7 @@
 ## Синтаксис
 
 ```js
-import { createStore } from '@reduxjs/toolkit';
+import { createStore } from 'redux';
 const store = createStore(reducer, defaultValues);
 ```
 
