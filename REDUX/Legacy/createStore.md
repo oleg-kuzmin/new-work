@@ -6,7 +6,7 @@
 
 ```js
 import { createStore } from 'redux';
-const store = createStore(reducer, defaultValues);
+const store = createStore(reducer, defaultValues, devtools);
 ```
 
 ### `reducer`
@@ -20,6 +20,20 @@ Cозданная функция `reducer` или несколько `reducer`, 
 Обычно в `defaultValues` передаются значения из `localStorage`.
 
 При передаче значения по умолчанию произойдет вызов функции-reducer и передача ей в качестве `state` указанного `defaultValues`. Т.е. никаких `action` не будет, функция-reducer закончится кейсом `default: return state`. Таким образом в функции `const reducer = (state = [], action)` блок `state = []` НЕ СРАБОТАЕТ.
+
+### `devtools` (опционально)
+
+Включит расширение redux devtools для chrome.
+
+## Пример
+
+```jsx
+export const store = createStore(
+  todos,
+  [],
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+```
 
 ## Методы
 
