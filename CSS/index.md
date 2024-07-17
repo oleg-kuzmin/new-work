@@ -536,6 +536,10 @@
 
 - [`visibility`](./Styles/visibility.md) видимость
 
+### [visibility](#css)
+
+- [`white-space`](./Styles/white-space.md) перенос пробелов
+
 ### [width](#css)
 
 - [`width`](./Styles/width.md) ширина
