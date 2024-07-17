@@ -5,9 +5,11 @@
 - [Псевдоклассы](#псевдоклассы)
 - [Псевдоэлементы](#псевдоэлементы)
 - [Решения](#решения)
+- [Сброс стилей](#сброс-стилей)
 - [Селекторы](#селекторы)
 - [Функции](#функции)
 - [Bootstrap](#bootstrap)
+- [Deprecated](#bootstrap)
 - [Flex](#flex)
 - [Grid](#grid)
 - [Sass](#sass)
@@ -81,6 +83,12 @@
 - [`Как в Figma свернуть все слои`](<./Решения/Как в Figma свернуть все слои.md>)
 - [`Картинки`](./Решения/Картинки.md)
 
+## [Сброс стилей](#css)
+
+- [`normalise-Nicolas-Gallagher`](<./Сброс стилей/normalise-Nicolas-Gallagher.css>)
+- [`reset-Andrikanich`](<./Сброс стилей/reset-Andrikanich.css>)
+- [`reset-Meyerweb`](<./Сброс стилей/reset-Meyerweb.css>)
+
 ## [Селекторы](#css)
 
 - [`1.0.0. Идентификатор`](./Селекторы/Идентификатор.md)
@@ -108,6 +116,10 @@
 
 - [`установка`](./Bootstrap/установка.md)
 - [`margin, padding`](<./Bootstrap/margin, padding.md>)
+
+## [Deprecated](#css)
+
+- [`Устаревшие свойства`](./Deprecated/index.md)
 
 ## [Flex](#css)
 
