@@ -442,6 +442,7 @@
 - [`Math.pow()`](./Number/Math.pow.md) возведение в степень
 - [`Math.random()`](./Number/Math.random.md) случайное число
 - [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
+- [`Math.sqrt()`](./Number/Math.sqrt.md) вычисляет квадратный корень числа
 - [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
 ### [Number => String](#javascript)
