@@ -550,6 +550,10 @@
 
 - [`writing-mode`](./Styles/writing-mode.md) направление потока
 
+### [word](#css)
+
+- [`word-spacing`](./Styles/word-spacing.md) размер пробела
+
 ### [z-index](#css)
 
 - [`z-index`](./Styles/z-index.md) порядок наложения элементов
