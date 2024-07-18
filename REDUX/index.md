@@ -1,8 +1,8 @@
 # [`Redux`](../index.md)
 
 - [Общее](#общее)
-- [Legacy](#legacy)
-- [React-redux](#react-redux)
+- [Redux библиотека](#redux-библиотека)
+- [React-redux библиотека](#react-redux-библиотека)
 
 ## [Общее](#redux)
 
@@ -10,13 +10,13 @@
 - [`Создание reducer`](<./Общее/Создание reducer.md>)
 - [`Создание action`](<./Общее/Создание action.md>)
 
-## [Legacy](#redux)
+## [Redux библиотека](#redux)
 
-- [`combineReducers()`](./Legacy/combineReducers.md) объединение reducer
-- [`createStore()`](./Legacy/createStore.md) создание хранилища
+- [`combineReducers()`](<./Redux библиотека/combineReducers.md>) объединение reducer
+- [`createStore()`](<./Redux библиотека/createStore.md>) создание хранилища
 
-## [React-redux](#redux)
+## [React-redux библиотека](#redux)
 
-- [`Provider`](./React-redux/Provider.md) обертка с хранилищем над приложением
-- [`useSelector()`](./React-redux/useSelector.md) получение данных из state
-- [`useDispatch()`](./React-redux/useDispatch.md) передача объекта события action
+- [`Provider`](<./React-redux библиотека/Provider.md>) обертка с хранилищем над приложением
+- [`useSelector()`](<./React-redux библиотека/useSelector.md>) получение данных из state
+- [`useDispatch()`](<./React-redux библиотека/useDispatch.md>) передача объекта события action
