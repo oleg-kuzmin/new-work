@@ -21,4 +21,4 @@
 - [`Provider`](./React-redux/Provider.md) обертка с хранилищем над приложением
 - [`useDispatch()`](./React-redux/useDispatch.md) передача объекта события action
 - [`useSelector()`](./React-redux/useSelector.md) получение данных из state
-- [`connect()`](./React-redux/connect.md) обертка для классовых компонентов
+- [`connect()()`](./React-redux/connect.md) обертка для классовых компонентов
