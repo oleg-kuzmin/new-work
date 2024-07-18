@@ -14,6 +14,7 @@
 
 - [`combineReducers()`](./Redux/combineReducers.md) объединение reducer
 - [`createStore()`](./Redux/createStore.md) создание хранилища
+- [`bindActionCreators()`](./Redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
 
 ## [React-redux](#redux)
 

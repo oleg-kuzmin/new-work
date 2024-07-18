@@ -1,6 +1,6 @@
 # [`connect`](../index.md)
 
-Нужен для использования в классовых компонентах для обертки компонента. Добавляет данные состояния в `props`.ss
+Нужен для использования в классовых компонентах для обертки компонента. Добавляет данные и методы в `props`.
 
 ## Синтаксис
 
@@ -16,7 +16,9 @@ const Counter = connect(mapStateToProps, mapDispatchToProps)(_Counter);
 
 ### `mapDispatchToProps` (опционально)
 
-Функция, которая призвана вернуть какие-либо action. Если нам нужны только данные, то второй параметр не указываем.
+Второй параметр можно создать как простой объект. Если нам нужны только данные, то второй параметр не указываем.
+
+Функция принимает `dispatch` и должна вернуть объект, который указывает какие методы мы хотим добавить в `props`.
 
 ## Пример
 
@@ -38,12 +40,31 @@ class _Counter extends React.Component {
   }
 }
 
-// создаем функции
+// создаем mapStateToProps
 const mapStateToProps = state => ({
   count: state.count,
 });
 
-const mapDispatchToProps = () => {};
+// создаем mapDispatchToProps (1 способ - используется action)
+const mapDispatchToProps = dispatch => ({
+  inc: () => dispatch(increment),
+  dec: () => dispatch(decrement),
+  res: () => dispatch(reset),
+});
+
+// создаем mapDispatchToProps (2 способ - используется action-creator)
+const mapDispatchToProps = dispatch => ({
+  inc: bindActionCreators(increment, dispatch),
+  dec: bindActionCreators(decrement, dispatch),
+  res: bindActionCreators(reset, dispatch),
+});
+
+// создаем mapDispatchToProps как простой объект (3 способ - используется action-creator)
+const mapDispatchToProps = {
+  inc: increment,
+  dec: decrement,
+  res: reset,
+};
 
 // оборачиваем в connect и передаем созданные функции
 const Counter = connect(mapStateToProps, mapDispatchToProps)(_Counter);
