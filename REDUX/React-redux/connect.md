@@ -32,9 +32,9 @@ class _Counter extends React.Component {
     return (
       <div>
         <h2>{this.props.count}</h2>
-        <button>-</button>
-        <button>+</button>
-        <button>reset</button>
+        <button onClick={this.props.dec}>-</button>
+        <button onClick={this.props.inc}>+</button>
+        <button onClick={this.props.res}>reset</button>
       </div>
     );
   }
