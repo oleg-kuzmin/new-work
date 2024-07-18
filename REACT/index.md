@@ -3,7 +3,8 @@
 - [Общее](#общее)
 - [ООП](#ооп)
 - [Hooks](#hooks)
-- [Legacy](#legacy)
+- [React](#react-1)
+- [ReactDOM](#reactdom)
 - [React Router](#react-router)
 
 ## [Общее](#react)
@@ -19,15 +20,13 @@
 ## [ООП](#react)
 
 - [`Жизненный цикл компонента`](<./ООП//Жизненный цикл компонента.md>)
-- [`React.Component`](./ООП/React.Component.md) class React.Component
-- [`React.createRef()`](./ООП/React.createRef.md) ссылка на элемент
 - [`this.setState()`](./ООП/this.setState.md) изменение состояния
 - [`this.state()`](./ООП/this.state.md) инициализация состояния
 - [`this`](./ООП/this.md) привязка this к методу класса
 
 ## [Hooks](#react)
 
-- [`custom Hooks`](<./Hooks/custom Hooks.md>) кастомные хуки
+- [`Кастомные хуки`](<./Hooks/Кастомные хуки.md>)
 - [`useCallback()`](./Hooks/useCallback.md) запоминание функции
 - [`useContext()`](./Hooks/useContext.md) общедоступный контекст
 - [`useEffect()`](./Hooks/useEffect.md) жизненный цикл
@@ -37,23 +36,23 @@
 - [`useRef()`](./Hooks/useRef.md) ссылка на элемент или хранение значения
 - [`useState()`](./Hooks/useState.md) состояние
 
-## [Legacy](#react)
+## [React](#react)
 
+- [`React.Component`](./ООП/React.Component.md) class React.Component
 - [`React.createElement()`](./Legacy/React.createElement.md) создает react-компонент
+- [`React.createRef()`](./ООП/React.createRef.md) ссылка на элемент
 - [`React.Fragment`](./Legacy/React.Fragment.md) создает фрагмент
+
+## [ReactDOM](#react)
+
 - [`ReactDOM.createPortal()`](./Legacy/ReactDom.createPortal.md) создает портал в нужный узел DOM
 - [`ReactDOM.createRoot()`](./Legacy/ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDOM.render()`](./Legacy/ReactDom.render.md) рендерит react-компонент
 
 ## [React Router](#react)
 
-### [Общее](#react)
-
 - [`Установка`](<./React Router/Установка.md>) установка
 - [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
-
-### [Компоненты и хуки](#react)
-
 - [`<BrowserRouter>`](<./React Router/BrowserRouter.md>) обертка над приложением
 - [`<Link>`](<./React Router/Link.md>) компонент ссылки
 - [`<Navigate>`](<./React Router/Navigate.md>) переадресация

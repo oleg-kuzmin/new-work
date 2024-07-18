@@ -12,11 +12,11 @@
 
 ## [Redux](#redux)
 
-- [`combineReducers()`](<./Redux библиотека/combineReducers.md>) объединение reducer
-- [`createStore()`](<./Redux библиотека/createStore.md>) создание хранилища
+- [`combineReducers()`](./Redux/combineReducers.md) объединение reducer
+- [`createStore()`](./Redux/createStore.md) создание хранилища
 
 ## [React-redux](#redux)
 
-- [`Provider`](<./React-redux библиотека/Provider.md>) обертка с хранилищем над приложением
-- [`useSelector()`](<./React-redux библиотека/useSelector.md>) получение данных из state
-- [`useDispatch()`](<./React-redux библиотека/useDispatch.md>) передача объекта события action
+- [`Provider`](./React-redux/Provider.md) обертка с хранилищем над приложением
+- [`useSelector()`](./React-redux/useSelector.md) получение данных из state
+- [`useDispatch()`](./React-redux/useDispatch.md) передача объекта события action
