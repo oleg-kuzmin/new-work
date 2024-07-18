@@ -38,16 +38,16 @@
 
 ## [React](#react)
 
-- [`React.Component`](./ООП/React.Component.md) class React.Component
-- [`React.createElement()`](./Legacy/React.createElement.md) создает react-компонент
-- [`React.createRef()`](./ООП/React.createRef.md) ссылка на элемент
-- [`React.Fragment`](./Legacy/React.Fragment.md) создает фрагмент
+- [`React.Component`](./React/React.Component.md) class React.Component
+- [`React.createElement()`](./React/React.createElement.md) создает react-компонент
+- [`React.createRef()`](./React/React.createRef.md) ссылка на элемент
+- [`React.Fragment`](./React/React.Fragment.md) создает фрагмент
 
 ## [ReactDOM](#react)
 
-- [`ReactDOM.createPortal()`](./Legacy/ReactDom.createPortal.md) создает портал в нужный узел DOM
-- [`ReactDOM.createRoot()`](./Legacy/ReactDOM.createRoot.md) создает корневой react-компонент
-- [`ReactDOM.render()`](./Legacy/ReactDom.render.md) рендерит react-компонент
+- [`ReactDOM.createPortal()`](./ReactDOM/ReactDom.createPortal.md) создает портал в нужный узел DOM
+- [`ReactDOM.createRoot()`](./ReactDOM/ReactDOM.createRoot.md) создает корневой react-компонент
+- [`ReactDOM.render()`](./ReactDOM/ReactDom.render.md) рендерит react-компонент
 
 ## [React Router](#react)
 
