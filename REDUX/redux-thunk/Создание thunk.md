@@ -1,6 +1,8 @@
 # [`Создание thunk`](../index.md)
 
-`thunk` - это функция, которая возвращает другую функцию. `thunk` - должен работать через `dispatch()`.
+`thunk` - это функция, которая возвращает другую функцию. Используется как `action-creator` и должен работать через `dispatch()`.
+
+Создается на том же уровне, что и `action`.
 
 ```jsx
 // action.js
@@ -36,7 +38,7 @@ export default function App() {
 
   useEffect(() => {
     dispatch(loadUsers());
-  });
+  }, [dispatch]);
 
   return (
     <div className="App">
