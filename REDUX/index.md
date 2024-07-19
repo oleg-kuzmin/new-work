@@ -4,6 +4,7 @@
 - [redux](#redux-1)
 - [react-redux](#react-redux)
 - [redux-persist](#redux-persist)
+- [redux-thunk](#redux-thunk)
 
 ## [Общее](#redux)
 
@@ -30,3 +31,8 @@
 ## [redux-persist](#redux)
 
 - [`Установка и настройка`](<./redux-persist/Установка и настройка.md>)
+
+## [redux-thunk](#redux)
+
+- [`Установка`](./redux-thunk/Установка.md)
+- [`Создание thunk`](<./redux-thunk/Создание thunk.md>)
