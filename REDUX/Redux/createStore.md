@@ -6,7 +6,7 @@
 
 ```js
 import { createStore } from 'redux';
-const store = createStore(reducer, defaultValues, devtools);
+const store = createStore(reducer, defaultValues, enhancer, devtools);
 ```
 
 ### `reducer`
@@ -21,11 +21,23 @@ Cозданная функция `reducer` или несколько `reducer`, 
 
 При передаче значения по умолчанию произойдет вызов функции-reducer и передача ей в качестве `state` указанного `defaultValues`. Т.е. никаких `action` не будет, функция-reducer закончится кейсом `default: return state`. Таким образом в функции `const reducer = (state = [], action)` блок `state = []` НЕ СРАБОТАЕТ.
 
+### `enhancer`
+
+Усилитель. Передается вторым или третьим параметром.
+
 ### `devtools` (опционально)
 
-Включит расширение redux devtools для chrome. Можно передать вторым параметром.
+Включит расширение redux devtools для chrome. Можно передать вторым параметром если нет значения по умолчанию.
 
 ## Пример
+
+### Reducer и enhancer
+
+```jsx
+
+```
+
+### Reducer, начальное состояние и расширение
 
 ```jsx
 export const store = createStore(

@@ -42,3 +42,4 @@ npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 - [`package.json`](./package.json.md) файл конфигурации npm
 - [`postcssrc.json`](./postcssrc.json.md) файл конфигурации postcss
 - [`webpack.config.mjs`](./webpack.config.mjs.md) файл конфигурации webpack
+- [`process.env`](./process.env.md) переменная окружения

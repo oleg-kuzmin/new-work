@@ -9,12 +9,14 @@
 - [`Установка`](./Общее/Установка.md)
 - [`Создание action`](<./Общее/Создание action.md>)
 - [`Создание reducer`](<./Общее/Создание reducer.md>)
+- [`Создание middleware`](<./Общее/Создание middleware.md>)
 
 ## [Redux](#redux)
 
+- [`applyMiddleware()`](./Redux/applyMiddleware.md) подключение middleware
+- [`bindActionCreators()`](./Redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
 - [`combineReducers()`](./Redux/combineReducers.md) объединение reducer
 - [`createStore()`](./Redux/createStore.md) создание хранилища
-- [`bindActionCreators()`](./Redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
 
 ## [React-redux](#redux)
 
