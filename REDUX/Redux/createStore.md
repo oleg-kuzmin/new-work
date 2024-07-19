@@ -6,7 +6,7 @@
 
 ```js
 import { createStore } from 'redux';
-const store = createStore(reducer, defaultValues, enhancer, devtools);
+const store = createStore(reducer, defaultValues, enhancer);
 ```
 
 ### `reducer`
@@ -21,21 +21,11 @@ Cозданная функция `reducer` или несколько `reducer`, 
 
 При передаче значения по умолчанию произойдет вызов функции-reducer и передача ей в качестве `state` указанного `defaultValues`. Т.е. никаких `action` не будет, функция-reducer закончится кейсом `default: return state`. Таким образом в функции `const reducer = (state = [], action)` блок `state = []` НЕ СРАБОТАЕТ.
 
-### `enhancer`
+### `enhancer`, `devtools` (опционально)
 
-Усилитель. Передается вторым или третьим параметром.
-
-### `devtools` (опционально)
-
-Включит расширение redux devtools для chrome. Можно передать вторым параметром если нет значения по умолчанию.
+Усилитель `enhancer` передается вторым или третьим параметром. Если используется и `enhancer` и `devtools`, то нужно использовать метод `compose`.
 
 ## Пример
-
-### Reducer и enhancer
-
-```jsx
-
-```
 
 ### Reducer, начальное состояние и расширение
 
@@ -45,6 +35,21 @@ export const store = createStore(
   [],
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+```
+
+### Reducer и enhancer
+
+```jsx
+import { createStore, applyMiddleware, compose } from 'redux';
+import logger from 'redux-logger';
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const middleWare = [];
+
+if (process.env.NODE_ENV === 'development') {
+  middleWare.push(logger);
+}
+
+export const store = createStore(counter, composeEnhancers(applyMiddleware(...middleWare)));
 ```
 
 ## Методы

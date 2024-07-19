@@ -16,6 +16,7 @@
 - [`applyMiddleware()`](./Redux/applyMiddleware.md) подключение middleware
 - [`bindActionCreators()`](./Redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
 - [`combineReducers()`](./Redux/combineReducers.md) объединение reducer
+- [`compose`](./Redux/compose.md) объединяет усилители
 - [`createStore()`](./Redux/createStore.md) создание хранилища
 
 ## [React-redux](#redux)
