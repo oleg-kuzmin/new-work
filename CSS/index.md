@@ -9,7 +9,7 @@
 - [Селекторы](#селекторы)
 - [Функции](#функции)
 - [Bootstrap](#bootstrap)
-- [Deprecated](#bootstrap)
+- [Deprecated](#deprecated)
 - [Flex](#flex)
 - [Grid](#grid)
 - [Sass](#sass)
