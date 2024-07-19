@@ -20,6 +20,11 @@ export const loadUsers = () => dispatch => {
     .then(res => res.json())
     .then(data => dispatch(addUsers(data)));
 };
+
+// пример с параметром
+export const createTodo = title => dispatch => {
+  client.post('https://jsonplaceholder.typicode.com/todos');
+};
 ```
 
 ```jsx
