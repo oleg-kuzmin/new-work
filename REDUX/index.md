@@ -1,8 +1,9 @@
 # [`Redux`](../index.md)
 
 - [Общее](#общее)
-- [Redux](#redux-1)
-- [React-redux](#react-redux)
+- [redux](#redux-1)
+- [react-redux](#react-redux)
+- [redux-persist](#redux-persist)
 
 ## [Общее](#redux)
 
@@ -11,17 +12,21 @@
 - [`Создание reducer`](<./Общее/Создание reducer.md>)
 - [`Создание middleware`](<./Общее/Создание middleware.md>)
 
-## [Redux](#redux)
+## [redux](#redux)
 
-- [`applyMiddleware()`](./Redux/applyMiddleware.md) подключение middleware
-- [`bindActionCreators()`](./Redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
-- [`combineReducers()`](./Redux/combineReducers.md) объединение reducer
-- [`compose`](./Redux/compose.md) объединяет усилители
-- [`createStore()`](./Redux/createStore.md) создание хранилища
+- [`applyMiddleware()`](./redux/applyMiddleware.md) подключение middleware
+- [`bindActionCreators()`](./redux/bindActionCreators.md) связывает dispatch и action-creator в классовых компонентах
+- [`combineReducers()`](./redux/combineReducers.md) объединение reducer
+- [`compose`](./redux/compose.md) объединяет усилители
+- [`createStore()`](./redux/createStore.md) создание хранилища
 
-## [React-redux](#redux)
+## [react-redux](#redux)
 
-- [`Provider`](./React-redux/Provider.md) обертка с хранилищем над приложением
-- [`useDispatch()`](./React-redux/useDispatch.md) передача объекта события action
-- [`useSelector()`](./React-redux/useSelector.md) получение данных из state
-- [`connect()()`](./React-redux/connect.md) обертка для классовых компонентов
+- [`Provider`](./react-redux/Provider.md) обертка с хранилищем над приложением
+- [`useDispatch()`](./react-redux/useDispatch.md) передача объекта события action
+- [`useSelector()`](./react-redux/useSelector.md) получение данных из state
+- [`connect()()`](./react-redux/connect.md) обертка для классовых компонентов
+
+## [redux-persist](#redux)
+
+- [`Установка и настройка`](<./redux-persist/Установка и настройка.md>)
