@@ -20,14 +20,14 @@ const addUsers = users => ({
 });
 
 // без параметра
-export const loadUsers = () => dispatch => {
+export const loadUsers = () => (dispatch, getState) => {
   fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then(data => dispatch(addUsers(data)));
 };
 
 // с параметром
-export const createTodo = title => dispatch => {
+export const createTodo = title => (dispatch, getState) => {
   client.post('https://jsonplaceholder.typicode.com/todos');
 };
 ```
@@ -68,6 +68,8 @@ export default function App() {
 ```
 
 ## Передача экстра-параметров.
+
+Экстра-параметры - некие импортируемые сущности или функции. Чтобы не делать импорты в каждом файле, где они нужны, можно получать к ним доступ, если они переданы в `withExtraArgument()`. `withExtraArgument()` принимает или одну сущность или объект с ключами.
 
 ```jsx
 // store/index.js
