@@ -19,14 +19,14 @@ const addUsers = users => ({
   payload: users,
 });
 
-// без параметра
+// без передачи параметра
 export const loadUsers = () => (dispatch, getState) => {
   fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then(data => dispatch(addUsers(data)));
 };
 
-// с параметром
+// с передачей параметра title
 export const createTodo = title => (dispatch, getState) => {
   client.post('https://jsonplaceholder.typicode.com/todos');
 };
