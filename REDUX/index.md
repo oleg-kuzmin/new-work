@@ -32,6 +32,7 @@
 ## [redux-persist](#redux)
 
 - [`Настройка`](./redux-persist/Настройка.md)
+- [`Настройка под rtk`](<./redux-persist/Настройка под rtk.md>)
 
 ## [redux-thunk](#redux)
 

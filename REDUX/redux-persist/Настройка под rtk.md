@@ -1,17 +1,18 @@
-# [`Настройка`](../index.md)
+# [`Настройка под rtk`](../index.md)
 
 ## 1. Импорт
 
 ```jsx
-// src/store/index.js
-import { persistStore, persistReducer } from 'redux-persist';
+// src/store.js
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 ```
 
 ## 2. Создание конфига
 
 ```jsx
-// src/store/index.js
+// src/store.js
 const persistConfig = {
   key: 'root', // создаст в localStorage ключ "persist:root"
   storage,
@@ -29,27 +30,37 @@ const persistConfig = {
 
 ## 3. Создание специального reducer для store
 
-Нужно создать rootReducer с помощью `combineReducers()`.
+Нужно создать rootReducer с помощью `combineReducers()` и передать его вместе с `persistConfig` в `persistReducer()`.
 
 ```jsx
-// src/store/index.js
+// src/store.js
+const rootReducer = combineReducers({
+  todos: todoReducer,
+  filter: filterReducer,
+});
+
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 ```
 
 ## 4. Создание и экспорт store
 
 ```jsx
-// src/store/index.js
-const store = createStore(
-  persistedReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+// src/store.js
+export const store = configureStore({
+  reducer: persistedReducer,
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoreActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
+});
 ```
 
 ## 5. Создание persistor
 
 ```jsx
-// src/store/index.js
+// src/store.js
 export const persistor = persistStore(store);
 ```
 
@@ -79,51 +90,50 @@ root.render(
 ## Пример
 
 ```js
-// src/store/index.js
-import { createStore } from 'redux';
-import { rootReducer } from './root-reducer';
-
-//# 1
-import { persistStore, persistReducer } from 'redux-persist';
+// src/store.js
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import { filterReducer } from './features/Filter/filterSlice';
+import { todoReducer } from './features/Todo/todoSlice';
 
-//# 2
+const rootReducer = combineReducers({
+  todos: todoReducer,
+  filter: filterReducer,
+});
+
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: [],
-  blacklist: [],
+  whitelist: ['todos'],
 };
 
-//# 3
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-//# 4
-export const store = createStore(
-  persistedReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+export const store = configureStore({
+  reducer: persistedReducer,
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      serializableCheck: {
+        ignoreActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+      },
+    }),
+});
 
-//# 5
 export const persistor = persistStore(store);
 ```
 
-```js
+```jsx
 // src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import './index.css';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from './store';
+import './styles.css';
 import App from './App';
 
-//# 7
-import { PersistGate } from 'redux-persist/integration/react';
-//# 8
-import { store, persistor } from './store/index';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-//# 9
 root.render(
   <React.StrictMode>
     <Provider store={store}>
