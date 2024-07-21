@@ -41,6 +41,6 @@
 
 - [`configureStore()`](./redux-toolkit/configureStore.md) создание store
 - [`createSlice()`](./redux-toolkit/createSlice.md) создание slice
-  - [`createAction()`](./redux-toolkit/createAction.md) создание action
-  - [`createReducer()`](./redux-toolkit/createReducer.md) создание reducer
+- [`createAction()`](./redux-toolkit/createAction.md) создание action
+- [`createReducer()`](./redux-toolkit/createReducer.md) создание reducer
 - [`nanoid()`](./redux-toolkit/nanoid.md) создание уникального id
