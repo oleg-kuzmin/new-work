@@ -94,27 +94,18 @@ reducers: {
 
 По сути это дополнительные редюсеры, которые не попадают в группу компонента `name`. Они могут быть никак не связаны с `name` и вообще использовать собственную логику, например для асинхронной работы. По факту они используют синтаксис обычного `createReducer()`.
 
+Например мы создаем какой-то action. И по этому событию action запускаем цепочку изменений состояния в разных компонентах.
+
 `builder` предоставляется нам из коробки самим redux. На базе этого `builder` при помощи методов `builder.addCase()` мы создаем логику обработки конкретных событий. `builder.addCase()` может быть сколько угодно, подерживается запись через цепочку.
 
 - `builder.addCase(name, callback(state, action))` - принимает в качестве первого аргумента событие action, в качестве второго - функцию обновления состояния, которая также пишется в мутабельном стиле и ничего не возвращает или в иммутабельном стиле с return.
 
 ```js
 extraReducers: builder => {
-  builder
-    .addCase(addTodo, (state, action) => {
-      const newTodo = action.payload;
-      state.push(newTodo);
-    })
-    .addCase(toggleTodo, (state, action) => {
-      const id = action.payload;
-      const todo = state.find(todo => todo.id === id);
-      todo.completed = !todo.completed;
-    })
-    .addCase(removeTodo, (state, action) => {
-      const id = action.payload;
-      return state.filter(todo => todo.id !== id);
-    });
-};
+  builder.addCase(resetToDefault, () => {
+    return [];
+  });
+},
 ```
 
 ## [Возвращает](#createslice)
