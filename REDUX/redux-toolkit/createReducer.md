@@ -6,7 +6,7 @@
 
 - [`Синтаксис`](#cинтаксис)
 - [`defaultValue`](#defaultvalue)
-- [`(builder) => { builder.addCase(name, callback) }`](#builder---builderaddcasename-callback-)
+- [`builderCallback (опционально)`](#buildercallback-опционально)
 - [`Возвращает`](#возвращает)
 - [`Пример`](#пример)
 
@@ -19,7 +19,7 @@ const reducer = createReducer(defaultValue, builder => {
 });
 ```
 
-## [defaultValue](#createreducer)
+## [`defaultValue`](#createreducer)
 
 Начальное значение. Это может быть заранее созданная внешняя переменная или функция, которая возвращает значение.
 
@@ -27,7 +27,9 @@ const reducer = createReducer(defaultValue, builder => {
 const todosReducer = createReducer([], builderCallback);
 ```
 
-## [(builder) => { builder.addCase(name, callback) }](#createreducer)
+## [`builderCallback (опционально)`](#createreducer)
+
+`(builder) => { builder.addCase(name, callback)`
 
 `builder` предоставляется нам из коробки самим redux. На базе этого `builder` при помощи методов `builder.addCase()` мы создаем логику обработки конкретных событий. `builder.addCase()` может быть сколько угодно, подерживается запись через цепочку.
 

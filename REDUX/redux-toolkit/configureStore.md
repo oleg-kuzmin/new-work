@@ -35,7 +35,7 @@ reducer: {
 },
 ```
 
-## [`devTools`](#configurestore)
+## [`devTools (опционально)`](#configurestore)
 
 Включает расширение для браузера. По умолчанию уже включено.
 
@@ -43,7 +43,7 @@ reducer: {
 devTools: true,
 ```
 
-## [`middleware`](#configurestore)
+## [`middleware (опционально)`](#configurestore)
 
 Подключение `middleware` происходит в момент создания `store`. Redux создает цепочку `action` - `middleware` - `reducer`. Вариантов использования много, например создание id, т.к. в редюсере мы не должны использовать случайные значения, функции должны быть чистыми.
 
@@ -59,7 +59,7 @@ devTools: true,
 middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger),
 ```
 
-## [`preloadedState`](#configurestore)
+## [`preloadedState (опционально)`](#configurestore)
 
 Предзагруженные данные, которые могут быть каким-либо образом получены.
 
@@ -67,7 +67,7 @@ middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger),
 preloadedState: [{ id: 1, title: 'Redux', completed: true }],
 ```
 
-## [`enhancers`](#configurestore)
+## [`enhancers (опционально)`](#configurestore)
 
 Дополнительные усилители - как правило, это какие-то внешние библиотеки.
 

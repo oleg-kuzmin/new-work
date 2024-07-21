@@ -6,7 +6,7 @@
 
 - [`Синтаксис`](#cинтаксис)
 - [`actionType`](#actiontype)
-- [`callback(payload) (опционально)`](#callbackpayload)
+- [`callback (опционально)`](#callback)
 - [`Возвращает`](#возвращает)
 - [`Пример`](#пример)
 
@@ -25,7 +25,7 @@ const action = createAction(actionType, callback(payload));
 const removeTodo = createAction('@@todos/REMOVE_TODO');
 ```
 
-## [`callback(payload)`](#createaction)
+## [`callback (опционально)`](#createaction)
 
 Функция предподготовки action, должна вернуть объект action с обязательным ключем payload. Сама функция принимает параметр action.payload, который будет передан в момент события action. Аналог prepare в createSlice().
 

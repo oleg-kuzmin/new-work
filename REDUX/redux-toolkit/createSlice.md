@@ -6,7 +6,7 @@
 - [`name`](#name-value)
 - [`initialState`](#initialstate-value)
 - [`reducers`](#reducers--reducername-reducerfunc--reducerobj)
-- [`extraReducers (опционально)`](#extrareducers-builder---builderaddcasename-callback-)
+- [`extraReducers (опционально)`](#extrareducers-buildercallback-опционально)
 - [`Возвращает`](#возвращает)
 - [`Пример`](#пример)
 
@@ -88,7 +88,9 @@ reducers: {
 },
 ```
 
-## [`extraReducers: (builder) => { builder.addCase(name, callback) }`](#createslice)
+## [`extraReducers: builderCallback (опционально)`](#createslice)
+
+`(builder) => { builder.addCase(name, callback)`
 
 По сути это дополнительные редюсеры, которые не попадают в группу компонента `name`. Они могут быть никак не связаны с `name` и вообще использовать собственную логику, например для асинхронной работы. По факту они используют синтаксис обычного `createReducer()`.
 
