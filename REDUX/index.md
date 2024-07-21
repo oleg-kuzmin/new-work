@@ -5,10 +5,12 @@
 - [react-redux](#react-redux)
 - [redux-persist](#redux-persist)
 - [redux-thunk](#redux-thunk)
+- [redux-toolkit](#redux-toolkit)
 
 ## [Общее](#redux)
 
 - [`Установка`](./Общее/Установка.md)
+- [`Использование`](./Общее/Использование.md)
 - [`Создание action`](<./Общее/Создание action.md>)
 - [`Создание reducer`](<./Общее/Создание reducer.md>)
 
@@ -29,9 +31,16 @@
 
 ## [redux-persist](#redux)
 
-- [`Установка и настройка`](<./redux-persist/Установка и настройка.md>)
+- [`Настройка`](./redux-persist/Настройка.md)
 
 ## [redux-thunk](#redux)
 
-- [`Установка`](./redux-thunk/Установка.md)
 - [`Создание thunk`](<./redux-thunk/Создание thunk.md>)
+
+## [redux-toolkit](#redux)
+
+- [`configureStore()`](./redux-toolkit/configureStore.md) создание store
+- [`createSlice()`](./redux-toolkit/createSlice.md) создание slice
+  - [`createAction()`](./redux-toolkit/createAction.md) создание action
+  - [`createReducer()`](./redux-toolkit/createReducer.md) создание reducer
+- [`nanoid()`](./redux-toolkit/nanoid.md) создание уникального id
