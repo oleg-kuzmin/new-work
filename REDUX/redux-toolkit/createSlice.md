@@ -108,6 +108,56 @@ extraReducers: builder => {
 },
 ```
 
+- `builder.addMatcher((action) => {}, (state, action) => {})`
+
+Отрабатывает не на один конкретный action, а на разные, которые соответствуют определенной схеме. Важен порядок, сначала builder формирует все `addCase()` и только потом `addMatcher()`. Поэтому возможно некоторое дублирование кейсов (например сначала отработает addCase() с fulfilled, затем addMatcher() с fulfilled).
+
+Принимает функцию predicat, в которой мы что-то проверяем. Сама функция в качестве аргумента принимает action. Должна вернуть булево значение true. Второй аргумент функция, которую мы хотим выполнить в случае true (принимает state, action).
+
+```jsx
+extraReducers: builder => {
+  builder
+    .addCase(resetAction, () => {
+      return [];
+    })
+    .addCase(loadTodos.fulfilled, (state, action) => {
+      state.entities = action.payload;
+    })
+    .addCase(createTodo.fulfilled, (state, action) => {
+      state.entities.push(action.payload);
+    })
+    .addCase(toggleTodo.fulfilled, (state, action) => {
+      const updatedTodo = action.payload;
+      const index = state.entities.findIndex(todo => todo.id === updatedTodo.id);
+      state.entities[index] = updatedTodo;
+    })
+    .addCase(removeTodo.fulfilled, (state, action) => {
+      state.entities = state.entities.filter(todo => todo.id !== action.payload.id);
+    })
+    .addMatcher(
+      action => action.type.endsWith('/pending'),
+      state => {
+        state.loading = 'loading';
+        state.error = null;
+      }
+    )
+    .addMatcher(
+      action => action.type.endsWith('/rejected'),
+      state => {
+        state.loading = 'idle';
+        state.error = 'ERROR!';
+      }
+    )
+    .addMatcher(
+      action => action.type.endsWith('/fulfilled'),
+      state => {
+        state.loading = 'idle';
+        state.error = null;
+      }
+    );
+  },
+```
+
 ## [Возвращает](#createslice)
 
 Объект с ключами:
