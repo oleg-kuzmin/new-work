@@ -74,7 +74,7 @@ export const persistor = persistStore(store);
 ```jsx
 // src/index.js
 import { PersistGate } from 'redux-persist/integration/react';
-import { store, persistor } from './store/index';
+import { store, persistor } from './store';
 
 root.render(
   <React.StrictMode>
