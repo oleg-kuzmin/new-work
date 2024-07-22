@@ -46,3 +46,16 @@ useEffect(() => {
     .catch(() => toast('ERROR'));
 }, [dispatch]);
 ```
+
+## `abort()`
+
+Метод отменяет promise. Можно использовать при размонтировании компонента.
+
+```jsx
+useEffect(() => {
+  const promise = dispatch(loadTodos());
+  return () => {
+    promise.abort();
+  };
+}, [dispatch]);
+```

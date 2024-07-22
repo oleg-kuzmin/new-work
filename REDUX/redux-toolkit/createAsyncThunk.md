@@ -5,7 +5,7 @@
 - [`Синтаксис`](#cинтаксис)
 - [`actionName`](#actionname)
 - [`asyncCallback`](#asynccallback)
-- [`thunkApi`](#thunkapi)
+- [`options (опционально)`](#options-опционально)
 - [`Cтатусы`](#статусы)
 - [`Пример`](#пример)
 
@@ -13,7 +13,7 @@
 
 ```js
 import { createAsyncThunk } from '@reduxjs/toolkit';
-export const createTodo = createAsyncThunk(actionName, asyncCallback);
+export const createTodo = createAsyncThunk(actionName, asyncCallback, options);
 ```
 
 ## [`actionName`](#createasyncthunk)
@@ -29,14 +29,38 @@ export const createTodo = createAsyncThunk(actionName, asyncCallback);
 - `arg` - входящий аргумент из UI (если мы что-то передаем).
 - `thunkApi` - объект с разными методами.
 
-## [`thunkApi`](#createasyncthunk)
+### `thunkApi:`
 
-- `dispatch()` - вызывает событие action
-- `getState()` - получает все дерево состояния
+- `dispatch` - вызывает событие action
+- `getState` - получает все дерево состояния
+- `rejectWithValue` - создает ошибку с переданным значением (попадет далее в action.payload)
+
+```jsx
+export const loadTodos = createAsyncThunk('@@todos/load-all', async (_, { rejectWithValue }) => {
+  try {
+    const res = await fetch('http://localhost:3002/todos');
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    return rejectWithValue('Failed to fetch all todos');
+  }
+});
+```
+
+## [`options (опционально)`](#createasyncthunk)
+
+Это объект дополнительных опций.
+
+### `condition: (arg, obj) => {}`
+
+Условие - принимает функцию с параметрами. Функция должна вернуть false, чтобы отменить запрос при необходимости.
+
+- `arg` - входящий аргумент из UI (если мы что-то передаем).
+- `obj` - объект с ключами `getState`, `extra`
 
 ## [`Cтатусы`](#createasyncthunk)
 
-Созданная с помощью `createAsyncThunk()` функция имеет дополнительные собственные ключи - события actions, которые мы можем добавляеть в addCase() для функции builderCallback в extraReducers.
+Созданная с помощью `createAsyncThunk()` функция имеет дополнительные собственные ключи - события actions, которые мы можем добавлять в addCase() для функции builderCallback в extraReducers.
 
 - `.pending` - отправка запроса
 - `.rejected` - ошибка запроса
