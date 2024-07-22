@@ -21,3 +21,28 @@ export default function Component() {
   );
 }
 ```
+
+## Возвращает
+
+dispatch сам по себе возвращает Promise. Внимание! В базовом варианте если нам нужно обрабатывать этот Promise, то мы попадем только в блок `then`. В блоке then нам возвращается объект action с ключами payload и type.
+
+```jsx
+const dispatch = useDispatch();
+
+useEffect(() => {
+  dispatch(loadTodos()).then(() => toast('All Todos were fetch'));
+}, [dispatch]);
+```
+
+Если нам нужно обрабатывать ошибки то до блока then, нужно прописать `.unwrap()`.
+
+```jsx
+const dispatch = useDispatch();
+
+useEffect(() => {
+  dispatch(loadTodos())
+    .unwrap()
+    .then(() => toast('All Todos were fetch'))
+    .catch(() => toast('ERROR'));
+}, [dispatch]);
+```

@@ -102,7 +102,7 @@ reducers: {
 
 ```js
 extraReducers: builder => {
-  builder.addCase(resetToDefault, () => {
+  builder.addCase(resetToDefault, (state, action) => {
     return [];
   });
 },
