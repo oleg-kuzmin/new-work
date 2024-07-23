@@ -59,6 +59,22 @@ devTools: true,
 middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger),
 ```
 
+```jsx
+const store = configureStore({
+  reducer: {},
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      thunk: {
+        extraArgument: {
+          clent: axios,
+          api,
+        },
+      },
+      serializableCheck: false,
+    }),
+});
+```
+
 ## [`preloadedState (опционально)`](#configurestore)
 
 Предзагруженные данные, которые могут быть каким-либо образом получены.
