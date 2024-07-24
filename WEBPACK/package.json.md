@@ -2,17 +2,30 @@
 
 ```json
 {
-  "name": "projectName",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "projectName", // название проекта
+  "version": "1.0.0", // версия
+  "main": "index.js", // точка входа
+
+  // скрипты
   "scripts": {
     "build": "rm -rf build && webpack --mode=production",
     "dev": "webpack serve --mode=development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+
+  "keywords": [], // ключевые слова
+  "author": "Oleg Kuzmin", // автор
+  "license": "ISC", // лицензия
+  "description": "", // описание
+
+  // "1.26.3" конкретная версия
+  // "^1.26.3" разрешены только минорные и патч обновления
+  // "~1.26.3" разрешены только патч обновления
+  // "*" любая версия
+
+  // пакеты prodaction
+  "dependencies": {},
+
+  // пакеты development
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
@@ -29,6 +42,8 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
   },
+
+  // список поддерживаемых браузеров
   "browserslist": ["last 2 versions", "> 1%"]
 }
 ```

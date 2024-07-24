@@ -1,10 +1,18 @@
 # [`Webpack`](../index.md)
 
+- [Общее](#общее)
+- [Установка полная](#установка-полная)
+- [Установка webpack](#установка-webpack)
+- [Установка plugins and loaders](#установка-plugins-and-loaders)
+- [Настройка webpack](#настройка-webpack)
+
+## [Общее](#webpack)
+
 - [`Импорт картинок в html`](<./Импорт в html.md>)
 - [`Импорт картинок в js`](<./Импорт в js.md>)
 - [`gh-pages`](./gh-pages.md)
 
-## [Установка](#webpack)
+## [Установка полная](#webpack)
 
 ```bash
 npm init -y
@@ -36,7 +44,7 @@ npm i -D sass sass-loader postcss postcss-loader postcss-preset-env
 - `npm i postcss-loader -D` лоадер для обработки
 - `npm i postcss-preset-env -D` набор правил для postcss
 
-## [Настройка](#webpack)
+## [Настройка webpack](#webpack)
 
 - [`babel.config.json`](./babel.config.json.md) файл конфигурации babel
 - [`package.json`](./package.json.md) файл конфигурации npm

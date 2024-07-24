@@ -1,14 +1,22 @@
 # [`Packages`](../index.md)
 
-## [Axios](#packages)
+- [Общее]()
+- [Общее]()
+- [Общее]()
+- [Общее]()
+- [Общее]()
+
+## [axios](#packages)
 
 - [`Установка`](./Axios/Установка.md)
 - [`Использование`](./Axios/Использование.md)
 
-## [Gulp](#packages)
+## [gulp](#packages)
 
 - [`Установка`](./Gulp/Установка.md)
 - [`Использование`](./Gulp/Использование.md)
+
+## [js-cookie](#packages)
 
 ## [Lodash](#packages)
 
@@ -19,7 +27,3 @@
 
 - [`Установка`](./Parcel/Установка.md)
 - [`Использование`](./Parcel/Использование.md)
-
-## [Описание файла package.json](#packages)
-
-- [`package.json`](./package.md)

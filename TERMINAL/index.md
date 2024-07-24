@@ -1,6 +1,15 @@
 # [`Terminal`](../index.md)
 
-## [Теория Git](#terminal)
+- [Git Общее](#git-общее)
+- [Git Коммиты](#git-коммиты)
+- [Git Ветки](#git-ветки)
+- [Git Репозиторий](#git-репозиторий)
+- [Gitbash](#gitbash)
+- [Npm](#npm)
+- [Yarn](#yarn)
+- [Node](#node)
+
+## [Git Общее](#terminal)
 
 - [`Структура Git`](<./Git/Структура Git.md>)
 - [`Установка Git`](<./Git/Установка Git.md>)
@@ -9,7 +18,7 @@
 - [`Gitkeep - пустая папка`](<./Git/Gitkeep - пустая папка.md>)
 - [`Nojekyll - файлы с нижним подчеркиванием`](<./Git/Nojekyll - файлы с нижним подчеркиванием.md>)
 
-## [Коммиты Git](#terminal)
+## [Git Коммиты](#terminal)
 
 - [`git add`](<./Git/git add.md>) добавить файл/каталог в stage
 - [`git commit`](<./Git/git commit.md>) добавить файл/каталог в локальный репозиторий
@@ -20,14 +29,14 @@
 - [`git stash`](<./Git/git stash.md>) спрятать изменения
 - [`git status`](<./Git/git status.md>) проверить изменения
 
-## [Ветки Git](#terminal)
+## [Git Ветки](#terminal)
 
 - [`git branch`](<./Git/git branch.md>) создание/удаление ветки
 - [`git checkout`](<./Git/git checkout.md>) сменить ветку
 - [`git merge`](<./Git/git merge.md>) слияние ветки с главной
 - [`git revert`](<./Git/git revert.md>) отмена слияния веток, отмена коммита
 
-## [Репозиторий Git](#terminal)
+## [Git Репозиторий](#terminal)
 
 - [`git -v`](<./Git/git -v.md>) покажет версию npm
 - [`git clone`](<./Git/git clone.md>) клонирование удаленного репозитория
