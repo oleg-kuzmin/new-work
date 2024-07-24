@@ -1,4 +1,4 @@
-# [`Sum without highest and lowest number (8kyu)`](../index.md)
+# [`Sum without highest and lowest number`](../../index.md)
 
 Суммируйте все числа данного массива ( cq. list ), кроме самого высокого и самого низкого элемента (по значению, а не по индексу!).
 

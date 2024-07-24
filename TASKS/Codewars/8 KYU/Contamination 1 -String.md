@@ -1,5 +1,4 @@
-# [`Contamination #1 -String (8kyu)`](../index.md)
-
+# [`Contamination 1 -String`](../../index.md)
 ИИ заразил текст персонажем!!
 
 Этот текст теперь полностью изменен на этот символ.

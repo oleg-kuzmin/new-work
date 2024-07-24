@@ -1,25 +1,36 @@
 # [`Tasks`](../index.md)
 
-- [`01. Find out whether the shape is a cube (8kyu)`](<./Codewars/01. Find out whether the shape is a cube (8kyu).md>)
-- [`02. Regex validate PIN code (7kyu)`](<./Codewars/02. Regex validate PIN code (7kyu).md>)
-- [`03. String ends with (7kyu)`](<./Codewars/03. String ends with (7kyu).md>)
-- [`04. Reversed sequence (8kyu)`](<./Codewars/04. Reversed sequence (8kyu).md>)
-- [`05. Jenny's secret message (8kyu)`](<./Codewars/05. Jenny's secret message (8kyu).md>)
-- [`06. Array plus array (8kyu)`](<./Codewars/06. Array plus array (8kyu).md>)
-- [`07. Pillars (8kyu)`](<./Codewars/07. Pillars (8kyu).md>)
-- [`08. Contamination #1 -String (8kyu)`](<./Codewars/08. Contamination #1 -String (8kyu).md>)
-- [`09. Multiple of index (8kyu)`](<./Codewars/09. Multiple of index (8kyu).md>)
-- [`10. Super Duper Easy (8kyu)`](<./Codewars/10. Super Duper Easy (8kyu).md>)
-- [`11. Break camelCase (6kyu)`](<./Codewars/11. Break camelCase (6kyu).md>)
-- [`12. Count up the points for the 7 Wonders (7kyu)`](<./Codewars/12. Count up the points for the 7 Wonders (7kyu).md>)
-- [`13. Convert a string to an array (8kyu)`](<./Codewars/13. Convert a string to an array (8kyu).md>)
-- [`14. Fundamentals Return (8kyu)`](<./Codewars/14. Fundamentals Return (8kyu).md>)
-- [`15. Convert a Number to a String (8kyu)`](<./Codewars/15. Convert a Number to a String (8kyu).md>)
-- [`16. Moving Zeros To The End (5kyu)`](<./Codewars/16. Moving Zeros To The End (5kyu).md>)
-- [`17. Basic subclasses - Adam and Eve (8kyu)`](<./Codewars/17. Basic subclasses - Adam and Eve (8kyu).md>)
-- [`18. Sum without highest and lowest number (8kyu)`](<./Codewars/18. Sum without highest and lowest number (8kyu).md>)
-- [`19. Multiply the number(8kyu)`](<./Codewars/19. Multiply the number(8kyu).md>)
-- [`20. Possibilities Array(7kyu)`](<./Codewars/20. Possibilities Array(7kyu).md>)
-- [`21. Stop gninnipS My sdroW! (6kyu)`](<./Codewars/21. Stop gninnipS My sdroW! (6kyu).md>)
-- [`22. Total amount of points (8kyu)`](<./Codewars/22. Total amount of points (8kyu).md>)
-- [`23. Stone Pickaxe Crafting (7kyu)`](<./Codewars/23. Stone Pickaxe Crafting (7kyu).md>)
+## 8 KYU
+
+- [`Find out whether the shape is a cube`](<./Codewars/8 KYU/Find out whether the shape is a cube.md>)
+- [`Reversed sequence`](<./Codewars/8 KYU/Reversed sequence.md>)
+- [`Jenny's secret message`](<./Codewars/8 KYU/Jenny's secret message.md>)
+- [`Array plus array`](<./Codewars/8 KYU/Array plus array.md>)
+- [`Pillars`](<./Codewars/8 KYU/Pillars.md>)
+- [`Contamination 1 -String`](<./Codewars/8 KYU/Contamination 1 -String.md>)
+- [`Multiple of index`](<./Codewars/8 KYU/Multiple of index.md>)
+- [`Super Duper Easy`](<./Codewars/8 KYU/Super Duper Easy.md>)
+- [`Convert a string to an array`](<./Codewars/8 KYU/Convert a string to an array.md>)
+- [`Fundamentals Return`](<./Codewars/8 KYU/Fundamentals Return.md>)
+- [`Convert a Number to a String`](<./Codewars/8 KYU/Convert a Number to a String.md>)
+- [`Basic subclasses - Adam and Eve`](<./Codewars/8 KYU/Basic subclasses - Adam and Eve.md>)
+- [`Sum without highest and lowest number`](<./Codewars/8 KYU/Sum without highest and lowest number.md>)
+- [`Multiply the number`](<./Codewars/8 KYU/Multiply the number.md>)
+- [`Total amount of points`](<./Codewars/8 KYU/Total amount of points.md>)
+
+## 7 KYU
+
+- [`Regex validate PIN code`](<./Codewars/7 KYU/Regex validate PIN code.md>)
+- [`String ends with`](<./Codewars/7 KYU/String ends with.md>)
+- [`Count up the points for the 7 Wonders`](<./Codewars/7 KYU/Count up the points for the 7 Wonders.md>)
+- [`Possibilities Array`](<./Codewars/7 KYU/Possibilities Array.md>)
+- [`Stone Pickaxe Crafting`](<./Codewars/7 KYU/Stone Pickaxe Crafting.md>)
+
+## 6 KYU
+
+- [`Break camelCase`](<./Codewars/6 KYU/Break camelCase.md>)
+- [`Stop gninnipS My sdroW!`](<./Codewars/6 KYU/Stop gninnipS My sdroW!.md>)
+
+## 5 KYU
+
+- [`Moving Zeros To The End`](<./Codewars/5 KYU/Moving Zeros To The End.md>)

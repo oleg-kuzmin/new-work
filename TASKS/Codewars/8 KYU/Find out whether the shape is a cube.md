@@ -1,4 +1,4 @@
-# [`Find out whether the shape is a cube (8kyu)`](../index.md)
+# [`Find out whether the shape is a cube`](../../index.md)
 
 Выяснить, является ли фигура кубом
 

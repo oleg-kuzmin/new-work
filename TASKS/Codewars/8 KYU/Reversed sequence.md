@@ -1,4 +1,4 @@
-# [`Reversed sequence (8kyu)`](../index.md)
+# [`Reversed sequence`](../../index.md)
 
 Создайте функцию, которая возвращает массив целых чисел от n до 1, где n>0.
 

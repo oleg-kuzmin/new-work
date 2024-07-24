@@ -1,4 +1,4 @@
-# [`Convert a string to an array (8kyu)`](../index.md)
+# [`Convert a string to an array`](../../index.md)
 
 Напишите функцию, которая разбивает строку и преобразует ее в массив слов.
 

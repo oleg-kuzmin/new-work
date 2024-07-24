@@ -1,4 +1,4 @@
-# [`Count up the points for the 7 Wonders (7kyu)`](../index.md)
+# [`Count up the points for the 7 Wonders`](../../index.md)
 
 7 Wonders — это настольная игра, в которой вы строите свой город, собираете ресурсы и сражаетесь с соседями.
 

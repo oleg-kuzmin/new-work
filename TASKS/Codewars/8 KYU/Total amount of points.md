@@ -1,4 +1,4 @@
-# [`Total amount of points (8kyu)`](../index.md)
+# [`Total amount of points`](../../index.md)
 
 Наша футбольная команда завершила чемпионат.
 

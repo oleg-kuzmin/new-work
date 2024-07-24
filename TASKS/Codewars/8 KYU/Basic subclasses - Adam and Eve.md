@@ -1,4 +1,4 @@
-# [`Basic subclasses - Adam and Eve (8kyu)`](../index.md)s
+# [`Basic subclasses - Adam and Eve`](../../index.md)
 
 Согласно мифам о творении авраамических религий, Адам и Ева были первыми людьми, странствовавшими по Земле.
 

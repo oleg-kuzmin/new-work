@@ -1,4 +1,4 @@
-# [`Stone Pickaxe Crafting (7kyu)`](../index.md)
+# [`Stone Pickaxe Crafting`](../../index.md)
 
 Примечание. Основано на Minecraft. Надеемся, вы хотя бы знаете эту игру!
 

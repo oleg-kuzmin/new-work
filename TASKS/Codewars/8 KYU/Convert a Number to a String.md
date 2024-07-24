@@ -1,4 +1,4 @@
-# [`Convert a Number to a String (8kyu)`](../index.md)
+# [`Convert a Number to a String`](../../index.md)
 
 Нам нужна функция, которая может преобразовать число (целое) в строку.
 
