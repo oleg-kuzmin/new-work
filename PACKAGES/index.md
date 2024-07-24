@@ -1,29 +1,32 @@
 # [`Packages`](../index.md)
 
-- [Общее]()
-- [Общее]()
-- [Общее]()
-- [Общее]()
-- [Общее]()
+- [axios](#axios)
+- [gulp](#gulp)
+- [js-cookie](#js-cookie)
+- [lodash](#lodash)
+- [parcel-bundler](#parcel-bundler)
 
 ## [axios](#packages)
 
-- [`Установка`](./Axios/Установка.md)
-- [`Использование`](./Axios/Использование.md)
+- [`Установка`](./axios/Установка.md)
+- [`Использование`](./axios/Использование.md)
 
 ## [gulp](#packages)
 
-- [`Установка`](./Gulp/Установка.md)
-- [`Использование`](./Gulp/Использование.md)
+- [`Установка`](./gulp/Установка.md)
+- [`Использование`](./gulp/Использование.md)
 
 ## [js-cookie](#packages)
 
-## [Lodash](#packages)
+- [`Установка`](./js-cookie/Установка.md)
+- [`Использование`](./js-cookie/Использование.md)
 
-- [`Установка`](./Lodash/Установка.md)
-- [`Использование`](./Lodash/Использование.md)
+## [lodash](#packages)
 
-## [Parcel](#packages)
+- [`Установка`](./lodash/Установка.md)
+- [`Использование`](./lodash/Использование.md)
 
-- [`Установка`](./Parcel/Установка.md)
-- [`Использование`](./Parcel/Использование.md)
+## [parcel-bundler](#packages)
+
+- [`Установка`](./parcel-bundler/Установка.md)
+- [`Использование`](./parcel-bundler/Использование.md)
