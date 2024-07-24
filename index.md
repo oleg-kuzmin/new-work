@@ -7,6 +7,7 @@
 - [REDUX](./REDUX/index.md)
 - [NEXT](./NEXT/index.md)
 - [TERMINAL](./TERMINAL/index.md)
+- [TYPESCRIPT](./TYPESCRIPT/index.md)
 - [PACKAGES](./PACKAGES/index.md)
 - [WEBPACK](./WEBPACK/index.md)
 - [VITE](./VITE/index.md)
