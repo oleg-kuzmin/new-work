@@ -24,7 +24,7 @@ DOM — это объектное представление элементов 
 - [Как просмотреть DOM в Google Chrome](https://developer.chrome.com/docs/devtools/dom/)
 - [Как просмотреть DOM в Firefox](https://developer.mozilla.org/docs/Tools/Debugger/How_to/Highlight_and_inspect_DOM_nodes)
 
-## Итогоц
+## Итого
 
 Вы завершили главу 2!
 
