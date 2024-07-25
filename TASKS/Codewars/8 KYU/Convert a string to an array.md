@@ -7,7 +7,7 @@
 "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 ```
 
-## решение
+## Мое решение
 
 ```js
 function stringToArray(string) {

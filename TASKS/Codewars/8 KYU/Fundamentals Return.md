@@ -13,7 +13,7 @@
 
 Note: All math operations will be: a (operation) b
 
-## решение
+## Мое решение
 
 ```js
 function add(a, b) {

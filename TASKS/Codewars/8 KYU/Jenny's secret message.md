@@ -11,7 +11,7 @@ function greet(name) {
 }
 ```
 
-## решение
+## Мое решение
 
 ```js
 function greet(name) {

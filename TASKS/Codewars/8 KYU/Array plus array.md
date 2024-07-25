@@ -4,7 +4,7 @@
 
 Я буду признателен за вашу помощь. P.S. Каждый массив включает только целые числа. Выход - тоже число.
 
-## решение
+## Мое решение
 
 ```js
 function arrayPlusArray(arr1, arr2) {
@@ -20,7 +20,7 @@ function arrayPlusArray(arr1, arr2) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function arrayPlusArray(arr1, arr2) {

@@ -8,7 +8,7 @@
 ""             =>  ""
 ```
 
-## решение
+## Мое решение
 
 ```js
 function solution(string) {
@@ -21,15 +21,13 @@ function solution(string) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function solution(string) {
   return string.replace(/([A-Z])/g, ' $1');
 }
 ```
-
-## интересное решение
 
 ```js
 const solution = string => {

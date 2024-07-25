@@ -10,7 +10,7 @@ multiply(0) == 0 # 0 * 5¹
 multiply(-3) == -15 # -3 * 5¹
 ```
 
-## решение
+## Мое решение
 
 ```js
 function multiply(number) {
@@ -22,7 +22,7 @@ function multiply(number) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function multiply(number) {

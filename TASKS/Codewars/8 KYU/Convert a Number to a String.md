@@ -10,7 +10,7 @@
 -100 --> "-100"
 ```
 
-## решение
+## Мое решение
 
 ```js
 function numberToString(num) {

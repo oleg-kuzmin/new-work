@@ -12,7 +12,7 @@
 Возвращайте false также для недопустимых чисел (например, объем или сторона меньше или равна 0).
 Примечание: сторона будет целым числом
 
-## решение
+## Мое решение
 
 ```js
 const cubeChecker = function (volume, side) {
@@ -20,7 +20,7 @@ const cubeChecker = function (volume, side) {
 };
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 var cubeCheckerBest = function (volume, side) {

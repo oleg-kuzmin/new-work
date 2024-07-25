@@ -16,7 +16,7 @@ character   = "z"
 text after  = "zzz"
 ```
 
-## решение
+## Мое решение
 
 ```js
 function contamination(text, char) {
@@ -24,7 +24,7 @@ function contamination(text, char) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function contamination(text, char) {

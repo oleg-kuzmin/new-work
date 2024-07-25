@@ -4,7 +4,7 @@
 
 Если функции передана допустимая строка PIN-кода, верните true, иначе верните false.
 
-## мое решение c проверкой на тип
+## Мое решение c проверкой на тип
 
 ```js
 function validatePIN(pin) {
@@ -20,7 +20,7 @@ function validatePIN(pin) {
 }
 ```
 
-## решение без проверки на тип
+## Мое решение без проверки на тип
 
 ```js
 function validatePIN(pin) {
@@ -33,7 +33,7 @@ function validatePIN(pin) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function validatePIN(pin) {

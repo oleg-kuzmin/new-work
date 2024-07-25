@@ -27,6 +27,7 @@
 ## [7 KYU](#tasks)
 
 - [`Count up the points for the 7 Wonders`](<./Codewars/7 KYU/Count up the points for the 7 Wonders.md>)
+- [`Find the next perfect square!`](<./Codewars/7 KYU/Find the next perfect square!.md>)
 - [`Possibilities Array`](<./Codewars/7 KYU/Possibilities Array.md>)
 - [`Regex validate PIN code`](<./Codewars/7 KYU/Regex validate PIN code.md>)
 - [`Stone Pickaxe Crafting`](<./Codewars/7 KYU/Stone Pickaxe Crafting.md>)

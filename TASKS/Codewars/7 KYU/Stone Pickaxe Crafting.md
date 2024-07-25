@@ -32,7 +32,7 @@ Array: ['Sticks', 'Wool', 'Cobblestone'];
 Returned: 0;
 ```
 
-## решение
+## Мое решение
 
 ```js
 function stonePick(arr) {
@@ -59,7 +59,7 @@ function stonePick(arr) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 Не согласен - 3 прохода по массиву.
 

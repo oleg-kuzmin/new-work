@@ -7,7 +7,7 @@ solution('abc', 'bc'); // true
 solution('abc', 'd'); // false
 ```
 
-## решение
+## Мое решение
 
 ```js
 function solution(str, ending) {

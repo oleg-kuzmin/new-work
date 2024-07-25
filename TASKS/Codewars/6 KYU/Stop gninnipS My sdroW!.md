@@ -8,7 +8,7 @@
 "This is another test" --> "This is rehtona test"
 ```
 
-## решение
+## Мое решение
 
 ```js
 function spinWords(string) {
@@ -19,7 +19,7 @@ function spinWords(string) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function spinWords(words) {

@@ -8,7 +8,7 @@ a.length-1=3
 a includes [0,3] // true
 ```
 
-## решение
+## Мое решение
 
 ```js
 function isAllPossibilities(arr) {
@@ -28,7 +28,7 @@ function isAllPossibilities(arr) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function isAllPossibilities(x) {

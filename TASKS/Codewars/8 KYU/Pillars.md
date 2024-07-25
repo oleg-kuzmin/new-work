@@ -8,7 +8,7 @@
 
 Рассчитайте расстояние между первым и последним столбом в сантиметрах (без ширины первого и последнего столба).
 
-## решение
+## Мое решение
 
 ```js
 function pillars(numPill, dist, width) {
@@ -28,7 +28,7 @@ function pillars(numPill, dist, width) {
 }
 ```
 
-## на сайте
+## Другие решения
 
 ```js
 function pillars(num_pill, dist, width) {
