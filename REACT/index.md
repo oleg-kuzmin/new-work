@@ -5,7 +5,7 @@
 - [Hooks](#hooks)
 - [React](#react-1)
 - [ReactDOM](#reactdom)
-- [React Router](#react-router)
+- [react-router-dom](#react-router)
 
 ## [Общее](#react)
 
@@ -49,18 +49,18 @@
 - [`ReactDOM.createRoot()`](./ReactDOM/ReactDOM.createRoot.md) создает корневой react-компонент
 - [`ReactDOM.render()`](./ReactDOM/ReactDom.render.md) рендерит react-компонент
 
-## [React Router](#react)
+## [react-router-dom](#react)
 
-- [`Установка`](<./React Router/Установка.md>) установка
-- [`Базовый роутинг`](<./React Router/Базовый роутинг.md>) базовый роутинг
-- [`<BrowserRouter>`](<./React Router/BrowserRouter.md>) обертка над приложением
-- [`<Link>`](<./React Router/Link.md>) компонент ссылки
-- [`<Navigate>`](<./React Router/Navigate.md>) переадресация
-- [`<NavLink>`](<./React Router/NavLink.md>) компонент ссылки навигации
-- [`<Outlet>`](<./React Router/Outlet.md>) компонент остальной разметки
-- [`<Route>`](<./React Router/Route.md>) Route
-- [`useLocation()`](<./React Router/useLocation.md>) информация о локации страницы
-- [`useMatch()`](<./React Router/useMatch.md>) какая ссылка навигации активна
-- [`useNavigate()`](<./React Router/useNavigate.md>) функция навигации
-- [`useParams()`](<./React Router/useParams.md>) получение переданных в Route параметров
-- [`useSearchParams()`](<./React Router/useSearchParams.md>) url-параметры поиска
+- [`Установка`](./react-router-dom/Установка.md) установка
+- [`Базовый роутинг`](<./react-router-dom/Базовый роутинг.md>) базовый роутинг
+- [`<BrowserRouter>`](./react-router-dom/BrowserRouter.md) обертка над приложением
+- [`<Link>`](./react-router-dom/Link.md) компонент ссылки
+- [`<Navigate>`](./react-router-dom/Navigate.md) переадресация
+- [`<NavLink>`](./react-router-dom/NavLink.md) компонент ссылки навигации
+- [`<Outlet>`](./react-router-dom/Outlet.md) компонент остальной разметки
+- [`<Route>`](./react-router-dom/Route.md) Route
+- [`useLocation()`](./react-router-dom/useLocation.md) информация о локации страницы
+- [`useMatch()`](./react-router-dom/useMatch.md) какая ссылка навигации активна
+- [`useNavigate()`](./react-router-dom/useNavigate.md) функция навигации
+- [`useParams()`](./react-router-dom/useParams.md) получение переданных в Route параметров
+- [`useSearchParams()`](./react-router-dom/useSearchParams.md) url-параметры поиска
