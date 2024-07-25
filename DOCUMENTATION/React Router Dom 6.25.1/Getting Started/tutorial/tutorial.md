@@ -18,6 +18,7 @@
 - [Создание контактов](#создание-контактов)
 - [URL-параметры в loader](#url-параметры-в-loader)
 - [Обновление данных](#обновление-данных)
+- [Обновление контактов с помощью FormData](#обновление-контактов-с-помощью-formdata)
 
 ## [Настройка](#руководство)
 
@@ -823,3 +824,63 @@ const router = createBrowserRouter([
 Хорошо, нажатие кнопки `Edit` открывает нам новый пользовательский интерфейс:
 
 ![image](./images/11.webp)
+
+## [Обновление контактов с помощью FormData](#руководство)
+
+Маршрут `edit`, который мы только что создали, уже отображает форму. Все, что нам нужно сделать для обновления записи, — это подключить `action` к маршруту. Форма опубликует `action`, и данные будут автоматически проверены.
+
+👉 Добавьте `action` в модуль `edit`
+
+### src/routes/edit.jsx
+
+```jsx
+import { Form, useLoaderData, redirect } from 'react-router-dom';
+import { updateContact } from '../contacts';
+
+export async function action({ request, params }) {
+  const formData = await request.formData();
+  const updates = Object.fromEntries(formData);
+  await updateContact(params.contactId, updates);
+  return redirect(`/contacts/${params.contactId}`);
+}
+
+/* существующий код */
+```
+
+👉 Свяжите `action` с маршрутом
+
+### src/main.js
+
+```jsx
+/* существующий код */
+import EditContact, { action as editAction } from './routes/edit';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    loader: rootLoader,
+    action: rootAction,
+    children: [
+      {
+        path: 'contacts/:contactId',
+        element: <Contact />,
+        loader: contactLoader,
+      },
+      {
+        path: 'contacts/:contactId/edit',
+        element: <EditContact />,
+        loader: contactLoader,
+        action: editAction,
+      },
+    ],
+  },
+]);
+
+/* существующий код */
+```
+
+Заполните форму, нажмите `save`, и вы увидите что-то вроде этого! (За исключением того, что он приятнее для глаз и, возможно, менее волосатый)
+
+![image](./images/12.webp)
