@@ -467,7 +467,7 @@
 - [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив ключей-символов
 - [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
 - [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
-- [`Object.is()`](./Object/Object.is.md) проверяет равны ли значения
+- [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
 - [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
 - [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
 
