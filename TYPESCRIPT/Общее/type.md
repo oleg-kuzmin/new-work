@@ -56,6 +56,11 @@ type Employee = {
   contractStart: Date;
 } & User &
   Person;
+
+type Employee = User &
+  Person & {
+    contractStart: Date;
+  };
 ```
 
 ## Отличие interface от type
