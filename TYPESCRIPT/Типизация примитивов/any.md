@@ -4,5 +4,7 @@
 
 ```ts
 // явное указание, иначе неявно будет присвоен тип number
-let mm: any = 1;
+let x: any = 1;
+let x: [any, any] = ['hello', 10];
+let x: Array<any> = ['hello', 10];
 ```

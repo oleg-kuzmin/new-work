@@ -8,7 +8,11 @@
 - название с большой буквы
 - допустимы точки с запятой после свойства
 
+Для предотвращения пересечения и объединения интерфейсов с какой-либо библиотекой существует соглашение добавлять букву `I` перед объявлением интерфейса, например `interface IAccount {}`
+
 ## Пример
+
+### Обязательные параметры
 
 ```ts
 interface Car {
@@ -26,30 +30,68 @@ const car: Car = {
 };
 ```
 
-## Необязательные параметры
+### Необязательные параметры
 
 ```ts
 interface Car {
   isNew?: boolean;
   name?: string;
 }
+
+// Иногда можно встретить указание опциональных или динамических свойств в скобках для отличия.
+car2['go'] = true;
 ```
 
-## Непредсказуемое количество полей
+### Непредсказуемое количество полей
 
 ```ts
 interface Car {
   [key: string]: unknown;
 }
+```
 
-const car2: Car = {
-  brand: 'BMW',
-  type: '',
-  wheels: 4,
+### Методы
+
+```ts
+interface Car {
+  print(): number;
+  print1?: () => number;
+}
+```
+
+### Только для чтения
+
+```ts
+interface Car {
+  readonly parametr: string;
+}
+```
+
+## Объединение interface
+
+interface объединяются если им задано одинаковое имя.
+
+```ts
+interface Person {
+  name: string;
+}
+
+interface Person {
+  age: number;
+}
+
+const john: Person = {
+  name: 'John',
+  age: 100,
 };
+```
 
-car2.go = true;
+## Наследование interface
 
-// Иногда можно встретить указание опциональных или динамических свойств в скобках для отличия.
-car2['go'] = true;
+Можно указать любое количество после extends через запятую.
+
+```ts
+interface PersonDevelop extends Person {
+  email: string;
+}
 ```

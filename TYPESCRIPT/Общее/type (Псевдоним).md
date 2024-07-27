@@ -6,9 +6,24 @@
 
 `type` указываются с большой буквы.
 
-```ts
-type MyBoolean = false | true;
+## Пример
 
+### type из двух типов
+
+```ts
+type MyBoolean = true | false;
+```
+
+### комбинация type
+
+```ts
+type Pair = [string, string];
+type Pairs = Pair[];
+```
+
+### type для объекта
+
+```ts
 type DiffCar = {
   wheels: number;
   brand: string;
@@ -17,4 +32,12 @@ type DiffCar = {
   name?: string;
   [key: string]: unknown;
 };
+```
+
+### составной type
+
+Можно указывать при создании типа или при типизации чего-либо (аргумента, параметра и т.д.).
+
+```ts
+type MyType = MyBoolean & Level;
 ```
