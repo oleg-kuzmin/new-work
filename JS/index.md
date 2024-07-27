@@ -455,7 +455,8 @@
 ## [Object](#javascript)
 
 - [`delete`](./Object/delete.md) оператор удаления свойства
-- [`in`](./Object/in.md) оператор проверки наличия ключа
+- [`in`](./Object/in.md) оператор проверки наличия свойства
+- [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
   - [`object.hasOwnProperty()`](./Object/object.hasownproperty.md) принадлежность свойства самому объекту
   - [`object.prototype`](./Object/object.prototype.md) свойство прототип функции-конструктора
