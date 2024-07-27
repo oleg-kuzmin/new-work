@@ -50,6 +50,14 @@ car2['go'] = true;
 interface Car {
   [key: string]: unknown;
 }
+
+// Альтернативный вариант
+const counter: Record<string, unknown> = {
+  apple: 1,
+  orange: 8,
+  banana: 6,
+  grape: 5,
+};
 ```
 
 ### Методы
