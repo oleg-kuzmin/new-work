@@ -2,7 +2,7 @@
 
 - [HTML](./HTML/index.md)
 - [CSS](./CSS/index.md)
-- [JS](./JS/index.md)
+- [JAVASCRIPT](./JAVASCRIPT/index.md)
 - [REACT](./REACT/index.md)
 - [REDUX](./REDUX/index.md)
 - [NEXT](./NEXT/index.md)
