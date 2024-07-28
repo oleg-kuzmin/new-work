@@ -457,20 +457,21 @@
 - [`delete`](./Object/delete.md) оператор удаления свойства
 - [`in`](./Object/in.md) оператор проверки наличия свойства
 - [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
+- [`.hasOwnProperty()`](./Object/hasownproperty.md) принадлежность свойства самому объекту
+- [`.prototype`](./Object/prototype.md) свойства и методы функции-конструктора
+- [`.__proto__`](./Object/__proto__.md) ссылка на прототип объекта
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
-  - [`object.hasOwnProperty()`](./Object/object.hasownproperty.md) принадлежность свойства самому объекту
-  - [`object.prototype`](./Object/object.prototype.md) свойство прототип функции-конструктора
 - [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
-- [`Object.entries()`](./Object/Object.entries.md) создает массив из объекта
+- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
 - [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
 - [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
 - [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив ключей-символов
 - [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
 - [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
 - [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
-- [`Object.keys()`](./Object/Object.keys.md) создает массив из перечисляемых свойств
-- [`Object.values()`](./Object/Object.values.md) создает массив из перечисляемых свойств
+- [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
+- [`Object.values()`](./Object/Object.values.md) создает массив значений
 
 ### [Object => Array](#javascript)
 
