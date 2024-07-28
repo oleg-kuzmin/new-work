@@ -31,57 +31,57 @@
 - [`Преобразование (строковое)`](<./Общее/Преобразование (строковое).md>)
 - [`Преобразование (численное)`](<./Общее/Преобразование (численное).md>)
 - [`Словарь`](./Общее/Словарь.md)
-- [`Тип BigInt`](<./Общее/Тип BigInt.md>)
-- [`Тип Boolean`](<./Общее/Тип Boolean.md>)
-- [`Тип Null`](<./Общее/Тип Null.md>)
-- [`Тип Number`](<./Общее/Тип Number.md>)
-- [`Тип Object`](<./Общее/Тип Object.md>)
-- [`Тип String`](<./Общее/Тип String.md>)
-- [`Тип Symbol`](<./Общее/Тип Symbol.md>)
-- [`Тип Undefined`](<./Общее/Тип Undefined.md>)
 - [`Условные конструкции`](<./Общее/Условные конструкции.md>)
 - [`Функции`](./Общее/Функции.md)
 - [`Экспорт и импорт CommonJS`](<./Общее/Экспорт и импорт CommonJS.md>)
 - [`Экспорт и импорт ES Modules`](<./Общее/Экспорт и импорт ES Modules.md>)
+- [`type bigInt`](<./Общее/type bigInt.md>)
+- [`type boolean`](<./Общее/type boolean.md>)
+- [`type null`](<./Общее/type null.md>)
+- [`type symbol`](<./Общее/type symbol.md>)
+- [`type undefined`](<./Общее/type undefined.md>)
 
 ## [Асинхронные действия](#javascript)
 
 - [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
-- [`new XMLHttpRequest()`](<./Асинхронные действия/new XMLHttpRequest.md>) объект legacy-запроса
-  - [`request.open()`](<./Асинхронные действия/request.open.md>) создает запрос
-  - [`request.response`](<./Асинхронные действия/request.response.md>) объект ответа
-  - [`request.responseType`](<./Асинхронные действия/request.responseType.md>) тип ответа
-  - [`request.send()`](<./Асинхронные действия/request.send.md>) отправляет запрос
+
+### [XMLHttpRequest](#javascript)
+
+- [`new XMLHttpRequest()`](<./Асинхронные действия/XMLHttpRequest/new XMLHttpRequest.md>) объект legacy-запроса
+  - [`.open()`](<./Асинхронные действия/XMLHttpRequest/open.md>) создает запрос
+  - [`.response`](<./Асинхронные действия/XMLHttpRequest/response.md>) объект ответа
+  - [`.responseType`](<./Асинхронные действия/XMLHttpRequest/responseType.md>) тип ответа
+  - [`.send()`](<./Асинхронные действия/XMLHttpRequest/send.md>) отправляет запрос
 
 ### [Fetch](#javascript)
 
-- [`fetch()`](<./Асинхронные действия/fetch.md>) запрос на сервер
-  - [`responce.blob()`](<./Асинхронные действия/responce.blob.md>) преобразует json-ответ в бинарные данные
-  - [`responce.headers.get()`](<./Асинхронные действия/responce.headers.get.md>) получает значение заголовка
-  - [`responce.json()`](<./Асинхронные действия/responce.json.md>) преобразует json-ответ в объект js
-  - [`responce.ok`](<./Асинхронные действия/responce.ok.md>) успешность ответа
-  - [`responce.status`](<./Асинхронные действия/responce.status.md>) статус ответа
-  - [`responce.statusText`](<./Асинхронные действия/responce.statusText.md>) сообщение статуса ответа
-  - [`responce.text()`](<./Асинхронные действия/responce.text.md>) преобразует json-ответ в текст
+- [`fetch()`](<./Асинхронные действия/Fetch/fetch.md>) запрос на сервер
+  - [`.blob()`](<./Асинхронные действия/Fetch/.blob.md>) преобразует json-ответ в бинарные данные
+  - [`.headers.get()`](<./Асинхронные действия/Fetch/.headers.get.md>) получает значение заголовка
+  - [`.json()`](<./Асинхронные действия/Fetch/.json.md>) преобразует json-ответ в объект js
+  - [`.ok`](<./Асинхронные действия/Fetch/.ok.md>) успешность ответа
+  - [`.status`](<./Асинхронные действия/Fetch/.status.md>) статус ответа
+  - [`.statusText`](<./Асинхронные действия/Fetch/.statusText.md>) сообщение статуса ответа
+  - [`.text()`](<./Асинхронные действия/Fetch/.text.md>) преобразует json-ответ в текст
 
 ### [Promise](#javascript)
 
-- [`new Promise()`](<./Асинхронные действия/new Promise.md>) создает promise
-  - [`promise.catch()`](<./Асинхронные действия/promise.catch.md>) обработчик отклоненного promise
-  - [`promise.finally()`](<./Асинхронные действия/promise.finally.md>) обработчик завершенного promise
-  - [`promise.then()`](<./Асинхронные действия/promise.then.md>) обработчик выполненного promise
-- [`Promise.all()`](<./Асинхронные действия/Promise.all.md>) все promise выполнены
-- [`Promise.allSettled()`](<./Асинхронные действия/Promise.allSettled.md>) все promise завершены
-- [`Promise.any()`](<./Асинхронные действия/Promise.any.md>) первый выполненный promise
-- [`Promise.race()`](<./Асинхронные действия/Promise.race.md>) первый завершенный promise
-- [`Promise.reject()`](<./Асинхронные действия/Promise.reject.md>) создает отклоненный promise
-- [`Promise.resolve()`](<./Асинхронные действия/Promise.resolve.md>) создает выполненный promise
+- [`new Promise()`](<./Асинхронные действия/Promise/new Promise.md>) создает promise
+  - [`.catch()`](<./Асинхронные действия/Promise/.catch.md>) обработчик отклоненного promise
+  - [`.finally()`](<./Асинхронные действия/Promise/.finally.md>) обработчик завершенного promise
+  - [`.then()`](<./Асинхронные действия/Promise/.then.md>) обработчик выполненного promise
+- [`Promise.all()`](<./Асинхронные действия/Promise/Promise.all.md>) все promise выполнены
+- [`Promise.allSettled()`](<./Асинхронные действия/Promise/Promise.allSettled.md>) все promise завершены
+- [`Promise.any()`](<./Асинхронные действия/Promise/Promise.any.md>) первый выполненный promise
+- [`Promise.race()`](<./Асинхронные действия/Promise/Promise.race.md>) первый завершенный promise
+- [`Promise.reject()`](<./Асинхронные действия/Promise/Promise.reject.md>) создает отклоненный promise
+- [`Promise.resolve()`](<./Асинхронные действия/Promise/Promise.resolve.md>) создает выполненный promise
 
 ### [JSON](#javascript)
 
-- [`JSON`](<./Асинхронные действия/JSON.md>) формат обмена данными
-  - [`JSON.parse()`](<./Асинхронные действия/JSON.parse.md>) преобразует JSON в объект
-  - [`JSON.stringify()`](<./Асинхронные действия/JSON.stringify.md>) преобразует объект в JSON
+- [`JSON`](<./Асинхронные действия/JSON/JSON.md>) формат обмена данными
+- [`JSON.parse()`](<./Асинхронные действия/JSON/JSON.parse.md>) преобразует JSON в объект
+- [`JSON.stringify()`](<./Асинхронные действия/JSON/JSON.stringify.md>) преобразует объект в JSON
 
 ## [ООП](#javascript)
 
@@ -159,75 +159,69 @@
 ## [Array](#javascript)
 
 - [`Array()`](./Array/Array.md) создает массив
-  - [`array.length`](./Array/array.length.md) размер массива
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 - [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
+- [`Array => String (.join)`](./Array/.join.md) преобразует массив в строку
+- [`Array => Object (Object.fromEntries)`](./Object/Object.fromEntries.md) создает объект из массива
 
 ### [Иммутабельные методы](#javascript)
 
-- [`array.concat()`](./Array/array.concat.md) объединяет элементы
-- [`array.every()`](./Array/array.every.md) проверяет все ли элементы соответствуют условию
-- [`array.filter()`](./Array/array.filter.md) оставляет те элементы, которые соответствуют условию
-- [`array.find()`](./Array/array.find.md) поиск элемента, который соответствуют условию
-- [`array.findindex()`](./Array/array.findindex.md) поиск индекса элемента, который соответствуют условию
-- [`array.forEach()`](./Array/array.forEach.md) перебирает элементы массива
-- [`array.includes()`](./Array/array.includes.md) проверяет наличие в массиве аргумента
-- [`array.indexOf()`](./Array/array.indexOf.md) поиск индекса переданного аргумента
-- [`array.join()`](./Array/array.join.md) преобразует массив в строку
-- [`array.lastIndexOf()`](./Array/array.lastIndexOf.md) поиск последнего индекса переданного аргумента
-- [`array.map()`](./Array/array.map.md) создание массива из другого
-- [`array.reduce()`](./Array/array.reduce.md) сведение массива к одному значению
-- [`array.slice()`](./Array/array.slice.md) создает копию массива из нужных элементов
-- [`array.some()`](./Array/array.some.md) проверяет один элемент соответствуют условию
+- [`.length`](./Array/.length.md) размер массива
+- [`.concat()`](./Array/.concat.md) объединяет элементы
+- [`.every()`](./Array/.every.md) проверяет все ли элементы соответствуют условию
+- [`.filter()`](./Array/.filter.md) оставляет те элементы, которые соответствуют условию
+- [`.find()`](./Array/.find.md) поиск элемента, который соответствуют условию
+- [`.findindex()`](./Array/.findindex.md) поиск индекса элемента, который соответствуют условию
+- [`.forEach()`](./Array/.forEach.md) перебирает элементы массива
+- [`.includes()`](./Array/.includes.md) проверяет наличие в массиве аргумента
+- [`.indexOf()`](./Array/.indexOf.md) поиск индекса переданного аргумента
+- [`.join()`](./Array/.join.md) преобразует массив в строку
+- [`.lastIndexOf()`](./Array/.lastIndexOf.md) поиск последнего индекса переданного аргумента
+- [`.map()`](./Array/.map.md) создание массива из другого
+- [`.reduce()`](./Array/.reduce.md) сведение массива к одному значению
+- [`.slice()`](./Array/.slice.md) создает копию массива из нужных элементов
+- [`.some()`](./Array/.some.md) проверяет один элемент соответствуют условию
 
 ### [Мутабельные методы](#javascript)
 
-- [`array.fill()`](./Array/array.fill.md) заполняет значениями
-- [`array.flat()`](./Array/array.flat.md) разворачивает вложенные массивы
-- [`array.pop()`](./Array/array.pop.md) удаляет последний элемент
-- [`array.push()`](./Array/array.push.md) добавляет в конец массива
-- [`array.reverse()`](./Array/array.reverse.md) инвертирует порядок элементов
-- [`array.shift()`](./Array/array.shift.md) удаляет первый элемент
-- [`array.sort()`](./Array/array.sort.md) сортирует элементы массива
-- [`array.splice()`](./Array/array.splice.md) заменяет часть элементов
-- [`array.unshift()`](./Array/array.unshift.md) добавляет в начало массива
-
-### [Array => String](#javascript)
-
-- [`array.join()`](./Array/array.join.md) преобразует массив в строку
-
-### [Array => Object](#javascript)
-
-- [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
+- [`.fill()`](./Array/.fill.md) заполняет значениями
+- [`.flat()`](./Array/.flat.md) разворачивает вложенные массивы
+- [`.pop()`](./Array/.pop.md) удаляет последний элемент
+- [`.push()`](./Array/.push.md) добавляет в конец массива
+- [`.reverse()`](./Array/.reverse.md) инвертирует порядок элементов
+- [`.shift()`](./Array/.shift.md) удаляет первый элемент
+- [`.sort()`](./Array/.sort.md) сортирует элементы массива
+- [`.splice()`](./Array/.splice.md) заменяет часть элементов
+- [`.unshift()`](./Array/.unshift.md) добавляет в начало массива
 
 ## [Date](#javascript)
 
 - [`Date.now()`](./Date/Date.now.md) миллисекунды с 01 января 1970
 - [`Date.parse()`](./Date/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
 - [`new Date()`](<./Date/new Date.md>) создает объект Date
-  - [`date.getDate()`](./Date/date.getDate.md) возвращает день месяца (1-31)
-  - [`date.getDay()`](./Date/date.getDay.md) возвращает день недели (0-6)
-  - [`date.getFullYear()`](./Date/date.getFullYear.md) возвращает год
-  - [`date.getHours()`](./Date/date.getHours.md) возвращает час (0-23)
-  - [`date.getMilliseconds()`](./Date/date.getMilliseconds.md) возвращает миллисекунды (0-999)
-  - [`date.getMinutes()`](./Date/date.getMinutes.md) возвращает минуты (0-59)
-  - [`date.getMonth()`](./Date/date.getMonth.md) возвращает месяц (0-11)
-  - [`date.getSeconds()`](./Date/date.getSeconds.md) возвращает секунды (0-59)
-  - [`date.getTime()`](./Date/date.getTime.md) возвращает миллисекунды с 01 января 1970
-  - [`date.getTimezoneOffset()`](./Date/date.getTimezoneOffset.md) возвращает разницу в минутах с UTC
-  - [`date.setDate()`](./Date/date.setDate.md) устанавливает день месяца (1-31)
-  - [`date.setFullYear()`](./Date/date.setFullYear.md) устанавливает год
-  - [`date.setHours()`](./Date/date.setHours.md) устанавливает час (0-23)
-  - [`date.setMilliseconds()`](./Date/date.setMilliseconds.md) устанавливает миллисекунды (0-999)
-  - [`date.setMinutes()`](./Date/date.setMinutes.md) устанавливает минуты (0-59)
-  - [`date.setMonth()`](./Date/date.setMonth.md) устанавливает месяц (0-11)TAGS UI
-  - [`date.setSeconds()`](./Date/date.setSeconds.md) устанавливает секунды (0-59)
-  - [`date.setTime()`](./Date/date.setTime.md) устанавливает миллисекунды с 01 января 1970
-  - [`date.toISOString()`](./Date/date.toISOString.md) преобразует объект Date в строку формата iso
-  - [`date.toLocaleDateString()`](./Date/date.toLocaleDateString.md) преобразует объект Date в строку различных форматов
-  - [`date.toLocaleTimeString()`](./Date/date.toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
-  - [`date.toUTCString()`](./Date/date.toUTCString.md) преобразует объект Date в строку в формате UTC
+  - [`.getDate()`](./Date/getDate.md) возвращает день месяца (1-31)
+  - [`.getDay()`](./Date/getDay.md) возвращает день недели (0-6)
+  - [`.getFullYear()`](./Date/getFullYear.md) возвращает год
+  - [`.getHours()`](./Date/getHours.md) возвращает час (0-23)
+  - [`.getMilliseconds()`](./Date/getMilliseconds.md) возвращает миллисекунды (0-999)
+  - [`.getMinutes()`](./Date/getMinutes.md) возвращает минуты (0-59)
+  - [`.getMonth()`](./Date/getMonth.md) возвращает месяц (0-11)
+  - [`.getSeconds()`](./Date/getSeconds.md) возвращает секунды (0-59)
+  - [`.getTime()`](./Date/getTime.md) возвращает миллисекунды с 01 января 1970
+  - [`.getTimezoneOffset()`](./Date/getTimezoneOffset.md) возвращает разницу в минутах с UTC
+  - [`.setDate()`](./Date/setDate.md) устанавливает день месяца (1-31)
+  - [`.setFullYear()`](./Date/setFullYear.md) устанавливает год
+  - [`.setHours()`](./Date/setHours.md) устанавливает час (0-23)
+  - [`.setMilliseconds()`](./Date/setMilliseconds.md) устанавливает миллисекунды (0-999)
+  - [`.setMinutes()`](./Date/setMinutes.md) устанавливает минуты (0-59)
+  - [`.setMonth()`](./Date/setMonth.md) устанавливает месяц (0-11)TAGS UI
+  - [`.setSeconds()`](./Date/setSeconds.md) устанавливает секунды (0-59)
+  - [`.setTime()`](./Date/setTime.md) устанавливает миллисекунды с 01 января 1970
+  - [`.toISOString()`](./Date/toISOString.md) преобразует объект Date в строку формата iso
+  - [`.toLocaleDateString()`](./Date/toLocaleDateString.md) преобразует объект Date в строку различных форматов
+  - [`.toLocaleTimeString()`](./Date/toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
+  - [`.toUTCString()`](./Date/toUTCString.md) преобразует объект Date в строку в формате UTC
 
 ## [Document](#javascript)
 
@@ -423,6 +417,7 @@
 
 ## [Number](#javascript)
 
+- [`type number`](<./Number/type number.md>) тип number
 - [`Number()`](./Number/Number.md) преобразует аргумент в число
   - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
   - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
@@ -454,6 +449,7 @@
 
 ## [Object](#javascript)
 
+- [`type object`](<./Object/type object.md>) тип object
 - [`delete`](./Object/delete.md) оператор удаления свойства
 - [`in`](./Object/in.md) оператор проверки наличия свойства
 - [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
@@ -495,6 +491,7 @@
 
 ## [String](#javascript)
 
+- [`type string`](<./String/type string.md>) тип string
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
   - [`string.charAt()`](./String/string.charAt.md) получение ключа по индексу
