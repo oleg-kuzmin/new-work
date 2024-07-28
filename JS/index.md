@@ -162,8 +162,6 @@
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 - [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
-- [`Array => String (.join)`](./Array/.join.md) преобразует массив в строку
-- [`Array => Object (Object.fromEntries)`](./Object/Object.fromEntries.md) создает объект из массива
 
 ### [Иммутабельные методы](#javascript)
 
@@ -194,6 +192,11 @@
 - [`.sort()`](./Array/.sort.md) сортирует элементы массива
 - [`.splice()`](./Array/.splice.md) заменяет часть элементов
 - [`.unshift()`](./Array/.unshift.md) добавляет в начало массива
+
+### [Преобразование](#javascript)
+
+- [`Array => String: (.join)`](./Array/.join.md) преобразует массив в строку
+- [`Array => Object: (Object.fromEntries)`](./Object/Object.fromEntries.md) создает объект из массива
 
 ## [Date](#javascript)
 
@@ -372,60 +375,63 @@
 - [`.new Event()`](<./Event/new Event.md>) создает кастомное событие
 - [`.new CustomEvent()`](<./Event/new CustomEvent.md>) создает кастомное событие с данными
 - [`evt`](./Event/Evt.md) объект события
-  - [`evt.bubbles`](./Event/evt.bubbles.md) всплывающее событие
-  - [`evt.cancelable`](./Event/evt.cancelable.md) отменяемое событие
-  - [`evt.clientX`](./Event/evt.clientX.md) координаты X от окна просмотра
-  - [`evt.clientY`](./Event/evt.clientY.md) координаты Y от окна просмотра
-  - [`evt.composedPath()`](./Event/evt.composedPath.md) элементы где сработало событие
-  - [`evt.currentTarget`](./Event/evt.currentTarget.md) элемент на котором висит обработчик
-  - [`evt.defaultPrevented`](./Event/evt.defaultPrevented.md) отменено ли событие по умолчанию
-  - [`evt.eventPhase`](./Event/evt.eventPhase.md) фаза события
-  - [`evt.isTrusted`](./Event/evt.isTrusted.md) пользовательское ли это событие
-  - [`evt.key`](./Event/evt.key.md) название нажатой клавиши
-  - [`evt.pageX`](./Event/evt.pageX.md) координаты X от угла страницы
-  - [`evt.pageY`](./Event/evt.pageY.md) координаты Y от угла страницы
-  - [`evt.preventDefault()`](./Event/evt.preventDefault.md) отменяет поведение по умолчанию
-  - [`evt.screenX`](./Event/evt.screenX.md) координаты X от угла монитора
-  - [`evt.screenY`](./Event/evt.screenY.md) координаты Y от угла монитора
-  - [`evt.stopImmediatePropagation()`](./Event/evt.stopImmediatePropagation.md) остановка всплытия и обработчиков
-  - [`evt.stopPropagation()`](./Event/evt.stopPropagation.md) остановка всплытия события
-  - [`evt.target`](./Event/evt.target.md) элемент где произошло событие
-  - [`evt.timeStamp`](./Event/evt.timeStamp.md) время возникновения события
-  - [`evt.type`](./Event/evt.type.md) тип события
-  - [`evt.view`](./Event/evt.view.md) объект window где произошло событие
+  - [`.bubbles`](./Event/.bubbles.md) всплывающее событие
+  - [`.cancelable`](./Event/.cancelable.md) отменяемое событие
+  - [`.clientX`](./Event/.clientX.md) координаты X от окна просмотра
+  - [`.clientY`](./Event/.clientY.md) координаты Y от окна просмотра
+  - [`.composedPath()`](./Event/.composedPath.md) элементы где сработало событие
+  - [`.currentTarget`](./Event/.currentTarget.md) элемент на котором висит обработчик
+  - [`.defaultPrevented`](./Event/.defaultPrevented.md) отменено ли событие по умолчанию
+  - [`.eventPhase`](./Event/.eventPhase.md) фаза события
+  - [`.isTrusted`](./Event/.isTrusted.md) пользовательское ли это событие
+  - [`.key`](./Event/.key.md) название нажатой клавиши
+  - [`.pageX`](./Event/.pageX.md) координаты X от угла страницы
+  - [`.pageY`](./Event/.pageY.md) координаты Y от угла страницы
+  - [`.preventDefault()`](./Event/.preventDefault.md) отменяет поведение по умолчанию
+  - [`.screenX`](./Event/.screenX.md) координаты X от угла монитора
+  - [`.screenY`](./Event/.screenY.md) координаты Y от угла монитора
+  - [`.stopImmediatePropagation()`](./Event/.stopImmediatePropagation.md) остановка всплытия и обработчиков
+  - [`.stopPropagation()`](./Event/.stopPropagation.md) остановка всплытия события
+  - [`.target`](./Event/.target.md) элемент где произошло событие
+  - [`.timeStamp`](./Event/.timeStamp.md) время возникновения события
+  - [`.type`](./Event/.type.md) тип события
+  - [`.view`](./Event/.view.md) объект window где произошло событие
 
 ## [Function](#javascript)
 
+- [`.apply()`](./Function/.apply.md) вызывает метод объекта с конкретными контекстом и значением
+- [`.bind()`](./Function/.bind.md) привязывает конкретный контекст к методу объекта
+- [`.call()`](./Function/.call.md) вызывает метод объекта с конкретными контекстом и значением
 - [`arguments`](./Function/arguments.md) псевдомассив всех переданных аргументов
-- [`function.apply()`](./Function/function.apply.md) вызывает метод объекта с конкретными контекстом и значением
-- [`function.bind()`](./Function/function.bind.md) привязывает конкретный контекст к методу объекта
-- [`function.call()`](./Function/function.call.md) вызывает метод объекта с конкретными контекстом и значением
 
 ## [Map](#javascript)
 
 - [`new Map()`](<./Map/new Map.md>) создает коллекцию для хранения пар ключ-значение
-  - [`map.clear()`](./Map/map.clear.md) удаляет все значения
-  - [`map.delete()`](./Map/map.delete.md) удаляет значение из коллекции
-  - [`map.entries()`](./Map/map.entries.md) возвращает итератор пар ключ-значение
-  - [`map.forEach()`](./Map/map.forEach.md) обход коллекции
-  - [`map.get()`](./Map/map.get.md) получает значение
-  - [`map.has()`](./Map/map.has.md) проверяет наличие значения
-  - [`map.keys()`](./Map/map.keys.md) возвращает итератор ключей
-  - [`map.set()`](./Map/map.set.md) сохраняет значение в коллекцию
-  - [`map.size`](./Map/map.size.md) количество значений
-  - [`map.values()`](./Map/map.values.md) возвращает итератор значений
+  - [`.clear()`](./Map/.clear.md) удаляет все значения
+  - [`.delete()`](./Map/.delete.md) удаляет значение из коллекции
+  - [`.entries()`](./Map/.entries.md) возвращает итератор пар ключ-значение
+  - [`.forEach()`](./Map/.forEach.md) обход коллекции
+  - [`.get()`](./Map/.get.md) получает значение
+  - [`.has()`](./Map/.has.md) проверяет наличие значения
+  - [`.keys()`](./Map/.keys.md) возвращает итератор ключей
+  - [`.set()`](./Map/.set.md) сохраняет значение в коллекцию
+  - [`.size`](./Map/.size.md) количество значений
+  - [`.values()`](./Map/.values.md) возвращает итератор значений
 
 ## [Number](#javascript)
 
 - [`type number`](<./Number/type number.md>) тип number
-- [`Number()`](./Number/Number.md) преобразует аргумент в число
-  - [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
-  - [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
-  - [`number.toString()`](./Number/number.toString.md) преобразует в строку
 - [`new Number()`](<./Number/new Number.md>) создает объект Number
+- [`Number()`](./Number/Number.md) преобразует аргумент в число
 - [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
 - [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
 - [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
+
+### [Методы](#javascript)
+
+- [`.toFixed()`](./Number/.toFixed.md) преобразует в строку и округляет
+- [`.toLocaleString()`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
+- [`.toString()`](./Number/.toString.md) преобразует в строку
 
 ### [Math](#javascript)
 
@@ -440,22 +446,16 @@
 - [`Math.sqrt()`](./Number/Math.sqrt.md) вычисляет квадратный корень числа
 - [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
-### [Number => String](#javascript)
+### [Преобразование](#javascript)
 
-- [`number.toFixed()`](./Number/number.toFixed.md) преобразует в строку и округляет
-- [`number.toLocaleString()`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
-- [`number.toString()`](./Number/number.toString.md) преобразует в строку
-- [`String()`](./String/String.md) преобразует в строку
+- [`Number => String (.toFixed)`](./Number/number.toFixed.md) преобразует в строку и округляет
+- [`Number => String (.toLocaleString)`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
+- [`Number => String (.toString)`](./Number/number.toString.md) преобразует в строку
+- [`Number => String (String)`](./String/String.md) преобразует в строку
 
 ## [Object](#javascript)
 
 - [`type object`](<./Object/type object.md>) тип object
-- [`delete`](./Object/delete.md) оператор удаления свойства
-- [`in`](./Object/in.md) оператор проверки наличия свойства
-- [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
-- [`.hasOwnProperty()`](./Object/hasownproperty.md) принадлежность свойства самому объекту
-- [`.prototype`](./Object/prototype.md) свойства и методы функции-конструктора
-- [`.__proto__`](./Object/__proto__.md) ссылка на прототип объекта
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
 - [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
@@ -469,96 +469,108 @@
 - [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
 - [`Object.values()`](./Object/Object.values.md) создает массив значений
 
-### [Object => Array](#javascript)
+### [Операторы](#javascript)
 
-- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
+- [`delete`](./Object/delete.md) оператор удаления свойства
+- [`in`](./Object/in.md) оператор проверки наличия свойства
+- [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
+
+### [Методы](#javascript)
+
+- [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
+- [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
+- [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
+
+### [Преобразование](#javascript)
+
+- [`Object => Array (Object.entries)`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
 
 ## [RegExp](#javascript)
 
 - [`new RegExp()`](<./RegExp/new RegExp.md>) создает регулярное выражение
-  - [`regexp.exec()`](./RegExp/regexp.exec.md) подробный поиск одного совпадения
-  - [`regexp.test()`](./RegExp/regexp.test.md) соответствие
+  - [`.exec()`](./RegExp/.exec.md) подробный поиск одного совпадения
+  - [`.test()`](./RegExp/.test.md) соответствие выражению
 
 ## [Set](#javascript)
 
 - [`new Set()`](<./Set/new Set.md>) создает коллекцию для хранения уникальных значений
-  - [`set.add()`](./Set/set.add.md) добавляет значение в коллекцию
-  - [`set.clear()`](./Set/set.clear.md) удаляет все значения
-  - [`set.delete()`](./Set/set.delete.md) удаляет значение из коллекции
-  - [`set.forEach()`](./Set/set.forEach.md) обход коллекции
-  - [`set.has()`](./Set/set.has.md) проверяет наличие значения
-  - [`set.size`](./Set/set.size.md) количество значений
+  - [`.add()`](./Set/.add.md) добавляет значение в коллекцию
+  - [`.clear()`](./Set/.clear.md) удаляет все значения
+  - [`.delete()`](./Set/.delete.md) удаляет значение из коллекции
+  - [`.forEach()`](./Set/.forEach.md) обход коллекции
+  - [`.has()`](./Set/.has.md) проверяет наличие значения
+  - [`.size`](./Set/.size.md) количество значений
 
 ## [String](#javascript)
 
 - [`type string`](<./String/type string.md>) тип string
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
-  - [`string.charAt()`](./String/string.charAt.md) получение ключа по индексу
-  - [`string.endsWith()`](./String/string.endsWith.md) сравнивает конец строки с аргументом
-  - [`string.includes()`](./String/string.includes.md) проверяет наличие в строке аргумента
-  - [`string.indexOf()`](./String/string.indexOf.md) поиск индекса переданного аргумента
-  - [`string.length`](./String/string.length.md) длина строки
-  - [`string.localeCompare()`](./String/string.localeCompare.md) сравнивает две строки
-  - [`string.match()`](./String/string.match.md) поиск всех совпадений по regexp
-  - [`string.repeat()`](./String/string.repeat.md) повторяет строку несколько раз
-  - [`string.replace()`](./String/string.replace.md) замена части строки, можно использовать regexp
-  - [`string.replaceAll()`](./String/string.replaceAll.md) замена всех частей строки
-  - [`string.search()`](./String/string.search.md) поиск индекса по regexp
-  - [`string.slice()`](./String/string.slice.md) копирует часть строки
-  - [`string.split()`](./String/string.split.md) преобразует в массив, можно использовать regexp
-  - [`string.startsWith()`](./String/string.startsWith.md) сравнивает начало строки с аргументом
-  - [`string.substring()`](./String/string.substring.md) копирует часть строки
-  - [`string.toLowerCase()`](./String/string.toLowerCase.md) приводит к нижнему регистру
-  - [`string.toUpperCase()`](./String/string.toUpperCase.md) приводит к верхнему регистр
-  - [`string.trim()`](./String/string.trim.md) очистка от пробелов
 
-### [String => Number](#javascript)
+### [Методы](#javascript)
 
-- [`Number()`](./Number/Number.md) преобразует аргумент в число
-- [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
-- [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
+- [`.charAt()`](./String/.charAt.md) получение ключа по индексу
+- [`.endsWith()`](./String/.endsWith.md) сравнивает конец строки с аргументом
+- [`.includes()`](./String/.includes.md) проверяет наличие в строке аргумента
+- [`.indexOf()`](./String/.indexOf.md) поиск индекса переданного аргумента
+- [`.length`](./String/.length.md) длина строки
+- [`.localeCompare()`](./String/.localeCompare.md) сравнивает две строки
+- [`.match()`](./String/.match.md) поиск всех совпадений по regexp
+- [`.repeat()`](./String/.repeat.md) повторяет строку несколько раз
+- [`.replace()`](./String/.replace.md) замена части строки, можно использовать regexp
+- [`.replaceAll()`](./String/.replaceAll.md) замена всех частей строки
+- [`.search()`](./String/.search.md) поиск индекса по regexp
+- [`.slice()`](./String/.slice.md) копирует часть строки
+- [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
+- [`.startsWith()`](./String/.startsWith.md) сравнивает начало строки с аргументом
+- [`.substring()`](./String/.substring.md) копирует часть строки
+- [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
+- [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
+- [`.trim()`](./String/.trim.md) очистка от пробелов
 
-### [String => Array](#javascript)
+### [Преобразование](#javascript)
 
-- [`string.split()`](./String/string.split.md) преобразует в массив, можно использовать regexp
+- [`String => Number (Number)`](./Number/Number.md) преобразует аргумент в число
+- [`String => Number (parseFloat)`](./Window/parseFloat.md) преобразует строку в число c плавающей точкой
+- [`String => Number (parseInt)`](./Window/parseInt.md) преобразует строку в целое число
+- [`String => Array (.split)`](./String/.split.md) преобразует в массив, можно использовать regexp
 
 ## [Window](#javascript)
 
-- [`window.alert()`](./Window/window.alert.md) модальное окно с текстом
-- [`window.clearInterval()`](./Window/window.clearInterval.md) удаление интервала
-- [`window.clearTimeout()`](./Window/window.clearTimeout.md) удаление таймера
-- [`window.confirm()`](./Window/window.confirm.md) модальное окно с вопросом
-- [`window.console.dir()`](./Window/window.console.dir.md) выведет в консоль содержимое
-- [`window.console.log()`](./Window/window.console.log.md) выведет в консоль свойства
-- [`window.console.table()`](./Window/window.console.table.md) выведет в консоль таблицу
-- [`window.getComputedStyle()`](./Window/window.getComputedStyle.md) объект со стилями
-- [`window.isFinite()`](./Window/window.isFinite.md) проверяет преобразованное число на конечность
-- [`window.isNaN()`](./Window/window.isNaN.md) проверяет преобразованное число на NaN
-- [`window.localStorage`](./Window/window.localStorage.md) локальное хранилище данных
-  - [`window.localStorage.clear()`](./Window/window.localStorage.clear.md) полная очистка хранилища
-  - [`window.localStorage.getItem()`](./Window/window.localStorage.getItem.md) получение значения по ключу
-  - [`window.localStorage.key()`](./Window/window.localStorage.key.md) получение ключа по индексу
-  - [`window.localStorage.length`](./Window/window.localStorage.length.md) количество записей в хранилище
-  - [`window.localStorage.removeItem()`](./Window/window.localStorage.removeItem.md) удаление записи из хранилища
-  - [`window.localStorage.setItem()`](./Window/window.localStorage.setItem.md) сохранение данных в хранилище
-- [`window.matchMedia()`](./Window/window.matchMedia.md) возвращает медиа-объект
-- [`window.navigator`](./Window/window.navigator.md) объект описания приложения
-  - [`window.navigator.cookieEnabled`](./Window/window.navigator.cookieEnabled.md) включена ли поддержка cookie
-  - [`window.navigator.geolocation`](./Window/window.navigator.geolocation.md) объект геолокации
-  - [`window.navigator.language`](./Window/window.navigator.language.md) предпочтительный язык интерфейса
-  - [`window.navigator.languages`](./Window/window.navigator.languages.md) массив предпочтительных языков интерфейса
-  - [`window.navigator.onLine`](./Window/window.navigator.onLine.md) проверяет наличие подключения к сети
-  - [`window.navigator.userAgent`](./Window/window.navigator.userAgent.md) название браузера пользователя
-- [`window.innerHeight`](./Window/window.innerHeight.md) высота окна браузера
-- [`window.innerWidth`](./Window/window.innerWidth.md) ширина окна браузера
-- [`window.parseFloat()`](./Window/window.parseFloat.md) преобразует строку в число c плавающей точкой
-- [`window.parseInt()`](./Window/window.parseInt.md) преобразует строку в целое число
-- [`window.prompt()`](./Window/window.prompt.md) модальное окно с вводом
-- [`window.scroll()`](./Window/window.scroll.md) прокрутит окно браузера
-- [`window.scrollTo()`](./Window/window.scrollTo.md) прокрутит окно браузера
-- [`window.scrollX`](./Window/window.scrollX.md) прокрутка окна браузера по горизонтали
-- [`window.scrollY`](./Window/window.scrollY.md) прокрутка окна браузера по вертикали
-- [`window.setInterval()`](./Window/window.setInterval.md) установка интервала
-- [`window.setTimeout()`](./Window/window.setTimeout.md) установка таймера
-- [`window.typeof`](./Window/window.typeof.md) оператор проверки типа
+- [`alert()`](./Window/alert.md) модальное окно с текстом
+- [`clearInterval()`](./Window/clearInterval.md) удаление интервала
+- [`clearTimeout()`](./Window/clearTimeout.md) удаление таймера
+- [`confirm()`](./Window/confirm.md) модальное окно с вопросом
+- [`console.dir()`](./Window/console.dir.md) выведет в консоль содержимое
+- [`console.log()`](./Window/console.log.md) выведет в консоль свойства
+- [`console.table()`](./Window/console.table.md) выведет в консоль таблицу
+- [`getComputedStyle()`](./Window/getComputedStyle.md) объект со стилями
+- [`isFinite()`](./Window/isFinite.md) проверяет преобразованное число на конечность
+- [`isNaN()`](./Window/isNaN.md) проверяет преобразованное число на NaN
+- [`localStorage`](./Window/localStorage.md) локальное хранилище данных
+  - [`localStorage.clear()`](./Window/localStorage.clear.md) полная очистка хранилища
+  - [`localStorage.getItem()`](./Window/localStorage.getItem.md) получение значения по ключу
+  - [`localStorage.key()`](./Window/localStorage.key.md) получение ключа по индексу
+  - [`localStorage.length`](./Window/localStorage.length.md) количество записей в хранилище
+  - [`localStorage.removeItem()`](./Window/localStorage.removeItem.md) удаление записи из хранилища
+  - [`localStorage.setItem()`](./Window/localStorage.setItem.md) сохранение данных в хранилище
+- [`matchMedia()`](./Window/matchMedia.md) возвращает медиа-объект
+- [`navigator`](./Window/navigator.md) объект описания приложения
+  - [`navigator.cookieEnabled`](./Window/navigator.cookieEnabled.md) включена ли поддержка cookie
+  - [`navigator.geolocation`](./Window/navigator.geolocation.md) объект геолокации
+  - [`navigator.language`](./Window/navigator.language.md) предпочтительный язык интерфейса
+  - [`navigator.languages`](./Window/navigator.languages.md) массив предпочтительных языков интерфейса
+  - [`navigator.onLine`](./Window/navigator.onLine.md) проверяет наличие подключения к сети
+  - [`navigator.userAgent`](./Window/navigator.userAgent.md) название браузера пользователя
+- [`innerHeight`](./Window/innerHeight.md) высота окна браузера
+- [`innerWidth`](./Window/innerWidth.md) ширина окна браузера
+- [`parseFloat()`](./Window/parseFloat.md) преобразует строку в число c плавающей точкой
+- [`parseInt()`](./Window/parseInt.md) преобразует строку в целое число
+- [`prompt()`](./Window/prompt.md) модальное окно с вводом
+- [`scroll()`](./Window/scroll.md) прокрутит окно браузера
+- [`scrollTo()`](./Window/scrollTo.md) прокрутит окно браузера
+- [`scrollX`](./Window/scrollX.md) прокрутка окна браузера по горизонтали
+- [`scrollY`](./Window/scrollY.md) прокрутка окна браузера по вертикали
+- [`setInterval()`](./Window/setInterval.md) установка интервала
+- [`setTimeout()`](./Window/setTimeout.md) установка таймера
+- [`typeof`](./Window/typeof.md) оператор проверки типа
