@@ -465,8 +465,8 @@
 - [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
 - [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
 - [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
-- [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив со всеми свойствами
-- [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив ключей-символов
+- [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив всех собственных свойств
+- [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив всех ключей-символов
 - [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
 - [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
 - [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
@@ -475,7 +475,7 @@
 
 ### [Object => Array](#javascript)
 
-- [`Object.entries()`](./Object/Object.entries.md) создает массив из объекта
+- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
 
 ## [RegExp](#javascript)
 
