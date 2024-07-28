@@ -190,7 +190,7 @@
 - [`.reverse()`](./Array/.reverse.md) инвертирует порядок элементов
 - [`.shift()`](./Array/.shift.md) удаляет первый элемент
 - [`.sort()`](./Array/.sort.md) сортирует элементы массива
-- [`.splice()`](./Array/.splice.md) заменяет часть элементов
+- [`.splice()`](./Array/.splice.md) заменяет часть элементов, добавляет новые
 - [`.unshift()`](./Array/.unshift.md) добавляет в начало массива
 
 ### [Преобразование](#javascript)
