@@ -49,7 +49,7 @@ function append<T>(el: T, list: T[]): T[] {
 }
 ```
 
-## Ограничения
+## Constraints (ограничения)
 
 По факту `<T>` имеет тип `any`, но он заменяется в момент вызова. Ограничения накладываются за счет ключевого слова `extends`.
 
@@ -66,4 +66,10 @@ len({ length: 12 }); // ок
 len(123); // ошибка
 len(true); // ошибка
 len({ a: 1 }); // ошибка
+```
+
+```ts
+export function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
+  return obj[key];
+}
 ```
