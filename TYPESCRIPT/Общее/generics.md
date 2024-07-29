@@ -73,3 +73,16 @@ export function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
   return obj[key];
 }
 ```
+
+## Значение по умолчанию
+
+```ts
+interface AnyObject {
+  [key: string]: unknown;
+}
+
+export async function request<T = AnyObject>(url: string): Promise<T> {
+  const response = await fetch(url);
+  return response.json();
+}
+```
