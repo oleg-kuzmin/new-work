@@ -74,3 +74,13 @@ type Employee = User &
 
 - Используются когда мы хотим расширять интерфейс в будущем.
 - Используются для классов.
+
+## Обращение к типу
+
+```ts
+interface Laptop {
+  brand: string;
+}
+
+type F = Laptop['brand']; // string
+```

@@ -1,8 +1,10 @@
 # [`boolean`](../index.md)
 
-Точно такой же тип для булевого значения, как и в JS.
+Записывается также как в js.
+
+## Пример
 
 ```ts
-let x = true;
-x = false;
+let a = true;
+let b = false;
 ```

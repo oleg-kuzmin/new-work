@@ -1,5 +1,11 @@
 # [`string`](../index.md)
 
+Записывается также как в js.
+
+## Пример
+
 ```ts
-let str1 = 'Hello world';
+let a = 'Вася';
+let b = 'строка';
+let c = `и снова`;
 ```
