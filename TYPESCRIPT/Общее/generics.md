@@ -43,6 +43,12 @@ head(['12q', 'asas']);
 const head = <T>(value: T[]): T => value[0];
 ```
 
+```ts
+function append<T>(el: T, list: T[]): T[] {
+  return list.concat(el);
+}
+```
+
 ## Встроенные дженерики
 
 - `Array<T>` - массив
