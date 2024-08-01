@@ -5,7 +5,7 @@
 ## Пример
 
 ```ts
-let a = true;
-let b = false;
-let d: boolean = true;
+let a = true; // : boolean
+let b = false; // : boolean
+let c: boolean = true;
 ```

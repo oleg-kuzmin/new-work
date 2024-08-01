@@ -6,5 +6,6 @@
 
 ```ts
 // в данном случае нужно указывать явно
-let h: undefined = undefined;
+// иначе неявно выведет : any
+let h: undefined = undefined; // : undefined
 ```

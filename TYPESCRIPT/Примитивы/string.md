@@ -5,8 +5,8 @@
 ## Пример
 
 ```ts
-let a = 'Вася';
-let b = 'строка';
-let c = `и снова`;
-let с: string = 'sdf';
+let a = 'Вася'; // : string
+let b = 'строка'; // : string
+let c = `и снова`; // : string
+let d: string = 'Hello world';
 ```

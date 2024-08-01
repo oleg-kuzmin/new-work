@@ -5,5 +5,5 @@
 ## Пример
 
 ```ts
-let symbol = Symbol('as');
+let symbol = Symbol('as'); // : symbol
 ```
