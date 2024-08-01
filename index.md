@@ -1,5 +1,6 @@
 # Оглавление
 
+- [DOCUMENTATION](./DOCUMENTATION/index.md)
 - [HTML](./HTML/index.md)
 - [CSS](./CSS/index.md)
 - [JAVASCRIPT](./JAVASCRIPT/index.md)

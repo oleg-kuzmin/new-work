@@ -1,4 +1,4 @@
-# TypeScript для программистов JavaScript
+# [TypeScript для программистов JavaScript](../index.md)
 
 TypeScript находится в необычном отношении к JavaScript. TypeScript предлагает все функции JavaScript и дополнительный уровень поверх них: систему типов TypeScript.
 

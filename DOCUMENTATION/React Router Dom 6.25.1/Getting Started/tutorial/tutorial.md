@@ -91,7 +91,7 @@ src
 
 👉 Создайте и отрендерите `Browser Router` в `main.jsx`.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 import * as React from 'react';
@@ -130,7 +130,7 @@ touch src/routes/root.jsx
 
 👉 Создайте компонент корневого макета
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 export default function Root() {
@@ -169,7 +169,7 @@ export default function Root() {
 
 👉 Установите `<Root>` в качестве элемента корневого маршрута.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* существующий импорт */
@@ -213,7 +213,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 touch src/error-page.jsx
 ```
 
-### src/error-page.jsx
+##### src/error-page.jsx
 
 ```jsx
 import { useRouteError } from 'react-router-dom';
@@ -236,7 +236,7 @@ export default function ErrorPage() {
 
 👉 Установите `<ErrorPage>` в качестве `errorElement` корневого маршрута.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* Предыдущий импорт */
@@ -279,7 +279,7 @@ touch src/routes/contact.jsx
 
 👉 Добавьте туда код компонента `Сontact`
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 import { Form } from 'react-router-dom';
@@ -363,7 +363,7 @@ function Favorite({ contact }) {
 
 👉 Импортируйте компонент `Contact` и создайте новый маршрут.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* существующий импорт */
@@ -400,7 +400,7 @@ const router = createBrowserRouter([
 
 👉 Переместите маршрут `contacts`, чтобы он был дочерним по отношению к корневому маршруту.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 const router = createBrowserRouter([
@@ -424,7 +424,7 @@ const router = createBrowserRouter([
 
 👉 Отрендерите `<Outlet>`
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet } from 'react-router-dom';
@@ -449,7 +449,7 @@ export default function Root() {
 
 👉 Измените боковую панель `<a href>` на `<Link to>`.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, Link } from 'react-router-dom';
@@ -496,7 +496,7 @@ contacts/:id	      <Contact>	       индивидуальный контакт
 
 👉 Экспортируйте `loader` из `root.jsx`
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, Link } from 'react-router-dom';
@@ -510,7 +510,7 @@ export async function loader() {
 
 👉 Настройте `loader` на маршруте
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* Другой импорт */
@@ -534,7 +534,7 @@ const router = createBrowserRouter([
 
 👉 Создайте доступ и отрендерите данные
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, Link, useLoaderData } from 'react-router-dom';
@@ -605,7 +605,7 @@ HTML-формы, хотя и незнакомы некоторым веб-раз
 
 👉 Создайте action и измените `<form>` на `<Form>`
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, Link, useLoaderData, Form } from 'react-router-dom';
@@ -640,7 +640,7 @@ export default function Root() {
 
 👉 Импортируйте и установите action на маршруте
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* другие импорты */
@@ -700,7 +700,7 @@ const router = createBrowserRouter([
 
 👉 Добавьте `loader` на страницу `contact` и получите доступ к данным с помощью `useLoaderData`.
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 import { Form, useLoaderData } from 'react-router-dom';
@@ -719,7 +719,7 @@ export default function Contact() {
 
 👉 Настройте `loader` на маршруте
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* существующий код */
@@ -760,7 +760,7 @@ touch src/routes/edit.jsx
 
 Ничего такого, чего мы раньше не видели, не стесняйтесь копировать/вставлять:
 
-### src/routes/edit.jsx
+##### src/routes/edit.jsx
 
 ```jsx
 import { Form, useLoaderData } from 'react-router-dom';
@@ -804,7 +804,7 @@ export default function EditContact() {
 
 👉 Добавьте новый маршрут edit
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* существующий код */
@@ -849,7 +849,7 @@ const router = createBrowserRouter([
 
 👉 Добавьте `action` в модуль `edit`
 
-### src/routes/edit.jsx
+##### src/routes/edit.jsx
 
 ```jsx
 import { Form, useLoaderData, redirect } from 'react-router-dom';
@@ -867,7 +867,7 @@ export async function action({ request, params }) {
 
 👉 Свяжите `action` с маршрутом
 
-### src/main.js
+##### src/main.js
 
 ```jsx
 /* существующий код */
@@ -911,7 +911,7 @@ const router = createBrowserRouter([
 
 Откройте `src/routes/edit.jsx` и посмотрите на элементы формы. Обратите внимание, что у каждого из них есть имя:
 
-### src/routes/edit.jsx
+##### src/routes/edit.jsx
 
 ```jsx
 <input placeholder="First" aria-label="First name" type="text" name="first" defaultValue={contact.first} />
@@ -957,7 +957,7 @@ export async function action({ request, params }) {
 
 👉 Перенаправьте на страницу редактирования новый записи
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, Link, useLoaderData, Form, redirect } from 'react-router-dom';
@@ -985,7 +985,7 @@ export async function action() {
 
 👉 Используйте NavLink на боковой панели
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { Outlet, NavLink, useLoaderData, Form, redirect } from 'react-router-dom';
@@ -1032,7 +1032,7 @@ React Router управляет всем состоянием за кулиса�
 
 👉 используйте `useNavigation`, чтобы добавить глобальный UI для отправки данных
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import {
@@ -1069,7 +1069,7 @@ export default function Root() {
 
 Если мы просмотрим код в `route` контакта, мы обнаружим, что кнопка удаления выглядит следующим образом:
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 <Form
@@ -1101,7 +1101,7 @@ touch src/routes/destroy.jsx
 
 👉 Добавьте action `destroy`
 
-### src/routes/destroy.jsx
+##### src/routes/destroy.jsx
 
 ```jsx
 import { redirect } from 'react-router-dom';
@@ -1115,7 +1115,7 @@ export async function action({ params }) {
 
 👉 Добавьте маршрут `destroy` в конфигурацию маршрутов.
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 /* существующий код */
@@ -1154,7 +1154,7 @@ const router = createBrowserRouter([
 
 Просто ради интереса выдайте ошибку в `action` destroy:
 
-### src/routes/destroy.jsx
+##### src/routes/destroy.jsx
 
 ```jsx
 export async function action({ params }) {
@@ -1170,7 +1170,7 @@ export async function action({ params }) {
 
 Давайте создадим контекстное сообщение об ошибке для маршрута destroy:
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 [
@@ -1209,7 +1209,7 @@ touch src/routes/index.jsx
 
 Не стесняйтесь копипастить, здесь нет ничего особенного.
 
-### src/routes/index.jsx
+##### src/routes/index.jsx
 
 ```jsx
 export default function Index() {
@@ -1225,7 +1225,7 @@ export default function Index() {
 
 👉 Настройте маршрут `index`
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 // существующий код
@@ -1260,7 +1260,7 @@ const router = createBrowserRouter([
 
 👉 Добавьте обработчик нажатия кнопки отмены с помощью `useNavigate`.
 
-### src/routes/edit.jsx
+##### src/routes/edit.jsx
 
 ```jsx
 import { Form, useLoaderData, redirect, useNavigate } from 'react-router-dom';
@@ -1313,7 +1313,7 @@ http://127.0.0.1:5173/?q=ryan
 
 Если просмотреть форму поиска, то она выглядит так:
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 <form id="search-form" role="search">
@@ -1333,7 +1333,7 @@ http://127.0.0.1:5173/?q=ryan
 
 👉 Измените `<form>` на `<Form>`.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 <Form id="search-form" role="search">
@@ -1345,7 +1345,7 @@ http://127.0.0.1:5173/?q=ryan
 
 👉 Отфильтруйте список, если есть `URLSearchParams`.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 export async function loader({ request }) {
@@ -1374,7 +1374,7 @@ export async function loader({ request }) {
 
 👉 Верните `q` из вашего загрузчика loader и установите его в качестве значения по умолчанию для поля поиска.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 // существующий код
@@ -1417,7 +1417,7 @@ export default function Root() {
 
 👉 Синхронизируйте значение input с параметрами поиска URL.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { useEffect } from 'react';
@@ -1444,7 +1444,7 @@ export default function Root() {
 
 Обратите внимание, что для управления вводом потребовались бы три точки синхронизации вместо одной. Поведение идентично, но код более сложен.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 import { useEffect, useState } from 'react';
@@ -1502,7 +1502,7 @@ export default function Root() {
 
 Мы уже видели `useNavigate`, для этого мы воспользуемся его двоюродным братом `useSubmit`.
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 // существующий код
@@ -1557,7 +1557,7 @@ export default function Root() {
 
 👉 Добавьте спинер поиска
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 // существующий код
@@ -1611,7 +1611,7 @@ export default function Root() {
 
 👉 Используйте `replace` при `submit`
 
-### src/routes/root.jsx
+##### src/routes/root.jsx
 
 ```jsx
 // существующий код
@@ -1661,7 +1661,7 @@ export default function Root() {
 
 👉 Измените `<Favorite>` на `<fetcher.Form>`
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 import { useLoaderData, Form, useFetcher } from 'react-router-dom';
@@ -1690,7 +1690,7 @@ function Favorite({ contact }) {
 
 👉 Создайте действие action
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 // существующий код
@@ -1712,7 +1712,7 @@ export default function Contact() {
 
 👉 Настройте новый action маршрута
 
-### src/main.js
+##### src/main.js
 
 ```jsx
 // существующий код
@@ -1757,7 +1757,7 @@ const router = createBrowserRouter([
 
 👉 Прочитайте оптимистичное значение из `fetcher.formData`.
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 // существующий код
@@ -1795,7 +1795,7 @@ function Favorite({ contact }) {
 
 👉 Прокидываем в loader ответ `404`
 
-### src/routes/contact.jsx
+##### src/routes/contact.jsx
 
 ```jsx
 export async function loader({ params }) {
@@ -1830,7 +1830,7 @@ export async function loader({ params }) {
 
 👉 Оберните дочерние маршруты в маршрут без путей
 
-### src/main.jsx
+##### src/main.jsx
 
 ```jsx
 createBrowserRouter([
