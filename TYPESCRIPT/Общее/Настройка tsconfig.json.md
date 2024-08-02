@@ -1,10 +1,8 @@
-# [`tsconfig.json`](../index.md)
+# [`Настройка tsconfig.json`](../index.md)
 
 Конфигурация TS. Не рекомендуется включать его на реальных production-проектах.
 
-- [noImplicitAny](#noimplicitany-true)
-
-## Настройка
+## Опции
 
 ### `"noImplicitAny": true`
 
