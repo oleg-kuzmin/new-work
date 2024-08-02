@@ -25,12 +25,12 @@ Omit<T, K>;
 ```ts
 interface Todo {
   title: string;
-  description: string; // удалится
+  description: string;
   completed: boolean;
   createdAt: number;
 }
 
-type TodoPreview = Omit<Todo, 'description'>;
+type TodoPreview = Omit<Todo, 'description'>; // удалим description
 
 const todo: TodoPreview = {
   title: 'Clean room',
