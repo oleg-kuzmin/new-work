@@ -42,6 +42,16 @@ function logObject(obj: { a: number } | { b: number }) {
 }
 ```
 
+```ts
+function printName(user: { firstName: string; lastName: string }): void {
+  if (lastname) {
+    console.log('Hello', user.firstName, user.lastname);
+  } else {
+    console.log('Hello', user.firstName);
+  }
+}
+```
+
 ### Одинаковые типы
 
 Используется редко, но в примере если a и b равны, то соответственно равны их типы. Проверку можно записать чуть короче.
