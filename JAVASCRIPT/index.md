@@ -471,18 +471,15 @@
 - [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
 - [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
 - [`Object.values()`](./Object/Object.values.md) создает массив значений
+- [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
+- [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
+- [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
 
 ### [Операторы](#javascript)
 
 - [`delete`](./Object/delete.md) оператор удаления свойства
 - [`in`](./Object/in.md) оператор проверки наличия свойства
 - [`instanceof`](./Object/instanceof.md) оператор проверки принадлежности объекта классу
-
-### [Методы](#javascript)
-
-- [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
-- [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
-- [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
 
 ### [Преобразование](#javascript)
 
