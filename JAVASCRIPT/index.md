@@ -203,29 +203,31 @@
 
 - [`Date.now()`](./Date/Date.now.md) миллисекунды с 01 января 1970
 - [`Date.parse()`](./Date/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
-- [`new Date()`](<./Date/new Date.md>) создает объект Date
-  - [`.getDate()`](./Date/getDate.md) возвращает день месяца (1-31)
-  - [`.getDay()`](./Date/getDay.md) возвращает день недели (0-6)
-  - [`.getFullYear()`](./Date/getFullYear.md) возвращает год
-  - [`.getHours()`](./Date/getHours.md) возвращает час (0-23)
-  - [`.getMilliseconds()`](./Date/getMilliseconds.md) возвращает миллисекунды (0-999)
-  - [`.getMinutes()`](./Date/getMinutes.md) возвращает минуты (0-59)
-  - [`.getMonth()`](./Date/getMonth.md) возвращает месяц (0-11)
-  - [`.getSeconds()`](./Date/getSeconds.md) возвращает секунды (0-59)
-  - [`.getTime()`](./Date/getTime.md) возвращает миллисекунды с 01 января 1970
-  - [`.getTimezoneOffset()`](./Date/getTimezoneOffset.md) возвращает разницу в минутах с UTC
-  - [`.setDate()`](./Date/setDate.md) устанавливает день месяца (1-31)
-  - [`.setFullYear()`](./Date/setFullYear.md) устанавливает год
-  - [`.setHours()`](./Date/setHours.md) устанавливает час (0-23)
-  - [`.setMilliseconds()`](./Date/setMilliseconds.md) устанавливает миллисекунды (0-999)
-  - [`.setMinutes()`](./Date/setMinutes.md) устанавливает минуты (0-59)
-  - [`.setMonth()`](./Date/setMonth.md) устанавливает месяц (0-11)TAGS UI
-  - [`.setSeconds()`](./Date/setSeconds.md) устанавливает секунды (0-59)
-  - [`.setTime()`](./Date/setTime.md) устанавливает миллисекунды с 01 января 1970
-  - [`.toISOString()`](./Date/toISOString.md) преобразует объект Date в строку формата iso
-  - [`.toLocaleDateString()`](./Date/toLocaleDateString.md) преобразует объект Date в строку различных форматов
-  - [`.toLocaleTimeString()`](./Date/toLocaleTimeString.md) преобразует объект Date в строку в формате часы:минуты:секунды
-  - [`.toUTCString()`](./Date/toUTCString.md) преобразует объект Date в строку в формате UTC
+- [`new Date()`](<./Date/new Date.md>) создает объект Date с текущей датой или переданными аргументами
+  - [`.getDate()`](./Date/.getDate.md) возвращает текущий день месяца (1-31)
+  - [`.getDay()`](./Date/.getDay.md) возвращает текущий день недели (0-6)
+  - [`.getFullYear()`](./Date/.getFullYear.md) возвращает текущий год
+  - [`.getHours()`](./Date/.getHours.md) возвращает текущий час (0-23)
+  - [`.getMilliseconds()`](./Date/.getMilliseconds.md) возвращает текущие миллисекунды (0-999)
+  - [`.getMinutes()`](./Date/.getMinutes.md) возвращает текущие минуты (0-59)
+  - [`.getMonth()`](./Date/.getMonth.md) возвращает текущий месяц (0-11)
+  - [`.getSeconds()`](./Date/.getSeconds.md) возвращает текущие секунды (0-59)
+  - [`.getTime()`](./Date/.getTime.md) возвращает миллисекунды с 01 января 1970
+  - [`.getTimezoneOffset()`](./Date/.getTimezoneOffset.md) возвращает разницу в минутах с UTC
+  - [`.setDate()`](./Date/.setDate.md) устанавливает день месяца (1-31)
+  - [`.setFullYear()`](./Date/.setFullYear.md) устанавливает год
+  - [`.setHours()`](./Date/.setHours.md) устанавливает час (0-23)
+  - [`.setMilliseconds()`](./Date/.setMilliseconds.md) устанавливает миллисекунды (0-999)
+  - [`.setMinutes()`](./Date/.setMinutes.md) устанавливает минуты (0-59)
+  - [`.setMonth()`](./Date/.setMonth.md) устанавливает месяц (0-11)TAGS UI
+  - [`.setSeconds()`](./Date/.setSeconds.md) устанавливает секунды (0-59)
+  - [`.setTime()`](./Date/.setTime.md) устанавливает миллисекунды с 01 января 1970
+  - [`.toDateString()`](./Date/.toDateString.md) преобразует в строку в формате "день-недели месяц число год"
+  - [`.toISOString()`](./Date/.toISOString.md) преобразует в строку формате "iso"
+  - [`.toLocaleDateString()`](./Date/.toLocaleDateString.md) преобразует в строку различных форматов
+  - [`.toLocaleTimeString()`](./Date/.toLocaleTimeString.md) преобразует в строку в формате "часы:минуты:секунды"
+  - [`.toString()`](./Date/.toString) преобразует в строку в формате "день-недели месяц число год часы:минуты:секунды GMT"
+  - [`.toUTCString()`](./Date/.toUTCString.md) преобразует в строку в формате UTC
 
 ## [Document](#javascript)
 
