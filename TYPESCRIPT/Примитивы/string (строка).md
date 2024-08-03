@@ -1,4 +1,4 @@
-# [`string (строка)`](../index.md)
+# [`string (строка)`](../index.md/#примитивы)
 
 Тип string.
 

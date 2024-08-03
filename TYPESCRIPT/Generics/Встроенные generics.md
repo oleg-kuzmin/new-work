@@ -1,4 +1,4 @@
-# [`Встроенные generics`](../index.md)
+# [`Встроенные generics`](../index.md/#generics)
 
 - `Array<T>` - массив
 - `ReadonlyArray<T>` - массив только для чтения

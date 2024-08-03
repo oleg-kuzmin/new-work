@@ -1,4 +1,4 @@
-# [`Типизация this`](../index.md)
+# [`Типизация this`](../index.md/#ооп)
 
 `HTMLButtonElement` - встроенный тип соответствующие кнопке `<button>` в html.
 

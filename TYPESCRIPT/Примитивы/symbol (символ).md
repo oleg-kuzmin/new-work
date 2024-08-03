@@ -1,4 +1,4 @@
-# [`symbol (символ)`](../index.md)
+# [`symbol (символ)`](../index.md/#примитивы)
 
 Тип symbol.
 
