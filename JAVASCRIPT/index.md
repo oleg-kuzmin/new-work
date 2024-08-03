@@ -174,9 +174,9 @@
 - [`.findindex()`](./Array/.findindex.md) поиск индекса элемента, который соответствуют условию
 - [`.forEach()`](./Array/.forEach.md) перебирает элементы массива
 - [`.includes()`](./Array/.includes.md) проверяет наличие в массиве аргумента
-- [`.indexOf()`](./Array/.indexOf.md) поиск индекса переданного аргумента
+- [`.indexOf()`](./Array/.indexOf.md) поиск индекса
 - [`.join()`](./Array/.join.md) преобразует массив в строку
-- [`.lastIndexOf()`](./Array/.lastIndexOf.md) поиск последнего индекса переданного аргумента
+- [`.lastIndexOf()`](./Array/.lastIndexOf.md) поиск последнего индекса
 - [`.map()`](./Array/.map.md) создание массива из другого
 - [`.reduce()`](./Array/.reduce.md) сведение массива к одному значению
 - [`.slice()`](./Array/.slice.md) создает копию массива из нужных элементов
