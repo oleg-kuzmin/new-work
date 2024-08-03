@@ -504,6 +504,10 @@
   - [`.has()`](./Set/.has.md) проверяет наличие значения
   - [`.size`](./Set/.size.md) количество значений
 
+### [Преобразование](#javascript)
+
+- [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
+
 ## [String](#javascript)
 
 - [`type string`](<./String/type string.md>) тип string
