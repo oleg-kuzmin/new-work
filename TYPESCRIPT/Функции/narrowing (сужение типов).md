@@ -1,4 +1,4 @@
-# [`narrowing (сужение типа)`](../index.md/#функции)
+# [`narrowing (сужение типов)`](../index.md/#функции)
 
 В случае разных типов для параметра функции необходимо сделать сужение типов. Тело функции дополняется проверками на тот или иной тип. TS распознает наличие проверки и присвоит нужный тип.
 
@@ -18,7 +18,7 @@ function logId(id: string | number | boolean) {
 }
 ```
 
-### Массив
+### Массивы
 
 ```ts
 function logError(err: string | string[]) {
@@ -30,7 +30,7 @@ function logError(err: string | string[]) {
 }
 ```
 
-### Объект
+### Объекты
 
 ```ts
 function logObject(obj: { a: number } | { b: number }) {
@@ -48,6 +48,18 @@ function printName(user: { firstName: string; lastName: string }): void {
     console.log('Hello', user.firstName, user.lastname);
   } else {
     console.log('Hello', user.firstName);
+  }
+}
+```
+
+### Дата
+
+```ts
+function example(x: number[] | Date) {
+  if (x instanceof Date) {
+    x.getMonth();
+  } else {
+    x.concat();
   }
 }
 ```
