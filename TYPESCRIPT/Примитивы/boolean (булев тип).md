@@ -1,4 +1,4 @@
-# [`boolean (булев тип)`](../index.md/#примитивы)
+# [`boolean (булев тип)`](../index.md)
 
 Тип boolean.
 

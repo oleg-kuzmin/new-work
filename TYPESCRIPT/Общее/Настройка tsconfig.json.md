@@ -1,4 +1,4 @@
-# [`Настройка tsconfig.json`](../index.md/#общее)
+# [`Настройка tsconfig.json`](../index.md)
 
 Конфигурация TS.
 

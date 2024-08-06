@@ -1,4 +1,4 @@
-# [`Отличие interface от type`](../index.md/#специальные-типы)
+# [`Отличие interface от type`](../index.md)
 
 ## `interface`
 
