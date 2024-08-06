@@ -1,3 +1,0 @@
-# [Handbook](../index.md)
-
-- [``](./TS)
