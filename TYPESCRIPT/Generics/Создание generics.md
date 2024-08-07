@@ -1,24 +1,53 @@
 # [`Создание generics`](../index.md)
 
-`generics` нужны для облегчения создания типа, например для передачи динамического параметра. По соглашению дженерики пишутся в одну букву.
+`generics` нужны для облегчения создания типа, например для передачи динамического параметра.
 
-## Создание типа
+По соглашению параметры дженериков пишутся в одну букву.
+
+Дженерики похожи на функции, которые принимают параметры. Количество параметров может быть любым.
+
+## Псевдоним
 
 ```ts
+// создание псевдонима с generic-параметром T
 type TypeFactory<T> = T;
-type XType = TypeFactory<string>;
+
+// использование
+type XType = TypeFactory<string>; // : string
+type XType = TypeFactory<number>; // : number
+type XType = TypeFactory<boolean>; // : boolean
 ```
 
-## Создание интерфейса
+## Интерфейс
 
 ```ts
 interface ModelData<T> {
   title: string;
   value: T;
 }
+
+const obj: ModelData<number> = {
+  title: string;
+  value: 123;
+}
+
+const obj: ModelData<Array<number>> = {
+  title: string;
+  value: [123];
+}
 ```
 
-### Создание функции
+## Функции
+
+```ts
+function toArray<T>(...arg: T[]): T[] {
+  return arg;
+}
+
+toArray(1, 2, 3); // неявно : number[]
+toArray<number>(1, 2, 3); // явно : number[]
+toArray('1', '2', '3'); // неявно : string[]
+```
 
 ```ts
 function append<T>(el: T, list: T[]): T[] {
@@ -26,18 +55,13 @@ function append<T>(el: T, list: T[]): T[] {
 }
 ```
 
-### Создание функции с спред-оператором
+## Стрелочная функция
 
 ```ts
-function toArray<T>(...arg: T[]): T[] {
-  return arg;
-}
-toArray(1, 2, 3); // неявно будет number
-toArray<number>(1, 2, 3); // можно указать явно number
-toArray('ad', 'asd');
+const head = <T>(value: T[]): T => value[0];
 ```
 
-### Создание перегрузок функции с дженериком `<T>`
+## Перегрузки функции
 
 ```ts
 function head(value: string): string;
