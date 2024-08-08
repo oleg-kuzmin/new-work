@@ -1,6 +1,12 @@
-function greet(name: string) {
-  console.log("Hello, " + name.toUpperCase() + "!!");
-}
+function printName(obj: { first: string; last?: string }) {
+  // Error - might crash if 'obj.last' wasn't provided!
+  console.log(obj.last.toUpperCase());
+  // 'obj.last' is possibly 'undefined'.
+  if (obj.last !== undefined) {
+    // OK
+    console.log(obj.last.toUpperCase());
+  }
 
-// Would be a runtime error if executed!
-greet(42);
+  // A safe alternative using modern JavaScript syntax:
+  console.log(obj.last?.toUpperCase());
+}
