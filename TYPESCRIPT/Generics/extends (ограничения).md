@@ -30,7 +30,12 @@ len({ a: 1 }); // error
 В данном случае литералам, полученным через оператор `keyof`.
 
 ```ts
-export function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
+function prop<T, U extends keyof T>(key: U, obj: T): T[U] {
   return obj[key];
 }
+
+const obj = { a: 1, b: 2, c: 3 };
+
+prop('a', obj); // ok
+prop('d', obj); // error
 ```
