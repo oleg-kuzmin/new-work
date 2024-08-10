@@ -18,6 +18,8 @@ Omit<T, K>;
 
 ## Пример
 
+### Пример 1
+
 ```ts
 interface Todo {
   title: string;
@@ -32,5 +34,25 @@ const todo: TodoPreview = {
   title: 'Clean room',
   completed: false,
   createdAt: 1615544252770,
+};
+```
+
+### Пример 2
+
+```ts
+interface Todo {
+  id: string;
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: Date;
+}
+
+type SimpleTodo = Omit<Todo, 'description' | 'createdAt'>;
+
+const todo: SimpleTodo = {
+  id: 'sad',
+  title: 'Learn TS',
+  completed: false,
 };
 ```

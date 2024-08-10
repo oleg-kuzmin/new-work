@@ -18,6 +18,8 @@ Pick<T, K>;
 
 ## Пример
 
+### Пример 1
+
 ```ts
 type User = {
   id: number;
@@ -31,5 +33,25 @@ type UserContactInfo = Pick<User, 'name' | 'email'>;
 type UserContactInfo = {
   name: string;
   email: string;
+};
+```
+
+### Пример 2
+
+```ts
+interface Todo {
+  id: string;
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: Date;
+}
+
+type SimpleTodo = Pick<Todo, 'id' | 'title' | 'completed'>;
+
+const todo: SimpleTodo = {
+  id: 'sad',
+  title: 'Learn TS',
+  completed: false,
 };
 ```

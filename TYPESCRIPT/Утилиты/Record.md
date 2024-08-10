@@ -10,13 +10,15 @@ Record<K, T>;
 
 ### `K`
 
-Ключи свойств.
+Допустимые типы ключей свойств.
 
 ### `T`
 
-Значения свойств.
+Допустимые типы значений свойств.
 
 ## Пример
+
+### Пример 1
 
 ```ts
 // Keys
@@ -35,4 +37,16 @@ const cats: Record<CatName, CatInfo> = {
 };
 
 cats.boris; // { age: 5, breed: 'Maine Coon' }
+```
+
+### Пример 2
+
+```ts
+type WellKnownBrands = 'apple' | 'lenovo' | 'hp' | 'dell' | 'microsoft' | 'huawei';
+type Names = Record<string, number>;
+type BrandNames = Record<WellKnownBrands, string>;
+
+const myBrands: BrandNames = {
+  apple: '',
+};
 ```
