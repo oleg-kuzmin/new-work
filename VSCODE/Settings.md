@@ -100,8 +100,8 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // точки остановки слева для отладки
   "editor.glyphMargin": true,
 
-  // переход к определению
-  "editor.gotoLocation.multipleDefinitions": "goto",
+  // переход к определению через ctrl
+  // "editor.gotoLocation.multipleDefinitions": "goto",
 
   // вертикальные направляющие линии от скобок тем же цветом, что и скобки
   "editor.guides.bracketPairs": false,
@@ -160,13 +160,19 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // размер табуляции
   "editor.tabSize": 2,
 
-  // кастомная настройка цветов
+  // Кастомная настройка цветов
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["support.type"],
+        "scope": [
+          "support.type.primitive.ts",
+          "support.type.primitive.tsx",
+          "support.type.builtin.ts",
+          "entity.name.type",
+          "entity.name.type.module.tsx"
+        ],
         "settings": {
-          "foreground": "#fc9937" // "#fc9937" || "#7fc793"
+          "foreground": "#4EC9B0"
         }
       }
     ]
@@ -211,50 +217,23 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // обновление импортов при переименовании/перемещении файла
   "javascript.updateImportsOnFileMove.enabled": "never",
 
-  // настройка (Live Sass Compiler)
-  // "liveSassCompile.settings.formats": [
-  //   {
-  //     "format": "expanded",
-  //     "extensionName": ".css",
-  //     "savePath": "~/../css",
-  //     "savePathReplacementPairs": null
-  //   },
-  //   {
-  //     "format": "compressed",
-  //     "extensionName": ".min.css",
-  //     "savePath": "~/../css",
-  //     "savePathReplacementPairs": null
-  //   }
-  // ],
-
-  // отключает постоянное открытие терминала (Live Sass Compiler)
-  // "liveSassCompile.settings.showOutputWindowOn": "None",
-
   // отключает всплывающее окно (Live Server)
   "liveServer.settings.donotShowInfoMsg": true,
 
   // двойной клик мышкой для открытия редактора (Markdown Preview Github Styling)
-  "markdown.preview.doubleClickToSwitchToEditor": true,
+  "markdown.preview.doubleClickToSwitchToEditor": false,
 
   // отключает вертикальную полоску при наведении (Markdown Preview Github Styling)
   "markdown.preview.markEditorSelection": false,
 
-  // цветовая тема по умолчанию для Markdown (Preview Github Styling)
+  // цветовая тема по умолчанию для Markdown (Markdown Preview Github Styling)
   "markdown-preview-github-styles.colorTheme": "dark",
 
-  // стиль темной темы по умолчанию Markdown (Preview Github Styling)
+  // стиль темной темы по умолчанию Markdown (Markdown Preview Github Styling)
   "markdown-preview-github-styles.darkTheme": "dark_dimmed",
 
   // стиль иконок (Material Icon Theme)
   "material-icon-theme.activeIconPack": "react_redux",
-
-  // настройка иконок файлов (Material Icon Theme)
-  "material-icon-theme.files.associations": {
-    "html.md": "html",
-    "css.md": "css",
-    "js.md": "javascript",
-    "terminal.md": "powershell"
-  },
 
   // настройка иконок папок (Material Icon Theme)
   "material-icon-theme.folders.associations": {
@@ -262,7 +241,8 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     "gitbash": "vm",
     "packages": "webpack",
     "vite": "config",
-    "terminal": "desktop"
+    "terminal": "desktop",
+    "redux": "redux-actions"
   },
 
   // скрытие стрелок возле папок в проводнике (Material Icon Theme)
@@ -270,6 +250,9 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // скобки вокруг единственного параметра стрелочной функции (Prettier)
   "prettier.arrowParens": "avoid",
+
+  // помещает > в конец строки или на следующую строку
+  "prettier.bracketSameLine": false,
 
   // пробелы в объектах между скобками (Prettier)
   "prettier.bracketSpacing": true,
@@ -330,12 +313,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // настройка цветовой темы Kimbie Dark
   "workbench.colorCustomizations": {
-    "[Kimbie Dark]": {
-      // "editorIndentGuide.activeBackground1": "#681214", // цвет активной вертикальной линии редактора
-      // "editorIndentGuide.background1": "#681214", // цвет вертикальной линии редактора
-      // "gitDecoration.ignoredResourceForeground": "#cccccc", // цвет игнорируемых файлов git
-      "tab.activeBackground": "#5e4416", // цвет вкладки файла
-      "tab.activeBorder": "#cc8d21", // граница вкладки файла
+    "[One Dark Pro]": {
       "editorGutter.modifiedBackground": "#0000", // цвет вертикальной полоски измененных файлов git
       "editorGutter.addedBackground": "#0000", // цвет вертикальной полоски измененных файлов git
       "editorGutter.deletedBackground": "#0000" // цвет вертикальной полоски измененных файлов git
@@ -343,7 +321,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   },
 
   // цветовая тема по умолчанию
-  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.colorTheme": "One Dark Pro",
 
   // отключает сохранение разделения экрана при закрытии вкладки
   "workbench.editor.closeEmptyGroups": true,
@@ -371,7 +349,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // открытие файлов markdown по умолчанию
   "workbench.editorAssociations": {
-    "*.md": "default" // "vscode.markdown.preview.editor" || "default"
+    "*.md": "default"
   },
 
   // иконки папок в проводнике по умолчанию
@@ -392,17 +370,23 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // вертикальные линии в проводнике
   "workbench.tree.renderIndentGuides": "none",
 
+  // Игнорирование предупреждения unknown at rule
+  "css.lint.unknownAtRules": "ignore",
+
+  // Игнорирование предупреждения unknown at rule
+  "scss.lint.unknownAtRules": "ignore",
+
   //# Подсказки
   // cсылка на MDN при наведении
   "css.hover.references": false,
 
   // подсказки при наведении в редакторе
-  "editor.hover.enabled": false,
+  // "editor.hover.enabled": false,
 
   // подсказки в виде желтых лампочек
   "editor.lightbulb.enabled": "off",
 
-  // всплывающее окно с документацией по мере ввода
+  // всплывающее окно с подсказками по мере ввода
   "editor.parameterHints.enabled": false,
 
   // подсказки частых слов в emmet
