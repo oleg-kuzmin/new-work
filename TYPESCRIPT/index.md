@@ -99,10 +99,6 @@
 - [`Extract<T, U>`](./Утилиты/Extract.md) извлекает из union переданные типы
 - [`NonNullable<T>`](./Утилиты/NonNullable.md) исключает из переданного union пустые типы
 
-### [function](#typescript)
-
-- [`ReturnType<T>`](./Утилиты/ReturnType.md) возвращает тип значения return переданной функции
-
 ### [object](#typescript)
 
 - [`Omit<T, K>`](./Утилиты/Omit.md) возвращает тип объекта удаляя переданные ключи
