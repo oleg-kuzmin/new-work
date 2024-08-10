@@ -1,6 +1,6 @@
 # [`Partial`](../index.md)
 
-Сделает все свойства опциональными.
+Принимает тип объекта и делает все его свойства опциональными.
 
 ## Синтаксис
 
@@ -16,23 +16,16 @@ Partial<T>;
 
 ```ts
 interface Todo {
+  id: string;
   title: string;
   description: string;
+  completed: boolean;
+  createdAt: Date;
 }
 
-function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
+type PartialTodo = Partial<Todo>;
+
+function updateTodo(todo: Todo, fieldsToUpdate: PartialTodo) {
   return { ...todo, ...fieldsToUpdate };
 }
-
-const todo1 = {
-  title: 'organize desk',
-  description: 'clear clutter',
-};
-
-const todo2 = updateTodo(todo1, {
-  description: 'throw out trash',
-});
-
-console.log(todo1); // {title: 'organize desk', description: 'clear clutter'}
-console.log(todo2); // {title: 'organize desk', description: 'throw out trash'}
 ```
