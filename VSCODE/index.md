@@ -9,5 +9,5 @@
 - [`Code Spell`](<./Code Spell.md>)
 - [`keybindings.json`](./keybindings.md)
 - [`Live Sass Compiler`](<./Live Sass Compiler.md>)
-- [`Material Icon Theme`](./1234.md)
+- [`Material Icon Theme`](<./Material Icons.md>)
 - [`settings.json`](./settings.md)
