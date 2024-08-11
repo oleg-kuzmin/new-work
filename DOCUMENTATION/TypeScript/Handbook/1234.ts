@@ -1,7 +1,1 @@
-type Window = {
-  title: string;
-};
-
-type Window = {
-  ts: TypeScriptAPI;
-};
+const x = "hello" as number;
