@@ -120,7 +120,7 @@
 - [`ReturnType<typeof F>`](./Утилиты/ReturnType.md) возвращает тип значения return переданной функции
 - [`Parameters<typeof F>`](./Утилиты/Parameters.md) возвращает кортеж типов аргументов
 
-### [class](#typescript)
+### [oop](#typescript)
 
 - [`ConstructorParameters<typeof С>`](./Утилиты/ConstructorParameters.md) возвращает кортеж типов полей конструктора
 
