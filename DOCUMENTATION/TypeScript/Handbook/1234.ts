@@ -1,3 +1,7 @@
-function printId(id: number | string) {
-  console.log(id.toUpperCase());
-}
+type Window = {
+  title: string;
+};
+
+type Window = {
+  ts: TypeScriptAPI;
+};
