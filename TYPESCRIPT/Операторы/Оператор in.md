@@ -2,6 +2,10 @@
 
 Позволяет обойти как в цикле все типы union. Ключи в этом случае принято называть с большой буквы.
 
+## Пример
+
+### Пример 1
+
 ```ts
 type PcBrand = {
   name: string;
@@ -29,5 +33,19 @@ type MyPcRecord = {
   dell?: PcBrand;
   microsoft?: PcBrand;
   huawei?: PcBrand;
+};
+```
+
+### Пример 2
+
+```ts
+interface Car {
+  brand: string;
+  model: string;
+  year: number;
+}
+
+type CarFactory = {
+  [K in keyof Car as `set${Capitalize<K>}`]: (car: Car, value: Car[K]) => void;
 };
 ```
