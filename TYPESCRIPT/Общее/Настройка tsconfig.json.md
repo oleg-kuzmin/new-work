@@ -185,5 +185,85 @@ import LibName from 'libName'; // с опцией
 
 Понижает уровень синтаксиса на более старый для итераций.
 
-- `"downlevelIteration": true` - включает опцию
-- `"downlevelIteration": false` - отключает
+### `"declaration"`
+
+Нужна в том случае, если мы пишем свою библиотеку. Будет создавать файлы declaration с типами в автоматическом режиме.
+
+- `"declaration": true` - включает опцию
+- `"declaration": false (по умолчанию)` - отключает
+
+### `"declarationDir"`
+
+Определяет директорию, где будут лежать декларации.
+
+```json
+{
+  "declarationDir": "declaration"
+}
+```
+
+### `"emitDeclarationOnly"`
+
+TS будет проверять файлы, но как результат будет создавать только файлы declaration с типами
+
+- `"emitDeclarationOnly": true` - включает опцию
+- `"emitDeclarationOnly": false` - отключает
+
+### `"noEmit"`
+
+Используем TS только для проверки типов и преобразовывать файлы ts мы будем с помощью другой программы.
+
+- `"noEmit": true` - включает опцию
+- `"noEmit": false` - отключает
+
+### `"importHelpers"`
+
+Добавляет автоматически helpers полифилов для компиляции в более низкие версии. Нужно установить дополнительно `npm i -D tslib`.
+
+- `"importHelpers": true` - включает опцию
+- `"importHelpers": false (по умолчанию)` - отключает
+
+### `"allowJs"`
+
+Нужен для миграции из js в ts. Файлы с двумя расширениями могут лежать вместе.
+
+- `"allowJs": true` - включает опцию
+- `"allowJs": false` - отключает
+
+### `"checkJs"`
+
+Отвечает за проверку ошибок в js файлах. Автоматически включается при наличии `"allowJs": true`.
+
+- `"checkJs": true` - включает опцию
+- `"checkJs": false` - отключает
+
+### `"experimentalDecorators"`
+
+Включает экспериментальные возможности декораторов. Нужно включить при использовании декораторов.
+
+- `"experimentalDecorators": true` - включает опцию
+- `"experimentalDecorators": false` - отключает
+
+### `"emitDecoratorMetadata"`
+
+Расширяет возможности применения декораторов.
+
+- `"emitDecoratorMetadata": true` - включает опцию
+- `"emitDecoratorMetadata": false` - отключает
+
+### `"resolveJsonModule"`
+
+Если мы хотим использовать импорты рядом лежащего файла config.json нужно включить эту опцию.
+
+- `"resolveJsonModule": true` - включает опцию
+- `"resolveJsonModule": false` - отключает
+
+### `"jsx"`
+
+Если нам требуется если мы используем jsx-разметку.
+
+```json
+{
+  "jsx": "react-jsx"
+}
+```
