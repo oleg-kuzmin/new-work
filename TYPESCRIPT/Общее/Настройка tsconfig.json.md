@@ -2,9 +2,59 @@
 
 Конфигурация TS.
 
-## Опции `"compilerOptions"`
+```json
+{
+  "extends": {},
+  "files": [],
+  "compilerOptions": {},
+  "include": [],
+  "exclude": [].
+}
+```
 
-### `noImplicitAny`
+## `"extends"`
+
+Позволяет импортировать до применения настроек главного конфига другие конфиги. Например конфиг для dev и для prod сборок, где будут включаться/исключаться разные директории.
+
+```json
+"extends": "./tsconfig.json",
+```
+
+## `"files"`
+
+Нужен для указания конкретных файлов для проверки. Возможно будет полезно для небольших проектов, но используется редко.
+
+```json
+{
+  "files": ["src/01-basics/01-primitives.ts", "src/01-basics/02-primitives.ts"]
+}
+```
+
+## `"include"`
+
+Добавляет директории для отслеживания.
+
+```json
+{
+  "include": ["src"]
+}
+```
+
+## `"exclude"`
+
+Исключает директории из отслеживания.
+
+```json
+{
+  "exclude": ["node_modules", "src/**/*.stories.*", "src/**/mock/*"]
+}
+```
+
+## `"compilerOptions"`
+
+Различные настройки компилятора.
+
+### `"noImplicitAny"`
 
 Если вы не указываете тип и TypeScript не может вывести его из контекста, компилятор обычно по умолчанию выбирает `any`.
 
@@ -15,9 +65,125 @@
 - `"noImplicitAny": true (по умолчанию)` - включает опцию
 - `"noImplicitAny": false` - отключает опцию
 
-### `strictNullChecks`
+### `"strictNullChecks"`
 
 По умолчанию значения, такие как `null` и `undefined`, могут быть назначены любому другому типу. Это может облегчить написание некоторого кода, но забывание обрабатывать `null` и `undefined` является причиной бесчисленных ошибок в мире - некоторые считают это ошибкой на миллиард долларов! Флаг `strictNullChecks` делает обработку `null` и `undefined` более явной и избавляет нас от беспокойства о том, забыли ли мы обработать `null` и `undefined`.
 
 - `"strictNullChecks": false (по умолчанию)` - отключает опцию
 - `"strictNullChecks": true` - включает опцию
+
+### `"sourceMap"`
+
+Добавляет map файлы.
+
+### `"watch"`
+
+Включает режим отслеживания.
+
+### `"target"`
+
+Определяет во что будет преобразован ts.
+
+```json
+{
+  "target": "ES3" // по умолчанию
+}
+```
+
+### `"lib"`
+
+Определяет дополнительные возможности библиотек. Например библиотека DOM позволяет использовать различные события, элементы и пр.
+
+```json
+{
+  "lib": ["ES2015", "ES2016", "ES2017", "DOM"]
+}
+```
+
+### `"outDir"`
+
+Куда будут компилироваться файлы.
+
+```json
+{
+  "outDir": "dist"
+}
+```
+
+### `"isolatedModules"`
+
+Изолирует файлы модулей друг от друга.
+
+- `"isolatedModules": true` - включает опцию
+- `"isolatedModules": false` - отключает
+
+### `"esModuleInterop"`
+
+Позволяет использовать современный синтаксис для импорта модулей `common.js` (которые с `require`).
+
+- `"esModuleInterop": true` - включает опцию
+- `"esModuleInterop": false` - отключает
+
+### `"forceConsistentCasingInFileNames"`
+
+Не дает возможность делать импорты из соседних файлов не учитывая регистр.
+
+- `"forceConsistentCasingInFileNames": true` - включает опцию
+- `"forceConsistentCasingInFileNames": false` - отключает
+
+### `"strict"`
+
+Включает настройки строгости.
+
+- `"strict": true` - включает опцию
+- `"strict": false` - отключает
+
+### `"module"`
+
+Какую модульную систему будет использовать наше собранное приложение.
+
+```json
+{
+  "module": "ES6",
+  "module": "commonjs"
+}
+```
+
+### `"moduleResolution"`
+
+Разрешение для модулей.
+
+```json
+{
+  "moduleResolution": "node"
+}
+```
+
+### `"outFile"`
+
+Все приложение собирается в один файл.
+
+```json
+{
+  "outFile": "index.js"
+}
+```
+
+### `"allowSyntheticDefaultImports"`
+
+Добавляет синтетические дефолтные импорты для тех библиотек, которые не имеют экспорта по умолчанию.
+
+- `"allowSyntheticDefaultImports": true` - включает опцию
+- `"allowSyntheticDefaultImports": false` - отключает
+
+```ts
+import * as LibName from 'libName'; // без опции
+import LibName from 'libName'; // с опцией
+```
+
+### `"downlevelIteration"`
+
+Понижает уровень синтаксиса на более старый для итераций.
+
+- `"downlevelIteration": true` - включает опцию
+- `"downlevelIteration": false` - отключает
