@@ -1,12 +1,14 @@
-# [TypeScript Documentation (5.5.4)](../index.md)
+# [TypeScript Documentation](../index.md)
+
+Последняя версия - 5.5.4
 
 ## Get Started
 
 Краткое введение на основе вашего опыта или предпочтений.
 
-- [TS for the New Programmer](<./Get Started/TS for the New Programmer.md>)
-- [TS for JS Programmers](<./Get Started/TS for JS Programmers.md>)
-- [TS Tooling in 5 minutes](<./Get Started/TS Tooling in 5 minutes.md>)
+- [TS for the New Programmer](<./Get Started/1. TS for the New Programmer.md>)
+- [TS for JS Programmers](<./Get Started/2. TS for JS Programmers.md>)
+- [TS Tooling in 5 minutes](<./Get Started/3. TS Tooling in 5 minutes.md>)
 
 ## Handbook
 
