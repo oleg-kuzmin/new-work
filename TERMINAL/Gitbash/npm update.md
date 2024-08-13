@@ -5,4 +5,7 @@
 ```bash
 # Синтаксис.
 npm update
+
+# Обновит сам npm
+npm i -g npm
 ```
