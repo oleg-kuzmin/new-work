@@ -571,6 +571,7 @@
 - [`parseFloat()`](./Window/parseFloat.md) преобразует строку в число c плавающей точкой
 - [`parseInt()`](./Window/parseInt.md) преобразует строку в целое число
 - [`prompt()`](./Window/prompt.md) модальное окно с вводом
+- [`screen`](./Window/screen.md) объект экрана, текущего окна
 - [`scroll()`](./Window/scroll.md) прокрутит окно браузера
 - [`scrollTo()`](./Window/scrollTo.md) прокрутит окно браузера
 - [`scrollX`](./Window/scrollX.md) прокрутка окна браузера по горизонтали
