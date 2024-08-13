@@ -1,2 +1,2 @@
-const message = 'hello!';
-message();
+// const message = 'hello!';
+// message();
