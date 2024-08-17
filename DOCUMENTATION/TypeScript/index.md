@@ -1,6 +1,9 @@
 # [TypeScript Documentation](../index.md)
 
-Последняя версия - 5.5.4
+`5.5.4`
+
+- [https://github.com/microsoft/TypeScript-Website](https://github.com/microsoft/TypeScript-Website)
+- [https://github.com/microsoft/TypeScript/](https://github.com/microsoft/TypeScript/)
 
 ## Get Started
 
