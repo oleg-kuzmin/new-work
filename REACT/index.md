@@ -5,7 +5,7 @@
 - [Hooks](#hooks)
 - [React](#react-1)
 - [ReactDOM](#reactdom)
-- [react-router-dom](#react-router)
+- [react-router-dom](#react-router-dom)
 
 ## [Общее](#react)
 
