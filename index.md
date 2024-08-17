@@ -16,4 +16,4 @@
 - [BACKEND](./BACKEND/index.md)
 - [NODE](./NODE/index.md)
 - [VSCODE](./VSCODE/index.md)
-- [LEARN](./learn.md)
+- [LEARN](./LEARN/index.md)
