@@ -1,15 +1,7 @@
-interface Container {
-  value: number | null | undefined;
-}
+let x = Math.random() < 0.5 ? 10 : 'hello world!'; // let x: string | number
 
-function multiplyValue(container: Container, factor: number) {
-  // Remove both 'null' and 'undefined' from the type.
-  if (container.value != null) {
-    console.log(container.value);
+x = 1;
+console.log(x); // let x: number
 
-    // (property) Container.value: number
-
-    // Now we can safely multiply 'container.value'.
-    container.value *= factor;
-  }
-}
+x = true; // Type 'boolean' is not assignable to type 'string | number'.
+console.log(x); // let x: string | number
