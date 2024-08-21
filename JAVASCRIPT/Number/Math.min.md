@@ -8,9 +8,9 @@
 Math.min(number, number, number);
 ```
 
-### `number`
+### `number | string`
 
-Числа через запятую.
+Числа через запятую. Строка будет преобразована в число.
 
 ## Возвращает
 
@@ -18,8 +18,8 @@ Math.min(number, number, number);
 
 Число - наименьшее из переданных.
 
-## Пример
-
 ```js
+const array = [1, 2, 3, 4, 5];
 console.log(Math.min(1, 2, 3, 4, 5)); // 1
+console.log(Math.min(...array)); // 1
 ```
