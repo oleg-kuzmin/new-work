@@ -34,62 +34,9 @@ npm i -D @types/react-transition-group
 
 ## Удаление файлов
 
--
+- tsconfig.app.json
 
 ## Конфигурация
-
-### `.prettierrc`
-
-```json
-{
-  "importOrder": [
-    "<THIRD_PARTY_MODULES>",
-    "^@core/(.*)$",
-    "^@server/(.*)$",
-    "^@ui/(.*)$",
-    "^@/(.*)$",
-    "^[../]",
-    "^[./]"
-  ],
-  "importOrderSeparation": false,
-  "importOrderSortSpecifiers": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-css-order"],
-  "arrowParens": "avoid",
-  "bracketSameLine": false,
-  "bracketSpacing": true,
-  "semi": true,
-  "jsxSingleQuote": false,
-  "printWidth": 120,
-  "singleQuote": true
-}
-```
-
-### `generate-react-cli.json`
-
-```json
-{
-  "usesTypeScript": true,
-  "usesStyledComponents": false,
-  "usesCssModule": true,
-  "cssPreprocessor": "scss",
-  "testLibrary": "None",
-  "component": {
-    "default": {
-      "customTemplates": {
-        "component": "templates/default/TemplateName.tsx",
-        "style": "templates/default/TemplateName.module.scss",
-        "index": "templates/default/index.ts"
-      },
-      "path": "src",
-      "withLazy": false,
-      "withStory": false,
-      "withStyle": true,
-      "withTest": false,
-      "withIndex": true
-    }
-  }
-}
-```
 
 ### `tsconfig.json`
 
@@ -159,6 +106,61 @@ export default defineConfig({
     },
   },
 });
+```
+
+## Создание файлов
+
+### `.prettierrc`
+
+```json
+{
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^@/(.*)$",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-css-order"],
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "semi": true,
+  "jsxSingleQuote": false,
+  "printWidth": 120,
+  "singleQuote": true
+}
+```
+
+### `generate-react-cli.json`
+
+```json
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": false,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "templates/default/TemplateName.tsx",
+        "style": "templates/default/TemplateName.module.scss",
+        "index": "templates/default/index.ts"
+      },
+      "path": "src",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": false,
+      "withIndex": true
+    }
+  }
+}
 ```
 
 ## Добавить скрипты
