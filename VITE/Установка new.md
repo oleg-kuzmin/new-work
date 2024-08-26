@@ -1,4 +1,4 @@
-# [`Установка new`](./index.md)
+# [`Установка`](./index.md)
 
 ## Зависимости
 
@@ -170,4 +170,10 @@ export default defineConfig({
   "create": "generate-react component --flat",
   "fsd": "steiger ./src"
 }
+```
+
+## Поправить в плагине `prettier-plugin-css-order` экспорт по умолчанию
+
+```js
+default: "smacss",
 ```
