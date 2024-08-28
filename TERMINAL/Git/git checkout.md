@@ -9,4 +9,7 @@ git checkout -b имя_ветки
 
 # Откат назад.
 git checkout .
+
+# переключение на ветку если HEAD detached at
+git checkout master
 ```

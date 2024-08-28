@@ -32,7 +32,7 @@
 ## [Git Ветки](#terminal)
 
 - [`git branch`](<./Git/git branch.md>) создание/удаление ветки
-- [`git checkout`](<./Git/git checkout.md>) сменить ветку
+- [`git checkout`](<./Git/git checkout.md>) сменить ветку/переключиться на коммит
 - [`git merge`](<./Git/git merge.md>) слияние ветки с главной
 - [`git revert`](<./Git/git revert.md>) отмена слияния веток, отмена коммита
 
