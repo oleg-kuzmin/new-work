@@ -14,12 +14,12 @@
 
 ## Применяется к тегам
 
-- [`<img>`](../Tags/img.md) изображение
-- [`<svg>`](../Tags/svg.md) векторная графика
-- [`<video>`](../Tags/video.md) видео
-- [`<object>`](../Tags/object.md) встраивание медиа
 - [`<canvas>`](../Tags/canvas.md) отрисовка графики
 - [`<iframe>`](../Tags/iframe.md) встраивание фрейма
+- [`<img>`](../Tags/img.md) изображение
+- [`<object>`](../Tags/object.md) встраивание медиа
+- [`<svg>`](../Tags/svg.md) векторная графика
+- [`<video>`](../Tags/video.md) видео
 
 ## Пример
 

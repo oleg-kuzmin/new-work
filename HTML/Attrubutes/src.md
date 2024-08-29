@@ -4,12 +4,12 @@
 
 ## Применяется к тегам
 
-- [`<img>`](../Tags/img.md) изображение
 - [`<audio>`](../Tags/audio.md) аудио
-- [`<video>`](../Tags/video.md) видео
-- [`<source>`](../Tags/source.md) источник медиа
 - [`<iframe>`](../Tags/iframe.md) встраивание фрейма
+- [`<img>`](../Tags/img.md) изображение
 - [`<script>`](../Tags/script.md) добавляет скрипт
+- [`<source>`](../Tags/source.md) источник медиа
+- [`<video>`](../Tags/video.md) видео
 
 ## Пример
 

@@ -8,9 +8,9 @@ _(cite: цитировать)_
 
 ## Применяется к тегам
 
+- [`<blockquote>`](../Tags/blockquote.md) блок цитат
 - [`<del>`](../Tags/del.md) удаленный контент
 - [`<ins>`](../Tags/ins.md) добавленный контент
-- [`<blockquote>`](../Tags/blockquote.md) блок цитат
 - [`<q>`](../Tags/q.md) небольшая цитата
 
 ## Пример

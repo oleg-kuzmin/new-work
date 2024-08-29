@@ -2,13 +2,13 @@
 
 - [Общее](#общее)
 
-## Атрибуты
-
-- [All](#attrubutes-all) / [Form](#attrubutes-form) / [Global](#attrubutes-global)
-
 ## Теги
 
 - [Head](#tags-head) / [Block](#tags-block) / [Inline](#tags-inline) / [Form](#tags-form) / [Media](#tags-media) / [Ui](#tags-ui) / [Table](#tags-table) / [Deprecated](#tags-deprecated)
+
+## Атрибуты
+
+- [Base](#attrubutes-base) / [Form](#attrubutes-form) / [Global](#attrubutes-global)
 
 ## Все теги
 
@@ -129,112 +129,112 @@
 - [`Семантика текст`](<./Общее/Семантика текст.md>)
 - [`Синтаксис markdown`](<./Общее/Синтаксис markdown.md>)
 
-## [attrubutes All](#html)
+## [attrubutes Base](#html)
 
-- [`allowfullscreen`](./Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
-- [`alt`](./Attrubutes/alt.md) альтернативный текст
-- [`as`](./Attrubutes/as.md) тип загружаемого контента
-- [`async`](./Attrubutes/async.md) запуск асинхронно
-- [`autoplay`](./Attrubutes/autoplay.md) автопроигрывание медиа
-- [`buffered`](./Attrubutes/buffered.md) информация о загрузке видео
-- [`charset`](./Attrubutes/charset.md) кодировка страницы
-- [`cite`](./Attrubutes/cite.md) источник
-- [`colspan`](./Attrubutes/colspan.md) объединение ячеек в столбцах
-- [`controls`](./Attrubutes/controls.md) элементы управления медиа
-- [`coords`](./Attrubutes/coords.md) координаты областей карты
-- [`crossorigin`](./Attrubutes/crossorigin.md) обработка cors
-- [`data`](<./Attrubutes/data (object).md>) ссылка на url медиа
-- [`datetime`](./Attrubutes/datetime.md) дата и время правка
-- [`decoding`](./Attrubutes/decoding.md) декодирование
-- [`defer`](./Attrubutes/defer.md) запуск после загрузки страницы
-- [`dir`](./Attrubutes/dir.md) направление текста
-- [`download`](./Attrubutes/download.md) загрузка файла
-- [`fill`](./Attrubutes/fill.md) цвет заливки svg
-- [`high`](./Attrubutes/high.md) высшее значение
-- [`href`](./Attrubutes/href.md) ссылка на url
-- [`hreflang`](./Attrubutes/hreflang.md) язык документа по ссылке
-- [`http-equiv, content`](<./Attrubutes/http-equiv, content.md>) поведение страницы
-- [`loading`](./Attrubutes/loading.md) загрузка
-- [`loop`](./Attrubutes/loop.md) зацикливание
-- [`low`](./Attrubutes/low.md) низшее значение
-- [`media`](./Attrubutes/media.md) медиа-запрос
-- [`muted`](./Attrubutes/muted.md) выключает звук медиа
-- [`name, content`](<./Attrubutes/name, content.md>) данные страницы
-- [`name`](<./Attrubutes/name (object).md>) имя
-- [`open`](./Attrubutes/open.md) открывает details, dalog
-- [`optimum`](./Attrubutes/optimum.md) оптимальное значение
-- [`ping`](./Attrubutes/ping.md) post-запрос при переходе по карте
-- [`playsinline`](./Attrubutes/playsinline.md) полный экран видео
-- [`poster`](./Attrubutes/poster.md) обложка видео
-- [`prefix`](./Attrubutes/prefix.md) open-graph разметка
-- [`preload`](./Attrubutes/preload.md) предварительная загрузка медиа
-- [`preserveAspectRatio`](./Attrubutes/preserveAspectRatio.md) пропорции svg
-- [`property, content`](<./Attrubutes/property, content.md>) open-graph разметка
-- [`referrerpolicy`](./Attrubutes/referrerpolicy.md) данные при переходе по карте
-- [`rel <a>`](<./Attrubutes/rel (а).md>) связь ссылки со страницей
-- [`rel <link>`](<./Attrubutes/rel (link).md>) связь файла со страницей
-- [`reversed`](./Attrubutes/reversed.md) направление нумерации
-- [`rowspan`](./Attrubutes/rowspan.md) объединение ячеек в строках
-- [`sandbox`](./Attrubutes/sandbox.md) ограничения фрейма
-- [`shape`](./Attrubutes/shape.md) форма областей карты
-- [`sizes`](./Attrubutes/sizes.md) размер для фавиконки
-- [`src`](./Attrubutes/src.md) url источника
-- [`srcdoc`](./Attrubutes/srcdoc.md) встраивание кода в фрейм
-- [`srcset, sizes`](<./Attrubutes/srcset, sizes.md>) набор изображений
-- [`start`](./Attrubutes/start.md) начало нумерации
-- [`stroke`](./Attrubutes/stroke.md) толщина и цвет обводки svg
-- [`target`](<./Attrubutes/target (a).md>) способ открытия ссылки
-- [`title`](<./Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
-- [`type <a>`](<./Attrubutes/type (a).md>) тип mime
-- [`type <ol>`](<./Attrubutes/type (ol).md>) тип маркеров
-- [`type <script>`](<./Attrubutes/type (script).md>) тип для js-модулей
-- [`usemap`](./Attrubutes/usemap.md) id карты
-- [`value`](<./Attrubutes/value (data).md>) значение
-- [`viewBox`](./Attrubutes/viewBox.md) размеры окна отображения svg
-- [`width, height`](<./Attrubutes/width, height.md>) ширина, высота
+- [`allowfullscreen` (iframe)](./Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
+- [`alt` (area, img)](./Attrubutes/alt.md) альтернативный текст
+- [`as` (link)](./Attrubutes/as.md) тип загружаемого контента
+- [`async` (script)](./Attrubutes/async.md) запуск асинхронно
+- [`autoplay` (audio, video)](./Attrubutes/autoplay.md) автопроигрывание медиа
+- [`buffered` (video)](./Attrubutes/buffered.md) информация о загрузке видео
+- [`charset` (meta)](./Attrubutes/charset.md) кодировка страницы
+- [`cite` (blockquote, del, ins, q)](./Attrubutes/cite.md) источник
+- [`colspan` (td, th)](./Attrubutes/colspan.md) объединение ячеек в столбцах
+- [`controls` (audio, video)](./Attrubutes/controls.md) элементы управления медиа
+- [`coords` (area)](./Attrubutes/coords.md) координаты областей карты
+- [`crossorigin` (link)](./Attrubutes/crossorigin.md) обработка cors
+- [`data` (object)](<./Attrubutes/data (object).md>) ссылка на url медиа
+- [`datetime` (del, ins, time)](./Attrubutes/datetime.md) дата и время правка
+- [`decoding` (img)](./Attrubutes/decoding.md) декодирование
+- [`defer` (script)](./Attrubutes/defer.md) запуск после загрузки страницы
+- [`dir` (bdo)](./Attrubutes/dir.md) направление текста
+- [`download` (a)](./Attrubutes/download.md) загрузка файла
+- [`fill` (svg)](./Attrubutes/fill.md) цвет заливки svg
+- [`high` (meter)](./Attrubutes/high.md) высшее значение
+- [`href` (a, area, base, link)](./Attrubutes/href.md) ссылка на url
+- [`hreflang` (a)](./Attrubutes/hreflang.md) язык документа по ссылке
+- [`http-equiv, content` (meta)](<./Attrubutes/http-equiv, content.md>) поведение страницы
+- [`loading` (img)](./Attrubutes/loading.md) загрузка
+- [`loop` (audio, video)](./Attrubutes/loop.md) зацикливание
+- [`low` (meter)](./Attrubutes/low.md) низшее значение
+- [`media` (link, source, style)](./Attrubutes/media.md) медиа-запрос
+- [`muted` (audio, video)](./Attrubutes/muted.md) выключает звук медиа
+- [`name, content` (meta)](<./Attrubutes/name, content.md>) данные страницы
+- [`name` (iframe, map, object)](<./Attrubutes/name (object).md>) имя
+- [`open` (details, dialog)](./Attrubutes/open.md) открывает details, dalog
+- [`optimum` (meter)](./Attrubutes/optimum.md) оптимальное значение
+- [`ping` (area)](./Attrubutes/ping.md) post-запрос при переходе по карте
+- [`playsinline` (video)](./Attrubutes/playsinline.md) полный экран видео
+- [`poster` (video)](./Attrubutes/poster.md) обложка видео
+- [`prefix` (html)](./Attrubutes/prefix.md) open-graph разметка
+- [`preload` (audio, video)](./Attrubutes/preload.md) предварительная загрузка медиа
+- [`preserveAspectRatio` (svg)](./Attrubutes/preserveAspectRatio.md) пропорции svg
+- [`property, content` (meta)](<./Attrubutes/property, content.md>) open-graph разметка
+- [`referrerpolicy` (area)](./Attrubutes/referrerpolicy.md) данные при переходе по карте
+- [`rel` (a, area)](<./Attrubutes/rel (а).md>) связь ссылки со страницей
+- [`rel` (link)](<./Attrubutes/rel (link).md>) связь файла со страницей
+- [`reversed` (ol)](./Attrubutes/reversed.md) направление нумерации
+- [`rowspan` (td, th)](./Attrubutes/rowspan.md) объединение ячеек в строках
+- [`sandbox` (iframe)](./Attrubutes/sandbox.md) ограничения фрейма
+- [`shape` (area)](./Attrubutes/shape.md) форма областей карты
+- [`sizes` (link)](./Attrubutes/sizes.md) размер для фавиконки
+- [`src` (audio, iframe, img, script, source, video)](./Attrubutes/src.md) url источника
+- [`srcdoc` (iframe)](./Attrubutes/srcdoc.md) встраивание кода в фрейм
+- [`srcset, sizes` (img, source)](<./Attrubutes/srcset, sizes.md>) набор изображений
+- [`start` (ol)](./Attrubutes/start.md) начало нумерации
+- [`stroke` (svg)](./Attrubutes/stroke.md) толщина и цвет обводки svg
+- [`target` (a, area, base)](<./Attrubutes/target (a).md>) способ открытия ссылки
+- [`title` (abbr, dfn)](<./Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
+- [`type` (a, audio, object, source, video) ](<./Attrubutes/type (a).md>) тип mime
+- [`type` (ol)](<./Attrubutes/type (ol).md>) тип маркеров
+- [`type` (script)](<./Attrubutes/type (script).md>) тип для js-модулей
+- [`usemap` (img, object)](./Attrubutes/usemap.md) id карты
+- [`value` (data, li, meter, progress)](<./Attrubutes/value (data).md>) значение
+- [`viewBox` (svg)](./Attrubutes/viewBox.md) размеры окна отображения svg
+- [`width, height` (canvas, iframe, img, object, svg, video)](<./Attrubutes/width, height.md>) ширина, высота
 
 ## [attrubutes Form](#html)
 
-- [`accept-charset`](./Attrubutes/accept-charset.md) кодировка формы
-- [`accept`](./Attrubutes/accept.md) тип файла для input file
-- [`action`](./Attrubutes/action.md) обработчик формы
-- [`autocomplete`](./Attrubutes/autocomplete.md) автозаполнение
-- [`autofocus`](./Attrubutes/autofocus.md) фокус при загрузке страницы
-- [`capture`](./Attrubutes/capture.md) вид камеры для input file
-- [`cols`](./Attrubutes/cols.md) количество колонок textarea
-- [`defaultchecked`](./Attrubutes/defaultchecked.md) автовыбор input checkbox, radio
-- [`disabled`](./Attrubutes/disabled.md) отключает элемент
-- [`enctype`](./Attrubutes/enctype.md) тип шифрования данных
-- [`for`](./Attrubutes/for.md) связь с элементом формы
-- [`form`](./Attrubutes/form.md) связь с формой
-- [`formaction`](./Attrubutes/formaction.md) переопределяет обработчик формы
-- [`formenctype`](./Attrubutes/formenctype.md) переопределяет тип шифрования данных
-- [`formmethod`](./Attrubutes/formmethod.md) переопределяет метод отправки формы
-- [`formnovalidate`](./Attrubutes/formnovalidate.md) переопределяет отключение валидации
-- [`formtarget`](./Attrubutes/formtarget.md) переопределяет отображение после submit
-- [`inputmode`](./Attrubutes/inputmode.md) клавиатура для input
-- [`label`](./Attrubutes/label.md) подпись optgroup или option
-- [`list`](./Attrubutes/list.md) ссылка на id datalist
-- [`max`](./Attrubutes/max.md) максимальное значение
-- [`method`](./Attrubutes/method.md) метод отправки формы
-- [`min`](./Attrubutes/min.md) минимальное значение
-- [`minlength, maxlength`](<./Attrubutes/minlength, maxlength.md>) ограничение символов
-- [`multiple`](./Attrubutes/multiple.md) выбор нескольких значений
-- [`name`](<./Attrubutes/name (input).md>) имя
-- [`novalidate`](./Attrubutes/novalidate.md) отключает валидацию
-- [`pattern`](./Attrubutes/pattern.md) регулярное выражение
-- [`placeholder`](./Attrubutes/placeholder.md) подсказка ввода
-- [`readonly`](./Attrubutes/readonly.md) только для чтения
-- [`required`](./Attrubutes/required.md) обязательное поле
-- [`rows`](./Attrubutes/rows.md) количество строк textarea
-- [`selected`](./Attrubutes/selected.md) автовыбор option
-- [`size`](./Attrubutes/size.md) ширина поля или число опций
-- [`step`](./Attrubutes/step.md) шаг изменения input
-- [`target`](<./Attrubutes/target (form).md>) отображение после submit
-- [`type <button>`](<./Attrubutes/type (button).md>) тип button
-- [`type <input>`](<./Attrubutes/type (input).md>) тип input
-- [`value`](<./Attrubutes/value (input).md>) значение поля ввода
-- [`wrap`](./Attrubutes/wrap.md) символы переноса в textarea
+- [`accept-charset` (form)](./Attrubutes/accept-charset.md) кодировка формы
+- [`accept` (input)](./Attrubutes/accept.md) тип файла для input file
+- [`action` (form)](./Attrubutes/action.md) обработчик формы
+- [`autocomplete` (form, input, select, textarea)](./Attrubutes/autocomplete.md) автозаполнение
+- [`autofocus` (button, input, select textarea)](./Attrubutes/autofocus.md) фокус при загрузке страницы
+- [`capture` (input)](./Attrubutes/capture.md) вид камеры для input file
+- [`cols` (textarea)](./Attrubutes/cols.md) количество колонок textarea
+- [`defaultchecked` (input)](./Attrubutes/defaultchecked.md) автовыбор input checkbox, radio
+- [`disabled` (button, fieldset, input, optgroup, option, select, textarea)](./Attrubutes/disabled.md) отключает элемент
+- [`enctype` (form)](./Attrubutes/enctype.md) тип шифрования данных
+- [`for` (label, output)](./Attrubutes/for.md) связь с элементом формы
+- [`form` (button, fieldset, input, meter, object, output, select, textarea)](./Attrubutes/form.md) связь с формой
+- [`formaction` (button)](./Attrubutes/formaction.md) переопределяет обработчик формы
+- [`formenctype` (button, input)](./Attrubutes/formenctype.md) переопределяет тип шифрования данных
+- [`formmethod` (button)](./Attrubutes/formmethod.md) переопределяет метод отправки формы
+- [`formnovalidate` (button, input)](./Attrubutes/formnovalidate.md) переопределяет отключение валидации
+- [`formtarget` (button)](./Attrubutes/formtarget.md) переопределяет отображение после submit
+- [`inputmode` (input, textarea)](./Attrubutes/inputmode.md) клавиатура для input
+- [`label` (optgroup, option)](./Attrubutes/label.md) подпись optgroup или option
+- [`list` (input)](./Attrubutes/list.md) ссылка на id datalist
+- [`max` (input, meter, progress)](./Attrubutes/max.md) максимальное значение
+- [`method` (form)](./Attrubutes/method.md) метод отправки формы
+- [`min` (input, meter)](./Attrubutes/min.md) минимальное значение
+- [`minlength, maxlength` (input, textarea)](<./Attrubutes/minlength, maxlength.md>) ограничение символов
+- [`multiple` (input)](./Attrubutes/multiple.md) выбор нескольких значений
+- [`name` (button, form, input, output)](<./Attrubutes/name (input).md>) имя
+- [`novalidate` (form)](./Attrubutes/novalidate.md) отключает валидацию
+- [`pattern` (input)](./Attrubutes/pattern.md) регулярное выражение
+- [`placeholder` (input, textarea)](./Attrubutes/placeholder.md) подсказка ввода
+- [`readonly` (input, textarea)](./Attrubutes/readonly.md) только для чтения
+- [`required` (input, select, textarea)](./Attrubutes/required.md) обязательное поле
+- [`rows` (textarea)](./Attrubutes/rows.md) количество строк textarea
+- [`selected` (option)](./Attrubutes/selected.md) автовыбор option
+- [`size` (input, select)](./Attrubutes/size.md) ширина поля или число опций
+- [`step` (input)](./Attrubutes/step.md) шаг изменения input
+- [`target` (form)](<./Attrubutes/target (form).md>) отображение после submit
+- [`type` (button)](<./Attrubutes/type (button).md>) тип button
+- [`type` (input)](<./Attrubutes/type (input).md>) тип input
+- [`value` (button, input)](<./Attrubutes/value (input).md>) значение поля ввода
+- [`wrap` (textarea)](./Attrubutes/wrap.md) символы переноса в textarea
 
 ## [attrubutes Global](#html)
 

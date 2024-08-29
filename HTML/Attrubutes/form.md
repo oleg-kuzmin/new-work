@@ -4,12 +4,12 @@ Cвязывает контролы внутри тега с формой (буд
 
 ## Применяется к тегам
 
-- [`<object>`](../Tags/object.md) встраивание медиа
-- [`<meter>`](../Tags/meter.md) статический прогресс-бар
-- [`<output>`](../Tags/output.md) результат вычислений, действий
 - [`<button>`](../Tags/button.md) кнопка
-- [`<input>`](../Tags/input.md) поле ввода
 - [`<fieldset>`](../Tags/fieldset.md) группировка элементов
+- [`<input>`](../Tags/input.md) поле ввода
+- [`<meter>`](../Tags/meter.md) статический прогресс-бар
+- [`<object>`](../Tags/object.md) встраивание медиа
+- [`<output>`](../Tags/output.md) результат вычислений, действий
 - [`<select>`](../Tags/select.md) выпадающий список
 - [`<textarea>`](../Tags/textarea.md) многострочное поле ввода
 

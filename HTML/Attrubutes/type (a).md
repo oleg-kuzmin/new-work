@@ -6,9 +6,9 @@
 
 - [`<a>`](../Tags/a.md) ссылка
 - [`<audio>`](../Tags/audio.md) аудио
-- [`<video>`](../Tags/video.md) видео
 - [`<object>`](../Tags/object.md) встраивание медиа
 - [`<source>`](../Tags/source.md) источник медиа
+- [`<video>`](../Tags/video.md) видео
 
 ## Пример
 

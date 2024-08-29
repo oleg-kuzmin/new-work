@@ -17,8 +17,8 @@
 ## Применяется к тегам
 
 - [`<button>`](../Tags/button.md) кнопка
-- [`<input>`](../Tags/input.md) поле ввода
 - [`<fieldset>`](../Tags/fieldset.md) группировка элементов
+- [`<input>`](../Tags/input.md) поле ввода
 - [`<optgroup>`](../Tags/optgroup.md) группирует option
 - [`<option>`](../Tags/option.md) пункт списка
 - [`<select>`](../Tags/select.md) выпадающий список
