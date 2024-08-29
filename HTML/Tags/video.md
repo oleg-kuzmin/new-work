@@ -41,5 +41,5 @@
 - [`poster`](../Attrubutes/poster.md) обложка видео
 - [`preload`](../Attrubutes/preload.md) предварительная загрузка медиа
 - [`src`](../Attrubutes/src.md) url источника
-- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`width, height`](<../Attrubutes/width, height.md>) ширина, высота

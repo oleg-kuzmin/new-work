@@ -33,4 +33,4 @@ _(output: выход, вывод)_
 
 - [`for`](../Attrubutes/for.md) связь с элементом формы
 - [`form`](../Attrubutes/form.md) связь с формой
-- [`name`](<../Attrubutes/name (input).md>) имя
+- [`name`](<../Attrubutes/name (button, form, input, output).md>) имя

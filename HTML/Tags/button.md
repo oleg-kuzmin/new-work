@@ -44,6 +44,6 @@
 - [`formmethod`](../Attrubutes/formmethod.md) переопределяет метод отправки формы
 - [`formnovalidate`](../Attrubutes/formnovalidate.md) переопределяет отключение валидации
 - [`formtarget`](../Attrubutes/formtarget.md) переопределяет отображение после submit
-- [`name`](<../Attrubutes/name (input).md>) имя
+- [`name`](<../Attrubutes/name (button, form, input, output).md>) имя
 - [`type`](<../Attrubutes/type (button).md>) тип button
-- [`value`](<../Attrubutes/value (input).md>) значение поля ввода
+- [`value`](<../Attrubutes/value (button, input).md>) значение поля ввода

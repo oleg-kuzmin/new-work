@@ -32,4 +32,4 @@ _(definition: определение)_
 
 ## Атрибуты
 
-- [`title`](<../Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
+- [`title`](<../Attrubutes/title (abbr, dfn).md>) расшифровка аббревиатуры, термина

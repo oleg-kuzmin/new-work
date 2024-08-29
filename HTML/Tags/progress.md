@@ -57,4 +57,4 @@
 ## Атрибуты
 
 - [`max`](../Attrubutes/max.md) максимальное значение
-- [`value`](<../Attrubutes/value (data).md>) значение
+- [`value`](<../Attrubutes/value (data, li, meter, progress).md>) значение

@@ -33,10 +33,11 @@ _(input: ввод)_
 - [`formenctype`](../Attrubutes/formenctype.md) переопределяет тип шифрования данных
 - [`inputmode`](../Attrubutes/inputmode.md) клавиатура для input
 - [`list`](../Attrubutes/list.md) ссылка на id datalist
-- [`min`](../Attrubutes/min.md) минимальное значение
 - [`max`](../Attrubutes/max.md) максимальное значение
+- [`min`](../Attrubutes/min.md) минимальное значение
 - [`minlength, maxlength`](<../Attrubutes/minlength, maxlength.md>) ограничение символов
 - [`multiple`](../Attrubutes/multiple.md) выбор нескольких значений
+- [`name`](<../Attrubutes/name (button, form, input, output).md>) имя
 - [`pattern`](../Attrubutes/pattern.md) регулярное выражение
 - [`placeholder`](../Attrubutes/placeholder.md) подсказка ввода
 - [`readonly`](../Attrubutes/readonly.md) только для чтения
@@ -44,4 +45,4 @@ _(input: ввод)_
 - [`size`](../Attrubutes/size.md) ширина поля или число опций
 - [`step`](../Attrubutes/step.md) шаг изменения input
 - [`type`](<../Attrubutes/type (input).md>) тип input
-- [`value`](<../Attrubutes/value (input).md>) значение поля ввода
+- [`value`](<../Attrubutes/value (button, input).md>) значение поля ввода

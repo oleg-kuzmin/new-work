@@ -40,4 +40,4 @@ URL-адрес звукового файла задаётся с помощью 
 - [`muted`](../Attrubutes/muted.md) выключает звук медиа
 - [`preload`](../Attrubutes/preload.md) предварительная загрузка медиа
 - [`src`](../Attrubutes/src.md) url источника
-- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime

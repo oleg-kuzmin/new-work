@@ -53,4 +53,4 @@
 - [`media`](../Attrubutes/media.md) медиа-запрос
 - [`src`](../Attrubutes/src.md) url источника
 - [`srcset, sizes`](<../Attrubutes/srcset, sizes.md>) набор изображений
-- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime

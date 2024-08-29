@@ -53,4 +53,4 @@
 - [`low`](../Attrubutes/low.md) низшее значение
 - [`high`](../Attrubutes/high.md) высшее значение
 - [`form`](../Attrubutes/form.md) связь с формой
-- [`value`](<../Attrubutes/value (data).md>) значение
+- [`value`](<../Attrubutes/value (data, li, meter, progress).md>) значение

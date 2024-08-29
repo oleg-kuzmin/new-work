@@ -36,7 +36,7 @@ _(inline frame: встроенная в строку рамка)_
 ## Атрибуты
 
 - [`allowfullscreen`](../Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
-- [`name`](<../Attrubutes/name (object).md>) имя
+- [`name`](<../Attrubutes/name (iframe, map, object).md>) имя
 - [`sandbox`](../Attrubutes/sandbox.md) ограничения фрейма
 - [`src`](../Attrubutes/src.md) url источника
 - [`srcdoc`](../Attrubutes/srcdoc.md) встраивание кода в фрейм

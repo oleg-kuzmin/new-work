@@ -22,4 +22,4 @@ _(map: карта)_
 
 ## Атрибуты
 
-- [`name`](<../Attrubutes/name (object).md>) имя
+- [`name`](<../Attrubutes/name (iframe, map, object).md>) имя

@@ -32,6 +32,6 @@ _(area: область)_
 - [`href`](../Attrubutes/href.md) ссылка на url
 - [`ping`](../Attrubutes/ping.md) post-запрос при переходе по карте
 - [`referrerpolicy`](../Attrubutes/referrerpolicy.md) данные при переходе по карте
-- [`rel`](<../Attrubutes/rel (а).md>) связь ссылки со страницей
+- [`rel`](<../Attrubutes/rel (a, area).md>) связь ссылки со страницей
 - [`shape`](../Attrubutes/shape.md) форма областей карты
-- [`target`](<../Attrubutes/target (a).md>) способ открытия ссылки
+- [`target`](<../Attrubutes/target (a, area, base).md>) способ открытия ссылки

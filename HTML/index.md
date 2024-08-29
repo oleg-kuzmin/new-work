@@ -160,7 +160,7 @@
 - [`media` (link, source, style)](./Attrubutes/media.md) медиа-запрос
 - [`muted` (audio, video)](./Attrubutes/muted.md) выключает звук медиа
 - [`name, content` (meta)](<./Attrubutes/name, content.md>) данные страницы
-- [`name` (iframe, map, object)](<./Attrubutes/name (object).md>) имя
+- [`name` (iframe, map, object)](<./Attrubutes/name (iframe, map, object).md>) имя
 - [`open` (details, dialog)](./Attrubutes/open.md) открывает details, dalog
 - [`optimum` (meter)](./Attrubutes/optimum.md) оптимальное значение
 - [`ping` (area)](./Attrubutes/ping.md) post-запрос при переходе по карте
@@ -171,7 +171,7 @@
 - [`preserveAspectRatio` (svg)](./Attrubutes/preserveAspectRatio.md) пропорции svg
 - [`property, content` (meta)](<./Attrubutes/property, content.md>) open-graph разметка
 - [`referrerpolicy` (area)](./Attrubutes/referrerpolicy.md) данные при переходе по карте
-- [`rel` (a, area)](<./Attrubutes/rel (а).md>) связь ссылки со страницей
+- [`rel` (a, area)](<./Attrubutes/rel (a, area).md>) связь ссылки со страницей
 - [`rel` (link)](<./Attrubutes/rel (link).md>) связь файла со страницей
 - [`reversed` (ol)](./Attrubutes/reversed.md) направление нумерации
 - [`rowspan` (td, th)](./Attrubutes/rowspan.md) объединение ячеек в строках
@@ -183,13 +183,13 @@
 - [`srcset, sizes` (img, source)](<./Attrubutes/srcset, sizes.md>) набор изображений
 - [`start` (ol)](./Attrubutes/start.md) начало нумерации
 - [`stroke` (svg)](./Attrubutes/stroke.md) толщина и цвет обводки svg
-- [`target` (a, area, base)](<./Attrubutes/target (a).md>) способ открытия ссылки
-- [`title` (abbr, dfn)](<./Attrubutes/title (abbr).md>) расшифровка аббревиатуры, термина
-- [`type` (a, audio, object, source, video) ](<./Attrubutes/type (a).md>) тип mime
+- [`target` (a, area, base)](<./Attrubutes/target (a, area, base).md>) способ открытия ссылки
+- [`title` (abbr, dfn)](<./Attrubutes/title (abbr, dfn).md>) расшифровка аббревиатуры, термина
+- [`type` (a, audio, object, source, video) ](<./Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`type` (ol)](<./Attrubutes/type (ol).md>) тип маркеров
 - [`type` (script)](<./Attrubutes/type (script).md>) тип для js-модулей
 - [`usemap` (img, object)](./Attrubutes/usemap.md) id карты
-- [`value` (data, li, meter, progress)](<./Attrubutes/value (data).md>) значение
+- [`value` (data, li, meter, progress)](<./Attrubutes/value (data, li, meter, progress).md>) значение
 - [`viewBox` (svg)](./Attrubutes/viewBox.md) размеры окна отображения svg
 - [`width, height` (canvas, iframe, img, object, svg, video)](<./Attrubutes/width, height.md>) ширина, высота
 
@@ -220,7 +220,7 @@
 - [`min` (input, meter)](./Attrubutes/min.md) минимальное значение
 - [`minlength, maxlength` (input, textarea)](<./Attrubutes/minlength, maxlength.md>) ограничение символов
 - [`multiple` (input)](./Attrubutes/multiple.md) выбор нескольких значений
-- [`name` (button, form, input, output)](<./Attrubutes/name (input).md>) имя
+- [`name` (button, form, input, output)](<./Attrubutes/name (button, form, input, output).md>) имя
 - [`novalidate` (form)](./Attrubutes/novalidate.md) отключает валидацию
 - [`pattern` (input)](./Attrubutes/pattern.md) регулярное выражение
 - [`placeholder` (input, textarea)](./Attrubutes/placeholder.md) подсказка ввода
@@ -233,21 +233,21 @@
 - [`target` (form)](<./Attrubutes/target (form).md>) отображение после submit
 - [`type` (button)](<./Attrubutes/type (button).md>) тип button
 - [`type` (input)](<./Attrubutes/type (input).md>) тип input
-- [`value` (button, input)](<./Attrubutes/value (input).md>) значение поля ввода
+- [`value` (button, input)](<./Attrubutes/value (button, input).md>) значение поля ввода
 - [`wrap` (textarea)](./Attrubutes/wrap.md) символы переноса в textarea
 
 ## [attrubutes Global](#html)
 
-- [`class`](./Attrubutes/class.md) задает класс элементу
-- [`contenteditable`](./Attrubutes/contenteditable.md) делает редактируемым
-- [`data`](<./Attrubutes/data (global).md>) пользовательский атрибут
-- [`hidden`](./Attrubutes/hidden.md) скрывает элемент
-- [`id`](./Attrubutes/id.md) идентификатор
-- [`lang`](./Attrubutes/lang.md) язык
-- [`spellcheck`](./Attrubutes/spellcheck.md) проверка правописания
-- [`style`](./Attrubutes/style.md) стили
-- [`tabindex`](./Attrubutes/tabindex.md) порядок табуляции
-- [`title`](<./Attrubutes/title (global).md>) подсказка при наведении
+- [`class` (global)](./Attrubutes/class.md) задает класс элементу
+- [`contenteditable` (global)](./Attrubutes/contenteditable.md) делает редактируемым
+- [`data` (global)](<./Attrubutes/data (global).md>) пользовательский атрибут
+- [`hidden` (global)](./Attrubutes/hidden.md) скрывает элемент
+- [`id` (global)](./Attrubutes/id.md) идентификатор
+- [`lang` (global)](./Attrubutes/lang.md) язык
+- [`spellcheck` (global)](./Attrubutes/spellcheck.md) проверка правописания
+- [`style` (global)](./Attrubutes/style.md) стили
+- [`tabindex` (global)](./Attrubutes/tabindex.md) порядок табуляции
+- [`title` (global)](<./Attrubutes/title (global).md>) подсказка при наведении
 
 ## [tags Block](#html)
 

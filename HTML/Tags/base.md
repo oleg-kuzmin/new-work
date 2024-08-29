@@ -22,4 +22,4 @@
 ## Атрибуты
 
 - [`href`](../Attrubutes/href.md) ссылка на url
-- [`target`](<../Attrubutes/target (a).md>) способ открытия ссылки
+- [`target`](<../Attrubutes/target (a, area, base).md>) способ открытия ссылки

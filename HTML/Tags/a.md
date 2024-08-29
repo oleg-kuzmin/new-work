@@ -43,6 +43,6 @@ _(anchor: якорь)_
 - [`download`](../Attrubutes/download.md) загрузка файла
 - [`href`](../Attrubutes/href.md) ссылка на url
 - [`hreflang`](../Attrubutes/hreflang.md) язык документа по ссылке
-- [`rel`](<../Attrubutes/rel (а).md>) связь ссылки со страницей
-- [`target`](<../Attrubutes/target (a).md>) способ открытия ссылки
-- [`type`](<../Attrubutes/type (a).md>) тип mime
+- [`rel`](<../Attrubutes/rel (a, area).md>) связь ссылки со страницей
+- [`target`](<../Attrubutes/target (a, area, base).md>) способ открытия ссылки
+- [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime

@@ -31,6 +31,6 @@
 - [`autocomplete`](../Attrubutes/autocomplete.md) автозаполнение
 - [`enctype`](../Attrubutes/enctype.md) тип шифрования данных
 - [`method`](../Attrubutes/method.md) метод отправки формы
-- [`name`](<../Attrubutes/name (input).md>) имя
+- [`name`](<../Attrubutes/name (button, form, input, output).md>) имя
 - [`novalidate`](../Attrubutes/novalidate.md) отключает валидацию
 - [`target`](<../Attrubutes/target (form).md>) отображение после submit
