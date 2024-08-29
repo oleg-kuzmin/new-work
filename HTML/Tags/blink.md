@@ -1,4 +1,4 @@
-# [`<blink>`](../index.md)
+# [`<blink> (DEPRECATED)`](../index.md)
 
 _(blink: мигание, мерцание)_
 

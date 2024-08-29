@@ -1,4 +1,4 @@
-# [`<strike>`](../index.md)
+# [`<strike> (DEPRECATED)`](../index.md)
 
 _(strikethrough: зачеркнутый)_
 

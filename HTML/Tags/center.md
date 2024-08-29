@@ -1,4 +1,4 @@
-# [`<center>`](../index.md)
+# [`<center> (DEPRECATED)`](../index.md)
 
 _(center: центр, середина)_
 

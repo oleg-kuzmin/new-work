@@ -1,4 +1,4 @@
-# [`<acronym>`](../index.md)
+# [`<acronym> (DEPRECATED)`](../index.md)
 
 _(acronym: акроним)_
 

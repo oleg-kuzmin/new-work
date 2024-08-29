@@ -1,4 +1,4 @@
-# [`<nobr>`](../index.md)
+# [`<nobr> (DEPRECATED)`](../index.md)
 
 _(no line break: нет переноса строки)_
 

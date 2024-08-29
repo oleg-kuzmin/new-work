@@ -1,4 +1,4 @@
-# [`<font>`](../index.md)
+# [`<font> (DEPRECATED)`](../index.md)
 
 _(font: шрифт)_
 

@@ -1,4 +1,4 @@
-# [`<applet>`](../index.md)
+# [`<applet> (DEPRECATED)`](../index.md)
 
 _(application let: приложение)_
 

@@ -1,4 +1,4 @@
-# [`<embed>`](../index.md)
+# [`<embed> (DEPRECATED)`](../index.md)
 
 _(embed: вставить, внедрить)_
 

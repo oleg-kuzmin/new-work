@@ -4,11 +4,11 @@
 
 ## Теги
 
-- [Head](#tags-head) / [Block](#tags-block) / [Inline](#tags-inline) / [Form](#tags-form) / [Media](#tags-media) / [Ui](#tags-ui) / [Table](#tags-table) / [Deprecated](#tags-deprecated)
+- [Head](#head) / [Block](#block) / [Inline](#inline) / [Form](#form) / [Media](#media) / [Ui](#ui) / [Table](#table) / [Deprecated](#deprecated)
 
 ## Атрибуты
 
-- [Base](#attrubutes-base) / [Form](#attrubutes-form) / [Global](#attrubutes-global)
+- [Basic](#basic) / [Form](#form-1) / [Global](#global)
 
 ## Все теги
 
@@ -129,7 +129,7 @@
 - [`Семантика текст`](<./Общее/Семантика текст.md>)
 - [`Синтаксис markdown`](<./Общее/Синтаксис markdown.md>)
 
-## [attrubutes Base](#html)
+## [Basic](#html)
 
 - [`allowfullscreen` (iframe)](./Attrubutes/allowfullscreen.md) полноэкранный режим фрейма
 - [`alt` (area, img)](./Attrubutes/alt.md) альтернативный текст
@@ -193,7 +193,7 @@
 - [`viewBox` (svg)](./Attrubutes/viewBox.md) размеры окна отображения svg
 - [`width, height` (canvas, iframe, img, object, svg, video)](<./Attrubutes/width, height.md>) ширина, высота
 
-## [attrubutes Form](#html)
+## [Form](#html)
 
 - [`accept-charset` (form)](./Attrubutes/accept-charset.md) кодировка формы
 - [`accept` (input)](./Attrubutes/accept.md) тип файла для input file
@@ -236,7 +236,7 @@
 - [`value` (button, input)](<./Attrubutes/value (button, input).md>) значение поля ввода
 - [`wrap` (textarea)](./Attrubutes/wrap.md) символы переноса в textarea
 
-## [attrubutes Global](#html)
+## [Global](#html)
 
 - [`class` (global)](./Attrubutes/class.md) задает класс элементу
 - [`contenteditable` (global)](./Attrubutes/contenteditable.md) делает редактируемым
@@ -249,7 +249,18 @@
 - [`tabindex` (global)](./Attrubutes/tabindex.md) порядок табуляции
 - [`title` (global)](<./Attrubutes/title (global).md>) подсказка при наведении
 
-## [tags Block](#html)
+## [Head](#html)
+
+- [`<base>`](./Tags/base.md) основной url-адрес
+- [`<head>`](./Tags/head.md) основная информация
+- [`<link>`](./Tags/link.md) внешний файл
+- [`<meta>`](./Tags/meta.md) метаданные
+- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
+- [`<script>`](./Tags/script.md) добавляет скрипт
+- [`<style>`](./Tags/style.md) стили
+- [`<title>`](./Tags/title.md) заголовок страницы
+
+## [Block](#html)
 
 - [`<address>`](./Tags/address.md) контактная информация
 - [`<article>`](./Tags/article.md) независимый раздел
@@ -276,49 +287,15 @@
 - [`<ul>`](./Tags/ul.md) неупорядоченный список
   - [`<li>`](./Tags/li.md) элемент списка
 
-## [tags Deprecated](#html)
-
-- [`<acronym>`](./Tags/acronym.md) вид аббревиатуры
-- [`<applet>`](./Tags/applet.md) встраивание java-приложения
-- [`<bgsound>`](./Tags/bgsound.md) фоновая музыка
-- [`<blink>`](./Tags/blink.md) мигающий текст
-- [`<center>`](./Tags/center.md) центрирование контента
-- [`<embed>`](./Tags/embed.md) встраивание мультимедиа
-- [`<font>`](./Tags/font.md) стилизация текста
-- [`<marquee>`](./Tags/marquee.md) бегущая строка
-- [`<nobr>`](./Tags/nobr.md) неразрывный текст
-- [`<strike>`](./Tags/strike.md) зачеркнутый текст
-
-## [tags Form](#html)
-
-- [`<button>`](./Tags/button.md) кнопка
-- [`<datalist>`](./Tags/datalist.md) список подсказок для input
-  - [`<option>`](./Tags/option.md) пункт списка
-- [`<fieldset>`](./Tags/fieldset.md) группировка элементов
-  - [`<legend>`](./Tags/legend.md) заголовок fieldset
-- [`<form>`](./Tags/form.md) форма
-- [`<input>`](./Tags/input.md) поле ввода
-- [`<label>`](./Tags/label.md) ярлык к элементу формы
-- [`<search>`](./Tags/search.md) сематическая секция для поиска
-- [`<select>`](./Tags/select.md) выпадающий список
-  - [`<optgroup>`](./Tags/optgroup.md) группирует option
-    - [`<option>`](./Tags/option.md) пункт списка
-- [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
-
-## [tags Head](#html)
-
-- [`<base>`](./Tags/base.md) основной url-адрес
-- [`<head>`](./Tags/head.md) основная информация
-- [`<link>`](./Tags/link.md) внешний файл
-- [`<meta>`](./Tags/meta.md) метаданные
-- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
-- [`<script>`](./Tags/script.md) добавляет скрипт
-- [`<style>`](./Tags/style.md) стили
-- [`<title>`](./Tags/title.md) заголовок страницы
-
-## [tags Inline](#html)
+## [Inline](#html)
 
 - [`<a>`](./Tags/a.md) ссылка
+  - [`download`](./Attrubutes/download.md) загрузка файла
+  - [`href`](./Attrubutes/href.md) ссылка на url
+  - [`hreflang`](./Attrubutes/hreflang.md) язык документа по ссылке
+  - [`rel`](<./Attrubutes/rel (a, area).md>) связь ссылки со страницей
+  - [`target`](<./Attrubutes/target (a, area, base).md>) способ открытия ссылки
+  - [`type`](<./Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`<abbr>`](./Tags/abbr.md) аббревиатура
 - [`<b>`](./Tags/b.md) важный текст
 - [`<bdi>`](./Tags/bdi.md) изоляция направления текста
@@ -343,7 +320,23 @@
 - [`<u>`](./Tags/u.md) текст с ошибкой
 - [`<var>`](./Tags/var.md) переменная
 
-## [tags Media](#html)
+## [Form](#html)
+
+- [`<button>`](./Tags/button.md) кнопка
+- [`<datalist>`](./Tags/datalist.md) список подсказок для input
+  - [`<option>`](./Tags/option.md) пункт списка
+- [`<fieldset>`](./Tags/fieldset.md) группировка элементов
+  - [`<legend>`](./Tags/legend.md) заголовок fieldset
+- [`<form>`](./Tags/form.md) форма
+- [`<input>`](./Tags/input.md) поле ввода
+- [`<label>`](./Tags/label.md) ярлык к элементу формы
+- [`<search>`](./Tags/search.md) сематическая секция для поиска
+- [`<select>`](./Tags/select.md) выпадающий список
+  - [`<optgroup>`](./Tags/optgroup.md) группирует option
+    - [`<option>`](./Tags/option.md) пункт списка
+- [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
+
+## [Media](#html)
 
 - [`<audio>`](./Tags/audio.md) аудио
   - [`<source>`](./Tags/source.md) источник медиа
@@ -362,7 +355,20 @@
 - [`<video>`](./Tags/video.md) видео
   - [`<source>`](./Tags/source.md) источник медиа
 
-## [tags Table](#html)
+## [Ui](#html)
+
+- [`<details>`](./Tags/details.md) аккордеон
+  - [`<summary>`](./Tags/summary.md) заголовок аккордеона
+- [`<dialog>`](./Tags/dialog.md) модальное окно
+- [`<kbd>`](./Tags/kbd.md) подсказка, образец ввода
+- [`<meter>`](./Tags/meter.md) статический прогресс-бар
+- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
+- [`<output>`](./Tags/output.md) результат вычислений, действий
+- [`<progress>`](./Tags/progress.md) динамический прогресс-бар
+- [`<samp>`](./Tags/samp.md) подсказка, образец вывода
+- [`<template>`](./Tags/template.md) шаблон
+
+## [Table](#html)
 
 - [`<table>`](./Tags/table.md) таблица
   - [`<caption>`](./Tags/caption.md) подпись к таблице
@@ -379,15 +385,15 @@
       - [`<th>`](./Tags/th.md) заголовок
       - [`<td>`](./Tags/td.md) ячейка
 
-## [tags Ui](#html)
+## [Deprecated](#html)
 
-- [`<details>`](./Tags/details.md) аккордеон
-  - [`<summary>`](./Tags/summary.md) заголовок аккордеона
-- [`<dialog>`](./Tags/dialog.md) модальное окно
-- [`<kbd>`](./Tags/kbd.md) подсказка, образец ввода
-- [`<meter>`](./Tags/meter.md) статический прогресс-бар
-- [`<noscript>`](./Tags/noscript.md) контент при отключенном js
-- [`<output>`](./Tags/output.md) результат вычислений, действий
-- [`<progress>`](./Tags/progress.md) динамический прогресс-бар
-- [`<samp>`](./Tags/samp.md) подсказка, образец вывода
-- [`<template>`](./Tags/template.md) шаблон
+- [`<acronym>`](./Tags/acronym.md) вид аббревиатуры
+- [`<applet>`](./Tags/applet.md) встраивание java-приложения
+- [`<bgsound>`](./Tags/bgsound.md) фоновая музыка
+- [`<blink>`](./Tags/blink.md) мигающий текст
+- [`<center>`](./Tags/center.md) центрирование контента
+- [`<embed>`](./Tags/embed.md) встраивание мультимедиа
+- [`<font>`](./Tags/font.md) стилизация текста
+- [`<marquee>`](./Tags/marquee.md) бегущая строка
+- [`<nobr>`](./Tags/nobr.md) неразрывный текст
+- [`<strike>`](./Tags/strike.md) зачеркнутый текст

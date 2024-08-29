@@ -1,4 +1,4 @@
-# [`<bgsound>`](../index.md)
+# [`<bgsound> (DEPRECATED)`](../index.md)
 
 _(background sound: фоновая музыка)_
 

@@ -1,4 +1,4 @@
-# [`<marquee>`](../index.md)
+# [`<marquee> (DEPRECATED)`](../index.md)
 
 _(marquee: бегущая строка)_
 
