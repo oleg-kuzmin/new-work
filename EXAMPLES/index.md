@@ -1,4 +1,4 @@
-# [`Solutions`](../index.md)
+# [`Examples`](../index.md)
 
 ## Figma
 

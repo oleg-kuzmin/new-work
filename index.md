@@ -8,5 +8,5 @@
 - [TERMINAL](./TERMINAL/index.md)
 - [LIBRARIES](./LIBRARIES/index.md) / [WEBPACK](./WEBPACK/index.md)
 - [BACKEND](./BACKEND/index.md) / [NODE](./NODE/index.md)
-- [SOLUTIONS](./SOLUTIONS/index.md) / [TASKS](./TASKS/index.md)
+- [EXAMPLES](./EXAMPLES/index.md) / [TASKS](./TASKS/index.md)
 - [NOTES](./notes.md)
