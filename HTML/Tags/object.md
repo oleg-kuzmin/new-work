@@ -24,9 +24,9 @@
 
 ## Атрибуты
 
-- [`data`](<../Attrubutes/data (object).md>) ссылка на url медиа
+- [`data`](<../Attrubutes/data (object).md>) ссылка на url
 - [`form`](../Attrubutes/form.md) связь с формой
-- [`name`](<../Attrubutes/name (iframe, map, object).md>) имя
+- [`name`](<../Attrubutes/name (iframe, map, object).md>) имя для связи
 - [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`usemap`](../Attrubutes/usemap.md) id карты
 - [`width, height`](<../Attrubutes/width, height.md>) ширина, высота

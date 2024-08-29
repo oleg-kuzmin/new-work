@@ -24,4 +24,4 @@ _(abbreviation: аббревиатура)_
 
 ## Атрибуты
 
-- [`title`](<../Attrubutes/title (abbr, dfn).md>) расшифровка аббревиатуры, термина
+- [`title`](<../Attrubutes/title (abbr, dfn).md>) расшифровка термина

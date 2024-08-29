@@ -28,7 +28,7 @@ https://inkscape.org/
 
 ## Атрибуты
 
-- [`fill`](../Attrubutes/fill.md) цвет заливки svg
-- [`preserveAspectRatio`](../Attrubutes/preserveAspectRatio.md) пропорции svg
-- [`stroke`](../Attrubutes/stroke.md) толщина и цвет обводки svg
-- [`viewBox`](../Attrubutes/viewBox.md) размеры окна отображения svg
+- [`fill`](../Attrubutes/fill.md) цвет заливки
+- [`preserveAspectRatio`](../Attrubutes/preserveAspectRatio.md) пропорции
+- [`stroke`](../Attrubutes/stroke.md) толщина и цвет обводки
+- [`viewBox`](../Attrubutes/viewBox.md) размеры окна отображения

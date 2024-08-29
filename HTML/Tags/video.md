@@ -32,14 +32,14 @@
 
 ## Атрибуты
 
-- [`autoplay`](../Attrubutes/autoplay.md) автопроигрывание медиа
-- [`buffered`](../Attrubutes/buffered.md) информация о загрузке видео
-- [`controls`](../Attrubutes/controls.md) элементы управления медиа
+- [`autoplay`](../Attrubutes/autoplay.md) автопроигрывание
+- [`buffered`](../Attrubutes/buffered.md) информация о загрузке
+- [`controls`](../Attrubutes/controls.md) элементы управления
 - [`loop`](../Attrubutes/loop.md) зацикливание
-- [`muted`](../Attrubutes/muted.md) выключает звук медиа
-- [`playsinline`](../Attrubutes/playsinline.md) полный экран видео
-- [`poster`](../Attrubutes/poster.md) обложка видео
-- [`preload`](../Attrubutes/preload.md) предварительная загрузка медиа
+- [`muted`](../Attrubutes/muted.md) выключает звук
+- [`playsinline`](../Attrubutes/playsinline.md) полный экран
+- [`poster`](../Attrubutes/poster.md) обложка
+- [`preload`](../Attrubutes/preload.md) предварительная загрузка
 - [`src`](../Attrubutes/src.md) url источника
 - [`type`](<../Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`width, height`](<../Attrubutes/width, height.md>) ширина, высота

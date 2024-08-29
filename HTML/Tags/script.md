@@ -18,7 +18,7 @@
 
 ## Атрибуты
 
-- [`async`](../Attrubutes/async.md) запуск асинхронно
-- [`defer`](../Attrubutes/defer.md) запуск после загрузки страницы
+- [`async`](../Attrubutes/async.md) асинхронный запуск скрипта
+- [`defer`](../Attrubutes/defer.md) запуск скрипта после загрузки страницы
 - [`src`](../Attrubutes/src.md) url источника
-- [`type`](<../Attrubutes/type (script).md>) тип для js-модулей
+- [`type`](<../Attrubutes/type (script).md>) тип скрипта для js-модулей

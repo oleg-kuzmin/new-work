@@ -26,5 +26,5 @@ _(option: вариант, выбор)_
 ## Атрибуты
 
 - [`disabled`](../Attrubutes/disabled.md) отключает элемент
-- [`label`](../Attrubutes/label.md) подпись optgroup или option
-- [`selected`](../Attrubutes/selected.md) автовыбор option
+- [`label`](../Attrubutes/label.md) подпись
+- [`selected`](../Attrubutes/selected.md) автовыбор

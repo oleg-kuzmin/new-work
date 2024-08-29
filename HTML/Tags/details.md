@@ -39,4 +39,4 @@ _(details: подробности)_
 
 ## Атрибуты
 
-- [`open`](../Attrubutes/open.md) открывает details, dialog
+- [`open`](../Attrubutes/open.md) открывает окно

@@ -29,5 +29,5 @@ _(table data: данные таблицы)_
 
 ## Атрибуты
 
-- [`colspan`](../Attrubutes/colspan.md) объединение ячеек в столбцах
-- [`rowspan`](../Attrubutes/rowspan.md) объединение ячеек в строках
+- [`colspan`](../Attrubutes/colspan.md) объединение ячеек по горизонтали
+- [`rowspan`](../Attrubutes/rowspan.md) объединение ячеек по вертикали

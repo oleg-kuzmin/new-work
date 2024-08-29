@@ -23,16 +23,16 @@ _(input: ввод)_
 
 ## Атрибуты
 
-- [`accept`](../Attrubutes/accept.md) тип файла для input file
+- [`accept` (input type="file")](../Attrubutes/accept.md) тип файла
 - [`autocomplete`](../Attrubutes/autocomplete.md) автозаполнени
 - [`autofocus`](../Attrubutes/autofocus.md) фокус при загрузке страницы
-- [`capture`](../Attrubutes/capture.md) вид камеры для input file
-- [`defaultchecked`](../Attrubutes/defaultchecked.md) автовыбор checkbox, radio
+- [`capture` (input type="file")](../Attrubutes/capture.md) вид камеры
+- [`defaultchecked` (input type="checkbox, radio")](../Attrubutes/defaultchecked.md) автовыбор
 - [`disabled`](../Attrubutes/disabled.md) отключает элемент
 - [`form`](../Attrubutes/form.md) связь с формой
 - [`formenctype`](../Attrubutes/formenctype.md) переопределяет тип шифрования данных
-- [`inputmode`](../Attrubutes/inputmode.md) клавиатура для input
-- [`list`](../Attrubutes/list.md) ссылка на id datalist
+- [`inputmode`](../Attrubutes/inputmode.md) клавиатура для ввода
+- [`list`](../Attrubutes/list.md) ссылка на datalist
 - [`max`](../Attrubutes/max.md) максимальное значение
 - [`min`](../Attrubutes/min.md) минимальное значение
 - [`minlength, maxlength`](<../Attrubutes/minlength, maxlength.md>) ограничение символов
@@ -43,6 +43,6 @@ _(input: ввод)_
 - [`readonly`](../Attrubutes/readonly.md) только для чтения
 - [`required`](../Attrubutes/required.md) обязательное поле
 - [`size`](../Attrubutes/size.md) ширина поля или число опций
-- [`step`](../Attrubutes/step.md) шаг изменения input
-- [`type`](<../Attrubutes/type (input).md>) тип input
+- [`step`](../Attrubutes/step.md) шаг изменения
+- [`type`](<../Attrubutes/type (input).md>) тип
 - [`value`](<../Attrubutes/value (button, input).md>) значение поля ввода

@@ -32,4 +32,4 @@
 ## Атрибуты
 
 - [`disabled`](../Attrubutes/disabled.md) отключает элемент
-- [`label`](../Attrubutes/label.md) подпись optgroup или option
+- [`label`](../Attrubutes/label.md) подпись
