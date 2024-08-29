@@ -2,15 +2,13 @@
 
 - [Общее](#общее)
 
-## Теги
-
-- [Head](#head) / [Block](#block) / [Inline](#inline) / [Form](#form) / [Media](#media) / [Ui](#ui) / [Table](#table) / [Deprecated](#deprecated)
-
 ## Атрибуты
 
-- [Basic](#basic) / [Form](#form-1) / [Global](#global)
+- [Basic](#basic) / [Form](#form) / [Global](#global)
 
-## Все теги
+## Теги
+
+- [Head](#head) / [Block](#block) / [Inline](#inline) / [Form](#form-1) / [Media](#media) / [Ui](#ui) / [Table](#table) / [Deprecated](#deprecated)
 
 [`<a>`](./Tags/a.md)
 [`<abbr>`](./Tags/abbr.md)
