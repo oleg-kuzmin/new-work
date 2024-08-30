@@ -1,6 +1,5 @@
 # Оглавление
 
-- [VSCODE](./VSCODE/index.md)
 - [DOCUMENTATION](./DOCUMENTATION/index.md)
 - [HTML](./HTML/index.md) / [CSS](./CSS/index.md) / [JAVASCRIPT](./JAVASCRIPT/index.md) / [TYPESCRIPT](./TYPESCRIPT/index.md)
 - [REACT](./REACT/index.md) / [REDUX](./REDUX/index.md)
@@ -9,4 +8,5 @@
 - [LIBRARIES](./LIBRARIES/index.md) / [WEBPACK](./WEBPACK/index.md)
 - [BACKEND](./BACKEND/index.md) / [NODE](./NODE/index.md)
 - [EXAMPLES](./EXAMPLES/index.md) / [TASKS](./TASKS/index.md)
+- [VSCODE](./VSCODE/index.md)
 - [NOTES](./notes.md)
