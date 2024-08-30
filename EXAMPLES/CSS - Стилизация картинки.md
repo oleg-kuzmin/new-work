@@ -10,8 +10,8 @@
 
 ```scss
 img {
-  max-width: 100%; // применится к картинке
-  height: auto; // применится к картинке
+  max-width: 100%;
+  height: auto;
 }
 ```
 
