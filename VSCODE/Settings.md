@@ -4,161 +4,8 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
 ```json
 {
-  // настройка (Better Comments)
-  "better-comments.tags": [
-    {
-      "tag": "#",
-      "color": "#e3d50e",
-      "strikethrough": false,
-      "underline": true,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#87d49d", // "#87d49d" || "#98C379"
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    }
-  ],
-
-  // выключает хлебные крошки
-  "breadcrumbs.enabled": false,
-
-  // отображает путь к файлу в навигации хлебных крошек
-  "breadcrumbs.filePath": "on",
-
-  // показывает классы в навигации хлебных крошек
-  "breadcrumbs.showClasses": false,
-
-  // отключает значки в навигации хлебных крошек
-  "breadcrumbs.symbolPath": "off",
-
-  // отключает волнистую подсветку пустых css
-  "css.lint.emptyRules": "ignore",
-
-  // стиль курсора
-  "editor.cursorStyle": "line",
-
-  // форматировщик по умолчанию
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  // форматировщик для файлов .code-snippets
-  "[snippets]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-
-  // шрифт редактора
-  "editor.fontFamily": "Consolas",
-
-  // размер шрифта редактора
-  "editor.fontSize": 18,
-
-  // автоформатирование при сохранении
-  "editor.formatOnSave": false,
-
-  // точки остановки слева для отладки
-  "editor.glyphMargin": true,
-
-  // переход к определению через ctrl
-  // "editor.gotoLocation.multipleDefinitions": "goto",
-
-  // вертикальные направляющие линии от скобок тем же цветом, что и скобки
-  "editor.guides.bracketPairs": false,
-
-  // вертикальные линии отступов
-  "editor.guides.indentation": true,
-
-  // метка положения внутри вертикального скролбара
-  "editor.hideCursorInOverviewRuler": true,
-
-  // пробелы при табуляции
-  "editor.insertSpaces": true,
-
-  // автоматическое переименование открывающего и закрывающего тегов
-  "editor.linkedEditing": true,
-
-  // дополнительное выделение скобок
-  "editor.matchBrackets": "never",
-
-  // мини-карта
-  "editor.minimap.enabled": false,
-
-  // скорость прокрутки мыши
-  "editor.mouseWheelScrollSensitivity": 2,
-
-  // изменение масштаба интерфейса при скроле колесиком
-  "editor.mouseWheelZoom": false,
-
-  // подсветка слов
-  "editor.occurrencesHighlight": "off",
-
-  // граница ползунка вертикального скроллбара
-  "editor.overviewRulerBorder": true,
-
-  // горизонтальная линия текущей строки
-  "editor.renderLineHighlight": "none",
-
-  // ползунок вертикального скроллбара
-  "editor.scrollbar.vertical": "visible",
-
-  // размер вертикального скроллбара
-  "editor.scrollbar.verticalScrollbarSize": 12,
-
-  // перечеркивание устаревших переменных, в том числе name
-  "editor.showDeprecated": false,
-
-  // плавный скролл
-  "editor.smoothScrolling": true,
-
   // снипеты в подсказках emmet
   "editor.snippetSuggestions": "inline",
-
-  // прилипание верхней строчки объявления функции
-  "editor.stickyScroll.enabled": false,
-
-  // размер табуляции
-  "editor.tabSize": 2,
 
   // Кастомная настройка цветов
   "editor.tokenColorCustomizations": {
@@ -196,20 +43,11 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // подтверждение вставки файлов
   "explorer.confirmPasteNative": false,
 
-  // автоматическое сохранение файлов
-  "files.autoSave": "afterDelay",
-
   // удаление лишних пробелов при сохранении
   "files.trimTrailingWhitespace": false,
 
   // переодическое использование git fetch
   "git.autofetch": false,
-
-  // подтверждение синхронизации c github
-  "git.confirmSync": false,
-
-  // добавление файлов в stage при коммите
-  "git.enableSmartCommit": true,
 
   // никогда не открывать репозиторий
   "git.openRepositoryInParentFolders": "never",
@@ -320,9 +158,6 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     }
   },
 
-  // цветовая тема по умолчанию
-  "workbench.colorTheme": "One Dark Pro",
-
   // отключает сохранение разделения экрана при закрытии вкладки
   "workbench.editor.closeEmptyGroups": true,
 
@@ -357,9 +192,6 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
 
   // иконки интерфейса проводника по умолчанию
   "workbench.productIconTheme": "material-product-icons",
-
-  // что будет отображаться при запуске
-  "workbench.startupEditor": "none",
 
   // прилипание верхней строчки проводника
   "workbench.tree.enableStickyScroll": false,

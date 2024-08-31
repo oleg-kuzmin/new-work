@@ -61,18 +61,6 @@ file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
     "command": "explorer.newFile"
   },
   {
-    // Удаление - Форматировать документ
-    "key": "shift+alt+f",
-    "command": "-editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-  },
-  {
-    // Добавление - Форматировать документ
-    "key": "ctrl+s",
-    "command": "editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-  },
-  {
     // Удаление - Live Server: Open with Live Server
     "key": "alt+l alt+o",
     "command": "-extension.liveServer.goOnline",
@@ -144,6 +132,22 @@ file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
     // Добавление - Live Server: Change Live Server workSpace
     "key": "ctrl+numpad9",
     "command": "extension.liveServer.changeWorkspace"
+  },
+  {
+    // Удаление - Форматировать документ
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    // Добавление - Форматировать документ
+    "key": "ctrl+s",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+numpad9",
+    "command": "editor.action.sortLinesAscending"
   }
 ]
 ```
