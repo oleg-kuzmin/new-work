@@ -4,7 +4,6 @@
 
 ```json
 {
-  // настройка (Live Sass Compiler)
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",

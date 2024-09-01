@@ -1,0 +1,185 @@
+# [`Файл settings.json`](./index.md)
+
+file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
+
+## Настройка
+
+```json
+{
+  "breadcrumbs.enabled": false,
+  "css.hover.references": false,
+  "css.lint.emptyRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Consolas",
+  "editor.fontSize": 18,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.hover.enabled": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelScrollSensitivity": 1.6,
+  "editor.occurrencesHighlight": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.showDeprecated": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.showWords": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          // "support.type.primitive.ts",
+          // "support.type.primitive.tsx",
+          // "support.type.builtin.ts",
+          // "entity.name.type",
+          // "entity.name.type.module.tsx"
+        ],
+        "settings": {
+          "foreground": "#4EC9B0"
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "html.hover.references": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "scss.hover.references": false,
+  "scss.lint.emptyRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "window.confirmSaveUntitledWorkspace": false,
+  "window.zoomLevel": 0.2,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorCustomizations": {
+    "editorGutter.modifiedBackground": "#0000",
+    "editorGutter.addedBackground": "#0000",
+    "editorGutter.deletedBackground": "#0000"
+  },
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.restoreViewState": false,
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "none",
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  // Better Comments
+  "better-comments.tags": [
+    {
+      "tag": "#",
+      "color": "#e3d50e",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#87d49d",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Markdown Preview Github Styling
+  "markdown-preview-github-styles.colorTheme": "dark",
+  "markdown-preview-github-styles.darkTheme": "dark_dimmed",
+
+  // Material Icon Theme
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.associations": {
+    "git": "github",
+    "gitbash": "vm",
+    "packages": "webpack",
+    "vite": "config",
+    "terminal": "desktop",
+    "redux": "redux-actions"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+
+  // Prettier
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 120,
+  "prettier.requireConfig": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+
+  // Vscode Google Translate
+  "vscodeGoogleTranslate.preferredLanguage": "Russian"
+}
+```

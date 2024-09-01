@@ -1,8 +1,6 @@
 # [`Better Comments`](./index.md)
 
-Настройка расширения Better Comments.
-
-## `better-comments.tags`
+## Настройка
 
 ```json
 {

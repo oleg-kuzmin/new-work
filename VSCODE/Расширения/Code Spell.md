@@ -4,7 +4,6 @@
 
 ```json
 {
-  // Проверка орфографии (Code Spell)
   "cSpell.language": "en",
   "cSpell.enabledLanguageIds": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }
