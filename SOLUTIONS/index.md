@@ -16,3 +16,7 @@
 
 - [`TS REACT - Типизация children`](<./TS REACT - Типизация children.md>)
 - [`TS REACT - Типизация useRef`](<./TS REACT - Типизация useRef.md>)
+
+## VSCODE
+
+- [`VSCODE - Не запускается Live Server`](<./VSCODE - Не запускается Live Server.md>)
