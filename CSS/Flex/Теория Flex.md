@@ -9,6 +9,10 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.item {
+  order: 0;
+}
 ```
 
 ## flex-container

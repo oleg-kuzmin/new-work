@@ -124,8 +124,8 @@
   - [`flex-direction`](./Flex/flex-direction.md) направление
   - [`flex-wrap`](./Flex/flex-wrap.md) перенос
 - [`place-content`](./Flex/place-content.md) выравнивание строк и элементов
-  - [`align-content`](./Flex/align-content.md) выравнивание строк поперечная ось
   - [`justify-content`](./Flex/justify-content.md) выравнивание элементов основная ось
+  - [`align-content`](./Flex/align-content.md) выравнивание строк поперечная ось
 - [`align-items`](./Flex/align-items.md) выравнивание элементов поперечная ось
 - [`gap`](./Flex/gap.md) отступы
   - [`row-gap`](./Flex/row-gap.md) отступы между строками
