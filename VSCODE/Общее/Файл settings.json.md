@@ -14,7 +14,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   "editor.fontFamily": "Consolas",
   "editor.fontSize": 18,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": false,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
@@ -165,7 +165,9 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     "packages": "webpack",
     "vite": "config",
     "terminal": "desktop",
-    "redux": "redux-actions"
+    "redux": "redux-actions",
+    "node": "node",
+    "solutions": "examples"
   },
   "material-icon-theme.hidesExplorerArrows": true,
 
