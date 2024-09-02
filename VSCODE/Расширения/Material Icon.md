@@ -14,7 +14,9 @@
     "packages": "webpack",
     "vite": "config",
     "terminal": "desktop",
-    "redux": "redux-actions"
+    "redux": "redux-actions",
+    "node": "node",
+    "solutions": "examples"
   },
 
   // Скрытие стрелок возле папок в проводнике.
