@@ -131,7 +131,7 @@
   - [`row-gap`](./Flex/row-gap.md) отступы между строками
   - [`column-gap`](./Flex/column-gap.md) отступы между колонками
 
-### [element](#css)
+### [items](#css)
 
 - [`align-self`](./Flex/align-self.md) выравнивание одного элемента поперечная ось
 - [`order`](./Flex/order.md) порядок отображения элемента
