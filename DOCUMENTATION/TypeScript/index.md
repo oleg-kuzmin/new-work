@@ -20,3 +20,5 @@
 - [The TypeScript Handbook](<./2. Handbook/1. The TypeScript Handbook.md>)
 - [The Basics](<./2. Handbook/2. The Basics.md>)
 - [Everyday Types](<./2. Handbook/3. Everyday Types.md>)
+- [Narrowing](<./2. Handbook/4. Narrowing.md>)
+- [More on Functions](<./2. Handbook/5. More on Functions.md>)
