@@ -1,4 +1,4 @@
-# [`Markdown Preview Github Styling`](./index.md)
+# [`Markdown Preview Github Styling`](../index.md)
 
 ## Настройка
 

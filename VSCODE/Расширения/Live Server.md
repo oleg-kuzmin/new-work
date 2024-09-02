@@ -1,4 +1,4 @@
-# [`Live Server`](./index.md)
+# [`Live Server`](../index.md)
 
 ## Настройка
 

@@ -1,4 +1,4 @@
-# [`Live Sass Compiler`](./index.md)
+# [`Live Sass Compiler`](../index.md)
 
 ## Настройка
 

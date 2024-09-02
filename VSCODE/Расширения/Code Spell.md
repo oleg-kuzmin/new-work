@@ -1,4 +1,4 @@
-# [`Code Spell`](./index.md)
+# [`Code Spell`](../index.md)
 
 ## Настройка
 

@@ -1,4 +1,4 @@
-# [`Material Product Icons`](./index.md)
+# [`Material Product Icons`](../index.md)
 
 ## Настройка
 

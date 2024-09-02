@@ -1,4 +1,4 @@
-# [`Vscode Google Translate`](./index.md)
+# [`Vscode Google Translate`](../index.md)
 
 ## Настройка
 

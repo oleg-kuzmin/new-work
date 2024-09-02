@@ -1,4 +1,4 @@
-# [`Markdown Preview`](./index.md)
+# [`Markdown Preview`](../index.md)
 
 ## Настройка
 

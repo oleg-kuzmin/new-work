@@ -1,4 +1,4 @@
-# [`Better Comments`](./index.md)
+# [`Better Comments`](../index.md)
 
 ## Настройка
 

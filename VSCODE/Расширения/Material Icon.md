@@ -1,4 +1,4 @@
-# [`Material Icon Theme`](./index.md)
+# [`Material Icon Theme`](../index.md)
 
 ## Настройка
 

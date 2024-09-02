@@ -1,13 +1,27 @@
 # [`Vscode`](../index.md)
 
-- [`Горячие клавиши`](<./Горячие клавиши.md>)
-- [`Полное удаление`](<./Полное удаление.md>)
-- [`Пользовательские snippets`](<./Пользовательские snippets.md>)
-- [`Расширения`](./Расширения.md)
-- [`Стилизация`](./Стилизация.md)
-- [`Цветовая тема Kimbie Dark`](<./Цветовая тема Kimbie Dark.md>)
-- [`Code Spell`](<./Code Spell.md>)
-- [`keybindings.json`](./keybindings.md)
-- [`Live Sass Compiler`](<./Live Sass Compiler.md>)
-- [`Material Icon Theme`](<./Material Icons Theme.md>)
-- [`settings.json`](./settings.md)
+## Общее
+
+- [`Настройка`](./Общее/Настройка.md)
+- [`Полное удаление`](<./Общее/Полное удаление.md>)
+- [`Файл settings.json`](<./Общее/Файл settings.json.md>)
+
+## Горячие клавиши
+
+- [`Снипеты`](<./Горячие клавиши/Снипеты.md>)
+- [`Стандартные`](<./Горячие клавиши/Стандартные.md>)
+- [`Файл keybindings.json`](<./Горячие клавиши/Файл keybindings.json.md>)
+
+## Расширения
+
+- [`Список`](./Расширения/Список.md)
+- [`Better Comments`](<./Расширения/Better Comments.md>)
+- [`Code Spell`](<./Расширения/Code Spell.md>)
+- [`Live Sass Compiler`](<./Расширения/Live Sass Compiler.md>)
+- [`Live Server`](<./Расширения/Live Server.md>)
+- [`Markdown Preview Github Styling`](<./Расширения/Markdown Preview Github Styling.md>)
+- [`Markdown Preview`](<./Расширения/Markdown Preview.md>)
+- [`Material Icon Theme`](<./Расширения/Material Icon.md>)
+- [`Material Product Icons`](<./Расширения/Material Product Icons.md>)
+- [`Prettier`](./Расширения/Prettier.md)
+- [`Vscode Google Translate`](<./Расширения/Vscode Google Translate.md>)

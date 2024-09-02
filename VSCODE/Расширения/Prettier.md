@@ -1,4 +1,4 @@
-# [`Prettier`](./index.md)
+# [`Prettier`](../index.md)
 
 ## Настройка
 
