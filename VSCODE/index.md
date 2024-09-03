@@ -20,7 +20,6 @@
 - [`Live Sass Compiler`](<./Расширения/Live Sass Compiler.md>)
 - [`Live Server`](<./Расширения/Live Server.md>)
 - [`Markdown Preview Github Styling`](<./Расширения/Markdown Preview Github Styling.md>)
-- [`Markdown Preview`](<./Расширения/Markdown Preview.md>)
 - [`Material Icon Theme`](<./Расширения/Material Icon.md>)
 - [`Material Product Icons`](<./Расширения/Material Product Icons.md>)
 - [`Prettier`](./Расширения/Prettier.md)
