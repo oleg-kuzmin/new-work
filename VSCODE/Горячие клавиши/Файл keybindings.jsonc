@@ -1,13 +1,5 @@
-# [`Файл keybindings.json`](../index.md)
-
-Для удаления можно просто вставить пустой массив вместо того, что есть в файле.
-
-file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
-
-## Настройка
-
-```json
 [
+  // Для удаления можно вставить пустой массив
   //# Ctrl + n
   {
     // Файл: создать файл (Удаление стандартного)
@@ -175,4 +167,3 @@ file:///Users/Oleg/AppData/Roaming/Code/User/keybindings.json
     "command": "editor.action.sortLinesAscending"
   }
 ]
-```

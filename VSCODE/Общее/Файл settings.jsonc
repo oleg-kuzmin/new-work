@@ -1,10 +1,3 @@
-# [`Файл settings.json`](../index.md)
-
-file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
-
-## Настройка
-
-```json
 {
   "breadcrumbs.enabled": false,
   "css.hover.references": false,
@@ -14,7 +7,7 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   "editor.fontFamily": "Consolas",
   "editor.fontSize": 18,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
@@ -34,14 +27,28 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
     "textMateRules": [
       {
         "scope": [
-          // "support.type.primitive.ts",
-          // "support.type.primitive.tsx",
-          // "support.type.builtin.ts",
-          // "entity.name.type",
+          "support.type.primitive.ts",
+          "support.type.primitive.tsx",
+          "entity.name.type",
+          "support.type.builtin.ts",
+          "support.type.builtin.tsx"
           // "entity.name.type.module.tsx"
         ],
         "settings": {
-          "foreground": "#4EC9B0"
+          "foreground": "#4EC9B0",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["variable.parameter"],
+        "settings": {
+          "foreground": "#F79A32"
+        }
+      },
+      {
+        "scope": ["variable.other.constant"],
+        "settings": {
+          "foreground": "#E06C75"
         }
       }
     ]
@@ -184,4 +191,3 @@ file:///Users/Oleg/AppData/Roaming/Code/User/settings.json
   // Vscode Google Translate
   "vscodeGoogleTranslate.preferredLanguage": "Russian"
 }
-```
