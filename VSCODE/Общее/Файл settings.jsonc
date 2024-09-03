@@ -1,5 +1,5 @@
 {
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.showClasses": false,
   "breadcrumbs.symbolPath": "off",
@@ -16,7 +16,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
@@ -117,7 +117,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.indent": 14,
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -214,5 +214,8 @@
   "prettier.singleQuote": true,
 
   // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian"
+  "vscodeGoogleTranslate.preferredLanguage": "Russian",
+
+  // ТЕСТ Webviews using iframes
+  "webview.experimental.useExternalEndpoint": true
 }
