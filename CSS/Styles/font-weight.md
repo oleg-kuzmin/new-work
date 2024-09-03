@@ -44,7 +44,7 @@ Light / Светлый
 
 ### `font-weight: 400`
 
-Normal / Нормальный
+Normal (Regular) / Нормальный
 
 ### `font-weight: 500`
 
