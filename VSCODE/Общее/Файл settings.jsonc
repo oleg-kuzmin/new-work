@@ -16,7 +16,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": false,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
@@ -30,6 +30,7 @@
   "editor.renderLineHighlight": "none",
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
   "editor.showDeprecated": false,
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "inline",
@@ -40,9 +41,9 @@
     "textMateRules": [
       {
         "scope": [
+          "entity.name.type",
           "support.type.primitive.ts",
           "support.type.primitive.tsx",
-          "entity.name.type",
           "support.type.builtin.ts",
           "support.type.builtin.tsx"
         ],
@@ -215,6 +216,14 @@
 
   // Vscode Google Translate
   "vscodeGoogleTranslate.preferredLanguage": "Russian",
+
+  // Svg Preview
+  "svgPreview.style": {
+    "html": {
+      "background": "white"
+    }
+  },
+  "svgPreview.autoOpen": false,
 
   // ТЕСТ Webviews using iframes
   "webview.experimental.useExternalEndpoint": true
