@@ -92,6 +92,7 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.shellIntegration.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
@@ -101,7 +102,7 @@
     "editorGutter.addedBackground": "#0000",
     "editorGutter.deletedBackground": "#0000"
   },
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
