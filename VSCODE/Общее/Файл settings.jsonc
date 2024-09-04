@@ -37,35 +37,35 @@
   "editor.stickyScroll.enabled": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.name.type",
-          "support.type.primitive.ts",
-          "support.type.primitive.tsx",
-          "support.type.builtin.ts",
-          "support.type.builtin.tsx"
-        ],
-        "settings": {
-          "foreground": "#4EC9B0",
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": ["variable.parameter"],
-        "settings": {
-          "foreground": "#F79A32"
-        }
-      },
-      {
-        "scope": ["variable.other.constant"],
-        "settings": {
-          "foreground": "#E06C75"
-        }
-      }
-    ]
-  },
+  // "editor.tokenColorCustomizations": {
+  // "textMateRules": [
+  //   {
+  //     "scope": [
+  //       "entity.name.type",
+  //       "support.type.primitive.ts",
+  //       "support.type.primitive.tsx",
+  //       "support.type.builtin.ts",
+  //       "support.type.builtin.tsx"
+  //     ],
+  //     "settings": {
+  //       "foreground": "#4EC9B0",
+  //       "fontStyle": "bold"
+  //     }
+  //   }
+  // {
+  //   "scope": ["variable.parameter"],
+  //   "settings": {
+  //     "foreground": "#F79A32"
+  //   }
+  // },
+  // {
+  //   "scope": ["variable.other.constant"],
+  //   "settings": {
+  //     "foreground": "#E06C75"
+  //   }
+  // }
+  // ]
+  // },
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
