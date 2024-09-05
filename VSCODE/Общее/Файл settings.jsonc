@@ -41,29 +41,41 @@
     "textMateRules": [
       {
         "scope": [
-          "entity.name.type",
+          "entity.name.type.interface",
+          "support.class",
           "support.type.primitive.ts",
           "support.type.primitive.tsx",
           "support.type.builtin.ts",
           "support.type.builtin.tsx"
         ],
         "settings": {
-          "foreground": "#4EC9B0",
-          "fontStyle": "bold"
+          "foreground": "#4EC9B0"
+        }
+      },
+      {
+        "scope": ["support.class.component.tsx"],
+        "settings": {
+          "foreground": "#E5C07B"
+        }
+      },
+      {
+        "scope": ["variable.other.constant.object.tsx"],
+        "settings": {
+          "foreground": "#E06C75"
+        }
+      },
+      {
+        "scope": ["entity.name.tag.tsx"],
+        "settings": {
+          "foreground": "#DC3958"
+        }
+      },
+      {
+        "scope": ["variable.parameter"],
+        "settings": {
+          "foreground": "#F79A32"
         }
       }
-      // {
-      //   "scope": ["variable.parameter"],
-      //   "settings": {
-      //     "foreground": "#F79A32"
-      //   }
-      // },
-      // {
-      //   "scope": ["variable.other.constant"],
-      //   "settings": {
-      //     "foreground": "#E06C75"
-      //   }
-      // }
     ]
   },
   "editor.wordWrap": "on",
@@ -98,11 +110,13 @@
   "window.density.editorTabHeight": "default",
   "window.zoomLevel": 0.2,
   "workbench.colorCustomizations": {
-    "editorGutter.modifiedBackground": "#0000",
-    "editorGutter.addedBackground": "#0000",
-    "editorGutter.deletedBackground": "#0000"
+    "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
+    "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
+    "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
+    "tab.activeBackground": "#5e4416", // Цвет фона активной вкладки.
+    "tab.activeBorder": "#cc8d21" // Граница в нижней части активной вкладки.
   },
-  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
