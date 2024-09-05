@@ -37,47 +37,6 @@
   "editor.stickyScroll.enabled": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.name.type.interface",
-          "support.class",
-          "support.type.primitive.ts",
-          "support.type.primitive.tsx",
-          "support.type.builtin.ts",
-          "support.type.builtin.tsx"
-        ],
-        "settings": {
-          "foreground": "#4EC9B0"
-        }
-      },
-      {
-        "scope": ["support.class.component.tsx", "support.class.component.js.jsx"],
-        "settings": {
-          "foreground": "#E5C07B"
-        }
-      },
-      {
-        "scope": ["variable.other.constant.object.tsx", "variable.other.constant.object.ts"],
-        "settings": {
-          "foreground": "#E06C75"
-        }
-      },
-      {
-        "scope": ["entity.name.tag.tsx"],
-        "settings": {
-          "foreground": "#DC3958"
-        }
-      },
-      {
-        "scope": ["variable.parameter"],
-        "settings": {
-          "foreground": "#F79A32"
-        }
-      }
-    ]
-  },
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
@@ -108,13 +67,11 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0.4,
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
-    "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
-    "tab.activeBackground": "#5e4416", // Цвет фона активной вкладки.
-    "tab.activeBorder": "#cc8d21" // Граница в нижней части активной вкладки.
+    "editorGutter.deletedBackground": "#0000" // Цвет фона вертикальной полоски редактора для удаленных строк.
   },
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.closeEmptyGroups": true,
@@ -238,8 +195,5 @@
       "background": "white"
     }
   },
-  "svgPreview.autoOpen": false,
-
-  // ТЕСТ Webviews using iframes
-  "webview.experimental.useExternalEndpoint": true
+  "svgPreview.autoOpen": false
 }
