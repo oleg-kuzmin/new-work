@@ -71,8 +71,12 @@
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
-    "editorGutter.deletedBackground": "#0000" // Цвет фона вертикальной полоски редактора для удаленных строк.
+    "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
+    "editor.selectionBackground": "#00a5ff4d", // Цвет выделяемой области.
+    "editor.selectionHighlightBorder": "#0000", // Цвет рамок совпадающих выделенных областей.
+    "editor.selectionHighlightBackground": "#00a5ff4d" // Цвет совпадающих выделенных областей.
   },
+
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
