@@ -53,13 +53,13 @@
         }
       },
       {
-        "scope": ["support.class.component.tsx"],
+        "scope": ["support.class.component.tsx", "support.class.component.js.jsx"],
         "settings": {
           "foreground": "#E5C07B"
         }
       },
       {
-        "scope": ["variable.other.constant.object.tsx"],
+        "scope": ["variable.other.constant.object.tsx", "variable.other.constant.object.ts"],
         "settings": {
           "foreground": "#E06C75"
         }
