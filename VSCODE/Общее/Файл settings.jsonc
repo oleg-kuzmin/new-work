@@ -53,9 +53,15 @@
         }
       },
       {
-        "scope": ["support.class.component.tsx"],
+        "scope": ["support.class.component.tsx", "support.class.component.js.jsx"],
         "settings": {
           "foreground": "#F06431"
+        }
+      },
+      {
+        "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+        "settings": {
+          "foreground": "#889B4A"
         }
       }
     ]
@@ -105,6 +111,7 @@
   "workbench.editor.enablePreview": true,
   "workbench.editor.labelFormat": "default",
   "workbench.editor.restoreViewState": false,
+  "workbench.editor.showIcons": false,
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.tabSizing": "fixed",
   "workbench.editor.wrapTabs": true,

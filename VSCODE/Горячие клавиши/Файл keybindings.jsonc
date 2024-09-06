@@ -2,49 +2,49 @@
   // Для удаления можно вставить пустой массив
   //# Ctrl + n
   {
-    // Файл: создать файл (Удаление стандартного)
+    // Файл: создать файл (Удаление)
     "key": "ctrl+n",
     "command": "-workbench.action.files.newUntitledFile"
   },
   {
-    // Файл: создать файл (Добавление своего)
+    // Файл: создать файл
     "key": "ctrl+n",
     "command": "explorer.newFile"
   },
 
   //# Ctrl + Shift + n
   {
-    // Открытие нового окна (Удаление стандартного)
+    // Открытие нового окна (Удаление)
     "key": "ctrl+shift+n",
     "command": "-workbench.action.newWindow"
   },
   {
-    // Файл: создать папку (Добавление своего)
+    // Файл: создать папку
     "key": "ctrl+shift+n",
     "command": "explorer.newFolder"
   },
 
   //# Ctrl + Shift + w
   {
-    // Закрытие окна (Удаление стандартного)
+    // Закрытие окна (Удаление)
     "key": "ctrl+shift+w",
     "command": "-workbench.action.closeWindow"
   },
   {
-    // Свернуть папки в проводнике (Добавление своего)
+    // Свернуть папки в проводнике
     "key": "ctrl+shift+w",
     "command": "workbench.files.action.collapseExplorerFolders"
   },
 
   //# Ctrl + s
   {
-    // Форматировать документ (Удаление стандартного)
+    // Форматировать документ (Удаление)
     "key": "shift+alt+f",
     "command": "-editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   },
   {
-    // Форматировать документ (Добавление своего)
+    // Форматировать документ
     "key": "ctrl+s",
     "command": "editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
@@ -52,13 +52,13 @@
 
   //# Ctrl + / (numpad)
   {
-    // Закомментировать или раскомментировать строку (Удаление стандартного)
+    // Закомментировать или раскомментировать строку (Удаление)
     "key": "ctrl+/",
     "command": "-editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    // Закомментировать или раскомментировать строку (Добавление своего)
+    // Закомментировать или раскомментировать строку
     "key": "ctrl+numpad_divide",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
@@ -66,13 +66,13 @@
 
   //# Ctrl + * (numpad)
   {
-    // Закомментировать или раскомментировать блок (Удаление стандартного)
+    // Закомментировать или раскомментировать блок (Удаление)
     "key": "shift+alt+a",
     "command": "-editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    // Закомментировать или раскомментировать блок (Добавление своего)
+    // Закомментировать или раскомментировать блок
     "key": "ctrl+numpad_multiply",
     "command": "editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
@@ -80,13 +80,13 @@
 
   //# Ctrl + 1 (numpad)
   {
-    // Live Server: Open with Live Server (Удаление стандартного)
+    // Live Server: Open with Live Server (Удаление)
     "key": "alt+l alt+o",
     "command": "-extension.liveServer.goOnline",
     "when": "editorTextFocus"
   },
   {
-    // Live Server: Open with Live Server (Добавление своего)
+    // Live Server: Open with Live Server
     "key": "ctrl+numpad1",
     "command": "extension.liveServer.goOnline",
     "when": "editorTextFocus"
@@ -94,13 +94,13 @@
 
   //# Ctrl + 2 (numpad)
   {
-    // Live Server: Stop Live Server (Удаление стандартного)
+    // Live Server: Stop Live Server (Удаление)
     "key": "alt+l alt+c",
     "command": "-extension.liveServer.goOffline",
     "when": "editorTextFocus"
   },
   {
-    // Live Server: Stop Live Server (Добавление своего)
+    // Live Server: Stop Live Server
     "key": "ctrl+numpad2",
     "command": "extension.liveServer.goOffline",
     "when": "editorTextFocus"
@@ -108,20 +108,20 @@
 
   //# Ctrl + 3 (numpad)
   {
-    // Emmet: Перенести с сокращением (Добавление своего)
+    // Emmet: Перенести с сокращением
     "key": "ctrl+numpad3",
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
 
   //# Ctrl + 4 (numpad)
   {
-    // Quokka.js: Start on Current File (Удаление стандартного)
+    // Quokka.js: Start on Current File (Удаление)
     "key": "ctrl+k q",
     "command": "-quokka.makeQuokkaFromExistingFile",
     "when": "!quokka.isLiveShareClient && !terminalFocus"
   },
   {
-    // Quokka.js: Start on Current File (Добавление своего)
+    // Quokka.js: Start on Current File
     "key": "ctrl+numpad4",
     "command": "quokka.makeQuokkaFromExistingFile",
     "when": "!quokka.isLiveShareClient && !terminalFocus"
@@ -129,20 +129,20 @@
 
   //# Ctrl + 5 (numpad)
   {
-    // Quokka.js: Stop All (Добавление своего)
+    // Quokka.js: Stop All
     "key": "ctrl+numpad5",
     "command": "quokka.stopAll"
   },
 
   //# Ctrl + 6 (numpad)
   {
-    // Translate selection(s) to preffered language (Удаление стандартного)
+    // Translate selection(s) to preffered language (Удаление)
     "key": "shift+alt+t",
     "command": "-extension.translateTextPreferred",
     "when": "editorTextFocus"
   },
   {
-    // Translate selection(s) to preffered language (Добавление своего)
+    // Translate selection(s) to preffered language
     "key": "ctrl+numpad6",
     "command": "extension.translateTextPreferred",
     "when": "editorTextFocus"
@@ -150,19 +150,27 @@
 
   //# Ctrl + 7 (numpad)
   {
-    // Команда eCSStractor Run (Добавление своего)
-    "key": "ctrl+numpad7",
-    "command": "extension.ecsstractor_port_run"
+    // Представление: Включить/отключить режим "Дзен" (Удаление)
+    "key": "ctrl+k z",
+    "command": "-workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
   },
+  {
+    // Представление: Включить/отключить режим "Дзен"
+    "key": "ctrl+numpad7",
+    "command": "workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+
   //# Ctrl + 8 (numpad)
   {
-    // eCSStractor Run With BEM Nesting (Добавление своего)
     "key": "ctrl+numpad8",
     "command": "extension.ecsstractor_port_runwithbem"
   },
+
   //# Ctrl + 9 (numpad)
   {
-    // Сортировка строк по возрастанию (Добавление своего)
+    // Сортировка строк по возрастанию
     "key": "ctrl+numpad9",
     "command": "editor.action.sortLinesAscending"
   }
