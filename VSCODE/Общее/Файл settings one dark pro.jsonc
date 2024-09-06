@@ -198,6 +198,7 @@
   // Error Lens
   "errorLens.delay": 5000,
   "errorLens.delayMode": "old",
+  "errorLens.messageBackgroundMode": "message",
   "errorLens.excludePatterns": ["**/package.json"],
 
   // Live Server
