@@ -29,7 +29,7 @@
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.scrollbar.vertical": "visible",
-  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.semanticHighlighting.enabled": "configuredByTheme",
   "editor.showDeprecated": false,
   "editor.smoothScrolling": true,
