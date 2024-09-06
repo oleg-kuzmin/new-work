@@ -103,7 +103,10 @@
     "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
     "gitDecoration.ignoredResourceForeground": "#cccccc", // Цвет игнорируемых ресурсов (файлов git).
     "tab.activeBackground": "#5e4416", // Цвет фона активной вкладки.
-    "tab.activeBorder": "#cc8d21" // Граница в нижней части активной вкладки.
+    "tab.activeBorder": "#cc8d21", // Граница в нижней части активной вкладки.
+    "editorError.foreground": "#00000000", // Волнистая линия.
+    "editorWarning.foreground": "#00000000", // Волнистая линия.
+    "editorInfo.foreground": "#00000000" // Волнистая линия.
   },
   "workbench.colorTheme": "Kimbie Dark",
   "workbench.editor.closeEmptyGroups": true,
@@ -185,6 +188,11 @@
       "italic": false
     }
   ],
+
+  // Error Lens
+  "errorLens.delay": 5000,
+  "errorLens.delayMode": "old",
+  "errorLens.excludePatterns": ["**/package.json"],
 
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
