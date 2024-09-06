@@ -16,15 +16,17 @@
 
 [dark_dimmed](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/github-markdown-dark-dimmed.css)
 
-```css
-/*
-Цвет желтый - rgb(255, 180, 0)
-Цвет желтый - rgb(255, 160, 0)
-Цвет оранжевый #F79A32
-*/
+### Цвета
 
+- Желтый - `rgb(255, 180, 0)`, `rgb(255, 160, 0)`
+- Оранжевый - `#F79A32`
+
+### Файл
+
+```css
 :root {
-  --main-color: rgb(255, 180, 0);
+  --main-color: #f79a32;
+  scrollbar-width: none;
 }
 
 a {
