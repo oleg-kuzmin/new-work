@@ -9,7 +9,7 @@
   "editor.cursorStyle": "line",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas",
-  "editor.fontSize": 18,
+  "editor.fontSize": 19,
   "editor.formatOnSave": false,
   "editor.glyphMargin": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -67,7 +67,7 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
@@ -76,8 +76,7 @@
     "editor.selectionHighlightBorder": "#0000", // Цвет рамок совпадающих выделенных областей.
     "editor.selectionHighlightBackground": "#00a5ff4d" // Цвет совпадающих выделенных областей.
   },
-
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
