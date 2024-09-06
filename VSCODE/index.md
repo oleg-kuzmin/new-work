@@ -5,6 +5,7 @@
 - [`Настройка`](./Общее/Настройка.md)
 - [`Полное удаление`](<./Общее/Полное удаление.md>)
 - [`Файл settings.json`](<./Общее/Файл settings.jsonc>)
+- [`Файл settings one dark pro.json`](<./Общее/Файл settings one dark pro.jsonc>)
 
 ## Горячие клавиши
 
