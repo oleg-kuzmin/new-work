@@ -15,6 +15,7 @@
 
 ## TS
 
+- [`TS REACT - Передача props className`](<./TS REACT - Передача props className.md>)
 - [`TS REACT - Типизация children`](<./TS REACT - Типизация children.md>)
 - [`TS REACT - Типизация useRef`](<./TS REACT - Типизация useRef.md>)
 
