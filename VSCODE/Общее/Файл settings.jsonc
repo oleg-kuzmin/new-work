@@ -58,11 +58,11 @@
   "scss.lint.unknownAtRules": "ignore",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.enablePersistentSessions": false,
+  // "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  "terminal.integrated.shellIntegration.enabled": false,
+  // "terminal.integrated.persistentSessionReviveProcess": "never",
+  // "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  // "terminal.integrated.shellIntegration.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
@@ -72,7 +72,7 @@
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
     "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
-    "gitDecoration.ignoredResourceForeground": "#abb2bf", // Цвет игнорируемых ресурсов (файлов git).
+    "gitDecoration.ignoredResourceForeground": "#cccccc", // Цвет игнорируемых ресурсов (файлов git).
     "tab.activeBorder": "#cc8d21", // Граница в нижней части активной вкладки.
     "editorError.foreground": "#00000000", // Волнистая линия.
     "editorWarning.foreground": "#00000000", // Волнистая линия.
