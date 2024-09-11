@@ -24,6 +24,8 @@
 ### Файл
 
 ```css
+/* github-markdown-dark-dimmed.css */
+
 :root {
   --main-color: #f79a32;
   scrollbar-width: none;
