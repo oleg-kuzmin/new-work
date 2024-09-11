@@ -17,7 +17,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
@@ -37,6 +37,32 @@
   "editor.stickyScroll.enabled": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["support.class", "entity.name.type", "support.type.primitive.ts", "support.type.primitive.tsx"],
+        "settings": {
+          "foreground": "#4EC9B0",
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["support.class.component.tsx", "support.class.component.js.jsx"],
+        "settings": {
+          "foreground": "#F06431",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+        "settings": {
+          "foreground": "#889B4A"
+        }
+      }
+    ]
+  },
+
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
@@ -58,11 +84,11 @@
   "scss.lint.unknownAtRules": "ignore",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  // "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontSize": 16,
-  // "terminal.integrated.persistentSessionReviveProcess": "never",
-  // "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  // "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.shellIntegration.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
@@ -95,6 +121,7 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.expandMode": "doubleClick",
   "workbench.tree.indent": 12,
   "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
