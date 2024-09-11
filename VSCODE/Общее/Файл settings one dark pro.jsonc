@@ -6,6 +6,7 @@
   "css.hover.references": false,
   "css.lint.emptyRules": "ignore",
   "css.lint.unknownAtRules": "ignore",
+  "editor.accessibilitySupport": "off",
   "editor.cursorStyle": "line",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas",
@@ -41,12 +42,15 @@
     "textMateRules": [
       {
         "scope": [
+          "entity.name.type",
           "entity.name.type.interface",
           "support.class",
           "support.type.primitive.ts",
           "support.type.primitive.tsx",
           "support.type.builtin.ts",
-          "support.type.builtin.tsx"
+          "support.type.builtin.tsx",
+          "entity.other.inherited-class.ts",
+          "entity.other.inherited-class.tsx"
         ],
         "settings": {
           "foreground": "#4EC9B0"
@@ -65,7 +69,13 @@
         }
       },
       {
-        "scope": ["variable.other.constant"],
+        "scope": ["variable.scss"],
+        "settings": {
+          "foreground": "#61AFEF"
+        }
+      },
+      {
+        "scope": ["variable.other.constant", "variable.other.object.tsx", "variable.other.object.property.tsx"],
         "settings": {
           "foreground": "#E06C75"
         }
@@ -83,7 +93,7 @@
   "git.autofetch": false,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "prompt",
+  "git.openRepositoryInParentFolders": "never",
   "html.hover.references": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "markdown.preview.doubleClickToSwitchToEditor": false,
@@ -107,8 +117,7 @@
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
     "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
-    "gitDecoration.ignoredResourceForeground": "#cccccc", // Цвет игнорируемых ресурсов (файлов git).
-    "tab.activeBackground": "#5e4416", // Цвет фона активной вкладки.
+    "gitDecoration.ignoredResourceForeground": "#abb2bf", // Цвет игнорируемых ресурсов (файлов git).
     "tab.activeBorder": "#cc8d21", // Граница в нижней части активной вкладки.
     "editorError.foreground": "#00000000", // Волнистая линия.
     "editorWarning.foreground": "#00000000", // Волнистая линия.
@@ -131,7 +140,7 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.indent": 8,
+  "workbench.tree.indent": 12,
   "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -197,9 +206,9 @@
 
   // Error Lens
   "errorLens.delay": 2000,
-  "errorLens.delayMode": "old",
+  "errorLens.delayMode": "new",
   "errorLens.messageBackgroundMode": "message",
-  "errorLens.excludePatterns": ["**/package.json"],
+  "errorLens.excludePatterns": ["**/package.json", "**/old/**"],
   "errorLens.gutterIconSet": "circle",
   "errorLens.gutterIconsEnabled": true,
   // "errorLens.messageTemplate": "$source: $message",
@@ -225,7 +234,7 @@
     "features": "scripts",
     "entities": "constant"
   },
-  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.hidesExplorerArrows": false,
 
   // Prettier
   "prettier.arrowParens": "avoid",
