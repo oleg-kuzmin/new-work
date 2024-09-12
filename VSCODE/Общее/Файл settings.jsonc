@@ -128,7 +128,7 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.expandMode": "doubleClick",
+  "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
