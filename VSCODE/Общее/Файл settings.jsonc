@@ -41,7 +41,14 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["support.class", "entity.name.type", "support.type.primitive.ts", "support.type.primitive.tsx"],
+        "scope": [
+          "support.class",
+          "entity.name.type",
+          "support.type.primitive.ts",
+          "support.type.primitive.tsx",
+          "support.type.builtin.ts",
+          "support.type.builtin.tsx"
+        ],
         "settings": {
           "foreground": "#4EC9B0",
           "fontStyle": "underline"
@@ -85,9 +92,9 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   // "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   // "terminal.integrated.persistentSessionReviveProcess": "never",
-  // "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   // "terminal.integrated.shellIntegration.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "window.confirmSaveUntitledWorkspace": false,
@@ -121,7 +128,8 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.indent": 12,
+  "workbench.tree.expandMode": "doubleClick",
+  "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -214,7 +222,7 @@
     "features": "scripts",
     "entities": "constant"
   },
-  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.hidesExplorerArrows": false,
 
   // Prettier
   "prettier.arrowParens": "avoid",
