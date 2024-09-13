@@ -62,7 +62,12 @@
         }
       },
       {
-        "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+        "scope": [
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.definition.string.template.begin",
+          "punctuation.definition.string.template.end"
+        ],
         "settings": {
           "foreground": "#889B4A"
         }
