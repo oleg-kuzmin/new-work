@@ -92,7 +92,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   // "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   // "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   // "terminal.integrated.shellIntegration.enabled": false,
@@ -194,7 +194,7 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 2000,
+  "errorLens.delay": 10000,
   "errorLens.delayMode": "new",
   "errorLens.messageBackgroundMode": "message",
   "errorLens.excludePatterns": ["**/package.json", "**/old/**"],
