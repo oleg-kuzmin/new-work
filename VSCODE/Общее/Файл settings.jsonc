@@ -37,7 +37,6 @@
   "editor.stickyScroll.enabled": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
-
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -74,7 +73,6 @@
       }
     ]
   },
-
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
@@ -96,11 +94,11 @@
   "scss.lint.unknownAtRules": "ignore",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  // "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontSize": 16,
-  // "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  // "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.shellIntegration.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
@@ -199,12 +197,15 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 10000,
+  "errorLens.delay": 5000,
   "errorLens.delayMode": "new",
-  "errorLens.messageBackgroundMode": "message",
-  "errorLens.excludePatterns": ["**/package.json", "**/old/**"],
-  "errorLens.gutterIconSet": "circle",
+  "errorLens.excludePatterns": ["**/package.json", "**/old/**", "**/new work/**"],
   "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "circle",
+  "errorLens.messageBackgroundMode": "message",
+
+  // Folder Templates
+  "folderTemplates.globalTemplateDirectoryPath": "D:\\PROJECTS\\ОСНОВНЫЕ ПРОЕКТЫ\\new work\\VSCODE\\myGlobalTemplates",
 
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
@@ -229,6 +230,10 @@
   },
   "material-icon-theme.hidesExplorerArrows": false,
 
+  // Open all files in directory
+  "vscode-open-files-in-directory.maxFiles": 100,
+  "vscode-open-files-in-directory.maxRecursiveDepth": 20,
+
   // Prettier
   "prettier.arrowParens": "avoid",
   "prettier.bracketSameLine": false,
@@ -239,14 +244,14 @@
   "prettier.semi": true,
   "prettier.singleQuote": true,
 
-  // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian",
-
   // Svg Preview
+  "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
       "background": "white"
     }
   },
-  "svgPreview.autoOpen": false
+
+  // Vscode Google Translate
+  "vscodeGoogleTranslate.preferredLanguage": "Russian"
 }
