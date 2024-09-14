@@ -165,7 +165,7 @@
   //# Ctrl + 8 (numpad)
   {
     "key": "ctrl+numpad8",
-    "command": "extension.ecsstractor_port_runwithbem"
+    "command": "FT.createFolderStructure"
   },
 
   //# Ctrl + 9 (numpad)
