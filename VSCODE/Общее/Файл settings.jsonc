@@ -41,23 +41,30 @@
     "textMateRules": [
       {
         "scope": [
-          "support.class",
           "entity.name.type",
-          "support.type.primitive.ts",
-          "support.type.primitive.tsx",
-          "support.type.builtin.ts",
-          "support.type.builtin.tsx"
+          "support.type.primitive",
+          // "support.type.primitive.ts",
+          // "support.type.primitive.tsx",
+          "support.type.builtin"
+          // "support.type.builtin.ts",
+          // "support.type.builtin.tsx"
         ],
         "settings": {
           "foreground": "#4EC9B0",
-          "fontStyle": "underline"
+          "fontStyle": "bold"
         }
       },
       {
-        "scope": ["support.class.component.tsx", "support.class.component.js.jsx"],
+        "scope": ["support.class"],
         "settings": {
           "foreground": "#F06431",
-          "fontStyle": ""
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["keyword.operator.new"],
+        "settings": {
+          "foreground": "#ce70d6"
         }
       },
       {
@@ -256,5 +263,6 @@
   },
 
   // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian"
+  "vscodeGoogleTranslate.preferredLanguage": "Russian",
+  "workbench.statusBar.visible": false
 }
