@@ -131,7 +131,7 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.expandMode": "doubleClick",
   "workbench.tree.indent": 10,
   "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
@@ -197,7 +197,7 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 5000,
+  // "errorLens.delay": 5000,
   "errorLens.delayMode": "new",
   "errorLens.excludePatterns": ["**/package.json", "**/old/**", "**/new work/**"],
   "errorLens.gutterIconsEnabled": true,
@@ -231,8 +231,8 @@
   "material-icon-theme.hidesExplorerArrows": false,
 
   // Open all files in directory
-  "vscode-open-files-in-directory.maxFiles": 100,
-  "vscode-open-files-in-directory.maxRecursiveDepth": 20,
+  "vscode-open-files-in-directory.maxFiles": 1000,
+  "vscode-open-files-in-directory.maxRecursiveDepth": 100,
 
   // Prettier
   "prettier.arrowParens": "avoid",
@@ -243,6 +243,9 @@
   "prettier.requireConfig": false,
   "prettier.semi": true,
   "prettier.singleQuote": true,
+
+  // Sonarlint
+  "sonarlint.disableTelemetry": true,
 
   // Svg Preview
   "svgPreview.autoOpen": false,
