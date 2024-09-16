@@ -1,6 +1,7 @@
 # [`Встроенные generics`](../index.md)
 
-- `Array<T>` - массив
-- `ReadonlyArray<T>` - массив только для чтения
-- `Promise<T>` - промис
-- `Window<T>` - объект Window
+- `Array<T>` - интерфейс класса Array
+- `Promise<T>` - интерфейс класса Promise
+- `Readonly<T>` - утилита
+- `ReadonlyArray<T>` - интерфейс класса ReadonlyArray
+- `Window<T>` - интерфейс класса Window
