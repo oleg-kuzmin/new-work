@@ -15,6 +15,8 @@ myFetch('http', method as 'post'); // : 'post'
 
 Выражение `as const` сделает кортеж `readonly`.
 
+Суффикс `as const` действует аналогично `const`, но для системы типов, гарантируя, что всем свойствам будет присвоен литеральный тип, а не более общая версия, такая как `string` или `number`.
+
 ```ts
 const sizes = ['small', 'medium', 'large'] as const;
 ```
