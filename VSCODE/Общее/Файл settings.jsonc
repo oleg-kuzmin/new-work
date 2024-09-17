@@ -17,7 +17,8 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.enabled": false,
+  "editor.hover.delay": 2000,
+  "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": true,
@@ -40,15 +41,7 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "entity.name.type",
-          "support.type.primitive",
-          // "support.type.primitive.ts",
-          // "support.type.primitive.tsx",
-          "support.type.builtin"
-          // "support.type.builtin.ts",
-          // "support.type.builtin.tsx"
-        ],
+        "scope": ["entity.name.type", "support.type.primitive", "support.type.builtin"],
         "settings": {
           "foreground": "#4EC9B0",
           "fontStyle": "bold"
@@ -62,13 +55,14 @@
         }
       },
       {
-        "scope": ["keyword.operator.new"],
+        "scope": ["entity.name.function"],
         "settings": {
-          "foreground": "#ce70d6"
+          "foreground": "#66D9EF"
         }
       },
       {
         "scope": [
+          "string",
           "punctuation.definition.string.begin",
           "punctuation.definition.string.end",
           "punctuation.definition.string.template.begin",
@@ -76,6 +70,12 @@
         ],
         "settings": {
           "foreground": "#889B4A"
+        }
+      },
+      {
+        "scope": ["keyword.operator.new", "keyword.operator.expression.typeof"],
+        "settings": {
+          "foreground": "#CE70D6"
         }
       }
     ]
@@ -204,9 +204,9 @@
   ],
 
   // Error Lens
-  // "errorLens.delay": 5000,
+  "errorLens.delay": 2000,
   "errorLens.delayMode": "new",
-  "errorLens.excludePatterns": ["**/package.json", "**/old/**", "**/new work/**"],
+  "errorLens.excludePatterns": ["**/package.json"],
   "errorLens.gutterIconsEnabled": true,
   "errorLens.gutterIconSet": "circle",
   "errorLens.messageBackgroundMode": "message",
@@ -263,6 +263,5 @@
   },
 
   // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian",
-  "workbench.statusBar.visible": false
+  "vscodeGoogleTranslate.preferredLanguage": "Russian"
 }
