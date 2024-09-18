@@ -14,7 +14,7 @@
 
 ## Дополнительная стилизация
 
-[dark_dimmed](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4/dist/github-markdown-dark-dimmed.css)
+[dark_dimmed](file:///Users/Oleg/.vscode/extensions/bierner.markdown-preview-github-styles-2.1.0/dist/github-markdown-dark-dimmed.css)
 
 ### Цвета
 
