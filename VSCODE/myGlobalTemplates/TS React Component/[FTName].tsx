@@ -7,7 +7,9 @@ interface <FTName>Props {
 export default function [FTName]({ className }: <FTName>Props) {
   const externalClass = className ? ` ${className}` : '';
 
-  <div className={styles.[FTName] + externalClass}>
-    [FTName]
-  </div>
+  return (
+    <div className={styles.[FTName] + externalClass}>
+      [FTName]
+    </div>
+  );
 }
