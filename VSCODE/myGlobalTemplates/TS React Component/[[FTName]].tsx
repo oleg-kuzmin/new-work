@@ -4,7 +4,7 @@ interface [[FTName]]Props {
   className?: string;
 }
 
-export default function [[FTName]]({ className }: Readonly<[[FTName]]Props>) {
+export function [[FTName]]({ className }: Readonly<[[FTName]]Props>) {
   const externalClass = className ? ` ${className}` : '';
 
   return (
