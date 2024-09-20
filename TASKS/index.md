@@ -33,6 +33,7 @@
 - [`Regex validate PIN code`](<./Codewars/7 KYU/Regex validate PIN code.md>)
 - [`Stone Pickaxe Crafting`](<./Codewars/7 KYU/Stone Pickaxe Crafting.md>)
 - [`String ends with`](<./Codewars/7 KYU/String ends with.md>)
+- [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
 
 ## [6 KYU](#tasks)
 
