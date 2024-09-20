@@ -63,13 +63,14 @@
       {
         "scope": [
           "string",
+          "constant.other.color",
           "punctuation.definition.string.begin",
           "punctuation.definition.string.end",
           "punctuation.definition.string.template.begin",
           "punctuation.definition.string.template.end"
         ],
         "settings": {
-          "foreground": "#889B4A"
+          "foreground": "#A6E22E"
         }
       },
       {
@@ -78,6 +79,12 @@
           "foreground": "#CE70D6"
         }
       }
+      // {
+      //   "scope": ["variable", "entity.name.tag"],
+      //   "settings": {
+      //     "foreground": "#ff5555" // "#ff5555" "#fd8c8c"
+      //   }
+      // }
     ]
   },
   "editor.wordWrap": "on",
@@ -204,15 +211,19 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 2000,
+  "errorLens.delay": 5000,
   "errorLens.delayMode": "new",
-  "errorLens.excludePatterns": ["**/package.json"],
+  "errorLens.excludePatterns": ["**/package.json", "**/new work/**"],
   "errorLens.gutterIconsEnabled": true,
   "errorLens.gutterIconSet": "circle",
   "errorLens.messageBackgroundMode": "message",
 
   // Folder Templates
   "folderTemplates.globalTemplateDirectoryPath": "D:\\PROJECTS\\ОСНОВНЫЕ ПРОЕКТЫ\\new work\\VSCODE\\myGlobalTemplates",
+  "folderTemplates.templateNotation": {
+    "start": ["<<", "[["],
+    "end": [">>", "]]"]
+  },
 
   // Live Server
   "liveServer.settings.donotShowInfoMsg": true,
@@ -250,6 +261,9 @@
   "prettier.requireConfig": false,
   "prettier.semi": true,
   "prettier.singleQuote": true,
+
+  // Quokka
+  "quokka.showOutputOnStart": false,
 
   // Sonarlint
   "sonarlint.disableTelemetry": true,

@@ -27,5 +27,7 @@
 - [`Material Product Icons`](<./Расширения/Material Product Icons.md>)
 - [`Open all files in directory`](<./Расширения/Open all files in directory.md>)
 - [`Prettier`](./Расширения/Prettier.md)
+- [`Quokka`](./Расширения/Quokka.md)
+- [`Sonarlint`](./Расширения/Sonarlint.md)
 - [`Svg Preview`](<./Расширения/Svg Preview.md>)
 - [`Vscode Google Translate`](<./Расширения/Vscode Google Translate.md>)
