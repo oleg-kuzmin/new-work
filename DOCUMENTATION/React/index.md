@@ -1,6 +1,6 @@
 # [React Documentation](../index.md)
 
-- [https://react.dev/](https://react.dev/)
+- <a href="https://react.dev/" target="_blank">https://react.dev/</a>
 
 ## Learn React
 
