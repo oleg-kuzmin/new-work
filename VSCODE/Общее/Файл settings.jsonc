@@ -10,7 +10,7 @@
   "editor.cursorStyle": "line",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas",
-  "editor.fontSize": 18,
+  "editor.fontSize": 17,
   "editor.formatOnSave": false,
   "editor.glyphMargin": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -24,7 +24,7 @@
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
-  "editor.mouseWheelScrollSensitivity": 1.4,
+  "editor.mouseWheelScrollSensitivity": 1.6,
   "editor.mouseWheelZoom": false,
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": true,
@@ -42,6 +42,7 @@
     "textMateRules": [
       {
         "scope": [
+          "support.class",
           "entity.name.type",
           "entity.name.type.class",
           "support.type.primitive.ts",
@@ -55,18 +56,29 @@
         }
       },
       {
+        "scope": ["support.class.component.tsx"],
+        "settings": {
+          "foreground": "#F06431",
+          "fontStyle": ""
+        }
+      },
+      {
         "scope": ["variable"],
         "settings": {
-          "foreground": "#E06C75"
+          "foreground": "#ff5e5e"
         }
       },
       {
         "scope": [
-          "string",
+          "constant.other.color",
+          "meta.property-value.scss",
           "punctuation.definition.string.begin",
           "punctuation.definition.string.end",
           "punctuation.definition.string.template.begin",
-          "punctuation.definition.string.template.end"
+          "punctuation.definition.string.template.end",
+          "string",
+          "support.constant.font-name.css",
+          "support.constant.property-value"
         ],
         "settings": {
           "foreground": "#A6E22E"
@@ -79,15 +91,19 @@
         }
       },
       {
-        "scope": ["keyword.operator.new", "keyword.operator.expression.typeof"],
+        "scope": [
+          "keyword.control",
+          "keyword.operator.expression.typeof",
+          "keyword.operator.logical.tsx",
+          "keyword.operator.new",
+          "storage.type.function.tsx",
+          "storage.type.interface.tsx",
+          "storage.type.tsx",
+          "variable.scss",
+          "support.function.misc"
+        ],
         "settings": {
           "foreground": "#CE70D6"
-        }
-      },
-      {
-        "scope": ["constant.other.color", "support.constant.property-value"],
-        "settings": {
-          "foreground": "#A6E22E"
         }
       }
     ]
@@ -122,18 +138,18 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 0.4,
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
     "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
     "gitDecoration.ignoredResourceForeground": "#cccccc", // Цвет игнорируемых ресурсов (файлов git).
-    "tab.activeBorder": "#cc8d21", // Граница в нижней части активной вкладки.
-    "editorError.foreground": "#00000000", // Волнистая линия.
-    "editorWarning.foreground": "#00000000", // Волнистая линия.
-    "editorInfo.foreground": "#00000000" // Волнистая линия.
+    "tab.activeBorder": "#cc8d21" // Граница в нижней части активной вкладки.
+    // "editorError.foreground": "#00000000", // Волнистая линия.
+    // "editorWarning.foreground": "#00000000", // Волнистая линия.
+    // "editorInfo.foreground": "#00000000" // Волнистая линия.
   },
-  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
@@ -150,9 +166,9 @@
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.expandMode": "doubleClick",
-  "workbench.tree.indent": 10,
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -251,7 +267,7 @@
     "features": "scripts",
     "entities": "constant"
   },
-  "material-icon-theme.hidesExplorerArrows": false,
+  "material-icon-theme.hidesExplorerArrows": true,
 
   // Open all files in directory
   "vscode-open-files-in-directory.maxFiles": 1000,
