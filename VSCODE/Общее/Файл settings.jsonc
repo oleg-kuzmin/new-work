@@ -10,7 +10,7 @@
   "editor.cursorStyle": "line",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas",
-  "editor.fontSize": 17,
+  "editor.fontSize": 18,
   "editor.formatOnSave": false,
   "editor.glyphMargin": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -38,76 +38,6 @@
   "editor.stickyScroll.enabled": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "support.class",
-          "entity.name.type",
-          "entity.name.type.class",
-          "support.type.primitive.ts",
-          "support.type.primitive.tsx",
-          "support.type.builtin.ts",
-          "support.type.builtin.tsx"
-        ],
-        "settings": {
-          "foreground": "#4EC9B0",
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": ["support.class.component.tsx"],
-        "settings": {
-          "foreground": "#F06431",
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["variable"],
-        "settings": {
-          "foreground": "#ff5e5e"
-        }
-      },
-      {
-        "scope": [
-          "constant.other.color",
-          "meta.property-value.scss",
-          "punctuation.definition.string.begin",
-          "punctuation.definition.string.end",
-          "punctuation.definition.string.template.begin",
-          "punctuation.definition.string.template.end",
-          "string",
-          "support.constant.font-name.css",
-          "support.constant.property-value"
-        ],
-        "settings": {
-          "foreground": "#A6E22E"
-        }
-      },
-      {
-        "scope": ["entity.name.function"],
-        "settings": {
-          "foreground": "#66D9EF"
-        }
-      },
-      {
-        "scope": [
-          "keyword.control",
-          "keyword.operator.expression.typeof",
-          "keyword.operator.logical.tsx",
-          "keyword.operator.new",
-          "storage.type.function.tsx",
-          "storage.type.interface.tsx",
-          "storage.type.tsx",
-          "variable.scss",
-          "support.function.misc"
-        ],
-        "settings": {
-          "foreground": "#CE70D6"
-        }
-      }
-    ]
-  },
   "editor.wordWrap": "on",
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
@@ -138,18 +68,18 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.2,
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
     "editorGutter.deletedBackground": "#0000", // Цвет фона вертикальной полоски редактора для удаленных строк.
     "gitDecoration.ignoredResourceForeground": "#cccccc", // Цвет игнорируемых ресурсов (файлов git).
-    "tab.activeBorder": "#cc8d21" // Граница в нижней части активной вкладки.
-    // "editorError.foreground": "#00000000", // Волнистая линия.
-    // "editorWarning.foreground": "#00000000", // Волнистая линия.
-    // "editorInfo.foreground": "#00000000" // Волнистая линия.
+    "tab.activeBorder": "#cc8d21", // Граница в нижней части активной вкладки.
+    "editorWarning.foreground": "#0000", // Цвет волнистой линии warning.
+    "editorError.foreground": "#0000", // Цвет волнистой линии error.
+    "editorInfo.foreground": "#0000" // Цвет волнистой линии info.
   },
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
