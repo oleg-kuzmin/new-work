@@ -29,3 +29,39 @@
   "prettier.singleQuote": true
 }
 ```
+
+## .prettierrc
+
+```json
+{
+  "importOrder": [
+    "<TYPES>",
+    "<TYPES>^[.]",
+    "react",
+    "<THIRD_PARTY_MODULES>",
+    "^app(/.*)$",
+    "^pages(/.*)$",
+    "^widgets(/.*)$",
+    "^features(/.*)$",
+    "^entities(/.*)$",
+    "^shared(/.*)$",
+    // 1 вариант
+    "(?<!.module).scss",
+    ".module.scss",
+
+    // 2 вариант
+    "^(?!.*[.module.]scss$)[./].*$",
+    ".module.scss$"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-css-order"],
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "semi": true,
+  "jsxSingleQuote": false,
+  "printWidth": 120,
+  "singleQuote": true
+}
+```
