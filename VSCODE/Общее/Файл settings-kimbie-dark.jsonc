@@ -17,7 +17,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.delay": 1000,
+  "editor.hover.delay": 2000,
   "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
@@ -41,7 +41,13 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["support.type.primitive.tsx", "entity.name.type", "support.class"],
+        "scope": [
+          "entity.name.type",
+          "support.class",
+          "support.type.builtin",
+          "support.type.primitive.ts",
+          "support.type.primitive.tsx"
+        ],
         "settings": {
           "foreground": "#4EC9B0",
           "fontStyle": "bold"
@@ -55,7 +61,7 @@
         }
       },
       {
-        "scope": ["entity.name.function"],
+        "scope": ["entity.name.function", "support.function.tsx"],
         "settings": {
           "foreground": "#66D9EF"
         }
@@ -63,7 +69,7 @@
       {
         "scope": ["variable"],
         "settings": {
-          "foreground": "#ff5e5e"
+          "foreground": "#ff5e5e" // "#ff5e5e"
         }
       },
       {
@@ -88,11 +94,9 @@
           "keyword.operator.expression.typeof",
           "keyword.operator.logical.tsx",
           "keyword.operator.new",
-          "storage.type.function.tsx",
-          "storage.type.interface.tsx",
-          "storage.type.tsx",
-          "variable.scss",
-          "support.function.misc"
+          "storage.type",
+          "support.function.misc",
+          "variable.scss"
         ],
         "settings": {
           "foreground": "#CE70D6"
