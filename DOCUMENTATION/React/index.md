@@ -11,3 +11,4 @@
 - [Importing and Exporting Components](<./Learn React/Describing the UI/2. Importing and Exporting Components.md>)
 - [Writing Markup with JSX](<./Learn React/Describing the UI/3. Writing Markup with JSX.md>)
 - [JavaScript in JSX with Curly Braces](<./Learn React/Describing the UI/4. JavaScript in JSX with Curly Braces.md>)
+- [Passing Props to a Component](<./Learn React/Describing the UI/5. Passing Props to a Component.md>)
