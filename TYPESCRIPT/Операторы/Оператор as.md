@@ -21,7 +21,13 @@ myFetch('http', method as 'post'); // : 'post'
 const sizes = ['small', 'medium', 'large'] as const;
 ```
 
+### Пример 3
+
 ```ts
+declare function handleRequest(url: string, method: 'GET' | 'POST'): void;
+
 const req = { url: 'https://example.com', method: 'GET' } as const;
+const req = { url: 'https://example.com', method: 'GET' as const };
+
 handleRequest(req.url, req.method);
 ```
