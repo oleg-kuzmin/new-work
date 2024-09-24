@@ -10,7 +10,7 @@
   "editor.cursorStyle": "line",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.formatOnSave": false,
   "editor.glyphMargin": true,
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -24,7 +24,7 @@
   "editor.linkedEditing": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
-  "editor.mouseWheelScrollSensitivity": 1.4,
+  "editor.mouseWheelScrollSensitivity": 2,
   "editor.mouseWheelZoom": false,
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": true,
@@ -41,29 +41,15 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["support.type.primitive.tsx", "entity.name.type", "support.class"],
+        "scope": [
+          "entity.name.type",
+          "support.class",
+          "support.type.builtin",
+          "support.type.primitive.ts",
+          "support.type.primitive.tsx"
+        ],
         "settings": {
-          "foreground": "#4EC9B0",
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": ["support.class.component.tsx"],
-        "settings": {
-          "foreground": "#E5C07B",
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["variable.other.constant"],
-        "settings": {
-          "foreground": "#E06C75"
-        }
-      },
-      {
-        "scope": ["entity.name.tag.tsx"],
-        "settings": {
-          "foreground": "#de4451"
+          "foreground": "#4EC9B0"
         }
       }
     ]
@@ -98,7 +84,7 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.openFilesInNewWindow": "off",
   "window.density.editorTabHeight": "default",
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.2,
   "workbench.colorCustomizations": {
     "editorGutter.modifiedBackground": "#0000", // Цвет фона вертикальной полоски редактора для измененных строк.
     "editorGutter.addedBackground": "#0000", // Цвет фона вертикальной полоски редактора для добавленных строк.
@@ -109,7 +95,7 @@
     "editorError.foreground": "#0000", // Цвет волнистой линии error.
     "editorInfo.foreground": "#0000" // Цвет волнистой линии info.
   },
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.enablePreview": true,
@@ -128,7 +114,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 14,
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.renderIndentGuides": "none",
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -192,12 +178,14 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 5000,
-  "errorLens.delayMode": "new",
+  "errorLens.delay": 1000,
+  "errorLens.delayMode": "old",
   "errorLens.excludePatterns": ["**/package.json", "**/new work/**"],
   "errorLens.gutterIconsEnabled": true,
-  "errorLens.gutterIconSet": "circle",
-  "errorLens.messageBackgroundMode": "message",
+  "errorLens.gutterIconSet": "squareRounded",
+  "errorLens.messageBackgroundMode": "none",
+  "errorLens.messageEnabled": false,
+  "errorLens.editorHoverPartsEnabled": { "messageEnabled": true, "sourceCodeEnabled": true, "buttonsEnabled": false },
 
   // Folder Templates
   "folderTemplates.globalTemplateDirectoryPath": "D:\\PROJECTS\\ОСНОВНЫЕ ПРОЕКТЫ\\new work\\VSCODE\\myGlobalTemplates",
@@ -253,7 +241,7 @@
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
-      "background": "white"
+      "background": "gray"
     }
   },
 
