@@ -31,6 +31,7 @@
 - [`Highest and Lowest`](<./Codewars/7 KYU/Highest and Lowest.md>)
 - [`Possibilities Array`](<./Codewars/7 KYU/Possibilities Array.md>)
 - [`Regex validate PIN code`](<./Codewars/7 KYU/Regex validate PIN code.md>)
+- [`Rock Paper Scissors Lizard Spock`](<./Codewars/7 KYU/Rock Paper Scissors Lizard Spock.md>)
 - [`Stone Pickaxe Crafting`](<./Codewars/7 KYU/Stone Pickaxe Crafting.md>)
 - [`String ends with`](<./Codewars/7 KYU/String ends with.md>)
 - [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
