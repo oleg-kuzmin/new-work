@@ -8,3 +8,7 @@
   "sonarlint.disableTelemetry": true
 }
 ```
+
+## Отключенные правила
+
+- Sections of code should not be commented out (typescript:S125)
