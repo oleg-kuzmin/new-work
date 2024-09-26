@@ -44,7 +44,8 @@
         "scope": [
           "entity.name.type",
           "support.class",
-          "support.type.builtin",
+          "support.type.builtin.ts",
+          "support.type.builtin.tsx",
           "support.type.primitive.ts",
           "support.type.primitive.tsx"
         ],
@@ -178,14 +179,16 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 1000,
-  "errorLens.delayMode": "old",
-  "errorLens.excludePatterns": ["**/package.json", "**/new work/**"],
+  "errorLens.delay": 5000,
+  "errorLens.delayMode": "new",
+  "errorLens.excludePatterns": ["**/package.json"],
+  // "errorLens.excludePatterns": ["**/package.json", "**/new work/**"],
   "errorLens.gutterIconsEnabled": true,
   "errorLens.gutterIconSet": "squareRounded",
-  "errorLens.messageBackgroundMode": "none",
-  "errorLens.messageEnabled": false,
-  "errorLens.editorHoverPartsEnabled": { "messageEnabled": true, "sourceCodeEnabled": false, "buttonsEnabled": false },
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.messageEnabled": true,
+  // "errorLens.messageMaxChars": 80,
+  "errorLens.editorHoverPartsEnabled": { "messageEnabled": false, "sourceCodeEnabled": false, "buttonsEnabled": false },
 
   // Folder Templates
   "folderTemplates.globalTemplateDirectoryPath": "D:\\PROJECTS\\ОСНОВНЫЕ ПРОЕКТЫ\\new work\\VSCODE\\myGlobalTemplates",
@@ -236,6 +239,14 @@
 
   // Sonarlint
   "sonarlint.disableTelemetry": true,
+  "sonarlint.rules": {
+    "typescript:S125": {
+      "level": "off"
+    },
+    "css:S125": {
+      "level": "off"
+    }
+  },
 
   // Svg Preview
   "svgPreview.autoOpen": false,
