@@ -14,3 +14,4 @@
 - [Passing Props to a Component](<./Learn React/Describing the UI/5. Passing Props to a Component.md>)
 - [Conditional Rendering](<./Learn React/Describing the UI/6. Conditional Rendering.md>)
 - [Rendering Lists](<./Learn React/Describing the UI/7. Rendering Lists.md>)
+- [Keeping Components Pure](<./Learn React/Describing the UI/8. Keeping Components Pure.md>)
