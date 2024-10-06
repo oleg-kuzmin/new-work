@@ -7,7 +7,7 @@
 
 Краткое введение на основе вашего опыта или предпочтений.
 
-- [TS для новых программистов](<./1. Get Started/1. TS for the New Programmer.md>)
+- [TS для начинающих программистов](<./1. Get Started/1. TS for the New Programmer.md>)
 - [TS для JS программистов](<./1. Get Started/2. TS for JS Programmers.md>)
 - [TS инструменты за 5 минут](<./1. Get Started/3. TS Tooling in 5 minutes.md>)
 
