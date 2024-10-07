@@ -119,6 +119,7 @@
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "update.mode": "none",
 
   // Better Comments
   "better-comments.tags": [
