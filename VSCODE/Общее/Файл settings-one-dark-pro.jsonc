@@ -17,7 +17,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.hover.delay": 1000,
+  "editor.hover.delay": 2000,
   "editor.hover.enabled": true,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
@@ -179,15 +179,15 @@
   ],
 
   // Error Lens
-  "errorLens.delay": 5000,
+  "errorLens.delay": 10000,
   "errorLens.delayMode": "new",
-  "errorLens.excludePatterns": ["**/package.json"],
+  // "errorLens.excludePatterns": ["**/package.json"],
   // "errorLens.excludePatterns": ["**/package.json", "**/new work/**"],
+  "errorLens.excludePatterns": ["**/package.json", "**/new work/**", "**/old/**"],
   "errorLens.gutterIconsEnabled": true,
   "errorLens.gutterIconSet": "squareRounded",
-  "errorLens.messageBackgroundMode": "message",
-  "errorLens.messageEnabled": true,
-  // "errorLens.messageMaxChars": 80,
+  "errorLens.messageBackgroundMode": "none",
+  "errorLens.messageEnabled": false,
   "errorLens.editorHoverPartsEnabled": { "messageEnabled": false, "sourceCodeEnabled": false, "buttonsEnabled": false },
 
   // Folder Templates
@@ -226,7 +226,7 @@
 
   // Prettier
   "prettier.arrowParens": "avoid",
-  "prettier.bracketSameLine": false,
+  "prettier.bracketSameLine": true, // false
   "prettier.bracketSpacing": true,
   "prettier.jsxSingleQuote": false,
   "prettier.printWidth": 120,
@@ -240,10 +240,16 @@
   // Sonarlint
   "sonarlint.disableTelemetry": true,
   "sonarlint.rules": {
+    "css:S125": {
+      "level": "off"
+    },
+    "javascript:S125": {
+      "level": "off"
+    },
     "typescript:S125": {
       "level": "off"
     },
-    "css:S125": {
+    "Web:AvoidCommentedOutCodeCheck": {
       "level": "off"
     }
   },
@@ -257,5 +263,6 @@
   },
 
   // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian"
+  "vscodeGoogleTranslate.preferredLanguage": "Russian",
+  "workbench.statusBar.visible": false
 }
