@@ -112,6 +112,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false,
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 14,
@@ -264,6 +265,5 @@
   },
 
   // Vscode Google Translate
-  "vscodeGoogleTranslate.preferredLanguage": "Russian",
-  "workbench.statusBar.visible": false
+  "vscodeGoogleTranslate.preferredLanguage": "Russian"
 }
