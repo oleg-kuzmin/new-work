@@ -5,7 +5,22 @@
 ```json
 {
   // Отключает телеметрию.
-  "sonarlint.disableTelemetry": true
+  "sonarlint.disableTelemetry": true,
+
+  "sonarlint.rules": {
+    "css:S125": {
+      "level": "off"
+    },
+    "javascript:S125": {
+      "level": "off"
+    },
+    "typescript:S125": {
+      "level": "off"
+    },
+    "Web:AvoidCommentedOutCodeCheck": {
+      "level": "off"
+    }
+  },
 }
 ```
 
