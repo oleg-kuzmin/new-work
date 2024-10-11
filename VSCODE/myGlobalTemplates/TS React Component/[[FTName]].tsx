@@ -1,14 +1,8 @@
 import styles from './[[FTName]].module.scss';
 
-interface [[FTName]]Props {
-  className?: string;
-}
-
-export function [[FTName]]({ className }: Readonly<[[FTName]]Props>) {
-  const externalClass = className ? ` ${className}` : '';
-
+export function [[FTName]]() {
   return (
-    <div className={styles.[[FTName]] + externalClass}>
+    <div className={styles.[[FTName]]}>
       [[FTName]]
     </div>
   );
