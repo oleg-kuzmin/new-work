@@ -20,3 +20,4 @@
 ### Добавление интерактивности
 
 - [Обзор](<./Learn React/2. Adding Interactivity/0. Overview.md>)
+- [Реагирование на события](<./Learn React/2. Adding Interactivity/1. Responding to Events.md>)
