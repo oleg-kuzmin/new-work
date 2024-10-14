@@ -23,3 +23,4 @@
 - [Реагирование на события](<./Learn React/2. Adding Interactivity/1. Responding to Events.md>)
 - [Состояние: Память компонента](<./Learn React/2. Adding Interactivity/2. State. A Component's Memory.md>)
 - [Рендер и фиксация](<./Learn React/2. Adding Interactivity/3. Render and Commit.md>)
+- [Состояние как моментальный снимок](<./Learn React/2. Adding Interactivity/4. State as a Snapshot.md>)
