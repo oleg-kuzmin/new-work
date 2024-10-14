@@ -1,7 +1,7 @@
 # [TypeScript Documentation](../index.md)
 
 - <a href="https://www.typescriptlang.org/docs/" target="_blank">https://www.typescriptlang.org/docs/</a>
-- <a href="https://github.com/microsoft/TypeScript-Website" target="_blank">Репозиторий документации</a>
+- <a href="https://github.com/microsoft/TypeScript-Website" target="_blank">Репозиторий сайта с документацией</a>
 
 ## Начало работы
 
