@@ -29,6 +29,7 @@
 - [`Count up the points for the 7 Wonders`](<./Codewars/7 KYU/Count up the points for the 7 Wonders.md>)
 - [`Find the next perfect square!`](<./Codewars/7 KYU/Find the next perfect square!.md>)
 - [`Highest and Lowest`](<./Codewars/7 KYU/Highest and Lowest.md>)
+- [`Move 10`](<./Codewars/7 KYU/Move 10.md>)
 - [`Possibilities Array`](<./Codewars/7 KYU/Possibilities Array.md>)
 - [`Regex validate PIN code`](<./Codewars/7 KYU/Regex validate PIN code.md>)
 - [`Rock Paper Scissors Lizard Spock`](<./Codewars/7 KYU/Rock Paper Scissors Lizard Spock.md>)
@@ -37,12 +38,45 @@
 - [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
 - [`The 'spiraling' box`](<./Codewars/7 KYU/The 'spiraling' box.md>)
 - [`Vowel Count`](<./Codewars/7 KYU/Vowel Count.md>)
+- []
+- []
+- []
+- []
 
 ## [6 KYU](#tasks)
 
 - [`Break camelCase`](<./Codewars/6 KYU/Break camelCase.md>)
 - [`Stop gninnipS My sdroW!`](<./Codewars/6 KYU/Stop gninnipS My sdroW!.md>)
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
 
 ## [5 KYU](#tasks)
 
 - [`Moving Zeros To The End`](<./Codewars/5 KYU/Moving Zeros To The End.md>)
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
