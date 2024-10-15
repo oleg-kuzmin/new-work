@@ -26,6 +26,7 @@
 
 ## [7 KYU](#tasks)
 
+- [`Check three and two`](<./Codewars/7 KYU/Check three and two.md>)
 - [`Count up the points for the 7 Wonders`](<./Codewars/7 KYU/Count up the points for the 7 Wonders.md>)
 - [`Find the next perfect square!`](<./Codewars/7 KYU/Find the next perfect square!.md>)
 - [`Highest and Lowest`](<./Codewars/7 KYU/Highest and Lowest.md>)
@@ -38,7 +39,6 @@
 - [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
 - [`The 'spiraling' box`](<./Codewars/7 KYU/The 'spiraling' box.md>)
 - [`Vowel Count`](<./Codewars/7 KYU/Vowel Count.md>)
-- []
 - []
 - []
 - []
