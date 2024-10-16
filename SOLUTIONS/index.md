@@ -19,6 +19,7 @@
 - [`CSS - Swiper - Конфиги`](<./CSS - Swiper - Конфиги.md>)
 - [`CSS - Эффект градиента на тексте`](<./CSS - Эффект градиента на тексте.md>)
 
+
 ## TS
 
 - [`TS REACT - Передача props className`](<./TS REACT - Передача props className.md>)
