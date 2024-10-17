@@ -39,7 +39,7 @@
 - [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
 - [`The 'spiraling' box`](<./Codewars/7 KYU/The 'spiraling' box.md>)
 - [`Vowel Count`](<./Codewars/7 KYU/Vowel Count.md>)
-- []
+- [`Square Every Digit`](<./Codewars/7 KYU/Square Every Digit.md>)
 - []
 - []
 

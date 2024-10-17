@@ -454,9 +454,9 @@
 
 ### [Преобразование](#javascript)
 
-- [`Number => String (.toFixed)`](./Number/number.toFixed.md) преобразует в строку и округляет
-- [`Number => String (.toLocaleString)`](./Number/number.toLocaleString.md) преобразует в строку c учетом языка
-- [`Number => String (.toString)`](./Number/number.toString.md) преобразует в строку
+- [`Number => String (.toFixed)`](./Number/.toFixed.md) преобразует в строку и округляет
+- [`Number => String (.toLocaleString)`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
+- [`Number => String (.toString)`](./Number/.toString.md) преобразует в строку
 - [`Number => String (String)`](./String/String.md) преобразует в строку
 
 ## [Object](#javascript)
