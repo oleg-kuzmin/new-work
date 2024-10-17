@@ -27,3 +27,4 @@
 - [Состояние как моментальный снимок](<./Learn React/2. Adding Interactivity/4. State as a Snapshot.md>)
 - [Постановка в очередь серии обновлений состояния](<./Learn React/2. Adding Interactivity/5. Queueing a Series of State Updates.md>)
 - [Обновление объектов в состоянии](<./Learn React/2. Adding Interactivity/6. Updating Objects in State.md>)
+- [Обновление массивов в состоянии](<./Learn React/2. Adding Interactivity/7. Updating Arrays in State.md>)
