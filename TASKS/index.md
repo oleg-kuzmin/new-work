@@ -41,7 +41,7 @@
 - [`Sum of two lowest positive integers`](<./Codewars/7 KYU/Sum of two lowest positive integers.md>)
 - [`The 'spiraling' box`](<./Codewars/7 KYU/The 'spiraling' box.md>)
 - [`Vowel Count`](<./Codewars/7 KYU/Vowel Count.md>)
-- []
+- [`X marks the spot`](<./Codewars/7 KYU/X marks the spot.md>)
 
 ## [6 KYU](#tasks)
 
