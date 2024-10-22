@@ -32,3 +32,4 @@
 ### Управление состоянием
 
 - [Обзор](<./Learn React/3. Managing State/0. Overview.md>)
+- [Реакция на входные данные с помощью состояния](<./Learn React/3. Managing State/1. Reacting to Input with State.md>)
