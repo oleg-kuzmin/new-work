@@ -4,23 +4,23 @@
 - [Асинхронные действия](#асинхронные-действия)
 - [ООП](#ооп)
 - [Операторы](#операторы)
+- [Функции](#функции)
 - [Циклы](#циклы)
+- [Number](#number)
+- [String](#string)
 - [Array](#array)
+- [Object](#object)
 - [Date](#date)
+- [Map](#map)
+- [Set](#set)
+- [RegExp](#regexp)
 - [Document](#document)
 - [Element](#element)
-- [Event.type](#eventtype)
 - [Event](#event)
-- [Function](#function)
-- [Map](#map)
-- [Number](#number)
-- [Object](#object)
-- [RegExp](#regexp)
-- [Set](#set)
-- [String](#string)
+- [Event.type](#eventtype)
 - [Window](#window)
 
-## [Общее](#javascript)
+## [Общее](#)
 
 - [`Деструктуризация`](./Общее/Деструктуризация.md)
 - [`Замыкания`](./Общее/Замыкания.md)
@@ -31,10 +31,6 @@
 - [`Преобразование (логическое)`](<./Общее/Преобразование (логическое).md>)
 - [`Преобразование (строковое)`](<./Общее/Преобразование (строковое).md>)
 - [`Преобразование (численное)`](<./Общее/Преобразование (численное).md>)
-- [`Условные конструкции`](<./Общее/Условные конструкции.md>)
-- [`Функции`](./Общее/Функции.md)
-- [`Экспорт и импорт CommonJS`](<./Общее/Экспорт и импорт CommonJS.md>)
-- [`Экспорт и импорт ES Modules`](<./Общее/Экспорт и импорт ES Modules.md>)
 - [`Тип bigInt`](<./Общее/Тип bigInt.md>)
 - [`Тип boolean`](<./Общее/Тип boolean.md>)
 - [`Тип null`](<./Общее/Тип null.md>)
@@ -43,21 +39,20 @@
 - [`Тип string`](<./Общее/Тип string.md>)
 - [`Тип symbol`](<./Общее/Тип symbol.md>)
 - [`Тип undefined`](<./Общее/Тип undefined.md>)
+- [`Условные конструкции`](<./Общее/Условные конструкции.md>)
+- [`Функции`](./Общее/Функции.md)
+- [`Экспорт и импорт CommonJS`](<./Общее/Экспорт и импорт CommonJS.md>)
+- [`Экспорт и импорт ES Modules`](<./Общее/Экспорт и импорт ES Modules.md>)
+- [`Формат JSON`](<./Общее/Формат JSON.md>) формат JSON
 
-## [Асинхронные действия](#javascript)
+## [Асинхронные действия](#)
 
 - [`async await`](<./Асинхронные действия/async await.md>) асинхронные функции
-
-### [XMLHttpRequest](#javascript)
-
 - [`new XMLHttpRequest()`](<./Асинхронные действия/XMLHttpRequest/new XMLHttpRequest.md>) объект legacy-запроса
   - [`.open()`](<./Асинхронные действия/XMLHttpRequest/open.md>) создает запрос
   - [`.response`](<./Асинхронные действия/XMLHttpRequest/response.md>) объект ответа
   - [`.responseType`](<./Асинхронные действия/XMLHttpRequest/responseType.md>) тип ответа
   - [`.send()`](<./Асинхронные действия/XMLHttpRequest/send.md>) отправляет запрос
-
-### [Fetch](#javascript)
-
 - [`fetch()`](<./Асинхронные действия/Fetch/fetch.md>) запрос на сервер
   - [`.blob()`](<./Асинхронные действия/Fetch/.blob.md>) преобразует json-ответ в бинарные данные
   - [`.headers.get()`](<./Асинхронные действия/Fetch/.headers.get.md>) получает значение заголовка
@@ -66,9 +61,6 @@
   - [`.status`](<./Асинхронные действия/Fetch/.status.md>) статус ответа
   - [`.statusText`](<./Асинхронные действия/Fetch/.statusText.md>) сообщение статуса ответа
   - [`.text()`](<./Асинхронные действия/Fetch/.text.md>) преобразует json-ответ в текст
-
-### [Promise](#javascript)
-
 - [`new Promise()`](<./Асинхронные действия/Promise/new Promise.md>) создает promise
   - [`.catch()`](<./Асинхронные действия/Promise/.catch.md>) обработчик отклоненного promise
   - [`.finally()`](<./Асинхронные действия/Promise/.finally.md>) обработчик завершенного promise
@@ -79,14 +71,10 @@
 - [`Promise.race()`](<./Асинхронные действия/Promise/Promise.race.md>) первый завершенный promise
 - [`Promise.reject()`](<./Асинхронные действия/Promise/Promise.reject.md>) создает отклоненный promise
 - [`Promise.resolve()`](<./Асинхронные действия/Promise/Promise.resolve.md>) создает выполненный promise
-
-### [JSON](#javascript)
-
-- [`JSON`](<./Асинхронные действия/JSON/JSON.md>) формат обмена данными
 - [`JSON.parse()`](<./Асинхронные действия/JSON/JSON.parse.md>) преобразует JSON в объект
 - [`JSON.stringify()`](<./Асинхронные действия/JSON/JSON.stringify.md>) преобразует объект в JSON
 
-## [ООП](#javascript)
+## [ООП](#)
 
 - [`Наследование`](./ООП/Наследование.md)
 - [`Полиморфизм`](./ООП/Полиморфизм.md)
@@ -99,7 +87,7 @@
 - [`Что такое this`](<./ООП/Что такое this.md>)
 - [`Get и Set`](<./ООП/Get и Set.md>)
 
-## [Операторы](#javascript)
+## [Операторы](#)
 
 - [`...`](<./Операторы/Оператор Spread, Rest.md>) spread и rest
 - [`typeof (14)`](<./Операторы/Оператор typeof.md>) проверка типа
@@ -107,7 +95,7 @@
 - [`delete (14)`](<./Операторы/Оператор delete.md>) удаление свойства объекта
 - [`instanceof (9)`](<./Операторы/Оператор instanceof.md>) проверка принадлежности объекта классу
 
-### [Унарные операторы](#javascript)
+### [Унарные операторы](#)
 
 - [`..++ постфиксный инкремент (15)`](<./Операторы/Постфиксный инкремент.md>)
 - [`..-- постфиксный декремент (15)`](<./Операторы/Постфиксный декремент.md>)
@@ -117,7 +105,7 @@
 - [`-.. унарный минус (14)`](<./Операторы/Унарный минус.md>)
 - [`!.. логическое НЕ (14)`](<./Операторы/Логическое НЕ.md>)
 
-### [Бинарные операторы](#javascript)
+### [Бинарные операторы](#)
 
 - [`** возведение в степень (13)`](<./Операторы/Возведение в степень.md>)
 - [`* умножение (12)`](./Операторы/Умножение.md)
@@ -146,63 +134,133 @@
 - [`||= присваивание с логическим ИЛИ (2)`](<./Операторы/Присваивание с логическим ИЛИ.md>) first == true ? stop
 - [`??= присваивание с нулевым слиянием (2)`](<./Операторы/Присваивание c нулевым слиянием.md>) first === null/undefined ? second
 
-### [Тернарный оператор](#javascript)
+### [Тернарный оператор](#)
 
 - [`.. ? .. : .. тернарный оператор (2)`](<./Операторы/Тернарный оператор.md>)
 
-### [Операторы группировки](#javascript)
+### [Операторы группировки](#)
 
 - [`(..) скобки (18)`](./Операторы/Скобки.md)
 - [`.., .. запятая (1)`](./Операторы/Запятая.md)
 
-## [Циклы](#javascript)
+## [Функции](#)
 
-- [`while`](./Циклы/while.md) проверка условия до первой итерации
-- [`do while`](<./Циклы/do while.md>) проверка условия после первой итерации
-- [`for`](./Циклы/for.md) цикл со счетчиком
-- [`for in`](<./Циклы/for in.md>) для перебора свойств объекта
-- [`for of`](<./Циклы/for of.md>) для перебора массивов, перебираемых объектов и коллекций
+- [`.apply()`](./Function/.apply.md) вызывает метод объекта с конкретными контекстом и значением
+- [`.bind()`](./Function/.bind.md) привязывает конкретный контекст к методу объекта
+- [`.call()`](./Function/.call.md) вызывает метод объекта с конкретными контекстом и значением
+- [`arguments`](./Function/arguments.md) псевдомассив всех переданных аргументов
 
-## [Array](#javascript)
+## [Циклы](#)
 
-- [`Array()`](./Array/Array.md) создает массив
+- [`while`](./Циклы/while.md) проверка условия до итерации
+- [`do while`](<./Циклы/do while.md>) проверка условия после итерации
+- [`for`](./Циклы/for.md) классический цикл
+- [`for in`](<./Циклы/for in.md>) перебор свойств объекта
+- [`for of`](<./Циклы/for of.md>) перебор массивов, итерируемых объектов и коллекций
+
+## [Number](#)
+
+- [`new Number()`](<./Number/new Number.md>) создает объект Number
+- [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
+- [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
+- [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
+- [`Number()`](./Number/Number.md) преобразует аргумент в число
+- [`String()`](./String/String.md) преобразует в строку
+- [`.toFixed()`](./Number/.toFixed.md) преобразует в строку и округляет
+- [`.toLocaleString()`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
+- [`.toString()`](./Number/.toString.md) преобразует в строку
+- [`Math.abs()`](./Number/Math.abs.md) вычисляет модуль числа
+- [`Math.ceil()`](./Number/Math.ceil.md) округление до целого вверх
+- [`Math.floor()`](./Number/Math.floor.md) округление до целого вниз
+- [`Math.max()`](./Number/Math.max.md) наибольшее из переданных аргументов
+- [`Math.min()`](./Number/Math.min.md) наименьшее из переданных аргументов
+- [`Math.pow()`](./Number/Math.pow.md) возведение в степень
+- [`Math.random()`](./Number/Math.random.md) случайное число
+- [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
+- [`Math.sqrt()`](./Number/Math.sqrt.md) вычисляет квадратный корень числа
+- [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
+
+## [String](#)
+
+- [`new String()`](<./String/new String.md>) создает объект String
+- [`Number()`](./Number/Number.md) преобразует в число
+- [`parseFloat()`](./Window/parseFloat.md) преобразует в число c плавающей точкой
+- [`parseInt()`](./Window/parseInt.md) преобразует в целое число
+- [`String()`](./String/String.md) преобразует в строку
+- [`.charAt()`](./String/.charAt.md) получение ключа по индексу
+- [`.endsWith()`](./String/.endsWith.md) сравнивает конец строки с аргументом
+- [`.includes()`](./String/.includes.md) проверяет наличие в строке аргумента
+- [`.indexOf()`](./String/.indexOf.md) поиск индекса переданного аргумента
+- [`.length`](./String/.length.md) длина строки
+- [`.localeCompare()`](./String/.localeCompare.md) сравнивает две строки
+- [`.match()`](./String/.match.md) поиск всех совпадений по regexp
+- [`.repeat()`](./String/.repeat.md) повторяет строку несколько раз
+- [`.replace()`](./String/.replace.md) замена части строки, можно использовать regexp
+- [`.replaceAll()`](./String/.replaceAll.md) замена всех частей строки
+- [`.search()`](./String/.search.md) поиск индекса по regexp
+- [`.slice()`](./String/.slice.md) копирует часть строки
+- [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
+- [`.startsWith()`](./String/.startsWith.md) сравнивает начало строки с аргументом
+- [`.substring()`](./String/.substring.md) копирует часть строки
+- [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
+- [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
+- [`.trim()`](./String/.trim.md) очистка от пробелов
+
+## [Array](#)
+
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 - [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
-- [`.join()`](./Array/.join.md) преобразует массив в строку
+- [`Array()`](./Array/Array.md) создает массив
+- [`for of`](<./Циклы/for of.md>) перебор массивов, итерируемых объектов и коллекций
 - [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив [key, value] в объект
-
-### [Иммутабельные методы](#javascript)
-
-- [`.length`](./Array/.length.md) размер массива
 - [`.concat()`](./Array/.concat.md) объединяет элементы
 - [`.every()`](./Array/.every.md) проверяет все ли элементы соответствуют условию
+- [`.fill()`](./Array/.fill.md) заполняет значениями (МУТИРУЕТ)
 - [`.filter()`](./Array/.filter.md) оставляет те элементы, которые соответствуют условию
 - [`.find()`](./Array/.find.md) поиск элемента, который соответствуют условию
 - [`.findindex()`](./Array/.findindex.md) поиск индекса элемента, который соответствуют условию
+- [`.flat()`](./Array/.flat.md) разворачивает вложенные массивы (МУТИРУЕТ)
 - [`.forEach()`](./Array/.forEach.md) перебирает элементы массива
 - [`.includes()`](./Array/.includes.md) проверяет наличие в массиве аргумента
 - [`.indexOf()`](./Array/.indexOf.md) поиск индекса
 - [`.join()`](./Array/.join.md) преобразует массив в строку
 - [`.lastIndexOf()`](./Array/.lastIndexOf.md) поиск последнего индекса
+- [`.length`](./Array/.length.md) размер массива
 - [`.map()`](./Array/.map.md) создание массива из другого
+- [`.pop()`](./Array/.pop.md) удаляет последний элемент (МУТИРУЕТ)
+- [`.push()`](./Array/.push.md) добавляет в конец массива (МУТИРУЕТ)
 - [`.reduce()`](./Array/.reduce.md) сведение массива к одному значению
+- [`.reverse()`](./Array/.reverse.md) инвертирует порядок элементов (МУТИРУЕТ)
+- [`.shift()`](./Array/.shift.md) удаляет первый элемент (МУТИРУЕТ)
 - [`.slice()`](./Array/.slice.md) создает копию массива из нужных элементов
 - [`.some()`](./Array/.some.md) проверяет соответствует ли условию хотя бы один элемент
+- [`.sort()`](./Array/.sort.md) сортирует элементы массива (МУТИРУЕТ)
+- [`.splice()`](./Array/.splice.md) заменяет часть элементов, добавляет новые (МУТИРУЕТ)
+- [`.unshift()`](./Array/.unshift.md) добавляет в начало массива (МУТИРУЕТ)
 
-### [Мутабельные методы](#javascript)
+## [Object](#)
 
-- [`.fill()`](./Array/.fill.md) заполняет значениями
-- [`.flat()`](./Array/.flat.md) разворачивает вложенные массивы
-- [`.pop()`](./Array/.pop.md) удаляет последний элемент
-- [`.push()`](./Array/.push.md) добавляет в конец массива
-- [`.reverse()`](./Array/.reverse.md) инвертирует порядок элементов
-- [`.shift()`](./Array/.shift.md) удаляет первый элемент
-- [`.sort()`](./Array/.sort.md) сортирует элементы массива
-- [`.splice()`](./Array/.splice.md) заменяет часть элементов, добавляет новые
-- [`.unshift()`](./Array/.unshift.md) добавляет в начало массива
+- [`new Object()`](<./Object/new Object.md>) создает новый объект
+- [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
+- [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
+- [`Object.entries()`](./Object/Object.entries.md) преобразует в массив массивов пар ключ-значение
+- [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив [key, value] в объект
+- [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив всех собственных свойств
+- [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив всех ключей-символов
+- [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
+- [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
+- [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
+- [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
+- [`Object.values()`](./Object/Object.values.md) создает массив значений
+- [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
+- [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
+- [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
+- [`delete (14)`](<./Операторы/Оператор delete.md>) удаление свойства объекта
+- [`for in`](<./Циклы/for in.md>) перебор свойств объекта
+- [`in (9)`](<./Операторы/Оператор in.md>) проверка наличия свойства в объекте
 
-## [Date](#javascript)
+## [Date](#)
 
 - [`Date.now()`](./Date/Date.now.md) миллисекунды с 01 января 1970
 - [`Date.parse()`](./Date/Date.parse.md) преобразует строку в миллисекунды с 01 января 1970
@@ -232,7 +290,38 @@
   - [`.toString()`](./Date/.toString) преобразует в строку в формате "день-недели месяц число год часы:минуты:секунды GMT"
   - [`.toUTCString()`](./Date/.toUTCString.md) преобразует в строку в формате UTC
 
-## [Document](#javascript)
+## [Map](#)
+
+- [`new Map()`](<./Map/new Map.md>) создает коллекцию для хранения пар ключ-значение
+  - [`.clear()`](./Map/.clear.md) удаляет все значения
+  - [`.delete()`](./Map/.delete.md) удаляет значение из коллекции
+  - [`.entries()`](./Map/.entries.md) возвращает итератор пар ключ-значение
+  - [`.forEach()`](./Map/.forEach.md) обход коллекции
+  - [`.get()`](./Map/.get.md) получает значение
+  - [`.has()`](./Map/.has.md) проверяет наличие значения
+  - [`.keys()`](./Map/.keys.md) возвращает итератор ключей
+  - [`.set()`](./Map/.set.md) сохраняет значение в коллекцию
+  - [`.size`](./Map/.size.md) количество значений
+  - [`.values()`](./Map/.values.md) возвращает итератор значений
+
+## [Set](#)
+
+- [`new Set()`](<./Set/new Set.md>) создает коллекцию для хранения уникальных значений
+  - [`.add()`](./Set/.add.md) добавляет значение в коллекцию
+  - [`.clear()`](./Set/.clear.md) удаляет все значения
+  - [`.delete()`](./Set/.delete.md) удаляет значение из коллекции
+  - [`.forEach()`](./Set/.forEach.md) обход коллекции
+  - [`.has()`](./Set/.has.md) проверяет наличие значения
+  - [`.size`](./Set/.size.md) количество значений
+- [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
+
+## [RegExp](#)
+
+- [`new RegExp()`](<./RegExp/new RegExp.md>) создает регулярное выражение
+  - [`.exec()`](./RegExp/.exec.md) подробный поиск одного совпадения
+  - [`.test()`](./RegExp/.test.md) соответствие выражению
+
+## [Document](#)
 
 - [`document.body`](./Document/document.body.md) тело страницы
 - [`document.cookie`](./Document/document.cookie.md) cookie страницы
@@ -249,9 +338,9 @@
 - [`document.querySelectorAll()`](./Document/document.querySelectorAll.md) NodeList по селектору (статическая)
 - [`document.title`](./Document/document.title.md) заголовок страницы
 
-## [Element](#javascript)
+## [Element](#)
 
-### [Атрибуты](#javascript)
+### [Атрибуты](#)
 
 - [`.checked`](./Element/.checked.md) атрибут checked
 - [`.className`](./Element/.className.md) атрибут class
@@ -271,7 +360,7 @@
 - [`.type`](./Element/.type.md) атрибут type
 - [`.value`](./Element/.value.md) атрибут value
 
-### [Классы](#javascript)
+### [Классы](#)
 
 - [`.classList`](./Element/.classList.md) псевдомассив классов
   - [`.classList.add()`](./Element/.classList.add.md) добавляет класс
@@ -280,7 +369,7 @@
   - [`.classList.replace()`](./Element/.classList.replace.md) заменяет класс
   - [`.classList.toggle()`](./Element/.classList.toggle.md) переключает класс
 
-### [Метрики](#javascript)
+### [Метрики](#)
 
 - [`.clientHeight`](./Element/.clientHeight.md) высота (content + padding)
 - [`.clientLeft`](./Element/.clientLeft.md) отступ сверху (border)
@@ -297,7 +386,7 @@
 - [`.scrollTop`](./Element/.scrollTop.md) высота прокрученной области
 - [`.scrollWidth`](./Element/.scrollWidth.md) ширина (content + padding + scrollBar)
 
-### [Форма](#javascript)
+### [Форма](#)
 
 - [`.focus()`](./Element/.focus.md) фокус на элементе
 - [`.reset()`](./Element/.reset.md) сбрасывает поля формы
@@ -305,17 +394,7 @@
 - [`.validationMessage`](./Element/.validationMessage.md) текст сообщения об ошибке
 - [`.validity`](./Element/.validity.md) объект проверки ошибок
 
-### [DOM Добавление, перемещение, удаление](#javascript)
-
-- [`.after()`](./Element/.after.md) добавляет, перемещает ПОСЛЕ узла
-- [`.append()`](./Element/.append.md) добавляет, перемещает в КОНЕЦ узла
-- [`.before()`](./Element/.before.md) добавляет, перемещает ДО узла
-- [`.cloneNode()`](./Element/.cloneNode.md) клонирует элемент
-- [`.prepend()`](./Element/.prepend.md) добавляет, перемещает в НАЧАЛО узла
-- [`.remove()`](./Element/.remove.md) удаляет элемент
-- [`.replaceWith()`](./Element/.replaceWith.md) заменяет элемент
-
-### [DOM Поиск](#javascript)
+### [DOM Поиск](#)
 
 - [`.childNodes`](./Element/.childNodes.md) NodeList дочерних узлов (динамическая)
 - [`.children`](./Element/.children.md) HTMLCollection дочерних элементов (динамическая)
@@ -331,13 +410,23 @@
 - [`.querySelector()`](./Element/.querySelector.md) поиск элемента по селектору
 - [`.querySelectorAll()`](./Element/.querySelectorAll.md) NodeList по селектору (статическая)
 
-### [DOM События](#javascript)
+### [DOM Положение](#)
+
+- [`.after()`](./Element/.after.md) добавляет, перемещает ПОСЛЕ узла
+- [`.append()`](./Element/.append.md) добавляет, перемещает в КОНЕЦ узла
+- [`.before()`](./Element/.before.md) добавляет, перемещает ДО узла
+- [`.cloneNode()`](./Element/.cloneNode.md) клонирует элемент
+- [`.prepend()`](./Element/.prepend.md) добавляет, перемещает в НАЧАЛО узла
+- [`.remove()`](./Element/.remove.md) удаляет элемент
+- [`.replaceWith()`](./Element/.replaceWith.md) заменяет элемент
+
+### [DOM События](#)
 
 - [`.addEventListener()`](./Element/.addEventListener.md) добавление слушателя
 - [`.dispatchEvent()`](./Element/.dispatchEvent.md) запускает кастомное событие
 - [`.removeEventListener()`](./Element/.removeEventListener.md) удаление слушателя
 
-### [DOM Содержимое](#javascript)
+### [DOM Содержимое](#)
 
 - [`.content`](./Element/.content.md) содержимое template
 - [`.innerHTML`](./Element/.innerHTML.md) содержимое с разметкой
@@ -347,7 +436,34 @@
 - [`.outerHTML`](./Element/.outerHTML.md) содержимое с разметкой + сам элемент
 - [`.textContent`](./Element/.textContent.md) текстовое содержимое (видимое и скрытое)
 
-## [Event.type](#javascript)
+## [Event](#)
+
+- [`.new Event()`](<./Event/new Event.md>) создает кастомное событие
+- [`.new CustomEvent()`](<./Event/new CustomEvent.md>) создает кастомное событие с данными
+- [`evt`](./Event/Evt.md) объект события
+  - [`.bubbles`](./Event/.bubbles.md) всплывающее событие
+  - [`.cancelable`](./Event/.cancelable.md) отменяемое событие
+  - [`.clientX`](./Event/.clientX.md) координаты X от окна просмотра
+  - [`.clientY`](./Event/.clientY.md) координаты Y от окна просмотра
+  - [`.composedPath()`](./Event/.composedPath.md) элементы где сработало событие
+  - [`.currentTarget`](./Event/.currentTarget.md) элемент на котором висит обработчик
+  - [`.defaultPrevented`](./Event/.defaultPrevented.md) отменено ли событие по умолчанию
+  - [`.eventPhase`](./Event/.eventPhase.md) фаза события
+  - [`.isTrusted`](./Event/.isTrusted.md) пользовательское ли это событие
+  - [`.key`](./Event/.key.md) название нажатой клавиши
+  - [`.pageX`](./Event/.pageX.md) координаты X от угла страницы
+  - [`.pageY`](./Event/.pageY.md) координаты Y от угла страницы
+  - [`.preventDefault()`](./Event/.preventDefault.md) отменяет поведение по умолчанию
+  - [`.screenX`](./Event/.screenX.md) координаты X от угла монитора
+  - [`.screenY`](./Event/.screenY.md) координаты Y от угла монитора
+  - [`.stopImmediatePropagation()`](./Event/.stopImmediatePropagation.md) остановка всплытия и обработчиков
+  - [`.stopPropagation()`](./Event/.stopPropagation.md) остановка всплытия события
+  - [`.target`](./Event/.target.md) элемент где произошло событие
+  - [`.timeStamp`](./Event/.timeStamp.md) время возникновения события
+  - [`.type`](./Event/.type.md) тип события
+  - [`.view`](./Event/.view.md) объект window где произошло событие
+
+## [Event.type](#)
 
 - [`blur`](<./Event Type/blur.md>) снятие фокуса
 - [`change`](<./Event Type/change.md>) изменение и фиксирование значения
@@ -376,153 +492,7 @@
 - [`unhandledrejection`](<./Event Type/unhandledrejection.md>) отсутствует обработчик ошибки promise
 - [`wheel`](<./Event Type/wheel.md>) прокрутка колеса мыши
 
-## [Event](#javascript)
-
-- [`.new Event()`](<./Event/new Event.md>) создает кастомное событие
-- [`.new CustomEvent()`](<./Event/new CustomEvent.md>) создает кастомное событие с данными
-- [`evt`](./Event/Evt.md) объект события
-  - [`.bubbles`](./Event/.bubbles.md) всплывающее событие
-  - [`.cancelable`](./Event/.cancelable.md) отменяемое событие
-  - [`.clientX`](./Event/.clientX.md) координаты X от окна просмотра
-  - [`.clientY`](./Event/.clientY.md) координаты Y от окна просмотра
-  - [`.composedPath()`](./Event/.composedPath.md) элементы где сработало событие
-  - [`.currentTarget`](./Event/.currentTarget.md) элемент на котором висит обработчик
-  - [`.defaultPrevented`](./Event/.defaultPrevented.md) отменено ли событие по умолчанию
-  - [`.eventPhase`](./Event/.eventPhase.md) фаза события
-  - [`.isTrusted`](./Event/.isTrusted.md) пользовательское ли это событие
-  - [`.key`](./Event/.key.md) название нажатой клавиши
-  - [`.pageX`](./Event/.pageX.md) координаты X от угла страницы
-  - [`.pageY`](./Event/.pageY.md) координаты Y от угла страницы
-  - [`.preventDefault()`](./Event/.preventDefault.md) отменяет поведение по умолчанию
-  - [`.screenX`](./Event/.screenX.md) координаты X от угла монитора
-  - [`.screenY`](./Event/.screenY.md) координаты Y от угла монитора
-  - [`.stopImmediatePropagation()`](./Event/.stopImmediatePropagation.md) остановка всплытия и обработчиков
-  - [`.stopPropagation()`](./Event/.stopPropagation.md) остановка всплытия события
-  - [`.target`](./Event/.target.md) элемент где произошло событие
-  - [`.timeStamp`](./Event/.timeStamp.md) время возникновения события
-  - [`.type`](./Event/.type.md) тип события
-  - [`.view`](./Event/.view.md) объект window где произошло событие
-
-## [Function](#javascript)
-
-- [`.apply()`](./Function/.apply.md) вызывает метод объекта с конкретными контекстом и значением
-- [`.bind()`](./Function/.bind.md) привязывает конкретный контекст к методу объекта
-- [`.call()`](./Function/.call.md) вызывает метод объекта с конкретными контекстом и значением
-- [`arguments`](./Function/arguments.md) псевдомассив всех переданных аргументов
-
-## [Map](#javascript)
-
-- [`new Map()`](<./Map/new Map.md>) создает коллекцию для хранения пар ключ-значение
-  - [`.clear()`](./Map/.clear.md) удаляет все значения
-  - [`.delete()`](./Map/.delete.md) удаляет значение из коллекции
-  - [`.entries()`](./Map/.entries.md) возвращает итератор пар ключ-значение
-  - [`.forEach()`](./Map/.forEach.md) обход коллекции
-  - [`.get()`](./Map/.get.md) получает значение
-  - [`.has()`](./Map/.has.md) проверяет наличие значения
-  - [`.keys()`](./Map/.keys.md) возвращает итератор ключей
-  - [`.set()`](./Map/.set.md) сохраняет значение в коллекцию
-  - [`.size`](./Map/.size.md) количество значений
-  - [`.values()`](./Map/.values.md) возвращает итератор значений
-
-## [Number](#javascript)
-
-- [`new Number()`](<./Number/new Number.md>) создает объект Number
-- [`Number()`](./Number/Number.md) преобразует аргумент в число
-- [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
-- [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
-- [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
-- [`.toFixed()`](./Number/.toFixed.md) преобразует в строку и округляет
-- [`.toLocaleString()`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
-- [`.toString()`](./Number/.toString.md) преобразует в строку
-- [`String()`](./String/String.md) преобразует в строку
-
-### [Методы](#javascript)
-
-- [`.toFixed()`](./Number/.toFixed.md) преобразует в строку и округляет
-- [`.toLocaleString()`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
-- [`.toString()`](./Number/.toString.md) преобразует в строку
-
-### [Math](#javascript)
-
-- [`Math.abs()`](./Number/Math.abs.md) вычисляет модуль числа
-- [`Math.ceil()`](./Number/Math.ceil.md) округление до целого вверх
-- [`Math.floor()`](./Number/Math.floor.md) округление до целого вниз
-- [`Math.max()`](./Number/Math.max.md) наибольшее из переданных аргументов
-- [`Math.min()`](./Number/Math.min.md) наименьшее из переданных аргументов
-- [`Math.pow()`](./Number/Math.pow.md) возведение в степень
-- [`Math.random()`](./Number/Math.random.md) случайное число
-- [`Math.round()`](./Number/Math.round.md) округление до ближайшего целого
-- [`Math.sqrt()`](./Number/Math.sqrt.md) вычисляет квадратный корень числа
-- [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
-
-## [Object](#javascript)
-
-- [`in (9)`](<./Операторы/Оператор in.md>) проверка наличия свойства в объекте
-- [`delete (14)`](<./Операторы/Оператор delete.md>) удаление свойства объекта
-- [`new Object()`](<./Object/new Object.md>) создает новый объект
-- [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
-- [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
-- [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив [key, value] в объект
-- [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив всех собственных свойств
-- [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив всех ключей-символов
-- [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
-- [`Object.hasOwn()`](./Object/Object.hasOwn.md) проверяет собственное ли свойство
-- [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
-- [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
-- [`Object.values()`](./Object/Object.values.md) создает массив значений
-- [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
-- [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
-- [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
-- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
-
-## [RegExp](#javascript)
-
-- [`new RegExp()`](<./RegExp/new RegExp.md>) создает регулярное выражение
-  - [`.exec()`](./RegExp/.exec.md) подробный поиск одного совпадения
-  - [`.test()`](./RegExp/.test.md) соответствие выражению
-
-## [Set](#javascript)
-
-- [`new Set()`](<./Set/new Set.md>) создает коллекцию для хранения уникальных значений
-  - [`.add()`](./Set/.add.md) добавляет значение в коллекцию
-  - [`.clear()`](./Set/.clear.md) удаляет все значения
-  - [`.delete()`](./Set/.delete.md) удаляет значение из коллекции
-  - [`.forEach()`](./Set/.forEach.md) обход коллекции
-  - [`.has()`](./Set/.has.md) проверяет наличие значения
-  - [`.size`](./Set/.size.md) количество значений
-- [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
-
-## [String](#javascript)
-
-- [`new String()`](<./String/new String.md>) создает объект String
-- [`String()`](./String/String.md) преобразует в строку
-- [`Number()`](./Number/Number.md) преобразует в число
-- [`parseFloat()`](./Window/parseFloat.md) преобразует в число c плавающей точкой
-- [`parseInt()`](./Window/parseInt.md) преобразует в целое число
-- [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
-
-### [Методы](#javascript)
-
-- [`.charAt()`](./String/.charAt.md) получение ключа по индексу
-- [`.endsWith()`](./String/.endsWith.md) сравнивает конец строки с аргументом
-- [`.includes()`](./String/.includes.md) проверяет наличие в строке аргумента
-- [`.indexOf()`](./String/.indexOf.md) поиск индекса переданного аргумента
-- [`.length`](./String/.length.md) длина строки
-- [`.localeCompare()`](./String/.localeCompare.md) сравнивает две строки
-- [`.match()`](./String/.match.md) поиск всех совпадений по regexp
-- [`.repeat()`](./String/.repeat.md) повторяет строку несколько раз
-- [`.replace()`](./String/.replace.md) замена части строки, можно использовать regexp
-- [`.replaceAll()`](./String/.replaceAll.md) замена всех частей строки
-- [`.search()`](./String/.search.md) поиск индекса по regexp
-- [`.slice()`](./String/.slice.md) копирует часть строки
-- [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
-- [`.startsWith()`](./String/.startsWith.md) сравнивает начало строки с аргументом
-- [`.substring()`](./String/.substring.md) копирует часть строки
-- [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
-- [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
-- [`.trim()`](./String/.trim.md) очистка от пробелов
-
-## [Window](#javascript)
+## [Window](#)
 
 - [`alert()`](./Window/alert.md) модальное окно с текстом
 - [`clearInterval()`](./Window/clearInterval.md) удаление интервала
