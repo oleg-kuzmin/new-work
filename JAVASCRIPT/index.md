@@ -166,6 +166,8 @@
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 - [`Array.isArray()`](./Array/Array.isArray.md) проверка на массив
 - [`Array.of()`](./Array/Array.of.md) создает массив из переданных аргументов
+- [`.join()`](./Array/.join.md) преобразует массив в строку
+- [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив [key, value] в объект
 
 ### [Иммутабельные методы](#javascript)
 
@@ -196,11 +198,6 @@
 - [`.sort()`](./Array/.sort.md) сортирует элементы массива
 - [`.splice()`](./Array/.splice.md) заменяет часть элементов, добавляет новые
 - [`.unshift()`](./Array/.unshift.md) добавляет в начало массива
-
-### [Преобразование](#javascript)
-
-- [`Array => String: (.join)`](./Array/.join.md) преобразует массив в строку
-- [`Array => Object: (Object.fromEntries)`](./Object/Object.fromEntries.md) создает объект из массива
 
 ## [Date](#javascript)
 
@@ -432,6 +429,10 @@
 - [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
 - [`Number.isInteger()`](./Number/Number.isInteger.md) проверяет число на целое или дробное
 - [`Number.isNaN()`](./Number/Number.isNaN.md) проверяет число на NaN
+- [`.toFixed()`](./Number/.toFixed.md) преобразует в строку и округляет
+- [`.toLocaleString()`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
+- [`.toString()`](./Number/.toString.md) преобразует в строку
+- [`String()`](./String/String.md) преобразует в строку
 
 ### [Методы](#javascript)
 
@@ -452,21 +453,13 @@
 - [`Math.sqrt()`](./Number/Math.sqrt.md) вычисляет квадратный корень числа
 - [`Math.trunc()`](./Number/Math.trunc.md) отбрасывает дробную часть
 
-### [Преобразование](#javascript)
-
-- [`Number => String (.toFixed)`](./Number/.toFixed.md) преобразует в строку и округляет
-- [`Number => String (.toLocaleString)`](./Number/.toLocaleString.md) преобразует в строку c учетом языка
-- [`Number => String (.toString)`](./Number/.toString.md) преобразует в строку
-- [`Number => String (String)`](./String/String.md) преобразует в строку
-
 ## [Object](#javascript)
 
 - [`type object`](<./Object/type object.md>) тип object
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
 - [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
-- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
-- [`Object.fromEntries()`](./Object/Object.fromEntries.md) создает объект из массива
+- [`Object.fromEntries()`](./Object/Object.fromEntries.md) преобразует массив [key, value] в объект
 - [`Object.getOwnPropertyNames()`](./Object/Object.getOwnPropertyNames.md) создает массив всех собственных свойств
 - [`Object.getOwnPropertySymbols()`](./Object/Object.getOwnPropertySymbols.md) создает массив всех ключей-символов
 - [`Object.getPrototypeOf()`](./Object/Object.getPrototypeOf.md) объект прототипа
@@ -477,10 +470,7 @@
 - [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
 - [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
 - [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
-
-### [Преобразование](#javascript)
-
-- [`Object => Array (Object.entries)`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
+- [`Object.entries()`](./Object/Object.entries.md) создает массив массивов пар ключ-значение из объекта
 
 ## [RegExp](#javascript)
 
@@ -497,9 +487,6 @@
   - [`.forEach()`](./Set/.forEach.md) обход коллекции
   - [`.has()`](./Set/.has.md) проверяет наличие значения
   - [`.size`](./Set/.size.md) количество значений
-
-### [Преобразование](#javascript)
-
 - [`Array.from()`](./Array/Array.from.md) создает массив из коллекции или итерируемого объекта
 
 ## [String](#javascript)
@@ -507,6 +494,10 @@
 - [`type string`](<./String/type string.md>) тип string
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
+- [`Number()`](./Number/Number.md) преобразует в число
+- [`parseFloat()`](./Window/parseFloat.md) преобразует в число c плавающей точкой
+- [`parseInt()`](./Window/parseInt.md) преобразует в целое число
+- [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
 
 ### [Методы](#javascript)
 
@@ -528,13 +519,6 @@
 - [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
 - [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
 - [`.trim()`](./String/.trim.md) очистка от пробелов
-
-### [Преобразование](#javascript)
-
-- [`String => Number (Number)`](./Number/Number.md) преобразует аргумент в число
-- [`String => Number (parseFloat)`](./Window/parseFloat.md) преобразует строку в число c плавающей точкой
-- [`String => Number (parseInt)`](./Window/parseInt.md) преобразует строку в целое число
-- [`String => Array (.split)`](./String/.split.md) преобразует в массив, можно использовать regexp
 
 ## [Window](#javascript)
 
