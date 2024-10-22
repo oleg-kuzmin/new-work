@@ -35,11 +35,14 @@
 - [`Функции`](./Общее/Функции.md)
 - [`Экспорт и импорт CommonJS`](<./Общее/Экспорт и импорт CommonJS.md>)
 - [`Экспорт и импорт ES Modules`](<./Общее/Экспорт и импорт ES Modules.md>)
-- [`type bigInt`](<./Общее/type bigInt.md>)
-- [`type boolean`](<./Общее/type boolean.md>)
-- [`type null`](<./Общее/type null.md>)
-- [`type symbol`](<./Общее/type symbol.md>)
-- [`type undefined`](<./Общее/type undefined.md>)
+- [`Тип bigInt`](<./Общее/Тип bigInt.md>)
+- [`Тип boolean`](<./Общее/Тип boolean.md>)
+- [`Тип null`](<./Общее/Тип null.md>)
+- [`Тип number`](<./Общее/Тип number.md>)
+- [`Тип object`](<./Общее/Тип object.md>)
+- [`Тип string`](<./Общее/Тип string.md>)
+- [`Тип symbol`](<./Общее/Тип symbol.md>)
+- [`Тип undefined`](<./Общее/Тип undefined.md>)
 
 ## [Асинхронные действия](#javascript)
 
@@ -423,7 +426,6 @@
 
 ## [Number](#javascript)
 
-- [`type number`](<./Number/type number.md>) тип number
 - [`new Number()`](<./Number/new Number.md>) создает объект Number
 - [`Number()`](./Number/Number.md) преобразует аргумент в число
 - [`Number.isFinite()`](./Number/Number.isFinite.md) проверяет число на конечность
@@ -455,7 +457,8 @@
 
 ## [Object](#javascript)
 
-- [`type object`](<./Object/type object.md>) тип object
+- [`in (9)`](<./Операторы/Оператор in.md>) проверка наличия свойства в объекте
+- [`delete (14)`](<./Операторы/Оператор delete.md>) удаление свойства объекта
 - [`new Object()`](<./Object/new Object.md>) создает новый объект
 - [`Object.assign()`](./Object/Object.assign.md) поверхностное копирование, объединение
 - [`Object.create()`](./Object/Object.create.md) создает объект с прототипом
@@ -491,7 +494,6 @@
 
 ## [String](#javascript)
 
-- [`type string`](<./String/type string.md>) тип string
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
 - [`Number()`](./Number/Number.md) преобразует в число

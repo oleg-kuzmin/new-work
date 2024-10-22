@@ -1,4 +1,4 @@
-# [`type boolean`](../index.md)
+# [`Тип boolean`](../index.md)
 
 Булевый тип `boolean` может принимать только два значения: `true` (истина) и `false` (ложь).
 
