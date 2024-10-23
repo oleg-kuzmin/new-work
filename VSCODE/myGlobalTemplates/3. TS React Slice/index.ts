@@ -1,1 +1,1 @@
-export { <FTName | pascalcase> } from './ui/[FTName | pascalcase].jsx';
+export { <FTName | pascalcase> } from './ui/[FTName | pascalcase]';
