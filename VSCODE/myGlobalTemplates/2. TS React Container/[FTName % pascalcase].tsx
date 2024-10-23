@@ -8,8 +8,6 @@ export function <FTName | pascalcase>({ className }: Readonly<<FTName | pascalca
   const externalClass = className ? ` ${className}` : '';
 
   return (
-    <div className={styles.[FTName | pascalcase] + externalClass}>
-      [FTName | pascalcase]
-    </div>
+    <div className={styles.[FTName | pascalcase] + externalClass}></div>
   );
 }
