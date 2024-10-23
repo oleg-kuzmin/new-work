@@ -4,6 +4,7 @@
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone" target="_blank">(MDN)</a>
 - <a href="https://doka.guide/js/shallow-or-deep-clone/" target="_blank">(Яндекс)</a>
+- <a href="https://caniuse.com/?search=structuredClone" target="_blank">(Caniuse)</a>
 
 ## Синтаксис
 

@@ -1,6 +1,8 @@
-# [`Установка`](../index.md)
+# [`lodash`](../index.md)
 
-[Документация](https://lodash.com/)
+- <a href="https://lodash.com/" target="_blank">(Документация)</a>
+
+## Установка
 
 ```bash
 npm i lodash
