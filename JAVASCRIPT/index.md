@@ -253,6 +253,7 @@
 - [`Object.is()`](./Object/Object.is.md) самый строгий способ проверки равенства значений
 - [`Object.keys()`](./Object/Object.keys.md) создает массив ключей
 - [`Object.values()`](./Object/Object.values.md) создает массив значений
+- [`structuredClone()`](./Window/structuredClone.md) глубокое копирование объекта
 - [`.__proto__`](./Object/.__proto__.md) ссылка на прототип объекта
 - [`.hasOwnProperty()`](./Object/.hasownproperty.md) проверяет принадлежность свойства самому объекту
 - [`.prototype`](./Object/.prototype.md) свойства и методы функции-конструктора
@@ -531,3 +532,4 @@
 - [`scrollY`](./Window/scrollY.md) прокрутка окна браузера по вертикали
 - [`setInterval()`](./Window/setInterval.md) установка интервала
 - [`setTimeout()`](./Window/setTimeout.md) установка таймера
+- [`structuredClone()`](./Window/structuredClone.md) глубокое копирование объекта
