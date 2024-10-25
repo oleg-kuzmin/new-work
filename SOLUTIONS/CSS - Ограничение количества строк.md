@@ -2,10 +2,10 @@
 
 ```css
 .element {
-  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   line-clamp: 2;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 ```
