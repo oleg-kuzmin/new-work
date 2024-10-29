@@ -1,15 +1,18 @@
 # [`git checkout`](../index.md)
 
 ```bash
+# переключение на главную ветку (использовать если HEAD detached at)
+git checkout main
+
 # Переключение на другую ветку.
 git checkout имя_ветки
 
 # Создание ветки и переключение не нее.
 git checkout -b имя_ветки
 
-# Откат назад.
+# Откат назад. Отменит все изменения в stage.
 git checkout .
 
-# переключение на ветку если HEAD detached at
-git checkout master
+# Откат назад в конкретном файле. Отменит все изменения в stage.
+git checkout имя_файла
 ```
