@@ -2,10 +2,9 @@
 
 Клонирование удаленного репозитория.
 
-```bash
-# Этот вариант возможен только если репозиторий публичный, при push нужен логин и пароль
-//* git clone https://github.com/oleg-kuzmin/how-to-learn.git
+## Синтаксис
 
-# Клонирование с использованием ssh-ключа.
-//* git clone git@github.com:oleg-kuzmin/work.git
+```bash
+git clone git@github.com:oleg-kuzmin/work.git  # Клонирование с использованием ssh-ключа
+git clone https://github.com/work.git          # Клонирование публичного репозитория
 ```
