@@ -40,6 +40,7 @@
 - [`git commit`](<./git commit.md>) добавить файл/каталог в локальный репозиторий
 - [`git diff`](<./git diff.md>) посмотреть изменения коммитов
 - [`git log`](<./git log.md>) посмотреть историю коммитов
+- [`git rebase`](<./git rebase.md>) переписывает историю коммитов
 - [`git reset`](<./git reset.md>) сброс изменения
 - [`git revert`](<./git revert.md>) отмена коммита
 - [`git rm`](<./git rm.md>) удалить файл/каталог из промежуточной области stage/index
