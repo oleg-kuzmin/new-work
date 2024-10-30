@@ -6,5 +6,5 @@
 
 ```bash
 git remote add origin https://github.com/work.git  # привяжет удаленный репозиторий origin к локальному
-git remote                                         # выведет привязанный репозиторий
+git remote -v                                      # выведет привязанный репозиторий
 ```
