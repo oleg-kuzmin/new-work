@@ -1,4 +1,4 @@
-# [`throttle`](../index.md)
+# [`lodash (throttle)`](./index.md)
 
 ## Синтаксис
 

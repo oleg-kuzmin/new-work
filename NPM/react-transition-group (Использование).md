@@ -1,14 +1,6 @@
-# [`react-transition-group`](../index.md)
+# [`react-transition-group (Использование)`](./index.md)
 
-## Установка
-
-```bash
-npm i react-transition-group @types/react-transition-group
-```
-
-## Пример
-
-### Компонент
+## Компонент
 
 ```tsx
 import { useRef } from 'react';
@@ -29,7 +21,7 @@ function Component({ isActive }: Props) {
 }
 ```
 
-### Стили компонента
+## Стили компонента
 
 ```css
 .enter {

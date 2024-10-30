@@ -1,4 +1,4 @@
-# [`Установка`](../index.md)
+# [`gulp (Установка)`](./index.md)
 
 [Документация](https://gulpjs.com/docs/en/getting-started/quick-start)
 

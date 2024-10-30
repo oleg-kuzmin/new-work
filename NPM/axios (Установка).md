@@ -1,4 +1,4 @@
-# [`Установка`](../index.md)
+# [`axios (Установка)`](./index.md)
 
 [Документация](https://axios-http.com/docs/intro)
 

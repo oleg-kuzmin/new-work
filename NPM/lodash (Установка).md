@@ -1,4 +1,4 @@
-# [`lodash`](../index.md)
+# [`lodash (Установка)`](./index.md)
 
 - <a href="https://lodash.com/" target="_blank">(Документация)</a>
 
