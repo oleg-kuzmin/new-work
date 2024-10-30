@@ -32,15 +32,16 @@
 - [`git branch`](<./git branch.md>) создание/удаление ветки
 - [`git checkout`](<./git checkout.md>) сменить ветку/переключиться на коммит
 - [`git merge`](<./git merge.md>) слияние ветки с главной
-- [`git revert`](<./git revert.md>) отмена слияния веток, отмена коммита
+- [`git revert`](<./git revert.md>) отмена слияния веток
 
 ## [Коммиты](#)
 
-- [`git add`](<./git add.md>) добавить файл/каталог в stage
+- [`git add`](<./git add.md>) добавить файл/каталог в промежуточную область stage/index
 - [`git commit`](<./git commit.md>) добавить файл/каталог в локальный репозиторий
 - [`git diff`](<./git diff.md>) посмотреть изменения коммитов
 - [`git log`](<./git log.md>) посмотреть историю коммитов
-- [`git reset`](<./git reset.md>) отменить изменения
-- [`git rm`](<./git rm.md>) удалить файл/каталог из stage
+- [`git reset`](<./git reset.md>) сброс изменения
+- [`git revert`](<./git revert.md>) отмена коммита
+- [`git rm`](<./git rm.md>) удалить файл/каталог из промежуточной области stage/index
 - [`git stash`](<./git stash.md>) спрятать изменения
 - [`git status`](<./git status.md>) проверить изменения

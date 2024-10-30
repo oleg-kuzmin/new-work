@@ -2,13 +2,10 @@
 
 Установка глобальных настроек.
 
+## Синтаксис
+
 ```bash
-# Установка имени.
-git config --global user.name "Oleg Kuzmin"
-
-# Установка почты.
-git config --global user.email info@oleg-kuzmin.ru
-
-# Проверка всех свойств конфига.
-git config --list
+git config --global user.name "Oleg Kuzmin"           # Установка имени.
+git config --global user.email "info@oleg-kuzmin.ru"  # Установка почты.
+git config --list                                     # Проверка всех свойств конфига.
 ```

@@ -14,4 +14,5 @@ git add <file>    # Добавить папку в index(stage)
 git add .         # Добавить все в index(stage)
 git add -A        # Добавить все в index(stage)
 git add --all     # Добавить все в index(stage)
+git add *.html    # Добавить все файлы html в index(stage)
 ```
