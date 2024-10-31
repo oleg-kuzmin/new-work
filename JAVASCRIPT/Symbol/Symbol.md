@@ -1,4 +1,4 @@
-# [`Symbol`](../index.md)
+# [`Symbol()`](../index.md)
 
 - <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol" target="_blank">MDN</a>
 - <a href="https://doka.guide/js/symbol" target="_blank">DOKA</a>

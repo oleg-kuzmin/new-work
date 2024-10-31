@@ -268,6 +268,7 @@
 ## [Symbol](#)
 
 - [`Symbol()`](./Symbol/Symbol.md) создание символа
+- [`Symbol.toPrimitive`](./Symbol/Symbol.toPrimitive.md) символ для обозначения метода преобразования объекта
 
 ## [Date](#)
 
