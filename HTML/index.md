@@ -2,7 +2,7 @@
 
 - [Общее](#общее)
 
-## Атрибуты
+## [Атрибуты](#)
 
 - [Basic](#basic) / [Form](#form) / [Global](#global)
 
@@ -118,7 +118,7 @@
 <a href="./Attrubutes/width, height.md" title="ширина, высота (canvas, iframe, img, object, svg, video)"><code>width, height</code></a>
 <a href="./Attrubutes/wrap.md" title="символы переноса (textarea)"><code>wrap</code></a>
 
-## Теги
+## [Теги](#)
 
 - [Head](#head) / [Block](#block) / [Inline](#inline) / [Form](#form-1) / [Media](#media) / [Ui](#ui) / [Table](#table) / [Deprecated](#deprecated)
 
@@ -230,7 +230,7 @@
 [`<var>`](./Tags/var.md)
 [`<video>`](./Tags/video.md)
 
-## [Общее](#html)
+## [Общее](#)
 
 - [`Мнемоники`](./Общее/Мнемоники.md)
 - [`Относительные пути`](<./Общее/Относительные пути.md>)
@@ -239,7 +239,7 @@
 - [`Семантика текст`](<./Общее/Семантика текст.md>)
 - [`Синтаксис markdown`](<./Общее/Синтаксис markdown.md>)
 
-## [Basic](#html)
+## [Basic](#)
 
 - [`allowfullscreen` (iframe)](./Attrubutes/allowfullscreen.md) полноэкранный режим
 - [`alt` (area, img)](./Attrubutes/alt.md) альтернативный текст
@@ -303,7 +303,7 @@
 - [`viewBox` (svg)](./Attrubutes/viewBox.md) размеры окна отображения
 - [`width, height` (canvas, iframe, img, object, svg, video)](<./Attrubutes/width, height.md>) ширина, высота
 
-## [Form](#html)
+## [Form](#)
 
 - [`accept-charset` (form)](./Attrubutes/accept-charset.md) кодировка формы
 - [`accept` (input type="file")](./Attrubutes/accept.md) тип файла
@@ -346,7 +346,7 @@
 - [`value` (button, input)](<./Attrubutes/value (button, input).md>) значение поля ввода
 - [`wrap` (textarea)](./Attrubutes/wrap.md) символы переноса
 
-## [Global](#html)
+## [Global](#)
 
 - [`class` (global)](./Attrubutes/class.md) задает класс элементу
 - [`contenteditable` (global)](./Attrubutes/contenteditable.md) делает редактируемым
@@ -359,7 +359,7 @@
 - [`tabindex` (global)](./Attrubutes/tabindex.md) порядок табуляции
 - [`title` (global)](<./Attrubutes/title (global).md>) подсказка при наведении
 
-## [Head](#html)
+## [Head](#)
 
 - [`<base>`](./Tags/base.md) основной url-адрес
 - [`<head>`](./Tags/head.md) основная информация
@@ -370,7 +370,7 @@
 - [`<style>`](./Tags/style.md) стили
 - [`<title>`](./Tags/title.md) заголовок страницы
 
-## [Block](#html)
+## [Block](#)
 
 - [`<address>`](./Tags/address.md) контактная информация
 - [`<article>`](./Tags/article.md) независимый раздел
@@ -397,15 +397,9 @@
 - [`<ul>`](./Tags/ul.md) неупорядоченный список
   - [`<li>`](./Tags/li.md) элемент списка
 
-## [Inline](#html)
+## [Inline](#)
 
 - [`<a>`](./Tags/a.md) ссылка
-  - [`download`](./Attrubutes/download.md) загрузка файла
-  - [`href`](./Attrubutes/href.md) ссылка на url
-  - [`hreflang`](./Attrubutes/hreflang.md) язык документа по ссылке
-  - [`rel`](<./Attrubutes/rel (a, area).md>) связь ссылки со страницей
-  - [`target`](<./Attrubutes/target (a, area, base).md>) способ открытия ссылки
-  - [`type`](<./Attrubutes/type (a, audio, object, source, video).md>) тип mime
 - [`<abbr>`](./Tags/abbr.md) аббревиатура
 - [`<b>`](./Tags/b.md) важный текст
 - [`<bdi>`](./Tags/bdi.md) изоляция направления текста
@@ -430,7 +424,7 @@
 - [`<u>`](./Tags/u.md) текст с ошибкой
 - [`<var>`](./Tags/var.md) переменная
 
-## [Form](#html)
+## [Form](#)
 
 - [`<button>`](./Tags/button.md) кнопка
 - [`<datalist>`](./Tags/datalist.md) список подсказок для input
@@ -446,7 +440,7 @@
     - [`<option>`](./Tags/option.md) пункт списка
 - [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
 
-## [Media](#html)
+## [Media](#)
 
 - [`<audio>`](./Tags/audio.md) аудио
   - [`<source>`](./Tags/source.md) источник медиа
@@ -465,7 +459,7 @@
 - [`<video>`](./Tags/video.md) видео
   - [`<source>`](./Tags/source.md) источник медиа
 
-## [Ui](#html)
+## [Ui](#)
 
 - [`<details>`](./Tags/details.md) аккордеон
   - [`<summary>`](./Tags/summary.md) заголовок аккордеона
@@ -478,7 +472,7 @@
 - [`<samp>`](./Tags/samp.md) подсказка, образец вывода
 - [`<template>`](./Tags/template.md) шаблон
 
-## [Table](#html)
+## [Table](#)
 
 - [`<table>`](./Tags/table.md) таблица
   - [`<caption>`](./Tags/caption.md) подпись к таблице
@@ -495,7 +489,7 @@
       - [`<th>`](./Tags/th.md) заголовок
       - [`<td>`](./Tags/td.md) ячейка
 
-## [Deprecated](#html)
+## [Deprecated](#)
 
 - [`<acronym>`](./Tags/acronym.md) вид аббревиатуры
 - [`<applet>`](./Tags/applet.md) встраивание java-приложения
