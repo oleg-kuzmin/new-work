@@ -4,7 +4,7 @@
 
 ## [Атрибуты](#)
 
-- [Basic](#basic) / [Form](#form) / [Global](#global)
+- [Basic](#атрибуты-basic) / [Form](#атрибуты-form) / [Global](#атрибуты-global)
 
 <a href="./Attrubutes/accept-charset.md" title="кодировка формы (form)"><code>accept-charset</code></a>
 <a href="./Attrubutes/accept.md" title="тип файла (input type=file)"><code>accept</code></a>
@@ -120,7 +120,7 @@
 
 ## [Теги](#)
 
-- [Head](#head) / [Block](#block) / [Inline](#inline) / [Form](#form-1) / [Media](#media) / [Ui](#ui) / [Table](#table) / [Deprecated](#deprecated)
+- [Head](#теги-head) / [Block](#теги-block) / [Inline](#теги-inline) / [Form](#теги-form) / [Media](#теги-media) / [Ui](#теги-ui) / [Table](#теги-table) / [Deprecated](#теги-deprecated)
 
 <a href="./Tags/a.md" title="ссылка"><code>&lt;a&gt;</code></a>
 <a href="./Tags/abbr.md" title="аббревиатура"><code>&lt;abbr&gt;</code></a>
@@ -239,7 +239,7 @@
 - [`Семантика текст`](<./Общее/Семантика текст.md>)
 - [`Синтаксис markdown`](<./Общее/Синтаксис markdown.md>)
 
-## [Basic](#)
+## [Атрибуты Basic](#)
 
 - [`allowfullscreen` (iframe)](./Attrubutes/allowfullscreen.md) полноэкранный режим
 - [`alt` (area, img)](./Attrubutes/alt.md) альтернативный текст
@@ -303,7 +303,7 @@
 - [`viewBox` (svg)](./Attrubutes/viewBox.md) размеры окна отображения
 - [`width, height` (canvas, iframe, img, object, svg, video)](<./Attrubutes/width, height.md>) ширина, высота
 
-## [Form](#)
+## [Атрибуты Form](#)
 
 - [`accept-charset` (form)](./Attrubutes/accept-charset.md) кодировка формы
 - [`accept` (input type="file")](./Attrubutes/accept.md) тип файла
@@ -346,7 +346,7 @@
 - [`value` (button, input)](<./Attrubutes/value (button, input).md>) значение поля ввода
 - [`wrap` (textarea)](./Attrubutes/wrap.md) символы переноса
 
-## [Global](#)
+## [Атрибуты Global](#)
 
 - [`class` (global)](./Attrubutes/class.md) задает класс элементу
 - [`contenteditable` (global)](./Attrubutes/contenteditable.md) делает редактируемым
@@ -359,7 +359,7 @@
 - [`tabindex` (global)](./Attrubutes/tabindex.md) порядок табуляции
 - [`title` (global)](<./Attrubutes/title (global).md>) подсказка при наведении
 
-## [Head](#)
+## [Теги Head](#)
 
 - [`<base>`](./Tags/base.md) основной url-адрес
 - [`<head>`](./Tags/head.md) основная информация о странице
@@ -370,7 +370,7 @@
 - [`<style>`](./Tags/style.md) стили
 - [`<title>`](./Tags/title.md) вкладка страницы
 
-## [Block](#)
+## [Теги Block](#)
 
 - [`<address>`](./Tags/address.md) контактная информация
 - [`<article>`](./Tags/article.md) независимый раздел
@@ -397,7 +397,7 @@
 - [`<ul>`](./Tags/ul.md) неупорядоченный список
   - [`<li>`](./Tags/li.md) элемент списка
 
-## [Inline](#)
+## [Теги Inline](#)
 
 - [`<a>`](./Tags/a.md) ссылка
 - [`<abbr>`](./Tags/abbr.md) аббревиатура
@@ -424,7 +424,7 @@
 - [`<u>`](./Tags/u.md) текст с ошибкой
 - [`<var>`](./Tags/var.md) переменная
 
-## [Form](#)
+## [Теги Form](#)
 
 - [`<button>`](./Tags/button.md) кнопка
 - [`<datalist>`](./Tags/datalist.md) список подсказок для input
@@ -440,7 +440,7 @@
     - [`<option>`](./Tags/option.md) пункт списка
 - [`<textarea>`](./Tags/textarea.md) многострочное поле ввода
 
-## [Media](#)
+## [Теги Media](#)
 
 - [`<audio>`](./Tags/audio.md) аудио
   - [`<source>`](./Tags/source.md) источник медиа
@@ -459,7 +459,7 @@
 - [`<video>`](./Tags/video.md) видео
   - [`<source>`](./Tags/source.md) источник медиа
 
-## [Ui](#)
+## [Теги Ui](#)
 
 - [`<details>`](./Tags/details.md) аккордеон
   - [`<summary>`](./Tags/summary.md) заголовок аккордеона
@@ -472,7 +472,7 @@
 - [`<samp>`](./Tags/samp.md) подсказка, образец вывода
 - [`<template>`](./Tags/template.md) шаблон
 
-## [Table](#)
+## [Теги Table](#)
 
 - [`<table>`](./Tags/table.md) таблица
   - [`<caption>`](./Tags/caption.md) подпись к таблице
@@ -489,7 +489,7 @@
       - [`<th>`](./Tags/th.md) заголовок таблицы
       - [`<td>`](./Tags/td.md) ячейка таблицы
 
-## [Deprecated](#)
+## [Теги Deprecated](#)
 
 - [`<acronym>`](./Tags/acronym.md) акроним
 - [`<applet>`](./Tags/applet.md) встраивание java-приложения
