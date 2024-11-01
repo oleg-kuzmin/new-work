@@ -3,7 +3,7 @@
 - [Общее](#общее)
 - [Асинхронные действия](#асинхронные-действия) / [ООП](#ооп)
 - [Операторы](#операторы) / [Функции](#функции) / [Циклы](#циклы)
-- [Number](#number) / [String](#string)
+- [Number](#number) / [String](#string) / [Boolean](#number)
 - [Array](#array) / [Object](#object) / [Symbol](#symbol)
 - [Date](#date) / [RegExp](#regexp)
 - [Map](#map) / [Set](#set)
@@ -197,6 +197,10 @@
 - [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
 - [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
 - [`.trim()`](./String/.trim.md) очистка от пробелов
+
+## [Boolean](#)
+
+- [`Boolean()`](./Boolean/Boolean.md) преобразует в примитив boolean
 
 ## [Array](#)
 

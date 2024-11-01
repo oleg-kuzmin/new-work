@@ -1,6 +1,6 @@
 # [`Symbol.toPrimitive`](../index.md)
 
-- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive" target="_blank">MDN</a>
+- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive" target="_blank">Symbol.toPrimitive</a>
 
 `Symbol.toPrimitive` является символом (`symbol`), который описывает свойство объекта как функцию, которая вызывается при преобразовании объекта в соответствующее примитивное значение.
 

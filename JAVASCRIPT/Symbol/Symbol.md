@@ -1,7 +1,6 @@
 # [`Symbol()`](../index.md)
 
-- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol" target="_blank">MDN</a>
-- <a href="https://doka.guide/js/symbol" target="_blank">DOKA</a>
+- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Symbol" target="_blank">Symbol()</a>
 
 `Symbol` — это встроенный объект, конструктор которого возвращает значение примитивного типа `symbol`. Такие значения называют символьными значениями (Symbol value) или просто символами (Symbol), их основная особенность в том, что они гарантируют уникальность. Символы часто используются в качестве уникальных ключей объекта. Они не пересекаются с ключами, которые могут быть добавлены другим кодом, а также скрыты от доступа из другого кода. Это обеспечивает возможность слабой инкапсуляции или слабую форму сокрытия информации.
 
