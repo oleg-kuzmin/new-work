@@ -1,7 +1,5 @@
 # [`HTML`](../index.md)
 
-- [Общее](#общее)
-
 ## [Атрибуты](#)
 
 - [Basic](#атрибуты-basic) / [Form](#атрибуты-form) / [Global](#атрибуты-global)
@@ -491,13 +489,13 @@
 
 ## [Теги Deprecated](#)
 
-- [`<acronym>`](./Tags/acronym.md) акроним
-- [`<applet>`](./Tags/applet.md) встраивание java-приложения
-- [`<bgsound>`](./Tags/bgsound.md) фоновая музыка
-- [`<blink>`](./Tags/blink.md) мигающий текст
-- [`<center>`](./Tags/center.md) центрирование контента
-- [`<embed>`](./Tags/embed.md) встраивание мультимедиа
-- [`<font>`](./Tags/font.md) стилизация текста
-- [`<marquee>`](./Tags/marquee.md) бегущая строка
-- [`<nobr>`](./Tags/nobr.md) неразрывный текст
-- [`<strike>`](./Tags/strike.md) зачеркнутый текст
+- [<del>`<acronym>`</del>](./Tags/acronym.md) акроним
+- [<del>`<applet>`</del>](./Tags/applet.md) встраивание java-приложения
+- [<del>`<bgsound>`</del>](./Tags/bgsound.md) фоновая музыка
+- [<del>`<blink>`</del>](./Tags/blink.md) мигающий текст
+- [<del>`<center>`</del>](./Tags/center.md) центрирование контента
+- [<del>`<embed>`</del>](./Tags/embed.md) встраивание мультимедиа
+- [<del>`<font>`</del>](./Tags/font.md) стилизация текста
+- [<del>`<marquee>`</del>](./Tags/marquee.md) бегущая строка
+- [<del>`<nobr>`</del>](./Tags/nobr.md) неразрывный текст
+- [<del>`<strike>`</del>](./Tags/strike.md) зачеркнутый текст
