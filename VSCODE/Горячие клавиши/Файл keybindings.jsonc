@@ -105,6 +105,11 @@
     "command": "extension.liveServer.goOffline",
     "when": "editorTextFocus"
   },
+  {
+    // Live Preview: Динамический просмотр: Остановить сервер
+    "key": "ctrl+numpad2",
+    "command": "livePreview.end"
+  },
 
   //# Ctrl + 3 (numpad)
   {
