@@ -47,7 +47,7 @@
 
 - [`Break camelCase`](<./Codewars/6 KYU/Break camelCase.md>)
 - [`Stop gninnipS My sdroW!`](<./Codewars/6 KYU/Stop gninnipS My sdroW!.md>)
-- []
+- [`FIXME Hello`](<./Codewars/6 KYU/FIXME Hello.md>)
 - []
 - []
 - []
