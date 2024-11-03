@@ -1,20 +1,13 @@
 # [`CSS`](../index.md)
 
-- [Общее](#общее)
-- [Директивы](#директивы)
-- [Псевдоклассы](#псевдоклассы)
-- [Псевдоэлементы](#псевдоэлементы)
-- [Сброс стилей](#сброс-стилей)
-- [Селекторы](#селекторы)
-- [Функции](#функции)
-- [Bootstrap](#bootstrap)
-- [Deprecated](#deprecated)
-- [Flex](#flex)
-- [Grid](#grid)
-- [Sass](#sass)
+- [Общее](#общее) / [Сброс стилей](#сброс-стилей)
+- [Селекторы](#селекторы) / [Директивы](#директивы) / [Функции](#функции)
+- [Псевдоклассы](#псевдоклассы) / [Псевдоэлементы](#псевдоэлементы)
+- [Sass](#sass) / [Bootstrap](#bootstrap)
+- [Flex](#flex) / [Grid](#grid)
 - [Styles](#styles)
 
-## [Общее](#css)
+## [Общее](#)
 
 - [`Вендорные префиксы`](<./Общее/Вендорные префиксы.md>)
 - [`Вложенность селекторов`](<./Общее/Вложенность селекторов.md>)
@@ -23,8 +16,33 @@
 - [`Код-стайл Maxgraph`](<./Общее/Код-стайл Maxgraph.md>)
 - [`Модификатор important`](<./Общее/Модификатор important.md>)
 - [`Основные свойства шрифтов`](<./Общее/Основные свойства шрифтов.md>)
+- [`Теория Flex`](<./Общее/Теория Flex.md>)
+- [`Теория Grid`](<./Общее/Теория Grid.md>)
 
-## [Директивы](#css)
+## [Сброс стилей](#)
+
+- [`normalise-Nicolas-Gallagher`](<./Сброс стилей/normalise-Nicolas-Gallagher.css>)
+- [`reset-Andrikanich`](<./Сброс стилей/reset-Andrikanich.css>)
+- [`reset-Meyerweb`](<./Сброс стилей/reset-Meyerweb.css>)
+
+## [Селекторы](#)
+
+- [`1.0.0. Идентификатор`](./Селекторы/Идентификатор.md)
+- [`0.1.0. Атрибут`](./Селекторы/Атрибут.md)
+- [`0.1.0. Класс`](./Селекторы/Класс.md)
+- [`0.1.0. Псевдокласс`](./Селекторы/Псевдокласс.md)
+- [`0.0.1. Тег`](./Селекторы/Тег.md)
+- [`0.0.1. Псевдоэлемент`](./Селекторы/Псевдоэлемент.md)
+- [`0.0.0. Универсальный`](./Селекторы/Универсальный.md)
+- [`div   p (Вложенные селекторы)`](<./Селекторы/Вложенные селекторы.md>)
+- [`div > p (Дочерние селекторы)`](<./Селекторы/Дочерние селекторы.md>)
+- [`div + p (Соседние селекторы)`](<./Селекторы/Соседние селекторы.md>)
+- [`div ~ p (Следующие селекторы)`](<./Селекторы/Следующие селекторы.md>)
+- [`.block.block (Комбинированные селекторы)`](<./Селекторы/Комбинированные селекторы.md>)
+- [`Вычисление специфичности от Яндекс`](<./Селекторы/Вычисление специфичности от Яндекс.md>)
+- [`Вычисление специфичности от Академии`](<./Селекторы/Вычисление специфичности от Академии.md>)
+
+## [Директивы](#)
 
 - [`@font-face`](./Директивы/@font-face.md) подключение шрифта
 - [`@import`](./Директивы/@import.md) импорт файлов стилей
@@ -32,7 +50,13 @@
 - [`@media`](./Директивы/@media.md) медиа-запросы
 - [`font-display`](./Директивы/font-display.md) правила загрузки шрифта
 
-## [Псевдоклассы](#css)
+## [Функции](#)
+
+- [`attr()`](./Функции/attr.md) получает значение любого атрибута
+- [`calc()`](./Функции/calc.md) делает математические вычисления
+- [`var()`](./Функции/var.md) подставляет значение переменной
+
+## [Псевдоклассы](#)
 
 - [`:active`](./Псевдоклассы/active.md) взаимодействие
 - [`:checked`](./Псевдоклассы/checked.md) поля ввода с атрибутом checked
@@ -66,7 +90,7 @@
 - [`:user-invalid`](./Псевдоклассы/user-invalid.md) невалидный элемент
 - [`:valid`](./Псевдоклассы/valid.md) валидный элемент
 
-## [Псевдоэлементы](#css)
+## [Псевдоэлементы](#)
 
 - [`::after`](./Псевдоэлементы/after.md) псевдоэлемент после
 - [`::before`](./Псевдоэлементы/before.md) псевдоэлемент до
@@ -76,49 +100,23 @@
 - [`::placeholder`](./Псевдоэлементы/placeholder.md) стилизация placeholder
 - [`::selection`](./Псевдоэлементы/selection.md) выделенный мышкой текст
 
-## [Сброс стилей](#css)
+## [Sass](#)
 
-- [`normalise-Nicolas-Gallagher`](<./Сброс стилей/normalise-Nicolas-Gallagher.css>)
-- [`reset-Andrikanich`](<./Сброс стилей/reset-Andrikanich.css>)
-- [`reset-Meyerweb`](<./Сброс стилей/reset-Meyerweb.css>)
+- [`Импорты`](./Sass/Импорты.md)
+- [`Миксины`](./Sass/Миксины.md)
+- [`Наследование и шаблоны`](<./Sass/Наследование и шаблоны.md>)
+- [`Переменные`](./Sass/Переменные.md)
+- [`Установка`](./Sass/Установка.md)
+- [`Функции`](./Sass/Функции.md)
 
-## [Селекторы](#css)
-
-- [`1.0.0. Идентификатор`](./Селекторы/Идентификатор.md)
-- [`0.1.0. Атрибут`](./Селекторы/Атрибут.md)
-- [`0.1.0. Класс`](./Селекторы/Класс.md)
-- [`0.1.0. Псевдокласс`](./Селекторы/Псевдокласс.md)
-- [`0.0.1. Тег`](./Селекторы/Тег.md)
-- [`0.0.1. Псевдоэлемент`](./Селекторы/Псевдоэлемент.md)
-- [`0.0.0. Универсальный`](./Селекторы/Универсальный.md)
-- [`div   p (Вложенные селекторы)`](<./Селекторы/Вложенные селекторы.md>)
-- [`div > p (Дочерние селекторы)`](<./Селекторы/Дочерние селекторы.md>)
-- [`div + p (Соседние селекторы)`](<./Селекторы/Соседние селекторы.md>)
-- [`div ~ p (Следующие селекторы)`](<./Селекторы/Следующие селекторы.md>)
-- [`.block.block (Комбинированные селекторы)`](<./Селекторы/Комбинированные селекторы.md>)
-- [`Вычисление специфичности от Яндекс`](<./Селекторы/Вычисление специфичности от Яндекс.md>)
-- [`Вычисление специфичности от Академии`](<./Селекторы/Вычисление специфичности от Академии.md>)
-
-## [Функции](#css)
-
-- [`attr()`](./Функции/attr.md) получает значение любого атрибута
-- [`calc()`](./Функции/calc.md) делает математические вычисления
-- [`var()`](./Функции/var.md) подставляет значение переменной
-
-## [Bootstrap](#css)
+## [Bootstrap](#)
 
 - [`установка`](./Bootstrap/установка.md)
 - [`margin, padding`](<./Bootstrap/margin, padding.md>)
 
-## [Deprecated](#css)
+## [Flex](#)
 
-- [`Устаревшие свойства`](./Deprecated/index.md)
-
-## [Flex](#css)
-
-- [`Теория Flex`](<./Flex/Теория Flex.md>)
-
-### [container](#css)
+### [flex-container](#)
 
 - [`flex-flow`](./Flex/flex-flow.md) направление и перенос
   - [`flex-direction`](./Flex/flex-direction.md) направление
@@ -131,7 +129,7 @@
   - [`row-gap`](./Flex/row-gap.md) отступы между строками
   - [`column-gap`](./Flex/column-gap.md) отступы между колонками
 
-### [items](#css)
+### [flex-item](#)
 
 - [`align-self`](./Flex/align-self.md) выравнивание одного элемента поперечная ось
 - [`order`](./Flex/order.md) порядок отображения элемента
@@ -140,12 +138,9 @@
   - [`flex-shrink`](./Flex/flex-shrink.md) сжатие элемента при отсутствия свободного места
   - [`flex-basis`](./Flex/flex-basis.md) размер элемента до распределения свободного места
 
-## [Grid](#css)
+## [Grid](#)
 
-- [`Теория Grid`](<./Grid/Теория Grid.md>)
-- [`Варианты использования`](<./Grid/Варианты использования.md>)
-
-### [container](#css)
+### [grid-container](#)
 
 - [`gap`](./Grid/gap.md) отступы
   - [`column-gap`](./Grid/column-gap.md) отступы между колонками
@@ -164,7 +159,7 @@
   - [`align-items`](./Grid/align-items.md) выравнивание контента внутри ячеек по вертикали
   - [`justify-items`](./Grid/justify-items.md) выравнивание контента внутри ячеек по горизонтали
 
-### [element](#css)
+### [grid-item](#)
 
 - [`grid-area`](./Grid/grid-area.md) название грид-области
 - [`grid-column`](./Grid/grid-column.md) расположение элемента по горизонтали
@@ -178,22 +173,13 @@
   - [`align-self`](./Grid/align-self.md) выравнивание контента внутри ячейки по вертикали
   - [`justify-self`](./Grid/justify-self.md) выравнивание контента внутри ячейки по горизонтали
 
-## [Sass](#css)
+## [Styles](#)
 
-- [`Импорты`](./Sass/Импорты.md)
-- [`Миксины`](./Sass/Миксины.md)
-- [`Наследование и шаблоны`](<./Sass/Наследование и шаблоны.md>)
-- [`Переменные`](./Sass/Переменные.md)
-- [`Установка`](./Sass/Установка.md)
-- [`Функции`](./Sass/Функции.md)
-
-## [Styles](#css)
-
-### [all](#css)
+### [all](#)
 
 - [`all`](./Styles/all.md) все свойства
 
-### [animation](#css)
+### [animation](#)
 
 - [`animation`](./Styles/animation.md) анимация
   - [`animation-delay`](./Styles/animation-delay.md) задержка старта анимации
@@ -205,11 +191,11 @@
   - [`animation-play-state`](./Styles/animation-play-state.md) позволяет поставить на паузу
   - [`animation-timing-function`](./Styles/animation-timing-function.md) проигрывание кадров
 
-### [backface-visibility](#css)
+### [backface-visibility](#)
 
 - [`backface-visibility`](./Styles/backface-visibility.md) обратная сторона элемента
 
-### [background](#css)
+### [background](#)
 
 - [`background`](./Styles/background.md) задний фон
   - [`background-attachment`](./Styles/background-attachment.md) прокрутка фона
@@ -220,7 +206,7 @@
   - [`background-repeat`](./Styles/background-repeat.md) повтор фона
   - [`background-size`](./Styles/background-size.md) подстройка размера фона
 
-### [border](#css)
+### [border](#)
 
 - [`border`](./Styles/border.md) границы
   - [`border-width`](./Styles/border-width.md) толщина границ
@@ -238,37 +224,22 @@
     - [`border-left-color`](./Styles/border-left-color.md) цвет границы слева
     - [`border-right-color`](./Styles/border-right-color.md) цвет границы справа
     - [`border-top-color`](./Styles/border-top-color.md) цвет границы сверху
-
-### [border-top](#css)
-
 - [`border-top`](./Styles/border-top.md) граница сверху
   - [`border-top-width`](./Styles/border-top-width.md) толщина границы сверху
   - [`border-top-style`](./Styles/border-top-style.md) стиль границы сверху
   - [`border-top-color`](./Styles/border-top-color.md) цвет границы сверху
-
-### [border-right](#css)
-
 - [`border-right`](./Styles/border-right.md) граница справа
   - [`border-right-width`](./Styles/border-right-width.md) толщина границы справа
   - [`border-right-style`](./Styles/border-right-style.md) стиль границы справа
   - [`border-right-color`](./Styles/border-right-color.md) цвет границы справа
-
-### [border-bottom](#css)
-
 - [`border-bottom`](./Styles/border-bottom.md) граница снизу
   - [`border-bottom-width`](./Styles/border-bottom-width.md) толщина границы снизу
   - [`border-bottom-style`](./Styles/border-bottom-style.md) стиль границы снизу
   - [`border-bottom-color`](./Styles/border-bottom-color.md) цвет границы снизу
-
-### [border-left](#css)
-
 - [`border-left`](./Styles/border-left.md) граница слева
   - [`border-left-width`](./Styles/border-left-width.md) толщина границы слева
   - [`border-left-style`](./Styles/border-left-style.md) стиль границы слева
   - [`border-left-color`](./Styles/border-left-color.md) цвет границы слева
-
-### [border-block](#css)
-
 - [`border-block`](./Styles/border-block.md) границы блочная ось
   - [`border-block-width`](./Styles/border-block-width.md) толщина границ
     - [`border-block-start-width`](./Styles/border-block-start-width.md) толщина первой границы
@@ -279,23 +250,14 @@
   - [`border-block-color`](./Styles/border-block-color.md) цвет границ
     - [`border-block-start-color`](./Styles/border-block-start-color.md) цвет первой границы
     - [`border-block-end-color`](./Styles/border-block-end-color.md) цвет второй границы
-
-### [border-block-start](#css)
-
 - [`border-block-start`](./Styles/border-block-start.md) первая границы блочной оси
   - [`border-block-start-width`](./Styles/border-block-start-width.md) толщина первой границы
   - [`border-block-start-style`](./Styles/border-block-start-style.md) стиль первой границы
   - [`border-block-start-color`](./Styles/border-block-start-color.md) цвет первой границы
-
-### [border-block-end](#css)
-
 - [`border-block-end`](./Styles/border-block-end.md) вторая граница блочной оси
   - [`border-block-end-width`](./Styles/border-block-end-width.md) толщина второй границы
   - [`border-block-end-style`](./Styles/border-block-end-style.md) стиль второй границы
   - [`border-block-end-color`](./Styles/border-block-end-color.md) цвет второй границы
-
-### [border-inline](#css)
-
 - [`border-inline`](./Styles/border-inline.md) границы строчная ось
   - [`border-inline-width`](./Styles/border-inline-width.md) толщина границ
     - [`border-inline-start-width`](./Styles/border-inline-start-width.md) толщина первой границы
@@ -306,78 +268,60 @@
   - [`border-inline-color`](./Styles/border-inline-color.md) цвет границ
     - [`border-inline-start-color`](./Styles/border-inline-start-color.md) цвет первой границы
     - [`border-inline-end-color`](./Styles/border-inline-end-color.md) цвет второй границы
-
-### [border-inline-start](#css)
-
 - [`border-inline-start`](./Styles/border-inline-start.md) первая границы строчной оси
   - [`border-inline-start-width`](./Styles/border-inline-start-width.md) толщина первой границы
   - [`border-inline-start-style`](./Styles/border-inline-start-style.md) стиль первой границы
   - [`border-inline-start-color`](./Styles/border-inline-start-color.md) цвет первой границы
-
-### [border-inline-end](#css)
-
 - [`border-inline-end`](./Styles/border-inline-end.md) вторая границы строчной оси
   - [`border-inline-end-width`](./Styles/border-inline-end-width.md) толщина второй границы
   - [`border-inline-end-style`](./Styles/border-inline-end-style.md) стиль второй границы
   - [`border-inline-end-color`](./Styles/border-inline-end-color.md) цвет второй границы
-
-### [border-image](#css)
-
 - [`border-image`](./Styles/border-image.md) изображение границы
-
-### [border-radius](#css)
-
 - [`border-radius`](./Styles/border-radius.md) скругление границ
   - [`border-bottom-left-radius`](./Styles/border-bottom-left-radius.md) скругление границы снизу слева
   - [`border-bottom-right-radius`](./Styles/border-bottom-right-radius.md) скругление границы снизу справа
   - [`border-top-left-radius`](./Styles/border-top-left-radius.md) скругление границы сверху слева
   - [`border-top-right-radius`](./Styles/border-top-right-radius.md) скругление границы сверху справа
-
-### [border-collapse](#css)
-
 - [`border-collapse`](./Styles/border-collapse.md) смежные границы ячеек
-
-### [border-spacing](#css)
-
 - [`border-spacing`](./Styles/border-spacing.md) отступ между ячейками таблицы
 
-### [box](#css)
+### [box](#)
 
 - [`box-shadow`](./Styles/box-shadow.md) тень блока
 - [`box-sizing`](./Styles/box-sizing.md) размер блочной модели
 
-### [caption-side](#css)
+### [caption-side](#)
 
 - [`caption-side`](./Styles/caption-side.md) положение подписи таблицы
 
-### [clip-path](#css)
+### [clip-path](#)
 
 - [`clip-path`](./Styles/clip-path.md) видимая область
 
-### [color](#css)
+### [color](#)
 
 - [`color`](./Styles/color.md) цвет текста
 
-### [columns](#css)
+### [columns](#)
 
 - [`columns`](./Styles/columns.md) колонки
   - [`column-count`](./Styles/column-count.md) количество колонок
   - [`column-width`](./Styles/column-width.md) ширина колонок
 - [`column-gap`](./Styles/column-gap.md) отступ между колонками
 
-### [display](#css)
+### [display](#)
 
 - [`display`](./Styles/display.md) тип отображения
 
-### [fill](#css)
+### [fill](#)
 
 - [`fill`](./Styles/fill.md) цвет заливки svg
 
-### [float](#css)
+### [float](#)
 
 - [`float`](./Styles/float.md) обтекание блока текстом
 
-### [font](#css)
+### [font](#)
 
 - [`font-family`](./Styles/font-family.md) семейство шрифтов
 - [`font-size`](./Styles/font-size.md) размер шрифта
@@ -385,28 +329,28 @@
 - [`font-style`](./Styles/font-style.md) начертание шрифта
 - [`font-weight`](./Styles/font-weight.md) насыщенность шрифта
 
-### [height](#css)
+### [height](#)
 
 - [`height`](./Styles/height.md) высота
 - [`max-height`](./Styles/max-height.md) максимальная высота
 - [`min-height`](./Styles/min-height.md) минимальная высота
 
-### [letter-spacing](#css)
+### [letter-spacing](#)
 
 - [`letter-spacing`](./Styles/letter-spacing.md) межбуквенное расстояние
 
-### [line-height](#css)
+### [line-height](#)
 
 - [`line-height`](./Styles/line-height.md) междустрочное расстояние
 
-### [list-style](#css)
+### [list-style](#)
 
 - [`list-style`](./Styles/list-style.md) маркеры списка
   - [`list-style-image`](./Styles/list-style-image.md) маркеры в виде картинок
   - [`list-style-position`](./Styles/list-style-position.md) положение маркеров
   - [`list-style-type`](./Styles/list-style-type.md) тип маркеров
 
-### [margin](#css)
+### [margin](#)
 
 - [`margin`](./Styles/margin.md) внешние отступы
   - [`margin-top`](./Styles/margin-top.md) внешний отступ сверху
@@ -414,28 +358,28 @@
   - [`margin-bottom`](./Styles/margin-bottom.md) внешний отступ снизу
   - [`margin-left`](./Styles/margin-left.md) внешний отступ слева
 
-### [margin-block](#css)
+### [margin-block](#)
 
 - [`margin-block`](./Styles/margin-block.md) внешние отступы блочная ось
   - [`margin-block-start`](./Styles/margin-block-start.md) внешний отступ начало блочной оси
   - [`margin-block-end`](./Styles/margin-block-end.md) внешний отступ конец блочной оси
 
-### [margin-inline](#css)
+### [margin-inline](#)
 
 - [`margin-inline`](./Styles/margin-inline.md) внешние отступы строчная ось
   - [`margin-inline-start`](./Styles/margin-inline-start.md) внешний отступ начало строчной оси
   - [`margin-inline-end`](./Styles/margin-inline-end.md) внешний отступ конец строчной оси
 
-### [object](#css)
+### [object](#)
 
 - [`object-fit`](./Styles/object-fit.md) подстройка размера медиа
 - [`object-position`](./Styles/object-position.md) позиционирование медиа
 
-### [opacity](#css)
+### [opacity](#)
 
 - [`opacity`](./Styles/opacity.md) прозрачность
 
-### [outline](#css)
+### [outline](#)
 
 - [`outline`](./Styles/outline.md) обводка
   - [`outline-width`](./Styles/outline-width.md) толщина обводки
@@ -443,14 +387,14 @@
   - [`outline-color`](./Styles/outline-color.md) цвет обводки
 - [`outline-offset`](./Styles/outline-offset.md) отступ до обводки
 
-### [overflow](#css)
+### [overflow](#)
 
 - [`overflow`](./Styles/overflow.md) переполнение блока
   - [`overflow-x`](./Styles/overflow-x.md) переполнение блока по горизонтали
   - [`overflow-y`](./Styles/overflow-y.md) переполнение блока по вертикали
 - [`overflow-wrap`](./Styles/overflow-wrap.md) перенос слов
 
-### [padding](#css)
+### [padding](#)
 
 - [`padding`](./Styles/padding.md) внутренний отступ
   - [`padding-top`](./Styles/padding-top.md) внутренний отступ сверху
@@ -458,23 +402,23 @@
   - [`padding-bottom`](./Styles/padding-bottom.md) внутренний отступ снизу
   - [`padding-left`](./Styles/padding-left.md) внутренний отступ слева
 
-### [padding-block](#css)
+### [padding-block](#)
 
 - [`padding-block`](./Styles/padding-block.md) внутренние отступы блочная ось
   - [`padding-block-start`](./Styles/padding-block-start.md) внутренний отступ начало блочной оси
   - [`padding-block-end`](./Styles/padding-block-end.md) внутренний отступ конец блочной оси
 
-### [padding-inline](#css)
+### [padding-inline](#)
 
 - [`padding-inline`](./Styles/padding-inline.md) внутренние отступы строчная ось
   - [`padding-inline-start`](./Styles/padding-inline-start.md) внутренний отступ начало строчной оси
   - [`padding-inline-end`](./Styles/padding-inline-end.md) внутренний отступ конец строчной оси
 
-### [pointer-events](#css)
+### [pointer-events](#)
 
 - [`pointer-events`](./Styles/pointer-events.md) реагирование на события
 
-### [position](#css)
+### [position](#)
 
 - [`position`](./Styles/position.md) позиционирование
   - [`top`](./Styles/top.md) смещение сверху
@@ -482,23 +426,23 @@
   - [`bottom`](./Styles/bottom.md) смещение снизу
   - [`left`](./Styles/left.md) смещение слева
 
-### [quotes](#css)
+### [quotes](#)
 
 - [`quotes`](./Styles/quotes.md) кавычки
 
-### [resize](#css)
+### [resize](#)
 
 - [`resize`](./Styles/resize.md) изменение размеров элемента
 
-### [scroll-behavior](#css)
+### [scroll-behavior](#)
 
 - [`scroll-behavior`](./Styles/scroll-behavior.md) плавная прокрутка
 
-### [stroke](#css)
+### [stroke](#)
 
 - [`stroke`](./Styles/stroke.md) цвет обводки svg
 
-### [text](#css)
+### [text](#)
 
 - [`text-align`](./Styles/text-align.md) горизонтальное выравнивание
 - [`text-align-last`](./Styles/text-align-last.md) выравнивание последней строки
@@ -511,7 +455,7 @@
 - [`text-shadow`](./Styles/text-shadow.md) тень для букв
 - [`text-transform`](./Styles/text-transform.md) трансформация букв
 
-### [transform](#css)
+### [transform](#)
 
 - [`matrix`](./Styles/matrix.md) матрица трансформации
 - [`perspective`](./Styles/perspective.md) точка перспективы
@@ -522,7 +466,7 @@
 - [`transform`](./Styles/transform.md) трансформация
 - [`translate`](./Styles/translate.md) смещение
 
-### [transition](#css)
+### [transition](#)
 
 - [`transition`](./Styles/transition.md) переход
   - [`transition-property`](./Styles/transition-property.md) название свойства
@@ -530,37 +474,43 @@
   - [`transition-timing-function`](./Styles/transition-timing-function.md) проигрывание перехода
   - [`transition-delay`](./Styles/transition-delay.md) задержка до старта
 
-### [user-select](#css)
+### [user-select](#)
 
 - [`user-select`](./Styles/user-select.md) выделение текста
 
-### [vertical-align](#css)
+### [vertical-align](#)
 
 - [`vertical-align`](./Styles/vertical-align.md) вертикальное выравнивание inline-элементов
 
-### [visibility](#css)
+### [visibility](#)
 
 - [`visibility`](./Styles/visibility.md) видимость
 
-### [visibility](#css)
+### [white-space](#)
 
 - [`white-space`](./Styles/white-space.md) перенос пробелов
 
-### [width](#css)
+### [width](#)
 
 - [`width`](./Styles/width.md) ширина
 - [`max-width`](./Styles/max-width.md) максимальная ширина
 - [`min-width`](./Styles/min-width.md) минимальная ширина
 
-### [writing-mode](#css)
+### [writing-mode](#)
 
 - [`writing-mode`](./Styles/writing-mode.md) направление потока
 
-### [word](#css)
+### [word](#)
 
 - [`word-spacing`](./Styles/word-spacing.md) размер пробела
 - [`word-wrap`](./Styles/word-wrap.md) перенос длинных слов
 
-### [z-index](#css)
+### [z-index](#)
 
 - [`z-index`](./Styles/z-index.md) порядок наложения элементов
+
+### [deprecated](#)
+
+- [<del>`clip`</del>](./Deprecated/clip.md) видимая область
+- [<del>`direction`</del>](./Deprecated/direction.md) направление текста
+- [<del>`menu`</del>](./Deprecated/menu.md) список
