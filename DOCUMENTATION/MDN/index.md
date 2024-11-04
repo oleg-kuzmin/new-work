@@ -4,5 +4,9 @@
 
 ## [MDN Learning Area](#)
 
-- [1. Изучите веб-разработку](<./1. MDN Learning Area/1. Изучите веб-разработку.md>)
-- [2. Начало работы с Интернетом](<./1. MDN Learning Area/2. Начало работы с Интернетом.md>)
+- [Изучите веб-разработку](<./1. MDN Learning Area/1. Learn web development.md>)
+
+### [Начало работы с Интернетом](#)
+
+- [Начало работы с Интернетом](<./1. MDN Learning Area/2. Getting started with the web.md>)
+- [Установка базового программного обеспечения](<./1. MDN Learning Area/3. Installing basic software.md>)
