@@ -46,9 +46,9 @@
 ## [6 KYU](#tasks)
 
 - [`Break camelCase`](<./Codewars/6 KYU/Break camelCase.md>)
-- [`Stop gninnipS My sdroW!`](<./Codewars/6 KYU/Stop gninnipS My sdroW!.md>)
+- [`Counting Duplicates`](<./Codewars/6 KYU/Counting Duplicates.md>)
 - [`FIXME Hello`](<./Codewars/6 KYU/FIXME Hello.md>)
-- []
+- [`Stop gninnipS My sdroW!`](<./Codewars/6 KYU/Stop gninnipS My sdroW!.md>)
 - []
 - []
 - []
