@@ -24,7 +24,7 @@ DOM - это объектное представление HTML-элементо
 - [Как просмотреть DOM в Google Chrome](https://developer.chrome.com/docs/devtools/dom/)
 - [Как просмотреть DOM в Firefox](https://developer.mozilla.org/docs/Tools/Debugger/How_to/Highlight_and_inspect_DOM_nodes)
 
-Вы закончили главу 2
+Вы закончили Главу 2.
 
 Теперь вы должны понять основы того, как пользовательский интерфейс отображается в браузере.
 
