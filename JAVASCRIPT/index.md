@@ -3,7 +3,7 @@
 - [Общее](#общее) / [Асинхронные действия](#асинхронные-действия) / [ООП](#ооп)
 - [Операторы](#операторы) / [Функции](#функции)
 - [Преобразование](#преобразование) / [Циклы](#циклы)
-- [Number](#number) / [String](#string) / [Boolean](#number)
+- [String](#string) / [Number](#number) / [Boolean](#number)
 - [Array](#array) / [Object](#object) / [Symbol](#symbol)
 - [Date](#date) / [RegExp](#regexp)
 - [Map](#map) / [Set](#set)
