@@ -509,8 +509,8 @@
 - [`console.log()`](./Window/console.log.md) выведет в консоль свойства
 - [`console.table()`](./Window/console.table.md) выведет в консоль таблицу
 - [`getComputedStyle()`](./Window/getComputedStyle.md) объект со стилями
-- [`isFinite()`](./Window/isFinite.md) проверяет преобразованное число на конечность
-- [`isNaN()`](./Window/isNaN.md) проверяет преобразованное число на NaN
+- [`isFinite()`](./Window/isFinite.md) преобразует в число и проверяет на конечность
+- [`isNaN()`](./Window/isNaN.md) преобразует в число и проверяет на NaN
 - [`localStorage`](./Window/localStorage.md) локальное хранилище данных
   - [`localStorage.clear()`](./Window/localStorage.clear.md) полная очистка хранилища
   - [`localStorage.getItem()`](./Window/localStorage.getItem.md) получение значения по ключу
