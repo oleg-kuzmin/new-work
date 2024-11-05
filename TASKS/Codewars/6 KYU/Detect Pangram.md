@@ -36,3 +36,10 @@ function isPangram(string) {
   return (string.match(/([a-z])(?!.*\1)/gi) || []).length === 26;
 }
 ```
+
+```js
+function isPangram(string) {
+  const alphabetList = [...'abcdefghijklmnopqrstuvwxyz'];
+  return alphabetList.every(letter => string.toLowerCase().includes(letter));
+}
+```

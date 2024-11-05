@@ -33,6 +33,9 @@ multiplyThreeNumbers(numbers[0], numbers[1], numbers[2]);
 const donorArray = ['это', 'старые', 'значения'];
 const newArray = [...donorArray, 'новое значение'];
 console.log(newArray); // ['это', 'старые', 'значения', 'новое значение']
+
+const alphabetList = [...'abcdefghijklmnopqrstuvwxyz'];
+console.log(alphabetList); // ['a', 'b', 'c', 'd' ...]
 ```
 
 ### Создание объекта
