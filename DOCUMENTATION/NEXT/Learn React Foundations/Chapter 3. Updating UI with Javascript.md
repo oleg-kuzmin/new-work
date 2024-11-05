@@ -90,7 +90,7 @@
 
 Если вы посмотрите на элементы DOM в [инструментах разработчика](https://developer.mozilla.org/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools) вашего браузера, вы заметите, что DOM содержит элемент `<h1>`. DOM страницы отличается от исходного кода, или, другими словами, от исходного HTML-файла, который вы создали.
 
-![image](<../images/Chapter 3.1. Updating UI with Javascript.avif>)
+![image](<./Chapter 3.1. Updating UI with Javascript.avif>)
 
 Это связано с тем, что HTML представляет **исходное содержимое страницы**, в то время как DOM представляет **обновленное содержимое страницы**, которое было изменено с помощью написанного вами кода JavaScript.
 
