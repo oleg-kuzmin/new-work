@@ -131,7 +131,7 @@
 - [HTML против DOM](https://developer.chrome.com/docs/devtools/dom/#appendix)
 - [Сравнение декларативного пользовательского интерфейса с императивным](https://react.dev/learn/reacting-to-input-with-state#how-declarative-ui-compares-to-imperative)
 
-Вы прочитали Главу 3.
+Вы завершили Главу 3.
 
 Вы узнали, как разработчики используют JavaScript для обновления пользовательского интерфейса.
 
