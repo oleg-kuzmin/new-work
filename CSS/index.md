@@ -122,8 +122,8 @@
   - [`flex-direction`](./Flex/flex-direction.md) направление
   - [`flex-wrap`](./Flex/flex-wrap.md) перенос
 - [`place-content`](./Flex/place-content.md) выравнивание строк и элементов
-  - [`justify-content`](./Flex/justify-content.md) выравнивание элементов основная ось
   - [`align-content`](./Flex/align-content.md) выравнивание строк поперечная ось
+  - [`justify-content`](./Flex/justify-content.md) выравнивание элементов основная ось
 - [`align-items`](./Flex/align-items.md) выравнивание элементов поперечная ось
 - [`gap`](./Flex/gap.md) отступы
   - [`row-gap`](./Flex/row-gap.md) отступы между строками
@@ -142,16 +142,16 @@
 
 ### [grid-container](#)
 
-- [`gap`](./Grid/gap.md) отступы
-  - [`column-gap`](./Grid/column-gap.md) отступы между колонками
-  - [`row-gap`](./Grid/row-gap.md) отступы между строками
-- [`grid-auto-columns`](./Grid/grid-auto-columns.md) неявные колонки
-- [`grid-auto-flow`](./Grid/grid-auto-flow.md) поток элементов
-- [`grid-auto-rows`](./Grid/grid-auto-rows.md) неявные строки
 - [`grid-template`](./Grid/grid-template.md) явные строки и колонки
-  - [`grid-template-areas`](./Grid/grid-template-areas.md) грид-области
   - [`grid-template-columns`](./Grid/grid-template-columns.md) явные колонки
   - [`grid-template-rows`](./Grid/grid-template-rows.md) явные строки
+  - [`grid-template-areas`](./Grid/grid-template-areas.md) грид-области
+- [`grid-auto-flow`](./Grid/grid-auto-flow.md) поток элементов
+- [`grid-auto-columns`](./Grid/grid-auto-columns.md) неявные колонки
+- [`grid-auto-rows`](./Grid/grid-auto-rows.md) неявные строки
+- [`gap`](./Grid/gap.md) отступы
+  - [`row-gap`](./Grid/row-gap.md) отступы между строками
+  - [`column-gap`](./Grid/column-gap.md) отступы между колонками
 - [`place-content`](./Grid/place-content.md) выравнивание элементов
   - [`align-content`](./Grid/align-content.md) выравнивание элементов по вертикали
   - [`justify-content`](./Grid/justify-content.md) выравнивание элементов по горизонтали
@@ -161,7 +161,6 @@
 
 ### [grid-item](#)
 
-- [`grid-area`](./Grid/grid-area.md) название грид-области
 - [`grid-column`](./Grid/grid-column.md) расположение элемента по горизонтали
   - [`grid-column-start`](./Grid/grid-column-start.md) начало элемента по горизонтали
   - [`grid-column-end`](./Grid/grid-column-end.md) конец элемента по горизонтали
@@ -172,6 +171,7 @@
 - [`place-self`](./Grid/place-self.md) выравнивание контента внутри ячейки
   - [`align-self`](./Grid/align-self.md) выравнивание контента внутри ячейки по вертикали
   - [`justify-self`](./Grid/justify-self.md) выравнивание контента внутри ячейки по горизонтали
+- [`grid-area`](./Grid/grid-area.md) название грид-области
 
 ## [Styles](#)
 
