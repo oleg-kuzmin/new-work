@@ -1,6 +1,6 @@
 # [Глава 1. О React и Next](../index.md)
 
-[⇽ назад](./Introduction.md) | [вперед ⇾](<./Chapter 2. Rendering User Interfaces (UI).md>)
+[⇽ назад](<./Chapter 0. Introduction.md>) | [вперед ⇾](<./Chapter 2. Rendering User Interfaces (UI).md>)
 
 - [Строительные блоки веб-приложения](#строительные-блоки-веб-приложения)
 - [Что такое React?](#что-такое-react)
