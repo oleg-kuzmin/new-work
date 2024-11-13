@@ -1,5 +1,7 @@
 # [Глава 4. Начало работы с React](../index.md)
 
+[⇽ назад](<./Chapter 3. Updating UI with Javascript.md>) | [вперед ⇾](<./Chapter 5. Building UI with Components.md>)
+
 - [Что такое JSX?](#что-такое-jsx)
 - [Добавление Babel в ваш проект](#добавление-babel-в-ваш-проект)
 - [Дополнительные ресурсы](#дополнительные-ресурсы)

@@ -12,3 +12,4 @@
 - [Глава 3. Обновление UI с помощью Javascript](<./Learn React Foundations/Chapter 3. Updating UI with Javascript.md>)
 - [Глава 4. Начало работы с React](<./Learn React Foundations/Chapter 4. Getting Started with React.md>)
 - [Глава 5. Создание UI с использованием компонентов](<./Learn React Foundations/Chapter 5. Building UI with Components.md>)
+- [Глава 6. Отображение данных с помощью реквизитов](<./Learn React Foundations/Chapter 6. Displaying Data with Props.md>)
