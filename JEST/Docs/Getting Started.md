@@ -188,7 +188,7 @@ describe('sum module', () => {
 npm install --save-dev @types/jest
 ```
 
-**Примечание:** `@types/jest` - это сторонняя библиотека, поддерживаемая [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest), поэтому последние функции или версии Jest могут быть еще не доступны. Постарайтесь максимально точно сопоставить версии Jest и `@types/jest`. Например, если вы используете Jest 27.4.0, то идеальным вариантом будет установка 27.4.x из `@types/jest`.
+> **Примечание:** `@types/jest` - это сторонняя библиотека, поддерживаемая [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jest), поэтому последние функции или версии Jest могут быть еще не доступны. Постарайтесь максимально точно сопоставить версии Jest и `@types/jest`. Например, если вы используете Jest 27.4.0, то идеальным вариантом будет установка 27.4.x из `@types/jest`.
 
 ### Использование ESLint
 
