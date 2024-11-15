@@ -22,6 +22,7 @@
   #### Функции сопоставления
 
   - [.toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений
+  - [.toBeNaN()](./Api/Expect/.toBeNaN.md) проверяет на NaN
   - [.toBeUndefined()](./Api/Expect/.toBeUndefined.md) проверяет на undefined
   - [.toContain(item)](./Api/Expect/.toContain.md) проверяет находится ли элемент в строке, массиве, Set, NodeList, HTMLCollection
   - [.toEqual(value)](./Api/Expect/.toEqual.md) сравнение всех свойств объектов
