@@ -14,5 +14,5 @@
 ### [Expect](#)
 
 - [expect(value)](./Api/Expect/expect.md) предоставляет доступ к функциям сопоставления
-  - [toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений, использует `Object.is`
-  - [toEqual(value)](./Api/Expect/.toEqual.md) 
+  - [.toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений
+  - [.toEqual(value)](./Api/Expect/.toEqual.md) сравнение всех свойств объектов
