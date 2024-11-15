@@ -15,4 +15,5 @@
 
 - [expect(value)](./Api/Expect/expect.md) предоставляет доступ к функциям сопоставления
   - [.toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений
+  - [.toHaveLength(value)](./Api/Expect/.toHaveLength.md) проверка наличия свойства length и его числового значения
   - [.toEqual(value)](./Api/Expect/.toEqual.md) сравнение всех свойств объектов
