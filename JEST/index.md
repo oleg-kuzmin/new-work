@@ -23,10 +23,10 @@
 
   - [.toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений
   - [.toBeDefined()](./Api/Expect/.toBeDefined.md) проверяет на отсутствие undefined
-  - [.toBeFalsy()](./Api/Expect/.toBeFalsy.md) проверяет на false
+  - [.toBeFalsy()](./Api/Expect/.toBeFalsy.md) проверяет на логическое false
   - [.toBeNaN()](./Api/Expect/.toBeNaN.md) проверяет на NaN
   - [.toBeNull()](./Api/Expect/.toBeNull.md) проверяет на null
-  - [.toBeTruthy()](./Api/Expect/.toBeTruthy.md) проверяет на true
+  - [.toBeTruthy()](./Api/Expect/.toBeTruthy.md) проверяет на логическое true
   - [.toBeUndefined()](./Api/Expect/.toBeUndefined.md) проверяет на undefined
   - [.toContain(item)](./Api/Expect/.toContain.md) проверяет находится ли элемент в строке, массиве, Set, NodeList, HTMLCollection
   - [.toEqual(value)](./Api/Expect/.toEqual.md) сравнение всех свойств объектов
