@@ -1,6 +1,6 @@
 # [Начало работы](../index.md)
 
-https://jestjs.io/docs/getting-started
+[Документация](https://jestjs.io/docs/getting-started)
 
 Установите Jest с помощью вашего любимого менеджера пакетов:
 

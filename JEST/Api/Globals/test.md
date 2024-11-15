@@ -1,6 +1,6 @@
 # [`test(name, fn, timeout)`](../../index.md)
 
-https://jestjs.io/docs/api#testname-fn-timeout
+[Документация](https://jestjs.io/docs/api#testname-fn-timeout)
 
 Также под псевдонимом: `it(имя, fn, тайм-аут)`
 
