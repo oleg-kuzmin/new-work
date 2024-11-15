@@ -22,6 +22,7 @@
   #### Функции сопоставления
 
   - [.toBe(value)](./Api/Expect/.toBe.md) сравнение примитивных значений
+  - [.toBeDefined()](./Api/Expect/.toBeDefined.md) проверяет на отсутствие undefined
   - [.toBeFalsy()](./Api/Expect/.toBeFalsy.md) проверяет на false
   - [.toBeNaN()](./Api/Expect/.toBeNaN.md) проверяет на NaN
   - [.toBeNull()](./Api/Expect/.toBeNull.md) проверяет на null
