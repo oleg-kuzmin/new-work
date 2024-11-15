@@ -1,6 +1,6 @@
 # [`describe(name, fn)`](../../index.md)
 
-[Документация](https://jestjs.io/docs/api#describename-fn)
+- [Документация](https://jestjs.io/docs/api#describename-fn)
 
 `describe(name, fn)` создает блок, который объединяет несколько связанных тестов. Например, если у вас есть объект `myBeverage`, который должен быть вкусным, но не кислым, вы можете протестировать его с помощью:
 
