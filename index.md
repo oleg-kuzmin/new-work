@@ -1,6 +1,5 @@
 # Оглавление
 
-- [DOCUMENTATION](./DOCUMENTATION/index.md)
 - [HTML](./HTML/index.md) / [CSS](./CSS/index.md)
 - [JAVASCRIPT](./JAVASCRIPT/index.md) / [TYPESCRIPT](./TYPESCRIPT/index.md)
 - [GIT](./GIT/index.md) / [GITBASH](./GITBASH/index.md)
