@@ -295,7 +295,7 @@
   - [`.toISOString()`](./Date/.toISOString.md) преобразует в строку формате "iso"
   - [`.toLocaleDateString()`](./Date/.toLocaleDateString.md) преобразует в строку различных форматов
   - [`.toLocaleTimeString()`](./Date/.toLocaleTimeString.md) преобразует в строку в формате "часы:минуты:секунды"
-  - [`.toString()`](./Date/.toString) преобразует в строку в формате "день-недели месяц число год часы:минуты:секунды GMT"
+  - [`.toString()`](./Date/.toString.md) преобразует в строку в формате "день-недели месяц число год часы:минуты:секунды GMT"
   - [`.toUTCString()`](./Date/.toUTCString.md) преобразует в строку в формате UTC
 
 ## [Map](#)
