@@ -361,7 +361,7 @@
 - [`.href`](./Element/.href.md) атрибут href
 - [`.htmlFor`](./Element/.htmlFor.md) атрибут for
 - [`.id`](./Element/.id.md) атрибут id
-- [`.removeAttribute()`](./Element/elment.removeAttribute.md) удаляет атрибут
+- [`.removeAttribute()`](./Element/.removeAttribute.md) удаляет атрибут
 - [`.setAttribute()`](./Element/.setAttribute.md) устанавливает атрибут
 - [`.style`](./Element/.style.md) объект с атрибутом style
   - [`.style.setProperty()`](./Element/.style.setProperty.md) устанавливает стиль
