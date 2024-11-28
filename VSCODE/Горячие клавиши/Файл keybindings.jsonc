@@ -50,6 +50,19 @@
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   },
 
+  //# Ctrl + с
+  {
+    // Копировать (Удаление)
+    "key": "ctrl+c",
+    "command": "-editor.action.clipboardCopyAction"
+  },
+  {
+    // Копировать
+    "key": "ctrl+c",
+    "command": "macros.copyWithoutNewLine",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+
   //# Ctrl + / (numpad)
   {
     // Закомментировать или раскомментировать строку (Удаление)
