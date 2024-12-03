@@ -202,8 +202,6 @@
 - [`.split()`](./String/.split.md) преобразует в массив, можно использовать regexp
 - [`.startsWith()`](./String/.startsWith.md) сравнивает начало строки с аргументом
 - [`.substring()`](./String/.substring.md) копирует часть строки
-- [`.toLowerCase()`](./String/.toLowerCase.md) приводит к нижнему регистру
-- [`.toUpperCase()`](./String/.toUpperCase.md) приводит к верхнему регистр
 - [`.trim()`](./String/.trim.md) очистка от пробелов
 - [`new String()`](<./String/new String.md>) создает объект String
 - [`String()`](./String/String.md) преобразует в строку
