@@ -17,6 +17,7 @@ git config --global user.name "Oleg Kuzmin"
 
 # Установка почты.
 git config --global user.email info@oleg-kuzmin.ru
+git config --global user.email oleg.kuzmin@simpleone.ru
 
 # Проверка всех свойств конфига.
 git config --list
