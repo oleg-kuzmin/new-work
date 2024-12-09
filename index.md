@@ -8,3 +8,5 @@
 - [VITE](./VITE/index.md) / [NEXT](./NEXT/index.md)
 - [BACKEND](./BACKEND/index.md) / [NODE](./NODE/index.md)
 - [SOLUTIONS](./SOLUTIONS/index.md) / [TASKS](./TASKS/index.md)
+
+тестовый коммит
