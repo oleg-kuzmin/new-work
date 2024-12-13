@@ -190,7 +190,6 @@
 - [`.charAt()`](./String/.charAt.md) получение ключа по индексу
 - [`.endsWith()`](./String/.endsWith.md) сравнивает конец строки с аргументом
 - [`.includes()`](./String/.includes.md) проверяет наличие в строке аргумента
-- [`.indexOf()`](./String/.indexOf.md) поиск индекса переданного аргумента
 - [`.length`](./String/.length.md) длина строки
 - [`.localeCompare()`](./String/.localeCompare.md) сравнивает две строки
 - [`.match()`](./String/.match.md) поиск всех совпадений по regexp
